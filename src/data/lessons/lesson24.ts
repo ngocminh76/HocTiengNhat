@@ -245,8 +245,220 @@ const lesson: NihongoLesson = {
       }
     }
   ],
+  "grammar": [
+    {
+      "title": "Ai đó CHO TÔI cái gì: ～くれます",
+      "structure": "Người tặng が/は + (わたしに) + Danh từ を + くれます",
+      "usage": "Dùng thay cho 'あげます' khi NGƯỜI NHẬN là TÔI hoặc thành viên trong gia đình tôi. Từ 'わたしに' thường được lược bỏ vì mặc định là cho tôi.",
+      "examples": [
+        {
+          "jp": "たなかさんは (わたしに) はなを くれました。",
+          "romaji": "tanaka san wa (watashi ni) hana o kuremashita.",
+          "vn": "Anh Tanaka đã tặng hoa CHO TÔI."
+        },
+        {
+          "jp": "ちちは いもうとに ほんを くれました。",
+          "romaji": "chichi wa imouto ni hon o kuremashita.",
+          "vn": "Bố đã cho em gái tôi quyển sách. (Người nhận là người nhà)"
+        }
+      ]
+    },
+    {
+      "title": "Làm gì đó CHO người khác: ～て あげます",
+      "structure": "わたしは + Người nhận に + Vて あげます",
+      "usage": "Diễn tả việc mình (hoặc ai đó) làm một hành động có ích CHO người khác. *Lưu ý: TRÁNH dùng trực tiếp với người lớn tuổi/cấp trên vì dễ mang sắc thái kẻ cả, khoe khoang công trạng.",
+      "examples": [
+        {
+          "jp": "わたしは やまださんに ほんを かして あげました。",
+          "romaji": "watashi wa yamada san ni hon o kashite agemashita.",
+          "vn": "Tôi đã cho anh Yamada mượn sách."
+        },
+        {
+          "jp": "わたしは ともだちに かさを かって あげました。",
+          "romaji": "watashi wa tomodachi ni kasa o katte agemashita.",
+          "vn": "Tôi đã mua ô cho bạn."
+        }
+      ]
+    },
+    {
+      "title": "ĐƯỢC ai đó làm gì cho: ～て もらいます",
+      "structure": "わたしは + Người làm giúp に + Vて もらいます",
+      "usage": "Chủ ngữ luôn là TÔI. Diễn tả việc mình nhận được sự giúp đỡ từ ai đó, mang hàm ý biết ơn. Người thực hiện hành động đi với trợ từ に (hoặc から).",
+      "examples": [
+        {
+          "jp": "わたしは すずきさんに にほんごを おしえて もらいました。",
+          "romaji": "watashi wa suzuki san ni nihongo o oshiete moraimashita.",
+          "vn": "Tôi ĐƯỢC anh Suzuki dạy tiếng Nhật cho."
+        },
+        {
+          "jp": "わたしは たなかさんに びょういんへ つれていって もらいました。",
+          "romaji": "watashi wa tanaka san ni byouin e tsureteitte moraimashita.",
+          "vn": "Tôi ĐƯỢC anh Tanaka dẫn đến bệnh viện."
+        }
+      ]
+    },
+    {
+      "title": "Ai đó làm gì CHO TÔI: ～て くれます",
+      "structure": "Người làm giúp が/は + (わたしに) + Vて くれます",
+      "usage": "Chủ ngữ là NGƯỜI THỰC HIỆN hành động. Ý nghĩa giống với 'てもらう' nhưng nhấn mạnh vào lòng tốt của người đã làm việc đó cho mình.",
+      "examples": [
+        {
+          "jp": "すずきさんが にほんごを おしえて くれました。",
+          "romaji": "suzuki san ga nihongo o oshiete kuremashita.",
+          "vn": "Anh Suzuki đã dạy tiếng Nhật CHO TÔI."
+        },
+        {
+          "jp": "ははが セーターを おくって くれました。",
+          "romaji": "haha ga seetaa o okutte kuremashita.",
+          "vn": "Mẹ đã gửi áo len CHO TÔI."
+        }
+      ]
+    }
+  ],
+  "grammarExercises": [
+    {
+      "question": "やまださんは わたし（　　）ほんを くれました。",
+      "options": ["に", "を", "が", "は"],
+      "answer": "に",
+      "vn": "Anh Yamada đã tặng sách cho tôi.",
+      "explanation": "Người nhận (tôi) đi với trợ từ に."
+    },
+    {
+      "question": "わたしは たなかさんに じしょを かして（　　）。",
+      "options": ["あげました", "もらいました", "くれました", "きました"],
+      "answer": "あげました",
+      "vn": "Tôi đã cho anh Tanaka mượn từ điển.",
+      "explanation": "Chủ ngữ là TÔI làm việc gì đó CHO NGƯỜI KHÁC -> dùng Vて あげます."
+    },
+    {
+      "question": "わたしは きむらさんに しゃしんを とって（　　）。",
+      "options": ["もらいました", "くれました", "あげました", "しました"],
+      "answer": "もらいました",
+      "vn": "Tôi ĐƯỢC anh Kimura chụp ảnh cho.",
+      "explanation": "Chủ ngữ là TÔI, nhận hành động từ người khác -> Vて もらいます."
+    },
+    {
+      "question": "きむらさんが しゃしんを とって（　　）。",
+      "options": ["くれました", "もらいました", "あげました", "いました"],
+      "answer": "くれました",
+      "vn": "Anh Kimura đã chụp ảnh CHO TÔI.",
+      "explanation": "Chủ ngữ là người khác (Kimura), làm việc gì đó CHO TÔI -> Vて くれます."
+    },
+    {
+      "question": "たろうくんは わたしに あめを（　　）。",
+      "options": ["くれました", "あげました", "もらいました", "しました"],
+      "answer": "くれました",
+      "vn": "Bé Taro đã cho tôi kẹo.",
+      "explanation": "Hành động cho TÔI đồ vật -> dùng くれます (không dùng あげます)."
+    },
+    {
+      "question": "わたしは サントスさんに えきへの みちを おしえて（　　）。",
+      "options": ["あげました", "もらいました", "くれました", "いきました"],
+      "answer": "あげました",
+      "vn": "Tôi đã chỉ đường ra ga cho anh Santos.",
+      "explanation": "Tôi làm việc tốt cho người khác -> Vて あげます."
+    },
+    {
+      "question": "（　　）は ワンさんに ちゅうごくごを おしえて もらいました。",
+      "options": ["わたし", "ワンさん", "たなかさん", "やまださん"],
+      "answer": "わたし",
+      "vn": "TÔI được anh Wang dạy tiếng Trung cho.",
+      "explanation": "Động từ là もらいます (Được nhận) thì chủ ngữ luôn là TÔI (わたしは)."
+    },
+    {
+      "question": "ワンさん（　　）ちゅうごくごを おしえて くれました。",
+      "options": ["が", "に", "を", "へ"],
+      "answer": "が",
+      "vn": "Anh Wang ĐÃ dạy tiếng Trung cho tôi.",
+      "explanation": "Với くれます, người thực hiện hành động làm chủ ngữ, dùng trợ từ が hoặc は."
+    },
+    {
+      "question": "ともだちが とうきょうを あんないして（　　）。",
+      "options": ["くれました", "もらいました", "あげました", "きました"],
+      "answer": "くれました",
+      "vn": "Bạn tôi đã dẫn tôi đi tham quan Tokyo.",
+      "explanation": "Bạn bè làm giúp việc gì đó cho TÔI -> Vて くれます."
+    },
+    {
+      "question": "わたしは せんせいに ほんを（　　）。",
+      "options": ["もらいました", "くれました", "あげました", "てつだいました"],
+      "answer": "もらいました",
+      "vn": "Tôi đã nhận được sách từ giáo viên.",
+      "explanation": "Tôi nhận đồ vật từ người khác -> もらいます."
+    },
+    {
+      "question": "わたしは おばあさんの にもつを もって（　　）。",
+      "options": ["あげました", "くれました", "もらいました", "いきました"],
+      "answer": "あげました",
+      "vn": "Tôi đã mang hành lý giúp bà lão.",
+      "explanation": "Dù không nên dùng với cấp trên, nhưng ở đây có thể hiểu là tự nhủ với bản thân: Tôi đã mang giúp bà."
+    },
+    {
+      "question": "あめが ふっています。たなかさんが かさを かして（　　）。",
+      "options": ["くれました", "もらいました", "あげました", "きました"],
+      "answer": "くれました",
+      "vn": "Trời đang mưa. Anh Tanaka đã cho tôi mượn ô.",
+      "explanation": "Anh Tanaka thực hiện hành động (cho mượn) hướng về phía tôi -> Vて くれます."
+    },
+    {
+      "question": "わたしは カリナさんに（　　）を かって あげました。",
+      "options": ["ケーキ", "びょういん", "えき", "みち"],
+      "answer": "ケーキ",
+      "vn": "Tôi đã mua bánh kem cho Karina.",
+      "explanation": "Mua thì phải mua vật phẩm (ケーキ). Tương tự: Vて あげます."
+    },
+    {
+      "question": "やまださんは わたしの いもうとに おかしを（　　）。",
+      "options": ["くれました", "あげました", "もらいました", "きました"],
+      "answer": "くれました",
+      "vn": "Anh Yamada đã cho em gái tôi bánh kẹo.",
+      "explanation": "Người nhận là gia đình của TÔI -> vẫn dùng くれます."
+    },
+    {
+      "question": "わたしは ともだちに しゅくだいを てつだって（　　）。",
+      "options": ["もらいました", "くれました", "あげました", "しました"],
+      "answer": "もらいました",
+      "vn": "Tôi đã được bạn bè giúp làm bài tập.",
+      "explanation": "Tôi là người được hưởng lợi từ hành động của bạn bè -> Vて もらいます."
+    }
+  ],
   "readings": readings,
   
+  "poem": {
+    "title": "くれます・てあげます",
+    "titleVn": "❤️ Bộ ba Cho - Nhận",
+    "intro": "Tóm tắt Bài 24: Bí quyết phân biệt Ai làm cho ai qua bộ 3 động từ あげます, もらいます và くれます.",
+    "lines": [
+      {
+        "kanji": "私は友達に手伝ってあげました。",
+        "jp": "わたしは ともだちに てつだって あげました。",
+        "romaji": "Watashi wa tomodachi ni tetsudatte agemashita.",
+        "vn": "Tôi ĐÃ LÀM GIÚP cho bạn bè của tôi.",
+        "note": "Tôi chủ động giúp -> てあげます"
+      },
+      {
+        "kanji": "私は友達に手伝ってもらいました。",
+        "jp": "わたしは ともだちに てつだって もらいました。",
+        "romaji": "Watashi wa tomodachi ni tetsudatte moraimashita.",
+        "vn": "Tôi ĐƯỢC bạn bè tới giúp một tay.",
+        "note": "Tôi nhận sự giúp đỡ -> てもらいます"
+      },
+      {
+        "kanji": "友達が私に手伝ってくれました。",
+        "jp": "ともだちが わたしに てつだって くれました。",
+        "romaji": "Tomodachi ga watashi ni tetsudatte kuremashita.",
+        "vn": "Bạn bè tự nguyện ĐÃ LÀM GIÚP tôi.",
+        "note": "Bạn làm giúp tôi -> てくれます"
+      },
+      {
+        "kanji": "くれるは「私に」忘れないでね。",
+        "jp": "くれるは「わたしに」わすれないでね。",
+        "romaji": "Kureru wa 'watashi ni' wasurenaide ne.",
+        "vn": "Nhớ nhé: Kureru luôn hướng về TÔI.",
+        "note": "くれます luôn đi với わたしに"
+      }
+    ]
+  }
 };
 
 export default lesson;
