@@ -417,8 +417,225 @@ const lesson: NihongoLesson = {
       }
     }
   ],
+  "grammar": [
+    {
+      "title": "Mệnh đề thời gian: ～時 (Khi...)",
+      "structure": "Thể thông thường / A(i) / A(na)な / Nの + 時",
+      "usage": "Dùng để nối 2 mệnh đề, diễn tả thời điểm xảy ra trạng thái, động tác. Lưu ý: Tính từ giữ nguyên い/な, Danh từ thêm の.",
+      "examples": [
+        {
+          "jp": "ひまな とき、テレビを みます。",
+          "romaji": "hima na toki, terebi o mimasu.",
+          "vn": "KHI rảnh rỗi, tôi xem TV. (Tính từ na + な)"
+        },
+        {
+          "jp": "こどもの とき、よく かわで およぎました。",
+          "romaji": "kodomo no toki, yoku kawa de oyogimashita.",
+          "vn": "KHI còn nhỏ, tôi thường bơi ở sông. (Danh từ + の)"
+        },
+        {
+          "jp": "ねむい とき、コーヒーを のみます。",
+          "romaji": "nemui toki, koohii o nomimasu.",
+          "vn": "KHI buồn ngủ, tôi uống cà phê. (Tính từ i)"
+        }
+      ]
+    },
+    {
+      "title": "Phân biệt Vる 時 và Vた 時",
+      "structure": "Vる + 時 (Hành động chưa hoàn thành) / Vた + 時 (Hành động đã hoàn thành)",
+      "usage": "Vる 時: Hành động ở vế sau xảy ra TRƯỚC khi hành động V hoàn thành. Vた 時: Hành động ở vế sau xảy ra SAU khi hành động V đã hoàn thành.",
+      "examples": [
+        {
+          "jp": "パリへ いく とき、かばんを かいました。",
+          "romaji": "Pari e iku toki, kaban o kaimashita.",
+          "vn": "Khi đi Paris, tôi đã mua túi xách. (MUA TRƯỚC khi đi/trên đường đi - Vる)"
+        },
+        {
+          "jp": "パリへ いった とき、かばんを かいました。",
+          "romaji": "Pari e itta toki, kaban o kaimashita.",
+          "vn": "Khi đi Paris, tôi đã mua túi xách. (ĐẾN PARIS RỒI mới mua - Vた)"
+        }
+      ]
+    },
+    {
+      "title": "Điều kiện tất yếu: Vる + と (Hễ... thì...)",
+      "structure": "Động từ (Thể từ điển Vる) + と、～",
+      "usage": "Diễn tả một hệ quả TẤT YẾU, hiển nhiên (như máy móc, tự nhiên, chỉ đường). Nếu làm V1 thì CHẮC CHẮN V2 sẽ xảy ra. *Lưu ý: Không dùng với ý chí, nhờ vả, rủ rê ở vế sau.",
+      "examples": [
+        {
+          "jp": "この ボタンを おすと、おつりが でます。",
+          "romaji": "kono botan o osu to, otsuri ga demasu.",
+          "vn": "HỄ bấm nút này THÌ tiền thừa sẽ chạy ra. (Máy móc)"
+        },
+        {
+          "jp": "みぎへ まがると、えきが あります。",
+          "romaji": "migi e magaru to, eki ga arimasu.",
+          "vn": "HỄ rẽ phải THÌ sẽ thấy nhà ga. (Chỉ đường)"
+        }
+      ]
+    },
+    {
+      "title": "Trợ từ を với động từ di chuyển",
+      "structure": "N(Không gian/Địa điểm) + を + Động từ di chuyển (歩く / 渡る / 散歩する)",
+      "usage": "Khi di chuyển (đi bộ, băng qua, dạo quanh) TRONG một không gian, ta dùng trợ từ を (để chỉ đường đi), KHÔNG dùng で (chỉ địa điểm xảy ra hành động tĩnh).",
+      "examples": [
+        {
+          "jp": "こうえんを さんぽします。",
+          "romaji": "kouen o sanposhimasu.",
+          "vn": "Đi dạo (quanh/trong) công viên."
+        },
+        {
+          "jp": "みちを わたります。",
+          "romaji": "michi o watarimasu.",
+          "vn": "Băng qua đường."
+        }
+      ]
+    }
+  ],
+  "grammarExercises": [
+    {
+      "question": "あたまが（　　）とき、くすりを のみます。",
+      "options": ["いたい", "いたいの", "いたな", "いたかった"],
+      "answer": "いたい",
+      "vn": "Khi đau đầu, tôi uống thuốc.",
+      "explanation": "Tính từ đuôi い giữ nguyên khi kết hợp với 時."
+    },
+    {
+      "question": "ひま（　　）とき、えを かきます。",
+      "options": ["な", "の", "だ", "に"],
+      "answer": "な",
+      "vn": "Khi rảnh rỗi, tôi vẽ tranh.",
+      "explanation": "Tính từ đuôi な phải thêm な trước 時."
+    },
+    {
+      "question": "こども（　　）とき、よく かわで およぎました。",
+      "options": ["の", "な", "だ", "に"],
+      "answer": "の",
+      "vn": "Khi còn nhỏ, tôi thường bơi ở sông.",
+      "explanation": "Danh từ (子供) phải thêm の trước 時."
+    },
+    {
+      "question": "かんじが（　　）とき、じしょを つかいます。",
+      "options": ["わからない", "わかりません", "わかって", "わかった"],
+      "answer": "わからない",
+      "vn": "Khi không hiểu chữ Kanji, tôi dùng từ điển.",
+      "explanation": "Trước 時 phải là thể thông thường. 分かりません -> 分からない."
+    },
+    {
+      "question": "にほんへ（　　）とき、かばんを かいました。",
+      "options": ["いく", "いった", "いって", "いきます"],
+      "answer": "いく",
+      "vn": "Khi đi Nhật, tôi đã mua túi xách (mua ở quê nhà trước khi đi).",
+      "explanation": "Hành động mua xảy ra TRƯỚC khi đến Nhật -> Dùng Vる (行く時)."
+    },
+    {
+      "question": "にほんへ（　　）とき、かばんを かいました。",
+      "options": ["いった", "いく", "いって", "いきます"],
+      "answer": "いった",
+      "vn": "Khi đi Nhật, tôi đã mua túi xách (đến Nhật rồi mới mua).",
+      "explanation": "Hành động mua xảy ra SAU khi đã đến Nhật -> Dùng Vた (行った時)."
+    },
+    {
+      "question": "この ボタンを（　　）と、エアコンが つきます。",
+      "options": ["おす", "おして", "おした", "おさない"],
+      "answer": "おす",
+      "vn": "Hễ bấm nút này thì máy lạnh sẽ bật.",
+      "explanation": "Mệnh đề điều kiện tất yếu: Vる + と."
+    },
+    {
+      "question": "みぎへ まがる（　　）、えきが あります。",
+      "options": ["と", "とき", "が", "を"],
+      "answer": "と",
+      "vn": "Hễ rẽ phải thì sẽ thấy nhà ga.",
+      "explanation": "Hệ quả chỉ đường tất yếu: Vる + と."
+    },
+    {
+      "question": "こうえん（　　）さんぽします。",
+      "options": ["を", "に", "で", "へ"],
+      "answer": "を",
+      "vn": "Tôi đi dạo quanh công viên.",
+      "explanation": "Động từ di chuyển (散歩します) trong một không gian dùng trợ từ を."
+    },
+    {
+      "question": "はし（　　）わたります。",
+      "options": ["を", "に", "で", "が"],
+      "answer": "を",
+      "vn": "Tôi đi qua cầu.",
+      "explanation": "Băng qua (渡ります) một địa hình dùng trợ từ を."
+    },
+    {
+      "question": "みち（　　）あるきます。",
+      "options": ["を", "に", "で", "へ"],
+      "answer": "を",
+      "vn": "Tôi đi bộ trên đường.",
+      "explanation": "Đi dọc theo đường (歩きます) dùng trợ từ を."
+    },
+    {
+      "question": "つまみを みぎへ（　　）と、おとが おおきく なります。",
+      "options": ["まわす", "まわして", "まわした", "まわします"],
+      "answer": "まわす",
+      "vn": "Hễ vặn núm sang phải thì âm thanh sẽ to lên.",
+      "explanation": "Hệ quả tất yếu của máy móc: Vる (回す) + と."
+    },
+    {
+      "question": "ねむい とき、コーヒーを（　　）。",
+      "options": ["のみます", "のんで", "のむ", "のんだ"],
+      "answer": "のみます",
+      "vn": "Khi buồn ngủ, tôi uống cà phê.",
+      "explanation": "Vế chính của câu vẫn chia thì bình thường (hiện tại/thói quen -> 飲みます)."
+    },
+    {
+      "question": "がくせい（　　）とき、よく アルバイトを しました。",
+      "options": ["の", "な", "だ", "に"],
+      "answer": "の",
+      "vn": "Khi còn là sinh viên, tôi thường đi làm thêm.",
+      "explanation": "Danh từ (学生) + の + 時."
+    },
+    {
+      "question": "お金が ない（　　）、ともだちに かります。",
+      "options": ["とき", "と", "が", "を"],
+      "answer": "とき",
+      "vn": "Khi không có tiền, tôi mượn bạn bè.",
+      "explanation": "Thể ない (ない) + 時. Không dùng と vì vế sau mang tính chủ ý cá nhân (Tôi mượn)."
+    }
+  ],
   "readings": readings,
   
+  "poem": {
+    "title": "〜時・〜と",
+    "titleVn": "❤️ Khi & Hễ... thì",
+    "intro": "Tóm tắt Bài 23: Cách nói 'Khi...' (Thời gian) và 'Hễ... thì...' (Điều kiện tất yếu của máy móc, chỉ đường).",
+    "lines": [
+      {
+        "kanji": "暇な時、テレビを見ます。",
+        "jp": "ひまな とき、テレビを みます。",
+        "romaji": "Hima na toki, terebi o mimasu.",
+        "vn": "KHI rảnh rỗi, tôi ngồi xem ti vi.",
+        "note": "A(na)な + 時"
+      },
+      {
+        "kanji": "子供の時、川で泳ぎました。",
+        "jp": "こどもの とき、かわで およぎました。",
+        "romaji": "Kodomo no toki, kawa de oyogimashita.",
+        "vn": "KHI còn nhỏ, tôi thường hay tắm sông.",
+        "note": "Nの + 時"
+      },
+      {
+        "kanji": "このボタンを押すと、水が出ます。",
+        "jp": "この ボタンを おすと、みずが でます。",
+        "romaji": "Kono botan o osu to, mizu ga demasu.",
+        "vn": "HỄ bấm nút này THÌ nước sẽ tuôn ra.",
+        "note": "Vる + と (Tất yếu)"
+      },
+      {
+        "kanji": "公園を散歩します。",
+        "jp": "こうえんを さんぽします。",
+        "romaji": "Kouen o sanposhimasu.",
+        "vn": "Tôi đi dạo BĂNG QUA trong công viên.",
+        "note": "N(nơi chốn) を Đi bộ/băng qua"
+      }
+    ]
+  }
 };
 
 export default lesson;
