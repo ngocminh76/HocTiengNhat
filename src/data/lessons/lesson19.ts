@@ -331,8 +331,230 @@ const lesson: NihongoLesson = {
       "type": "Danh từ"
     }
   ],
+  "grammar": [
+    {
+      "title": "Cách chia Thể Quá Khứ Ngắn (た形)",
+      "structure": "Cách chia giống hệt Thể Te (て形), chỉ việc thay て/で bằng た/だ.",
+      "usage": "Nhóm 1: い、ち、り -> った / み、び、に -> んだ / き -> いた / ぎ -> いだ / し -> した. (Ngoại lệ: 行きます -> 行った). Nhóm 2: Bỏ ます thêm た. Nhóm 3: します -> した, きます -> きた.",
+      "examples": [
+        {
+          "jp": "かきます -> かいた / のみます -> のんだ / いそぎます -> いそいだ",
+          "romaji": "kakimasu -> kaita / nomimasu -> nonda / isogimasu -> isoida",
+          "vn": "Nhóm 1: Đã viết / Đã uống / Đã vội"
+        },
+        {
+          "jp": "たべます -> たべた / みます -> みた",
+          "romaji": "tabemasu -> tabeta / mimasu -> mita",
+          "vn": "Nhóm 2: Đã ăn / Đã xem"
+        },
+        {
+          "jp": "べんきょうします -> べんきょうした / きます -> きた",
+          "romaji": "benkyoushimasu -> benkyoushita / kimasu -> kita",
+          "vn": "Nhóm 3: Đã học / Đã đến"
+        }
+      ]
+    },
+    {
+      "title": "Kinh nghiệm (Đã từng làm gì): Vた ことが あります",
+      "structure": "Động từ thể た + ことが あります",
+      "usage": "Dùng để kể về một trải nghiệm, kinh nghiệm trong quá khứ (đã từng làm việc gì đó). Lưu ý: Dùng để nói về trải nghiệm hiếm khi xảy ra hoặc cách thời điểm nói khá xa, không dùng cho những việc xảy ra hàng ngày (như ăn cơm, tắm rửa).",
+      "examples": [
+        {
+          "jp": "うまに のったことが あります。",
+          "romaji": "uma ni notta koto ga arimasu.",
+          "vn": "Tôi đã từng cưỡi ngựa."
+        },
+        {
+          "jp": "にほんへ いったことが ありません。",
+          "romaji": "nihon e itta koto ga arimasen.",
+          "vn": "Tôi chưa từng đi Nhật Bản."
+        }
+      ]
+    },
+    {
+      "title": "Liệt kê hành động (Làm việc A, làm việc B): Vたり、Vたり します",
+      "structure": "V1た + り、V2た + り します",
+      "usage": "Dùng để liệt kê một vài hành động tiêu biểu trong số nhiều hành động đã làm, không phân biệt trình tự thời gian (khác với Vて、Vて là phải theo trình tự). Thì của cả câu được quyết định bởi động từ します (Làm) ở cuối câu.",
+      "examples": [
+        {
+          "jp": "にちようびは ほんを よんだり、えいがを みたり します。",
+          "romaji": "nichiyoubi wa hon o yondari, eiga o mitari shimasu.",
+          "vn": "Chủ nhật, tôi thường đọc sách, xem phim (và làm nhiều việc khác nữa)."
+        },
+        {
+          "jp": "きのう かいものしたり、おんがくを きいたり しました。",
+          "romaji": "kinou kaimonoshitari, ongaku o kiitari shimashita.",
+          "vn": "Hôm qua tôi đã đi mua sắm, nghe nhạc... (Thì quá khứ do しました quyết định)."
+        }
+      ]
+    },
+    {
+      "title": "Trở nên, trở thành: ～なります",
+      "structure": "Tính từ (i) -> く + なります / Tính từ (na) & Danh từ -> に + なります",
+      "usage": "Dùng để diễn tả sự thay đổi trạng thái hoặc tính chất. Dịch là: Trở nên / Trở thành...",
+      "examples": [
+        {
+          "jp": "さむく なりました。",
+          "romaji": "samuku narimashita.",
+          "vn": "Trời đã trở nên lạnh. (Tính từ i: さむい -> さむく)"
+        },
+        {
+          "jp": "げんきに なりました。",
+          "romaji": "genki ni narimashita.",
+          "vn": "Đã trở nên khỏe mạnh. (Tính từ na: げんき -> げんきに)"
+        },
+        {
+          "jp": "２５さいに なります。",
+          "romaji": "nijugo sai ni narimasu.",
+          "vn": "Sắp sang tuổi 25. (Danh từ tuổi tác: ２５さい -> ２５さいに)"
+        }
+      ]
+    }
+  ],
+  "grammarExercises": [
+    {
+      "question": "きのうの ばん、てがみを（　　）たり、おんがくを きいたり しました。",
+      "options": ["かい", "かく", "かいて", "かいた"],
+      "answer": "かいた",
+      "vn": "Tối qua tôi viết thư, nghe nhạc...",
+      "explanation": "Cấu trúc Vたり、Vたり します yêu cầu động từ ở Thể た. 書きます -> 書いた -> 書いたり."
+    },
+    {
+      "question": "A：すしを（　　）ことが ありますか。 ...B：はい、あります。",
+      "options": ["たべる", "たべて", "たべた", "たべない"],
+      "answer": "たべた",
+      "vn": "A: Bạn đã từng ăn sushi chưa? ...B: Vâng, tôi đã từng.",
+      "explanation": "Đã từng làm gì: Vた + ことがあります. 食べます -> 食べた."
+    },
+    {
+      "question": "だんだん あつ（　　）なりますね。",
+      "options": ["く", "に", "で", "と"],
+      "answer": "く",
+      "vn": "Trời đang dần trở nên nóng nhỉ.",
+      "explanation": "Tính từ đuôi い (暑い) + なります thì bỏ い thêm く -> 暑く."
+    },
+    {
+      "question": "わたしは らいねん ２０さい（　　）なります。",
+      "options": ["に", "く", "で", "は"],
+      "answer": "に",
+      "vn": "Năm sau tôi sẽ bước sang tuổi 20.",
+      "explanation": "Danh từ (20歳) + なります thì thêm trợ từ に -> 20歳に なります."
+    },
+    {
+      "question": "「のみます」(Uống) の た形 は なにですか。",
+      "options": ["のんだ", "のんた", "のみた", "のった"],
+      "answer": "のんだ",
+      "vn": "Thể た của \"Nomimasu\" là gì?",
+      "explanation": "Nhóm 1: Đuôi み -> んだ. 飲みます -> 飲んだ."
+    },
+    {
+      "question": "「いきます」(Đi) の た形 は なにですか。",
+      "options": ["いった", "いだ", "いた", "いって"],
+      "answer": "いった",
+      "vn": "Thể た của \"Ikimasu\" là gì?",
+      "explanation": "Đi là động từ nhóm 1 bất quy tắc: 行きます -> 行った."
+    },
+    {
+      "question": "にちようびは そうじし（　　）、せんたくし（　　）します。",
+      "options": ["て/て", "たり/たり", "た/た", "る/る"],
+      "answer": "たり/たり",
+      "vn": "Chủ nhật tôi dọn dẹp, giặt giũ...",
+      "explanation": "Liệt kê hành động tiêu biểu không theo trình tự: Vたり、Vたり します."
+    },
+    {
+      "question": "にほんへ（　　）ことが ありません。",
+      "options": ["いく", "いって", "いった", "いかない"],
+      "answer": "いった",
+      "vn": "Tôi chưa từng đi Nhật Bản.",
+      "explanation": "Chưa từng làm gì: Vた + ことがありません. 行きます -> 行った."
+    },
+    {
+      "question": "びょうきが（　　）なりました。",
+      "options": ["よく", "いいに", "いいく", "よいに"],
+      "answer": "よく",
+      "vn": "Bệnh tình đã trở nên tốt hơn.",
+      "explanation": "Tính từ いい (Tốt) có cách chia đặc biệt giống よい. Bỏ い thêm く -> よく + なります."
+    },
+    {
+      "question": "「あそびます」(Chơi) の た形 は なにですか。",
+      "options": ["あそんだ", "あそんた", "あそった", "あそいた"],
+      "answer": "あそんだ",
+      "vn": "Thể た của \"Asobimasu\" là gì?",
+      "explanation": "Nhóm 1: Đuôi び -> んだ. 遊びます -> 遊んだ."
+    },
+    {
+      "question": "まちが きれい（　　）なりました。",
+      "options": ["に", "く", "で", "な"],
+      "answer": "に",
+      "vn": "Thành phố đã trở nên sạch đẹp.",
+      "explanation": "きれい là Tính từ đuôi な. Thêm に + なります -> きれいに なりました."
+    },
+    {
+      "question": "きのうの ばん、テレビを（　　）たり、ほんを よんだり（　　）。",
+      "options": ["み/します", "みた/します", "みて/しました", "みた/しました"],
+      "answer": "みた/しました",
+      "vn": "Tối qua tôi xem tivi, đọc sách...",
+      "explanation": "Mẫu câu Vたり、Vたり します. Quá khứ (きのう) nên します chuyển thành しました. 見ます -> 見た."
+    },
+    {
+      "question": "「きます」(Đến) の た形 は なにですか。",
+      "options": ["きた", "きった", "きだ", "くる"],
+      "answer": "きた",
+      "vn": "Thể た của \"Kimasu\" là gì?",
+      "explanation": "Nhóm 3 đặc biệt: 来ます (Kimasu) -> 来た (Kita)."
+    },
+    {
+      "question": "パチンコを（　　）ことが ありますか。",
+      "options": ["した", "する", "して", "します"],
+      "answer": "した",
+      "vn": "Bạn đã từng chơi Pachinko chưa?",
+      "explanation": "します -> した + ことがあります."
+    },
+    {
+      "question": "カメラが やす（　　）なりました。",
+      "options": ["く", "に", "で", "な"],
+      "answer": "く",
+      "vn": "Máy ảnh đã trở nên rẻ hơn.",
+      "explanation": "安い (Rẻ - Tính từ i) -> 安く なりました."
+    }
+  ],
   "readings": readings,
   
+  "poem": {
+    "title": "た形・ことがあります",
+    "titleVn": "❤️ Trải nghiệm & Trở nên",
+    "intro": "Tóm tắt Bài 19: Thể quá khứ (Ta-kei), cách kể về trải nghiệm đã từng làm, liệt kê hành động lộn xộn và sự thay đổi trạng thái (Trở nên).",
+    "lines": [
+      {
+        "kanji": "富士山に登ったことがあります。",
+        "jp": "ふじさんに のぼった ことが あります。",
+        "romaji": "Fujisan ni nobotta koto ga arimasu.",
+        "vn": "Tôi đã từng leo núi Phú Sĩ.",
+        "note": "Vたことがあります"
+      },
+      {
+        "kanji": "休みの日は読んだり、見たりします。",
+        "jp": "やすみの ひは よんだり、みたり します。",
+        "romaji": "Yasumi no hi wa yondari, mitari shimasu.",
+        "vn": "Ngày nghỉ tôi đọc sách, xem phim.",
+        "note": "Vたり、Vたりします"
+      },
+      {
+        "kanji": "天気が寒くなりました。",
+        "jp": "てんきが さむく なりました。",
+        "romaji": "Tenki ga samuku narimashita.",
+        "vn": "Thời tiết đã trở nên lạnh giá.",
+        "note": "A(i)く なります"
+      },
+      {
+        "kanji": "町が綺麗になりました。",
+        "jp": "まちが きれいに なりました。",
+        "romaji": "Machi ga kirei ni narimashita.",
+        "vn": "Thành phố đã trở nên xinh đẹp.",
+        "note": "A(na)/N に なります"
+      }
+    ]
+  }
 };
 
 export default lesson;
