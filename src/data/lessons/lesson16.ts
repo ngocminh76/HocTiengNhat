@@ -481,8 +481,225 @@ const lesson: NihongoLesson = {
       "type": "Danh từ"
     }
   ],
+  "grammar": [
+    {
+      "title": "Nối tiếp hành động: V1て、V2て",
+      "structure": "Động từ 1 (thể Te) + て、Động từ 2...",
+      "usage": "Dùng để liệt kê các hành động xảy ra liên tiếp theo trình tự thời gian. Thì của cả câu được quyết định bởi động từ cuối cùng.",
+      "examples": [
+        {
+          "jp": "あさ おきて、あさごはんを たべて、かいしゃへ いきます。",
+          "romaji": "asa okite, asagohan o tabete, kaisha e ikimasu.",
+          "vn": "Buổi sáng tôi thức dậy, ăn sáng, rồi đi đến công ty."
+        },
+        {
+          "jp": "きのう しんじゅくへ いって、えいがを みて、おちゃを のみました。",
+          "romaji": "kinou Shinjuku e itte, eiga o mite, ocha o nomimashita.",
+          "vn": "Hôm qua tôi đi Shinjuku, xem phim, rồi uống trà."
+        }
+      ]
+    },
+    {
+      "title": "Sau khi làm V1 thì làm V2: Vてから",
+      "structure": "Động từ 1 (thể Te) + から、Động từ 2",
+      "usage": "Nhấn mạnh việc hành động V1 phải kết thúc rồi mới đến hành động V2. Ý nghĩa: 'Sau khi làm V1 thì làm V2'.",
+      "examples": [
+        {
+          "jp": "くにへ かえってから、ちちの かいしゃで はたらきます。",
+          "romaji": "kuni e kaette kara, chichi no kaisha de hatarakimasu.",
+          "vn": "Sau khi về nước, tôi sẽ làm việc ở công ty của bố."
+        },
+        {
+          "jp": "コンサートが おわってから、レストランで しょくじしました。",
+          "romaji": "konsaato ga owatte kara, resutoran de shokujishimashita.",
+          "vn": "Sau khi buổi hòa nhạc kết thúc, chúng tôi đã đi ăn ở nhà hàng."
+        }
+      ]
+    },
+    {
+      "title": "Nối các Tính từ và Danh từ",
+      "structure": "Tính từ (i) -> くて / Tính từ (na) -> で / Danh từ -> で",
+      "usage": "Dùng để nối các câu miêu tả có cùng tính chất (cùng khen hoặc cùng chê). Tính từ đuôi [i] bỏ [i] thêm [kute]. Tính từ đuôi [na] bỏ [na] thêm [de]. Danh từ thêm [de]. *Lưu ý: いい (Tốt) chuyển thành よくて.",
+      "examples": [
+        {
+          "jp": "おおきくて、あかるい",
+          "romaji": "ookikute, akarui",
+          "vn": "Rộng và sáng (Nối 2 tính từ đuôi i: 大きい -> 大きくて)"
+        },
+        {
+          "jp": "きれいで、しずか",
+          "romaji": "kirei de, shizuka",
+          "vn": "Đẹp và yên tĩnh (Nối tính từ đuôi na: きれい -> きれいで)"
+        },
+        {
+          "jp": "カリナさんは がくせいで、マリアさんは しゅふです。",
+          "romaji": "Karina san wa gakusei de, Maria san wa shufu desu.",
+          "vn": "Chị Karina là sinh viên, còn chị Maria là nội trợ (Nối danh từ)."
+        }
+      ]
+    },
+    {
+      "title": "Miêu tả chi tiết đặc điểm: N1 は N2 が Tính từ",
+      "structure": "Danh từ 1 は Danh từ 2 が Tính từ",
+      "usage": "Dùng để miêu tả một thuộc tính, một bộ phận (N2) của một chủ thể lớn (N1).",
+      "examples": [
+        {
+          "jp": "おおさかは たべものが おいしいです。",
+          "romaji": "Oosaka wa tabemono ga oishii desu.",
+          "vn": "Osaka thì đồ ăn ngon. (N1: Osaka, N2: Đồ ăn)"
+        },
+        {
+          "jp": "マリアさんは かみが ながいです。",
+          "romaji": "Maria san wa kami ga nagai desu.",
+          "vn": "Chị Maria thì tóc dài. (N1: Maria, N2: Tóc)"
+        }
+      ]
+    }
+  ],
+  "grammarExercises": [
+    {
+      "question": "きのう スーパーへ（　　）、かいものしました。",
+      "options": ["いって", "いきて", "いんで", "いきます"],
+      "answer": "いって",
+      "vn": "Hôm qua tôi đi siêu thị rồi mua sắm.",
+      "explanation": "Nối hành động theo trình tự dùng thể Te. 行きます (nhóm 1 đặc biệt) -> 行って."
+    },
+    {
+      "question": "しごとが おわって（　　）、のみに いきます。",
+      "options": ["から", "まで", "で", "に"],
+      "answer": "から",
+      "vn": "Sau khi công việc kết thúc, tôi đi uống rượu.",
+      "explanation": "Nhấn mạnh sau khi xong việc này mới làm việc kia dùng Vてから."
+    },
+    {
+      "question": "この パソコンは あたらし（　　）、いいです。",
+      "options": ["くて", "で", "くては", "く"],
+      "answer": "くて",
+      "vn": "Cái máy tính này mới và tốt.",
+      "explanation": "Tính từ đuôi い (新しい) nối câu bằng cách bỏ い thêm くて -> 新しくて."
+    },
+    {
+      "question": "わたしの へやは（　　）、あかるいです。",
+      "options": ["きれいで", "きれいくて", "きれいなで", "きれいに"],
+      "answer": "きれいで",
+      "vn": "Phòng của tôi sạch đẹp và sáng sủa.",
+      "explanation": "きれい là tính từ đuôi な đặc biệt (kết thúc bằng い nhưng thuộc nhóm な). Nối câu dùng で -> きれいで."
+    },
+    {
+      "question": "さとうさんは ２２さい（　　）、どくしんです。",
+      "options": ["で", "くて", "に", "と"],
+      "answer": "で",
+      "vn": "Anh Sato 22 tuổi và đang độc thân.",
+      "explanation": "２２歳 (Danh từ) nối câu bằng で."
+    },
+    {
+      "question": "ハノイは フォー（　　）おいしいです。",
+      "options": ["が", "は", "を", "で"],
+      "answer": "が",
+      "vn": "Hà Nội thì Phở rất ngon.",
+      "explanation": "Mẫu câu miêu tả chi tiết thuộc tính N1 は N2 が Tính từ. Hà Nội (N1) は Phở (N2) が ngon."
+    },
+    {
+      "question": "あさ ジョギングを（　　）、シャワーを あびます。",
+      "options": ["して", "しって", "しんで", "しりて"],
+      "answer": "して",
+      "vn": "Buổi sáng tôi chạy bộ rồi tắm vòi sen.",
+      "explanation": "します (nhóm 3) chuyển sang thể Te là して."
+    },
+    {
+      "question": "ＡＴＭで おかねを（　　）から、かいものします。",
+      "options": ["おろして", "おろしてから", "おろし", "おろす"],
+      "answer": "おろして",
+      "vn": "Sau khi rút tiền ở ATM, tôi sẽ đi mua sắm.",
+      "explanation": "Mẫu câu Vてから. Động từ 下ろします (nhóm 1, đuôi し) -> 下ろして + から."
+    },
+    {
+      "question": "ミラーさんは せ（　　）たかいです。",
+      "options": ["が", "は", "を", "に"],
+      "answer": "が",
+      "vn": "Anh Miller dáng cao (Lưng cao).",
+      "explanation": "Chủ thể là Miller (N1), bộ phận là Lưng/Dáng (N2). Mẫu câu: ミラーさんは 背(せ)が 高いです."
+    },
+    {
+      "question": "この くつは（　　）、やすいです。",
+      "options": ["よくて", "いくて", "いいで", "よいで"],
+      "answer": "よくて",
+      "vn": "Đôi giày này tốt và rẻ.",
+      "explanation": "Tính từ いい (Tốt) có cách chia đặc biệt giống よい. Bỏ い thêm くて -> よくて."
+    },
+    {
+      "question": "にほんは べんり（　　）、きれいです。",
+      "options": ["で", "くて", "な", "に"],
+      "answer": "で",
+      "vn": "Nhật Bản thì tiện lợi và sạch đẹp.",
+      "explanation": "便利 (tiện lợi) là tính từ đuôi な, nối câu bằng で."
+    },
+    {
+      "question": "だいがくを（　　）から、とうきょうへ いきます。",
+      "options": ["でて", "でりて", "でんで", "でって"],
+      "answer": "でて",
+      "vn": "Sau khi tốt nghiệp đại học, tôi sẽ đi Tokyo.",
+      "explanation": "出ます (ra, tốt nghiệp) là động từ nhóm 2. Bỏ ます thêm て -> 出て + から."
+    },
+    {
+      "question": "ごはんを たべて、ほんを よんで、（　　）。",
+      "options": ["ねました", "ねて", "ねます", "ねる"],
+      "answer": "ねました",
+      "vn": "Tôi đã ăn cơm, đọc sách rồi đi ngủ.",
+      "explanation": "Nối chuỗi hành động Vて、Vて、V. Động từ cuối cùng quyết định thì của câu. Có thể là 寝ました (Quá khứ) hoặc 寝ます (Tương lai/Thói quen). Trong các đáp án, nếu nó là việc đã làm thì 寝ました là phù hợp nhất để đóng câu."
+    },
+    {
+      "question": "A：きのう なにを しましたか。 ...B：としょかんへ いって、ほんを（　　）。",
+      "options": ["かりました", "かかりました", "かりて", "かりる"],
+      "answer": "かりました",
+      "vn": "A: Hôm qua bạn đã làm gì? ...B: Tôi đi thư viện rồi mượn sách.",
+      "explanation": "Hỏi quá khứ (きのう なにを しましたか) nên động từ cuối câu trả lời phải chia ở thì quá khứ -> 借りました."
+    },
+    {
+      "question": "この レストランは おいし（　　）、やすいです。",
+      "options": ["くて", "で", "いくて", "く"],
+      "answer": "くて",
+      "vn": "Nhà hàng này ngon và rẻ.",
+      "explanation": "おいしい là tính từ đuôi い -> おいしくて."
+    }
+  ],
   "readings": readings,
   
+  "poem": {
+    "title": "てから・て、て",
+    "titleVn": "❤️ Trình Tự & Nối Tính Từ",
+    "intro": "Tóm tắt Bài 16: Diễn tả các hành động nối tiếp nhau, mẫu câu 'sau khi', và cách nối các tính từ để miêu tả.",
+    "lines": [
+      {
+        "kanji": "起きて、食べて、会社へ行きます。",
+        "jp": "おきて、たべて、かいしゃへ いきます。",
+        "romaji": "Okite, tabete, kaisha e ikimasu.",
+        "vn": "Thức dậy, ăn sáng, rồi tới công ty.",
+        "note": "Vて、Vて、V"
+      },
+      {
+        "kanji": "仕事が終わってから、飲みに行きます。",
+        "jp": "しごとが おわってから、のみに いきます。",
+        "romaji": "Shigoto ga owatte kara, nomi ni ikimasu.",
+        "vn": "Sau khi xong việc thì đi nhậu.",
+        "note": "Vてから"
+      },
+      {
+        "kanji": "この家は広くて、明るいです。",
+        "jp": "この いえは ひろくて、あかるいです。",
+        "romaji": "Kono ie wa hirokute, akarui desu.",
+        "vn": "Nhà này vừa rộng lại vừa sáng.",
+        "note": "A(i) くて"
+      },
+      {
+        "kanji": "静かで、便利で、いい町です。",
+        "jp": "しずかで、べんりで、いい まちです。",
+        "romaji": "Shizuka de, benri de, ii machi desu.",
+        "vn": "Một thị trấn yên tĩnh, tiện lợi và tuyệt vời.",
+        "note": "A(na) で"
+      }
+    ]
+  }
 };
 
 export default lesson;
