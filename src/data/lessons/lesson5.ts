@@ -621,6 +621,415 @@ const lesson: NihongoLesson = {
         "story": "Chỉ có 1 người lẻ loi nghĩa là Một mình.",
         "examples": "一人で (Một mình)"
       }
+    },
+    {
+      "id": "L5_50",
+      "word": "いつ",
+      "reading": "いつ",
+      "romaji": "itsu",
+      "meaning": "Khi nào",
+      "type": "Từ hỏi"
+    },
+    {
+      "id": "L5_51",
+      "word": "普通",
+      "reading": "ふつう",
+      "romaji": "futsuu",
+      "meaning": "Tàu thường, bình thường",
+      "type": "Danh từ"
+    },
+    {
+      "id": "L5_52",
+      "word": "急行",
+      "reading": "きゅうこう",
+      "romaji": "kyuukou",
+      "meaning": "Tàu tốc hành",
+      "type": "Danh từ"
+    },
+    {
+      "id": "L5_53",
+      "word": "特急",
+      "reading": "とっきゅう",
+      "romaji": "tokkyuu",
+      "meaning": "Tàu tốc hành đặc biệt",
+      "type": "Danh từ"
+    },
+    {
+      "id": "L5_54",
+      "word": "次の",
+      "reading": "つぎの",
+      "romaji": "tsugino",
+      "meaning": "Tiếp theo",
+      "type": "Tính từ"
+    },
+    {
+      "id": "L5_55",
+      "word": "今年",
+      "reading": "ことし",
+      "romaji": "kotoshi",
+      "meaning": "Năm nay",
+      "type": "Danh từ"
+    },
+    {
+      "id": "L5_56",
+      "word": "来年",
+      "reading": "らいねん",
+      "romaji": "rainen",
+      "meaning": "Năm sau",
+      "type": "Danh từ"
+    },
+    {
+      "id": "L5_57",
+      "word": "～年",
+      "reading": "～ねん",
+      "romaji": "~nen",
+      "meaning": "Năm ~",
+      "type": "Hậu tố"
+    },
+    {
+      "id": "L5_58",
+      "word": "何年",
+      "reading": "なんねん",
+      "romaji": "nannen",
+      "meaning": "Năm mấy",
+      "type": "Từ hỏi"
+    },
+    {
+      "id": "L5_59",
+      "word": "～月",
+      "reading": "～がつ",
+      "romaji": "~gatsu",
+      "meaning": "Tháng ~",
+      "type": "Hậu tố"
+    },
+    {
+      "id": "L5_60",
+      "word": "何月",
+      "reading": "なんがつ",
+      "romaji": "nangatsu",
+      "meaning": "Tháng mấy",
+      "type": "Từ hỏi"
+    },
+    {
+      "id": "L5_61",
+      "word": "一日",
+      "reading": "ついたち",
+      "romaji": "tsuitachi",
+      "meaning": "Ngày mùng 1",
+      "type": "Danh từ"
+    },
+    {
+      "id": "L5_62",
+      "word": "二日",
+      "reading": "ふつか",
+      "romaji": "futsuka",
+      "meaning": "Ngày mùng 2",
+      "type": "Danh từ"
+    },
+    {
+      "id": "L5_63",
+      "word": "三日",
+      "reading": "みっか",
+      "romaji": "mikka",
+      "meaning": "Ngày mùng 3",
+      "type": "Danh từ"
+    },
+    {
+      "id": "L5_64",
+      "word": "四日",
+      "reading": "よっか",
+      "romaji": "yokka",
+      "meaning": "Ngày mùng 4",
+      "type": "Danh từ"
+    },
+    {
+      "id": "L5_65",
+      "word": "五日",
+      "reading": "いつか",
+      "romaji": "itsuka",
+      "meaning": "Ngày mùng 5",
+      "type": "Danh từ"
+    },
+    {
+      "id": "L5_66",
+      "word": "六日",
+      "reading": "むいか",
+      "romaji": "muika",
+      "meaning": "Ngày mùng 6",
+      "type": "Danh từ"
+    },
+    {
+      "id": "L5_67",
+      "word": "七日",
+      "reading": "なのか",
+      "romaji": "nanoka",
+      "meaning": "Ngày mùng 7",
+      "type": "Danh từ"
+    },
+    {
+      "id": "L5_68",
+      "word": "八日",
+      "reading": "ようか",
+      "romaji": "youka",
+      "meaning": "Ngày mùng 8",
+      "type": "Danh từ"
+    },
+    {
+      "id": "L5_69",
+      "word": "九日",
+      "reading": "ここのか",
+      "romaji": "kokonoka",
+      "meaning": "Ngày mùng 9",
+      "type": "Danh từ"
+    },
+    {
+      "id": "L5_70",
+      "word": "十日",
+      "reading": "とおか",
+      "romaji": "tooka",
+      "meaning": "Ngày mùng 10",
+      "type": "Danh từ"
+    },
+    {
+      "id": "L5_71",
+      "word": "十四日",
+      "reading": "じゅうよっか",
+      "romaji": "juuyokka",
+      "meaning": "Ngày 14",
+      "type": "Danh từ"
+    },
+    {
+      "id": "L5_72",
+      "word": "二十日",
+      "reading": "はつか",
+      "romaji": "hatsuka",
+      "meaning": "Ngày 20",
+      "type": "Danh từ"
+    },
+    {
+      "id": "L5_73",
+      "word": "二十四日",
+      "reading": "にじゅうよっか",
+      "romaji": "nijuuyokka",
+      "meaning": "Ngày 24",
+      "type": "Danh từ"
+    },
+    {
+      "id": "L5_74",
+      "word": "～日",
+      "reading": "～にち",
+      "romaji": "~nichi",
+      "meaning": "Ngày ~",
+      "type": "Hậu tố"
+    },
+    {
+      "id": "L5_75",
+      "word": "何日",
+      "reading": "なんにち",
+      "romaji": "nannichi",
+      "meaning": "Ngày mấy",
+      "type": "Từ hỏi"
+    }
+  ],
+  "grammar": [
+    {
+      "title": "N(địa điểm) へ いきます / きます / かえります",
+      "structure": "N(địa điểm) へ V(di chuyển)",
+      "usage": "Dùng trợ từ へ (đọc là e) sau danh từ chỉ địa điểm để chỉ phương hướng di chuyển của các động từ 行きます (đi), 来ます (đến), 帰ります (về).",
+      "examples": [
+        {
+          "jp": "スーパーへ いきます。",
+          "romaji": "suupaa e ikimasu.",
+          "vn": "Tôi đi siêu thị."
+        },
+        {
+          "jp": "うちへ かえります。",
+          "romaji": "uchi e kaerimasu.",
+          "vn": "Tôi về nhà."
+        }
+      ]
+    },
+    {
+      "title": "Từ để hỏi + も + V(phủ định)",
+      "structure": "Từ để hỏi + も + V(phủ định)",
+      "usage": "Khi trợ từ も đứng sau từ để hỏi trong câu phủ định, tất cả những gì trong phạm trù đó đều bị phủ định hoàn toàn (Không đi đâu cả, không ăn gì cả, không ai đến cả...).",
+      "examples": [
+        {
+          "jp": "どこへも いきませんでした。",
+          "romaji": "doko e mo ikimasen deshita.",
+          "vn": "Hôm qua tôi đã không đi đâu cả."
+        },
+        {
+          "jp": "なにも たべません。",
+          "romaji": "nani mo tabemasen.",
+          "vn": "Tôi không ăn gì cả."
+        }
+      ]
+    },
+    {
+      "title": "N(phương tiện) で いきます",
+      "structure": "N(phương tiện) で V(di chuyển)",
+      "usage": "Trợ từ で dùng sau danh từ chỉ phương tiện để diễn tả cách thức di chuyển (Bằng phương tiện gì). Riêng đi bộ (あるいて) thì KHÔNG dùng trợ từ で.",
+      "examples": [
+        {
+          "jp": "でんしゃで かえります。",
+          "romaji": "densha de kaerimasu.",
+          "vn": "Tôi về bằng tàu điện."
+        },
+        {
+          "jp": "えきから あるいて かえります。",
+          "romaji": "eki kara aruite kaerimasu.",
+          "vn": "Tôi đi bộ từ ga về nhà."
+        }
+      ]
+    },
+    {
+      "title": "N(người/động vật) と V",
+      "structure": "N(người) と V",
+      "usage": "Trợ từ と dùng để chỉ đối tác cùng thực hiện hành động (Làm gì đó CÙNG VỚI ai). Nếu làm một mình (ひとりで) thì KHÔNG dùng trợ từ と.",
+      "examples": [
+        {
+          "jp": "かぞくと きました。",
+          "romaji": "kazoku to kimashita.",
+          "vn": "Tôi đã đến cùng với gia đình."
+        },
+        {
+          "jp": "ひとりで いきます。",
+          "romaji": "hitori de ikimasu.",
+          "vn": "Tôi đi một mình."
+        }
+      ]
+    },
+    {
+      "title": "いつ (Khi nào)",
+      "structure": "いつ Vますか",
+      "usage": "Từ để hỏi いつ dùng để hỏi về thời điểm xảy ra sự việc (Khi nào, bao giờ). Phía sau いつ tuyệt đối KHÔNG dùng trợ từ に.",
+      "examples": [
+        {
+          "jp": "いつ いきますか。",
+          "romaji": "itsu ikimasu ka.",
+          "vn": "Bao giờ bạn sẽ đi?"
+        }
+      ]
+    },
+    {
+      "title": "Trợ từ よ ở cuối câu",
+      "structure": "Câu + よ",
+      "usage": "Thêm よ ở cuối câu để báo cho người nghe biết một thông tin mới mà họ chưa biết, hoặc để nhấn mạnh ý kiến của người nói.",
+      "examples": [
+        {
+          "jp": "この でんしゃは とうきょうへ いきませんよ。",
+          "romaji": "kono densha wa toukyou e ikimasen yo.",
+          "vn": "Chuyến tàu này không đi Tokyo đâu nhé."
+        }
+      ]
+    }
+  ],
+  "grammarExercises": [
+    {
+      "question": "あした 学校 [blank] 行きます。",
+      "options": ["へ", "で", "と", "を"],
+      "answer": "へ",
+      "vn": "Ngày mai tôi sẽ đi đến trường.",
+      "explanation": "Chỉ phương hướng di chuyển tới địa điểm (学校) đi với động từ 行きます phải dùng trợ từ へ."
+    },
+    {
+      "question": "きのうは どこ [blank] 行きませんでした。",
+      "options": ["へも", "にも", "をも", "がも"],
+      "answer": "へも",
+      "vn": "Hôm qua tôi đã không đi đâu cả.",
+      "explanation": "Cấu trúc phủ định hoàn toàn: Từ để hỏi (どこ) + trợ từ (へ) + も + V(phủ định)."
+    },
+    {
+      "question": "自転車 [blank] スーパーへ 行きます。",
+      "options": ["で", "に", "へ", "と"],
+      "answer": "で",
+      "vn": "Tôi đi xe đạp đến siêu thị.",
+      "explanation": "Chỉ phương tiện di chuyển (自転車 - xe đạp) dùng trợ từ で."
+    },
+    {
+      "question": "えきから [blank] 帰りました。",
+      "options": ["あるいて", "あるいてで", "あるいてに", "あるいてと"],
+      "answer": "あるいて",
+      "vn": "Tôi đã đi bộ từ ga về.",
+      "explanation": "Đi bộ (あるいて) bản thân nó đã là phương thức di chuyển, KHÔNG dùng kèm trợ từ で."
+    },
+    {
+      "question": "だれ [blank] 日本へ 来ましたか。 ...家族と 来ました。",
+      "options": ["と", "に", "で", "へ"],
+      "answer": "と",
+      "vn": "Bạn đã đến Nhật Bản cùng với ai? ...Tôi đến cùng gia đình.",
+      "explanation": "Làm gì cùng với ai dùng trợ từ と (cùng với)."
+    },
+    {
+      "question": "[blank] きょうとへ 行きますか。 ...らいしゅう 行きます。",
+      "options": ["いつ", "どこ", "なんじ", "だれ"],
+      "answer": "いつ",
+      "vn": "Khi nào bạn sẽ đi Kyoto? ...Tuần sau tôi đi.",
+      "explanation": "Hỏi thời điểm chung chung (khi nào, bao giờ) dùng いつ."
+    },
+    {
+      "question": "わたしは [blank] びょういんへ 行きます。",
+      "options": ["ひとりで", "わたしで", "かぞくと", "だれと"],
+      "answer": "ひとりで",
+      "vn": "Tôi đi bệnh viện một mình.",
+      "explanation": "Một mình là ひとりで (đi kèm で, không dùng と)."
+    },
+    {
+      "question": "新幹線は はやい [blank]。",
+      "options": ["よ", "か", "へ", "を"],
+      "answer": "よ",
+      "vn": "Tàu Shinkansen nhanh lắm đấy nhé.",
+      "explanation": "Nhấn mạnh thông tin mới cho người nghe biết, dùng trợ từ よ ở cuối câu."
+    },
+    {
+      "question": "何 [blank] 東京へ 行きますか。 ...飛行機で 行きます。",
+      "options": ["で", "に", "と", "へ"],
+      "answer": "で",
+      "vn": "Bạn đi Tokyo bằng gì? ...Đi bằng máy bay.",
+      "explanation": "Hỏi phương tiện dùng 何で (なんで)."
+    },
+    {
+      "question": "あした、[blank] と 会社へ 行きますか。",
+      "options": ["だれ", "どこ", "いつ", "なに"],
+      "answer": "だれ",
+      "vn": "Ngày mai bạn đi đến công ty cùng với ai?",
+      "explanation": "Hỏi người (cùng với ai) dùng だれ."
+    },
+    {
+      "question": "バス [blank] うち [blank] 帰ります。",
+      "options": ["で / へ", "に / へ", "へ / で", "で / で"],
+      "answer": "で / へ",
+      "vn": "Tôi đi xe buýt về nhà.",
+      "explanation": "Phương tiện (バス) đi với で, địa điểm (うち) đi với へ."
+    },
+    {
+      "question": "らいしゅう、くにへ [blank]。",
+      "options": ["帰ります", "帰りました", "行きます", "行きました"],
+      "answer": "帰ります",
+      "vn": "Tuần sau tôi sẽ về nước.",
+      "explanation": "Trở về quê hương/nhà dùng 帰ります. Tuần sau (らいしゅう) là tương lai nên chia thể ます."
+    },
+    {
+      "question": "きのう [blank] 来ましたか。 ...タクシーで 来ました。",
+      "options": ["何で", "だれ", "どこ", "いつ"],
+      "answer": "何で",
+      "vn": "Hôm qua bạn đến bằng gì? ...Tôi đến bằng Taxi.",
+      "explanation": "Câu trả lời là phương tiện (タクシーで) nên câu hỏi là 何で (bằng gì)."
+    },
+    {
+      "question": "きのう、彼 [blank] 勉強しました。",
+      "options": ["と", "で", "に", "へ"],
+      "answer": "と",
+      "vn": "Hôm qua tôi đã học cùng anh ấy.",
+      "explanation": "Học cùng với ai dùng trợ từ と."
+    },
+    {
+      "question": "いつ [blank] 日本へ 来ましたか。",
+      "options": ["(không điền)", "に", "で", "は"],
+      "answer": "(không điền)",
+      "vn": "Bạn đã đến Nhật Bản khi nào?",
+      "explanation": "Đằng sau từ để hỏi いつ (khi nào) tuyệt đối KHÔNG đi kèm trợ từ に."
     }
   ],
   "readings": readings,

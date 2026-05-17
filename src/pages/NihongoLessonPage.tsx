@@ -5,7 +5,7 @@
 import { useState, useMemo, useCallback, useEffect, useRef } from 'react';
 import type { NihongoLesson, LessonWord, LessonReading } from '../data/nihongo-lessons';
 import { useSpeech } from '../hooks/useSpeech';
-import { VocabTab, FlashTab, ListenTab, StatsTab, MatchTab, TranslateTab, ListenSentenceTab, N5ExamTab, ReadingTab, TypingTab } from './NihongoLessonTabs';
+import { VocabTab, FlashTab, ListenTab, StatsTab, MatchTab, TranslateTab, ListenSentenceTab, N5ExamTab, ReadingTab, TypingTab, GrammarTab, GrammarQuizTab } from './NihongoLessonTabs';
 import { getWordKanjiLevel } from '../utils/kanji';
 import * as wanakana from 'wanakana';
 
@@ -163,6 +163,8 @@ export function NihongoLessonPage({ lessons, onHome, onLessonComplete, sentenceM
             </div>
             {([
               { id: 'vocab', icon: '📋', label: 'Từ Vựng', sub: `${mergedWords.length} từ`, hidden: isCombined },
+              { id: 'grammar', icon: '📖', label: 'Ngữ Pháp', sub: 'Lý thuyết & Ví dụ', hidden: isCombined || !lessons[0]?.grammar },
+              { id: 'grammar_quiz', icon: '🧩', label: 'Luyện Ngữ Pháp', sub: 'Trắc nghiệm đục lỗ', hidden: isCombined || !lessons[0]?.grammarExercises },
               { id: 'flash', icon: '⚡', label: 'Flash Quiz', sub: '' },
               { id: 'listen', icon: '🎧', label: 'Nghe & Gõ Từ', sub: '' },
               { id: 'match', icon: '🔗', label: 'Ghép Từ', sub: 'Hiragana ↔ Kanji' },
@@ -231,6 +233,8 @@ export function NihongoLessonPage({ lessons, onHome, onLessonComplete, sentenceM
         {/* CONTENT */}
         <div style={{ flex: 1, minWidth: 0, paddingBottom: 100 }}>
           {tab === 'vocab' && !isCombined && <VocabTab words={mergedWords} mastery={mastery} speak={speak} supported={supported} />}
+          {tab === 'grammar' && !isCombined && lessons[0]?.grammar && <GrammarTab grammar={lessons[0].grammar} speak={speak} supported={supported} />}
+          {tab === 'grammar_quiz' && !isCombined && lessons[0]?.grammarExercises && <GrammarQuizTab exercises={lessons[0].grammarExercises} speak={speak} supported={supported} />}
           {tab === 'flash' && <FlashTab words={mergedWords} mastery={mastery} onUpdate={updateMastery} speak={speak} supported={supported} />}
           {tab === 'listen' && <ListenTab words={mergedWords} mastery={mastery} onUpdate={updateMastery} speak={speak} supported={supported} />}
           {tab === 'match' && <MatchTab words={mergedWords} skipCount={masteredCount} />}

@@ -581,6 +581,200 @@ const lesson: NihongoLesson = {
       }
     }
   ],
+  "grammar": [
+    {
+      "title": "Trợ từ は, も, の, か",
+      "structure": "は (wa) | も (mo) | の (no) | か (ka)",
+      "usage": "Tiếng Nhật là ngôn ngữ chắp dính, các từ được nối với nhau bằng trợ từ.\n- は: Đứng sau danh từ để biểu thị chủ đề của câu.\n- も: Nghĩa là 'cũng', dùng khi tính chất của chủ đề giống với chủ đề đã nêu trước đó.\n- の: Nghĩa là 'của', dùng để nối 2 danh từ, danh từ trước xác định/bổ nghĩa cho danh từ sau.\n- か: Đặt ở cuối câu để tạo thành câu hỏi (nghi vấn).",
+      "examples": [
+        {
+          "jp": "わたしは 学生です。",
+          "romaji": "watashi wa gakusei desu.",
+          "vn": "Tôi là học sinh."
+        },
+        {
+          "jp": "アンさんも ベトナム人です。",
+          "romaji": "An san mo betonamujin desu.",
+          "vn": "Bạn An cũng là người Việt Nam."
+        },
+        {
+          "jp": "やまださんは FPTの しゃいんです。",
+          "romaji": "Yamada san wa FPT no shain desu.",
+          "vn": "Anh Yamada là nhân viên của công ty FPT."
+        }
+      ]
+    },
+    {
+      "title": "N1 は N2 です (Khẳng định)",
+      "structure": "N1 は N2 です",
+      "usage": "- Trợ từ は (đọc là wa) biểu thị N1 là chủ đề của câu.\n- です (desu) đặt ở cuối câu khẳng định, thể hiện sự lịch sự với người nghe.\n- Nghĩa: N1 là N2.",
+      "examples": [
+        {
+          "jp": "わたしは 学生です。",
+          "romaji": "watashi wa gakusei desu.",
+          "vn": "Tôi là học sinh."
+        }
+      ]
+    },
+    {
+      "title": "N1 は N2 じゃありません (Phủ định)",
+      "structure": "N1 は N2 じゃありません",
+      "usage": "- じゃありません (ja arimasen) là dạng phủ định của です, dùng trong giao tiếp hàng ngày.\n- Trong văn viết trang trọng hơn, dùng ではありません (dewa arimasen).\n- Nghĩa: N1 không phải là N2.",
+      "examples": [
+        {
+          "jp": "わたしは ぎんこういんじゃありません。",
+          "romaji": "watashi wa ginkouin ja arimasen.",
+          "vn": "Tôi không phải là nhân viên ngân hàng."
+        }
+      ]
+    },
+    {
+      "title": "Câu hỏi: N1 は N2 ですか",
+      "structure": "N1 は N2 ですか",
+      "usage": "- Thêm trợ từ か vào cuối câu để tạo câu hỏi nghi vấn.\n- Trả lời bằng はい (Vâng / Đúng) hoặc いいえ (Không / Sai).\n- Nghĩa: N1 là N2 phải không?",
+      "examples": [
+        {
+          "jp": "ハイさんは いしゃですか。",
+          "romaji": "Hai san wa isha desu ka.",
+          "vn": "Anh Hải là bác sĩ phải không?"
+        },
+        {
+          "jp": "はい、いしゃです。",
+          "romaji": "hai, isha desu.",
+          "vn": "Vâng, anh Hải là bác sĩ."
+        },
+        {
+          "jp": "いいえ、いしゃじゃありません。",
+          "romaji": "iie, isha ja arimasen.",
+          "vn": "Không, anh Hải không phải là bác sĩ."
+        }
+      ]
+    },
+    {
+      "title": "Cách hỏi tuổi",
+      "structure": "〜は 何歳 / おいくつ ですか",
+      "usage": "- 何歳 (nan sai): Mấy tuổi?\n- おいくつ (oikutsu): Bao nhiêu tuổi? (Lịch sự hơn nan sai).\n- Trả lời: Số tuổi + 歳 (sai) です。",
+      "examples": [
+        {
+          "jp": "たかひろくんは 何歳ですか。",
+          "romaji": "Takahiro kun wa nan sai desu ka.",
+          "vn": "Bé Takahiro mấy tuổi rồi?"
+        },
+        {
+          "jp": "たかひろくんは 8歳です。",
+          "romaji": "Takahiro kun wa hassai desu.",
+          "vn": "Bé Takahiro 8 tuổi."
+        }
+      ]
+    }
+  ],
+  "grammarExercises": [
+    {
+      "question": "わたし [blank] 学生です。",
+      "options": ["は", "が", "を", "に"],
+      "answer": "は",
+      "vn": "Tôi là học sinh.",
+      "explanation": "Trợ từ は (wa) được dùng để đánh dấu chủ đề của câu."
+    },
+    {
+      "question": "アンさん [blank] ベトナム人です。",
+      "options": ["の", "も", "で", "か"],
+      "answer": "も",
+      "vn": "Bạn An cũng là người Việt Nam.",
+      "explanation": "Trợ từ も (mo) có nghĩa là 'cũng', dùng khi thông tin giống với chủ đề đã nêu trước đó."
+    },
+    {
+      "question": "やまださんは FPT [blank] しゃいんです。",
+      "options": ["は", "が", "の", "か"],
+      "answer": "の",
+      "vn": "Anh Yamada là nhân viên của công ty FPT.",
+      "explanation": "Trợ từ の (no) dùng để nối hai danh từ, thể hiện sự sở hữu hoặc trực thuộc (N1 của N2)."
+    },
+    {
+      "question": "ハイさんは いしゃです [blank]。",
+      "options": ["は", "も", "の", "か"],
+      "answer": "か",
+      "vn": "Anh Hải là bác sĩ phải không?",
+      "explanation": "Trợ từ か (ka) đặt ở cuối câu để tạo thành câu hỏi nghi vấn."
+    },
+    {
+      "question": "わたしは ぎんこういん [blank]。",
+      "options": ["です", "じゃありません", "ですか", "の"],
+      "answer": "じゃありません",
+      "vn": "Tôi không phải là nhân viên ngân hàng.",
+      "explanation": "じゃありません (ja arimasen) là thể phủ định của です, nghĩa là 'không phải là'."
+    },
+    {
+      "question": "あの方は どなた [blank]。",
+      "options": ["です", "ですか", "は", "の"],
+      "answer": "ですか",
+      "vn": "Vị kia là ai vậy?",
+      "explanation": "Khi hỏi ai đó là ai, ta dùng từ để hỏi 'どなた' kèm với đuôi câu hỏi 'ですか'."
+    },
+    {
+      "question": "ミラーさんは アメリカ人 [blank]。",
+      "options": ["です", "じゃありません", "ですか", "も"],
+      "answer": "です",
+      "vn": "Anh Miller là người Mỹ.",
+      "explanation": "Câu khẳng định cơ bản, kết thúc bằng です để thể hiện sự lịch sự."
+    },
+    {
+      "question": "カリナさん [blank] 学生ですか。",
+      "options": ["は", "の", "か", "に"],
+      "answer": "は",
+      "vn": "Chị Karina là học sinh phải không?",
+      "explanation": "Trợ từ は đánh dấu 'Karina-san' là chủ đề của câu hỏi."
+    },
+    {
+      "question": "イーさんは さくら大学 [blank] 先生です。",
+      "options": ["は", "が", "の", "も"],
+      "answer": "の",
+      "vn": "Anh Lee là giáo viên của Đại học Sakura.",
+      "explanation": "Đại học Sakura (N1) là nơi làm việc của giáo viên (N2), nên nối bằng の."
+    },
+    {
+      "question": "たろうくんは 8歳 [blank]。",
+      "options": ["です", "ですか", "は", "の"],
+      "answer": "です",
+      "vn": "Bé Tarou 8 tuổi.",
+      "explanation": "Câu khẳng định thông báo số tuổi, kết thúc bằng です."
+    },
+    {
+      "question": "サントスさんは ブラジル人です。マリアさん [blank] ブラジル人です。",
+      "options": ["は", "が", "も", "の"],
+      "answer": "も",
+      "vn": "Anh Santos là người Brazil. Chị Maria cũng là người Brazil.",
+      "explanation": "Sử dụng も (cũng) vì thông tin của Maria giống hệt với thông tin của Santos trước đó."
+    },
+    {
+      "question": "わたしは エンジニア [blank]。学生です。",
+      "options": ["です", "じゃありません", "ですか", "の"],
+      "answer": "じゃありません",
+      "vn": "Tôi không phải là kỹ sư. Tôi là học sinh.",
+      "explanation": "Vế đầu tiên mang nghĩa phủ định (không phải là kỹ sư), nên dùng じゃありません."
+    },
+    {
+      "question": "はじめまして。[blank]から 来ました。",
+      "options": ["アメリカ", "アメリカ人", "わたし", "あなた"],
+      "answer": "アメリカ",
+      "vn": "Rất vui được gặp bạn. Tôi đến từ Mỹ.",
+      "explanation": "Mẫu câu '~kara kimashita' (đến từ đâu) cần một danh từ chỉ địa điểm/quốc gia ở trước, không dùng 'người' (jin)."
+    },
+    {
+      "question": "ワンさんは 医者 [blank]。...いいえ、いしゃじゃありません。",
+      "options": ["です", "ですか", "は", "も"],
+      "answer": "ですか",
+      "vn": "Anh Wang là bác sĩ phải không? ...Không, không phải là bác sĩ.",
+      "explanation": "Phần đáp lại có 'いいえ' nên câu trước đó chắc chắn phải là một câu hỏi (ですか)."
+    },
+    {
+      "question": "グプタさんは IMCの しゃいんです。イーさん [blank] IMCの しゃいんですか。",
+      "options": ["は", "が", "も", "の"],
+      "answer": "も",
+      "vn": "Anh Gupta là nhân viên IMC. Anh Lee cũng là nhân viên IMC phải không?",
+      "explanation": "Hỏi xem một người 'cũng' có đặc điểm giống người trước không, dùng trợ từ も kết hợp đuôi ですか."
+    }
+  ],
   "readings": readings,
   
   "poem": {

@@ -551,6 +551,402 @@ const lesson: NihongoLesson = {
         "story": "Tốt.",
         "examples": "いい (Tốt)"
       }
+    },
+    {
+      "id": "L8_42",
+      "word": "悪い",
+      "reading": "わるい",
+      "romaji": "warui",
+      "meaning": "Xấu",
+      "type": "Tính từ i",
+      "kanjiBreakdown": {
+        "hanviet": "ÁC",
+        "components": "亜 (Á - Châu Á) + 心 (Tâm - Trái tim)",
+        "story": "Tâm mà mang sự đè nén (Á) là tâm Ác, tính Xấu.",
+        "examples": "悪い (Xấu)"
+      }
+    },
+    {
+      "id": "L8_43",
+      "word": "冷たい",
+      "reading": "つめたい",
+      "romaji": "tsumetai",
+      "meaning": "Lạnh (cảm giác khi chạm vào)",
+      "type": "Tính từ i"
+    },
+    {
+      "id": "L8_44",
+      "word": "易しい",
+      "reading": "やさしい",
+      "romaji": "yasashii",
+      "meaning": "Dễ",
+      "type": "Tính từ i"
+    },
+    {
+      "id": "L8_45",
+      "word": "低い",
+      "reading": "ひくい",
+      "romaji": "hikui",
+      "meaning": "Thấp",
+      "type": "Tính từ i"
+    },
+    {
+      "id": "L8_46",
+      "word": "楽しい",
+      "reading": "たのしい",
+      "romaji": "tanoshii",
+      "meaning": "Vui vẻ",
+      "type": "Tính từ i",
+      "kanjiBreakdown": {
+        "hanviet": "LẠC / NHẠC",
+        "components": "白 (Bạch) + 木 (Mộc)",
+        "story": "Chơi nhạc khí bằng gỗ thật là Vui.",
+        "examples": "楽しい (Vui vẻ), 音楽 (Âm nhạc)"
+      }
+    },
+    {
+      "id": "L8_47",
+      "word": "黒い",
+      "reading": "くろい",
+      "romaji": "kuroi",
+      "meaning": "Màu đen",
+      "type": "Tính từ i"
+    },
+    {
+      "id": "L8_48",
+      "word": "赤い",
+      "reading": "あかい",
+      "romaji": "akai",
+      "meaning": "Màu đỏ",
+      "type": "Tính từ i"
+    },
+    {
+      "id": "L8_49",
+      "word": "青い",
+      "reading": "あおい",
+      "romaji": "aoi",
+      "meaning": "Màu xanh da trời",
+      "type": "Tính từ i"
+    },
+    {
+      "id": "L8_50",
+      "word": "桜",
+      "reading": "さくら",
+      "romaji": "sakura",
+      "meaning": "Hoa anh đào",
+      "type": "Danh từ"
+    },
+    {
+      "id": "L8_51",
+      "word": "食べ物",
+      "reading": "たべもの",
+      "romaji": "tabemono",
+      "meaning": "Đồ ăn",
+      "type": "Danh từ"
+    },
+    {
+      "id": "L8_52",
+      "word": "勉強",
+      "reading": "べんきょう",
+      "romaji": "benkyou",
+      "meaning": "Việc học tập",
+      "type": "Danh từ"
+    },
+    {
+      "id": "L8_53",
+      "word": "生活",
+      "reading": "せいかつ",
+      "romaji": "seikatsu",
+      "meaning": "Cuộc sống, sinh hoạt",
+      "type": "Danh từ"
+    },
+    {
+      "id": "L8_54",
+      "word": "お仕事",
+      "reading": "おしごと",
+      "romaji": "oshigoto",
+      "meaning": "Công việc (thêm お để tôn kính)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "L8_55",
+      "word": "どれ",
+      "reading": "どれ",
+      "romaji": "dore",
+      "meaning": "Cái nào (trong số nhiều cái)",
+      "type": "Từ hỏi"
+    },
+    {
+      "id": "L8_56",
+      "word": "とても",
+      "reading": "とても",
+      "romaji": "totemo",
+      "meaning": "Rất",
+      "type": "Phó từ"
+    },
+    {
+      "id": "L8_57",
+      "word": "あまり",
+      "reading": "あまり",
+      "romaji": "amari",
+      "meaning": "Không ~ lắm (dùng với thể phủ định)",
+      "type": "Phó từ"
+    },
+    {
+      "id": "L8_58",
+      "word": "そして",
+      "reading": "そして",
+      "romaji": "soshite",
+      "meaning": "Và, sau đó",
+      "type": "Liên từ"
+    },
+    {
+      "id": "L8_59",
+      "word": "～が、～",
+      "reading": "～が、～",
+      "romaji": "~ga, ~",
+      "meaning": "~ nhưng ~",
+      "type": "Liên từ"
+    }
+  ],
+  "grammar": [
+    {
+      "title": "Tính từ đuôi な và Tính từ đuôi い",
+      "structure": "Phân loại 2 nhóm tính từ",
+      "usage": "Tính từ tiếng Nhật chia làm 2 loại. Tính từ đuôi な tận cùng là な (ví dụ: しんせつな, べんりな). Tính từ đuôi い tận cùng là い (ví dụ: おおきい, あたらしい). Lưu ý một số từ tận cùng là い nhưng lại thuộc nhóm な (きれいな, ゆうめいな).",
+      "examples": [
+        {
+          "jp": "しんせつ（な）",
+          "romaji": "shinsetsu(na)",
+          "vn": "Tốt bụng"
+        },
+        {
+          "jp": "おおきい",
+          "romaji": "ookii",
+          "vn": "To lớn"
+        }
+      ]
+    },
+    {
+      "title": "N は TT です (Câu khẳng định)",
+      "structure": "N は な-TT(bỏ な) です / い-TT です",
+      "usage": "Khi làm vị ngữ trong câu khẳng định hiện tại, tính từ đuôi な sẽ bỏ な và thêm です. Tính từ đuôi い thì giữ nguyên い và thêm です.",
+      "examples": [
+        {
+          "jp": "せんせいは しんせつです。",
+          "romaji": "sensei wa shinsetsu desu.",
+          "vn": "Giáo viên rất tốt bụng."
+        },
+        {
+          "jp": "ふじさんは たかいです。",
+          "romaji": "fujisan wa takai desu.",
+          "vn": "Núi Phú Sĩ thì cao."
+        }
+      ]
+    },
+    {
+      "title": "N は TT(phủ định) です",
+      "structure": "な-TT: じゃありません / い-TT: ～くないです",
+      "usage": "Thể phủ định của tính từ đuôi な là bỏ な thêm じゃありません (giống Danh từ). Thể phủ định của tính từ đuôi い là bỏ い thêm くないです.",
+      "examples": [
+        {
+          "jp": "あそこは しずかじゃありません。",
+          "romaji": "asoko wa shizuka ja arimasen.",
+          "vn": "Chỗ kia không yên tĩnh."
+        },
+        {
+          "jp": "ハノイは あつくないです。",
+          "romaji": "hanoi wa atsukunai desu.",
+          "vn": "Hà Nội không nóng."
+        }
+      ]
+    },
+    {
+      "title": "N は TT ですか (Câu nghi vấn)",
+      "structure": "N は TT ですか",
+      "usage": "Để trả lời cho câu hỏi tính từ, phải nhắc lại tính từ đó ở dạng khẳng định (はい、TT です) hoặc phủ định (いいえ、TT phủ định). Tuyệt đối KHÔNG dùng そうです / そうじゃありません.",
+      "examples": [
+        {
+          "jp": "ペキンは さむいですか。",
+          "romaji": "pekin wa samui desu ka.",
+          "vn": "Bắc Kinh có lạnh không?"
+        },
+        {
+          "jp": "はい、さむいです。",
+          "romaji": "hai, samui desu.",
+          "vn": "Có, lạnh."
+        }
+      ]
+    },
+    {
+      "title": "TT bổ nghĩa cho Danh từ",
+      "structure": "な-TT な N / い-TT い N",
+      "usage": "Khi tính từ đứng trước danh từ để miêu tả, tính từ đuôi な GIỮ NGUYÊN な, tính từ đuôi い GIỮ NGUYÊN い.",
+      "examples": [
+        {
+          "jp": "しんせつな せんせいです。",
+          "romaji": "shinsetsu na sensei desu.",
+          "vn": "Là một giáo viên tốt bụng."
+        },
+        {
+          "jp": "たかい やまです。",
+          "romaji": "takai yama desu.",
+          "vn": "Là một ngọn núi cao."
+        }
+      ]
+    },
+    {
+      "title": "とても và あまり",
+      "structure": "とても + Khẳng định / あまり + Phủ định",
+      "usage": "とても (rất) đi cùng tính từ ở thể khẳng định. あまり (không... lắm) luôn đi cùng tính từ ở thể phủ định.",
+      "examples": [
+        {
+          "jp": "とても さむいです。",
+          "romaji": "totemo samui desu.",
+          "vn": "Rất lạnh."
+        },
+        {
+          "jp": "あまり さむくないです。",
+          "romaji": "amari samukunai desu.",
+          "vn": "Không lạnh lắm."
+        }
+      ]
+    },
+    {
+      "title": "どうですか / どんな N ですか",
+      "structure": "N は どうですか / N1 は どんな N2 ですか",
+      "usage": "どうですか dùng để hỏi cảm nhận chung về N (N thế nào?). どんな dùng để hỏi tính chất của N (N1 là loại/kiểu N2 thế nào?), sau どんな BẮT BUỘC phải có một Danh từ.",
+      "examples": [
+        {
+          "jp": "にほんの せいかつは どうですか。",
+          "romaji": "nihon no seikatsu wa dou desu ka.",
+          "vn": "Cuộc sống ở Nhật thế nào?"
+        },
+        {
+          "jp": "ならは どんな まちですか。",
+          "romaji": "nara wa donna machi desu ka.",
+          "vn": "Nara là thành phố như thế nào?"
+        }
+      ]
+    },
+    {
+      "title": "Liên từ が (Nhưng)",
+      "structure": "S1 が、S2",
+      "usage": "Dùng để nối 2 vế câu có ý nghĩa trái ngược nhau (Ví dụ: Ngon NHƯNG đắt). Trái ngược với そして (Và) dùng nối 2 vế tương đồng.",
+      "examples": [
+        {
+          "jp": "おいしいですが、たかいです。",
+          "romaji": "oishii desu ga, takai desu.",
+          "vn": "Ngon nhưng mà đắt."
+        }
+      ]
+    }
+  ],
+  "grammarExercises": [
+    {
+      "question": "この 町(まち)は しずか [blank]。",
+      "options": ["じゃありません", "ではありません", "くないです", "くありません"],
+      "answer": "じゃありません",
+      "vn": "Thị trấn này không yên tĩnh.",
+      "explanation": "しずか là tính từ đuôi な. Thể phủ định là bỏ な thêm じゃありません (hoặc ではありません). Ở đây đáp án じゃありません phù hợp nhất với khẩu ngữ."
+    },
+    {
+      "question": "日本語(にほんご)は むずかしいですか。 ...いいえ、むずかし[blank]。",
+      "options": ["くないです", "じゃありません", "くありません", "ないです"],
+      "answer": "くないです",
+      "vn": "Tiếng Nhật có khó không? ...Không, không khó.",
+      "explanation": "むずかしい là tính từ đuôi い. Phủ định thì bỏ い thêm くないです."
+    },
+    {
+      "question": "さくら大学(だいがく)は ゆうめい [blank] 大学です。",
+      "options": ["な", "い", "の", "(không điền)"],
+      "answer": "な",
+      "vn": "Đại học Sakura là một trường đại học nổi tiếng.",
+      "explanation": "ゆうめい là tính từ đuôi な đặc biệt (kết thúc bằng い). Khi bổ nghĩa cho danh từ phía sau (大学) phải giữ nguyên な."
+    },
+    {
+      "question": "これは [blank] くるまです。",
+      "options": ["新(あたら)しい", "新(あたら)しいな", "新(あたら)しいの", "新(あたら)し"],
+      "answer": "新(あたら)しい",
+      "vn": "Đây là một chiếc ô tô mới.",
+      "explanation": "新しい là tính từ đuôi い. Bổ nghĩa cho danh từ phía sau (くるま) thì giữ nguyên い."
+    },
+    {
+      "question": "この ケーキは [blank] おいしくないです。",
+      "options": ["あまり", "とても", "そして", "が"],
+      "answer": "あまり",
+      "vn": "Chiếc bánh này không ngon lắm.",
+      "explanation": "Câu ở thể phủ định (おいしくないです) nên phải đi kèm với phó từ あまり (không... lắm)."
+    },
+    {
+      "question": "この ケーキは [blank] おいしいです。",
+      "options": ["とても", "あまり", "そして", "どんな"],
+      "answer": "とても",
+      "vn": "Chiếc bánh này rất ngon.",
+      "explanation": "Câu ở thể khẳng định (おいしいです) nên đi kèm phó từ とても (rất)."
+    },
+    {
+      "question": "日本(にほん)の 生活(せいかつ)は [blank]。 ...楽(たの)しいです。",
+      "options": ["どうですか", "どんなですか", "なんですか", "どれですか"],
+      "answer": "どうですか",
+      "vn": "Cuộc sống ở Nhật Bản như thế nào? ...Rất vui.",
+      "explanation": "Hỏi ấn tượng, cảm nhận chung về một sự việc dùng どうですか (Như thế nào)."
+    },
+    {
+      "question": "ハノイは [blank] 町(まち)ですか。 ...にぎやかな 町です。",
+      "options": ["どんな", "どう", "なん", "どれ"],
+      "answer": "どんな",
+      "vn": "Hà Nội là thành phố như thế nào? ...Là một thành phố náo nhiệt.",
+      "explanation": "Đứng trước một danh từ (町) để hỏi tính chất của danh từ đó, BẮT BUỘC phải dùng どんな."
+    },
+    {
+      "question": "日本(にほん)の 食(た)べ物(もの)は おいしいです [blank]、高(たか)いです。",
+      "options": ["が", "そして", "から", "で"],
+      "answer": "が",
+      "vn": "Đồ ăn Nhật Bản thì ngon nhưng mà đắt.",
+      "explanation": "Hai vế mang ý nghĩa trái ngược nhau (Ngon - Tích cực >< Đắt - Tiêu cực) nên dùng liên từ が (Nhưng)."
+    },
+    {
+      "question": "わたしの 部屋(へや)は 小(ちい)さいです。[blank]、古(ふる)いです。",
+      "options": ["そして", "が", "から", "で"],
+      "answer": "そして",
+      "vn": "Phòng của tôi thì nhỏ. Và còn cũ nữa.",
+      "explanation": "Hai vế có cùng mức độ đánh giá (Nhỏ - Tiêu cực, Cũ - Tiêu cực) nên dùng liên từ そして (Và)."
+    },
+    {
+      "question": "北京(ペキン)は 寒(さむ)いですか。 ...はい、[blank]。",
+      "options": ["寒(さむ)いです", "そうです", "寒(さむ)いじゃありません", "寒(さむ)くないです"],
+      "answer": "寒(さむ)いです",
+      "vn": "Bắc Kinh có lạnh không? ...Có, lạnh.",
+      "explanation": "Để trả lời câu hỏi tính từ, phải nhắc lại tính từ đó. TUYỆT ĐỐI không dùng 'そうです' như với Danh từ."
+    },
+    {
+      "question": "ワンさんは [blank]。",
+      "options": ["きれいです", "きれいなです", "きれいいです", "きれいくないです"],
+      "answer": "きれいです",
+      "vn": "Bạn Wang thì đẹp.",
+      "explanation": "きれい là tính từ đuôi な. Khi đứng làm vị ngữ (cuối câu) thì bỏ な thêm です."
+    },
+    {
+      "question": "この 部屋(へや)は [blank]。",
+      "options": ["きれいじゃありません", "きれいくないです", "きれいなじゃありません", "きれいですじゃありません"],
+      "answer": "きれいじゃありません",
+      "vn": "Căn phòng này không sạch.",
+      "explanation": "きれい là tính từ đuôi な. Thể phủ định của nó là bỏ な thêm じゃありません (KHÔNG dùng くないです)."
+    },
+    {
+      "question": "山田(やまだ)さんの 傘(かさ)は [blank] ですか。 ...あの 青(あお)い 傘です。",
+      "options": ["どれ", "どんな", "どう", "なん"],
+      "answer": "どれ",
+      "vn": "Ô của anh Yamada là cái nào? ...Là cái ô màu xanh kia.",
+      "explanation": "Hỏi để lựa chọn 1 cái trong từ 3 cái trở lên dùng どれ (Cái nào)."
+    },
+    {
+      "question": "この パソコンは [blank]。",
+      "options": ["新(あたら)しいです", "新(あたら)しいだ", "新(あたら)しいな", "新(あたら)しくです"],
+      "answer": "新(あたら)しいです",
+      "vn": "Máy tính này thì mới.",
+      "explanation": "新しい là tính từ đuôi い. Làm vị ngữ cuối câu thì giữ nguyên い thêm です."
     }
   ],
   "readings": readings,

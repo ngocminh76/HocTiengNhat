@@ -427,8 +427,220 @@ const lesson: NihongoLesson = {
       }
     }
   ],
+  "grammar": [
+    {
+      "title": "Muốn có cái gì đó: Nが ほしいです",
+      "structure": "Danh từ が ほしいです",
+      "usage": "Diễn tả sự mong muốn, sở hữu một đồ vật nào đó của BẢN THÂN. Không dùng cho người thứ 3. Đi với trợ từ が. Phủ định là ほしくないです.",
+      "examples": [
+        {
+          "jp": "わたしは くるまが ほしいです。",
+          "romaji": "watashi wa kuruma ga hoshii desu.",
+          "vn": "Tôi muốn có một chiếc ô tô."
+        },
+        {
+          "jp": "いま、なにが いちばん ほしいですか。",
+          "romaji": "ima, nani ga ichiban hoshii desu ka.",
+          "vn": "Bây giờ bạn muốn cái gì nhất?"
+        }
+      ]
+    },
+    {
+      "title": "Muốn làm gì đó: Vたいです",
+      "structure": "Động từ V(bỏ ます) + たいです",
+      "usage": "Diễn tả ý muốn thực hiện hành động nào đó của BẢN THÂN. Với trợ từ を có thể giữ nguyên hoặc chuyển thành が. Phủ định là たくないです.",
+      "examples": [
+        {
+          "jp": "てんぷらを（が） たべたいです。",
+          "romaji": "tenpura o(ga) tabetai desu.",
+          "vn": "Tôi muốn ăn Tempura."
+        },
+        {
+          "jp": "きょうは なにも したくないです。",
+          "romaji": "kyou wa nani mo shitakunai desu.",
+          "vn": "Hôm nay tôi không muốn làm gì cả."
+        }
+      ]
+    },
+    {
+      "title": "Đi đâu để làm gì: ～へ Vに 行きます",
+      "structure": "Danh từ (địa điểm) へ Động từ V(bỏ ます) / Danh từ (hành động) に 行きます / 来ます / 帰ります",
+      "usage": "Trợ từ に biểu thị MỤC ĐÍCH của việc đi/đến. Nếu là Danh từ hành động (như 買い物, 食事, 散歩) thì bỏ します, nối trực tiếp với に.",
+      "examples": [
+        {
+          "jp": "デパートへ くつを かいに いきます。",
+          "romaji": "depaato e kutsu o kai ni ikimasu.",
+          "vn": "Tôi đi bách hóa để mua giày."
+        },
+        {
+          "jp": "きょうとへ おまつりに いきます。",
+          "romaji": "kyouto e omatsuri ni ikimasu.",
+          "vn": "Tôi đi Kyoto để xem lễ hội."
+        }
+      ]
+    },
+    {
+      "title": "Ai đó/Nơi nào đó/Cái gì đó",
+      "structure": "だれか (Ai đó), どこか (Đâu đó), なにか (Cái gì đó)",
+      "usage": "Dùng như một danh từ bình thường. Các trợ từ như が, を, へ có thể đứng sau hoặc lược bỏ (với へ, を).",
+      "examples": [
+        {
+          "jp": "なにか たべたいです。",
+          "romaji": "nanika tabetai desu.",
+          "vn": "Tôi muốn ăn cái gì đó."
+        },
+        {
+          "jp": "ふゆやすみは どこかへ いきましたか。",
+          "romaji": "fuyuyasumi wa dokoka e ikimashita ka.",
+          "vn": "Kỳ nghỉ đông bạn đã đi đâu đó à?"
+        }
+      ]
+    }
+  ],
+  "grammarExercises": [
+    {
+      "question": "あついですね。（　　）のみたいです。",
+      "options": ["なにか", "なにも", "どこか", "だれか"],
+      "answer": "なにか",
+      "vn": "Nóng quá nhỉ. Tôi muốn uống cái gì đó.",
+      "explanation": "Câu khẳng định dùng 何か (なにか - cái gì đó)."
+    },
+    {
+      "question": "日曜日 デパートへ（　　）に 行きます。",
+      "options": ["かいもの", "かいものし", "かいものします", "かいものを"],
+      "answer": "かいもの",
+      "vn": "Chủ nhật tôi đi siêu thị để mua sắm.",
+      "explanation": "Với danh từ động từ nhóm 3 (買い物します), ta bỏ します ghép trực tiếp với に (買い物に)."
+    },
+    {
+      "question": "おなかが すきました。わたしは（　　）が たべたいです。",
+      "options": ["ごはん", "ほん", "テレビ", "コーヒー"],
+      "answer": "ごはん",
+      "vn": "Tôi đói rồi. Tôi muốn ăn cơm.",
+      "explanation": "Đói thì phải ăn cơm (ごはん). コーヒー là uống, ほん là đọc."
+    },
+    {
+      "question": "つかれましたから、なにも（　　）。",
+      "options": ["したいです", "したくないです", "しません", "します"],
+      "answer": "したくないです",
+      "vn": "Vì mệt nên tôi không muốn làm gì cả.",
+      "explanation": "Phía trước có なにも (không cái gì cả) đi kèm với phủ định của ý muốn (したくないです)."
+    },
+    {
+      "question": "いま わたしは あたらしい くるま（　　）ほしいです。",
+      "options": ["を", "が", "に", "へ"],
+      "answer": "が",
+      "vn": "Bây giờ tôi muốn có một chiếc ô tô mới.",
+      "explanation": "Đi với tính từ ほしい (muốn có đồ vật) thì trợ từ luôn là が."
+    },
+    {
+      "question": "のどが（　　）。つめたい 水が のみたいです。",
+      "options": ["かわきました", "すきました", "つかれました", "いたいです"],
+      "answer": "かわきました",
+      "vn": "Khát nước quá. Tôi muốn uống nước lạnh.",
+      "explanation": "Khát nước là のどがかわきました."
+    },
+    {
+      "question": "しゅうまつは やまへ（　　）に 行きます。",
+      "options": ["あそび", "あそぶ", "あそんで", "あそぼう"],
+      "answer": "あそび",
+      "vn": "Cuối tuần tôi đi núi để chơi.",
+      "explanation": "Đi đâu để làm gì: V(bỏ ます) + に行きます. 遊びます -> 遊び."
+    },
+    {
+      "question": "あした 京都へ （　　）に 行きます。",
+      "options": ["おまつり", "おまつりし", "おまつりする", "おまつりを"],
+      "answer": "おまつり",
+      "vn": "Ngày mai tôi đi Kyoto để tham gia lễ hội.",
+      "explanation": "お祭り (lễ hội) là một danh từ sự kiện. Khi dùng với mục đích, ghép trực tiếp: Danh từ + に."
+    },
+    {
+      "question": "きのうは どこへも（　　）。",
+      "options": ["いきませんでした", "いきたくないです", "いきません", "いきたいです"],
+      "answer": "いきませんでした",
+      "vn": "Hôm qua tôi đã không đi đâu cả.",
+      "explanation": "きのう (hôm qua) -> thì quá khứ. Phủ định hoàn toàn với từ để hỏi + も -> いきませんでした."
+    },
+    {
+      "question": "A：何を 食べたいですか。 ...B：（　　）食べたくないです。",
+      "options": ["なにも", "なにか", "どこも", "だれも"],
+      "answer": "なにも",
+      "vn": "A: Bạn muốn ăn gì? ...B: Không muốn ăn gì cả.",
+      "explanation": "Hỏi 何 (Cái gì), trả lời phủ định hoàn toàn dùng 何も (なにも)."
+    },
+    {
+      "question": "うちへ （　　）に 帰ります。",
+      "options": ["ばんごはんを たべ", "ばんごはんを たべる", "ばんごはんが たべ", "ばんごはんの たべる"],
+      "answer": "ばんごはんを たべ",
+      "vn": "Tôi về nhà để ăn tối.",
+      "explanation": "Mục đích là ăn tối: ばんごはんを たべます -> bỏ ます thành たべ + に."
+    },
+    {
+      "question": "A：えいがを 見に 行きませんか。 ...B：いいですね。（　　）。",
+      "options": ["そうしましょう", "わかりました", "どういたしまして", "ごちそうさまでした"],
+      "answer": "そうしましょう",
+      "vn": "A: Cùng đi xem phim không? ...B: Tuyệt đấy. Nhất trí thế đi.",
+      "explanation": "Tán thành lời rủ rê một cách hào hứng dùng そうしましょう (Nhất trí thế đi/Làm thế đi)."
+    },
+    {
+      "question": "わたしは きょうとへ さくらを （　　）に 行きます。",
+      "options": ["み", "みる", "みます", "みて"],
+      "answer": "み",
+      "vn": "Tôi đi Kyoto để ngắm hoa anh đào.",
+      "explanation": "Mục đích: 見ます -> 見 + に行きます."
+    },
+    {
+      "question": "あの 喫茶店に （　　）ましょう。",
+      "options": ["はいり", "はいって", "はいる", "はいります"],
+      "answer": "はいり",
+      "vn": "Hãy cùng vào quán nước kia đi.",
+      "explanation": "V(bỏ ます) + ましょう (Cùng làm gì đó)."
+    },
+    {
+      "question": "今、お金が（　　）。ですから、働きに 行きます。",
+      "options": ["ほしいです", "ほしくないです", "たいです", "たくないです"],
+      "answer": "ほしいです",
+      "vn": "Bây giờ tôi muốn có tiền. Vì vậy tôi sẽ đi làm.",
+      "explanation": "Muốn CÓ một đồ vật/thứ gì đó (tiền) dùng ほしいです. Phía sau nói đi làm nên phía trước phải là 'muốn có tiền'."
+    }
+  ],
   "readings": readings,
   
+  "poem": {
+    "title": "ほしい・たい",
+    "titleVn": "❤️ Ước muốn và mục đích",
+    "intro": "Tóm tắt Bài 13 qua việc diễn đạt ý muốn đồ vật (ほしい) và muốn làm hành động (たい).",
+    "lines": [
+      {
+        "kanji": "赤い車が欲しいです。",
+        "jp": "あかい くるまが ほしいです。",
+        "romaji": "Akai kuruma ga hoshii desu.",
+        "vn": "Tôi muốn có một chiếc ô tô màu đỏ.",
+        "note": "がほしい"
+      },
+      {
+        "kanji": "京都へ遊びに行きたいです。",
+        "jp": "きょうとへ あそびに いきたいです。",
+        "romaji": "Kyouto e asobi ni ikitai desu.",
+        "vn": "Tôi muốn đi chơi ở Kyoto.",
+        "note": "にいく · たい"
+      },
+      {
+        "kanji": "のどが渇いた、何か飲みたい。",
+        "jp": "のどが かわいた、なにか のみたい。",
+        "romaji": "Nodo ga kawaita, nanika nomitai.",
+        "vn": "Khát nước quá, muốn uống cái gì đó.",
+        "note": "何か · 飲みたい"
+      },
+      {
+        "kanji": "デパートへ靴を買いに行きます。",
+        "jp": "デパートへ くつを かいに いきます。",
+        "romaji": "Depaato e kutsu o kai ni ikimasu.",
+        "vn": "Tôi đi TTTM để mua giày.",
+        "note": "買いに"
+      }
+    ]
+  }
 };
 
 export default lesson;

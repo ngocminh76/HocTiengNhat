@@ -77,7 +77,7 @@ export function NihongoPage({ mastery, sentenceMastery, onHome, onSelectLesson }
 
           const passMode = localStorage.getItem('n5_pass_mode') === 'flexible' ? 'flexible' : 'strict';
           const isPrevCompleted = idx > 0 ? !!mastery[NIHONGO_LESSONS[idx - 1].id]?.isCompleted : true;
-          const isUnlocked = idx === 0 || (passMode === 'strict' ? (isPrevCompleted && prevPracticed) : isPrevCompleted);
+          const isUnlocked = isPrevCompleted;
           const isCompleted = mastery[lesson.id]?.isCompleted;
           const isSelected = selectedForReview.includes(lesson.id);
 

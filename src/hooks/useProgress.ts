@@ -11,16 +11,18 @@ function load(): Progress {
     const raw = localStorage.getItem(KEY);
     if (raw) {
       const p = JSON.parse(raw) as Progress;
-      // Auto-unlock lessons 1 and 2 for existing users
+      // Auto-unlock lessons 1 to 4 for existing users based on feedback
       if (!p.nihongoMastery) p.nihongoMastery = {};
       if (!p.nihongoMastery[1]) p.nihongoMastery[1] = { isCompleted: true };
       if (!p.nihongoMastery[2]) p.nihongoMastery[2] = { isCompleted: true };
+      if (!p.nihongoMastery[3]) p.nihongoMastery[3] = { isCompleted: true };
+      if (!p.nihongoMastery[4]) p.nihongoMastery[4] = { isCompleted: true };
       return p;
     }
   } catch { /* ignore */ }
   return { 
     xp: 0, streak: 0, learnedIds: [], weakIds: [], lastQuizDate: '', sessionLogs: [], deepStageMap: {}, learnedGrammarIds: [],
-    nihongoMastery: { 1: { isCompleted: true }, 2: { isCompleted: true } }
+    nihongoMastery: { 1: { isCompleted: true }, 2: { isCompleted: true }, 3: { isCompleted: true }, 4: { isCompleted: true } }
   };
 }
 

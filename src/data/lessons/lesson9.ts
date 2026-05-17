@@ -459,6 +459,274 @@ const lesson: NihongoLesson = {
       "romaji": "arimasu",
       "meaning": "Có (sở hữu)",
       "type": "Động từ"
+    },
+    {
+      "id": "L9_38",
+      "word": "ひらがな",
+      "reading": "ひらがな",
+      "romaji": "hiragana",
+      "meaning": "Chữ Hiragana",
+      "type": "Danh từ"
+    },
+    {
+      "id": "L9_39",
+      "word": "かたかな",
+      "reading": "かたかな",
+      "romaji": "katakana",
+      "meaning": "Chữ Katakana",
+      "type": "Danh từ"
+    },
+    {
+      "id": "L9_40",
+      "word": "ローマ字",
+      "reading": "ローマじ",
+      "romaji": "roomaji",
+      "meaning": "Chữ Romaji",
+      "type": "Danh từ"
+    },
+    {
+      "id": "L9_41",
+      "word": "～から",
+      "reading": "～から",
+      "romaji": "~kara",
+      "meaning": "Vì ~ (chỉ lý do)",
+      "type": "Liên từ"
+    },
+    {
+      "id": "L9_42",
+      "word": "どうして",
+      "reading": "どうして",
+      "romaji": "doushite",
+      "meaning": "Tại sao",
+      "type": "Từ hỏi"
+    },
+    {
+      "id": "L9_43",
+      "word": "残念です",
+      "reading": "ざんねんです",
+      "romaji": "zannen desu",
+      "meaning": "Thật đáng tiếc nhỉ",
+      "type": "Mẫu câu",
+      "kanjiBreakdown": {
+        "hanviet": "TÀN NIỆM",
+        "components": "残 (Tàn - Tàn dư/Sót lại) + 念 (Niệm - Ý niệm/Suy nghĩ)",
+        "story": "Ý niệm (Niệm) tiếc nuối vẫn còn sót lại (Tàn).",
+        "examples": "残念です (Thật đáng tiếc)"
+      }
+    },
+    {
+      "id": "L9_44",
+      "word": "すみません",
+      "reading": "すみません",
+      "romaji": "sumimasen",
+      "meaning": "Xin lỗi",
+      "type": "Mẫu câu"
+    }
+  ],
+  "grammar": [
+    {
+      "title": "N が あります / わかります",
+      "structure": "N(đối tượng) が あります / わかります",
+      "usage": "Động từ chỉ sự sở hữu (あります - có) và động từ chỉ sự hiểu biết/khả năng (わかります - hiểu) lấy trợ từ が để chỉ đối tượng (khác với động từ hành động dùng を).",
+      "examples": [
+        {
+          "jp": "わたしは くるまが あります。",
+          "romaji": "watashi wa kuruma ga arimasu.",
+          "vn": "Tôi có ô tô."
+        },
+        {
+          "jp": "わたしは にほんごが わかります。",
+          "romaji": "watashi wa nihongo ga wakarimasu.",
+          "vn": "Tôi hiểu tiếng Nhật."
+        }
+      ]
+    },
+    {
+      "title": "N が 好き / 嫌い / 上手 / 下手 です",
+      "structure": "N(đối tượng) が すき / きらい / じょうず / へた です",
+      "usage": "Các tính từ chỉ sở thích (すき - thích, きらい - ghét) và tính từ chỉ năng lực (じょうず - giỏi, へた - kém) cũng lấy trợ từ が để biểu thị đối tượng.",
+      "examples": [
+        {
+          "jp": "わたしは イタリアりょうりが すきです。",
+          "romaji": "watashi wa itaria ryouri ga suki desu.",
+          "vn": "Tôi thích món ăn Ý."
+        },
+        {
+          "jp": "やまださんは ダンスが じょうずです。",
+          "romaji": "yamada san wa dansu ga jouzu desu.",
+          "vn": "Anh Yamada khiêu vũ giỏi."
+        }
+      ]
+    },
+    {
+      "title": "どんな N が好きですか",
+      "structure": "どんな N が すきですか",
+      "usage": "Dùng để hỏi sở thích cụ thể về một thứ/một người nằm trong nhóm danh từ N lớn.",
+      "examples": [
+        {
+          "jp": "どんな スポーツが すきですか。",
+          "romaji": "donna supootsu ga suki desu ka.",
+          "vn": "Bạn thích môn thể thao nào?"
+        },
+        {
+          "jp": "サッカーが すきです。",
+          "romaji": "sakkaa ga suki desu.",
+          "vn": "Tôi thích bóng đá."
+        }
+      ]
+    },
+    {
+      "title": "Phó từ chỉ mức độ",
+      "structure": "よく / だいたい / たくさん / 少し / あまり / 全然",
+      "usage": "Phó từ đặt trước động từ/tính từ. Khẳng định: よく (rất, rõ), だいたい (đại khái), たくさん (nhiều), すこし (một chút). Phủ định: あまり (không... lắm), ぜんぜん (hoàn toàn không). Dùng たくさん cho tiền bạc/đồ vật. Dùng よく cho hiểu biết.",
+      "examples": [
+        {
+          "jp": "えいごが よく わかります。",
+          "romaji": "eigo ga yoku wakarimasu.",
+          "vn": "Tôi hiểu rất rõ tiếng Anh."
+        },
+        {
+          "jp": "おかねが ぜんぜん ありません。",
+          "romaji": "okane ga zenzen arimasen.",
+          "vn": "Tôi hoàn toàn không có tiền."
+        }
+      ]
+    },
+    {
+      "title": "Mệnh đề chỉ lý do: ～から",
+      "structure": "S1(lý do) から、S2(kết quả)",
+      "usage": "Trợ từ から nối 2 mệnh đề có quan hệ nhân quả. S1 là lý do, S2 là kết quả (Vì S1 nên S2). Có thể tách S1 và S2 thành 2 câu riêng biệt.",
+      "examples": [
+        {
+          "jp": "じかんが ありませんから、しんぶんを よみません。",
+          "romaji": "jikan ga arimasen kara, shinbun wo yomimasen.",
+          "vn": "Vì không có thời gian nên tôi không đọc báo."
+        }
+      ]
+    },
+    {
+      "title": "どうして (Tại sao)",
+      "structure": "どうして ～ か",
+      "usage": "Từ để hỏi lý do (Tại sao?). Câu trả lời phải kết thúc bằng ～から.",
+      "examples": [
+        {
+          "jp": "どうして しんぶんを よみませんか。",
+          "romaji": "doushite shinbun wo yomimasen ka.",
+          "vn": "Tại sao bạn không đọc báo?"
+        },
+        {
+          "jp": "じかんが ありませんから。",
+          "romaji": "jikan ga arimasen kara.",
+          "vn": "Bởi vì tôi không có thời gian."
+        }
+      ]
+    }
+  ],
+  "grammarExercises": [
+    {
+      "question": "わたしは 日本語(にほんご) [blank] 好(す)きです。",
+      "options": ["が", "を", "に", "で"],
+      "answer": "が",
+      "vn": "Tôi thích tiếng Nhật.",
+      "explanation": "Tính từ chỉ sở thích (すき - thích, きらい - ghét) dùng trợ từ が để chỉ đối tượng."
+    },
+    {
+      "question": "わたしは 英語(えいご) [blank] 分(わ)かります。",
+      "options": ["が", "を", "に", "へ"],
+      "answer": "が",
+      "vn": "Tôi hiểu tiếng Anh.",
+      "explanation": "Động từ chỉ khả năng hiểu biết (わかります) dùng trợ từ が."
+    },
+    {
+      "question": "やまださんは ピアノ [blank] 上手(じょうず)です。",
+      "options": ["が", "を", "の", "に"],
+      "answer": "が",
+      "vn": "Anh Yamada giỏi piano.",
+      "explanation": "Tính từ chỉ năng lực (じょうず - giỏi, へた - kém) dùng trợ từ が."
+    },
+    {
+      "question": "[blank] スポーツが 好(す)きですか。 ...サッカーが 好きです。",
+      "options": ["どんな", "どう", "なに", "だれ"],
+      "answer": "どんな",
+      "vn": "Bạn thích môn thể thao nào? ...Tôi thích bóng đá.",
+      "explanation": "Hỏi về một loại hình cụ thể trong một nhóm (thể thao) dùng どんな + Danh từ."
+    },
+    {
+      "question": "わたしは 日本語(にほんご)が [blank] 分(わ)かります。",
+      "options": ["よく", "たくさん", "あまり", "ぜんぜん"],
+      "answer": "よく",
+      "vn": "Tôi hiểu tiếng Nhật rất rõ.",
+      "explanation": "Đi với mức độ hiểu biết (わかります) và mang nghĩa khẳng định tích cực nhất thì dùng よく (rất, rõ)."
+    },
+    {
+      "question": "わたしは お金(かね)が [blank] あります。",
+      "options": ["たくさん", "よく", "だいたい", "ぜんぜん"],
+      "answer": "たくさん",
+      "vn": "Tôi có nhiều tiền.",
+      "explanation": "Đi với số lượng của đồ vật, tiền bạc (あります) mang nghĩa khẳng định dùng たくさん (nhiều)."
+    },
+    {
+      "question": "英語(えいご)が [blank] 分(わ)かりません。",
+      "options": ["あまり", "よく", "たくさん", "すこし"],
+      "answer": "あまり",
+      "vn": "Tôi không hiểu tiếng Anh cho lắm.",
+      "explanation": "Câu có đuôi phủ định (わかりません) nên đi với phó từ あまり (không... lắm) hoặc ぜんぜん (hoàn toàn không)."
+    },
+    {
+      "question": "お金(かね)が [blank] ありません。",
+      "options": ["ぜんぜん", "よく", "たくさん", "だいたい"],
+      "answer": "ぜんぜん",
+      "vn": "Tôi hoàn toàn không có tiền.",
+      "explanation": "Câu ở thể phủ định (ありません) chỉ có thể đi với phó từ あまり hoặc ぜんぜん."
+    },
+    {
+      "question": "時間(じかん)が ありません [blank]、テレビを 見(み)ません。",
+      "options": ["から", "が", "そして", "で"],
+      "answer": "から",
+      "vn": "Vì không có thời gian nên tôi không xem tivi.",
+      "explanation": "Nối 2 vế có quan hệ nhân quả (Vì... nên) dùng liên từ から."
+    },
+    {
+      "question": "[blank] 昨日(きのう) 早(はや)く 帰(かえ)りましたか。 ...用事(ようじ)が ありましたから。",
+      "options": ["どうして", "どんな", "どう", "だれ"],
+      "answer": "どうして",
+      "vn": "Tại sao hôm qua bạn về sớm? ...Vì tôi có việc bận.",
+      "explanation": "Câu trả lời kết thúc bằng ～から (Vì) nên câu hỏi là どうして (Tại sao)."
+    },
+    {
+      "question": "どうして けさ コーヒーを 飲(の)みませんでしたか。 ...時間(じかん)が ありませんでした [blank]。",
+      "options": ["から", "が", "で", "に"],
+      "answer": "から",
+      "vn": "Tại sao sáng nay bạn không uống cà phê? ...Vì tôi không có thời gian.",
+      "explanation": "Câu trả lời cho câu hỏi どうして (Tại sao) phải kết thúc bằng từ から."
+    },
+    {
+      "question": "わたしは 歌(うた)が [blank] です。ぜんぜん 上手(じょうず)じゃありません。",
+      "options": ["下手(へた)", "上手(じょうず)", "好(す)き", "嫌(きら)い"],
+      "answer": "下手(へた)",
+      "vn": "Tôi hát dở. Hoàn toàn không giỏi chút nào.",
+      "explanation": "Vế sau là 'hoàn toàn không giỏi' (ぜんぜん 上手じゃありません) nên vế trước phải là 'hát dở' (下手)."
+    },
+    {
+      "question": "どんな [blank] が 好(す)きですか。 ...クラシックが 好きです。",
+      "options": ["音楽(おんがく)", "スポーツ", "食(た)べ物(もの)", "飲(の)み物(もの)"],
+      "answer": "音楽(おんがく)",
+      "vn": "Bạn thích âm nhạc nào? ...Tôi thích nhạc cổ điển.",
+      "explanation": "Câu trả lời クラシック (nhạc cổ điển) là một loại 音楽 (âm nhạc)."
+    },
+    {
+      "question": "きょうは 早(はや)く 帰(かえ)ります。子(こ)どもの 誕生日(たんじょうび) [blank]。",
+      "options": ["ですから", "ですが", "ですそして", "ですで"],
+      "answer": "ですから",
+      "vn": "Hôm nay tôi về sớm. Vì là sinh nhật của con tôi.",
+      "explanation": "Nêu lý do đi liền với danh từ (誕生日) cần có です + から (ですから - Vì là)."
+    },
+    {
+      "question": "あの 映画(えいが)は [blank] おもしろくないです。",
+      "options": ["ぜんぜん", "とても", "たくさん", "よく"],
+      "answer": "ぜんぜん",
+      "vn": "Bộ phim đó hoàn toàn không thú vị.",
+      "explanation": "Đuôi câu là phủ định (おもしろくないです - Không thú vị) nên phải đi với ぜんぜん (Hoàn toàn không)."
     }
   ],
   "readings": readings,

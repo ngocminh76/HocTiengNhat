@@ -657,6 +657,217 @@ const lesson: NihongoLesson = {
       "type": "Danh từ"
     }
   ],
+  "grammar": [
+    {
+      "title": "ここ / そこ / あそこ / どこ",
+      "structure": "ここ / そこ / あそこ は N(địa điểm) です",
+      "usage": "Đại từ chỉ địa điểm.\n- ここ (koko): Chỗ này, đây (gần người nói).\n- そこ (soko): Chỗ đó, đó (gần người nghe).\n- あそこ (asoko): Chỗ kia, kia (xa cả hai).\n- どこ (doko): Ở đâu?",
+      "examples": [
+        {
+          "jp": "ここは きょうしつです。",
+          "romaji": "koko wa kyoushitsu desu.",
+          "vn": "Đây là phòng học."
+        },
+        {
+          "jp": "おてあらいは どこですか。",
+          "romaji": "otearai wa doko desu ka.",
+          "vn": "Nhà vệ sinh ở đâu?"
+        }
+      ]
+    },
+    {
+      "title": "こちら / そちら / あちら / どちら",
+      "structure": "こちら / そちら / あちら は N(địa điểm) です",
+      "usage": "Là cách nói LỊCH SỰ của ここ / そこ / あそこ / どこ.\nThường dùng để chỉ phương hướng (hướng này, hướng đó...) nhưng cũng dùng để chỉ địa điểm một cách trang trọng.",
+      "examples": [
+        {
+          "jp": "エレベーターは どちらですか。",
+          "romaji": "erebeetaa wa dochira desu ka.",
+          "vn": "Thang máy ở phía nào (ở đâu) vậy?"
+        },
+        {
+          "jp": "あちらです。",
+          "romaji": "achira desu.",
+          "vn": "Ở phía kia ạ."
+        }
+      ]
+    },
+    {
+      "title": "N1 は N2 (địa điểm) です",
+      "structure": "N1 は N2 です",
+      "usage": "Mẫu câu dùng để diễn tả vị trí của một vật, một người hoặc một địa điểm (N1 ở N2).",
+      "examples": [
+        {
+          "jp": "でんわは 2かいです。",
+          "romaji": "denwa wa nikai desu.",
+          "vn": "Điện thoại ở tầng 2."
+        },
+        {
+          "jp": "やまださんは じむしょです。",
+          "romaji": "Yamada san wa jimusho desu.",
+          "vn": "Anh Yamada đang ở văn phòng."
+        }
+      ]
+    },
+    {
+      "title": "Hỏi xuất xứ: どこ / どちら",
+      "structure": "N は どこ/どちら ですか",
+      "usage": "Ngoài nghĩa 'ở đâu', どこ và どちら còn được dùng để hỏi tên quốc gia, công ty, trường học của ai đó. Không dùng từ hỏi なん (cái gì) trong trường hợp này. Dùng どちら sẽ lịch sự hơn.",
+      "examples": [
+        {
+          "jp": "かいしゃは どちらですか。",
+          "romaji": "kaisha wa dochira desu ka.",
+          "vn": "Công ty của bạn là công ty nào?"
+        },
+        {
+          "jp": "パワーでんきです。",
+          "romaji": "pawaa denki desu.",
+          "vn": "Là điện Power."
+        }
+      ]
+    },
+    {
+      "title": "N1 の N2 (Hàng của nước/công ty nào)",
+      "structure": "N1 の N2",
+      "usage": "Khi N1 là tên quốc gia hoặc tên công ty, mẫu câu này có nghĩa là 'Sản phẩm N2 được sản xuất tại N1'. Để hỏi xuất xứ, dùng từ どこの (của nước nào/của công ty nào).",
+      "examples": [
+        {
+          "jp": "これは どこの ワインですか。",
+          "romaji": "kore wa doko no wain desu ka.",
+          "vn": "Đây là rượu vang của nước nào?"
+        },
+        {
+          "jp": "フランスの ワインです。",
+          "romaji": "furansu no wain desu.",
+          "vn": "Là rượu vang của Pháp."
+        }
+      ]
+    },
+    {
+      "title": "Hỏi giá tiền: いくらですか",
+      "structure": "N は いくらですか",
+      "usage": "Dùng để hỏi giá tiền của một món đồ. Trả lời bằng cách ghép số đếm với 円 (Yên).",
+      "examples": [
+        {
+          "jp": "この ネクタイは いくらですか。",
+          "romaji": "kono nekutai wa ikura desu ka.",
+          "vn": "Cái cà vạt này bao nhiêu tiền?"
+        },
+        {
+          "jp": "1500えんです。",
+          "romaji": "sen gohyaku en desu.",
+          "vn": "1500 Yên."
+        }
+      ]
+    }
+  ],
+  "grammarExercises": [
+    {
+      "question": "[blank] は しょくどうです。",
+      "options": ["これ", "この", "ここ", "だれ"],
+      "answer": "ここ",
+      "vn": "Ở đây là nhà ăn.",
+      "explanation": "しょくどう (nhà ăn) là địa điểm nên phải dùng đại từ chỉ địa điểm (ここ) thay vì chỉ vật (これ)."
+    },
+    {
+      "question": "おてあらいは [blank] ですか。 ...あそこです。",
+      "options": ["どこ", "だれ", "なん", "いくら"],
+      "answer": "どこ",
+      "vn": "Nhà vệ sinh ở đâu vậy? ...Ở đằng kia.",
+      "explanation": "Hỏi địa điểm dùng từ để hỏi どこ (ở đâu)."
+    },
+    {
+      "question": "エレベーターは [blank] ですか。 ...あちらです。",
+      "options": ["どこ", "どちら", "だれ", "どの"],
+      "answer": "どちら",
+      "vn": "Thang máy ở phía nào vậy? ...Ở phía kia.",
+      "explanation": "Người trả lời dùng あちら (lịch sự, chỉ hướng), nên câu hỏi cũng dùng どちら (phía nào) cho đồng bộ và lịch sự."
+    },
+    {
+      "question": "やまださんは じむしょ [blank]。",
+      "options": ["です", "ですか", "の", "は"],
+      "answer": "です",
+      "vn": "Anh Yamada đang ở văn phòng.",
+      "explanation": "Mẫu câu N1 は N2(địa điểm) です dùng để nói ai đó đang ở đâu. Cuối câu dùng です."
+    },
+    {
+      "question": "かいしゃは [blank] ですか。 ...パワーでんきです。",
+      "options": ["なん", "だれ", "どちら", "どの"],
+      "answer": "どちら",
+      "vn": "Công ty của bạn là công ty nào? ...Là công ty điện Power.",
+      "explanation": "Để hỏi tên công ty, trường học, đất nước, ta dùng どこ hoặc どちら, tuyệt đối KHÔNG dùng なん."
+    },
+    {
+      "question": "これは [blank] の くるまですか。 ...ドイツの くるまです。",
+      "options": ["だれ", "なん", "どこ", "どれ"],
+      "answer": "どこ",
+      "vn": "Đây là ô tô của nước nào? ...Là ô tô của Đức.",
+      "explanation": "Hỏi xuất xứ (đồ vật được sản xuất ở đâu), dùng どこの (của nước/công ty nào)."
+    },
+    {
+      "question": "その とけいは [blank] ですか。 ...2,000えんです。",
+      "options": ["いくつ", "いくら", "どこ", "なん"],
+      "answer": "いくら",
+      "vn": "Cái đồng hồ đó giá bao nhiêu? ...2,000 Yên.",
+      "explanation": "Hỏi giá tiền ta dùng từ いくら (Bao nhiêu tiền)."
+    },
+    {
+      "question": "ミラーさんは [blank] ですか。 ...かいぎしつです。",
+      "options": ["だれ", "どこ", "なん", "いくつ"],
+      "answer": "どこ",
+      "vn": "Anh Miller đang ở đâu? ...Ở phòng họp.",
+      "explanation": "Câu trả lời là địa điểm (かいぎしつ - phòng họp) nên câu hỏi phải là どこ (ở đâu)."
+    },
+    {
+      "question": "カメラうりばは [blank] ですか。 ...5かいです。",
+      "options": ["なん", "だれ", "どこ", "いつ"],
+      "answer": "どこ",
+      "vn": "Quầy bán máy ảnh ở đâu? ...Ở tầng 5.",
+      "explanation": "Tầng 5 là địa điểm, vị trí. Do đó dùng どこ (hoặc なんがい) để hỏi."
+    },
+    {
+      "question": "おくには [blank] ですか。 ...アメリカです。",
+      "options": ["どちら", "だれ", "なん", "の"],
+      "answer": "どちら",
+      "vn": "Đất nước của bạn là nước nào? ...Là nước Mỹ.",
+      "explanation": "Hỏi về quốc gia (おくに), để lịch sự người ta thường dùng どちら."
+    },
+    {
+      "question": "すみません、でんわは どこ [blank]。",
+      "options": ["です", "ですか", "の", "か"],
+      "answer": "ですか",
+      "vn": "Xin lỗi, điện thoại ở đâu vậy?",
+      "explanation": "Câu hỏi cuối câu dùng ですか."
+    },
+    {
+      "question": "これは イタリア [blank] ワインです。",
+      "options": ["は", "が", "の", "も"],
+      "answer": "の",
+      "vn": "Đây là rượu vang của Ý.",
+      "explanation": "N1 の N2 chỉ xuất xứ sản phẩm (Rượu vang của nước Ý)."
+    },
+    {
+      "question": "あそこ [blank] わたしの だいがくです。",
+      "options": ["は", "が", "の", "も"],
+      "answer": "は",
+      "vn": "Kia là trường đại học của tôi.",
+      "explanation": "あそこ đóng vai trò chủ ngữ trong câu chỉ địa điểm, đi kèm trợ từ は."
+    },
+    {
+      "question": "[blank] かばんは わたしのです。",
+      "options": ["それ", "その", "そこ", "そちら"],
+      "answer": "その",
+      "vn": "Cái cặp đó là của tôi.",
+      "explanation": "Đứng trước danh từ (かばん) phải dùng この/その/あの. Không dùng これ/それ/あれ hoặc đại từ địa điểm."
+    },
+    {
+      "question": "この ネクタイは [blank] ですか。 ...1,500えんです。",
+      "options": ["いくら", "いくつ", "どこ", "だれ"],
+      "answer": "いくら",
+      "vn": "Cái cà vạt này bao nhiêu tiền? ...1,500 yên.",
+      "explanation": "Để hỏi giá tiền, dùng từ để hỏi いくら (Bao nhiêu tiền)."
+    }
+  ],
   "readings": readings,
   
   "poem": {

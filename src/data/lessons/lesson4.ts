@@ -685,6 +685,207 @@ const lesson: NihongoLesson = {
       }
     }
   ],
+  "grammar": [
+    {
+      "title": "今 ～時 ～分 です",
+      "structure": "いま ～じ ～ふん/ぷん です",
+      "usage": "Nói về thời gian hiện tại. Lắp số đếm trước chữ 時 (giờ) và 分 (phút).\n* Chú ý phút: Các số 1, 3, 4, 6, 8, 10 đọc là ぷん (pun). Các số 2, 5, 7, 9 đọc là ふん (fun).\n* Chú ý giờ đặc biệt: 4時 (よじ - yoji), 7時 (しちじ - shichiji), 9時 (くじ - kuji).",
+      "examples": [
+        {
+          "jp": "いま 7じ 10ぷんです。",
+          "romaji": "ima shichiji juppun desu.",
+          "vn": "Bây giờ là 7 giờ 10 phút."
+        },
+        {
+          "jp": "ニューヨークは いま なんじですか。",
+          "romaji": "nyuuyooku wa ima nanji desu ka.",
+          "vn": "Bây giờ New York là mấy giờ?"
+        }
+      ]
+    },
+    {
+      "title": "Động từ thể ます / ません",
+      "structure": "Vます / Vません / Vました / Vませんでした",
+      "usage": "Thể lịch sự của động từ.\n- ます (masu): Hiện tại/Tương lai, thói quen (Làm...)\n- ません (masen): Phủ định hiện tại/Tương lai (Không làm...)\n- ました (mashita): Quá khứ (Đã làm...)\n- ませんでした (masen deshita): Phủ định quá khứ (Đã không làm...)",
+      "examples": [
+        {
+          "jp": "まいあさ 6じに おきます。",
+          "romaji": "maiasa rokuji ni okimasu.",
+          "vn": "Mỗi sáng tôi thức dậy lúc 6 giờ."
+        },
+        {
+          "jp": "きのう べんきょうしませんでした。",
+          "romaji": "kinou benkyou shimasen deshita.",
+          "vn": "Hôm qua tôi đã không học bài."
+        }
+      ]
+    },
+    {
+      "title": "N (Thời gian) に V (Làm gì lúc mấy giờ)",
+      "structure": "N(thời gian) に V",
+      "usage": "Trợ từ に (ni) đặt sau danh từ chỉ thời gian (có chứa số đếm như giờ, ngày, tháng, năm) để chỉ thời điểm xảy ra hành động. Với thứ trong tuần có thể có hoặc không có に. Với từ chỉ thời gian chung chung (như hôm qua, ngày mai, sáng nay) thì KHÔNG dùng に.",
+      "examples": [
+        {
+          "jp": "6じはんに おきます。",
+          "romaji": "rokujihan ni okimasu.",
+          "vn": "Tôi thức dậy lúc 6 giờ rưỡi."
+        },
+        {
+          "jp": "きのう べんきょうしました。",
+          "romaji": "kinou benkyou shimashita.",
+          "vn": "Hôm qua tôi đã học bài. (Không có ni sau kinou)"
+        }
+      ]
+    },
+    {
+      "title": "～から ～まで (Từ ~ Đến ~)",
+      "structure": "N1(thời gian/địa điểm) から N2(thời gian/địa điểm) まで",
+      "usage": "から (kara) chỉ điểm bắt đầu (Từ). まで (made) chỉ điểm kết thúc (Đến). Cả hai có thể đi cùng nhau hoặc đứng riêng lẻ.",
+      "examples": [
+        {
+          "jp": "9じから 5じまで はたらきます。",
+          "romaji": "kuji kara goji made hatarakimasu.",
+          "vn": "Tôi làm việc từ 9 giờ đến 5 giờ."
+        },
+        {
+          "jp": "ひるやすみは 12じからです。",
+          "romaji": "hiruyasumi wa juuniji kara desu.",
+          "vn": "Giờ nghỉ trưa bắt đầu từ 12 giờ."
+        }
+      ]
+    },
+    {
+      "title": "N1 と N2 (Và)",
+      "structure": "N1 と N2",
+      "usage": "Trợ từ と (to) dùng để nối hai danh từ lại với nhau (có nghĩa là 'và').",
+      "examples": [
+        {
+          "jp": "ぎんこうの やすみは どようびと にちようびです。",
+          "romaji": "ginkou no yasumi wa doyoubi to nichiyoubi desu.",
+          "vn": "Ngày nghỉ của ngân hàng là thứ Bảy và Chủ nhật."
+        }
+      ]
+    },
+    {
+      "title": "Trợ từ ね ở cuối câu",
+      "structure": "Câu + ね",
+      "usage": "Thêm ね ở cuối câu (đọc với giọng thấp hoặc vừa) để biểu hiện sự đồng cảm, mong muốn người nghe đồng tình (nhỉ, nhé, quá nhỉ). Hoặc (đọc với giọng cao lên) để xác nhận lại thông tin (phải không, hả).",
+      "examples": [
+        {
+          "jp": "たいへんですね。",
+          "romaji": "taihen desu ne.",
+          "vn": "Vất vả quá nhỉ."
+        }
+      ]
+    }
+  ],
+  "grammarExercises": [
+    {
+      "question": "いま [blank] ですか。 ...5じです。",
+      "options": ["なんじ", "いくら", "どこ", "だれ"],
+      "answer": "なんじ",
+      "vn": "Bây giờ là mấy giờ? ...Là 5 giờ.",
+      "explanation": "Để hỏi thời gian, dùng なんじ (mấy giờ)."
+    },
+    {
+      "question": "きょうは [blank] ですか。 ...かようびです。",
+      "options": ["なんようび", "なんじ", "なんばん", "いつ"],
+      "answer": "なんようび",
+      "vn": "Hôm nay là thứ mấy? ...Là thứ Ba.",
+      "explanation": "Để hỏi thứ trong tuần, dùng なんようび (thứ mấy)."
+    },
+    {
+      "question": "まいあさ 6じ [blank] おきます。",
+      "options": ["に", "で", "は", "も"],
+      "answer": "に",
+      "vn": "Tôi thức dậy vào lúc 6 giờ mỗi sáng.",
+      "explanation": "Đứng sau thời gian có số đếm cụ thể (như 6 giờ) phải dùng trợ từ に để chỉ thời điểm."
+    },
+    {
+      "question": "きのう [blank]。 ...はい、べんきょうしました。",
+      "options": ["べんきょうしましたか", "べんきょうしますか", "べんきょうしました", "べんきょうしません"],
+      "answer": "べんきょうしましたか",
+      "vn": "Hôm qua bạn đã học bài chưa? ...Vâng, tôi đã học bài.",
+      "explanation": "Câu hỏi trong quá khứ nên phải dùng ましたか."
+    },
+    {
+      "question": "ぎんこうの やすみは どようび [blank] にちようびです。",
+      "options": ["と", "に", "も", "は"],
+      "answer": "と",
+      "vn": "Ngày nghỉ của ngân hàng là thứ Bảy và Chủ nhật.",
+      "explanation": "Trợ từ と dùng để liệt kê nối 2 danh từ với nhau (N1 và N2)."
+    },
+    {
+      "question": "9じから 5じ [blank] はたらきます。",
+      "options": ["まで", "に", "は", "か"],
+      "answer": "まで",
+      "vn": "Tôi làm việc từ 9 giờ đến 5 giờ.",
+      "explanation": "Mẫu câu から〜まで nghĩa là 'Từ ~ Đến ~'."
+    },
+    {
+      "question": "きのうの ばん、[blank]。",
+      "options": ["べんきょうしました", "べんきょうします", "べんきょうしますか", "べんきょうしません"],
+      "answer": "べんきょうしました",
+      "vn": "Tối hôm qua, tôi đã học bài.",
+      "explanation": "Có trạng từ chỉ thời gian trong quá khứ (きのうの ばん) nên động từ phải chia về quá khứ đuôi ました."
+    },
+    {
+      "question": "あした はたらきますか。 ...いいえ、[blank]。",
+      "options": ["はたらきません", "はたらきませんでした", "はたらきました", "はたらきます"],
+      "answer": "はたらきません",
+      "vn": "Ngày mai bạn có làm việc không? ...Không, tôi không làm việc.",
+      "explanation": "あした (Ngày mai) là tương lai, trả lời いいえ (phủ định) nên dùng đuôi ません."
+    },
+    {
+      "question": "おととい、やすみましたか。 ...はい、[blank]。",
+      "options": ["やすみました", "やすみません", "やすみませんでした", "やすみます"],
+      "answer": "やすみました",
+      "vn": "Hôm kia bạn có nghỉ không? ...Vâng, tôi đã nghỉ.",
+      "explanation": "おととい (Hôm kia) là quá khứ, trả lời はい (khẳng định) nên dùng đuôi ました."
+    },
+    {
+      "question": "びじゅつかんは なんじ [blank] なんじまでですか。",
+      "options": ["から", "に", "で", "を"],
+      "answer": "から",
+      "vn": "Bảo tàng mỹ thuật mở cửa từ mấy giờ đến mấy giờ?",
+      "explanation": "Cấu trúc ghép đôi から〜まで (từ 〜 đến 〜)."
+    },
+    {
+      "question": "まいにち 10じに ねます [blank]。",
+      "options": ["か", "ね", "は", "の"],
+      "answer": "か",
+      "vn": "Mỗi ngày bạn đi ngủ lúc 10 giờ phải không?",
+      "explanation": "Câu hỏi cuối câu dùng trợ từ か."
+    },
+    {
+      "question": "さとうさんの でんわばんごうは [blank] ですか。",
+      "options": ["なんばん", "なんじ", "なんようび", "どこ"],
+      "answer": "なんばん",
+      "vn": "Số điện thoại của chị Sato là số mấy?",
+      "explanation": "Hỏi số điện thoại, số phòng dùng なんばん (Số mấy)."
+    },
+    {
+      "question": "まいあさ 9じから 5じまで べんきょうします。 ...たいへん [blank]。",
+      "options": ["ですね", "ですか", "です", "じゃありません"],
+      "answer": "ですね",
+      "vn": "Mỗi sáng tôi học từ 9 giờ đến 5 giờ. ...Vất vả quá nhỉ.",
+      "explanation": "Người nghe tỏ ý đồng cảm với đối phương, dùng đuôi câu ですね (nhỉ / quá nhỉ)."
+    },
+    {
+      "question": "だいがくは なんじ [blank] おわりますか。",
+      "options": ["に", "で", "から", "と"],
+      "answer": "に",
+      "vn": "Trường đại học kết thúc vào lúc mấy giờ?",
+      "explanation": "Hỏi thời điểm xảy ra hành động (kết thúc lúc mấy giờ) dùng trợ từ に sau なんじ."
+    },
+    {
+      "question": "けさ、[blank] はたらきませんでした。",
+      "options": ["わたしは", "わたしが", "わたしの", "わたしも"],
+      "answer": "わたしは",
+      "vn": "Sáng nay, tôi đã không làm việc.",
+      "explanation": "わたし (Tôi) là chủ đề của câu, đi kèm trợ từ は."
+    }
+  ],
   "readings": readings,
   
   "poem": {

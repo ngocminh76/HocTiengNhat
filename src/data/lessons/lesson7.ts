@@ -357,33 +357,336 @@ const lesson: NihongoLesson = {
       "romaji": "fakusu",
       "meaning": "Máy Fax",
       "type": "Danh từ"
+    },
+    {
+      "id": "L7_32",
+      "word": "ワープロ",
+      "reading": "ワープロ",
+      "romaji": "waapuro",
+      "meaning": "Máy đánh chữ (Word processor)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "L7_33",
+      "word": "パンチ",
+      "reading": "パンチ",
+      "romaji": "panchi",
+      "meaning": "Cái đục lỗ",
+      "type": "Danh từ"
+    },
+    {
+      "id": "L7_34",
+      "word": "ホッチキス",
+      "reading": "ホッチキス",
+      "romaji": "hotchikisu",
+      "meaning": "Cái dập ghim",
+      "type": "Danh từ"
+    },
+    {
+      "id": "L7_35",
+      "word": "セロテープ",
+      "reading": "セロテープ",
+      "romaji": "seroteepu",
+      "meaning": "Băng dính",
+      "type": "Danh từ"
+    },
+    {
+      "id": "L7_36",
+      "word": "クリスマス",
+      "reading": "クリスマス",
+      "romaji": "kurisumasu",
+      "meaning": "Giáng sinh",
+      "type": "Danh từ"
+    },
+    {
+      "id": "L7_37",
+      "word": "これから",
+      "reading": "これから",
+      "romaji": "korekara",
+      "meaning": "Từ bây giờ, sau đây",
+      "type": "Phó từ"
+    },
+    {
+      "id": "L7_38",
+      "word": "～すてきですね",
+      "reading": "～すてきですね",
+      "romaji": "~suteki desu ne",
+      "meaning": "~ hay nhỉ, tuyệt nhỉ",
+      "type": "Mẫu câu"
+    },
+    {
+      "id": "L7_39",
+      "word": "ごめんください",
+      "reading": "ごめんください",
+      "romaji": "gomenkudasai",
+      "meaning": "Xin lỗi, có ai ở nhà không?",
+      "type": "Mẫu câu"
+    },
+    {
+      "id": "L7_40",
+      "word": "いらっしゃい",
+      "reading": "いらっしゃい",
+      "romaji": "irasshai",
+      "meaning": "Rất hoan nghênh / Chào mừng bạn đến chơi",
+      "type": "Mẫu câu"
+    },
+    {
+      "id": "L7_41",
+      "word": "どうぞ おあがりください",
+      "reading": "どうぞ おあがりください",
+      "romaji": "douzo oagarikudasai",
+      "meaning": "Xin mời vào (nhà)",
+      "type": "Mẫu câu"
+    },
+    {
+      "id": "L7_42",
+      "word": "失礼します",
+      "reading": "しつれいします",
+      "romaji": "shitsureishimasu",
+      "meaning": "Xin thất lễ / Xin phép",
+      "type": "Mẫu câu"
+    },
+    {
+      "id": "L7_43",
+      "word": "～はいかがですか",
+      "reading": "～はいかがですか",
+      "romaji": "~wa ikaga desu ka",
+      "meaning": "Bạn dùng ~ có được không? (mời ăn uống)",
+      "type": "Mẫu câu"
+    },
+    {
+      "id": "L7_44",
+      "word": "いただきます",
+      "reading": "いただきます",
+      "romaji": "itadakimasu",
+      "meaning": "Mời mọi người dùng (trước bữa ăn)",
+      "type": "Mẫu câu"
+    },
+    {
+      "id": "L7_45",
+      "word": "旅行",
+      "reading": "りょこう",
+      "romaji": "ryokou",
+      "meaning": "Chuyến du lịch",
+      "type": "Danh từ"
+    },
+    {
+      "id": "L7_46",
+      "word": "お土産",
+      "reading": "おみやげ",
+      "romaji": "omiyage",
+      "meaning": "Quà lưu niệm",
+      "type": "Danh từ"
+    },
+    {
+      "id": "L7_47",
+      "word": "ヨーロッパ",
+      "reading": "ヨーロッパ",
+      "romaji": "yooroppa",
+      "meaning": "Châu Âu",
+      "type": "Danh từ"
+    },
+    {
+      "id": "L7_48",
+      "word": "スペイン",
+      "reading": "スペイン",
+      "romaji": "supein",
+      "meaning": "Tây Ban Nha",
+      "type": "Danh từ"
     }
   ],
   "grammar": [
     {
-      "pattern": "N(công cụ) で V",
-      "meaning": "Làm [V] bằng [N]",
-      "note": "Đây là trợ từ で chỉ phương tiện, dụng cụ. VD: はしで食べます。 (Ăn bằng đũa)."
+      "title": "N(công cụ/phương tiện) で V",
+      "structure": "N(công cụ/phương tiện) で V",
+      "usage": "Trợ từ で đứng sau danh từ chỉ công cụ, phương tiện để diễn tả việc tiến hành hành động bằng công cụ/phương tiện đó.",
+      "examples": [
+        {
+          "jp": "はしで ごはんを たべます。",
+          "romaji": "hashi de gohan wo tabemasu.",
+          "vn": "Tôi ăn cơm bằng đũa."
+        },
+        {
+          "jp": "パソコンで レポートを かきます。",
+          "romaji": "pasokon de repooto wo kakimasu.",
+          "vn": "Tôi viết báo cáo bằng máy tính."
+        }
+      ]
     },
     {
-      "pattern": "Word は 〜語で 何ですか",
-      "meaning": "Từ này trong tiếng ~ là gì?",
-      "note": "VD: \"Cảm ơn\" は日本語で何ですか。 (\"Cảm ơn\" tiếng Nhật là gì?)"
+      "title": "～は ～語(ご)で 何ですか",
+      "structure": "“Từ/câu” は ～ごで なんですか",
+      "usage": "Mẫu câu dùng để hỏi cách nói một từ hoặc một câu bằng một ngôn ngữ khác. Ngôn ngữ đóng vai trò là phương tiện truyền đạt nên cũng đi với trợ từ で.",
+      "examples": [
+        {
+          "jp": "「ありがとう」は えいごで なんですか。",
+          "romaji": "'Arigatou' wa eigo de nan desu ka.",
+          "vn": "'Cảm ơn' trong tiếng Anh nói thế nào?"
+        },
+        {
+          "jp": "「Thank you」です。",
+          "romaji": "'Thank you' desu.",
+          "vn": "Là 'Thank you'."
+        }
+      ]
     },
     {
-      "pattern": "N(người) に あげます/教えます",
-      "meaning": "Cho/Dạy/Tặng cho ...",
-      "note": "Chiều hành động hướng RA NGOÀI (Từ mình -> Người khác). Đi với trợ từ に."
+      "title": "N(người) に あげます / 貸します / 教えます",
+      "structure": "N(người nhận) に V",
+      "usage": "Các động từ như あげます (cho/tặng), かします (cho mượn), おしえます (dạy)... biểu thị hành động hướng từ mình sang người khác. Trợ từ に đặt sau người nhận hành động.",
+      "examples": [
+        {
+          "jp": "わたしは きむらさんに はなを あげました。",
+          "romaji": "watashi wa kimura san ni hana wo agemashita.",
+          "vn": "Tôi đã tặng hoa cho chị Kimura."
+        },
+        {
+          "jp": "イーさんに ほんを かします。",
+          "romaji": "ii san ni hon wo kashimasu.",
+          "vn": "Tôi cho anh Lee mượn sách."
+        }
+      ]
     },
     {
-      "pattern": "N(người) に もらいます/習います",
-      "meaning": "Nhận/Học từ ...",
-      "note": "Chiều hành động hướng VÀO TRONG (Từ người khác -> Mình). Đi với trợ từ に."
+      "title": "N(người) に もらいます / 借ります / 習います",
+      "structure": "N(người cho) に V",
+      "usage": "Các động từ như もらいます (nhận), かります (mượn), ならいます (học)... biểu thị hành động hướng từ người khác về phía mình. Trợ từ に (hoặc から) đặt sau người cung cấp hành động/đồ vật.",
+      "examples": [
+        {
+          "jp": "わたしは やまださんに チョコレートを もらいました。",
+          "romaji": "watashi wa yamada san ni chokoreeto wo moraimashita.",
+          "vn": "Tôi đã nhận chocolate từ anh Yamada."
+        },
+        {
+          "jp": "サントスさんに にほんごを ならいます。",
+          "romaji": "santosu san ni nihongo wo naraimasu.",
+          "vn": "Tôi học tiếng Nhật từ anh Santos."
+        }
+      ]
     },
     {
-      "pattern": "もう Vました",
-      "meaning": "Đã làm V xong rồi",
-      "note": "Câu hỏi: もう Vましたか (Đã làm chưa?). Trả lời: はい、もう Vました / いいえ、まだです。"
+      "title": "もう Vました (Đã làm xong rồi)",
+      "structure": "もう Vました",
+      "usage": "Phó từ もう (đã... rồi) đi với động từ ở thể quá khứ Vました để diễn tả một hành động đã hoàn thành. Câu trả lời phủ định là いいえ、まだです (Chưa, vẫn chưa làm), tuyệt đối KHÔNG dùng Vませんでした.",
+      "examples": [
+        {
+          "jp": "もう ひるごはんを たべましたか。",
+          "romaji": "mou hirugohan wo tabemashita ka.",
+          "vn": "Bạn đã ăn trưa chưa?"
+        },
+        {
+          "jp": "いいえ、まだです。",
+          "romaji": "iie, mada desu.",
+          "vn": "Chưa, tôi vẫn chưa ăn."
+        }
+      ]
+    }
+  ],
+  "grammarExercises": [
+    {
+      "question": "わたしは はし [blank] ごはんを 食べます。",
+      "options": ["で", "に", "を", "へ"],
+      "answer": "で",
+      "vn": "Tôi ăn cơm bằng đũa.",
+      "explanation": "Chỉ công cụ, phương tiện thực hiện hành động (đũa - はし) dùng trợ từ で."
+    },
+    {
+      "question": "「ありがとう」は 英語(えいご) [blank] 何ですか。",
+      "options": ["で", "に", "は", "を"],
+      "answer": "で",
+      "vn": "'Cảm ơn' trong tiếng Anh là gì?",
+      "explanation": "Ngôn ngữ được coi như một phương tiện truyền đạt nên dùng trợ từ で (bằng tiếng Anh)."
+    },
+    {
+      "question": "わたしは 山田さんに 花を [blank]。",
+      "options": ["あげました", "もらいました", "かしました", "ならいました"],
+      "answer": "あげました",
+      "vn": "Tôi đã tặng hoa cho anh Yamada.",
+      "explanation": "Hành động có chủ thể là 'tôi' hướng tới 'anh Yamada' nên dùng あげました (tặng cho). Các từ khác là nhận/mượn/học từ ai đó."
+    },
+    {
+      "question": "わたしは カリナさん [blank] CDを 借りました。",
+      "options": ["に", "で", "を", "は"],
+      "answer": "に",
+      "vn": "Tôi đã mượn đĩa CD từ bạn Karina.",
+      "explanation": "Mượn TỪ ai, nhận TỪ ai dùng trợ từ に (hoặc から)."
+    },
+    {
+      "question": "もう 昼ごはんを 食べましたか。 ...いいえ、[blank]。",
+      "options": ["まだです", "まだ 食べませんでした", "もう 食べません", "もう です"],
+      "answer": "まだです",
+      "vn": "Bạn đã ăn trưa chưa? ...Chưa, tôi chưa ăn.",
+      "explanation": "Phủ định cho câu hỏi 'もう Vましたか' luôn là 'いいえ、まだです'. Tuyệt đối không dùng ませんでした."
+    },
+    {
+      "question": "[blank] ごはんを 食べますか。 ...スプーンで 食べます。",
+      "options": ["何で", "だれ", "いつ", "どこ"],
+      "answer": "何で",
+      "vn": "Bạn ăn cơm bằng gì? ...Tôi ăn bằng thìa.",
+      "explanation": "Câu trả lời là スプーンで (bằng thìa) nên câu hỏi là 何で (bằng gì)."
+    },
+    {
+      "question": "わたしは 母に 時計を [blank]。",
+      "options": ["もらいました", "あげました", "かしました", "おしえました"],
+      "answer": "もらいました",
+      "vn": "Tôi đã nhận chiếc đồng hồ từ mẹ.",
+      "explanation": "Hành động nhận món đồ (đồng hồ) từ ai đó (mẹ) dùng もらいました."
+    },
+    {
+      "question": "「さようなら」は [blank] で 何ですか。 ...「Goodbye」です。",
+      "options": ["英語(えいご)", "日本語(にほんご)", "ベトナム語(ご)", "だれ"],
+      "answer": "英語(えいご)",
+      "vn": "'Tạm biệt' trong tiếng Anh là gì? ...Là 'Goodbye'.",
+      "explanation": "Câu trả lời là tiếng Anh ('Goodbye') nên ô trống điền 英語 (tiếng Anh)."
+    },
+    {
+      "question": "わたしは ワンさんに 日本語を [blank]。",
+      "options": ["教(おし)えます", "もらいます", "借(か)ります", "習(なら)います"],
+      "answer": "教(おし)えます",
+      "vn": "Tôi dạy tiếng Nhật cho bạn Wang.",
+      "explanation": "Hành động truyền đạt kiến thức từ bản thân (tôi) sang người khác (bạn Wang) dùng 教えます."
+    },
+    {
+      "question": "もう レポートを [blank]。 ...はい、送りました。",
+      "options": ["送(おく)りましたか", "送(おく)りません", "送(おく)ります", "送(おく)りますか"],
+      "answer": "送(おく)りましたか",
+      "vn": "Bạn đã gửi báo cáo chưa? ...Vâng, tôi đã gửi rồi.",
+      "explanation": "Đi với もう (đã... rồi) phải dùng động từ chia ở thì quá khứ (ましたか)."
+    },
+    {
+      "question": "パソコン [blank] レポートを 書きます。",
+      "options": ["で", "に", "を", "へ"],
+      "answer": "で",
+      "vn": "Tôi viết báo cáo bằng máy tính.",
+      "explanation": "Chỉ công cụ (máy tính) dùng để thực hiện hành động (viết báo cáo) đi với trợ từ で."
+    },
+    {
+      "question": "[blank] に 日本語を 習いますか。 ...マリアさんに 習います。",
+      "options": ["だれ", "なに", "どこ", "いつ"],
+      "answer": "だれ",
+      "vn": "Bạn học tiếng Nhật từ ai? ...Tôi học từ bạn Maria.",
+      "explanation": "Câu trả lời là một người (マリアさん) nên từ để hỏi phải là だれ (ai)."
+    },
+    {
+      "question": "もう 宿題(しゅくだい)を しましたか。 ...[blank]、まだです。",
+      "options": ["いいえ", "はい", "ええ", "もう"],
+      "answer": "いいえ",
+      "vn": "Bạn đã làm bài tập chưa? ...Chưa, tôi chưa làm.",
+      "explanation": "Đáp lại まだです (vẫn chưa) thì đầu câu phải là いいえ (Không)."
+    },
+    {
+      "question": "わたしは 会社(かいしゃ)の人(ひと) [blank] お金を 借ります。",
+      "options": ["から", "で", "を", "へ"],
+      "answer": "から",
+      "vn": "Tôi vay tiền từ người trong công ty.",
+      "explanation": "Mượn/Vay TỪ ai đó có thể dùng に hoặc から. Trong các đáp án chỉ có から là chính xác."
+    },
+    {
+      "question": "もう 新幹線(しんかんせん)の 切符(きっぷ)を 買いましたか。 ...はい、[blank]。",
+      "options": ["もう 買いました", "まだです", "もう 買いません", "買いましたか"],
+      "answer": "もう 買いました",
+      "vn": "Bạn đã mua vé tàu Shinkansen chưa? ...Vâng, tôi đã mua rồi.",
+      "explanation": "Trả lời khẳng định (はい) cho câu hỏi もう Vましたか thì lặp lại là もう Vました."
     }
   ],
   "readings": readings,

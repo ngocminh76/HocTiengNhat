@@ -491,33 +491,357 @@ const lesson: NihongoLesson = {
       "romaji": "biiru",
       "meaning": "Bia",
       "type": "Danh từ"
+    },
+    {
+      "id": "L6_39",
+      "word": "ビデオ",
+      "reading": "ビデオ",
+      "romaji": "bideo",
+      "meaning": "Video, băng video",
+      "type": "Danh từ"
+    },
+    {
+      "id": "L6_40",
+      "word": "映画",
+      "reading": "えいが",
+      "romaji": "eiga",
+      "meaning": "Phim, điện ảnh",
+      "type": "Danh từ",
+      "kanjiBreakdown": {
+        "hanviet": "ÁNH HỌA",
+        "components": "映 (Ánh - Phản chiếu) + 画 (Họa - Bức tranh)",
+        "story": "Những bức tranh (Họa) chuyển động phản chiếu (Ánh) trên màn ảnh là Phim.",
+        "examples": "映画 (Phim), 映画館 (Rạp chiếu phim)"
+      }
+    },
+    {
+      "id": "L6_41",
+      "word": "CD",
+      "reading": "シーディー",
+      "romaji": "shiidii",
+      "meaning": "Đĩa CD",
+      "type": "Danh từ"
+    },
+    {
+      "id": "L6_42",
+      "word": "レポート",
+      "reading": "レポート",
+      "romaji": "repooto",
+      "meaning": "Báo cáo",
+      "type": "Danh từ"
+    },
+    {
+      "id": "L6_43",
+      "word": "レストラン",
+      "reading": "レストラン",
+      "romaji": "resutoran",
+      "meaning": "Nhà hàng",
+      "type": "Danh từ"
+    },
+    {
+      "id": "L6_44",
+      "word": "テニス",
+      "reading": "テニス",
+      "romaji": "tenisu",
+      "meaning": "Quần vợt, Tennis",
+      "type": "Danh từ"
+    },
+    {
+      "id": "L6_45",
+      "word": "サッカー",
+      "reading": "サッカー",
+      "romaji": "sakkaa",
+      "meaning": "Bóng đá",
+      "type": "Danh từ"
+    },
+    {
+      "id": "L6_46",
+      "word": "お花見",
+      "reading": "おはなみ",
+      "romaji": "ohanami",
+      "meaning": "Việc ngắm hoa anh đào",
+      "type": "Danh từ",
+      "kanjiBreakdown": {
+        "hanviet": "HOA KIẾN",
+        "components": "花 (Hoa) + 見 (Kiến - Nhìn/Xem)",
+        "story": "Đi xem hoa anh đào nở.",
+        "examples": "お花見 (Ngắm hoa)"
+      }
+    },
+    {
+      "id": "L6_47",
+      "word": "何",
+      "reading": "なに",
+      "romaji": "nani",
+      "meaning": "Cái gì",
+      "type": "Từ hỏi"
+    },
+    {
+      "id": "L6_48",
+      "word": "ちょっと",
+      "reading": "ちょっと",
+      "romaji": "chotto",
+      "meaning": "Một chút",
+      "type": "Phó từ"
+    },
+    {
+      "id": "L6_49",
+      "word": "それから",
+      "reading": "それから",
+      "romaji": "sorekara",
+      "meaning": "Sau đó, tiếp theo",
+      "type": "Liên từ"
+    },
+    {
+      "id": "L6_50",
+      "word": "ええ",
+      "reading": "ええ",
+      "romaji": "ee",
+      "meaning": "Vâng, được (cách nói thân mật của はい)",
+      "type": "Từ cảm thán"
+    },
+    {
+      "id": "L6_51",
+      "word": "いいですね",
+      "reading": "いいですね",
+      "romaji": "iidesune",
+      "meaning": "Được đấy nhỉ, hay quá",
+      "type": "Mẫu câu"
+    },
+    {
+      "id": "L6_52",
+      "word": "わかりました",
+      "reading": "わかりました",
+      "romaji": "wakarimashita",
+      "meaning": "Tôi hiểu rồi / Vâng ạ",
+      "type": "Mẫu câu"
+    },
+    {
+      "id": "L6_53",
+      "word": "何ですか",
+      "reading": "なんですか",
+      "romaji": "nandesuka",
+      "meaning": "Có gì không ạ? / Vâng?",
+      "type": "Mẫu câu"
+    },
+    {
+      "id": "L6_54",
+      "word": "じゃ、また",
+      "reading": "じゃ、また",
+      "romaji": "ja, mata",
+      "meaning": "Hẹn gặp lại",
+      "type": "Mẫu câu"
     }
   ],
   "grammar": [
     {
-      "pattern": "N を V",
-      "meaning": "Hành động tác động lên tân ngữ N",
-      "note": "Hạt từ を (wo) đứng sau danh từ làm tân ngữ trực tiếp. VD: ご飯を食べます。"
+      "title": "N を V (Làm N)",
+      "structure": "N を V",
+      "usage": "Trợ từ を (đọc là o) dùng để chỉ đối tượng trực tiếp chịu tác động của hành động. Đứng sau danh từ (tân ngữ) và trước động từ.",
+      "examples": [
+        {
+          "jp": "ごはんを たべます。",
+          "romaji": "gohan wo tabemasu.",
+          "vn": "Tôi ăn cơm."
+        },
+        {
+          "jp": "てがみを かきます。",
+          "romaji": "tegami wo kakimasu.",
+          "vn": "Tôi viết thư."
+        }
+      ]
     },
     {
-      "pattern": "N を します",
-      "meaning": "Làm, chơi [N]",
-      "note": "Sử dụng cho môn thể thao, trò chơi, hoặc sự kiện. VD: サッカーをします。"
+      "title": "N を します (Làm/Chơi N)",
+      "structure": "N を します",
+      "usage": "Động từ します (Làm) đi kèm với các danh từ để diễn tả việc chơi thể thao, trò chơi, tổ chức sự kiện hoặc làm một công việc gì đó.",
+      "examples": [
+        {
+          "jp": "サッカーを します。",
+          "romaji": "sakkaa wo shimasu.",
+          "vn": "Tôi chơi bóng đá."
+        },
+        {
+          "jp": "パーティーを します。",
+          "romaji": "paatii wo shimasu.",
+          "vn": "Tôi tổ chức tiệc."
+        }
+      ]
     },
     {
-      "pattern": "N(địa điểm) で V",
-      "meaning": "Làm [V] ở [N]",
-      "note": "Trợ từ で chỉ không gian xảy ra hành động. VD: 店で買います (Mua ở cửa hàng)."
+      "title": "なにを しますか (Làm gì?)",
+      "structure": "なにを しますか",
+      "usage": "Dùng để hỏi ai đó sẽ làm việc gì. Có thể thêm thời gian vào trước để hỏi (ví dụ: Ngày mai bạn làm gì?).",
+      "examples": [
+        {
+          "jp": "きのう なにを しましたか。",
+          "romaji": "kinou nani wo shimashita ka.",
+          "vn": "Hôm qua bạn đã làm gì?"
+        },
+        {
+          "jp": "テニスを しました。",
+          "romaji": "tenisu wo shimashita.",
+          "vn": "Tôi đã chơi tennis."
+        }
+      ]
     },
     {
-      "pattern": "Vませんか",
-      "meaning": "Cùng làm [V] nhé? (Mời mọc lịch sự)",
-      "note": "VD: いっしょに飲みませんか。 (Cùng nhau uống cốc nước nhé?)"
+      "title": "N(địa điểm) で V (Làm gì ở đâu)",
+      "structure": "N(địa điểm) で V",
+      "usage": "Trợ từ で đứng sau danh từ chỉ địa điểm để chỉ nơi diễn ra hành động.",
+      "examples": [
+        {
+          "jp": "としょかんで ほんを よみます。",
+          "romaji": "toshokan de hon wo yomimasu.",
+          "vn": "Tôi đọc sách ở thư viện."
+        },
+        {
+          "jp": "えきで しんぶんを かいます。",
+          "romaji": "eki de shinbun wo kaimasu.",
+          "vn": "Tôi mua báo ở ga."
+        }
+      ]
     },
     {
-      "pattern": "Vましょう",
-      "meaning": "Cùng làm [V] thôi! (Đề nghị, hưởng ứng)",
-      "note": "VD: ちょっと休みましょう。 (Hãy nghỉ ngơi một chút thôi)."
+      "title": "Vませんか (Cùng làm nhé?)",
+      "structure": "Vませんか",
+      "usage": "Mẫu câu dùng để rủ rê, mời mọc ai đó cùng làm một việc gì đó với mình một cách lịch sự.",
+      "examples": [
+        {
+          "jp": "いっしょに おちゃを のみませんか。",
+          "romaji": "isshoni ocha wo nomimasen ka.",
+          "vn": "Cùng nhau uống trà không?"
+        },
+        {
+          "jp": "ええ、いいですね。",
+          "romaji": "ee, ii desu ne.",
+          "vn": "Vâng, tuyệt quá nhỉ."
+        }
+      ]
+    },
+    {
+      "title": "Vましょう (Cùng làm thôi!)",
+      "structure": "Vましょう",
+      "usage": "Mẫu câu dùng để hô hào, kêu gọi cùng làm một việc gì đó. Cũng dùng để đáp lại lời rủ rê (Vませんか).",
+      "examples": [
+        {
+          "jp": "ちょっと やすみましょう。",
+          "romaji": "chotto yasumimashou.",
+          "vn": "Cùng nghỉ một chút thôi."
+        },
+        {
+          "jp": "ええ、たべましょう。",
+          "romaji": "ee, tabemashou.",
+          "vn": "Vâng, cùng ăn nào."
+        }
+      ]
+    }
+  ],
+  "grammarExercises": [
+    {
+      "question": "ジュース [blank] 飲みます。",
+      "options": ["を", "で", "に", "へ"],
+      "answer": "を",
+      "vn": "Tôi uống nước ép trái cây.",
+      "explanation": "Động từ 飲みます (uống) tác động trực tiếp lên tân ngữ ジュース (nước ép) nên dùng trợ từ を."
+    },
+    {
+      "question": "どこ [blank] 写真を 撮りましたか。",
+      "options": ["で", "に", "へ", "を"],
+      "answer": "で",
+      "vn": "Bạn đã chụp ảnh ở đâu vậy?",
+      "explanation": "Hỏi nơi chốn diễn ra hành động (chụp ảnh) dùng trợ từ で."
+    },
+    {
+      "question": "いっしょに ビールを [blank]。",
+      "options": ["飲みませんか", "飲みましょうか", "飲みます", "飲みましたか"],
+      "answer": "飲みませんか",
+      "vn": "Cùng nhau uống bia nhé?",
+      "explanation": "Mời mọc lịch sự dùng mẫu ませんか (Cùng làm nhé)."
+    },
+    {
+      "question": "きのう、[blank] を しましたか。",
+      "options": ["なに", "なん", "だれ", "いつ"],
+      "answer": "なに",
+      "vn": "Hôm qua bạn đã làm gì?",
+      "explanation": "Hỏi 'Làm cái gì' dùng từ để hỏi なに đi kèm trợ từ を."
+    },
+    {
+      "question": "あの 店で コーヒーを [blank]。",
+      "options": ["飲みましょう", "飲みませんか", "飲みません", "飲みました"],
+      "answer": "飲みましょう",
+      "vn": "Cùng uống cà phê ở cửa hàng kia thôi!",
+      "explanation": "Hô hào, rủ rê một cách tích cực dùng mẫu ましょう (Cùng làm thôi)."
+    },
+    {
+      "question": "日曜日 [blank] を しますか。 ...テニスを します。",
+      "options": ["なに", "なん", "どこ", "だれ"],
+      "answer": "なに",
+      "vn": "Chủ nhật bạn làm gì? ...Tôi chơi tennis.",
+      "explanation": "Câu trả lời là テニスをします nên câu hỏi phải là なにをしますか (Làm gì)."
+    },
+    {
+      "question": "[blank] の 本ですか。 ...カメラの 本です。",
+      "options": ["なん", "なに", "だれ", "どこ"],
+      "answer": "なん",
+      "vn": "Sách về cái gì vậy? ...Sách về máy ảnh.",
+      "explanation": "Khi đứng trước の, 'Cái gì' phải đọc là なん (なんの)."
+    },
+    {
+      "question": "まいあさ なにを 食べますか。 ...[blank] 食べません。",
+      "options": ["なにも", "なにを", "なにが", "なんで"],
+      "answer": "なにも",
+      "vn": "Mỗi sáng bạn ăn gì? ...Tôi không ăn gì cả.",
+      "explanation": "Phủ định hoàn toàn: Từ để hỏi (なに) + も + V(phủ định)."
+    },
+    {
+      "question": "きょうしつ [blank] 日本語を 勉強します。",
+      "options": ["で", "に", "へ", "を"],
+      "answer": "で",
+      "vn": "Tôi học tiếng Nhật ở phòng học.",
+      "explanation": "Nơi diễn ra hành động học (きょうしつ - phòng học) dùng trợ từ で."
+    },
+    {
+      "question": "きのうの ばん、手紙を [blank]。",
+      "options": ["書きました", "書きます", "書きましょう", "書きませんでしたか"],
+      "answer": "書きました",
+      "vn": "Tối hôm qua, tôi đã viết thư.",
+      "explanation": "Có thời gian trong quá khứ (きのうの ばん) nên động từ chia về ました."
+    },
+    {
+      "question": "あした、[blank] で 友達に 会いますか。",
+      "options": ["どこ", "なに", "だれ", "いつ"],
+      "answer": "どこ",
+      "vn": "Ngày mai bạn gặp bạn bè ở đâu?",
+      "explanation": "Câu có trợ từ で dùng để hỏi nơi chốn (どこで - Ở đâu)."
+    },
+    {
+      "question": "いっしょに 京都へ 行きませんか。 ...[blank]。行きましょう。",
+      "options": ["ええ、いいですね", "いいえ、いきません", "はい、そうです", "いいえ、ちがいます"],
+      "answer": "ええ、いいですね",
+      "vn": "Cùng đi Kyoto không? ...Vâng, tuyệt quá. Cùng đi nào.",
+      "explanation": "Đáp lại lời mời mọc một cách đồng ý dùng câu ええ、いいですね (Vâng, tuyệt quá nhỉ)."
+    },
+    {
+      "question": "あした 東京へ 行きます。それから、映画を [blank]。",
+      "options": ["見ます", "見ました", "見ましょう", "見ません"],
+      "answer": "見ます",
+      "vn": "Ngày mai tôi đi Tokyo. Sau đó, tôi xem phim.",
+      "explanation": "Hành động nối tiếp xảy ra vào ngày mai (あした) nên dùng thể ます (hiện tại/tương lai)."
+    },
+    {
+      "question": "この りんごは [blank] ですか。 ...100円です。",
+      "options": ["いくら", "いくつ", "なん", "なに"],
+      "answer": "いくら",
+      "vn": "Quả táo này bao nhiêu tiền? ...100 yên.",
+      "explanation": "Hỏi giá tiền dùng từ いくら."
+    },
+    {
+      "question": "これ [blank] なんですか。 ...それは パソコンです。",
+      "options": ["は", "を", "で", "も"],
+      "answer": "は",
+      "vn": "Cái này là cái gì? ...Đó là máy tính cá nhân.",
+      "explanation": "これ làm chủ ngữ của câu nên đi với trợ từ は."
     }
   ],
   "readings": readings,

@@ -548,6 +548,211 @@ const lesson: NihongoLesson = {
       "type": "Mẫu câu"
     }
   ],
+  "grammar": [
+    {
+      "title": "これ / それ / あれ",
+      "structure": "これ/それ/あれ は N です",
+      "usage": "Đại từ chỉ thị dùng như danh từ chỉ đồ vật.\n- これ (kore): Cái này (vật ở gần người nói).\n- それ (sore): Cái đó (vật ở gần người nghe).\n- あれ (are): Cái kia (vật ở xa cả người nói và người nghe).",
+      "examples": [
+        {
+          "jp": "これは じしょですか。",
+          "romaji": "kore wa jisho desu ka.",
+          "vn": "Đây là quyển từ điển phải không?"
+        },
+        {
+          "jp": "あれは かばんです。",
+          "romaji": "are wa kaban desu.",
+          "vn": "Kia là cái cặp."
+        }
+      ]
+    },
+    {
+      "title": "このN / そのN / あのN",
+      "structure": "この/その/あの N は ... です",
+      "usage": "Bổ nghĩa cho danh từ chỉ vật hoặc người đứng ngay sau nó.\n- この N (kono): N này (gần người nói).\n- その N (sono): N đó (gần người nghe).\n- あの N (ano): N kia (xa cả hai).",
+      "examples": [
+        {
+          "jp": "この本は わたしの 本です。",
+          "romaji": "kono hon wa watashi no hon desu.",
+          "vn": "Quyển sách này là sách của tôi."
+        },
+        {
+          "jp": "あの方は なごや大学の 先生です。",
+          "romaji": "ano kata wa Nagoya daigaku no sensei desu.",
+          "vn": "Vị kia là giáo viên của trường đại học Nagoya."
+        }
+      ]
+    },
+    {
+      "title": "そうです / そうじゃありません",
+      "structure": "はい、そうです | いいえ、そうじゃありません",
+      "usage": "- そう (sou) dùng để trả lời vắn tắt cho câu hỏi nghi vấn danh từ, thay vì lặp lại toàn bộ danh từ.\n- Khẳng định: はい、そうです (Vâng, đúng vậy).\n- Phủ định: いいえ、そうじゃありません (Không, không phải vậy) hoặc いいえ、ちがいます (Không, nhầm/sai rồi).",
+      "examples": [
+        {
+          "jp": "それは テレホンカードですか。",
+          "romaji": "sore wa terehonkaado desu ka.",
+          "vn": "Đó là thẻ điện thoại phải không?"
+        },
+        {
+          "jp": "はい、そうです。",
+          "romaji": "hai, sou desu.",
+          "vn": "Vâng, đúng rồi."
+        },
+        {
+          "jp": "いいえ、そうじゃありません。",
+          "romaji": "iie, sou ja arimasen.",
+          "vn": "Không, không phải."
+        }
+      ]
+    },
+    {
+      "title": "Câu hỏi lựa chọn (A hay B)",
+      "structure": "S は N1ですか、N2ですか",
+      "usage": "Đưa ra 2 phương án để người nghe chọn 1. Khi trả lời KHÔNG dùng はい / いいえ mà trả lời trực tiếp bằng danh từ được chọn.",
+      "examples": [
+        {
+          "jp": "これは ボールペンですか、シャープペンシルですか。",
+          "romaji": "kore wa boorupen desu ka, shaapupenshiru desu ka.",
+          "vn": "Đây là bút bi hay bút chì kim?"
+        },
+        {
+          "jp": "シャープペンシルです。",
+          "romaji": "shaapupenshiru desu.",
+          "vn": "Là bút chì kim."
+        }
+      ]
+    },
+    {
+      "title": "N1 の N2 (Thuộc về, Về cái gì)",
+      "structure": "N1 の N2",
+      "usage": "Ngoài nghĩa sở hữu (N2 của N1), trợ từ の còn có 2 nghĩa mở rộng trong Bài 2:\n1. Giải thích N2 là gì, nói về cái gì (Ví dụ: Sách về máy tính).\n2. Sở hữu (Ví dụ: Túi của tôi). Có thể lược bỏ N2 nếu đã rõ nghĩa (Ví dụ: Của Mai, của tôi).",
+      "examples": [
+        {
+          "jp": "これは コンピューターの 本です。",
+          "romaji": "kore wa konpyuutaa no hon desu.",
+          "vn": "Đây là sách về máy tính."
+        },
+        {
+          "jp": "あれは だれの かばんですか。",
+          "romaji": "are wa dare no kaban desu ka.",
+          "vn": "Kia là cặp của ai?"
+        },
+        {
+          "jp": "マイさんのです。",
+          "romaji": "Mai san no desu.",
+          "vn": "Là của Mai."
+        }
+      ]
+    },
+    {
+      "title": "そうですか",
+      "structure": "そうですか",
+      "usage": "Cách phản hồi khi người nói nhận được một thông tin gì đó mới và muốn thể hiện họ đã hiểu. Chữ か ở cuối câu phải HẠ THẤP giọng (đọc đi xuống) thay vì lên giọng như câu hỏi bình thường.",
+      "examples": [
+        {
+          "jp": "このかさは あなたのですか。",
+          "romaji": "kono kasa wa anata no desu ka.",
+          "vn": "Cái ô này của bạn à?"
+        },
+        {
+          "jp": "いいえ、ちがいます。ハイさんのです。",
+          "romaji": "iie, chigaimasu. Hai san no desu.",
+          "vn": "Không phải, nhầm rồi. Của anh Hải."
+        },
+        {
+          "jp": "そうですか。",
+          "romaji": "sou desu ka.",
+          "vn": "Thế à / Ra là vậy."
+        }
+      ]
+    }
+  ],
+  "grammarExercises": [
+    {
+      "question": "これは じしょ [blank]。",
+      "options": ["です", "ですか", "は", "の"],
+      "answer": "ですか",
+      "vn": "Đây là quyển từ điển phải không?",
+      "explanation": "Câu hỏi cuối câu dùng ですか."
+    },
+    {
+      "question": "[blank]は わたしの ノートです。",
+      "options": ["これ", "この", "ここ", "だれ"],
+      "answer": "これ",
+      "vn": "Cái này là quyển vở của tôi.",
+      "explanation": "Đại từ chỉ thị thay thế danh từ đóng vai trò chủ ngữ thì dùng これ/それ/あれ."
+    },
+    {
+      "question": "[blank]ノートは わたしのです。",
+      "options": ["それ", "その", "そこ", "どれ"],
+      "answer": "その",
+      "vn": "Quyển vở đó là của tôi.",
+      "explanation": "Khi có danh từ (ノート) đứng ngay sau, phải dùng từ bổ nghĩa この/その/あの."
+    },
+    {
+      "question": "あれは [blank] ですか。 ...かばんです。",
+      "options": ["だれ", "どなた", "なん", "の"],
+      "answer": "なん",
+      "vn": "Kia là cái gì? ...Là cái cặp.",
+      "explanation": "Hỏi về đồ vật dùng 何 (なん - nan)."
+    },
+    {
+      "question": "それは じどうしゃ [blank] 雑誌です。",
+      "options": ["は", "が", "の", "も"],
+      "answer": "の",
+      "vn": "Đó là tạp chí về ô tô.",
+      "explanation": "Trợ từ の dùng để chỉ thể loại, nội dung của danh từ N2 (tạp chí về ô tô)."
+    },
+    {
+      "question": "この かばんは わたし [blank]。",
+      "options": ["です", "の", "のです", "のか"],
+      "answer": "のです",
+      "vn": "Cái cặp này là của tôi.",
+      "explanation": "Lược bỏ danh từ phía sau trợ từ の khi đã rõ nghĩa: わたしの(かばん)です -> わたしのです."
+    },
+    {
+      "question": "それは ラジカセですか。 ...いいえ、[blank]。",
+      "options": ["そうです", "ちがいます", "ラジカセです", "なんですか"],
+      "answer": "ちがいます",
+      "vn": "Đó là đài cassette phải không? ...Không, sai rồi/không phải.",
+      "explanation": "Để trả lời phủ định ngắn gọn, dùng いいえ、そうじゃありません hoặc いいえ、ちがいます."
+    },
+    {
+      "question": "これは [blank] の かさですか。",
+      "options": ["だれ", "なん", "どなた", "あの"],
+      "answer": "だれ",
+      "vn": "Đây là cái ô của ai?",
+      "explanation": "Hỏi người sở hữu đồ vật dùng だれの (của ai)."
+    },
+    {
+      "question": "それは シャープペンシルですか、ボールペンですか。 ...[blank]。",
+      "options": ["はい", "ボールペンです", "いいえ", "そうです"],
+      "answer": "ボールペンです",
+      "vn": "Đó là bút chì kim hay bút bi? ...Là bút bi.",
+      "explanation": "Câu hỏi lựa chọn (A hay B) thì trả lời thẳng vào sự lựa chọn, không dùng はい/いいえ."
+    },
+    {
+      "question": "ミラーさんは IMCの 社員ですか。 ...はい、[blank] 社員です。",
+      "options": ["IMCの", "IMC", "IMCは", "IMCも"],
+      "answer": "IMCの",
+      "vn": "Anh Miller là nhân viên IMC phải không? ...Vâng, là nhân viên của IMC.",
+      "explanation": "IMC (N1) là tên công ty, 社員 (N2) là nhân viên, nối với nhau bằng trợ từ の."
+    },
+    {
+      "question": "あの方は [blank] ですか。 ...なごや大学の 先生です。",
+      "options": ["だれ", "どなた", "なん", "どれ"],
+      "answer": "どなた",
+      "vn": "Vị kia là ai vậy? ...Là giáo viên Đại học Nagoya.",
+      "explanation": "Dùng どなた để hỏi 'ai' một cách lịch sự, phù hợp với あの方."
+    },
+    {
+      "question": "この カメラは ミラーさんのですか。 ...いいえ、わたし [blank] じゃありません。",
+      "options": ["は", "の", "が", "も"],
+      "answer": "の",
+      "vn": "Cái máy ảnh này của anh Miller à? ...Không, không phải của tôi.",
+      "explanation": "Câu gốc là わたしの(カメラ)じゃありません, danh từ カメラ được lược bỏ đi."
+    }
+  ],
   "readings": readings,
   
   "poem": {
