@@ -319,6 +319,108 @@ const lesson: NihongoLesson = {
       }
     },
     {
+      "id": "L4_23a",
+      "word": "朝",
+      "reading": "あさ",
+      "romaji": "asa",
+      "meaning": "Buổi sáng",
+      "type": "Danh từ",
+      "kanjiBreakdown": {
+        "hanviet": "TRIÊU",
+        "components": "十 (Thập) + 日 (Nhật) + 十 (Thập) + 月 (Nguyệt)",
+        "story": "Mặt trời (日) mọc che khuất mặt trăng (月) qua những tán cây (十) vào buổi sáng.",
+        "examples": "朝 (Sáng), 今朝 (Sáng nay)"
+      }
+    },
+    {
+      "id": "L4_23b",
+      "word": "昼",
+      "reading": "ひる",
+      "romaji": "hiru",
+      "meaning": "Buổi trưa",
+      "type": "Danh từ"
+    },
+    {
+      "id": "L4_23c",
+      "word": "晩",
+      "reading": "ばん",
+      "romaji": "ban",
+      "meaning": "Buổi tối",
+      "type": "Danh từ"
+    },
+    {
+      "id": "L4_23d",
+      "word": "夜",
+      "reading": "よる",
+      "romaji": "yoru",
+      "meaning": "Đêm",
+      "type": "Danh từ"
+    },
+    {
+      "id": "L4_23e",
+      "word": "おととい",
+      "reading": "おととい",
+      "romaji": "ototoi",
+      "meaning": "Hôm kia",
+      "type": "Danh từ"
+    },
+    {
+      "id": "L4_23f",
+      "word": "きのう",
+      "reading": "きのう",
+      "romaji": "kinou",
+      "meaning": "Hôm qua",
+      "type": "Danh từ"
+    },
+    {
+      "id": "L4_23g",
+      "word": "今日",
+      "reading": "きょう",
+      "romaji": "kyou",
+      "meaning": "Hôm nay",
+      "type": "Danh từ"
+    },
+    {
+      "id": "L4_23h",
+      "word": "明日",
+      "reading": "あした",
+      "romaji": "ashita",
+      "meaning": "Ngày mai",
+      "type": "Danh từ"
+    },
+    {
+      "id": "L4_23i",
+      "word": "あさって",
+      "reading": "あさって",
+      "romaji": "asatte",
+      "meaning": "Ngày mốt",
+      "type": "Danh từ"
+    },
+    {
+      "id": "L4_23j",
+      "word": "今朝",
+      "reading": "けさ",
+      "romaji": "kesa",
+      "meaning": "Sáng nay",
+      "type": "Danh từ"
+    },
+    {
+      "id": "L4_23k",
+      "word": "今晩",
+      "reading": "こんばん",
+      "romaji": "konban",
+      "meaning": "Tối nay",
+      "type": "Danh từ"
+    },
+    {
+      "id": "L4_23l",
+      "word": "ゆうべ",
+      "reading": "ゆうべ",
+      "romaji": "yuube",
+      "meaning": "Tối hôm qua",
+      "type": "Danh từ"
+    },
+    {
       "id": "L4_24",
       "word": "寝ます",
       "reading": "ねます",
@@ -477,6 +579,30 @@ const lesson: NihongoLesson = {
       }
     },
     {
+      "id": "L4_36a",
+      "word": "電話番号",
+      "reading": "でんわばんごう",
+      "romaji": "denwabangou",
+      "meaning": "Số điện thoại",
+      "type": "Danh từ"
+    },
+    {
+      "id": "L4_36b",
+      "word": "番号案内",
+      "reading": "ばんごうあんない",
+      "romaji": "bangouannai",
+      "meaning": "Dịch vụ hỏi số điện thoại (116)",
+      "type": "Danh từ"
+    },
+    {
+      "id": "L4_36c",
+      "word": "お問い合わせ",
+      "reading": "おといあわせ",
+      "romaji": "otoiawase",
+      "meaning": "Số điện thoại cần hỏi, giải đáp thắc mắc",
+      "type": "Danh từ"
+    },
+    {
       "id": "L4_37",
       "word": "何番",
       "reading": "なんばん",
@@ -505,6 +631,58 @@ const lesson: NihongoLesson = {
       "romaji": "Pekin",
       "meaning": "Bắc Kinh",
       "type": "Danh từ"
+    },
+    {
+      "id": "L4_40",
+      "word": "バンコク",
+      "reading": "バンコク",
+      "romaji": "Bankoku",
+      "meaning": "Bangkok",
+      "type": "Danh từ"
+    },
+    {
+      "id": "L4_41",
+      "word": "ロンドン",
+      "reading": "ロンドン",
+      "romaji": "Rondon",
+      "meaning": "Luân Đôn",
+      "type": "Danh từ"
+    },
+    {
+      "id": "L4_42",
+      "word": "ロサンゼルス",
+      "reading": "ロサンゼルス",
+      "romaji": "Rosanzerusu",
+      "meaning": "Los Angeles",
+      "type": "Danh từ"
+    },
+    {
+      "id": "L4_43",
+      "word": "図書館",
+      "reading": "としょかん",
+      "romaji": "toshokan",
+      "meaning": "Thư viện",
+      "type": "Danh từ",
+      "kanjiBreakdown": {
+        "hanviet": "ĐỒ THƯ QUÁN",
+        "components": "図 (Đồ) + 書 (Thư) + 館 (Quán)",
+        "story": "Tòa nhà (Quán) chứa bản đồ (Đồ) và sách vở (Thư) là Thư viện.",
+        "examples": "図書館 (Thư viện)"
+      }
+    },
+    {
+      "id": "L4_44",
+      "word": "美術館",
+      "reading": "びじゅつかん",
+      "romaji": "bijutsukan",
+      "meaning": "Bảo tàng mỹ thuật",
+      "type": "Danh từ",
+      "kanjiBreakdown": {
+        "hanviet": "MỸ THUẬT QUÁN",
+        "components": "美 (Mỹ) + 術 (Thuật) + 館 (Quán)",
+        "story": "Tòa nhà (Quán) trưng bày các tác phẩm nghệ thuật (Mỹ Thuật).",
+        "examples": "美術館 (Bảo tàng)"
+      }
     }
   ],
   "readings": readings,
