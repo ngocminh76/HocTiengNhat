@@ -489,8 +489,242 @@ const lesson: NihongoLesson = {
       "type": "Từ cảm thán"
     }
   ],
+  "grammar": [
+    {
+      "title": "Phân nhóm Động từ",
+      "structure": "Động từ tiếng Nhật được chia làm 3 nhóm",
+      "usage": "Nhóm 1: Các động từ có vần đứng trước ます là vần [i] (VD: のみます, かきます). Nhóm 2: Các động từ có vần đứng trước ます là vần [e] (VD: たべます, みせます) và một số từ đặc biệt có vần [i] (VD: みます, おきます, かります). Nhóm 3: します (Làm) và きます (Đến), hoặc các Danh từ + します (VD: べんきょうします).",
+      "examples": [
+        {
+          "jp": "かきます (Viết) -> Nhóm 1",
+          "romaji": "kakimasu",
+          "vn": ""
+        },
+        {
+          "jp": "たべます (Ăn) -> Nhóm 2",
+          "romaji": "tabemasu",
+          "vn": ""
+        },
+        {
+          "jp": "します (Làm) -> Nhóm 3",
+          "romaji": "shimasu",
+          "vn": ""
+        }
+      ]
+    },
+    {
+      "title": "Cách chia thể Te (て形)",
+      "structure": "Tùy theo nhóm động từ mà có quy tắc chia khác nhau",
+      "usage": "Nhóm 1: い,ち,り -> って (VD: かいます->かって) / み,び,に -> んで (VD: のみます->のんで) / き -> いて (かきます->かいて) / ぎ -> いで (いそぎます->いそいで) / し -> して (はなします->はなして). *Ngoại lệ: 行きます -> 行って.\nNhóm 2: Bỏ ます thêm て (VD: たべます -> たべて).\nNhóm 3: します -> して, きます -> きて.",
+      "examples": [
+        {
+          "jp": "のみます -> のんで / かきます -> かいて",
+          "romaji": "nomimasu -> nonde / kakimasu -> kaite",
+          "vn": "Uống -> Uống / Viết -> Viết"
+        },
+        {
+          "jp": "みます -> みて / きます -> きて",
+          "romaji": "mimasu -> mite / kimasu -> kite",
+          "vn": "Xem -> Xem / Đến -> Đến"
+        }
+      ]
+    },
+    {
+      "title": "Hãy làm gì đó: Vてください",
+      "structure": "Động từ thể Te + ください",
+      "usage": "Dùng để sai khiến, nhờ vả hoặc khuyên nhủ ai đó một cách lịch sự. Khi nhờ vả người trên không nên dùng mẫu câu này vì mang tính áp đặt, sai khiến.",
+      "examples": [
+        {
+          "jp": "ちょっと まって ください。",
+          "romaji": "chotto matte kudasai.",
+          "vn": "Xin hãy đợi một chút."
+        },
+        {
+          "jp": "ここに じゅうしょを かいて ください。",
+          "romaji": "koko ni juusho o kaite kudasai.",
+          "vn": "Xin hãy viết địa chỉ vào đây."
+        }
+      ]
+    },
+    {
+      "title": "Đang làm gì đó: Vています",
+      "structure": "Động từ thể Te + います",
+      "usage": "Diễn tả một hành động đang xảy ra tại thời điểm nói.",
+      "examples": [
+        {
+          "jp": "ミラーさんは いま でんわを かけて います。",
+          "romaji": "Miraa san wa ima denwa o kakete imasu.",
+          "vn": "Anh Miller bây giờ đang gọi điện thoại."
+        },
+        {
+          "jp": "いま あめが ふって いますか。",
+          "romaji": "ima ame ga futte imasu ka.",
+          "vn": "Bây giờ trời có đang mưa không?"
+        }
+      ]
+    },
+    {
+      "title": "Để tôi làm cho nhé: Vましょうか",
+      "structure": "Động từ V(bỏ ます) + ましょうか",
+      "usage": "Dùng khi người nói chủ động đề nghị làm một việc gì đó để giúp đỡ người nghe.",
+      "examples": [
+        {
+          "jp": "にもつを もちましょうか。",
+          "romaji": "nimotsu o mochimashou ka.",
+          "vn": "Để tôi mang hành lý giúp bạn nhé?"
+        },
+        {
+          "jp": "ええ、おねがいします。",
+          "romaji": "ee, onegaishimasu.",
+          "vn": "Vâng, xin nhờ bạn."
+        }
+      ]
+    }
+  ],
+  "grammarExercises": [
+    {
+      "question": "A：にもつが おおいですね。（　　）ましょうか。",
+      "options": ["もち", "もって", "もつ", "もたない"],
+      "answer": "もち",
+      "vn": "A: Hành lý nhiều quá nhỉ. Để tôi cầm giúp nhé.",
+      "explanation": "Đề nghị giúp đỡ Vましょうか thì V phải bỏ ます. 持ちます -> 持ちましょうか."
+    },
+    {
+      "question": "いま、あめが（　　）います。",
+      "options": ["ふって", "ふり", "ふる", "ふらない"],
+      "answer": "ふって",
+      "vn": "Bây giờ trời đang mưa.",
+      "explanation": "Đang làm gì: Vて + います. 降ります (rơi) nhóm 1 -> 降って."
+    },
+    {
+      "question": "すみません、この漢字の（　　）を おしえて ください。",
+      "options": ["よみかた", "よみ", "よむかた", "よんでかた"],
+      "answer": "よみかた",
+      "vn": "Xin lỗi, hãy chỉ cho tôi cách đọc của chữ Hán này.",
+      "explanation": "Cách làm gì đó: V(bỏ ます) + 方 (かた). 読みます -> 読み方."
+    },
+    {
+      "question": "ここに なまえを（　　）ください。",
+      "options": ["かいて", "かき", "かって", "かして"],
+      "answer": "かいて",
+      "vn": "Xin hãy viết tên vào đây.",
+      "explanation": "Yêu cầu ai làm gì: Vて + ください. 書きます (nhóm 1, đuôi き) -> 書いて."
+    },
+    {
+      "question": "「いそぎます」の て形は なにですか。",
+      "options": ["いそいで", "いそいて", "いそんで", "いそって"],
+      "answer": "いそいで",
+      "vn": "Thể Te của \"Isogimasu\" là gì?",
+      "explanation": "Nhóm 1 đuôi ぎ -> いで. 急ぎます -> 急いで."
+    },
+    {
+      "question": "A：えあこんを つけましょうか。 ...B：ええ、（　　）。",
+      "options": ["おねがいします", "けっこうです", "そうしましょう", "わかりました"],
+      "answer": "おねがいします",
+      "vn": "A: Để tôi bật điều hòa nhé? ...B: Vâng, nhờ anh.",
+      "explanation": "Khi đồng ý lời đề nghị giúp đỡ, dùng ええ、お願いします."
+    },
+    {
+      "question": "タクシーを（　　）ましょうか。",
+      "options": ["よび", "よんで", "よぶ", "よばない"],
+      "answer": "よび",
+      "vn": "Để tôi gọi taxi cho nhé?",
+      "explanation": "V(bỏ ます) + ましょうか. 呼びます -> 呼びましょうか."
+    },
+    {
+      "question": "「のみます」の て形は なにですか。",
+      "options": ["のんで", "のって", "のいで", "のして"],
+      "answer": "のんで",
+      "vn": "Thể Te của \"Nomimasu\" là gì?",
+      "explanation": "Nhóm 1 đuôi み, び, に -> んで. 飲みます -> 飲んで."
+    },
+    {
+      "question": "すみません、しおを（　　）ください。",
+      "options": ["とって", "とりて", "とんで", "といて"],
+      "answer": "とって",
+      "vn": "Xin lỗi, hãy lấy giúp tôi muối.",
+      "explanation": "取ります (nhóm 1 đuôi り) -> って. -> 取って."
+    },
+    {
+      "question": "山田さんは 今 電話を（　　）います。",
+      "options": ["かけて", "かけり", "かんで", "かして"],
+      "answer": "かけて",
+      "vn": "Anh Yamada bây giờ đang gọi điện thoại.",
+      "explanation": "かけます (nhóm 2) -> かけて. Đang gọi điện: かけています."
+    },
+    {
+      "question": "ちょっと（　　）ください。",
+      "options": ["まって", "まちて", "まんで", "まいて"],
+      "answer": "まって",
+      "vn": "Xin hãy đợi một chút.",
+      "explanation": "待ちます (nhóm 1 đuôi ち) -> って. -> 待って."
+    },
+    {
+      "question": "A：ドアを しめましょうか。 ...B：いいえ、（　　）。",
+      "options": ["けっこうです", "おねがいします", "しめてください", "しめていません"],
+      "answer": "けっこうです",
+      "vn": "A: Để tôi đóng cửa nhé? ...B: Không, đủ rồi (không cần đâu).",
+      "explanation": "Từ chối khéo lời đề nghị giúp đỡ dùng いいえ、けっこうです (Không, tôi ổn / đủ rồi)."
+    },
+    {
+      "question": "あの しんごうを みぎへ（　　）ください。",
+      "options": ["まがって", "まがりて", "まがんで", "まがいで"],
+      "answer": "まがって",
+      "vn": "Xin hãy rẽ phải ở đèn tín hiệu kia.",
+      "explanation": "曲がります (nhóm 1 đuôi り) -> って. -> 曲がって."
+    },
+    {
+      "question": "「きます」(Đến) の て形は なにですか。",
+      "options": ["きて", "きって", "きんで", "きして"],
+      "answer": "きて",
+      "vn": "Thể Te của \"Kimasu\" (Đến) là gì?",
+      "explanation": "きます (Đến) là động từ nhóm 3. Thể Te của nó là きて."
+    },
+    {
+      "question": "「いきます」(Đi) の て形は なにですか。",
+      "options": ["いって", "いいて", "いんで", "いきて"],
+      "answer": "いって",
+      "vn": "Thể Te của \"Ikimasu\" (Đi) là gì?",
+      "explanation": "行きます là động từ nhóm 1 đặc biệt. Chia thể Te là 行って (không phải いいて)."
+    }
+  ],
   "readings": readings,
   
+  "poem": {
+    "title": "て形・てください",
+    "titleVn": "❤️ Thể Te và Yêu Cầu",
+    "intro": "Tóm tắt Bài 14: Cách biến đổi động từ sang thể Te, mẫu câu nhờ vả và hành động đang diễn ra.",
+    "lines": [
+      {
+        "kanji": "急いでドアを開けてください。",
+        "jp": "いそいで ドアを あけて ください。",
+        "romaji": "Isoide doa o akete kudasai.",
+        "vn": "Xin hãy vội vã mở cửa ra.",
+        "note": "急いで · 開けてください"
+      },
+      {
+        "kanji": "今、雨が降っています。",
+        "jp": "いま、あめが ふって います。",
+        "romaji": "Ima, ame ga futte imasu.",
+        "vn": "Bây giờ trời đang đổ mưa.",
+        "note": "降っています"
+      },
+      {
+        "kanji": "荷物を持ちましょうか。",
+        "jp": "にもつを もちましょうか。",
+        "romaji": "Nimotsu o mochimashou ka.",
+        "vn": "Để tôi mang hành lý cho nhé?",
+        "note": "持ちましょうか"
+      },
+      {
+        "kanji": "ええ、お願いします。",
+        "jp": "ええ、おねがいします。",
+        "romaji": "Ee, onegaishimasu.",
+        "vn": "Vâng, xin nhờ bạn.",
+        "note": "お願いします"
+      }
+    ]
+  }
 };
 
 export default lesson;
