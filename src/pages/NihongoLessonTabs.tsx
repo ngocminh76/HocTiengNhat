@@ -301,6 +301,19 @@ export function FlashTab({ words, mastery, onUpdate, speak, supported }: {
   const [showHint, setShowHint] = useState(false);
 
   const cur = questions[idx];
+  
+  // Ctrl+Space → nghe lại
+  useEffect(() => {
+    const handler = (e: KeyboardEvent) => {
+      if (e.ctrlKey && e.code === 'Space') {
+        e.preventDefault();
+        if (supported && cur) speak(cur.reading, 0.8);
+      }
+    };
+    window.addEventListener('keydown', handler);
+    return () => window.removeEventListener('keydown', handler);
+  }, [cur, supported, speak]);
+
   const options = useMemo(() => {
     const wrong = shuffle(words.filter(w => w.id !== cur.id)).slice(0, 3);
     return shuffle([cur.meaning, ...wrong.map(w => w.meaning)]);
@@ -359,6 +372,9 @@ export function FlashTab({ words, mastery, onUpdate, speak, supported }: {
         {supported && (
           <div style={{ marginTop: 10 }}>
             <button className="btn-icon" style={{ fontSize: 18 }} onClick={() => speak(cur.reading, 0.8)}>🔊</button>
+            <div style={{ fontSize: 10, color: 'var(--mute)', marginTop: 4, opacity: 0.6 }}>
+              <kbd style={{ fontSize: 9, padding: '1px 4px', borderRadius: 3, border: '1px solid var(--border)', background: 'rgba(255,255,255,0.06)', fontFamily: 'monospace' }}>Ctrl+Space</kbd> để nghe lại
+            </div>
           </div>
         )}
         {cur.hint && (
@@ -1800,6 +1816,18 @@ export function TypingTab({ words, mastery, onUpdate, speak, supported }: { word
     if (status === 'idle') setTimeout(() => inputRef.current?.focus(), 50);
   }, [status, idx]);
 
+  // Ctrl+Space → nghe lại
+  useEffect(() => {
+    const handler = (e: KeyboardEvent) => {
+      if (e.ctrlKey && e.code === 'Space') {
+        e.preventDefault();
+        if (supported && cur) speak(cur.reading, 0.8);
+      }
+    };
+    window.addEventListener('keydown', handler);
+    return () => window.removeEventListener('keydown', handler);
+  }, [cur, supported, speak]);
+
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const text = e.target.value;
     const kana = mode === 1 ? wanakana.toKana(text, { IMEMode: true }) : text;
@@ -1920,6 +1948,12 @@ export function TypingTab({ words, mastery, onUpdate, speak, supported }: { word
           {mode === 2 && (
             <div style={{ fontSize: 14, color: 'var(--gold)', marginTop: 8 }}>
               ( Nghĩa: {cur.meaning} )
+            </div>
+          )}
+          {supported && (
+            <div style={{ fontSize: 11, color: 'var(--mute)', marginTop: 16, opacity: 0.6 }}>
+              <kbd style={{ fontSize: 10, padding: '1px 5px', borderRadius: 4, border: '1px solid var(--border)', background: 'rgba(255,255,255,0.06)', fontFamily: 'monospace' }}>Ctrl+Space</kbd>
+              {' '}để nghe lại
             </div>
           )}
         </div>
