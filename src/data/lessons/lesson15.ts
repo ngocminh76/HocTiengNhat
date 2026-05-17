@@ -349,8 +349,213 @@ const lesson: NihongoLesson = {
       }
     }
   ],
+  "grammar": [
+    {
+      "title": "Xin phép làm gì đó: Vても いいですか",
+      "structure": "Động từ thể Te + も いいですか",
+      "usage": "Dùng để xin phép người khác cho mình làm một việc gì đó. Ý nghĩa: 'Tôi làm ~ có được không?'.",
+      "examples": [
+        {
+          "jp": "ここで しゃしんを とっても いいですか。",
+          "romaji": "koko de shashin o totte mo ii desu ka.",
+          "vn": "Tôi chụp ảnh ở đây có được không?"
+        },
+        {
+          "jp": "ええ、いいですよ。 / ええ、どうぞ。",
+          "romaji": "ee, ii desu yo. / ee, douzo.",
+          "vn": "Vâng, được đấy. / Vâng, xin mời."
+        },
+        {
+          "jp": "すみません、ちょっと...",
+          "romaji": "sumimasen, chotto...",
+          "vn": "Xin lỗi, hơi (bất tiện)... (Cách từ chối khéo)"
+        }
+      ]
+    },
+    {
+      "title": "Cấm đoán: Vては いけません",
+      "structure": "Động từ thể Te + は いけません",
+      "usage": "Dùng để biểu thị sự cấm đoán ('Không được làm ~'). Thường dùng trong các quy định, biển báo hoặc người trên nói với người dưới.",
+      "examples": [
+        {
+          "jp": "ここで たばこを すっては いけません。",
+          "romaji": "koko de tabako o sutte wa ikemasen.",
+          "vn": "Không được hút thuốc ở đây."
+        },
+        {
+          "jp": "としょかんで はなしては いけません。",
+          "romaji": "toshokan de hanashite wa ikemasen.",
+          "vn": "Không được nói chuyện trong thư viện."
+        }
+      ]
+    },
+    {
+      "title": "Trạng thái/Tập quán: Vて います",
+      "structure": "Động từ thể Te + います",
+      "usage": "Ở Bài 14, Vています chỉ hành động đang diễn ra. Ở Bài 15, Vています biểu thị TRẠNG THÁI là kết quả của hành động vẫn còn tiếp diễn (như: đã kết hôn, biết ai đó, sống ở đâu), hoặc TẬP QUÁN (nghề nghiệp, làm việc ở đâu).",
+      "examples": [
+        {
+          "jp": "わたしは けっこんして います。",
+          "romaji": "watashi wa kekkonshite imasu.",
+          "vn": "Tôi đã kết hôn (hiện đang trong tình trạng có gia đình)."
+        },
+        {
+          "jp": "ＩＭＣで はたらいて います。",
+          "romaji": "IMC de hataraite imasu.",
+          "vn": "Tôi làm việc ở công ty IMC (Tập quán, nghề nghiệp)."
+        },
+        {
+          "jp": "やまださんを しって いますか。 ...いいえ、しりません。",
+          "romaji": "Yamada san o shitte imasu ka. ...iie, shirimasen.",
+          "vn": "Bạn có biết anh Yamada không? ...Không, tôi không biết. (LƯU Ý: Phủ định của 知っています là 知りません, không phải 知っていません)."
+        }
+      ]
+    }
+  ],
+  "grammarExercises": [
+    {
+      "question": "A：この ほんを（　　）も いいですか。 ...B：ええ、どうぞ。",
+      "options": ["かりて", "かり", "かりる", "かって"],
+      "answer": "かりて",
+      "vn": "A: Tôi mượn quyển sách này có được không? ...B: Vâng, xin mời.",
+      "explanation": "Xin phép làm gì: Vて + もいいですか. 借ります -> 借りて."
+    },
+    {
+      "question": "ここで しゃしんを（　　）は いけません。",
+      "options": ["とって", "とり", "とる", "とらない"],
+      "answer": "とって",
+      "vn": "Không được chụp ảnh ở đây.",
+      "explanation": "Cấm đoán: Vて + はいけません. 取ります/撮ります -> 撮って."
+    },
+    {
+      "question": "わたしは とうきょうに（　　）います。",
+      "options": ["すんで", "すみて", "すいて", "すって"],
+      "answer": "すんで",
+      "vn": "Tôi đang sống ở Tokyo.",
+      "explanation": "Sống ở đâu dùng trợ từ に + 住んでいます (すみます -> すんで)."
+    },
+    {
+      "question": "やまださんは ホンダで（　　）います。",
+      "options": ["はたらいて", "はたらき", "はたらって", "はたらんで"],
+      "answer": "はたらいて",
+      "vn": "Anh Yamada đang làm việc ở Honda.",
+      "explanation": "Nói về nơi làm việc dùng 働いています (はたらきます -> はたらいて)."
+    },
+    {
+      "question": "A：すずきさんの でんわばんごうを しっていますか。 ...B：いいえ、（　　）。",
+      "options": ["しりません", "しっていません", "しらないです", "しりませんでした"],
+      "answer": "しりません",
+      "vn": "A: Bạn có biết số điện thoại của anh Suzuki không? ...B: Không, tôi không biết.",
+      "explanation": "Câu hỏi là 知っていますか, nhưng phủ định đặc biệt của từ này luôn là 知りません (しりません)."
+    },
+    {
+      "question": "あねは けっこん（　　）。",
+      "options": ["しています", "します", "しました", "してあります"],
+      "answer": "しています",
+      "vn": "Chị gái tôi đã kết hôn (hiện đang có gia đình).",
+      "explanation": "Tình trạng hôn nhân luôn dùng thể Vています -> 結婚しています."
+    },
+    {
+      "question": "あそこで たばこを（　　）は いけません。",
+      "options": ["すって", "すいて", "すんで", "すってて"],
+      "answer": "すって",
+      "vn": "Không được hút thuốc ở đằng kia.",
+      "explanation": "吸います (nhóm 1, đuôi い) -> 吸って + はいけません."
+    },
+    {
+      "question": "A：この カタログを もらっても いいですか。 ...B：ええ、（　　）。",
+      "options": ["いいですよ", "いけません", "だめです", "わかりました"],
+      "answer": "いいですよ",
+      "vn": "A: Tôi nhận cuốn catalog này có được không? ...B: Vâng, được đấy.",
+      "explanation": "Cho phép, đồng ý với lời xin phép dùng ええ、いいですよ hoặc ええ、どうぞ."
+    },
+    {
+      "question": "くるまを（　　）いますか。 ...はい、もっています。",
+      "options": ["もって", "もち", "もつて", "もんで"],
+      "answer": "もって",
+      "vn": "Bạn có ô tô không? ...Vâng, tôi có.",
+      "explanation": "Sở hữu đồ vật gì đó cũng dùng trạng thái Vています -> 持っています (持ちます -> 持って)."
+    },
+    {
+      "question": "スーパーで パソコンの ソフトを（　　）います。",
+      "options": ["うって", "うりて", "うんで", "ういて"],
+      "answer": "うって",
+      "vn": "Ở siêu thị có bán phần mềm máy tính.",
+      "explanation": "Việc bán hàng (duy trì) dùng 売っています (売ります -> 売って)."
+    },
+    {
+      "question": "A：ペンで こたえを かいても いいですか。 ...B：いいえ、（　　）。",
+      "options": ["いけません", "いいです", "かいてください", "わかりました"],
+      "answer": "いけません",
+      "vn": "A: Viết câu trả lời bằng bút mực được không? ...B: Không, không được.",
+      "explanation": "Trả lời phủ định của Vてもいいですか là いいえ、いけません (hoặc いいえ、Vてはいけません)."
+    },
+    {
+      "question": "わたしの かぞくは おおさか（　　）すんでいます。",
+      "options": ["に", "で", "を", "へ"],
+      "answer": "に",
+      "vn": "Gia đình tôi sống ở Osaka.",
+      "explanation": "Động từ 住みます (sống) và 置きます (đặt để) đi với trợ từ に để chỉ địa điểm tồn tại."
+    },
+    {
+      "question": "びょういんで おさけを（　　）はいけません。",
+      "options": ["のんで", "のみて", "のって", "のいで"],
+      "answer": "のんで",
+      "vn": "Không được uống rượu trong bệnh viện.",
+      "explanation": "飲みます -> 飲んで + はいけません."
+    },
+    {
+      "question": "A：テレビを（　　）もいいですか。 ...B：すみません、ちょっと...",
+      "options": ["つけて", "つけり", "つかって", "つかて"],
+      "answer": "つけて",
+      "vn": "A: Tôi bật tivi được không? ...B: Xin lỗi, hơi bất tiện... (từ chối khéo).",
+      "explanation": "Bật (máy móc) là つけます (nhóm 2) -> つけて."
+    },
+    {
+      "question": "きのう、あたらしい くるまを（　　）。",
+      "options": ["かいました", "かっています", "かって", "かいます"],
+      "answer": "かいました",
+      "vn": "Hôm qua, tôi đã mua một chiếc ô tô mới.",
+      "explanation": "きのう (hôm qua) -> Quá khứ, nên dùng 買いました. Không dùng 買っています vì đây là một hành động đã hoàn tất trong quá khứ, không phải trạng thái sở hữu (nếu sở hữu là 持っています)."
+    }
+  ],
   "readings": readings,
   
+  "poem": {
+    "title": "てもいいです",
+    "titleVn": "❤️ Cho phép và Cấm đoán",
+    "intro": "Tóm tắt Bài 15: Xin phép làm gì, Cấm làm gì và diễn tả trạng thái hiện tại.",
+    "lines": [
+      {
+        "kanji": "ここで写真を撮ってもいいですか。",
+        "jp": "ここで しゃしんを とっても いいですか。",
+        "romaji": "Koko de shashin o totte mo ii desu ka.",
+        "vn": "Tôi chụp ảnh ở đây có được không?",
+        "note": "てもいいですか"
+      },
+      {
+        "kanji": "いいえ、撮ってはいけません。",
+        "jp": "いいえ、とっては いけません。",
+        "romaji": "Iie, totte wa ikemasen.",
+        "vn": "Không, không được chụp.",
+        "note": "てはいけません"
+      },
+      {
+        "kanji": "私は東京に住んでいます。",
+        "jp": "わたしは とうきょうに すんでいます。",
+        "romaji": "Watashi wa Toukyou ni sunde imasu.",
+        "vn": "Tôi đang sống ở Tokyo.",
+        "note": "住んでいます"
+      },
+      {
+        "kanji": "兄は結婚しています。",
+        "jp": "あには けっこんして います。",
+        "romaji": "Ani wa kekkonshite imasu.",
+        "vn": "Anh trai tôi đã kết hôn.",
+        "note": "結婚しています"
+      }
+    ]
+  }
 };
 
 export default lesson;
