@@ -413,8 +413,242 @@ const lesson: NihongoLesson = {
       }
     }
   ],
+  "grammar": [
+    {
+      "title": "Cách chia Thể Nai (ない形)",
+      "structure": "Tùy theo nhóm động từ mà có quy tắc chia sang phủ định ngắn (Thể Nai)",
+      "usage": "Nhóm 1: Chuyển âm cuối trước ます từ hàng [i] sang hàng [a] + ない. LƯU Ý: Đuôi [い] chuyển thành [わ] + ない (VD: かいます -> かわない). Nhóm 2: Bỏ ます thêm ない. Nhóm 3: します -> しない, きます -> こない.",
+      "examples": [
+        {
+          "jp": "かきます -> かかない / のみます -> のまない / いそぎます -> いそがない",
+          "romaji": "kakimasu -> kakanai / nomimasu -> nomanai / isogimasu -> isoganai",
+          "vn": "Nhóm 1: Viết -> Không viết / Uống -> Không uống / Vội -> Không vội"
+        },
+        {
+          "jp": "たべます -> たべない / みます -> みない",
+          "romaji": "tabemasu -> tabenai / mimasu -> minai",
+          "vn": "Nhóm 2: Ăn -> Không ăn / Xem -> Không xem"
+        },
+        {
+          "jp": "します -> しない / きます -> こない",
+          "romaji": "shimasu -> shinai / kimasu -> konai",
+          "vn": "Nhóm 3: Làm -> Không làm / Đến -> Không đến"
+        }
+      ]
+    },
+    {
+      "title": "Xin đừng làm: Vないで ください",
+      "structure": "Động từ thể Nai + で ください",
+      "usage": "Dùng để khuyên bảo hoặc yêu cầu ai đó ĐỪNG làm một việc gì đó một cách lịch sự.",
+      "examples": [
+        {
+          "jp": "ここで しゃしんを とらないで ください。",
+          "romaji": "koko de shashin o toranaide kudasai.",
+          "vn": "Xin đừng chụp ảnh ở đây."
+        },
+        {
+          "jp": "わたしは げんきですから、しんぱいしないで ください。",
+          "romaji": "watashi wa genki desu kara, shinpaishinaide kudasai.",
+          "vn": "Vì tôi khỏe nên xin đừng lo lắng."
+        }
+      ]
+    },
+    {
+      "title": "Nghĩa vụ (Phải làm gì): Vなければ なりません",
+      "structure": "Động từ thể Nai (bỏ ない) + なければ なりません",
+      "usage": "Diễn tả một nghĩa vụ, bổn phận phải thực hiện (không liên quan đến ý muốn chủ quan của người nói). Dịch là: Phải làm ~.",
+      "examples": [
+        {
+          "jp": "くすりを のまなければ なりません。",
+          "romaji": "kusuri o nomanakereba narimasen.",
+          "vn": "Phải uống thuốc."
+        },
+        {
+          "jp": "あした はやく おきなければ なりません。",
+          "romaji": "ashita hayaku okinakereba narimasen.",
+          "vn": "Ngày mai phải thức dậy sớm."
+        }
+      ]
+    },
+    {
+      "title": "Sự cho phép (Không làm cũng được): Vなくても いいです",
+      "structure": "Động từ thể Nai (bỏ ない) + なくても いいです",
+      "usage": "Diễn tả sự không cần thiết phải thực hiện một hành động. Dịch là: Không làm ~ cũng được.",
+      "examples": [
+        {
+          "jp": "あした こなくても いいです。",
+          "romaji": "ashita konakute mo ii desu.",
+          "vn": "Ngày mai không đến cũng được."
+        },
+        {
+          "jp": "くつを ぬがなくても いいです。",
+          "romaji": "kutsu o nuganakute mo ii desu.",
+          "vn": "Không cởi giày ra cũng được."
+        }
+      ]
+    },
+    {
+      "title": "Thời hạn: N(thời gian) + までに",
+      "structure": "Danh từ thời gian + までに + Động từ",
+      "usage": "Diễn tả thời hạn cuối cùng mà một hành động hay sự việc phải được thực hiện. Khác với 'まで' (cho đến khi - hành động liên tục), 'までに' chỉ một mốc giới hạn.",
+      "examples": [
+        {
+          "jp": "きんようびまでに レポートを ださなければ なりません。",
+          "romaji": "kinyoubi made ni repooto o dasanakereba narimasen.",
+          "vn": "Phải nộp báo cáo TRƯỚC thứ Sáu."
+        },
+        {
+          "jp": "１２じまでに かえります。",
+          "romaji": "juuniji made ni kaerimasu.",
+          "vn": "Sẽ trở về TRƯỚC 12 giờ."
+        }
+      ]
+    }
+  ],
+  "grammarExercises": [
+    {
+      "question": "ここで しゃしんを（　　）で ください。",
+      "options": ["とらない", "とら", "とって", "とる"],
+      "answer": "とらない",
+      "vn": "Xin đừng chụp ảnh ở đây.",
+      "explanation": "Khuyên bảo đừng làm gì: Vない + でください. 撮ります -> 撮らない."
+    },
+    {
+      "question": "あしたは やすみですから、はやく（　　）もいいです。",
+      "options": ["おきなくて", "おきない", "おきって", "おきて"],
+      "answer": "おきなくて",
+      "vn": "Vì ngày mai là ngày nghỉ nên không dậy sớm cũng được.",
+      "explanation": "Không làm cũng được: Vなくてもいいです. 起きます -> 起きない -> 起きなくても."
+    },
+    {
+      "question": "「かいます」の ない形は なにですか。",
+      "options": ["かわない", "かかない", "かあない", "かまない"],
+      "answer": "かわない",
+      "vn": "Thể Nai của \"Kaimasu\" (Mua) là gì?",
+      "explanation": "Động từ nhóm 1 tận cùng bằng い sẽ chuyển thành わ + ない. 買います -> 買わない."
+    },
+    {
+      "question": "「きます」(Đến) の ない形は なにですか。",
+      "options": ["こない", "きない", "かない", "くない"],
+      "answer": "こない",
+      "vn": "Thể Nai của \"Kimasu\" (Đến) là gì?",
+      "explanation": "きます (Đến) thuộc nhóm 3, thể Nai đặc biệt là こない."
+    },
+    {
+      "question": "まいにち にほんごを（　　）ければ なりません。",
+      "options": ["べんきょうしな", "べんきょうして", "べんきょうする", "べんきょうし"],
+      "answer": "べんきょうしな",
+      "vn": "Mỗi ngày phải học tiếng Nhật.",
+      "explanation": "Phải làm gì: Vない (bỏ ない) + なければなりません. 勉強します -> 勉強しない -> 勉強しなければ."
+    },
+    {
+      "question": "パスポートを（　　）で ください。",
+      "options": ["なくさない", "なくして", "なくさ", "なくす"],
+      "answer": "なくさない",
+      "vn": "Xin đừng làm mất hộ chiếu.",
+      "explanation": "Vないでください. なくします (làm mất) -> なくさない."
+    },
+    {
+      "question": "らいしゅうの げつようび（　　）ほんを かえさなければなりません。",
+      "options": ["までに", "まで", "から", "で"],
+      "answer": "までに",
+      "vn": "Phải trả sách trước thứ Hai tuần sau.",
+      "explanation": "Hành động (trả sách) diễn ra tại một mốc thời hạn cụ thể -> dùng までに."
+    },
+    {
+      "question": "「のみます」の ない形は なにですか。",
+      "options": ["のまない", "のめない", "のみない", "のものい"],
+      "answer": "のまない",
+      "vn": "Thể Nai của \"Nomimasu\" (Uống) là gì?",
+      "explanation": "Nhóm 1: Hàng い -> Hàng あ + ない. 飲みます -> 飲まない."
+    },
+    {
+      "question": "きょうは あめが ふっていませんから、かさを（　　）もいいです。",
+      "options": ["もっていかなくて", "もっていって", "もってこなくて", "もっていかかないで"],
+      "answer": "もっていかなくて",
+      "vn": "Vì hôm nay trời không mưa nên không mang ô đi cũng được.",
+      "explanation": "持って行きます -> 持って行かない -> 持って行かなくてもいいです."
+    },
+    {
+      "question": "A：ここで じしょを つかっても いいですか。 ...B：いいえ、（　　）。",
+      "options": ["つかわないで ください", "つかわなくてもいいです", "つかってもいいです", "つかってください"],
+      "answer": "つかわないで ください",
+      "vn": "A: Dùng từ điển ở đây có được không? ...B: Không, xin đừng dùng.",
+      "explanation": "Từ chối dùng ないでください hoặc てはいけません. Nhóm 1: 使います -> 使わない."
+    },
+    {
+      "question": "びょうきですから、くすりを（　　）。",
+      "options": ["のまなければ なりません", "のまなくても いいです", "のまないでください", "のんでください"],
+      "answer": "のまなければ なりません",
+      "vn": "Vì bị ốm nên phải uống thuốc.",
+      "explanation": "Nghĩa vụ, phải làm việc gì đó (uống thuốc khi ốm) -> なければなりません."
+    },
+    {
+      "question": "「たべます」の ない形は なにですか。",
+      "options": ["たべない", "たばない", "たばないで", "たべてない"],
+      "answer": "たべない",
+      "vn": "Thể Nai của \"Tabemasu\" (Ăn) là gì?",
+      "explanation": "Nhóm 2: Bỏ ます thêm ない. 食べます -> 食べない."
+    },
+    {
+      "question": "あの へやに（　　）で ください。",
+      "options": ["はいらない", "はいって", "はいらな", "はいれな"],
+      "answer": "はいらない",
+      "vn": "Xin đừng vào căn phòng đó.",
+      "explanation": "入ります (vào) tuy kết thúc bằng い/り nhưng là Nhóm 1 đặc biệt -> 入らない."
+    },
+    {
+      "question": "なまえは ボールペンで かいて ください。えんぴつで（　　）で ください。",
+      "options": ["かかない", "かわない", "かかって", "かくて"],
+      "answer": "かかない",
+      "vn": "Xin hãy viết tên bằng bút bi. Xin đừng viết bằng bút chì.",
+      "explanation": "書きます -> 書かない (Đừng viết)."
+    },
+    {
+      "question": "「まちます」の ない形は なにですか。",
+      "options": ["またない", "またないで", "まわない", "まちない"],
+      "answer": "またない",
+      "vn": "Thể Nai của \"Machimasu\" (Đợi) là gì?",
+      "explanation": "Nhóm 1 đuôi ち -> た + ない. 待ちます -> 待たない."
+    }
+  ],
   "readings": readings,
   
+  "poem": {
+    "title": "ない形・ないでください",
+    "titleVn": "❤️ Khuyên bảo và Nghĩa vụ",
+    "intro": "Tóm tắt Bài 17: Phủ định V-nai, mẫu câu xin đừng, phải làm và không cần làm.",
+    "lines": [
+      {
+        "kanji": "ここで写真を撮らないでください。",
+        "jp": "ここで しゃしんを とらないで ください。",
+        "romaji": "Koko de shashin o toranaide kudasai.",
+        "vn": "Xin đừng chụp ảnh ở nơi này.",
+        "note": "Vないでください"
+      },
+      {
+        "kanji": "明日早く起きなければなりません。",
+        "jp": "あした はやく おきなければ なりません。",
+        "romaji": "Ashita hayaku okinakereba narimasen.",
+        "vn": "Sáng mai phải dậy sớm thôi.",
+        "note": "Vなければなりません"
+      },
+      {
+        "kanji": "日曜日は働かなくてもいいです。",
+        "jp": "にちようびは はたらかなくても いいです。",
+        "romaji": "Nichiyoubi wa hatarakanakute mo ii desu.",
+        "vn": "Chủ Nhật thì không đi làm cũng được.",
+        "note": "Vなくてもいいです"
+      },
+      {
+        "kanji": "金曜日までにレポートを出します。",
+        "jp": "きんようびまでに レポートを だします。",
+        "romaji": "Kinyoubi made ni repooto o dashimasu.",
+        "vn": "Trước thứ Sáu tôi sẽ nộp báo cáo.",
+        "note": "までに"
+      }
+    ]
+  }
 };
 
 export default lesson;
