@@ -273,8 +273,225 @@ const lesson: NihongoLesson = {
       }
     }
   ],
+  "grammar": [
+    {
+      "title": "Câu điều kiện: ～たら (Nếu... thì / Sau khi... thì)",
+      "structure": "Thể quá khứ (Vた / かった / だった) + ら、～",
+      "usage": "1. Mang nghĩa 'NẾU': Đưa ra một giả định. (Khác với 'Vると', '～たら' cho phép vế sau dùng ý chí, rủ rê, nhờ vả). 2. Mang nghĩa 'SAU KHI': Diễn tả một việc chắc chắn sẽ xảy ra trong tương lai, sau khi việc đó xong thì làm việc tiếp theo.",
+      "examples": [
+        {
+          "jp": "あした あめが ふったら、いきません。",
+          "romaji": "ashita ame ga futtara, ikimasen.",
+          "vn": "NẾU ngày mai trời mưa, tôi sẽ không đi."
+        },
+        {
+          "jp": "じかんが なかったら、タクシーで いきます。",
+          "romaji": "jikan ga nakattara, takushii de ikimasu.",
+          "vn": "NẾU không có thời gian, tôi sẽ đi bằng taxi."
+        },
+        {
+          "jp": "10じに なったら、でかけましょう。",
+          "romaji": "juuji ni nattara, dekakemashou.",
+          "vn": "SAU KHI đến 10 giờ, chúng ta cùng xuất phát nhé. (Không phải giả định vì chắc chắn sẽ đến 10 giờ)"
+        }
+      ]
+    },
+    {
+      "title": "Cách chia Thể ～たら",
+      "structure": "Chia sang thể quá khứ rồi thêm 'ら'",
+      "usage": "Động từ: Vた -> Vたら. Phủ định: Vなかったら. Tính từ i: ～かったら. Tính từ na / Danh từ: ～だったら.",
+      "examples": [
+        {
+          "jp": "やすかったら、かいます。 / ひまだったら、いきます。",
+          "romaji": "yasukattara, kaimasu. / hima dattara, ikimasu.",
+          "vn": "Nếu rẻ tôi sẽ mua (Tính từ i) / Nếu rảnh tôi sẽ đi (Tính từ na)."
+        },
+        {
+          "jp": "いいてんき だったら、さんぽします。",
+          "romaji": "ii tenki dattara, sanposhimasu.",
+          "vn": "Nếu thời tiết đẹp tôi sẽ đi dạo (Danh từ)."
+        }
+      ]
+    },
+    {
+      "title": "Câu nhượng bộ: ～ても (Dù... cũng / Mặc dù)",
+      "structure": "Thể て / くて / でも + も、～",
+      "usage": "Ý nghĩa ngược lại với '～たら'. Dù điều kiện ở vế trước có xảy ra thì hành động ở vế sau cũng không thay đổi.",
+      "examples": [
+        {
+          "jp": "あめが ふっても、いきます。",
+          "romaji": "ame ga futtemo, ikimasu.",
+          "vn": "MẶC DÙ trời mưa, tôi cũng sẽ đi."
+        },
+        {
+          "jp": "たかくても、かいます。 / びょうきでも、はたらきます。",
+          "romaji": "takakutemo, kaimasu. / byouki demo, hatarakimasu.",
+          "vn": "DÙ đắt tôi cũng mua (Tính từ i) / DÙ ốm tôi cũng làm việc (Danh từ)."
+        }
+      ]
+    },
+    {
+      "title": "Phó từ nhấn mạnh: もし và いくら",
+      "structure": "もし + ～たら / いくら + ～ても",
+      "usage": "1. もし (Giả sử): Đặt ở đầu câu để nhấn mạnh ý giả định của ～たら. 2. いくら (Cho dù bao nhiêu đi nữa): Nhấn mạnh mức độ cho ～ても.",
+      "examples": [
+        {
+          "jp": "もし 1おくえん あったら、いえを かいたいです。",
+          "romaji": "moshi ichi okuen attara, ie o kaitai desu.",
+          "vn": "GIẢ SỬ NẾU có 100 triệu Yên, tôi muốn mua nhà."
+        },
+        {
+          "jp": "いくら かんがえても、わかりません。",
+          "romaji": "ikura kangaetemo, wakarimasen.",
+          "vn": "CHO DÙ có suy nghĩ BAO NHIÊU ĐI NỮA thì tôi cũng không hiểu."
+        }
+      ]
+    }
+  ],
+  "grammarExercises": [
+    {
+      "question": "おかねが（　　）、パソコンを かいたいです。",
+      "options": ["あったら", "あると", "あっても", "あって"],
+      "answer": "あったら",
+      "vn": "Nếu có tiền, tôi muốn mua máy tính.",
+      "explanation": "Câu có ý chí (muốn mua) ở vế sau, dùng ～たら (Nếu)."
+    },
+    {
+      "question": "おかねが（　　）、パソコンが かえません。",
+      "options": ["なくても", "なかったら", "ないと", "ないでも"],
+      "answer": "なくても",
+      "vn": "Dù không có tiền, (cũng không thể nói là mua được -> Sai nghĩa). Phải là DÙ CÓ TIỀN cũng không mua.",
+      "explanation": "Lưu ý câu này: Phủ định V ない -> なかったら (Nếu không có tiền). Nếu không có tiền thì không thể mua: お金がなかったら、買えません."
+    },
+    {
+      "question": "おかねが（　　）、パソコンを かえません。",
+      "options": ["なかったら", "なくても", "ない", "あると"],
+      "answer": "なかったら",
+      "vn": "Nếu không có tiền thì không thể mua máy tính.",
+      "explanation": "Vない -> なかったら (Nếu không)."
+    },
+    {
+      "question": "あめが（　　）、さんぽに いきます。",
+      "options": ["ふっても", "ふったら", "ふると", "ふるから"],
+      "answer": "ふっても",
+      "vn": "Mặc dù trời mưa, tôi vẫn đi dạo.",
+      "explanation": "Vế sau vẫn thực hiện hành động bất chấp điều kiện -> Vても."
+    },
+    {
+      "question": "やすかったら、かいます。たかく（　　）かいません。",
+      "options": ["たら", "ても", "ければ", "と"],
+      "answer": "たら",
+      "vn": "Nếu rẻ tôi sẽ mua. Nếu đắt tôi sẽ không mua.",
+      "explanation": "Cao (Đắt) -> 高い -> 高かったら (Nếu đắt)."
+    },
+    {
+      "question": "この パソコンは たかく（　　）、かいたいです。",
+      "options": ["ても", "たら", "て", "と"],
+      "answer": "ても",
+      "vn": "Máy tính này dù đắt tôi cũng muốn mua.",
+      "explanation": "Tính từ đuôi い: たかい -> たかくても (Dù đắt)."
+    },
+    {
+      "question": "ひま（　　）、あそびに きて ください。",
+      "options": ["だったら", "かったら", "でも", "なら"],
+      "answer": "だったら",
+      "vn": "Nếu rảnh rỗi thì hãy đến chơi nhé.",
+      "explanation": "Tính từ đuôi な (暇) chia thể たら -> 暇だったら."
+    },
+    {
+      "question": "日曜日（　　）、はたらかなければ なりません。",
+      "options": ["でも", "だったら", "て", "と"],
+      "answer": "でも",
+      "vn": "Dù là Chủ Nhật cũng phải làm việc.",
+      "explanation": "Danh từ (日曜日) chia thể ても -> 日曜日でも."
+    },
+    {
+      "question": "なつやすみに（　　）、くにへ かえります。",
+      "options": ["なったら", "なると", "なっても", "なるから"],
+      "answer": "なったら",
+      "vn": "Sau khi đến kỳ nghỉ hè, tôi sẽ về nước.",
+      "explanation": "Nghĩa 'Sau khi' (sự việc chắc chắn xảy ra) -> Vたら."
+    },
+    {
+      "question": "（　　）かんがえても、わかりません。",
+      "options": ["いくら", "もし", "どう", "どんな"],
+      "answer": "いくら",
+      "vn": "Cho dù suy nghĩ bao nhiêu đi nữa cũng không hiểu.",
+      "explanation": "Phó từ đi với ても để nhấn mạnh mức độ -> いくら."
+    },
+    {
+      "question": "（　　）あめが ふったら、いきません。",
+      "options": ["もし", "いくら", "たぶん", "ぜんぜん"],
+      "answer": "もし",
+      "vn": "Giả sử nếu trời mưa, tôi sẽ không đi.",
+      "explanation": "Phó từ đi với たら để nhấn mạnh giả định -> もし."
+    },
+    {
+      "question": "くすりを（　　）、よくなりません。",
+      "options": ["のんでも", "のんだら", "のむと", "のまなかったら"],
+      "answer": "のんでも",
+      "vn": "Dù uống thuốc cũng không khỏi.",
+      "explanation": "Hành động uống thuốc đã xảy ra nhưng kết quả trái ngược mong đợi -> Vても."
+    },
+    {
+      "question": "えきに（　　）、でんわを して ください。",
+      "options": ["ついたら", "つくと", "ついても", "つくとき"],
+      "answer": "ついたら",
+      "vn": "Sau khi đến ga hãy gọi điện thoại nhé.",
+      "explanation": "Sự việc chưa xảy ra nhưng khi nó hoàn thành thì làm việc tiếp theo -> Vたら."
+    },
+    {
+      "question": "バスが（　　）、タクシーで いきます。",
+      "options": ["こなかったら", "こないでも", "こないと", "こないから"],
+      "answer": "こなかったら",
+      "vn": "Nếu xe buýt không đến, tôi sẽ đi taxi.",
+      "explanation": "Phủ định Vない -> なかったら."
+    },
+    {
+      "question": "しごとが おわら（　　）、かえる ことが できません。",
+      "options": ["なかったら", "なくても", "ないと", "ないから"],
+      "answer": "なかったら",
+      "vn": "Nếu công việc chưa xong thì không thể về được.",
+      "explanation": "Điều kiện cần để về là xong việc. Động từ 終わる -> 終わらない -> 終わらなかったら."
+    }
+  ],
   "readings": readings,
   
+  "poem": {
+    "title": "たら・ても",
+    "titleVn": "❤️ Nếu - Dù (Kết thúc N5)",
+    "intro": "Tóm tắt Bài 25 (Bài cuối cùng của N5): Phân biệt rõ cấu trúc NẾU (~たら) và DÙ (~ても).",
+    "lines": [
+      {
+        "kanji": "雨が降ったら、行きません。",
+        "jp": "あめが ふったら、いきません。",
+        "romaji": "Ame ga futtara, ikimasen.",
+        "vn": "NẾU mà trời mưa, tôi sẽ không đi.",
+        "note": "Vた + ら (Giả định NẾU)"
+      },
+      {
+        "kanji": "雨が降っても、行きます。",
+        "jp": "あめが ふっても、いきます。",
+        "romaji": "Ame ga futtemo, ikimasu.",
+        "vn": "DÙ cho trời mưa, tôi vẫn sẽ đi.",
+        "note": "Vて + も (Nhượng bộ DÙ)"
+      },
+      {
+        "kanji": "もし雨が降ったら、行きません。",
+        "jp": "もし あめが ふったら、いきません。",
+        "romaji": "Moshi ame ga futtara, ikimasen.",
+        "vn": "GIẢ SỬ nếu mưa, tôi sẽ không đi.",
+        "note": "もし đi cặp với ～たら"
+      },
+      {
+        "kanji": "いくら考えても、わかりません。",
+        "jp": "いくら かんがえても、わかりません。",
+        "romaji": "Ikura kangaetemo, wakarimasen.",
+        "vn": "CÓ NGHĨ BAO NHIÊU, cũng chẳng hiểu gì.",
+        "note": "いくら đi cặp với ～ても"
+      }
+    ]
+  }
 };
 
 export default lesson;
