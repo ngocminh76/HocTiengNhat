@@ -295,8 +295,245 @@ const lesson: NihongoLesson = {
       "type": "Liên từ"
     }
   ],
+  "grammar": [
+    {
+      "title": "Tổng quan về Thể thông thường (普通体)",
+      "structure": "Thể thông thường (Plain form) là cách nói ngắn gọn, xuồng xã, dùng khi nói chuyện với người thân, bạn bè đồng trang lứa, người ít tuổi hơn.",
+      "usage": "Trong hội thoại thân mật, ta không dùng です/ます. Các câu hỏi sẽ không có chữ 'か' ở cuối mà chỉ lên giọng. Các trợ từ (は, が, を, へ) thường bị lược bỏ nếu ý nghĩa đã rõ ràng.",
+      "examples": [
+        {
+          "jp": "A: ごはん、たべる？ ... B: うん、たべる。",
+          "romaji": "A: Gohan, taberu? ... B: Un, taberu.",
+          "vn": "A: Ăn cơm không? ... B: Ừ, ăn. (Lược bỏ trợ từ を, dùng thể từ điển thay cho たべますか / たべます)"
+        },
+        {
+          "jp": "A: あした ひま？ ... B: ううん、ひまじゃない。",
+          "romaji": "A: Ashita hima? ... B: Uun, hima janai.",
+          "vn": "A: Mai rảnh không? ... B: Không, không rảnh. (Bỏ です/ですか, dùng うん/ううん thay cho はい/いいえ)"
+        }
+      ]
+    },
+    {
+      "title": "Thể thông thường của Động từ",
+      "structure": "Quy về 4 dạng cơ bản: Vる (Khẳng định), Vない (Phủ định), Vた (Quá khứ), Vなかった (Quá khứ phủ định)",
+      "usage": "Cách chia Quá khứ phủ định (Vなかった): Lấy thể ない, bỏ い thêm かった.",
+      "examples": [
+        {
+          "jp": "かきます -> かく / かかない / かいた / かかなかった",
+          "romaji": "kakimasu -> kaku / kakanai / kaita / kakanakatta",
+          "vn": "Viết -> Viết / Không viết / Đã viết / Đã không viết"
+        },
+        {
+          "jp": "たべます -> たべる / たべない / たべた / たべなかった",
+          "romaji": "tabemasu -> taberu / tabenai / tabeta / tabenakatta",
+          "vn": "Ăn -> Ăn / Không ăn / Đã ăn / Đã không ăn"
+        },
+        {
+          "jp": "します -> する / しない / した / しなかった",
+          "romaji": "shimasu -> suru / shinai / shita / shinakatta",
+          "vn": "Làm -> Làm / Không làm / Đã làm / Đã không làm"
+        }
+      ]
+    },
+    {
+      "title": "Thể thông thường của Tính từ đuôi い",
+      "structure": "Chỉ việc bỏ です ở cuối câu.",
+      "usage": "Khẳng định: ~い / Phủ định: ~くない / Quá khứ: ~かった / Quá khứ phủ định: ~くなかった",
+      "examples": [
+        {
+          "jp": "おおきいです -> おおきい",
+          "romaji": "ookii desu -> ookii",
+          "vn": "Lớn"
+        },
+        {
+          "jp": "おおきくないです -> おおきくない",
+          "romaji": "ookikunai desu -> ookikunai",
+          "vn": "Không lớn"
+        },
+        {
+          "jp": "おおきかったです -> おおきかった",
+          "romaji": "ookikatta desu -> ookikatta",
+          "vn": "Đã lớn"
+        },
+        {
+          "jp": "おおきくなかったです -> おおきくなかった",
+          "romaji": "ookikunakatta desu -> ookikunakatta",
+          "vn": "Đã không lớn"
+        }
+      ]
+    },
+    {
+      "title": "Thể thông thường của Tính từ đuôi な và Danh từ",
+      "structure": "Khẳng định: Thay です bằng だ (Trong câu hỏi bỏ luôn だ) / Phủ định: Thay じゃありません bằng じゃない / Quá khứ: Thay でした bằng だった / Quá khứ phủ định: Thay じゃありませんでした bằng じゃなかった.",
+      "usage": "Áp dụng chung cho cả Tính từ đuôi な và Danh từ.",
+      "examples": [
+        {
+          "jp": "ひまです -> ひまだ (Hỏi: ひま？)",
+          "romaji": "hima desu -> hima da (Hỏi: hima?)",
+          "vn": "Rảnh"
+        },
+        {
+          "jp": "ひまじゃありません -> ひまじゃない",
+          "romaji": "hima ja arimasen -> hima janai",
+          "vn": "Không rảnh"
+        },
+        {
+          "jp": "あめでした -> あめだった",
+          "romaji": "ame deshita -> ame datta",
+          "vn": "Đã mưa (Quá khứ của Danh từ 雨)"
+        },
+        {
+          "jp": "あめじゃありませんでした -> あめじゃなかった",
+          "romaji": "ame ja arimasen deshita -> ame janakatta",
+          "vn": "Đã không mưa"
+        }
+      ]
+    }
+  ],
+  "grammarExercises": [
+    {
+      "question": "「のみます」の 普通体(ふつうたい) は なにですか。",
+      "options": ["のむ", "のまない", "のんだ", "のまなかった"],
+      "answer": "のむ",
+      "vn": "Thể thông thường của \"Nomimasu\" (Hiện tại khẳng định) là gì?",
+      "explanation": "のみます -> のむ (Thể từ điển)."
+    },
+    {
+      "question": "「いきませんでした」の 普通体 は なにですか。",
+      "options": ["いかなかった", "いかない", "いった", "いかなかったです"],
+      "answer": "いかなかった",
+      "vn": "Thể thông thường của \"Ikimasen deshita\" (Đã không đi) là gì?",
+      "explanation": "Quá khứ phủ định của động từ nhóm 1: Thể ない bỏ い + かった. 行かない -> 行かなかった."
+    },
+    {
+      "question": "「おいしいです」の 普通体 は なにですか。",
+      "options": ["おいしい", "おいしいだ", "おいしかった", "おいしくない"],
+      "answer": "おいしい",
+      "vn": "Thể thông thường của \"Oishii desu\" là gì?",
+      "explanation": "Tính từ đuôi い chỉ cần bỏ です. おいしいです -> おいしい."
+    },
+    {
+      "question": "「さむくなかったです」の 普通体 は なにですか。",
+      "options": ["さむくなかった", "さむくない", "さむかった", "さむくないだった"],
+      "answer": "さむくなかった",
+      "vn": "Thể thông thường của \"Samukunakatta desu\" là gì?",
+      "explanation": "Tính từ đuôi い chỉ cần bỏ です. さむくなかったです -> さむくなかった."
+    },
+    {
+      "question": "「きれいです」の 普通体 は なにですか。",
+      "options": ["きれいだ", "きれいい", "きれいくない", "きれいだった"],
+      "answer": "きれいだ",
+      "vn": "Thể thông thường của \"Kirei desu\" là gì?",
+      "explanation": "きれい là tính từ đuôi な. Thể khẳng định thay です bằng だ -> きれいだ."
+    },
+    {
+      "question": "「あめでした」の 普通体 は なにですか。",
+      "options": ["あめだった", "あめだ", "あめじゃない", "あめじゃなかった"],
+      "answer": "あめだった",
+      "vn": "Thể thông thường của \"Ame deshita\" (Đã mưa) là gì?",
+      "explanation": "Danh từ thời quá khứ. でした -> だった. 雨でした -> 雨だった."
+    },
+    {
+      "question": "「ひまじゃありません」の 普通体 は なにですか。",
+      "options": ["ひまじゃない", "ひまだ", "ひまだった", "ひまじゃなかった"],
+      "answer": "ひまじゃない",
+      "vn": "Thể thông thường của \"Hima ja arimasen\" là gì?",
+      "explanation": "Tính từ đuôi な phủ định. じゃありません -> じゃない. 暇じゃありません -> 暇じゃない."
+    },
+    {
+      "question": "A：あした、がっこうへ（　　）？ ...B：ううん、（　　）。",
+      "options": ["いく/いかない", "いきます/いきません", "いった/いかなかった", "いく/いく"],
+      "answer": "いく/いかない",
+      "vn": "A: Mai có đi học không? ...B: Không, không đi.",
+      "explanation": "Câu hỏi rủ rê tương lai dùng Vる (行く). Phủ định hiện tại/tương lai dùng Vない (行かない)."
+    },
+    {
+      "question": "A：きのう、えいがを（　　）？ ...B：うん、（　　）。",
+      "options": ["みた/みた", "みる/みる", "みた/みない", "みて/みる"],
+      "answer": "みた/みた",
+      "vn": "A: Hôm qua có xem phim không? ...B: Có, đã xem.",
+      "explanation": "Hỏi về quá khứ (きのう) dùng Vた. 見ましたか -> 見た？. Trả lời: 見ました -> 見た."
+    },
+    {
+      "question": "「ありません」の 普通体 は なにですか。",
+      "options": ["ない", "なかった", "ある", "あらない"],
+      "answer": "ない",
+      "vn": "Thể thông thường của \"Arimasen\" (Không có - đồ vật) là gì?",
+      "explanation": "Thể phủ định của あります (Có) không phải là あらない mà là ない (Không có)."
+    },
+    {
+      "question": "「いいです」の 普通体 は なにですか。",
+      "options": ["いい", "いいだ", "よくない", "よかった"],
+      "answer": "いい",
+      "vn": "Thể thông thường của \"Ii desu\" (Tốt) là gì?",
+      "explanation": "Tính từ đuôi い bỏ です. いいです -> いい."
+    },
+    {
+      "question": "「よくありませんでした」の 普通体 は なにですか。",
+      "options": ["よくなかった", "よくない", "よかった", "よくないだった"],
+      "answer": "よくなかった",
+      "vn": "Thể thông thường của \"Yoku arimasen deshita\" (Đã không tốt) là gì?",
+      "explanation": "Quá khứ phủ định của いい. よくありませんでした -> よくなかったです -> よくなかった."
+    },
+    {
+      "question": "「みます」の 普通体 は なにですか。",
+      "options": ["みる", "みた", "みない", "みなかった"],
+      "answer": "みる",
+      "vn": "Thể thông thường của \"Mimasu\" là gì?",
+      "explanation": "み（見）ます thuộc nhóm 2 -> みる."
+    },
+    {
+      "question": "「きませんでした」の 普通体 は なにですか。",
+      "options": ["こなかった", "こない", "きた", "きなかった"],
+      "answer": "こなかった",
+      "vn": "Thể thông thường của \"Kimasen deshita\" (Đã không đến) là gì?",
+      "explanation": "来ます (kimasu) -> 来ない (konai) -> 来なかった (konakatta)."
+    },
+    {
+      "question": "「びょうきじゃありませんでした」の 普通体 は なにですか。",
+      "options": ["びょうきじゃなかった", "びょうきじゃない", "びょうきだった", "びょうきだったじゃない"],
+      "answer": "びょうきじゃなかった",
+      "vn": "Thể thông thường của \"Byouki ja arimasen deshita\" (Đã không ốm) là gì?",
+      "explanation": "Danh từ quá khứ phủ định. じゃありませんでした -> じゃなかった. 病気じゃなかった."
+    }
+  ],
   "readings": readings,
   
+  "poem": {
+    "title": "普通体",
+    "titleVn": "❤️ Thể thông thường",
+    "intro": "Tóm tắt Bài 20: Thể thông thường (Plain form) - Cách nói chuyện ngắn gọn, tự nhiên dùng với bạn bè và người thân.",
+    "lines": [
+      {
+        "kanji": "明日、映画を見る？",
+        "jp": "あした、えいがを みる？",
+        "romaji": "Ashita, eiga o miru?",
+        "vn": "Ngày mai, đi xem phim không?",
+        "note": "見ますか -> 見る？"
+      },
+      {
+        "kanji": "ううん、見ない。仕事がある。",
+        "jp": "ううん、みない。しごとが ある。",
+        "romaji": "Uun, minai. Shigoto ga aru.",
+        "vn": "Không, không xem. Có công việc.",
+        "note": "見ません -> 見ない / あります -> ある"
+      },
+      {
+        "kanji": "昨日、美味しかった？",
+        "jp": "きのう、おいしかった？",
+        "romaji": "Kinou, oishikatta?",
+        "vn": "Hôm qua, ăn có ngon không?",
+        "note": "美味しかったです -> 美味しかった"
+      },
+      {
+        "kanji": "うん、でも高かった。",
+        "jp": "うん、でも たかかった。",
+        "romaji": "Un, demo takakatta.",
+        "vn": "Ừ, nhưng mà đắt tiền.",
+        "note": "高かったです -> 高かった"
+      }
+    ]
+  }
 };
 
 export default lesson;
