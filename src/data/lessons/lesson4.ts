@@ -338,7 +338,13 @@ const lesson: NihongoLesson = {
       "reading": "ひる",
       "romaji": "hiru",
       "meaning": "Buổi trưa",
-      "type": "Danh từ"
+      "type": "Danh từ",
+      "kanjiBreakdown": {
+        "hanviet": "TRÚ",
+        "components": "尺 (Xích - Thước) + 旦 (Đán - Buổi sáng)",
+        "story": "Dùng thước (Xích) đo bóng mặt trời (Đán) để biết đã đến buổi Trưa (Trú).",
+        "examples": "昼 (Trưa), 昼休み (Nghỉ trưa)"
+      }
     },
     {
       "id": "L4_23c",
@@ -346,7 +352,13 @@ const lesson: NihongoLesson = {
       "reading": "ばん",
       "romaji": "ban",
       "meaning": "Buổi tối",
-      "type": "Danh từ"
+      "type": "Danh từ",
+      "kanjiBreakdown": {
+        "hanviet": "VÃN",
+        "components": "日 (Nhật - Ngày) + 免 (Miễn - Miễn trừ)",
+        "story": "Hết một ngày (Nhật), được miễn (Miễn) làm việc, đó là buổi tối (Vãn).",
+        "examples": "晩 (Buổi tối), 今晩 (Tối nay)"
+      }
     },
     {
       "id": "L4_23d",
@@ -354,7 +366,13 @@ const lesson: NihongoLesson = {
       "reading": "よる",
       "romaji": "yoru",
       "meaning": "Đêm",
-      "type": "Danh từ"
+      "type": "Danh từ",
+      "kanjiBreakdown": {
+        "hanviet": "DẠ",
+        "components": "亠 (Đầu) + 亻(Nhân) + 夕 (Tịch - Chiều tối)",
+        "story": "Con người (亻) hoạt động dưới màn đêm (夕).",
+        "examples": "夜 (Đêm), 今夜 (Đêm nay)"
+      }
     },
     {
       "id": "L4_23e",
@@ -378,7 +396,13 @@ const lesson: NihongoLesson = {
       "reading": "きょう",
       "romaji": "kyou",
       "meaning": "Hôm nay",
-      "type": "Danh từ"
+      "type": "Danh từ",
+      "kanjiBreakdown": {
+        "hanviet": "KIM NHẬT",
+        "components": "今 (Kim - Hiện tại) + 日 (Nhật - Ngày)",
+        "story": "Ngày (Nhật) hiện tại (Kim) chính là Hôm nay.",
+        "examples": "今日 (Hôm nay)"
+      }
     },
     {
       "id": "L4_23h",
@@ -386,7 +410,13 @@ const lesson: NihongoLesson = {
       "reading": "あした",
       "romaji": "ashita",
       "meaning": "Ngày mai",
-      "type": "Danh từ"
+      "type": "Danh từ",
+      "kanjiBreakdown": {
+        "hanviet": "MINH NHẬT",
+        "components": "明 (Minh - Sáng) + 日 (Nhật - Ngày)",
+        "story": "Ngày (Nhật) mai luôn tươi sáng (Minh).",
+        "examples": "明日 (Ngày mai)"
+      }
     },
     {
       "id": "L4_23i",
@@ -402,7 +432,13 @@ const lesson: NihongoLesson = {
       "reading": "けさ",
       "romaji": "kesa",
       "meaning": "Sáng nay",
-      "type": "Danh từ"
+      "type": "Danh từ",
+      "kanjiBreakdown": {
+        "hanviet": "KIM TRIÊU",
+        "components": "今 (Kim - Hiện tại) + 朝 (Triêu - Buổi sáng)",
+        "story": "Buổi sáng (Triêu) của hiện tại (Kim) là Sáng nay.",
+        "examples": "今朝 (Sáng nay)"
+      }
     },
     {
       "id": "L4_23k",
@@ -410,7 +446,13 @@ const lesson: NihongoLesson = {
       "reading": "こんばん",
       "romaji": "konban",
       "meaning": "Tối nay",
-      "type": "Danh từ"
+      "type": "Danh từ",
+      "kanjiBreakdown": {
+        "hanviet": "KIM VÃN",
+        "components": "今 (Kim - Hiện tại) + 晩 (Vãn - Buổi tối)",
+        "story": "Buổi tối (Vãn) của hiện tại (Kim) là Tối nay.",
+        "examples": "今晩 (Tối nay)"
+      }
     },
     {
       "id": "L4_23l",
