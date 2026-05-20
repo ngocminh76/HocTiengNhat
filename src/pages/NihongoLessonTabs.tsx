@@ -2232,3 +2232,110 @@ export function GrammarQuizTab({ exercises, speak, supported }: {
     </div>
   );
 }
+
+// ── Summary Table Tab ────────────────────────────────────────
+export function SummaryTableTab({ words, speak, supported }: {
+  words: LessonWord[]; speak: (t: string, r?: number) => void; supported: boolean;
+}) {
+  const [mode, setMode] = useState<'type_jp' | 'type_vn'>('type_jp');
+  const [inputs, setInputs] = useState<Record<string, string>>({});
+
+  const norm = (s: string) => s.trim().toLowerCase().replace(/[\s~～〜\-]/g, '');
+
+  return (
+    <div style={{ display: 'flex', flexDirection: 'column', gap: 16, paddingBottom: 60 }}>
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', background: 'var(--bg-card)', padding: '16px', borderRadius: 12, border: '1px solid var(--border)' }}>
+        <h3 style={{ margin: 0, fontSize: 16 }}>Bảng Tổng Hợp ({words.length} từ)</h3>
+        <div style={{ display: 'flex', gap: 8 }}>
+           <button 
+             className={`btn ${mode === 'type_jp' ? 'btn-primary' : 'btn-ghost'}`}
+             onClick={() => { setMode('type_jp'); setInputs({}); }}
+             style={{ padding: '8px 16px', fontSize: 13 }}
+           >
+             Nhìn Việt - Gõ Nhật
+           </button>
+           <button 
+             className={`btn ${mode === 'type_vn' ? 'btn-primary' : 'btn-ghost'}`}
+             onClick={() => { setMode('type_vn'); setInputs({}); }}
+             style={{ padding: '8px 16px', fontSize: 13 }}
+           >
+             Nhìn Nhật - Gõ Việt
+           </button>
+        </div>
+      </div>
+      
+      <table style={{ width: '100%', borderCollapse: 'collapse', background: 'var(--bg-card)', borderRadius: 12, overflow: 'hidden', border: '1px solid var(--border)' }}>
+        <thead>
+          <tr style={{ background: 'rgba(255,255,255,0.03)' }}>
+            <th style={{ padding: '14px 16px', textAlign: 'left', borderBottom: '1px solid var(--border)', width: '50%', color: 'var(--mute)', fontSize: 13, textTransform: 'uppercase', letterSpacing: 1 }}>
+              {mode === 'type_jp' ? 'Tiếng Việt' : 'Tiếng Nhật'}
+            </th>
+            <th style={{ padding: '14px 16px', textAlign: 'left', borderBottom: '1px solid var(--border)', width: '50%', color: 'var(--mute)', fontSize: 13, textTransform: 'uppercase', letterSpacing: 1 }}>
+              {mode === 'type_jp' ? 'Nhập Tiếng Nhật (Romaji/Kana)' : 'Nhập Tiếng Việt'}
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          {words.map(w => {
+             const val = inputs[w.id] || '';
+             let isCorrect = false;
+             if (val) {
+               const nVal = norm(val);
+               if (mode === 'type_jp') {
+                 isCorrect = nVal === norm(w.romaji) || nVal === norm(w.reading) || nVal === norm(w.word);
+               } else {
+                 isCorrect = nVal === norm(w.meaning);
+               }
+             }
+
+             return (
+               <tr key={w.id} style={{ borderBottom: '1px solid var(--border)', transition: 'background 0.2s', background: isCorrect ? 'rgba(6,214,160,0.05)' : 'transparent' }}>
+                 <td style={{ padding: '14px 16px', fontWeight: 600, verticalAlign: 'middle' }}>
+                   {mode === 'type_jp' ? (
+                     <div style={{ color: 'var(--gold)', fontSize: 15 }}>{w.meaning}</div>
+                   ) : (
+                     <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
+                       <span style={{ fontSize: 20, fontWeight: 700 }}>{w.word}</span>
+                       <span style={{ fontSize: 13, color: 'var(--mute)', fontFamily: 'monospace' }}>{w.reading}</span>
+                       {supported && (
+                         <button className="btn-icon" style={{ fontSize: 14 }} onClick={() => speak(w.reading, 0.8)} title="Nghe đọc">🔊</button>
+                       )}
+                     </div>
+                   )}
+                 </td>
+                 <td style={{ padding: '14px 16px', verticalAlign: 'middle' }}>
+                   <div style={{ position: 'relative' }}>
+                     <input 
+                       type="text"
+                       className="ex-input"
+                       style={{ 
+                         width: '100%', 
+                         padding: '10px 14px',
+                         border: isCorrect ? '2px solid var(--green)' : '1px solid var(--border)',
+                         background: isCorrect ? 'rgba(6,214,160,0.1)' : 'var(--surface-alt)',
+                         borderRadius: 8,
+                         outline: 'none',
+                         color: isCorrect ? 'var(--green)' : 'var(--text)',
+                         fontSize: 14,
+                         transition: 'all 0.2s'
+                       }}
+                       placeholder={mode === 'type_jp' ? "Gõ romaji..." : "Gõ nghĩa tiếng việt..."}
+                       value={val}
+                       onChange={e => {
+                         const newVal = mode === 'type_jp' ? wanakana.toKana(e.target.value, { IMEMode: true }) : e.target.value;
+                         setInputs(prev => ({ ...prev, [w.id]: newVal }));
+                       }}
+                     />
+                     {isCorrect && (
+                       <div style={{ position: 'absolute', right: 12, top: '50%', transform: 'translateY(-50%)', fontSize: 16 }}>✅</div>
+                     )}
+                   </div>
+                 </td>
+               </tr>
+             );
+          })}
+        </tbody>
+      </table>
+    </div>
+  );
+}
