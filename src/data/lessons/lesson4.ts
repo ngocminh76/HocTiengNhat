@@ -992,6 +992,81 @@ const lesson: NihongoLesson = {
         "note": "まいばん · ねます · まいにち"
       }
     ]
+  },
+  
+  "dialogue": {
+    "title": "おはようございます。",
+    "titleVn": "Chào buổi sáng.",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "あっ、おはようございます。",
+        "romaji": "A, ohayou gozaimasu.",
+        "vn": "A, chào buổi sáng."
+      },
+      {
+        "speaker": "うえだ",
+        "jp": "おはようございます。",
+        "romaji": "Ohayou gozaimasu.",
+        "vn": "Chào buổi sáng."
+      },
+      {
+        "speaker": "A",
+        "jp": "きょうは　いいてんきですね。",
+        "blankJp": "きょうは（　　　）ですね。",
+        "blankMeanings": ["Thời tiết đẹp"],
+        "romaji": "Kyou wa ii tenki desu ne.",
+        "vn": "Hôm nay trời đẹp nhỉ."
+      },
+      {
+        "speaker": "うえだ",
+        "jp": "そうですね。いいてんきですね。",
+        "romaji": "Sou desu ne. Ii tenki desu ne.",
+        "vn": "Đúng vậy nhỉ. Trời đẹp thật."
+      },
+      {
+        "speaker": "A",
+        "jp": "きのう、うえださんは　どこに　いきましたか。",
+        "blankJp": "（　　　）、うえださんは　どこに　いきましたか。",
+        "blankMeanings": ["Hôm qua"],
+        "romaji": "Kinou, Ueda san wa doko ni ikimashita ka.",
+        "vn": "Hôm qua anh Ueda đã đi đâu vậy?"
+      },
+      {
+        "speaker": "うえだ",
+        "jp": "きのうは　しんじゅくに　いきました。",
+        "romaji": "Kinou wa Shinjuku ni ikimashita.",
+        "vn": "Hôm qua tôi đã đi Shinjuku."
+      },
+      {
+        "speaker": "A",
+        "jp": "あっ。そうですか。わたしも　しんじゅくに　いきました。うえださんは　ひとりで　いきましたか。",
+        "blankJp": "あっ。（　　　）。わたしも　しんじゅくに　いきました。うえださんは（　　　）いきましたか。",
+        "blankMeanings": ["Vậy à", "Một mình"],
+        "romaji": "A. Sou desu ka. Watashi mo Shinjuku ni ikimashita. Ueda san wa hitori de ikimashita ka.",
+        "vn": "A. Vậy à. Tôi cũng đã đi Shinjuku. Anh Ueda đã đi một mình à?"
+      },
+      {
+        "speaker": "うえだ",
+        "jp": "いいえ、ともだちと。",
+        "blankJp": "いいえ、（　　　）。",
+        "blankMeanings": ["Cùng bạn"],
+        "romaji": "Iie, tomodachi to.",
+        "vn": "Không, đi cùng bạn."
+      },
+      {
+        "speaker": "A",
+        "jp": "あっ、そうですか。わたしは　ひとりで　いきました。",
+        "romaji": "A, sou desu ka. Watashi wa hitori de ikimashita.",
+        "vn": "A, vậy à. Tôi thì đã đi một mình."
+      },
+      {
+        "speaker": "うえだ",
+        "jp": "そうですか。",
+        "romaji": "Sou desu ka.",
+        "vn": "Vậy à."
+      }
+    ]
   }
 };
 

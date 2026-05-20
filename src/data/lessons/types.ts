@@ -48,6 +48,21 @@ export interface GrammarExercise {
   explanation?: string;// Giải thích
 }
 
+export interface DialogueLine {
+  speaker: string;     // VD: せいと, せんせい
+  jp: string;          // Văn bản tiếng Nhật đầy đủ
+  blankJp?: string;    // Văn bản tiếng Nhật bị che (dùng '[blank]' hoặc '（　　　）') để làm quiz
+  blankMeanings?: string[]; // Nghĩa của các từ điền vào chỗ trống
+  romaji: string;
+  vn: string;          // Dịch nghĩa
+}
+
+export interface LessonDialogue {
+  title: string;
+  titleVn: string;
+  lines: DialogueLine[];
+}
+
 export interface NihongoLesson {
   id: number;
   chapter: string;
@@ -58,5 +73,6 @@ export interface NihongoLesson {
   readings: LessonReading[];
   grammar?: GrammarPoint[];
   grammarExercises?: GrammarExercise[];
+  dialogue?: LessonDialogue;
   poem?: any;
 }

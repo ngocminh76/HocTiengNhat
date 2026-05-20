@@ -867,6 +867,69 @@ const lesson: NihongoLesson = {
         "note": "はい · どうぞよろしく · こちらこそ"
       }
     ]
+  },
+  
+  "dialogue": {
+    "title": "しつもんが　あります。",
+    "titleVn": "Tôi có câu hỏi.",
+    "lines": [
+      {
+        "speaker": "せいと",
+        "jp": "すみません。せんせい、しつもんが　あります。",
+        "blankJp": "すみません。せんせい、（　　　）が　あります。",
+        "blankMeanings": ["Câu hỏi"],
+        "romaji": "Sumimasen. Sensei, shitsumon ga arimasu.",
+        "vn": "Xin lỗi. Thưa thầy/cô, em có câu hỏi ạ."
+      },
+      {
+        "speaker": "せんせい",
+        "jp": "はい、なんですか。",
+        "romaji": "Hai, nan desu ka.",
+        "vn": "Ừ, có chuyện gì vậy?"
+      },
+      {
+        "speaker": "せいと",
+        "jp": "\"It's hot today, isn't it?\"は　にほんごで　なんですか。",
+        "blankJp": "\"It's hot today, isn't it?\"は　にほんご（　　　）なんですか。",
+        "blankMeanings": ["Bằng"],
+        "romaji": "\"It's hot today, isn't it?\" wa nihongo de nan desu ka.",
+        "vn": "\"It's hot today, isn't it?\" tiếng Nhật nói thế nào ạ?"
+      },
+      {
+        "speaker": "せんせい",
+        "jp": "うん、「きょうは　あついですね」です。",
+        "blankJp": "うん、「きょうは（　　　）ですね」です。",
+        "blankMeanings": ["Nóng"],
+        "romaji": "Un, \"Kyou wa atsui desu ne\" desu.",
+        "vn": "Ừm, là \"Kyou wa atsui desu ne\"."
+      },
+      {
+        "speaker": "せいと",
+        "jp": "ふ～ん。じゃ、\"Yes. That's right.\" は　なんですか。",
+        "romaji": "Fu~n. Ja, \"Yes. That's right.\" wa nan desu ka.",
+        "vn": "Dạ... Vậy \"Yes. That's right.\" thì nói thế nào ạ?"
+      },
+      {
+        "speaker": "せんせい",
+        "jp": "「そうですね」です。",
+        "blankJp": "「（　　　）ですね」です。",
+        "blankMeanings": ["Đúng vậy"],
+        "romaji": "\"Sou desu ne\" desu.",
+        "vn": "Là \"Sou desu ne\"."
+      },
+      {
+        "speaker": "せいと",
+        "jp": "わかりました。ありがとうございました。きょうは　あついですね。せんせい。",
+        "romaji": "Wakarimashita. Arigatou gozaimashita. Kyou wa atsui desu ne. Sensei.",
+        "vn": "Em hiểu rồi ạ. Em cảm ơn thầy/cô. Hôm nay trời nóng thầy/cô nhỉ."
+      },
+      {
+        "speaker": "せんせい",
+        "jp": "ああ。そうですね。",
+        "romaji": "Aa. Sou desu ne.",
+        "vn": "Ừ. Đúng vậy nhỉ."
+      }
+    ]
   }
 };
 

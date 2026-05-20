@@ -831,6 +831,67 @@ const lesson: NihongoLesson = {
         "note": "テレビ · めいし · どれ"
       }
     ]
+  },
+  
+  "dialogue": {
+    "title": "しつもんが　あります。",
+    "titleVn": "Tôi có câu hỏi.",
+    "lines": [
+      {
+        "speaker": "せいと",
+        "jp": "せんせい、しつもんが　あります。",
+        "blankJp": "せんせい、しつもん（　　　）あります。",
+        "blankMeanings": ["Trợ từ"],
+        "romaji": "Sensei, shitsumon ga arimasu.",
+        "vn": "Thưa thầy/cô, em có câu hỏi ạ."
+      },
+      {
+        "speaker": "せんせい",
+        "jp": "はい、なんですか。",
+        "romaji": "Hai, nan desu ka.",
+        "vn": "Ừ, có chuyện gì vậy?"
+      },
+      {
+        "speaker": "せいと",
+        "jp": "\"That's good. Isn't it?\"は　にほんごで　なんですか。",
+        "romaji": "\"That's good. Isn't it?\" wa nihongo de nan desu ka.",
+        "vn": "\"That's good. Isn't it?\" tiếng Nhật nói thế nào ạ?"
+      },
+      {
+        "speaker": "せんせい",
+        "jp": "「いいですね」です。",
+        "blankJp": "「（　　　）」です。",
+        "blankMeanings": ["Được đấy nhỉ"],
+        "romaji": "\"Ii desu ne\" desu.",
+        "vn": "Là \"Ii desu ne\"."
+      },
+      {
+        "speaker": "せいと",
+        "jp": "じゃ、\"Yes. That's good.\"は　なんですか。",
+        "romaji": "Ja, \"Yes. That's good.\" wa nan desu ka.",
+        "vn": "Dạ... Vậy \"Yes. That's good.\" thì nói thế nào ạ?"
+      },
+      {
+        "speaker": "せんせい",
+        "jp": "それも　「いいですね」です。",
+        "romaji": "Sore mo \"Ii desu ne\" desu.",
+        "vn": "Cái đó cũng là \"Ii desu ne\"."
+      },
+      {
+        "speaker": "せいと",
+        "jp": "わかりました。ありがとうございました。",
+        "blankJp": "（　　　）。ありがとうございました。",
+        "blankMeanings": ["Em hiểu rồi"],
+        "romaji": "Wakarimashita. Arigatou gozaimashita.",
+        "vn": "Em hiểu rồi ạ. Em cảm ơn thầy/cô."
+      },
+      {
+        "speaker": "せんせい",
+        "jp": "は～い。",
+        "romaji": "Ha~i.",
+        "vn": "Ù~."
+      }
+    ]
   }
 };
 
