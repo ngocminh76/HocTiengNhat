@@ -6,12 +6,13 @@ import { NIHONGO_LESSONS } from '../data/nihongo-lessons';
 interface Props {
   mastery: Record<number, { isCompleted: boolean }>;
   sentenceMastery: Record<string, { listenCount: number; translateCount: number }>;
+  checkpointMastery: Record<string, { isPassed: boolean; score: number }>;
   onHome: () => void;
   onSelectLesson: (lessonIds: number[]) => void;
   onShowDokkaiReview: (reviewId: string) => void;
 }
 
-export function NihongoPage({ mastery, sentenceMastery, onHome, onSelectLesson, onShowDokkaiReview }: Props) {
+export function NihongoPage({ mastery, sentenceMastery, checkpointMastery, onHome, onSelectLesson, onShowDokkaiReview }: Props) {
   const [selectedForReview, setSelectedForReview] = useState<number[]>([]);
   
   const handleToggleReview = (e: React.MouseEvent, id: number) => {
@@ -78,7 +79,21 @@ export function NihongoPage({ mastery, sentenceMastery, onHome, onSelectLesson, 
 
           const passMode = localStorage.getItem('n5_pass_mode') === 'flexible' ? 'flexible' : 'strict';
           const isPrevCompleted = idx > 0 ? !!mastery[NIHONGO_LESSONS[idx - 1].id]?.isCompleted : true;
-          const isUnlocked = isPrevCompleted;
+          
+          let isUnlocked = isPrevCompleted;
+          // TRẠM KIỂM TRA: Nếu qua Bài 5, phải làm xong checkpoint_1_5 (Gồm 5 đề)
+          if (lesson.id > 5) {
+            // Checkpoint 1-5 có 5 đề: review_1_5_1 đến review_1_5_5
+            const passed1 = checkpointMastery['review_1_5_1']?.isPassed;
+            const passed2 = checkpointMastery['review_1_5_2']?.isPassed;
+            const passed3 = checkpointMastery['review_1_5_3']?.isPassed;
+            const passed4 = checkpointMastery['review_1_5_4']?.isPassed;
+            const passed5 = checkpointMastery['review_1_5_5']?.isPassed;
+            if (!(passed1 && passed2 && passed3 && passed4 && passed5)) {
+              isUnlocked = false; // Khóa nếu chưa qua Trạm Ôn Tập 1-5
+            }
+          }
+
           const isCompleted = mastery[lesson.id]?.isCompleted;
           const isSelected = selectedForReview.includes(lesson.id);
 

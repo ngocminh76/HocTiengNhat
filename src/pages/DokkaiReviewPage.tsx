@@ -5,9 +5,10 @@ interface Props {
   reviewId: string;
   onHome: () => void;
   addXP: (amount: number) => void;
+  onComplete?: (isPassed: boolean, score: number) => void;
 }
 
-export function DokkaiReviewPage({ reviewId, onHome, addXP }: Props) {
+export function DokkaiReviewPage({ reviewId, onHome, addXP, onComplete }: Props) {
   const review = DOKKAI_REVIEWS.find(r => r.id === reviewId);
   const [answers, setAnswers] = useState<Record<string, number>>({});
   const [submitted, setSubmitted] = useState(false);
@@ -30,17 +31,31 @@ export function DokkaiReviewPage({ reviewId, onHome, addXP }: Props) {
     if (submitted) return;
     setSubmitted(true);
     let correct = 0;
+    let totalQs = 0;
     review.passages.forEach(p => {
       p.questions.forEach(q => {
+        totalQs++;
         if (answers[q.id] === q.correctIndex) correct++;
       });
     });
+    
     if (correct > 0) {
       addXP(correct * 10);
+    }
+
+    if (onComplete) {
+      onComplete(correct >= 15, correct);
     }
   };
 
   let globalQuestionIndex = 1;
+  const isPassed = submitted && Object.values(answers).reduce((acc, _, idx) => {
+      let qList: any[] = [];
+      review.passages.forEach(p => qList = qList.concat(p.questions));
+      const q = qList[idx];
+      if (answers[q.id] === q.correctIndex) return acc + 1;
+      return acc;
+  }, 0) >= 15;
 
   return (
     <div className="screen" style={{ padding: '16px 0', height: '100vh', display: 'flex', flexDirection: 'column' }}>
@@ -185,15 +200,28 @@ export function DokkaiReviewPage({ reviewId, onHome, addXP }: Props) {
           </div>
         ) : (
           <div style={{ textAlign: 'center', marginTop: 32 }}>
-            <div style={{ fontSize: 24, fontWeight: 800, color: 'var(--gold)', marginBottom: 16 }}>
-              HOÀN THÀNH BÀI ÔN TẬP! 🎉
+            <div style={{ fontSize: 48, marginBottom: 12 }}>
+              {isPassed ? '🎉' : '💪'}
+            </div>
+            <div style={{ fontSize: 24, fontWeight: 900, color: isPassed ? 'var(--green)' : 'var(--red)', marginBottom: 8 }}>
+              {isPassed ? 'HOÀN THÀNH XUẤT SẮC!' : 'CẦN CỐ GẮNG THÊM!'}
+            </div>
+            <div style={{ fontSize: 16, color: 'var(--text)', marginBottom: 24 }}>
+              Bạn đã làm đúng <strong>{Object.values(answers).reduce((acc, _, idx) => {
+                  let qList: any[] = [];
+                  review.passages.forEach(p => qList = qList.concat(p.questions));
+                  const q = qList[idx];
+                  if (answers[q.id] === q.correctIndex) return acc + 1;
+                  return acc;
+              }, 0)} / 21</strong> câu. 
+              {!isPassed && ' (Cần đạt 15/21 để qua ải)'}
             </div>
             <button 
-              className="btn btn-ghost"
+              className={isPassed ? "btn btn-primary" : "btn btn-ghost"}
               style={{ fontSize: 16, padding: '12px 32px' }}
               onClick={onHome}
             >
-              ← Trở về
+              {isPassed ? 'Tiếp tục hành trình →' : '← Trở về'}
             </button>
           </div>
         )}

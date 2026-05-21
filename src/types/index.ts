@@ -120,7 +120,8 @@ export type Screen =
   | { name: 'nihongo' }
   | { name: 'nihongo-lesson'; lessonId?: number; lessonIds?: number[] }
   | { name: 'listening' }
-  | { name: 'dokkai-review'; reviewId: string }
+  | { name: 'checkpoint-dashboard'; checkpointId: string }
+  | { name: 'dokkai-review'; reviewId: string; checkpointId?: string }
   | { name: 'jlpt-test-list' }
   | { name: 'jlpt-test'; testData: any };
 
@@ -137,6 +138,7 @@ export interface Progress {
   learnedGrammarIds?: number[]; // Tracking ngữ pháp đã học
   nihongoMastery?: Record<number, { isCompleted: boolean }>;
   sentenceMastery?: Record<string, { listenCount: number; translateCount: number }>;
+  checkpointMastery?: Record<string, { isPassed: boolean; score: number }>;
   lessonReviewCounts?: Record<number, number>; // Track how many times each lesson was fully reviewed
 }
 

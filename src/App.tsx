@@ -18,6 +18,7 @@ import { KatakanaExercisePage } from './pages/KatakanaExercisePage';
 import { NihongoPage } from './pages/NihongoPage';
 import { NihongoLessonPage } from './pages/NihongoLessonPage';
 import { ListeningPracticePage } from './pages/ListeningPracticePage';
+import { CheckpointDashboardPage } from './pages/CheckpointDashboardPage';
 import { DokkaiReviewPage } from './pages/DokkaiReviewPage';
 import { JlptTestListPage } from './pages/JlptTestListPage';
 import { JlptTestPage } from './pages/JlptTestPage';
@@ -186,6 +187,23 @@ export default function App() {
   const goReading = useCallback(() => setScreen({ name: 'reading' }), []);
   const goParticles = useCallback(() => setScreen({ name: 'particles' }), []);
   const goKatakana    = useCallback(() => setScreen({ name: 'katakana' }), []);
+  const updateCheckpointMastery = useCallback((reviewId: string, isPassed: boolean, score: number) => {
+    setProgress(prev => {
+      const cm = prev.checkpointMastery || {};
+      const currentHighest = cm[reviewId]?.score || 0;
+      return {
+        ...prev,
+        checkpointMastery: {
+          ...cm,
+          [reviewId]: {
+            isPassed: isPassed || cm[reviewId]?.isPassed || false, // Once passed, always passed
+            score: Math.max(score, currentHighest)
+          }
+        }
+      };
+    });
+  }, []);
+
   const goKatakanaEx  = useCallback(() => setScreen({ name: 'katakana-ex' }), []);
   const goNihongo     = useCallback(() => setScreen({ name: 'nihongo' }), []);
   const goListening   = useCallback(() => setScreen({ name: 'listening' }), []);
@@ -271,20 +289,23 @@ export default function App() {
         return <KatakanaExercisePage onHome={goKatakana} />;
 
       case 'nihongo':
-        return <NihongoPage onHome={goHome} mastery={progress.nihongoMastery || {}} sentenceMastery={progress.sentenceMastery || {}} onSelectLesson={(ids) => setScreen({ name: 'nihongo-lesson', lessonIds: ids })} onShowDokkaiReview={(id) => setScreen({ name: 'dokkai-review', reviewId: id })} />;
+        return <NihongoPage onHome={goHome} mastery={progress.nihongoMastery || {}} sentenceMastery={progress.sentenceMastery || {}} checkpointMastery={progress.checkpointMastery || {}} onSelectLesson={(ids) => setScreen({ name: 'nihongo-lesson', lessonIds: ids })} onShowDokkaiReview={(id) => setScreen({ name: 'checkpoint-dashboard', checkpointId: id })} />;
 
       case 'nihongo-lesson': {
         const ids = screen.name === 'nihongo-lesson' ? (screen.lessonIds || [screen.lessonId as number].filter(Boolean)) : [];
         const lessons = NIHONGO_LESSONS.filter(l => ids.includes(l.id));
-        if (lessons.length === 0) return <NihongoPage onHome={goHome} mastery={progress.nihongoMastery || {}} sentenceMastery={progress.sentenceMastery || {}} onSelectLesson={(ids) => setScreen({ name: 'nihongo-lesson', lessonIds: ids })} onShowDokkaiReview={(id) => setScreen({ name: 'dokkai-review', reviewId: id })} />;
+        if (lessons.length === 0) return <NihongoPage onHome={goHome} mastery={progress.nihongoMastery || {}} sentenceMastery={progress.sentenceMastery || {}} checkpointMastery={progress.checkpointMastery || {}} onSelectLesson={(ids) => setScreen({ name: 'nihongo-lesson', lessonIds: ids })} onShowDokkaiReview={(id) => setScreen({ name: 'checkpoint-dashboard', checkpointId: id })} />;
         return <NihongoLessonPage lessons={lessons} onHome={goNihongo} onLessonComplete={(id) => { markNihongoLessonCompleted(id); incrementLessonReviewCount(id); }} sentenceMastery={progress.sentenceMastery || {}} updateSentenceMastery={(key, type) => { updateSentenceMastery(key, type); addXP(5); showXP(5); }} addXP={(amount) => { addXP(amount); showXP(amount); }} />;
       }
 
       case 'listening':
         return <ListeningPracticePage onHome={goHome} />;
 
+      case 'checkpoint-dashboard':
+        return <CheckpointDashboardPage checkpointId={screen.checkpointId} checkpointMastery={progress.checkpointMastery || {}} onHome={goNihongo} onSelectTest={(testId) => setScreen({ name: 'dokkai-review', reviewId: testId, checkpointId: screen.checkpointId })} />;
+
       case 'dokkai-review':
-        return <DokkaiReviewPage reviewId={screen.reviewId} onHome={goNihongo} addXP={(amount) => { addXP(amount); showXP(amount); }} />;
+        return <DokkaiReviewPage reviewId={screen.reviewId} onHome={() => screen.checkpointId ? setScreen({ name: 'checkpoint-dashboard', checkpointId: screen.checkpointId }) : goNihongo()} addXP={(amount) => { addXP(amount); showXP(amount); }} onComplete={(isPassed, score) => updateCheckpointMastery(screen.reviewId, isPassed, score)} />;
 
       case 'jlpt-test-list':
         return <JlptTestListPage progress={progress} onGenerateTest={(t) => setScreen({ name: 'jlpt-test', testData: t })} onHome={goHome} />;
