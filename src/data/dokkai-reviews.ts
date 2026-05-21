@@ -8,7 +8,7 @@ export interface DokkaiQuestion {
 
 export interface DokkaiPassage {
   id: string;
-  type: 'mondai1' | 'mondai2' | 'mondai3' | 'mondai4' | 'mondai5' | 'mondai6';
+  type: 'moji_mondai1' | 'moji_mondai2' | 'moji_mondai3' | 'moji_mondai4' | 'mondai1' | 'mondai2' | 'mondai3' | 'mondai4' | 'mondai5' | 'mondai6';
   text?: string[]; // Paragraphs for Mondai 3, 4, 5
   htmlContent?: string; // HTML for Mondai 6 (poster, table, etc.)
   questions: DokkaiQuestion[];
@@ -27,6 +27,84 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
     title: 'Ôn Tập JLPT N5 (Bài 1 - 5)',
     description: 'Chặng ôn tập toàn diện Kiến thức Ngôn Ngữ (Ngữ Pháp) và Đọc Hiểu dựa trên Bài 1 đến Bài 5.',
     passages: [
+      {
+        id: 'p_moji1',
+        type: 'moji_mondai1',
+        questions: [
+          {
+            id: 'moji1_q1',
+            question: 'わたしは 毎日 【水】を 飲みます。',
+            options: ['みず', 'みち', 'みせ', 'みみ'],
+            correctIndex: 0,
+            explanation: 'Kanji "水" (Thủy) đọc là みず (nước).'
+          },
+          {
+            id: 'moji1_q2',
+            question: 'ここは わたしの 【大学】です。',
+            options: ['だいがく', 'たいがく', 'だいがこ', 'たいがこ'],
+            correctIndex: 0,
+            explanation: 'Kanji "大学" (Đại học) đọc là だいがく.'
+          }
+        ]
+      },
+      {
+        id: 'p_moji2',
+        type: 'moji_mondai2',
+        questions: [
+          {
+            id: 'moji2_q1',
+            question: 'きのう 【がっこう】へ いきました。',
+            options: ['学交', '学校', '学効', '学向'],
+            correctIndex: 1,
+            explanation: 'Trường học "がっこう" viết Kanji là 学校 (Học hiệu).'
+          },
+          {
+            id: 'moji2_q2',
+            question: 'スーパーで 【カメラ】を かいました。',
+            options: ['ガメラ', 'カネラ', 'カメラ', 'カヌラ'],
+            correctIndex: 2,
+            explanation: 'Từ mượn "camera" (máy ảnh) viết Katakana là カメラ.'
+          }
+        ]
+      },
+      {
+        id: 'p_moji3',
+        type: 'moji_mondai3',
+        questions: [
+          {
+            id: 'moji3_q1',
+            question: 'あめが ふっていますから、【　　　】を かいます。',
+            options: ['かさ', 'かばん', 'とけい', 'くつ'],
+            correctIndex: 0,
+            explanation: 'Vì trời mưa (あめ) nên phải mua "ô/dù" (かさ).'
+          },
+          {
+            id: 'moji3_q2',
+            question: 'きょうは にちようびです。あしたは 【　　　】です。',
+            options: ['かようび', 'げつようび', 'すいようび', 'もくようび'],
+            correctIndex: 1,
+            explanation: 'Hôm nay là Chủ Nhật (にちようび), vậy ngày mai (あした) là Thứ Hai (げつようび).'
+          }
+        ]
+      },
+      {
+        id: 'p_moji4',
+        type: 'moji_mondai4',
+        questions: [
+          {
+            id: 'moji4_q1',
+            question: 'あしたは やすみです。',
+            options: [
+              'あしたは はたらきません。',
+              'あしたは べんきょうします。',
+              'あしたは がっこうへ いきます。',
+              'あしたは いそがしいです。'
+            ],
+            correctIndex: 0,
+            explanation: 'Ngày mai là ngày nghỉ (やすみ) đồng nghĩa với việc Ngày mai không làm việc (はたらきません).'
+          }
+        ]
+      },
       {
         id: 'p_m1',
         type: 'mondai1',

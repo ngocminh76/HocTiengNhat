@@ -56,12 +56,16 @@ export function DokkaiReviewPage({ reviewId, onHome, addXP }: Props) {
         {review.passages.map((passage, pIdx) => {
           let typeLabel = '';
           switch(passage.type) {
-            case 'mondai1': typeLabel = '問題１ (Ngữ pháp / Trợ từ)'; break;
-            case 'mondai2': typeLabel = '問題２ (Sắp xếp câu ★)'; break;
-            case 'mondai3': typeLabel = '問題３ (Đục lỗ đoạn văn)'; break;
-            case 'mondai4': typeLabel = '問題４ (Đoạn văn ngắn)'; break;
-            case 'mondai5': typeLabel = '問題５ (Đoạn văn trung bình)'; break;
-            case 'mondai6': typeLabel = '問題６ (Tìm kiếm thông tin)'; break;
+            case 'moji_mondai1': typeLabel = '文字・語彙 問題１ (Đọc Kanji)'; break;
+            case 'moji_mondai2': typeLabel = '文字・語彙 問題２ (Viết Kanji / Katakana)'; break;
+            case 'moji_mondai3': typeLabel = '文字・語彙 問題３ (Điền từ vựng)'; break;
+            case 'moji_mondai4': typeLabel = '文字・語彙 問題４ (Tìm câu đồng nghĩa)'; break;
+            case 'mondai1': typeLabel = '文法 問題１ (Ngữ pháp / Trợ từ)'; break;
+            case 'mondai2': typeLabel = '文法 問題２ (Sắp xếp câu ★)'; break;
+            case 'mondai3': typeLabel = '文法 問題３ (Đục lỗ đoạn văn)'; break;
+            case 'mondai4': typeLabel = '読解 問題４ (Đoạn văn ngắn)'; break;
+            case 'mondai5': typeLabel = '読解 問題５ (Đoạn văn trung bình)'; break;
+            case 'mondai6': typeLabel = '読解 問題６ (Tìm kiếm thông tin)'; break;
           }
           
           return (
