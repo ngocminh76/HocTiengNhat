@@ -139,30 +139,30 @@ export function NihongoPage({ mastery, sentenceMastery, onHome, onSelectLesson, 
             {lesson.id % 5 === 0 && (
               <div style={{ margin: '12px 0 24px 0', display: 'flex', justifyContent: 'center' }}>
                 <button
-                  onClick={() => isCompleted && onShowDokkaiReview(`review_${lesson.id - 4}_${lesson.id}`)}
+                  onClick={() => onShowDokkaiReview(`review_${lesson.id - 4}_${lesson.id}`)}
                   style={{
                     display: 'flex', alignItems: 'center', gap: 12,
                     padding: '16px 24px', borderRadius: 14,
-                    background: isCompleted ? 'linear-gradient(135deg, rgba(6,214,160,0.1), rgba(6,214,160,0.2))' : 'var(--bg-card)',
-                    border: isCompleted ? '2px solid var(--green)' : '2px dashed var(--border)',
-                    boxShadow: isCompleted ? '0 0 16px rgba(6,214,160,0.2)' : 'none',
-                    cursor: isCompleted ? 'pointer' : 'not-allowed',
-                    opacity: isCompleted ? 1 : 0.6,
+                    background: 'linear-gradient(135deg, rgba(6,214,160,0.1), rgba(6,214,160,0.2))',
+                    border: '2px solid var(--green)',
+                    boxShadow: '0 0 16px rgba(6,214,160,0.2)',
+                    cursor: 'pointer',
+                    opacity: 1,
                     width: '100%',
                     transition: 'all 0.2s',
                   }}
                 >
-                  <div style={{ fontSize: 28 }}>{isCompleted ? '🚩' : '🔒'}</div>
+                  <div style={{ fontSize: 28 }}>🚩</div>
                   <div style={{ flex: 1, textAlign: 'left' }}>
-                    <div style={{ fontWeight: 800, fontSize: 16, color: isCompleted ? 'var(--green)' : 'var(--mute)' }}>
+                    <div style={{ fontWeight: 800, fontSize: 16, color: 'var(--green)' }}>
                       TRẠM ÔN TẬP: ĐỌC HIỂU N5 (BÀI {lesson.id - 4} - {lesson.id})
                     </div>
                     <div style={{ fontSize: 13, color: 'var(--mute)', marginTop: 4 }}>
                       Tổng hợp từ vựng và ngữ pháp 5 bài. Mô phỏng bài thi Dokkai JLPT N5.
                     </div>
                   </div>
-                  <div style={{ fontSize: 14, fontWeight: 800, color: isCompleted ? '#000' : 'var(--mute)', background: isCompleted ? 'var(--green)' : 'rgba(255,255,255,0.05)', padding: '8px 16px', borderRadius: 8 }}>
-                    {isCompleted ? 'LÀM BÀI →' : 'Chưa Mở Khóa'}
+                  <div style={{ fontSize: 14, fontWeight: 800, color: '#000', background: 'var(--green)', padding: '8px 16px', borderRadius: 8 }}>
+                    LÀM BÀI →
                   </div>
                 </button>
               </div>

@@ -8,8 +8,8 @@ export interface DokkaiQuestion {
 
 export interface DokkaiPassage {
   id: string;
-  type: 'mondai4' | 'mondai5' | 'mondai6';
-  text?: string[]; // Paragraphs for Mondai 4 & 5
+  type: 'mondai1' | 'mondai2' | 'mondai3' | 'mondai4' | 'mondai5' | 'mondai6';
+  text?: string[]; // Paragraphs for Mondai 3, 4, 5
   htmlContent?: string; // HTML for Mondai 6 (poster, table, etc.)
   questions: DokkaiQuestion[];
 }
@@ -24,11 +24,98 @@ export interface DokkaiReview {
 export const DOKKAI_REVIEWS: DokkaiReview[] = [
   {
     id: 'review_1_5',
-    title: 'Đọc Hiểu JLPT N5 (Bài 1 - 5)',
-    description: 'Chặng ôn tập kỹ năng Đọc Hiểu (Dokkai) dựa trên từ vựng và ngữ pháp từ Bài 1 đến Bài 5.',
+    title: 'Ôn Tập JLPT N5 (Bài 1 - 5)',
+    description: 'Chặng ôn tập toàn diện Kiến thức Ngôn Ngữ (Ngữ Pháp) và Đọc Hiểu dựa trên Bài 1 đến Bài 5.',
     passages: [
       {
-        id: 'p1',
+        id: 'p_m1',
+        type: 'mondai1',
+        questions: [
+          {
+            id: 'm1_q1',
+            question: 'きのう　デパート（　　　）いきました。',
+            options: ['で', 'へ', 'を', 'が'],
+            correctIndex: 1,
+            explanation: 'Đi đến đâu dùng trợ từ へ (hoặc に). Động từ là いきました.'
+          },
+          {
+            id: 'm1_q2',
+            question: 'A「この　かばんは　だれ（　　　）ですか。」\nB「わたしのです。」',
+            options: ['の', 'は', 'か', 'も'],
+            correctIndex: 0,
+            explanation: 'Hỏi sở hữu "của ai" dùng trợ từ の: だれのですか.'
+          },
+          {
+            id: 'm1_q3',
+            question: 'わたしは　まいあさ　６じ（　　　）おきます。',
+            options: ['から', 'まで', 'に', 'で'],
+            correctIndex: 2,
+            explanation: 'Chỉ thời điểm cụ thể diễn ra hành động dùng trợ từ に.'
+          },
+          {
+            id: 'm1_q4',
+            question: 'A「それは　（　　　）の　ざっしですか。」\nB「カメラの　ざっしです。」',
+            options: ['なん', 'だれ', 'どこ', 'いつ'],
+            correctIndex: 0,
+            explanation: 'Hỏi về nội dung, thể loại dùng なん (cái gì). Tạp chí về máy ảnh = カメラのざっし.'
+          }
+        ]
+      },
+      {
+        id: 'p_m2',
+        type: 'mondai2',
+        questions: [
+          {
+            id: 'm2_q1',
+            question: 'わたしは　___ ___ _★_ ___　かえります。',
+            options: ['うち', 'ひとりで', 'へ', 'タクシーで'],
+            correctIndex: 0,
+            explanation: 'Thứ tự đúng: わたしは (タクシーで) (ひとりで) (うち) (へ) かえります. Vị trí ngôi sao là "うち".'
+          },
+          {
+            id: 'm2_q2',
+            question: 'ここは　___ ___ _★_ ___　です。',
+            options: ['の', 'だいがく', 'さくら', 'きょうしつ'],
+            correctIndex: 1,
+            explanation: 'Thứ tự đúng: ここは (さくら) (だいがく) (の) (きょうしつ) です (Đây là phòng học của đại học Sakura). Vị trí ngôi sao là "だいがく".'
+          }
+        ]
+      },
+      {
+        id: 'p_m3',
+        type: 'mondai3',
+        text: [
+          'わたしの　かぞくは　３にんです。ちちと　ははと　わたしです。',
+          'ちちは　かいしゃいんです。はは（　１　）かいしゃいんです。',
+          'きのうは　にちようびでした。（　２　）、ちちと　ははは　かいしゃへ　いきませんでした。',
+          'わたしたちは　くるまで　スーパーへ（　３　）。',
+        ],
+        questions: [
+          {
+            id: 'm3_q1',
+            question: '（　１　）に入れるものはどれですか。',
+            options: ['は', 'も', 'が', 'と'],
+            correctIndex: 1,
+            explanation: 'Câu trước nói Bố là nhân viên công ty, câu sau nói Mẹ CŨNG là nhân viên công ty -> dùng も.'
+          },
+          {
+            id: 'm3_q2',
+            question: '（　２　）に入れるものはどれですか。',
+            options: ['それから', 'ですから', 'これ', 'どこ'],
+            correctIndex: 1,
+            explanation: 'きのうは にちようびでした (Hôm qua là Chủ Nhật), (Vì vậy) Bố mẹ không đi làm. Dùng ですから (Vì vậy).'
+          },
+          {
+            id: 'm3_q3',
+            question: '（　３　）に入れるものはどれですか。',
+            options: ['いきます', 'きました', 'いきました', 'きます'],
+            correctIndex: 2,
+            explanation: 'Kể về chuyện hôm qua (きのう) nên phải dùng thì quá khứ. Đi đến siêu thị dùng いきました.'
+          }
+        ]
+      },
+      {
+        id: 'p_m4_1',
         type: 'mondai4',
         text: [
           'きのう、わたしは　ともだちと　しんじゅくの　デパートへ　いきました。デパートは　１０じから　８じまでです。',
@@ -37,7 +124,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         ],
         questions: [
           {
-            id: 'q1',
+            id: 'm4_q1',
             question: 'わたしは　デパートで　なにを　かいましたか。',
             options: [
               '３０００えんの　かぎ',
@@ -51,7 +138,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         ]
       },
       {
-        id: 'p2',
+        id: 'p_m4_2',
         type: 'mondai4',
         text: [
           'はじめまして。わたしの　なまえは　マリアです。ブラジルから　きました。',
@@ -61,7 +148,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         ],
         questions: [
           {
-            id: 'q2',
+            id: 'm4_q2',
             question: 'マリアさんは　どうやって　だいがくへ　いきますか。',
             options: [
               'ちかてつで　いきます。',
@@ -75,7 +162,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         ]
       },
       {
-        id: 'p3',
+        id: 'p_m5',
         type: 'mondai5',
         text: [
           'わたしは　まいあさ　６じはんに　おきます。７じに　うちから　かいしゃへ　いきます。',
@@ -88,7 +175,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         ],
         questions: [
           {
-            id: 'q3',
+            id: 'm5_q1',
             question: 'このひとは　なんじから　なんじまで　はたらきますか。',
             options: [
               '９じから　５じまで',
@@ -100,7 +187,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             explanation: 'Trong bài có câu "かいしゃは ９じから ５じまでです" (Công ty làm việc từ 9 giờ đến 5 giờ).'
           },
           {
-            id: 'q4',
+            id: 'm5_q2',
             question: 'このひとは　よる、うちで　なにを　しますか。',
             options: [
               'かいしゃへ　いきます。',
@@ -114,7 +201,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         ]
       },
       {
-        id: 'p4',
+        id: 'p_m6',
         type: 'mondai6',
         htmlContent: `
 <div style="border: 2px solid var(--text); padding: 16px; border-radius: 8px; max-width: 400px; margin: 0 auto; background: var(--bg-card);">
@@ -131,7 +218,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         `,
         questions: [
           {
-            id: 'q5',
+            id: 'm6_q1',
             question: 'みどりとしょかんの　やすみは　いつですか。',
             options: [
               'げつようびと　もくようびだけです。',
