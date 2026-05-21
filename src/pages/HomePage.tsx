@@ -17,10 +17,11 @@ interface Props {
   onShowParticles: () => void;
   onShowKatakana: () => void;
   onShowNihongo: () => void;
+  onShowListening: () => void;
   onShowJlptTestList: () => void;
 }
 
-export function HomePage({ progress, onShowKatakana, onShowNihongo, onShowJlptTestList }: Props) {
+export function HomePage({ progress, onShowKatakana, onShowNihongo, onShowListening, onShowJlptTestList }: Props) {
   const [jlptFocus, setJlptFocus] = useState<'N5' | 'N4+'>(() => (localStorage.getItem('jlpt_focus_mode') as 'N5' | 'N4+') || 'N5');
   const hour  = new Date().getHours();
   const greeting = hour < 12 ? '☀️ Buổi sáng' : hour < 18 ? '🌤 Buổi chiều' : '🌙 Buổi tối';
@@ -29,6 +30,7 @@ export function HomePage({ progress, onShowKatakana, onShowNihongo, onShowJlptTe
     { icon: '📖', label: 'みんなの日本語', sub: '25 bài học cốt lõi (N5)', color: '#80cbc4', onClick: onShowNihongo },
     { icon: '📝', label: 'Luyện Đề JLPT N5', sub: 'Mô phỏng đề thi thật', color: '#ffb74d', onClick: onShowJlptTestList },
     { icon: 'カ', label: 'Bảng Chữ Cái', sub: 'Hiragana & Katakana', color: '#ce93d8', onClick: onShowKatakana },
+    { icon: '🎧', label: 'Luyện Nghe / Dịch', sub: 'Tuyển tập 50 hội thoại', color: '#64b5f6', onClick: onShowListening },
   ];
 
   return (

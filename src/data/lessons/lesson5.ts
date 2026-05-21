@@ -1103,69 +1103,6 @@ const lesson: NihongoLesson = {
         "note": "ください"
       }
     ]
-  },
-  
-  "dialogue": {
-    "title": "いま　なんじですか。",
-    "titleVn": "Bây giờ là mấy giờ?",
-    "lines": [
-      {
-        "speaker": "A",
-        "jp": "すみません。あおやまさん、いま、なんじですか。",
-        "blankJp": "すみません。あおやまさん、いま、（　　　）ですか。",
-        "blankMeanings": ["Mấy giờ"],
-        "romaji": "Sumimasen. Aoyama san, ima, nanji desu ka.",
-        "vn": "Xin lỗi. Chị Aoyama ơi, bây giờ là mấy giờ vậy?"
-      },
-      {
-        "speaker": "あおやま",
-        "jp": "えっと、いま、３じですよ。",
-        "romaji": "Etto, ima, sanji desu yo.",
-        "vn": "À ừm, bây giờ là 3 giờ đấy."
-      },
-      {
-        "speaker": "A",
-        "jp": "きょうのかいぎはなんじからですか。",
-        "romaji": "Kyou no kaigi wa nanji kara desu ka.",
-        "vn": "Cuộc họp hôm nay bắt đầu từ mấy giờ vậy?"
-      },
-      {
-        "speaker": "あおやま",
-        "jp": "３じはんからです。",
-        "blankJp": "（　　　）からです。",
-        "blankMeanings": ["3 giờ rưỡi"],
-        "romaji": "Sanjihan kara desu.",
-        "vn": "Từ 3 giờ rưỡi."
-      },
-      {
-        "speaker": "A",
-        "jp": "そうですか。あおやまさんも　かいぎに　いきますか。",
-        "blankJp": "そうですか。あおやまさん（　　　）かいぎに　いきますか。",
-        "blankMeanings": ["Cũng"],
-        "romaji": "Sou desu ka. Aoyama san mo kaigi ni ikimasu ka.",
-        "vn": "Vậy à. Chị Aoyama cũng đi họp chứ?"
-      },
-      {
-        "speaker": "あおやま",
-        "jp": "はい、いきますよ。",
-        "romaji": "Hai, ikimasu yo.",
-        "vn": "Vâng, tôi đi chứ."
-      },
-      {
-        "speaker": "A",
-        "jp": "あっ。そうですか。じゃ、またあとで。",
-        "blankJp": "あっ。（　　　）ですか。じゃ、またあとで。",
-        "blankMeanings": ["Vậy à"],
-        "romaji": "A. Sou desu ka. Ja, mata atode.",
-        "vn": "A. Vậy à. Thế thì, hẹn gặp lại sau nhé."
-      },
-      {
-        "speaker": "あおやま",
-        "jp": "はい、じゃ、またあとで。",
-        "romaji": "Hai, ja, mata atode.",
-        "vn": "Vâng, hẹn gặp lại sau."
-      }
-    ]
   }
 };
 

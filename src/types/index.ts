@@ -119,6 +119,7 @@ export type Screen =
   | { name: 'katakana-ex' }
   | { name: 'nihongo' }
   | { name: 'nihongo-lesson'; lessonId?: number; lessonIds?: number[] }
+  | { name: 'listening' }
   | { name: 'jlpt-test-list' }
   | { name: 'jlpt-test'; testData: any };
 

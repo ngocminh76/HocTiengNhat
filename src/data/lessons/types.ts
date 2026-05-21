@@ -73,6 +73,6 @@ export interface NihongoLesson {
   readings: LessonReading[];
   grammar?: GrammarPoint[];
   grammarExercises?: GrammarExercise[];
-  dialogue?: LessonDialogue;
+  
   poem?: any;
 }

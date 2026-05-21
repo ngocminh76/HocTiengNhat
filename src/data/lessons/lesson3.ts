@@ -939,53 +939,6 @@ const lesson: NihongoLesson = {
         "note": "ありがとうございます"
       }
     ]
-  },
-  
-  "dialogue": {
-    "title": "しつもんが　あります。",
-    "titleVn": "Tôi có câu hỏi.",
-    "lines": [
-      {
-        "speaker": "せいと",
-        "jp": "せんせい、しつもんが　あります。",
-        "romaji": "Sensei, shitsumon ga arimasu.",
-        "vn": "Thưa thầy/cô, em có câu hỏi ạ."
-      },
-      {
-        "speaker": "せんせい",
-        "jp": "はい、なんですか。",
-        "romaji": "Hai, nan desu ka.",
-        "vn": "Ừ, có chuyện gì vậy?"
-      },
-      {
-        "speaker": "せいと",
-        "jp": "「そうですか」って　なんですか。",
-        "blankJp": "「（　　　）」って　なんですか。",
-        "blankMeanings": ["Vậy à"],
-        "romaji": "\"Sou desu ka\" tte nan desu ka.",
-        "vn": "\"Sou desu ka\" nghĩa là gì ạ?"
-      },
-      {
-        "speaker": "せんせい",
-        "jp": "「そうですか」は 'Oh, You are.' 'Oh, it is.'です。",
-        "romaji": "\"Sou desu ka\" wa 'Oh, You are.' 'Oh, it is.' desu.",
-        "vn": "\"Sou desu ka\" là 'Oh, You are.' 'Oh, it is.'."
-      },
-      {
-        "speaker": "せいと",
-        "jp": "ああ、わかりました。ありがとうございました。",
-        "blankJp": "ああ、わかりました。（　　　）。",
-        "blankMeanings": ["Cảm ơn"],
-        "romaji": "Aa, wakarimashita. Arigatou gozaimashita.",
-        "vn": "A, em hiểu rồi ạ. Em cảm ơn thầy/cô."
-      },
-      {
-        "speaker": "せんせい",
-        "jp": "は～い。",
-        "romaji": "Ha~i.",
-        "vn": "Ù~."
-      }
-    ]
   }
 };
 

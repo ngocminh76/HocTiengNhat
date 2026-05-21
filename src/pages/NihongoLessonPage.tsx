@@ -5,7 +5,7 @@
 import { useState, useMemo, useCallback, useEffect, useRef } from 'react';
 import type { NihongoLesson, LessonWord, LessonReading } from '../data/nihongo-lessons';
 import { useSpeech } from '../hooks/useSpeech';
-import { VocabTab, FlashTab, ListenTab, StatsTab, MatchTab, TranslateTab, ListenSentenceTab, N5ExamTab, ReadingTab, TypingTab, GrammarTab, GrammarQuizTab, SummaryTableTab, DialogueTab } from './NihongoLessonTabs';
+import { VocabTab, FlashTab, ListenTab, StatsTab, MatchTab, TranslateTab, ListenSentenceTab, N5ExamTab, ReadingTab, TypingTab, GrammarTab, GrammarQuizTab, SummaryTableTab } from './NihongoLessonTabs';
 import { getWordKanjiLevel } from '../utils/kanji';
 import * as wanakana from 'wanakana';
 
@@ -170,7 +170,6 @@ export function NihongoLessonPage({ lessons, onHome, onLessonComplete, sentenceM
               { id: 'match', icon: '🔗', label: 'Ghép Từ', sub: 'Hiragana ↔ Kanji' },
               { id: 'typing', icon: '⌨️', label: 'Gõ Từ Vựng', sub: 'Kanji ↔ Hiragana' },
               { id: 'summary', icon: '📝', label: 'Điền Từ (Bảng)', sub: 'Việt ↔ Nhật', hidden: isCombined },
-              { id: 'dialogue', icon: '🗣️', label: 'Luyện Nghe', sub: 'Hội thoại thực tế', hidden: isCombined || !lessons[0]?.dialogue },
               { id: 'translate', icon: '✍️', label: 'Dịch Câu', sub: 'Việt → Nhật' },
               { id: 'listen_sentence', icon: '⌨️', label: 'Nghe Gõ Câu', sub: 'Nghe → Romaji', hidden: !supported },
               { id: 'exam', icon: '📝', label: 'Thi Thử N5', sub: 'JLPT Mock', locked: !isExamUnlocked },
@@ -242,7 +241,6 @@ export function NihongoLessonPage({ lessons, onHome, onLessonComplete, sentenceM
           {tab === 'match' && <MatchTab words={mergedWords} skipCount={masteredCount} />}
           {tab === 'typing' && <TypingTab words={mergedWords} mastery={mastery} onUpdate={updateMastery} speak={speak} supported={supported} />}
           {tab === 'summary' && !isCombined && <SummaryTableTab words={mergedWords} speak={speak} supported={supported} />}
-          {tab === 'dialogue' && !isCombined && lessons[0]?.dialogue && <DialogueTab dialogue={lessons[0].dialogue} speak={speak} supported={supported} />}
           { tab === 'translate' && <TranslateTab lesson={{ words: mergedWords, readings: mergedReadings } as any} speak={speak} supported={supported} sentenceMastery={sentenceMastery} updateSentenceMastery={updateSentenceMastery} /> }
           { tab === 'listen_sentence' && <ListenSentenceTab lesson={{ words: mergedWords, readings: mergedReadings } as any} speak={speak} supported={supported} sentenceMastery={sentenceMastery} updateSentenceMastery={updateSentenceMastery} /> }
           {tab === 'exam' && (

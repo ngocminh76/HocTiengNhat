@@ -17,6 +17,7 @@ import { KatakanaPage } from './pages/KatakanaPage';
 import { KatakanaExercisePage } from './pages/KatakanaExercisePage';
 import { NihongoPage } from './pages/NihongoPage';
 import { NihongoLessonPage } from './pages/NihongoLessonPage';
+import { ListeningPracticePage } from './pages/ListeningPracticePage';
 import { JlptTestListPage } from './pages/JlptTestListPage';
 import { JlptTestPage } from './pages/JlptTestPage';
 import { NIHONGO_LESSONS } from './data/nihongo-lessons';
@@ -186,6 +187,7 @@ export default function App() {
   const goKatakana    = useCallback(() => setScreen({ name: 'katakana' }), []);
   const goKatakanaEx  = useCallback(() => setScreen({ name: 'katakana-ex' }), []);
   const goNihongo     = useCallback(() => setScreen({ name: 'nihongo' }), []);
+  const goListening   = useCallback(() => setScreen({ name: 'listening' }), []);
   const goJlptTestList = useCallback(() => setScreen({ name: 'jlpt-test-list' }), []);
 
   // ── Render ────────────────────────────────────────
@@ -200,6 +202,7 @@ export default function App() {
           onShowGrammar={goGrammar} onShowExercise={goExercise}
           onShowReading={goReading} onShowParticles={goParticles}
           onShowKatakana={goKatakana} onShowNihongo={goNihongo}
+          onShowListening={goListening}
           onShowJlptTestList={goJlptTestList} />;
 
       case 'learn':
@@ -275,6 +278,9 @@ export default function App() {
         if (lessons.length === 0) return <NihongoPage onHome={goHome} mastery={progress.nihongoMastery || {}} sentenceMastery={progress.sentenceMastery || {}} onSelectLesson={(ids) => setScreen({ name: 'nihongo-lesson', lessonIds: ids })} />;
         return <NihongoLessonPage lessons={lessons} onHome={goNihongo} onLessonComplete={(id) => { markNihongoLessonCompleted(id); incrementLessonReviewCount(id); }} sentenceMastery={progress.sentenceMastery || {}} updateSentenceMastery={(key, type) => { updateSentenceMastery(key, type); addXP(5); showXP(5); }} addXP={(amount) => { addXP(amount); showXP(amount); }} />;
       }
+
+      case 'listening':
+        return <ListeningPracticePage onHome={goHome} />;
 
       case 'jlpt-test-list':
         return <JlptTestListPage progress={progress} onGenerateTest={(t) => setScreen({ name: 'jlpt-test', testData: t })} onHome={goHome} />;
