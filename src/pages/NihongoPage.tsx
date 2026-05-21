@@ -81,16 +81,15 @@ export function NihongoPage({ mastery, sentenceMastery, checkpointMastery, onHom
           const isPrevCompleted = idx > 0 ? !!mastery[NIHONGO_LESSONS[idx - 1].id]?.isCompleted : true;
           
           let isUnlocked = isPrevCompleted;
-          // TRẠM KIỂM TRA: Nếu qua Bài 5, phải làm xong checkpoint_1_5 (Gồm 5 đề)
-          if (lesson.id > 5) {
-            // Checkpoint 1-5 có 5 đề: review_1_5_1 đến review_1_5_5
-            const passed1 = checkpointMastery['review_1_5_1']?.isPassed;
-            const passed2 = checkpointMastery['review_1_5_2']?.isPassed;
-            const passed3 = checkpointMastery['review_1_5_3']?.isPassed;
-            const passed4 = checkpointMastery['review_1_5_4']?.isPassed;
-            const passed5 = checkpointMastery['review_1_5_5']?.isPassed;
-            if (!(passed1 && passed2 && passed3 && passed4 && passed5)) {
-              isUnlocked = false; // Khóa nếu chưa qua Trạm Ôn Tập 1-5
+          // TRẠM KIỂM TRA: Khóa bài nếu chưa qua các Trạm Ôn Tập trước đó
+          for (let cp = 5; cp < lesson.id; cp += 5) {
+            const blockStart = cp - 4;
+            const blockEnd = cp;
+            for (let i = 1; i <= 5; i++) {
+              if (!checkpointMastery[`review_${blockStart}_${blockEnd}_${i}`]?.isPassed) {
+                isUnlocked = false;
+                break;
+              }
             }
           }
 
