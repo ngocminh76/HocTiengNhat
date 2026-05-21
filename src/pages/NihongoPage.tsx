@@ -8,9 +8,10 @@ interface Props {
   sentenceMastery: Record<string, { listenCount: number; translateCount: number }>;
   onHome: () => void;
   onSelectLesson: (lessonIds: number[]) => void;
+  onShowDokkaiReview: (reviewId: string) => void;
 }
 
-export function NihongoPage({ mastery, sentenceMastery, onHome, onSelectLesson }: Props) {
+export function NihongoPage({ mastery, sentenceMastery, onHome, onSelectLesson, onShowDokkaiReview }: Props) {
   const [selectedForReview, setSelectedForReview] = useState<number[]>([]);
   
   const handleToggleReview = (e: React.MouseEvent, id: number) => {
@@ -82,6 +83,7 @@ export function NihongoPage({ mastery, sentenceMastery, onHome, onSelectLesson }
           const isSelected = selectedForReview.includes(lesson.id);
 
           return (
+            <>
             <button
               key={lesson.id}
               onClick={() => {
@@ -132,6 +134,40 @@ export function NihongoPage({ mastery, sentenceMastery, onHome, onSelectLesson }
                 <span style={{ fontSize: 12, color: 'var(--mute)', background: 'rgba(255,255,255,0.05)', padding: '4px 10px', borderRadius: 20 }}>🔒 Khóa</span>
               )}
             </button>
+            
+            {/* CHECKPOINT SAU MỖI 5 BÀI */}
+            {lesson.id % 5 === 0 && (
+              <div style={{ margin: '12px 0 24px 0', display: 'flex', justifyContent: 'center' }}>
+                <button
+                  onClick={() => isCompleted && onShowDokkaiReview(`review_${lesson.id - 4}_${lesson.id}`)}
+                  style={{
+                    display: 'flex', alignItems: 'center', gap: 12,
+                    padding: '16px 24px', borderRadius: 14,
+                    background: isCompleted ? 'linear-gradient(135deg, rgba(6,214,160,0.1), rgba(6,214,160,0.2))' : 'var(--bg-card)',
+                    border: isCompleted ? '2px solid var(--green)' : '2px dashed var(--border)',
+                    boxShadow: isCompleted ? '0 0 16px rgba(6,214,160,0.2)' : 'none',
+                    cursor: isCompleted ? 'pointer' : 'not-allowed',
+                    opacity: isCompleted ? 1 : 0.6,
+                    width: '100%',
+                    transition: 'all 0.2s',
+                  }}
+                >
+                  <div style={{ fontSize: 28 }}>{isCompleted ? '🚩' : '🔒'}</div>
+                  <div style={{ flex: 1, textAlign: 'left' }}>
+                    <div style={{ fontWeight: 800, fontSize: 16, color: isCompleted ? 'var(--green)' : 'var(--mute)' }}>
+                      TRẠM ÔN TẬP: ĐỌC HIỂU N5 (BÀI {lesson.id - 4} - {lesson.id})
+                    </div>
+                    <div style={{ fontSize: 13, color: 'var(--mute)', marginTop: 4 }}>
+                      Tổng hợp từ vựng và ngữ pháp 5 bài. Mô phỏng bài thi Dokkai JLPT N5.
+                    </div>
+                  </div>
+                  <div style={{ fontSize: 14, fontWeight: 800, color: isCompleted ? '#000' : 'var(--mute)', background: isCompleted ? 'var(--green)' : 'rgba(255,255,255,0.05)', padding: '8px 16px', borderRadius: 8 }}>
+                    {isCompleted ? 'LÀM BÀI →' : 'Chưa Mở Khóa'}
+                  </div>
+                </button>
+              </div>
+            )}
+            </>
           );
         })}
 

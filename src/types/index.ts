@@ -120,6 +120,7 @@ export type Screen =
   | { name: 'nihongo' }
   | { name: 'nihongo-lesson'; lessonId?: number; lessonIds?: number[] }
   | { name: 'listening' }
+  | { name: 'dokkai-review'; reviewId: string }
   | { name: 'jlpt-test-list' }
   | { name: 'jlpt-test'; testData: any };
 

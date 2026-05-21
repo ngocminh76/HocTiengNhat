@@ -18,6 +18,7 @@ import { KatakanaExercisePage } from './pages/KatakanaExercisePage';
 import { NihongoPage } from './pages/NihongoPage';
 import { NihongoLessonPage } from './pages/NihongoLessonPage';
 import { ListeningPracticePage } from './pages/ListeningPracticePage';
+import { DokkaiReviewPage } from './pages/DokkaiReviewPage';
 import { JlptTestListPage } from './pages/JlptTestListPage';
 import { JlptTestPage } from './pages/JlptTestPage';
 import { NIHONGO_LESSONS } from './data/nihongo-lessons';
@@ -270,17 +271,20 @@ export default function App() {
         return <KatakanaExercisePage onHome={goKatakana} />;
 
       case 'nihongo':
-        return <NihongoPage onHome={goHome} mastery={progress.nihongoMastery || {}} sentenceMastery={progress.sentenceMastery || {}} onSelectLesson={(ids) => setScreen({ name: 'nihongo-lesson', lessonIds: ids })} />;
+        return <NihongoPage onHome={goHome} mastery={progress.nihongoMastery || {}} sentenceMastery={progress.sentenceMastery || {}} onSelectLesson={(ids) => setScreen({ name: 'nihongo-lesson', lessonIds: ids })} onShowDokkaiReview={(id) => setScreen({ name: 'dokkai-review', reviewId: id })} />;
 
       case 'nihongo-lesson': {
         const ids = screen.name === 'nihongo-lesson' ? (screen.lessonIds || [screen.lessonId as number].filter(Boolean)) : [];
         const lessons = NIHONGO_LESSONS.filter(l => ids.includes(l.id));
-        if (lessons.length === 0) return <NihongoPage onHome={goHome} mastery={progress.nihongoMastery || {}} sentenceMastery={progress.sentenceMastery || {}} onSelectLesson={(ids) => setScreen({ name: 'nihongo-lesson', lessonIds: ids })} />;
+        if (lessons.length === 0) return <NihongoPage onHome={goHome} mastery={progress.nihongoMastery || {}} sentenceMastery={progress.sentenceMastery || {}} onSelectLesson={(ids) => setScreen({ name: 'nihongo-lesson', lessonIds: ids })} onShowDokkaiReview={(id) => setScreen({ name: 'dokkai-review', reviewId: id })} />;
         return <NihongoLessonPage lessons={lessons} onHome={goNihongo} onLessonComplete={(id) => { markNihongoLessonCompleted(id); incrementLessonReviewCount(id); }} sentenceMastery={progress.sentenceMastery || {}} updateSentenceMastery={(key, type) => { updateSentenceMastery(key, type); addXP(5); showXP(5); }} addXP={(amount) => { addXP(amount); showXP(amount); }} />;
       }
 
       case 'listening':
         return <ListeningPracticePage onHome={goHome} />;
+
+      case 'dokkai-review':
+        return <DokkaiReviewPage reviewId={screen.reviewId} onHome={goNihongo} addXP={(amount) => { addXP(amount); showXP(amount); }} />;
 
       case 'jlpt-test-list':
         return <JlptTestListPage progress={progress} onGenerateTest={(t) => setScreen({ name: 'jlpt-test', testData: t })} onHome={goHome} />;
