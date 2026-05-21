@@ -81,7 +81,7 @@ export function DokkaiReviewPage({ reviewId, onHome, addXP, onComplete }: Props)
     <div className="screen" style={{ padding: '16px 0', height: '100vh', display: 'flex', flexDirection: 'column' }}>
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 16, flexShrink: 0 }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
-          <button className="btn-back" onClick={onHome}>← Quay lại</button>
+          <button className="btn-back no-print" onClick={onHome}>← Quay lại</button>
           <div>
             <h2 style={{ fontSize: 20, fontWeight: 800, margin: 0, color: 'var(--green)' }}>{review.title}</h2>
             <div style={{ fontSize: 13, color: 'var(--mute)' }}>{review.description}</div>
@@ -89,17 +89,22 @@ export function DokkaiReviewPage({ reviewId, onHome, addXP, onComplete }: Props)
         </div>
         
         {/* TIMER UI */}
-        <div style={{ 
-          background: timeLeft < 180 ? 'rgba(239,71,111,0.1)' : 'var(--bg-card)', 
-          border: `2px solid ${timeLeft < 180 ? 'var(--red)' : 'var(--border)'}`,
-          padding: '8px 16px',
-          borderRadius: 20,
-          fontWeight: 900,
-          fontSize: 20,
-          color: timeLeft < 180 ? 'var(--red)' : 'var(--text)',
-          animation: (timeLeft < 60 && !submitted) ? 'pulse 1s infinite' : 'none'
-        }}>
-          ⏱ {Math.floor(timeLeft / 60).toString().padStart(2, '0')}:{(timeLeft % 60).toString().padStart(2, '0')}
+        <div style={{ display: 'flex', alignItems: 'center', gap: 12 }} className="no-print">
+          <button className="btn btn-ghost" onClick={() => window.print()} style={{ padding: '8px 16px', borderRadius: 20, background: 'rgba(255,255,255,0.05)' }}>
+            🖨️ PDF
+          </button>
+          <div style={{ 
+            background: timeLeft < 180 ? 'rgba(239,71,111,0.1)' : 'var(--bg-card)', 
+            border: `2px solid ${timeLeft < 180 ? 'var(--red)' : 'var(--border)'}`,
+            padding: '8px 16px',
+            borderRadius: 20,
+            fontWeight: 900,
+            fontSize: 20,
+            color: timeLeft < 180 ? 'var(--red)' : 'var(--text)',
+            animation: (timeLeft < 60 && !submitted) ? 'pulse 1s infinite' : 'none'
+          }}>
+            ⏱ {Math.floor(timeLeft / 60).toString().padStart(2, '0')}:{(timeLeft % 60).toString().padStart(2, '0')}
+          </div>
         </div>
       </div>
 
@@ -225,7 +230,7 @@ export function DokkaiReviewPage({ reviewId, onHome, addXP, onComplete }: Props)
 
         {/* Submit Button */}
         {!submitted ? (
-          <div style={{ textAlign: 'center', marginTop: 32 }}>
+          <div className="no-print" style={{ textAlign: 'center', marginTop: 32 }}>
             <button 
               className="btn btn-primary"
               style={{ fontSize: 16, padding: '16px 48px', borderRadius: 30 }}
@@ -235,7 +240,7 @@ export function DokkaiReviewPage({ reviewId, onHome, addXP, onComplete }: Props)
             </button>
           </div>
         ) : (
-          <div style={{ textAlign: 'center', marginTop: 32 }}>
+          <div className="no-print" style={{ textAlign: 'center', marginTop: 32 }}>
             <div style={{ fontSize: 48, marginBottom: 12 }}>
               {isPassed ? '🎉' : '💪'}
             </div>

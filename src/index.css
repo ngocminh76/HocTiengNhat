@@ -306,3 +306,5 @@ button{font-family:inherit;cursor:pointer;border:none}
 }
 
 @keyframes pulse { 0% { opacity: 1; } 50% { opacity: 0.5; } 100% { opacity: 1; } }
+
+@media print { .no-print { display: none !important; } .screen { overflow: visible !important; height: auto !important; } body { background: white !important; color: black !important; } }
