@@ -1,2960 +1,5131 @@
-export interface DokkaiQuestion {
-  id: string;
-  question: string;
-  options: string[];
-  correctIndex: number; // 0-indexed
-  explanation?: string;
-}
-
-export interface DokkaiPassage {
-  id: string;
-  type: 'moji_mondai1' | 'moji_mondai2' | 'moji_mondai3' | 'moji_mondai4' | 'mondai1' | 'mondai2' | 'mondai3' | 'mondai4' | 'mondai5' | 'mondai6';
-  text?: string[]; // Paragraphs for Mondai 3, 4, 5
-  htmlContent?: string; // HTML for Mondai 6 (poster, table, etc.)
-  questions: DokkaiQuestion[];
-}
-
-export interface DokkaiReview {
-  id: string;
-  title: string;
-  description: string;
-  passages: DokkaiPassage[];
-}
+// src/data/dokkai-reviews.ts
+// GENERATED FILE - DO NOT EDIT MANUALLY
+import { DokkaiReview } from '../types';
 
 export const DOKKAI_REVIEWS: DokkaiReview[] = [
   {
-    id: 'review_1_5_1',
-    title: 'Đề thi 1: JLPT N5 (Bài 1 - 5)',
-    description: 'Chặng ôn tập toàn diện Kiến thức Ngôn Ngữ (Ngữ Pháp) và Đọc Hiểu dựa trên Bài 1 đến Bài 5.',
-    passages: [
+    "id": "review_1_5_1",
+    "title": "Đề thi 1: Trạm Ôn Tập JLPT N5 (Bài 1 - 5)",
+    "description": "Bộ đề số 1. Được xáo trộn ngẫu nhiên để chống học vẹt.",
+    "passages": [
       {
-        id: 'p_moji1',
-        type: 'moji_mondai1',
-        questions: [
+        "id": "p_review_1_5_1_moji1",
+        "type": "moji_mondai1",
+        "questions": [
           {
-            id: 'moji1_q1',
-            question: 'わたしは 毎日 【水】を 飲みます。',
-            options: ['みず', 'みち', 'みせ', 'みみ'],
-            correctIndex: 0,
-            explanation: 'Kanji "水" (Thủy) đọc là みず (nước).'
-          },
-          {
-            id: 'moji1_q2',
-            question: 'ここは わたしの 【大学】です。',
-            options: ['だいがく', 'たいがく', 'だいがこ', 'たいがこ'],
-            correctIndex: 0,
-            explanation: 'Kanji "大学" (Đại học) đọc là だいがく.'
-          }
-        ]
-      },
-      {
-        id: 'p_moji2',
-        type: 'moji_mondai2',
-        questions: [
-          {
-            id: 'moji2_q1',
-            question: 'きのう 【がっこう】へ いきました。',
-            options: ['学交', '学校', '学効', '学向'],
-            correctIndex: 1,
-            explanation: 'Trường học "がっこう" viết Kanji là 学校 (Học hiệu).'
-          },
-          {
-            id: 'moji2_q2',
-            question: 'スーパーで 【カメラ】を かいました。',
-            options: ['ガメラ', 'カネラ', 'カメラ', 'カヌラ'],
-            correctIndex: 2,
-            explanation: 'Từ mượn "camera" (máy ảnh) viết Katakana là カメラ.'
-          }
-        ]
-      },
-      {
-        id: 'p_moji3',
-        type: 'moji_mondai3',
-        questions: [
-          {
-            id: 'moji3_q1',
-            question: 'あめが ふっていますから、【　　　】を かいます。',
-            options: ['かさ', 'かばん', 'とけい', 'くつ'],
-            correctIndex: 0,
-            explanation: 'Vì trời mưa (あめ) nên phải mua "ô/dù" (かさ).'
-          },
-          {
-            id: 'moji3_q2',
-            question: 'きょうは にちようびです。あしたは 【　　　】です。',
-            options: ['かようび', 'げつようび', 'すいようび', 'もくようび'],
-            correctIndex: 1,
-            explanation: 'Hôm nay là Chủ Nhật (にちようび), vậy ngày mai (あした) là Thứ Hai (げつようび).'
-          }
-        ]
-      },
-      {
-        id: 'p_moji4',
-        type: 'moji_mondai4',
-        questions: [
-          {
-            id: 'moji4_q1',
-            question: 'あしたは やすみです。',
-            options: [
-              'あしたは はたらきません。',
-              'あしたは べんきょうします。',
-              'あしたは がっこうへ いきます。',
-              'あしたは いそがしいです。'
+            "id": "m_review_1_5_1_m1_q0",
+            "question": "きょうは 【水曜日】です。",
+            "options": [
+              "もくようび",
+              "かようび",
+              "すいようび",
+              "きんようび"
             ],
-            correctIndex: 0,
-            explanation: 'Ngày mai là ngày nghỉ (やすみ) đồng nghĩa với việc Ngày mai không làm việc (はたらきません).'
-          }
-        ]
-      },
-      {
-        id: 'p_m1',
-        type: 'mondai1',
-        questions: [
-          {
-            id: 'm1_q1',
-            question: 'きのう　デパート（　　　）いきました。',
-            options: ['で', 'へ', 'を', 'が'],
-            correctIndex: 1,
-            explanation: 'Đi đến đâu dùng trợ từ へ (hoặc に). Động từ là いきました.'
+            "correctIndex": 2,
+            "explanation": "水曜日 đọc là すいようび (thứ Tư)."
           },
           {
-            id: 'm1_q2',
-            question: 'A「この　かばんは　だれ（　　　）ですか。」\nB「わたしのです。」',
-            options: ['の', 'は', 'か', 'も'],
-            correctIndex: 0,
-            explanation: 'Hỏi sở hữu "của ai" dùng trợ từ の: だれのですか.'
-          },
-          {
-            id: 'm1_q3',
-            question: 'わたしは　まいあさ　６じ（　　　）おきます。',
-            options: ['から', 'まで', 'に', 'で'],
-            correctIndex: 2,
-            explanation: 'Chỉ thời điểm cụ thể diễn ra hành động dùng trợ từ に.'
-          },
-          {
-            id: 'm1_q4',
-            question: 'A「それは　（　　　）の　ざっしですか。」\nB「カメラの　ざっしです。」',
-            options: ['なん', 'だれ', 'どこ', 'いつ'],
-            correctIndex: 0,
-            explanation: 'Hỏi về nội dung, thể loại dùng なん (cái gì). Tạp chí về máy ảnh = カメラのざっし.'
-          }
-        ]
-      },
-      {
-        id: 'p_m2',
-        type: 'mondai2',
-        questions: [
-          {
-            id: 'm2_q1',
-            question: 'わたしは　___ ___ _★_ ___　かえります。',
-            options: ['うち', 'ひとりで', 'へ', 'タクシーで'],
-            correctIndex: 0,
-            explanation: 'Thứ tự đúng: わたしは (タクシーで) (ひとりで) (うち) (へ) かえります. Vị trí ngôi sao là "うち".'
-          },
-          {
-            id: 'm2_q2',
-            question: 'ここは　___ ___ _★_ ___　です。',
-            options: ['の', 'だいがく', 'さくら', 'きょうしつ'],
-            correctIndex: 1,
-            explanation: 'Thứ tự đúng: ここは (さくら) (だいがく) (の) (きょうしつ) です (Đây là phòng học của đại học Sakura). Vị trí ngôi sao là "だいがく".'
-          }
-        ]
-      },
-      {
-        id: 'p_m3',
-        type: 'mondai3',
-        text: [
-          'わたしの　かぞくは　３にんです。ちちと　ははと　わたしです。',
-          'ちちは　かいしゃいんです。はは（　１　）かいしゃいんです。',
-          'きのうは　にちようびでした。（　２　）、ちちと　ははは　かいしゃへ　いきませんでした。',
-          'わたしたちは　くるまで　スーパーへ（　３　）。',
-        ],
-        questions: [
-          {
-            id: 'm3_q1',
-            question: '（　１　）に入れるものはどれですか。',
-            options: ['は', 'も', 'が', 'と'],
-            correctIndex: 1,
-            explanation: 'Câu trước nói Bố là nhân viên công ty, câu sau nói Mẹ CŨNG là nhân viên công ty -> dùng も.'
-          },
-          {
-            id: 'm3_q2',
-            question: '（　２　）に入れるものはどれですか。',
-            options: ['それから', 'ですから', 'これ', 'どこ'],
-            correctIndex: 1,
-            explanation: 'きのうは にちようびでした (Hôm qua là Chủ Nhật), (Vì vậy) Bố mẹ không đi làm. Dùng ですから (Vì vậy).'
-          },
-          {
-            id: 'm3_q3',
-            question: '（　３　）に入れるものはどれですか。',
-            options: ['いきます', 'きました', 'いきました', 'きます'],
-            correctIndex: 2,
-            explanation: 'Kể về chuyện hôm qua (きのう) nên phải dùng thì quá khứ. Đi đến siêu thị dùng いきました.'
-          }
-        ]
-      },
-      {
-        id: 'p_m4_1',
-        type: 'mondai4',
-        text: [
-          'きのう、わたしは　ともだちと　しんじゅくの　デパートへ　いきました。デパートは　１０じから　８じまでです。',
-          'デパートの　ちかで　かばんを　かいました。かばんは　３０００えんでした。',
-          'とても　いい　かばんです。'
-        ],
-        questions: [
-          {
-            id: 'm4_q1',
-            question: 'わたしは　デパートで　なにを　かいましたか。',
-            options: [
-              '３０００えんの　かぎ',
-              '３０００えんの　かばん',
-              '８０００えんの　かばん',
-              '１０００えんの　かばん'
+            "id": "m_review_1_5_1_m1_q1",
+            "question": "【毎日】 にほんごを べんきょうします。",
+            "options": [
+              "まいしゅう",
+              "まいとし",
+              "まいにち",
+              "まいげつ"
             ],
-            correctIndex: 1,
-            explanation: 'Trong bài có câu "かばんは ３０００えんでした" (Cặp sách giá 3000 yên).'
+            "correctIndex": 2,
+            "explanation": "毎日 đọc là まいにち (mỗi ngày)."
           }
         ]
       },
       {
-        id: 'p_m4_2',
-        type: 'mondai4',
-        text: [
-          'はじめまして。わたしの　なまえは　マリアです。ブラジルから　きました。',
-          'わたしは　２５さいです。だいがくの　がくせいです。',
-          'わたしの　だいがくは　さくらだいがくです。まいにち、ちかてつで　だいがくへ　いきます。',
-          'よろしく　おねがいします。'
-        ],
-        questions: [
+        "id": "p_review_1_5_1_moji2",
+        "type": "moji_mondai2",
+        "questions": [
           {
-            id: 'm4_q2',
-            question: 'マリアさんは　どうやって　だいがくへ　いきますか。',
-            options: [
-              'ちかてつで　いきます。',
-              'バスで　いきます。',
-              'あるいて　いきます。',
-              'じてんしゃで　いきます。'
+            "id": "m_review_1_5_1_m2_q0",
+            "question": "【くるま】を かいました。",
+            "options": [
+              "庫",
+              "東",
+              "車",
+              "重"
             ],
-            correctIndex: 0,
-            explanation: 'Trong bài có câu "まいにち、ちかてつで　だいがくへ　いきます" (Mỗi ngày tôi đi tàu điện ngầm đến trường đại học).'
-          }
-        ]
-      },
-      {
-        id: 'p_m5',
-        type: 'mondai5',
-        text: [
-          'わたしは　まいあさ　６じはんに　おきます。７じに　うちから　かいしゃへ　いきます。',
-          'わたしは　ＩＭＣの　しゃいんです。ＩＭＣは　とうきょうの　かいしゃです。',
-          'まいにち、でんしゃで　かいしゃへ　いきます。',
-          'かいしゃは　９じから　５じまでです。１２じから　１じまで　ひるやすみです。',
-          '５じに　しごとが　おわります。それから、うちへ　かえります。',
-          'うちで　９じから　１０じまで　にほんごを　べんきょうします。',
-          '１１じはんに　ねます。'
-        ],
-        questions: [
-          {
-            id: 'm5_q1',
-            question: 'このひとは　なんじから　なんじまで　はたらきますか。',
-            options: [
-              '９じから　５じまで',
-              '６じはんから　５じまで',
-              '９じから　１０じまで',
-              '７じから　５じまで'
-            ],
-            correctIndex: 0,
-            explanation: 'Trong bài có câu "かいしゃは ９じから ５じまでです" (Công ty làm việc từ 9 giờ đến 5 giờ).'
+            "correctIndex": 2,
+            "explanation": "くるま (ô tô) viết là 車."
           },
           {
-            id: 'm5_q2',
-            question: 'このひとは　よる、うちで　なにを　しますか。',
-            options: [
-              'かいしゃへ　いきます。',
-              'にほんごを　べんきょうします。',
-              'でんしゃで　かえります。',
-              'しごとが　おわります。'
+            "id": "m_review_1_5_1_m2_q1",
+            "question": "ともだちと 【デパート】へ いきます。",
+            "options": [
+              "テパート",
+              "デパート",
+              "デバート",
+              "デパード"
             ],
-            correctIndex: 1,
-            explanation: 'Câu gần cuối có ghi "うちで ９じから １０じまで にほんごを べんきょうします" (Học tiếng Nhật ở nhà từ 9 giờ đến 10 giờ tối).'
+            "correctIndex": 1,
+            "explanation": "Department store viết là デパート."
           }
         ]
       },
       {
-        id: 'p_m6',
-        type: 'mondai6',
-        htmlContent: `
-<div style="border: 2px solid var(--text); padding: 16px; border-radius: 8px; max-width: 400px; margin: 0 auto; background: var(--bg-card);">
-  <h3 style="text-align: center; border-bottom: 2px dashed var(--border); padding-bottom: 8px; margin-top: 0;">みどりとしょかん</h3>
-  <ul style="list-style-type: none; padding-left: 0; line-height: 1.8;">
-    <li><strong style="display:inline-block; width: 80px;">・やすみ：</strong>げつようび、もくようび</li>
-    <li><strong style="display:inline-block; width: 80px;">・じかん：</strong>ごぜん ９：００ ～ ごご ６：００</li>
-    <li><strong style="display:inline-block; width: 80px;">・でんわ：</strong>０３－１２３４－５６７８</li>
-  </ul>
-  <div style="background: rgba(255,196,0,0.1); border-left: 4px solid var(--gold); padding: 8px; font-weight: bold; margin-top: 16px; font-size: 14px;">
-    ★こんしゅうの どようびは としょかんの おやすみです。
-  </div>
-</div>
-        `,
-        questions: [
+        "id": "p_review_1_5_1_moji3",
+        "type": "moji_mondai3",
+        "questions": [
           {
-            id: 'm6_q1',
-            question: 'みどりとしょかんの　やすみは　いつですか。',
-            options: [
-              'げつようびと　もくようびだけです。',
-              'げつようびと　もくようびと　こんしゅうの　どようびです。',
-              'げつようびと　すいようびと　こんしゅうの　どようびです。',
-              'どようびだけです。'
+            "id": "m_review_1_5_1_m3_q0",
+            "question": "あしたは やすみです。うちで ゆっくり 【　　　】。",
+            "options": [
+              "はたらきます",
+              "おきます",
+              "やすみます",
+              "おわります"
             ],
-            correctIndex: 1,
-            explanation: 'Lịch nghỉ cố định là Thứ Hai (げつようび) và Thứ Năm (もくようび). Ngoài ra có chú ý đặc biệt là Thứ Bảy tuần này (こんしゅうの どようび) cũng nghỉ.'
+            "correctIndex": 2,
+            "explanation": "Nghỉ ngơi: やすみます."
+          },
+          {
+            "id": "m_review_1_5_1_m3_q1",
+            "question": "きのう １０じに 【　　　】。",
+            "options": [
+              "おきました",
+              "きました",
+              "ねました",
+              "いきました"
+            ],
+            "correctIndex": 2,
+            "explanation": "Đã ngủ lúc 10 giờ: ねました."
+          }
+        ]
+      },
+      {
+        "id": "p_review_1_5_1_bunpou1",
+        "type": "mondai1",
+        "questions": [
+          {
+            "id": "m_review_1_5_1_b1_q0",
+            "question": "あした どこ（　　　）いきません。",
+            "options": [
+              "をも",
+              "へも",
+              "でも",
+              "がも"
+            ],
+            "correctIndex": 1,
+            "explanation": "Phủ định hoàn toàn: どこへも いきません."
+          },
+          {
+            "id": "m_review_1_5_1_b1_q1",
+            "question": "わたしは えんぴつ（　　　）てがみを かきます。",
+            "options": [
+              "が",
+              "に",
+              "を",
+              "で"
+            ],
+            "correctIndex": 3,
+            "explanation": "Phương tiện/công cụ -> で."
+          },
+          {
+            "id": "m_review_1_5_1_b1_q2",
+            "question": "A「それは （　　　）ですか。」 B「コンピューターの ほん です。」",
+            "options": [
+              "なん",
+              "どこ",
+              "だれの ほん",
+              "なんの ほん"
+            ],
+            "correctIndex": 0,
+            "explanation": "Hỏi cái gì dùng なん."
+          }
+        ]
+      },
+      {
+        "id": "p_review_1_5_1_bunpou2",
+        "type": "mondai2",
+        "questions": [
+          {
+            "id": "m_review_1_5_1_b2_q0",
+            "question": "ここは　___ ___ _★_ ___　です。",
+            "options": [
+              "しょくどう",
+              "の",
+              "とうきょう",
+              "だいがく"
+            ],
+            "correctIndex": 1,
+            "explanation": "ここは とうきょう だいがく の しょくどう です."
+          },
+          {
+            "id": "m_review_1_5_1_b2_q1",
+            "question": "わたしは　___ ___ _★_ ___　いきます。",
+            "options": [
+              "ともだち",
+              "ぎんこう",
+              "と",
+              "へ"
+            ],
+            "correctIndex": 1,
+            "explanation": "わたしは ともだち と ぎんこう へ いきます."
+          }
+        ]
+      },
+      {
+        "id": "p_review_1_5_1_dokkai1",
+        "type": "mondai3",
+        "text": [
+          "きのうは わたしの たんじょうびでした。",
+          "わたしは ともだち（　１　）レストランへ いきました。",
+          "レストランで おいしい ごはんを たべました。",
+          "それから、えいがを（　２　）。とても たのしかったです。"
+        ],
+        "questions": [
+          {
+            "id": "m_review_1_5_1_d1_q0",
+            "question": "（　１　）に入れるものはどれですか。",
+            "options": [
+              "に",
+              "と",
+              "へ",
+              "で"
+            ],
+            "correctIndex": 1,
+            "explanation": "Cùng với bạn -> と."
+          },
+          {
+            "id": "m_review_1_5_1_d1_q1",
+            "question": "（　２　）に入れるものはどれですか。",
+            "options": [
+              "みますか",
+              "みます",
+              "みません",
+              "みました"
+            ],
+            "correctIndex": 3,
+            "explanation": "Kể chuyện quá khứ -> みました."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "review_1_5_2",
+    "title": "Đề thi 2: Trạm Ôn Tập JLPT N5 (Bài 1 - 5)",
+    "description": "Bộ đề số 2. Được xáo trộn ngẫu nhiên để chống học vẹt.",
+    "passages": [
+      {
+        "id": "p_review_1_5_2_moji1",
+        "type": "moji_mondai1",
+        "questions": [
+          {
+            "id": "m_review_1_5_2_m1_q0",
+            "question": "きょうは 【水曜日】です。",
+            "options": [
+              "かようび",
+              "すいようび",
+              "もくようび",
+              "きんようび"
+            ],
+            "correctIndex": 1,
+            "explanation": "水曜日 đọc là すいようび (thứ Tư)."
+          },
+          {
+            "id": "m_review_1_5_2_m1_q1",
+            "question": "【毎日】 にほんごを べんきょうします。",
+            "options": [
+              "まいにち",
+              "まいとし",
+              "まいしゅう",
+              "まいげつ"
+            ],
+            "correctIndex": 0,
+            "explanation": "毎日 đọc là まいにち (mỗi ngày)."
+          }
+        ]
+      },
+      {
+        "id": "p_review_1_5_2_moji2",
+        "type": "moji_mondai2",
+        "questions": [
+          {
+            "id": "m_review_1_5_2_m2_q0",
+            "question": "【くるま】を かいました。",
+            "options": [
+              "庫",
+              "車",
+              "東",
+              "重"
+            ],
+            "correctIndex": 1,
+            "explanation": "くるま (ô tô) viết là 車."
+          },
+          {
+            "id": "m_review_1_5_2_m2_q1",
+            "question": "あの 【レストラン】は おいしいです。",
+            "options": [
+              "レストンラ",
+              "レストラソ",
+              "レストラン",
+              "レスドラン"
+            ],
+            "correctIndex": 2,
+            "explanation": "Restaurant viết là レストラン."
+          }
+        ]
+      },
+      {
+        "id": "p_review_1_5_2_moji3",
+        "type": "moji_mondai3",
+        "questions": [
+          {
+            "id": "m_review_1_5_2_m3_q0",
+            "question": "スーパーで くだものを 【　　　】。",
+            "options": [
+              "あいます",
+              "かいます",
+              "すいます",
+              "のみます"
+            ],
+            "correctIndex": 1,
+            "explanation": "Mua trái cây: かいます."
+          },
+          {
+            "id": "m_review_1_5_2_m3_q1",
+            "question": "えんぴつで てがみを 【　　　】。",
+            "options": [
+              "ききます",
+              "かきます",
+              "よみます",
+              "みます"
+            ],
+            "correctIndex": 1,
+            "explanation": "Viết thư: かきます."
+          }
+        ]
+      },
+      {
+        "id": "p_review_1_5_2_bunpou1",
+        "type": "mondai1",
+        "questions": [
+          {
+            "id": "m_review_1_5_2_b1_q0",
+            "question": "わたしは えんぴつ（　　　）てがみを かきます。",
+            "options": [
+              "を",
+              "が",
+              "で",
+              "に"
+            ],
+            "correctIndex": 2,
+            "explanation": "Phương tiện/công cụ -> で."
+          },
+          {
+            "id": "m_review_1_5_2_b1_q1",
+            "question": "あした どこ（　　　）いきません。",
+            "options": [
+              "がも",
+              "へも",
+              "でも",
+              "をも"
+            ],
+            "correctIndex": 1,
+            "explanation": "Phủ định hoàn toàn: どこへも いきません."
+          },
+          {
+            "id": "m_review_1_5_2_b1_q2",
+            "question": "きょうは ５じ（　　　）はたらきます。",
+            "options": [
+              "から",
+              "まで",
+              "で",
+              "に"
+            ],
+            "correctIndex": 1,
+            "explanation": "Làm việc \"đến\" 5 giờ -> まで."
+          }
+        ]
+      },
+      {
+        "id": "p_review_1_5_2_bunpou2",
+        "type": "mondai2",
+        "questions": [
+          {
+            "id": "m_review_1_5_2_b2_q0",
+            "question": "ここは　___ ___ _★_ ___　です。",
+            "options": [
+              "の",
+              "だいがく",
+              "とうきょう",
+              "しょくどう"
+            ],
+            "correctIndex": 0,
+            "explanation": "ここは とうきょう だいがく の しょくどう です."
+          },
+          {
+            "id": "m_review_1_5_2_b2_q1",
+            "question": "わたしは　___ ___ _★_ ___　いきます。",
+            "options": [
+              "ともだち",
+              "へ",
+              "と",
+              "ぎんこう"
+            ],
+            "correctIndex": 3,
+            "explanation": "わたしは ともだち と ぎんこう へ いきます."
+          }
+        ]
+      },
+      {
+        "id": "p_review_1_5_2_dokkai1",
+        "type": "mondai3",
+        "text": [
+          "きのうは わたしの たんじょうびでした。",
+          "わたしは ともだち（　１　）レストランへ いきました。",
+          "レストランで おいしい ごはんを たべました。",
+          "それから、えいがを（　２　）。とても たのしかったです。"
+        ],
+        "questions": [
+          {
+            "id": "m_review_1_5_2_d1_q0",
+            "question": "（　１　）に入れるものはどれですか。",
+            "options": [
+              "で",
+              "と",
+              "へ",
+              "に"
+            ],
+            "correctIndex": 1,
+            "explanation": "Cùng với bạn -> と."
+          },
+          {
+            "id": "m_review_1_5_2_d1_q1",
+            "question": "（　２　）に入れるものはどれですか。",
+            "options": [
+              "みません",
+              "みます",
+              "みますか",
+              "みました"
+            ],
+            "correctIndex": 3,
+            "explanation": "Kể chuyện quá khứ -> みました."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "review_1_5_3",
+    "title": "Đề thi 3: Trạm Ôn Tập JLPT N5 (Bài 1 - 5)",
+    "description": "Bộ đề số 3. Được xáo trộn ngẫu nhiên để chống học vẹt.",
+    "passages": [
+      {
+        "id": "p_review_1_5_3_moji1",
+        "type": "moji_mondai1",
+        "questions": [
+          {
+            "id": "m_review_1_5_3_m1_q0",
+            "question": "きょうは 【水曜日】です。",
+            "options": [
+              "きんようび",
+              "かようび",
+              "すいようび",
+              "もくようび"
+            ],
+            "correctIndex": 2,
+            "explanation": "水曜日 đọc là すいようび (thứ Tư)."
+          },
+          {
+            "id": "m_review_1_5_3_m1_q1",
+            "question": "【毎日】 にほんごを べんきょうします。",
+            "options": [
+              "まいにち",
+              "まいとし",
+              "まいげつ",
+              "まいしゅう"
+            ],
+            "correctIndex": 0,
+            "explanation": "毎日 đọc là まいにち (mỗi ngày)."
+          }
+        ]
+      },
+      {
+        "id": "p_review_1_5_3_moji2",
+        "type": "moji_mondai2",
+        "questions": [
+          {
+            "id": "m_review_1_5_3_m2_q0",
+            "question": "ともだちと 【デパート】へ いきます。",
+            "options": [
+              "デバート",
+              "テパート",
+              "デパード",
+              "デパート"
+            ],
+            "correctIndex": 3,
+            "explanation": "Department store viết là デパート."
+          },
+          {
+            "id": "m_review_1_5_3_m2_q1",
+            "question": "あの 【レストラン】は おいしいです。",
+            "options": [
+              "レストラソ",
+              "レスドラン",
+              "レストラン",
+              "レストンラ"
+            ],
+            "correctIndex": 2,
+            "explanation": "Restaurant viết là レストラン."
+          }
+        ]
+      },
+      {
+        "id": "p_review_1_5_3_moji3",
+        "type": "moji_mondai3",
+        "questions": [
+          {
+            "id": "m_review_1_5_3_m3_q0",
+            "question": "あしたは やすみです。うちで ゆっくり 【　　　】。",
+            "options": [
+              "はたらきます",
+              "おきます",
+              "やすみます",
+              "おわります"
+            ],
+            "correctIndex": 2,
+            "explanation": "Nghỉ ngơi: やすみます."
+          },
+          {
+            "id": "m_review_1_5_3_m3_q1",
+            "question": "きのう １０じに 【　　　】。",
+            "options": [
+              "いきました",
+              "ねました",
+              "おきました",
+              "きました"
+            ],
+            "correctIndex": 1,
+            "explanation": "Đã ngủ lúc 10 giờ: ねました."
+          }
+        ]
+      },
+      {
+        "id": "p_review_1_5_3_bunpou1",
+        "type": "mondai1",
+        "questions": [
+          {
+            "id": "m_review_1_5_3_b1_q0",
+            "question": "わたしは えんぴつ（　　　）てがみを かきます。",
+            "options": [
+              "に",
+              "が",
+              "で",
+              "を"
+            ],
+            "correctIndex": 2,
+            "explanation": "Phương tiện/công cụ -> で."
+          },
+          {
+            "id": "m_review_1_5_3_b1_q1",
+            "question": "きょうは ５じ（　　　）はたらきます。",
+            "options": [
+              "から",
+              "まで",
+              "に",
+              "で"
+            ],
+            "correctIndex": 1,
+            "explanation": "Làm việc \"đến\" 5 giờ -> まで."
+          },
+          {
+            "id": "m_review_1_5_3_b1_q2",
+            "question": "A「それは （　　　）ですか。」 B「コンピューターの ほん です。」",
+            "options": [
+              "どこ",
+              "なん",
+              "だれの ほん",
+              "なんの ほん"
+            ],
+            "correctIndex": 1,
+            "explanation": "Hỏi cái gì dùng なん."
+          }
+        ]
+      },
+      {
+        "id": "p_review_1_5_3_bunpou2",
+        "type": "mondai2",
+        "questions": [
+          {
+            "id": "m_review_1_5_3_b2_q0",
+            "question": "ここは　___ ___ _★_ ___　です。",
+            "options": [
+              "しょくどう",
+              "の",
+              "だいがく",
+              "とうきょう"
+            ],
+            "correctIndex": 1,
+            "explanation": "ここは とうきょう だいがく の しょくどう です."
+          },
+          {
+            "id": "m_review_1_5_3_b2_q1",
+            "question": "わたしは　___ ___ _★_ ___　いきます。",
+            "options": [
+              "へ",
+              "ともだち",
+              "ぎんこう",
+              "と"
+            ],
+            "correctIndex": 2,
+            "explanation": "わたしは ともだち と ぎんこう へ いきます."
+          }
+        ]
+      },
+      {
+        "id": "p_review_1_5_3_dokkai1",
+        "type": "mondai3",
+        "text": [
+          "きのうは わたしの たんじょうびでした。",
+          "わたしは ともだち（　１　）レストランへ いきました。",
+          "レストランで おいしい ごはんを たべました。",
+          "それから、えいがを（　２　）。とても たのしかったです。"
+        ],
+        "questions": [
+          {
+            "id": "m_review_1_5_3_d1_q0",
+            "question": "（　１　）に入れるものはどれですか。",
+            "options": [
+              "で",
+              "に",
+              "へ",
+              "と"
+            ],
+            "correctIndex": 3,
+            "explanation": "Cùng với bạn -> と."
+          },
+          {
+            "id": "m_review_1_5_3_d1_q1",
+            "question": "（　２　）に入れるものはどれですか。",
+            "options": [
+              "みますか",
+              "みません",
+              "みました",
+              "みます"
+            ],
+            "correctIndex": 2,
+            "explanation": "Kể chuyện quá khứ -> みました."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "review_1_5_4",
+    "title": "Đề thi 4: Trạm Ôn Tập JLPT N5 (Bài 1 - 5)",
+    "description": "Bộ đề số 4. Được xáo trộn ngẫu nhiên để chống học vẹt.",
+    "passages": [
+      {
+        "id": "p_review_1_5_4_moji1",
+        "type": "moji_mondai1",
+        "questions": [
+          {
+            "id": "m_review_1_5_4_m1_q0",
+            "question": "きょうは 【水曜日】です。",
+            "options": [
+              "かようび",
+              "すいようび",
+              "きんようび",
+              "もくようび"
+            ],
+            "correctIndex": 1,
+            "explanation": "水曜日 đọc là すいようび (thứ Tư)."
+          },
+          {
+            "id": "m_review_1_5_4_m1_q1",
+            "question": "【毎日】 にほんごを べんきょうします。",
+            "options": [
+              "まいにち",
+              "まいげつ",
+              "まいとし",
+              "まいしゅう"
+            ],
+            "correctIndex": 0,
+            "explanation": "毎日 đọc là まいにち (mỗi ngày)."
+          }
+        ]
+      },
+      {
+        "id": "p_review_1_5_4_moji2",
+        "type": "moji_mondai2",
+        "questions": [
+          {
+            "id": "m_review_1_5_4_m2_q0",
+            "question": "ともだちと 【デパート】へ いきます。",
+            "options": [
+              "デバート",
+              "テパート",
+              "デパード",
+              "デパート"
+            ],
+            "correctIndex": 3,
+            "explanation": "Department store viết là デパート."
+          },
+          {
+            "id": "m_review_1_5_4_m2_q1",
+            "question": "【くるま】を かいました。",
+            "options": [
+              "庫",
+              "車",
+              "東",
+              "重"
+            ],
+            "correctIndex": 1,
+            "explanation": "くるま (ô tô) viết là 車."
+          }
+        ]
+      },
+      {
+        "id": "p_review_1_5_4_moji3",
+        "type": "moji_mondai3",
+        "questions": [
+          {
+            "id": "m_review_1_5_4_m3_q0",
+            "question": "えんぴつで てがみを 【　　　】。",
+            "options": [
+              "ききます",
+              "かきます",
+              "よみます",
+              "みます"
+            ],
+            "correctIndex": 1,
+            "explanation": "Viết thư: かきます."
+          },
+          {
+            "id": "m_review_1_5_4_m3_q1",
+            "question": "スーパーで くだものを 【　　　】。",
+            "options": [
+              "のみます",
+              "すいます",
+              "かいます",
+              "あいます"
+            ],
+            "correctIndex": 2,
+            "explanation": "Mua trái cây: かいます."
+          }
+        ]
+      },
+      {
+        "id": "p_review_1_5_4_bunpou1",
+        "type": "mondai1",
+        "questions": [
+          {
+            "id": "m_review_1_5_4_b1_q0",
+            "question": "わたしは えんぴつ（　　　）てがみを かきます。",
+            "options": [
+              "を",
+              "が",
+              "で",
+              "に"
+            ],
+            "correctIndex": 2,
+            "explanation": "Phương tiện/công cụ -> で."
+          },
+          {
+            "id": "m_review_1_5_4_b1_q1",
+            "question": "あした どこ（　　　）いきません。",
+            "options": [
+              "でも",
+              "がも",
+              "へも",
+              "をも"
+            ],
+            "correctIndex": 2,
+            "explanation": "Phủ định hoàn toàn: どこへも いきません."
+          },
+          {
+            "id": "m_review_1_5_4_b1_q2",
+            "question": "きょうは ５じ（　　　）はたらきます。",
+            "options": [
+              "まで",
+              "から",
+              "で",
+              "に"
+            ],
+            "correctIndex": 0,
+            "explanation": "Làm việc \"đến\" 5 giờ -> まで."
+          }
+        ]
+      },
+      {
+        "id": "p_review_1_5_4_bunpou2",
+        "type": "mondai2",
+        "questions": [
+          {
+            "id": "m_review_1_5_4_b2_q0",
+            "question": "ここは　___ ___ _★_ ___　です。",
+            "options": [
+              "しょくどう",
+              "とうきょう",
+              "の",
+              "だいがく"
+            ],
+            "correctIndex": 2,
+            "explanation": "ここは とうきょう だいがく の しょくどう です."
+          },
+          {
+            "id": "m_review_1_5_4_b2_q1",
+            "question": "わたしは　___ ___ _★_ ___　いきます。",
+            "options": [
+              "へ",
+              "ともだち",
+              "ぎんこう",
+              "と"
+            ],
+            "correctIndex": 2,
+            "explanation": "わたしは ともだち と ぎんこう へ いきます."
+          }
+        ]
+      },
+      {
+        "id": "p_review_1_5_4_dokkai1",
+        "type": "mondai3",
+        "text": [
+          "きのうは わたしの たんじょうびでした。",
+          "わたしは ともだち（　１　）レストランへ いきました。",
+          "レストランで おいしい ごはんを たべました。",
+          "それから、えいがを（　２　）。とても たのしかったです。"
+        ],
+        "questions": [
+          {
+            "id": "m_review_1_5_4_d1_q0",
+            "question": "（　１　）に入れるものはどれですか。",
+            "options": [
+              "で",
+              "へ",
+              "に",
+              "と"
+            ],
+            "correctIndex": 3,
+            "explanation": "Cùng với bạn -> と."
+          },
+          {
+            "id": "m_review_1_5_4_d1_q1",
+            "question": "（　２　）に入れるものはどれですか。",
+            "options": [
+              "みます",
+              "みません",
+              "みますか",
+              "みました"
+            ],
+            "correctIndex": 3,
+            "explanation": "Kể chuyện quá khứ -> みました."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "review_1_5_5",
+    "title": "Đề thi 5: Trạm Ôn Tập JLPT N5 (Bài 1 - 5)",
+    "description": "Bộ đề số 5. Được xáo trộn ngẫu nhiên để chống học vẹt.",
+    "passages": [
+      {
+        "id": "p_review_1_5_5_moji1",
+        "type": "moji_mondai1",
+        "questions": [
+          {
+            "id": "m_review_1_5_5_m1_q0",
+            "question": "【毎日】 にほんごを べんきょうします。",
+            "options": [
+              "まいげつ",
+              "まいしゅう",
+              "まいにち",
+              "まいとし"
+            ],
+            "correctIndex": 2,
+            "explanation": "毎日 đọc là まいにち (mỗi ngày)."
+          },
+          {
+            "id": "m_review_1_5_5_m1_q1",
+            "question": "きょうは 【水曜日】です。",
+            "options": [
+              "きんようび",
+              "かようび",
+              "もくようび",
+              "すいようび"
+            ],
+            "correctIndex": 3,
+            "explanation": "水曜日 đọc là すいようび (thứ Tư)."
+          }
+        ]
+      },
+      {
+        "id": "p_review_1_5_5_moji2",
+        "type": "moji_mondai2",
+        "questions": [
+          {
+            "id": "m_review_1_5_5_m2_q0",
+            "question": "ともだちと 【デパート】へ いきます。",
+            "options": [
+              "デパード",
+              "デバート",
+              "テパート",
+              "デパート"
+            ],
+            "correctIndex": 3,
+            "explanation": "Department store viết là デパート."
+          },
+          {
+            "id": "m_review_1_5_5_m2_q1",
+            "question": "【くるま】を かいました。",
+            "options": [
+              "東",
+              "庫",
+              "重",
+              "車"
+            ],
+            "correctIndex": 3,
+            "explanation": "くるま (ô tô) viết là 車."
+          }
+        ]
+      },
+      {
+        "id": "p_review_1_5_5_moji3",
+        "type": "moji_mondai3",
+        "questions": [
+          {
+            "id": "m_review_1_5_5_m3_q0",
+            "question": "あしたは やすみです。うちで ゆっくり 【　　　】。",
+            "options": [
+              "やすみます",
+              "おわります",
+              "はたらきます",
+              "おきます"
+            ],
+            "correctIndex": 0,
+            "explanation": "Nghỉ ngơi: やすみます."
+          },
+          {
+            "id": "m_review_1_5_5_m3_q1",
+            "question": "スーパーで くだものを 【　　　】。",
+            "options": [
+              "のみます",
+              "すいます",
+              "かいます",
+              "あいます"
+            ],
+            "correctIndex": 2,
+            "explanation": "Mua trái cây: かいます."
+          }
+        ]
+      },
+      {
+        "id": "p_review_1_5_5_bunpou1",
+        "type": "mondai1",
+        "questions": [
+          {
+            "id": "m_review_1_5_5_b1_q0",
+            "question": "わたしは えんぴつ（　　　）てがみを かきます。",
+            "options": [
+              "が",
+              "に",
+              "で",
+              "を"
+            ],
+            "correctIndex": 2,
+            "explanation": "Phương tiện/công cụ -> で."
+          },
+          {
+            "id": "m_review_1_5_5_b1_q1",
+            "question": "あした どこ（　　　）いきません。",
+            "options": [
+              "へも",
+              "がも",
+              "をも",
+              "でも"
+            ],
+            "correctIndex": 0,
+            "explanation": "Phủ định hoàn toàn: どこへも いきません."
+          },
+          {
+            "id": "m_review_1_5_5_b1_q2",
+            "question": "きょうは ５じ（　　　）はたらきます。",
+            "options": [
+              "で",
+              "に",
+              "から",
+              "まで"
+            ],
+            "correctIndex": 3,
+            "explanation": "Làm việc \"đến\" 5 giờ -> まで."
+          }
+        ]
+      },
+      {
+        "id": "p_review_1_5_5_bunpou2",
+        "type": "mondai2",
+        "questions": [
+          {
+            "id": "m_review_1_5_5_b2_q0",
+            "question": "ここは　___ ___ _★_ ___　です。",
+            "options": [
+              "だいがく",
+              "とうきょう",
+              "しょくどう",
+              "の"
+            ],
+            "correctIndex": 3,
+            "explanation": "ここは とうきょう だいがく の しょくどう です."
+          },
+          {
+            "id": "m_review_1_5_5_b2_q1",
+            "question": "わたしは　___ ___ _★_ ___　いきます。",
+            "options": [
+              "へ",
+              "と",
+              "ともだち",
+              "ぎんこう"
+            ],
+            "correctIndex": 3,
+            "explanation": "わたしは ともだち と ぎんこう へ いきます."
+          }
+        ]
+      },
+      {
+        "id": "p_review_1_5_5_dokkai1",
+        "type": "mondai3",
+        "text": [
+          "きのうは わたしの たんじょうびでした。",
+          "わたしは ともだち（　１　）レストランへ いきました。",
+          "レストランで おいしい ごはんを たべました。",
+          "それから、えいがを（　２　）。とても たのしかったです。"
+        ],
+        "questions": [
+          {
+            "id": "m_review_1_5_5_d1_q0",
+            "question": "（　１　）に入れるものはどれですか。",
+            "options": [
+              "へ",
+              "で",
+              "に",
+              "と"
+            ],
+            "correctIndex": 3,
+            "explanation": "Cùng với bạn -> と."
+          },
+          {
+            "id": "m_review_1_5_5_d1_q1",
+            "question": "（　２　）に入れるものはどれですか。",
+            "options": [
+              "みません",
+              "みます",
+              "みますか",
+              "みました"
+            ],
+            "correctIndex": 3,
+            "explanation": "Kể chuyện quá khứ -> みました."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "review_6_10_1",
+    "title": "Đề thi 1: Trạm Ôn Tập JLPT N5 (Bài 6 - 10)",
+    "description": "Bộ đề số 1. Được xáo trộn ngẫu nhiên để chống học vẹt.",
+    "passages": [
+      {
+        "id": "p_review_6_10_1_moji1",
+        "type": "moji_mondai1",
+        "questions": [
+          {
+            "id": "m_review_6_10_1_m1_q0",
+            "question": "【新しい】 くるまです。",
+            "options": [
+              "あたらしい",
+              "あたらし",
+              "あらたしい",
+              "あだらしい"
+            ],
+            "correctIndex": 0,
+            "explanation": "新しい đọc là あたらしい (mới)."
+          },
+          {
+            "id": "m_review_6_10_1_m1_q1",
+            "question": "【えいご】を べんきょうします。",
+            "options": [
+              "英話",
+              "英悟",
+              "英語",
+              "英吾"
+            ],
+            "correctIndex": 2,
+            "explanation": "英語 là Tiếng Anh."
+          }
+        ]
+      },
+      {
+        "id": "p_review_6_10_1_moji2",
+        "type": "moji_mondai2",
+        "questions": [
+          {
+            "id": "m_review_6_10_1_m2_q0",
+            "question": "【シャツ】を かいました。",
+            "options": [
+              "シヤツ",
+              "シャツ",
+              "シヤッ",
+              "サツ"
+            ],
+            "correctIndex": 1,
+            "explanation": "Shirt viết là シャツ."
+          },
+          {
+            "id": "m_review_6_10_1_m2_q1",
+            "question": "【パン】を たべます。",
+            "options": [
+              "ハン",
+              "パン",
+              "バン",
+              "ホン"
+            ],
+            "correctIndex": 1,
+            "explanation": "Bread viết là パン."
+          }
+        ]
+      },
+      {
+        "id": "p_review_6_10_1_moji3",
+        "type": "moji_mondai3",
+        "questions": [
+          {
+            "id": "m_review_6_10_1_m3_q0",
+            "question": "せんせいから ほんを 【　　　】。",
+            "options": [
+              "おしえました",
+              "あげました",
+              "もらいました",
+              "かしました"
+            ],
+            "correctIndex": 2,
+            "explanation": "Nhận từ giáo viên (もらいました)."
+          },
+          {
+            "id": "m_review_6_10_1_m3_q1",
+            "question": "日本の カメラは 【　　　】ですか。",
+            "options": [
+              "どの",
+              "どう",
+              "どれ",
+              "どんな"
+            ],
+            "correctIndex": 1,
+            "explanation": "Thế nào? (どうですか)."
+          }
+        ]
+      },
+      {
+        "id": "p_review_6_10_1_bunpou1",
+        "type": "mondai1",
+        "questions": [
+          {
+            "id": "m_review_6_10_1_b1_q0",
+            "question": "きのうの パーティーは （　　　）。",
+            "options": [
+              "たのしいでした",
+              "たのしいです",
+              "たのしかったです",
+              "たのしかった"
+            ],
+            "correctIndex": 2,
+            "explanation": "Tính từ đuôi い ở quá khứ -> かったです."
+          },
+          {
+            "id": "m_review_6_10_1_b1_q1",
+            "question": "わたしは 木村さん（　　　）はなを あげました。",
+            "options": [
+              "に",
+              "を",
+              "へ",
+              "で"
+            ],
+            "correctIndex": 0,
+            "explanation": "Cho ai cái gì -> に."
+          },
+          {
+            "id": "m_review_6_10_1_b1_q2",
+            "question": "この へやは （　　　）ありません。",
+            "options": [
+              "しずか",
+              "しずかに",
+              "しずかくて",
+              "しずかじゃ"
+            ],
+            "correctIndex": 3,
+            "explanation": "Phủ định tính từ đuôi な -> じゃ ありません."
+          }
+        ]
+      },
+      {
+        "id": "p_review_6_10_1_bunpou2",
+        "type": "mondai2",
+        "questions": [
+          {
+            "id": "m_review_6_10_1_b2_q0",
+            "question": "わたしは　___ ___ _★_ ___　もらいました。",
+            "options": [
+              "とけい",
+              "を",
+              "ともだち",
+              "に"
+            ],
+            "correctIndex": 1,
+            "explanation": "わたしは ともだち に とけい を もらいました."
+          },
+          {
+            "id": "m_review_6_10_1_b2_q1",
+            "question": "とうきょうは　___ ___ _★_ ___　まちです。",
+            "options": [
+              "とても",
+              "にぎやかな",
+              "きれいで",
+              "て"
+            ],
+            "correctIndex": 0,
+            "explanation": "とうきょうは とても きれいで にぎやかな まち です."
+          }
+        ]
+      },
+      {
+        "id": "p_review_6_10_1_dokkai1",
+        "type": "mondai3",
+        "text": [
+          "きょうは わたしの たんじょうびです。",
+          "あさ ははに プレゼントを もらいました。シャツと ぼうしです。",
+          "シャツは しろいです。ぼうしは くろいです。",
+          "よる かぞくと いっしょに レストランで しょくじを します。"
+        ],
+        "questions": [
+          {
+            "id": "m_review_6_10_1_d1_q0",
+            "question": "なにを もらいましたか。",
+            "options": [
+              "くろい シャツと しろい ぼうし",
+              "しろい シャツと くろい ぼうし",
+              "くろい シャツと くろい ぼうし",
+              "しろい シャツと しろい ぼうし"
+            ],
+            "correctIndex": 1,
+            "explanation": "シャツは しろいです。ぼうしは くろいです."
+          },
+          {
+            "id": "m_review_6_10_1_d1_q1",
+            "question": "よる どこで ごはんを たべますか。",
+            "options": [
+              "うち",
+              "レストラン",
+              "かいしゃ",
+              "がっこう"
+            ],
+            "correctIndex": 1,
+            "explanation": "レストランで しょくじを します."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "review_6_10_2",
+    "title": "Đề thi 2: Trạm Ôn Tập JLPT N5 (Bài 6 - 10)",
+    "description": "Bộ đề số 2. Được xáo trộn ngẫu nhiên để chống học vẹt.",
+    "passages": [
+      {
+        "id": "p_review_6_10_2_moji1",
+        "type": "moji_mondai1",
+        "questions": [
+          {
+            "id": "m_review_6_10_2_m1_q0",
+            "question": "【手紙】を かきます。",
+            "options": [
+              "てかみ",
+              "でかみ",
+              "てがみ",
+              "でがみ"
+            ],
+            "correctIndex": 2,
+            "explanation": "手紙 đọc là てがみ (Bức thư)."
+          },
+          {
+            "id": "m_review_6_10_2_m1_q1",
+            "question": "【えいご】を べんきょうします。",
+            "options": [
+              "英話",
+              "英吾",
+              "英悟",
+              "英語"
+            ],
+            "correctIndex": 3,
+            "explanation": "英語 là Tiếng Anh."
+          }
+        ]
+      },
+      {
+        "id": "p_review_6_10_2_moji2",
+        "type": "moji_mondai2",
+        "questions": [
+          {
+            "id": "m_review_6_10_2_m2_q0",
+            "question": "【シャツ】を かいました。",
+            "options": [
+              "シヤツ",
+              "シヤッ",
+              "サツ",
+              "シャツ"
+            ],
+            "correctIndex": 3,
+            "explanation": "Shirt viết là シャツ."
+          },
+          {
+            "id": "m_review_6_10_2_m2_q1",
+            "question": "【コーヒー】を のみます。",
+            "options": [
+              "コヒ",
+              "コーヒー",
+              "コーヒ",
+              "コヒー"
+            ],
+            "correctIndex": 1,
+            "explanation": "Coffee viết là コーヒー."
+          }
+        ]
+      },
+      {
+        "id": "p_review_6_10_2_moji3",
+        "type": "moji_mondai3",
+        "questions": [
+          {
+            "id": "m_review_6_10_2_m3_q0",
+            "question": "日本の カメラは 【　　　】ですか。",
+            "options": [
+              "どの",
+              "どれ",
+              "どう",
+              "どんな"
+            ],
+            "correctIndex": 2,
+            "explanation": "Thế nào? (どうですか)."
+          },
+          {
+            "id": "m_review_6_10_2_m3_q1",
+            "question": "この りんごは とても 【　　　】です。",
+            "options": [
+              "いそがしい",
+              "おもしろい",
+              "つめたい",
+              "おいしい"
+            ],
+            "correctIndex": 3,
+            "explanation": "Táo thì ngon (おいしい)."
+          }
+        ]
+      },
+      {
+        "id": "p_review_6_10_2_bunpou1",
+        "type": "mondai1",
+        "questions": [
+          {
+            "id": "m_review_6_10_2_b1_q0",
+            "question": "スプーン（　　　）ごはんを たべます。",
+            "options": [
+              "に",
+              "が",
+              "で",
+              "を"
+            ],
+            "correctIndex": 2,
+            "explanation": "Chỉ phương tiện/công cụ -> で."
+          },
+          {
+            "id": "m_review_6_10_2_b1_q1",
+            "question": "わたしは 木村さん（　　　）はなを あげました。",
+            "options": [
+              "で",
+              "に",
+              "を",
+              "へ"
+            ],
+            "correctIndex": 1,
+            "explanation": "Cho ai cái gì -> に."
+          },
+          {
+            "id": "m_review_6_10_2_b1_q2",
+            "question": "きのうの パーティーは （　　　）。",
+            "options": [
+              "たのしいです",
+              "たのしいでした",
+              "たのしかったです",
+              "たのしかった"
+            ],
+            "correctIndex": 2,
+            "explanation": "Tính từ đuôi い ở quá khứ -> かったです."
+          }
+        ]
+      },
+      {
+        "id": "p_review_6_10_2_bunpou2",
+        "type": "mondai2",
+        "questions": [
+          {
+            "id": "m_review_6_10_2_b2_q0",
+            "question": "とうきょうは　___ ___ _★_ ___　まちです。",
+            "options": [
+              "て",
+              "きれいで",
+              "とても",
+              "にぎやかな"
+            ],
+            "correctIndex": 2,
+            "explanation": "とうきょうは とても きれいで にぎやかな まち です."
+          },
+          {
+            "id": "m_review_6_10_2_b2_q1",
+            "question": "わたしは　___ ___ _★_ ___　もらいました。",
+            "options": [
+              "を",
+              "とけい",
+              "ともだち",
+              "に"
+            ],
+            "correctIndex": 0,
+            "explanation": "わたしは ともだち に とけい を もらいました."
+          }
+        ]
+      },
+      {
+        "id": "p_review_6_10_2_dokkai1",
+        "type": "mondai3",
+        "text": [
+          "きょうは わたしの たんじょうびです。",
+          "あさ ははに プレゼントを もらいました。シャツと ぼうしです。",
+          "シャツは しろいです。ぼうしは くろいです。",
+          "よる かぞくと いっしょに レストランで しょくじを します。"
+        ],
+        "questions": [
+          {
+            "id": "m_review_6_10_2_d1_q0",
+            "question": "なにを もらいましたか。",
+            "options": [
+              "くろい シャツと くろい ぼうし",
+              "くろい シャツと しろい ぼうし",
+              "しろい シャツと しろい ぼうし",
+              "しろい シャツと くろい ぼうし"
+            ],
+            "correctIndex": 3,
+            "explanation": "シャツは しろいです。ぼうしは くろいです."
+          },
+          {
+            "id": "m_review_6_10_2_d1_q1",
+            "question": "よる どこで ごはんを たべますか。",
+            "options": [
+              "レストラン",
+              "うち",
+              "かいしゃ",
+              "がっこう"
+            ],
+            "correctIndex": 0,
+            "explanation": "レストランで しょくじを します."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "review_6_10_3",
+    "title": "Đề thi 3: Trạm Ôn Tập JLPT N5 (Bài 6 - 10)",
+    "description": "Bộ đề số 3. Được xáo trộn ngẫu nhiên để chống học vẹt.",
+    "passages": [
+      {
+        "id": "p_review_6_10_3_moji1",
+        "type": "moji_mondai1",
+        "questions": [
+          {
+            "id": "m_review_6_10_3_m1_q0",
+            "question": "【手紙】を かきます。",
+            "options": [
+              "てかみ",
+              "でかみ",
+              "でがみ",
+              "てがみ"
+            ],
+            "correctIndex": 3,
+            "explanation": "手紙 đọc là てがみ (Bức thư)."
+          },
+          {
+            "id": "m_review_6_10_3_m1_q1",
+            "question": "【古い】 じてんしゃです。",
+            "options": [
+              "ぶるい",
+              "ふるい",
+              "ふろい",
+              "ひろい"
+            ],
+            "correctIndex": 1,
+            "explanation": "古い đọc là ふるい (cũ)."
+          }
+        ]
+      },
+      {
+        "id": "p_review_6_10_3_moji2",
+        "type": "moji_mondai2",
+        "questions": [
+          {
+            "id": "m_review_6_10_3_m2_q0",
+            "question": "【パン】を たべます。",
+            "options": [
+              "パン",
+              "ハン",
+              "バン",
+              "ホン"
+            ],
+            "correctIndex": 0,
+            "explanation": "Bread viết là パン."
+          },
+          {
+            "id": "m_review_6_10_3_m2_q1",
+            "question": "【シャツ】を かいました。",
+            "options": [
+              "サツ",
+              "シヤッ",
+              "シヤツ",
+              "シャツ"
+            ],
+            "correctIndex": 3,
+            "explanation": "Shirt viết là シャツ."
+          }
+        ]
+      },
+      {
+        "id": "p_review_6_10_3_moji3",
+        "type": "moji_mondai3",
+        "questions": [
+          {
+            "id": "m_review_6_10_3_m3_q0",
+            "question": "せんせいから ほんを 【　　　】。",
+            "options": [
+              "おしえました",
+              "もらいました",
+              "あげました",
+              "かしました"
+            ],
+            "correctIndex": 1,
+            "explanation": "Nhận từ giáo viên (もらいました)."
+          },
+          {
+            "id": "m_review_6_10_3_m3_q1",
+            "question": "日本の カメラは 【　　　】ですか。",
+            "options": [
+              "どの",
+              "どんな",
+              "どう",
+              "どれ"
+            ],
+            "correctIndex": 2,
+            "explanation": "Thế nào? (どうですか)."
+          }
+        ]
+      },
+      {
+        "id": "p_review_6_10_3_bunpou1",
+        "type": "mondai1",
+        "questions": [
+          {
+            "id": "m_review_6_10_3_b1_q0",
+            "question": "スプーン（　　　）ごはんを たべます。",
+            "options": [
+              "が",
+              "に",
+              "を",
+              "で"
+            ],
+            "correctIndex": 3,
+            "explanation": "Chỉ phương tiện/công cụ -> で."
+          },
+          {
+            "id": "m_review_6_10_3_b1_q1",
+            "question": "わたしは 木村さん（　　　）はなを あげました。",
+            "options": [
+              "へ",
+              "で",
+              "を",
+              "に"
+            ],
+            "correctIndex": 3,
+            "explanation": "Cho ai cái gì -> に."
+          },
+          {
+            "id": "m_review_6_10_3_b1_q2",
+            "question": "きのうの パーティーは （　　　）。",
+            "options": [
+              "たのしかった",
+              "たのしいでした",
+              "たのしかったです",
+              "たのしいです"
+            ],
+            "correctIndex": 2,
+            "explanation": "Tính từ đuôi い ở quá khứ -> かったです."
+          }
+        ]
+      },
+      {
+        "id": "p_review_6_10_3_bunpou2",
+        "type": "mondai2",
+        "questions": [
+          {
+            "id": "m_review_6_10_3_b2_q0",
+            "question": "わたしは　___ ___ _★_ ___　もらいました。",
+            "options": [
+              "を",
+              "とけい",
+              "に",
+              "ともだち"
+            ],
+            "correctIndex": 0,
+            "explanation": "わたしは ともだち に とけい を もらいました."
+          },
+          {
+            "id": "m_review_6_10_3_b2_q1",
+            "question": "とうきょうは　___ ___ _★_ ___　まちです。",
+            "options": [
+              "きれいで",
+              "とても",
+              "て",
+              "にぎやかな"
+            ],
+            "correctIndex": 1,
+            "explanation": "とうきょうは とても きれいで にぎやかな まち です."
+          }
+        ]
+      },
+      {
+        "id": "p_review_6_10_3_dokkai1",
+        "type": "mondai3",
+        "text": [
+          "きょうは わたしの たんじょうびです。",
+          "あさ ははに プレゼントを もらいました。シャツと ぼうしです。",
+          "シャツは しろいです。ぼうしは くろいです。",
+          "よる かぞくと いっしょに レストランで しょくじを します。"
+        ],
+        "questions": [
+          {
+            "id": "m_review_6_10_3_d1_q0",
+            "question": "なにを もらいましたか。",
+            "options": [
+              "くろい シャツと しろい ぼうし",
+              "しろい シャツと しろい ぼうし",
+              "くろい シャツと くろい ぼうし",
+              "しろい シャツと くろい ぼうし"
+            ],
+            "correctIndex": 3,
+            "explanation": "シャツは しろいです。ぼうしは くろいです."
+          },
+          {
+            "id": "m_review_6_10_3_d1_q1",
+            "question": "よる どこで ごはんを たべますか。",
+            "options": [
+              "かいしゃ",
+              "レストラン",
+              "うち",
+              "がっこう"
+            ],
+            "correctIndex": 1,
+            "explanation": "レストランで しょくじを します."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "review_6_10_4",
+    "title": "Đề thi 4: Trạm Ôn Tập JLPT N5 (Bài 6 - 10)",
+    "description": "Bộ đề số 4. Được xáo trộn ngẫu nhiên để chống học vẹt.",
+    "passages": [
+      {
+        "id": "p_review_6_10_4_moji1",
+        "type": "moji_mondai1",
+        "questions": [
+          {
+            "id": "m_review_6_10_4_m1_q0",
+            "question": "【えいご】を べんきょうします。",
+            "options": [
+              "英吾",
+              "英悟",
+              "英語",
+              "英話"
+            ],
+            "correctIndex": 2,
+            "explanation": "英語 là Tiếng Anh."
+          },
+          {
+            "id": "m_review_6_10_4_m1_q1",
+            "question": "【手紙】を かきます。",
+            "options": [
+              "でかみ",
+              "でがみ",
+              "てがみ",
+              "てかみ"
+            ],
+            "correctIndex": 2,
+            "explanation": "手紙 đọc là てがみ (Bức thư)."
+          }
+        ]
+      },
+      {
+        "id": "p_review_6_10_4_moji2",
+        "type": "moji_mondai2",
+        "questions": [
+          {
+            "id": "m_review_6_10_4_m2_q0",
+            "question": "【プレゼント】を あげます。",
+            "options": [
+              "フレゼント",
+              "プレゼント",
+              "プレザント",
+              "プレセント"
+            ],
+            "correctIndex": 1,
+            "explanation": "Present (Quà) viết Katakana là プレゼント."
+          },
+          {
+            "id": "m_review_6_10_4_m2_q1",
+            "question": "【コーヒー】を のみます。",
+            "options": [
+              "コーヒー",
+              "コヒ",
+              "コヒー",
+              "コーヒ"
+            ],
+            "correctIndex": 0,
+            "explanation": "Coffee viết là コーヒー."
+          }
+        ]
+      },
+      {
+        "id": "p_review_6_10_4_moji3",
+        "type": "moji_mondai3",
+        "questions": [
+          {
+            "id": "m_review_6_10_4_m3_q0",
+            "question": "はさみで かみを 【　　　】。",
+            "options": [
+              "もらいます",
+              "きります",
+              "かします",
+              "かります"
+            ],
+            "correctIndex": 1,
+            "explanation": "Cắt (きります) giấy."
+          },
+          {
+            "id": "m_review_6_10_4_m3_q1",
+            "question": "この りんごは とても 【　　　】です。",
+            "options": [
+              "つめたい",
+              "おいしい",
+              "おもしろい",
+              "いそがしい"
+            ],
+            "correctIndex": 1,
+            "explanation": "Táo thì ngon (おいしい)."
+          }
+        ]
+      },
+      {
+        "id": "p_review_6_10_4_bunpou1",
+        "type": "mondai1",
+        "questions": [
+          {
+            "id": "m_review_6_10_4_b1_q0",
+            "question": "きのうの パーティーは （　　　）。",
+            "options": [
+              "たのしいです",
+              "たのしいでした",
+              "たのしかったです",
+              "たのしかった"
+            ],
+            "correctIndex": 2,
+            "explanation": "Tính từ đuôi い ở quá khứ -> かったです."
+          },
+          {
+            "id": "m_review_6_10_4_b1_q1",
+            "question": "この へやは （　　　）ありません。",
+            "options": [
+              "しずかに",
+              "しずかじゃ",
+              "しずかくて",
+              "しずか"
+            ],
+            "correctIndex": 1,
+            "explanation": "Phủ định tính từ đuôi な -> じゃ ありません."
+          },
+          {
+            "id": "m_review_6_10_4_b1_q2",
+            "question": "わたしは 木村さん（　　　）はなを あげました。",
+            "options": [
+              "で",
+              "へ",
+              "を",
+              "に"
+            ],
+            "correctIndex": 3,
+            "explanation": "Cho ai cái gì -> に."
+          }
+        ]
+      },
+      {
+        "id": "p_review_6_10_4_bunpou2",
+        "type": "mondai2",
+        "questions": [
+          {
+            "id": "m_review_6_10_4_b2_q0",
+            "question": "わたしは　___ ___ _★_ ___　もらいました。",
+            "options": [
+              "に",
+              "ともだち",
+              "を",
+              "とけい"
+            ],
+            "correctIndex": 2,
+            "explanation": "わたしは ともだち に とけい を もらいました."
+          },
+          {
+            "id": "m_review_6_10_4_b2_q1",
+            "question": "とうきょうは　___ ___ _★_ ___　まちです。",
+            "options": [
+              "にぎやかな",
+              "きれいで",
+              "とても",
+              "て"
+            ],
+            "correctIndex": 2,
+            "explanation": "とうきょうは とても きれいで にぎやかな まち です."
+          }
+        ]
+      },
+      {
+        "id": "p_review_6_10_4_dokkai1",
+        "type": "mondai3",
+        "text": [
+          "きょうは わたしの たんじょうびです。",
+          "あさ ははに プレゼントを もらいました。シャツと ぼうしです。",
+          "シャツは しろいです。ぼうしは くろいです。",
+          "よる かぞくと いっしょに レストランで しょくじを します。"
+        ],
+        "questions": [
+          {
+            "id": "m_review_6_10_4_d1_q0",
+            "question": "なにを もらいましたか。",
+            "options": [
+              "くろい シャツと しろい ぼうし",
+              "しろい シャツと しろい ぼうし",
+              "しろい シャツと くろい ぼうし",
+              "くろい シャツと くろい ぼうし"
+            ],
+            "correctIndex": 2,
+            "explanation": "シャツは しろいです。ぼうしは くろいです."
+          },
+          {
+            "id": "m_review_6_10_4_d1_q1",
+            "question": "よる どこで ごはんを たべますか。",
+            "options": [
+              "うち",
+              "かいしゃ",
+              "レストラン",
+              "がっこう"
+            ],
+            "correctIndex": 2,
+            "explanation": "レストランで しょくじを します."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "review_6_10_5",
+    "title": "Đề thi 5: Trạm Ôn Tập JLPT N5 (Bài 6 - 10)",
+    "description": "Bộ đề số 5. Được xáo trộn ngẫu nhiên để chống học vẹt.",
+    "passages": [
+      {
+        "id": "p_review_6_10_5_moji1",
+        "type": "moji_mondai1",
+        "questions": [
+          {
+            "id": "m_review_6_10_5_m1_q0",
+            "question": "【手紙】を かきます。",
+            "options": [
+              "でかみ",
+              "てがみ",
+              "てかみ",
+              "でがみ"
+            ],
+            "correctIndex": 1,
+            "explanation": "手紙 đọc là てがみ (Bức thư)."
+          },
+          {
+            "id": "m_review_6_10_5_m1_q1",
+            "question": "【えいご】を べんきょうします。",
+            "options": [
+              "英語",
+              "英悟",
+              "英吾",
+              "英話"
+            ],
+            "correctIndex": 0,
+            "explanation": "英語 là Tiếng Anh."
+          }
+        ]
+      },
+      {
+        "id": "p_review_6_10_5_moji2",
+        "type": "moji_mondai2",
+        "questions": [
+          {
+            "id": "m_review_6_10_5_m2_q0",
+            "question": "【パン】を たべます。",
+            "options": [
+              "パン",
+              "ホン",
+              "ハン",
+              "バン"
+            ],
+            "correctIndex": 0,
+            "explanation": "Bread viết là パン."
+          },
+          {
+            "id": "m_review_6_10_5_m2_q1",
+            "question": "【シャツ】を かいました。",
+            "options": [
+              "サツ",
+              "シャツ",
+              "シヤッ",
+              "シヤツ"
+            ],
+            "correctIndex": 1,
+            "explanation": "Shirt viết là シャツ."
+          }
+        ]
+      },
+      {
+        "id": "p_review_6_10_5_moji3",
+        "type": "moji_mondai3",
+        "questions": [
+          {
+            "id": "m_review_6_10_5_m3_q0",
+            "question": "はさみで かみを 【　　　】。",
+            "options": [
+              "かします",
+              "きります",
+              "かります",
+              "もらいます"
+            ],
+            "correctIndex": 1,
+            "explanation": "Cắt (きります) giấy."
+          },
+          {
+            "id": "m_review_6_10_5_m3_q1",
+            "question": "せんせいから ほんを 【　　　】。",
+            "options": [
+              "かしました",
+              "もらいました",
+              "あげました",
+              "おしえました"
+            ],
+            "correctIndex": 1,
+            "explanation": "Nhận từ giáo viên (もらいました)."
+          }
+        ]
+      },
+      {
+        "id": "p_review_6_10_5_bunpou1",
+        "type": "mondai1",
+        "questions": [
+          {
+            "id": "m_review_6_10_5_b1_q0",
+            "question": "きのうの パーティーは （　　　）。",
+            "options": [
+              "たのしいです",
+              "たのしかった",
+              "たのしいでした",
+              "たのしかったです"
+            ],
+            "correctIndex": 3,
+            "explanation": "Tính từ đuôi い ở quá khứ -> かったです."
+          },
+          {
+            "id": "m_review_6_10_5_b1_q1",
+            "question": "わたしは 木村さん（　　　）はなを あげました。",
+            "options": [
+              "を",
+              "に",
+              "で",
+              "へ"
+            ],
+            "correctIndex": 1,
+            "explanation": "Cho ai cái gì -> に."
+          },
+          {
+            "id": "m_review_6_10_5_b1_q2",
+            "question": "スプーン（　　　）ごはんを たべます。",
+            "options": [
+              "で",
+              "を",
+              "が",
+              "に"
+            ],
+            "correctIndex": 0,
+            "explanation": "Chỉ phương tiện/công cụ -> で."
+          }
+        ]
+      },
+      {
+        "id": "p_review_6_10_5_bunpou2",
+        "type": "mondai2",
+        "questions": [
+          {
+            "id": "m_review_6_10_5_b2_q0",
+            "question": "とうきょうは　___ ___ _★_ ___　まちです。",
+            "options": [
+              "とても",
+              "きれいで",
+              "にぎやかな",
+              "て"
+            ],
+            "correctIndex": 0,
+            "explanation": "とうきょうは とても きれいで にぎやかな まち です."
+          },
+          {
+            "id": "m_review_6_10_5_b2_q1",
+            "question": "わたしは　___ ___ _★_ ___　もらいました。",
+            "options": [
+              "とけい",
+              "に",
+              "を",
+              "ともだち"
+            ],
+            "correctIndex": 2,
+            "explanation": "わたしは ともだち に とけい を もらいました."
+          }
+        ]
+      },
+      {
+        "id": "p_review_6_10_5_dokkai1",
+        "type": "mondai3",
+        "text": [
+          "きょうは わたしの たんじょうびです。",
+          "あさ ははに プレゼントを もらいました。シャツと ぼうしです。",
+          "シャツは しろいです。ぼうしは くろいです。",
+          "よる かぞくと いっしょに レストランで しょくじを します。"
+        ],
+        "questions": [
+          {
+            "id": "m_review_6_10_5_d1_q0",
+            "question": "なにを もらいましたか。",
+            "options": [
+              "くろい シャツと くろい ぼうし",
+              "くろい シャツと しろい ぼうし",
+              "しろい シャツと くろい ぼうし",
+              "しろい シャツと しろい ぼうし"
+            ],
+            "correctIndex": 2,
+            "explanation": "シャツは しろいです。ぼうしは くろいです."
+          },
+          {
+            "id": "m_review_6_10_5_d1_q1",
+            "question": "よる どこで ごはんを たべますか。",
+            "options": [
+              "がっこう",
+              "レストラン",
+              "うち",
+              "かいしゃ"
+            ],
+            "correctIndex": 1,
+            "explanation": "レストランで しょくじを します."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "review_11_15_1",
+    "title": "Đề thi 1: Trạm Ôn Tập JLPT N5 (Bài 11 - 15)",
+    "description": "Bộ đề số 1. Được xáo trộn ngẫu nhiên để chống học vẹt.",
+    "passages": [
+      {
+        "id": "p_review_11_15_1_moji1",
+        "type": "moji_mondai1",
+        "questions": [
+          {
+            "id": "m_review_11_15_1_m1_q0",
+            "question": "【一日】に ３かい くすりを のみます。",
+            "options": [
+              "いっか",
+              "いつか",
+              "いちにち",
+              "ついたち"
+            ],
+            "correctIndex": 2,
+            "explanation": "一日 trong khoảng thời gian đọc là いちにち."
+          },
+          {
+            "id": "m_review_11_15_1_m1_q1",
+            "question": "ここは 【有名】な まちです。",
+            "options": [
+              "ゆうめ",
+              "ゆめ",
+              "ゆめい",
+              "ゆうめい"
+            ],
+            "correctIndex": 3,
+            "explanation": "有名 đọc là ゆうめい (Nổi tiếng)."
+          }
+        ]
+      },
+      {
+        "id": "p_review_11_15_1_moji2",
+        "type": "moji_mondai2",
+        "questions": [
+          {
+            "id": "m_review_11_15_1_m2_q0",
+            "question": "【カメラ】を かいたいです。",
+            "options": [
+              "カメラ",
+              "ガメラ",
+              "カメテ",
+              "カヌラ"
+            ],
+            "correctIndex": 0,
+            "explanation": "Camera viết là カメラ."
+          },
+          {
+            "id": "m_review_11_15_1_m2_q1",
+            "question": "あたらし 【くるま】が ほしいです。",
+            "options": [
+              "連",
+              "軍",
+              "庫",
+              "車"
+            ],
+            "correctIndex": 3,
+            "explanation": "Xe ô tô viết là 車."
+          }
+        ]
+      },
+      {
+        "id": "p_review_11_15_1_moji3",
+        "type": "moji_mondai3",
+        "questions": [
+          {
+            "id": "m_review_11_15_1_m3_q0",
+            "question": "いま のどが 【　　　】。",
+            "options": [
+              "すきました",
+              "いたいです",
+              "かわきました",
+              "わるいです"
+            ],
+            "correctIndex": 2,
+            "explanation": "Khát nước: のどが かわきました."
+          },
+          {
+            "id": "m_review_11_15_1_m3_q1",
+            "question": "りんごを みっつ 【　　　】。",
+            "options": [
+              "で",
+              "に",
+              "を",
+              "ください"
+            ],
+            "correctIndex": 3,
+            "explanation": "Cho tôi 3 quả táo: りんごを みっつ ください."
+          }
+        ]
+      },
+      {
+        "id": "p_review_11_15_1_bunpou1",
+        "type": "mondai1",
+        "questions": [
+          {
+            "id": "m_review_11_15_1_b1_q0",
+            "question": "ここで しゃしんを （　　　）は いけません。",
+            "options": [
+              "とらない",
+              "とって",
+              "とり",
+              "とる"
+            ],
+            "correctIndex": 1,
+            "explanation": "Cấm đoán: Vて はいけません -> とって."
+          },
+          {
+            "id": "m_review_11_15_1_b1_q1",
+            "question": "きょうは （　　　） たのしかったです。",
+            "options": [
+              "とても",
+              "すこし",
+              "あまり",
+              "ぜんぜん"
+            ],
+            "correctIndex": 0,
+            "explanation": "Khẳng định -> とても (Rất)."
+          },
+          {
+            "id": "m_review_11_15_1_b1_q2",
+            "question": "A「ちょっと （　　　）ましょうか。」",
+            "options": [
+              "やすまない",
+              "やすむ",
+              "やすみ",
+              "やすんで"
+            ],
+            "correctIndex": 2,
+            "explanation": "Rủ rê -> Động từ bỏ ます + ましょうか -> やすみ."
+          }
+        ]
+      },
+      {
+        "id": "p_review_11_15_1_bunpou2",
+        "type": "mondai2",
+        "questions": [
+          {
+            "id": "m_review_11_15_1_b2_q0",
+            "question": "わたしは　___ ___ _★_ ___　いきます。",
+            "options": [
+              "えいが",
+              "みに",
+              "を",
+              "に"
+            ],
+            "correctIndex": 1,
+            "explanation": "わたしは えいが を みに いきます."
+          },
+          {
+            "id": "m_review_11_15_1_b2_q1",
+            "question": "この　___ ___ _★_ ___　いいですか。",
+            "options": [
+              "つかっても",
+              "ペン",
+              "は",
+              "を"
+            ],
+            "correctIndex": 0,
+            "explanation": "この ペン は つかっても いいですか."
+          }
+        ]
+      },
+      {
+        "id": "p_review_11_15_1_dokkai1",
+        "type": "mondai3",
+        "text": [
+          "わたしの かぞくは ４にんです。",
+          "あには だいがくせいです。いま とうきょう（　１　）すんでいます。",
+          "わたしは こうこうせいです。",
+          "らいねん だいがくへ （　２　）たいです。"
+        ],
+        "questions": [
+          {
+            "id": "m_review_11_15_1_d1_q0",
+            "question": "（　１　）に入れるものはどれですか。",
+            "options": [
+              "に",
+              "へ",
+              "で",
+              "を"
+            ],
+            "correctIndex": 0,
+            "explanation": "Sống ở đâu dùng trợ từ に."
+          },
+          {
+            "id": "m_review_11_15_1_d1_q1",
+            "question": "（　２　）に入れるものはどれですか。",
+            "options": [
+              "いきたい",
+              "いき",
+              "いって",
+              "いく"
+            ],
+            "correctIndex": 1,
+            "explanation": "Vます bỏ ます + たい -> いき."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "review_11_15_2",
+    "title": "Đề thi 2: Trạm Ôn Tập JLPT N5 (Bài 11 - 15)",
+    "description": "Bộ đề số 2. Được xáo trộn ngẫu nhiên để chống học vẹt.",
+    "passages": [
+      {
+        "id": "p_review_11_15_2_moji1",
+        "type": "moji_mondai1",
+        "questions": [
+          {
+            "id": "m_review_11_15_2_m1_q0",
+            "question": "【外国】へ いきました。",
+            "options": [
+              "がいこく",
+              "かいごく",
+              "がいごく",
+              "かいこく"
+            ],
+            "correctIndex": 0,
+            "explanation": "外国 đọc là がいこく (Nước ngoài)."
+          },
+          {
+            "id": "m_review_11_15_2_m1_q1",
+            "question": "ここは 【有名】な まちです。",
+            "options": [
+              "ゆめい",
+              "ゆうめい",
+              "ゆうめ",
+              "ゆめ"
+            ],
+            "correctIndex": 1,
+            "explanation": "有名 đọc là ゆうめい (Nổi tiếng)."
+          }
+        ]
+      },
+      {
+        "id": "p_review_11_15_2_moji2",
+        "type": "moji_mondai2",
+        "questions": [
+          {
+            "id": "m_review_11_15_2_m2_q0",
+            "question": "あたらし 【くるま】が ほしいです。",
+            "options": [
+              "連",
+              "車",
+              "庫",
+              "軍"
+            ],
+            "correctIndex": 1,
+            "explanation": "Xe ô tô viết là 車."
+          },
+          {
+            "id": "m_review_11_15_2_m2_q1",
+            "question": "【カメラ】を かいたいです。",
+            "options": [
+              "ガメラ",
+              "カメラ",
+              "カメテ",
+              "カヌラ"
+            ],
+            "correctIndex": 1,
+            "explanation": "Camera viết là カメラ."
+          }
+        ]
+      },
+      {
+        "id": "p_review_11_15_2_moji3",
+        "type": "moji_mondai3",
+        "questions": [
+          {
+            "id": "m_review_11_15_2_m3_q0",
+            "question": "りんごを みっつ 【　　　】。",
+            "options": [
+              "で",
+              "を",
+              "ください",
+              "に"
+            ],
+            "correctIndex": 2,
+            "explanation": "Cho tôi 3 quả táo: りんごを みっつ ください."
+          },
+          {
+            "id": "m_review_11_15_2_m3_q1",
+            "question": "いま のどが 【　　　】。",
+            "options": [
+              "すきました",
+              "いたいです",
+              "かわきました",
+              "わるいです"
+            ],
+            "correctIndex": 2,
+            "explanation": "Khát nước: のどが かわきました."
+          }
+        ]
+      },
+      {
+        "id": "p_review_11_15_2_bunpou1",
+        "type": "mondai1",
+        "questions": [
+          {
+            "id": "m_review_11_15_2_b1_q0",
+            "question": "きょうは （　　　） たのしかったです。",
+            "options": [
+              "ぜんぜん",
+              "とても",
+              "あまり",
+              "すこし"
+            ],
+            "correctIndex": 1,
+            "explanation": "Khẳng định -> とても (Rất)."
+          },
+          {
+            "id": "m_review_11_15_2_b1_q1",
+            "question": "A「ちょっと （　　　）ましょうか。」",
+            "options": [
+              "やすまない",
+              "やすみ",
+              "やすんで",
+              "やすむ"
+            ],
+            "correctIndex": 1,
+            "explanation": "Rủ rê -> Động từ bỏ ます + ましょうか -> やすみ."
+          },
+          {
+            "id": "m_review_11_15_2_b1_q2",
+            "question": "ここで しゃしんを （　　　）は いけません。",
+            "options": [
+              "とらない",
+              "とる",
+              "とり",
+              "とって"
+            ],
+            "correctIndex": 3,
+            "explanation": "Cấm đoán: Vて はいけません -> とって."
+          }
+        ]
+      },
+      {
+        "id": "p_review_11_15_2_bunpou2",
+        "type": "mondai2",
+        "questions": [
+          {
+            "id": "m_review_11_15_2_b2_q0",
+            "question": "わたしは　___ ___ _★_ ___　いきます。",
+            "options": [
+              "を",
+              "みに",
+              "に",
+              "えいが"
+            ],
+            "correctIndex": 1,
+            "explanation": "わたしは えいが を みに いきます."
+          },
+          {
+            "id": "m_review_11_15_2_b2_q1",
+            "question": "この　___ ___ _★_ ___　いいですか。",
+            "options": [
+              "は",
+              "ペン",
+              "を",
+              "つかっても"
+            ],
+            "correctIndex": 3,
+            "explanation": "この ペン は つかっても いいですか."
+          }
+        ]
+      },
+      {
+        "id": "p_review_11_15_2_dokkai1",
+        "type": "mondai3",
+        "text": [
+          "わたしの かぞくは ４にんです。",
+          "あには だいがくせいです。いま とうきょう（　１　）すんでいます。",
+          "わたしは こうこうせいです。",
+          "らいねん だいがくへ （　２　）たいです。"
+        ],
+        "questions": [
+          {
+            "id": "m_review_11_15_2_d1_q0",
+            "question": "（　１　）に入れるものはどれですか。",
+            "options": [
+              "へ",
+              "を",
+              "に",
+              "で"
+            ],
+            "correctIndex": 2,
+            "explanation": "Sống ở đâu dùng trợ từ に."
+          },
+          {
+            "id": "m_review_11_15_2_d1_q1",
+            "question": "（　２　）に入れるものはどれですか。",
+            "options": [
+              "いき",
+              "いって",
+              "いきたい",
+              "いく"
+            ],
+            "correctIndex": 0,
+            "explanation": "Vます bỏ ます + たい -> いき."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "review_11_15_3",
+    "title": "Đề thi 3: Trạm Ôn Tập JLPT N5 (Bài 11 - 15)",
+    "description": "Bộ đề số 3. Được xáo trộn ngẫu nhiên để chống học vẹt.",
+    "passages": [
+      {
+        "id": "p_review_11_15_3_moji1",
+        "type": "moji_mondai1",
+        "questions": [
+          {
+            "id": "m_review_11_15_3_m1_q0",
+            "question": "【外国】へ いきました。",
+            "options": [
+              "がいごく",
+              "かいこく",
+              "かいごく",
+              "がいこく"
+            ],
+            "correctIndex": 3,
+            "explanation": "外国 đọc là がいこく (Nước ngoài)."
+          },
+          {
+            "id": "m_review_11_15_3_m1_q1",
+            "question": "ここは 【有名】な まちです。",
+            "options": [
+              "ゆめい",
+              "ゆうめい",
+              "ゆめ",
+              "ゆうめ"
+            ],
+            "correctIndex": 1,
+            "explanation": "有名 đọc là ゆうめい (Nổi tiếng)."
+          }
+        ]
+      },
+      {
+        "id": "p_review_11_15_3_moji2",
+        "type": "moji_mondai2",
+        "questions": [
+          {
+            "id": "m_review_11_15_3_m2_q0",
+            "question": "あたらし 【くるま】が ほしいです。",
+            "options": [
+              "軍",
+              "車",
+              "連",
+              "庫"
+            ],
+            "correctIndex": 1,
+            "explanation": "Xe ô tô viết là 車."
+          },
+          {
+            "id": "m_review_11_15_3_m2_q1",
+            "question": "【カメラ】を かいたいです。",
+            "options": [
+              "カヌラ",
+              "ガメラ",
+              "カメテ",
+              "カメラ"
+            ],
+            "correctIndex": 3,
+            "explanation": "Camera viết là カメラ."
+          }
+        ]
+      },
+      {
+        "id": "p_review_11_15_3_moji3",
+        "type": "moji_mondai3",
+        "questions": [
+          {
+            "id": "m_review_11_15_3_m3_q0",
+            "question": "いま のどが 【　　　】。",
+            "options": [
+              "かわきました",
+              "いたいです",
+              "わるいです",
+              "すきました"
+            ],
+            "correctIndex": 0,
+            "explanation": "Khát nước: のどが かわきました."
+          },
+          {
+            "id": "m_review_11_15_3_m3_q1",
+            "question": "りんごを みっつ 【　　　】。",
+            "options": [
+              "で",
+              "を",
+              "に",
+              "ください"
+            ],
+            "correctIndex": 3,
+            "explanation": "Cho tôi 3 quả táo: りんごを みっつ ください."
+          }
+        ]
+      },
+      {
+        "id": "p_review_11_15_3_bunpou1",
+        "type": "mondai1",
+        "questions": [
+          {
+            "id": "m_review_11_15_3_b1_q0",
+            "question": "A「ちょっと （　　　）ましょうか。」",
+            "options": [
+              "やすんで",
+              "やすみ",
+              "やすまない",
+              "やすむ"
+            ],
+            "correctIndex": 1,
+            "explanation": "Rủ rê -> Động từ bỏ ます + ましょうか -> やすみ."
+          },
+          {
+            "id": "m_review_11_15_3_b1_q1",
+            "question": "ここで しゃしんを （　　　）は いけません。",
+            "options": [
+              "とる",
+              "とらない",
+              "とって",
+              "とり"
+            ],
+            "correctIndex": 2,
+            "explanation": "Cấm đoán: Vて はいけません -> とって."
+          },
+          {
+            "id": "m_review_11_15_3_b1_q2",
+            "question": "きょうは （　　　） たのしかったです。",
+            "options": [
+              "あまり",
+              "すこし",
+              "とても",
+              "ぜんぜん"
+            ],
+            "correctIndex": 2,
+            "explanation": "Khẳng định -> とても (Rất)."
+          }
+        ]
+      },
+      {
+        "id": "p_review_11_15_3_bunpou2",
+        "type": "mondai2",
+        "questions": [
+          {
+            "id": "m_review_11_15_3_b2_q0",
+            "question": "この　___ ___ _★_ ___　いいですか。",
+            "options": [
+              "ペン",
+              "は",
+              "を",
+              "つかっても"
+            ],
+            "correctIndex": 3,
+            "explanation": "この ペン は つかっても いいですか."
+          },
+          {
+            "id": "m_review_11_15_3_b2_q1",
+            "question": "わたしは　___ ___ _★_ ___　いきます。",
+            "options": [
+              "えいが",
+              "を",
+              "に",
+              "みに"
+            ],
+            "correctIndex": 3,
+            "explanation": "わたしは えいが を みに いきます."
+          }
+        ]
+      },
+      {
+        "id": "p_review_11_15_3_dokkai1",
+        "type": "mondai3",
+        "text": [
+          "わたしの かぞくは ４にんです。",
+          "あには だいがくせいです。いま とうきょう（　１　）すんでいます。",
+          "わたしは こうこうせいです。",
+          "らいねん だいがくへ （　２　）たいです。"
+        ],
+        "questions": [
+          {
+            "id": "m_review_11_15_3_d1_q0",
+            "question": "（　１　）に入れるものはどれですか。",
+            "options": [
+              "に",
+              "で",
+              "を",
+              "へ"
+            ],
+            "correctIndex": 0,
+            "explanation": "Sống ở đâu dùng trợ từ に."
+          },
+          {
+            "id": "m_review_11_15_3_d1_q1",
+            "question": "（　２　）に入れるものはどれですか。",
+            "options": [
+              "いって",
+              "いきたい",
+              "いき",
+              "いく"
+            ],
+            "correctIndex": 2,
+            "explanation": "Vます bỏ ます + たい -> いき."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "review_11_15_4",
+    "title": "Đề thi 4: Trạm Ôn Tập JLPT N5 (Bài 11 - 15)",
+    "description": "Bộ đề số 4. Được xáo trộn ngẫu nhiên để chống học vẹt.",
+    "passages": [
+      {
+        "id": "p_review_11_15_4_moji1",
+        "type": "moji_mondai1",
+        "questions": [
+          {
+            "id": "m_review_11_15_4_m1_q0",
+            "question": "【一日】に ３かい くすりを のみます。",
+            "options": [
+              "ついたち",
+              "いっか",
+              "いつか",
+              "いちにち"
+            ],
+            "correctIndex": 3,
+            "explanation": "一日 trong khoảng thời gian đọc là いちにち."
+          },
+          {
+            "id": "m_review_11_15_4_m1_q1",
+            "question": "【外国】へ いきました。",
+            "options": [
+              "がいごく",
+              "かいごく",
+              "かいこく",
+              "がいこく"
+            ],
+            "correctIndex": 3,
+            "explanation": "外国 đọc là がいこく (Nước ngoài)."
+          }
+        ]
+      },
+      {
+        "id": "p_review_11_15_4_moji2",
+        "type": "moji_mondai2",
+        "questions": [
+          {
+            "id": "m_review_11_15_4_m2_q0",
+            "question": "あたらし 【くるま】が ほしいです。",
+            "options": [
+              "庫",
+              "軍",
+              "車",
+              "連"
+            ],
+            "correctIndex": 2,
+            "explanation": "Xe ô tô viết là 車."
+          },
+          {
+            "id": "m_review_11_15_4_m2_q1",
+            "question": "【カメラ】を かいたいです。",
+            "options": [
+              "カメテ",
+              "カヌラ",
+              "ガメラ",
+              "カメラ"
+            ],
+            "correctIndex": 3,
+            "explanation": "Camera viết là カメラ."
+          }
+        ]
+      },
+      {
+        "id": "p_review_11_15_4_moji3",
+        "type": "moji_mondai3",
+        "questions": [
+          {
+            "id": "m_review_11_15_4_m3_q0",
+            "question": "りんごを みっつ 【　　　】。",
+            "options": [
+              "を",
+              "ください",
+              "に",
+              "で"
+            ],
+            "correctIndex": 1,
+            "explanation": "Cho tôi 3 quả táo: りんごを みっつ ください."
+          },
+          {
+            "id": "m_review_11_15_4_m3_q1",
+            "question": "いま のどが 【　　　】。",
+            "options": [
+              "わるいです",
+              "かわきました",
+              "いたいです",
+              "すきました"
+            ],
+            "correctIndex": 1,
+            "explanation": "Khát nước: のどが かわきました."
+          }
+        ]
+      },
+      {
+        "id": "p_review_11_15_4_bunpou1",
+        "type": "mondai1",
+        "questions": [
+          {
+            "id": "m_review_11_15_4_b1_q0",
+            "question": "きょうは （　　　） たのしかったです。",
+            "options": [
+              "ぜんぜん",
+              "すこし",
+              "とても",
+              "あまり"
+            ],
+            "correctIndex": 2,
+            "explanation": "Khẳng định -> とても (Rất)."
+          },
+          {
+            "id": "m_review_11_15_4_b1_q1",
+            "question": "A「ちょっと （　　　）ましょうか。」",
+            "options": [
+              "やすみ",
+              "やすまない",
+              "やすむ",
+              "やすんで"
+            ],
+            "correctIndex": 0,
+            "explanation": "Rủ rê -> Động từ bỏ ます + ましょうか -> やすみ."
+          },
+          {
+            "id": "m_review_11_15_4_b1_q2",
+            "question": "ここで しゃしんを （　　　）は いけません。",
+            "options": [
+              "とって",
+              "とらない",
+              "とり",
+              "とる"
+            ],
+            "correctIndex": 0,
+            "explanation": "Cấm đoán: Vて はいけません -> とって."
+          }
+        ]
+      },
+      {
+        "id": "p_review_11_15_4_bunpou2",
+        "type": "mondai2",
+        "questions": [
+          {
+            "id": "m_review_11_15_4_b2_q0",
+            "question": "この　___ ___ _★_ ___　いいですか。",
+            "options": [
+              "ペン",
+              "つかっても",
+              "を",
+              "は"
+            ],
+            "correctIndex": 1,
+            "explanation": "この ペン は つかっても いいですか."
+          },
+          {
+            "id": "m_review_11_15_4_b2_q1",
+            "question": "わたしは　___ ___ _★_ ___　いきます。",
+            "options": [
+              "みに",
+              "に",
+              "えいが",
+              "を"
+            ],
+            "correctIndex": 0,
+            "explanation": "わたしは えいが を みに いきます."
+          }
+        ]
+      },
+      {
+        "id": "p_review_11_15_4_dokkai1",
+        "type": "mondai3",
+        "text": [
+          "わたしの かぞくは ４にんです。",
+          "あには だいがくせいです。いま とうきょう（　１　）すんでいます。",
+          "わたしは こうこうせいです。",
+          "らいねん だいがくへ （　２　）たいです。"
+        ],
+        "questions": [
+          {
+            "id": "m_review_11_15_4_d1_q0",
+            "question": "（　１　）に入れるものはどれですか。",
+            "options": [
+              "で",
+              "に",
+              "を",
+              "へ"
+            ],
+            "correctIndex": 1,
+            "explanation": "Sống ở đâu dùng trợ từ に."
+          },
+          {
+            "id": "m_review_11_15_4_d1_q1",
+            "question": "（　２　）に入れるものはどれですか。",
+            "options": [
+              "いきたい",
+              "いく",
+              "いき",
+              "いって"
+            ],
+            "correctIndex": 2,
+            "explanation": "Vます bỏ ます + たい -> いき."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "review_11_15_5",
+    "title": "Đề thi 5: Trạm Ôn Tập JLPT N5 (Bài 11 - 15)",
+    "description": "Bộ đề số 5. Được xáo trộn ngẫu nhiên để chống học vẹt.",
+    "passages": [
+      {
+        "id": "p_review_11_15_5_moji1",
+        "type": "moji_mondai1",
+        "questions": [
+          {
+            "id": "m_review_11_15_5_m1_q0",
+            "question": "ここは 【有名】な まちです。",
+            "options": [
+              "ゆうめ",
+              "ゆめい",
+              "ゆめ",
+              "ゆうめい"
+            ],
+            "correctIndex": 3,
+            "explanation": "有名 đọc là ゆうめい (Nổi tiếng)."
+          },
+          {
+            "id": "m_review_11_15_5_m1_q1",
+            "question": "【一日】に ３かい くすりを のみます。",
+            "options": [
+              "いっか",
+              "いちにち",
+              "いつか",
+              "ついたち"
+            ],
+            "correctIndex": 1,
+            "explanation": "一日 trong khoảng thời gian đọc là いちにち."
+          }
+        ]
+      },
+      {
+        "id": "p_review_11_15_5_moji2",
+        "type": "moji_mondai2",
+        "questions": [
+          {
+            "id": "m_review_11_15_5_m2_q0",
+            "question": "あたらし 【くるま】が ほしいです。",
+            "options": [
+              "連",
+              "車",
+              "軍",
+              "庫"
+            ],
+            "correctIndex": 1,
+            "explanation": "Xe ô tô viết là 車."
+          },
+          {
+            "id": "m_review_11_15_5_m2_q1",
+            "question": "【カメラ】を かいたいです。",
+            "options": [
+              "カメラ",
+              "カヌラ",
+              "カメテ",
+              "ガメラ"
+            ],
+            "correctIndex": 0,
+            "explanation": "Camera viết là カメラ."
+          }
+        ]
+      },
+      {
+        "id": "p_review_11_15_5_moji3",
+        "type": "moji_mondai3",
+        "questions": [
+          {
+            "id": "m_review_11_15_5_m3_q0",
+            "question": "りんごを みっつ 【　　　】。",
+            "options": [
+              "に",
+              "ください",
+              "を",
+              "で"
+            ],
+            "correctIndex": 1,
+            "explanation": "Cho tôi 3 quả táo: りんごを みっつ ください."
+          },
+          {
+            "id": "m_review_11_15_5_m3_q1",
+            "question": "いま のどが 【　　　】。",
+            "options": [
+              "いたいです",
+              "わるいです",
+              "かわきました",
+              "すきました"
+            ],
+            "correctIndex": 2,
+            "explanation": "Khát nước: のどが かわきました."
+          }
+        ]
+      },
+      {
+        "id": "p_review_11_15_5_bunpou1",
+        "type": "mondai1",
+        "questions": [
+          {
+            "id": "m_review_11_15_5_b1_q0",
+            "question": "ここで しゃしんを （　　　）は いけません。",
+            "options": [
+              "とって",
+              "とらない",
+              "とる",
+              "とり"
+            ],
+            "correctIndex": 0,
+            "explanation": "Cấm đoán: Vて はいけません -> とって."
+          },
+          {
+            "id": "m_review_11_15_5_b1_q1",
+            "question": "きょうは （　　　） たのしかったです。",
+            "options": [
+              "とても",
+              "すこし",
+              "あまり",
+              "ぜんぜん"
+            ],
+            "correctIndex": 0,
+            "explanation": "Khẳng định -> とても (Rất)."
+          },
+          {
+            "id": "m_review_11_15_5_b1_q2",
+            "question": "A「ちょっと （　　　）ましょうか。」",
+            "options": [
+              "やすむ",
+              "やすまない",
+              "やすんで",
+              "やすみ"
+            ],
+            "correctIndex": 3,
+            "explanation": "Rủ rê -> Động từ bỏ ます + ましょうか -> やすみ."
+          }
+        ]
+      },
+      {
+        "id": "p_review_11_15_5_bunpou2",
+        "type": "mondai2",
+        "questions": [
+          {
+            "id": "m_review_11_15_5_b2_q0",
+            "question": "わたしは　___ ___ _★_ ___　いきます。",
+            "options": [
+              "えいが",
+              "を",
+              "みに",
+              "に"
+            ],
+            "correctIndex": 2,
+            "explanation": "わたしは えいが を みに いきます."
+          },
+          {
+            "id": "m_review_11_15_5_b2_q1",
+            "question": "この　___ ___ _★_ ___　いいですか。",
+            "options": [
+              "つかっても",
+              "を",
+              "は",
+              "ペン"
+            ],
+            "correctIndex": 0,
+            "explanation": "この ペン は つかっても いいですか."
+          }
+        ]
+      },
+      {
+        "id": "p_review_11_15_5_dokkai1",
+        "type": "mondai3",
+        "text": [
+          "わたしの かぞくは ４にんです。",
+          "あには だいがくせいです。いま とうきょう（　１　）すんでいます。",
+          "わたしは こうこうせいです。",
+          "らいねん だいがくへ （　２　）たいです。"
+        ],
+        "questions": [
+          {
+            "id": "m_review_11_15_5_d1_q0",
+            "question": "（　１　）に入れるものはどれですか。",
+            "options": [
+              "で",
+              "へ",
+              "に",
+              "を"
+            ],
+            "correctIndex": 2,
+            "explanation": "Sống ở đâu dùng trợ từ に."
+          },
+          {
+            "id": "m_review_11_15_5_d1_q1",
+            "question": "（　２　）に入れるものはどれですか。",
+            "options": [
+              "いく",
+              "いきたい",
+              "いって",
+              "いき"
+            ],
+            "correctIndex": 3,
+            "explanation": "Vます bỏ ます + たい -> いき."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "review_16_20_1",
+    "title": "Đề thi 1: Trạm Ôn Tập JLPT N5 (Bài 16 - 20)",
+    "description": "Bộ đề số 1. Được xáo trộn ngẫu nhiên để chống học vẹt.",
+    "passages": [
+      {
+        "id": "p_review_16_20_1_moji1",
+        "type": "moji_mondai1",
+        "questions": [
+          {
+            "id": "m_review_16_20_1_m1_q0",
+            "question": "えいがを 【見】ます。",
+            "options": [
+              "よ",
+              "み",
+              "き",
+              "し"
+            ],
+            "correctIndex": 1,
+            "explanation": "見 đọc là み."
+          },
+          {
+            "id": "m_review_16_20_1_m1_q1",
+            "question": "あした 【雨】が ふります。",
+            "options": [
+              "ゆき",
+              "はれ",
+              "くも",
+              "あめ"
+            ],
+            "correctIndex": 3,
+            "explanation": "雨 đọc là あめ (Mưa)."
+          }
+        ]
+      },
+      {
+        "id": "p_review_16_20_1_moji2",
+        "type": "moji_mondai2",
+        "questions": [
+          {
+            "id": "m_review_16_20_1_m2_q0",
+            "question": "【しゃしん】を とります。",
+            "options": [
+              "写真",
+              "字真",
+              "真写",
+              "真字"
+            ],
+            "correctIndex": 0,
+            "explanation": "しゃしん viết là 写真."
+          },
+          {
+            "id": "m_review_16_20_1_m2_q1",
+            "question": "【みぎ】へ まがります。",
+            "options": [
+              "後",
+              "右",
+              "左",
+              "前"
+            ],
+            "correctIndex": 1,
+            "explanation": "みぎ (Bên phải) viết là 右."
+          }
+        ]
+      },
+      {
+        "id": "p_review_16_20_1_moji3",
+        "type": "moji_mondai3",
+        "questions": [
+          {
+            "id": "m_review_16_20_1_m3_q0",
+            "question": "ここに くるまを 【　　　】。",
+            "options": [
+              "とまらないで ください",
+              "とめて ください",
+              "とめないで ください",
+              "とまる ください"
+            ],
+            "correctIndex": 2,
+            "explanation": "Xin đừng đỗ xe ở đây: とめないで ください."
+          },
+          {
+            "id": "m_review_16_20_1_m3_q1",
+            "question": "パスポートを 【　　　】。",
+            "options": [
+              "みせても いいです",
+              "みせないで ください",
+              "みせなければ なりません",
+              "みせなくちゃ いいです"
+            ],
+            "correctIndex": 2,
+            "explanation": "Phải cho xem hộ chiếu: みせなければ なりません."
+          }
+        ]
+      },
+      {
+        "id": "p_review_16_20_1_bunpou1",
+        "type": "mondai1",
+        "questions": [
+          {
+            "id": "m_review_16_20_1_b1_q0",
+            "question": "わたしは ピアノを （　　　）が できます。",
+            "options": [
+              "ひく",
+              "ひき",
+              "ひくこと",
+              "ひいて"
+            ],
+            "correctIndex": 2,
+            "explanation": "Vる こと が できます (Có thể làm gì)."
+          },
+          {
+            "id": "m_review_16_20_1_b1_q1",
+            "question": "にほんへ （　　　） まえに、べんきょうしました。",
+            "options": [
+              "いく",
+              "いって",
+              "いかない",
+              "いった"
+            ],
+            "correctIndex": 0,
+            "explanation": "Vる まえに (Trước khi...)."
+          },
+          {
+            "id": "m_review_16_20_1_b1_q2",
+            "question": "うまに （　　　）ことが ありますか。",
+            "options": [
+              "のって",
+              "のらない",
+              "のる",
+              "のった"
+            ],
+            "correctIndex": 3,
+            "explanation": "Vた ことが あります (Đã từng...)."
+          }
+        ]
+      },
+      {
+        "id": "p_review_16_20_1_bunpou2",
+        "type": "mondai2",
+        "questions": [
+          {
+            "id": "m_review_16_20_1_b2_q0",
+            "question": "わたしの　___ ___ _★_ ___　です。",
+            "options": [
+              "かくこと",
+              "しゅみ",
+              "は",
+              "えを"
+            ],
+            "correctIndex": 3,
+            "explanation": "わたしの しゅみ は えを かくこと です."
+          },
+          {
+            "id": "m_review_16_20_1_b2_q1",
+            "question": "ここで　___ ___ _★_ ___　ください。",
+            "options": [
+              "とらないで",
+              "は",
+              "を",
+              "しゃしん"
+            ],
+            "correctIndex": 0,
+            "explanation": "ここで しゃしん は/を とらないで ください."
+          }
+        ]
+      },
+      {
+        "id": "p_review_16_20_1_dokkai1",
+        "type": "mondai3",
+        "text": [
+          "わたしは まいあさ ６じに おきます。",
+          "あさごはんを （　１　）まえに、ジョギングを します。",
+          "ジョギングは しゅみです。",
+          "そして、シャワーを あびてから、ごはんを たべます。"
+        ],
+        "questions": [
+          {
+            "id": "m_review_16_20_1_d1_q0",
+            "question": "（　１　）に入れるものはどれですか。",
+            "options": [
+              "たべない",
+              "たべる",
+              "たべた",
+              "たべて"
+            ],
+            "correctIndex": 1,
+            "explanation": "まえに đi với Vる (たべる まえに)."
+          },
+          {
+            "id": "m_review_16_20_1_d1_q1",
+            "question": "ジョギングの あとで、なにを しますか。",
+            "options": [
+              "かいしゃへ いきます",
+              "シャワーを あびます",
+              "おきます",
+              "あさごはんを たべます"
+            ],
+            "correctIndex": 1,
+            "explanation": "ジョギング xong thì シャワーを あびます."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "review_16_20_2",
+    "title": "Đề thi 2: Trạm Ôn Tập JLPT N5 (Bài 16 - 20)",
+    "description": "Bộ đề số 2. Được xáo trộn ngẫu nhiên để chống học vẹt.",
+    "passages": [
+      {
+        "id": "p_review_16_20_2_moji1",
+        "type": "moji_mondai1",
+        "questions": [
+          {
+            "id": "m_review_16_20_2_m1_q0",
+            "question": "あした 【雨】が ふります。",
+            "options": [
+              "ゆき",
+              "くも",
+              "はれ",
+              "あめ"
+            ],
+            "correctIndex": 3,
+            "explanation": "雨 đọc là あめ (Mưa)."
+          },
+          {
+            "id": "m_review_16_20_2_m1_q1",
+            "question": "えいがを 【見】ます。",
+            "options": [
+              "み",
+              "よ",
+              "し",
+              "き"
+            ],
+            "correctIndex": 0,
+            "explanation": "見 đọc là み."
+          }
+        ]
+      },
+      {
+        "id": "p_review_16_20_2_moji2",
+        "type": "moji_mondai2",
+        "questions": [
+          {
+            "id": "m_review_16_20_2_m2_q0",
+            "question": "【しゃしん】を とります。",
+            "options": [
+              "写真",
+              "字真",
+              "真字",
+              "真写"
+            ],
+            "correctIndex": 0,
+            "explanation": "しゃしん viết là 写真."
+          },
+          {
+            "id": "m_review_16_20_2_m2_q1",
+            "question": "【みぎ】へ まがります。",
+            "options": [
+              "左",
+              "後",
+              "前",
+              "右"
+            ],
+            "correctIndex": 3,
+            "explanation": "みぎ (Bên phải) viết là 右."
+          }
+        ]
+      },
+      {
+        "id": "p_review_16_20_2_moji3",
+        "type": "moji_mondai3",
+        "questions": [
+          {
+            "id": "m_review_16_20_2_m3_q0",
+            "question": "パスポートを 【　　　】。",
+            "options": [
+              "みせても いいです",
+              "みせなければ なりません",
+              "みせなくちゃ いいです",
+              "みせないで ください"
+            ],
+            "correctIndex": 1,
+            "explanation": "Phải cho xem hộ chiếu: みせなければ なりません."
+          },
+          {
+            "id": "m_review_16_20_2_m3_q1",
+            "question": "ここに くるまを 【　　　】。",
+            "options": [
+              "とめて ください",
+              "とめないで ください",
+              "とまらないで ください",
+              "とまる ください"
+            ],
+            "correctIndex": 1,
+            "explanation": "Xin đừng đỗ xe ở đây: とめないで ください."
+          }
+        ]
+      },
+      {
+        "id": "p_review_16_20_2_bunpou1",
+        "type": "mondai1",
+        "questions": [
+          {
+            "id": "m_review_16_20_2_b1_q0",
+            "question": "うまに （　　　）ことが ありますか。",
+            "options": [
+              "のった",
+              "のらない",
+              "のって",
+              "のる"
+            ],
+            "correctIndex": 0,
+            "explanation": "Vた ことが あります (Đã từng...)."
+          },
+          {
+            "id": "m_review_16_20_2_b1_q1",
+            "question": "にほんへ （　　　） まえに、べんきょうしました。",
+            "options": [
+              "いく",
+              "いった",
+              "いかない",
+              "いって"
+            ],
+            "correctIndex": 0,
+            "explanation": "Vる まえに (Trước khi...)."
+          },
+          {
+            "id": "m_review_16_20_2_b1_q2",
+            "question": "わたしは ピアノを （　　　）が できます。",
+            "options": [
+              "ひくこと",
+              "ひく",
+              "ひいて",
+              "ひき"
+            ],
+            "correctIndex": 0,
+            "explanation": "Vる こと が できます (Có thể làm gì)."
+          }
+        ]
+      },
+      {
+        "id": "p_review_16_20_2_bunpou2",
+        "type": "mondai2",
+        "questions": [
+          {
+            "id": "m_review_16_20_2_b2_q0",
+            "question": "わたしの　___ ___ _★_ ___　です。",
+            "options": [
+              "は",
+              "しゅみ",
+              "かくこと",
+              "えを"
+            ],
+            "correctIndex": 3,
+            "explanation": "わたしの しゅみ は えを かくこと です."
+          },
+          {
+            "id": "m_review_16_20_2_b2_q1",
+            "question": "ここで　___ ___ _★_ ___　ください。",
+            "options": [
+              "とらないで",
+              "は",
+              "しゃしん",
+              "を"
+            ],
+            "correctIndex": 0,
+            "explanation": "ここで しゃしん は/を とらないで ください."
+          }
+        ]
+      },
+      {
+        "id": "p_review_16_20_2_dokkai1",
+        "type": "mondai3",
+        "text": [
+          "わたしは まいあさ ６じに おきます。",
+          "あさごはんを （　１　）まえに、ジョギングを します。",
+          "ジョギングは しゅみです。",
+          "そして、シャワーを あびてから、ごはんを たべます。"
+        ],
+        "questions": [
+          {
+            "id": "m_review_16_20_2_d1_q0",
+            "question": "（　１　）に入れるものはどれですか。",
+            "options": [
+              "たべて",
+              "たべない",
+              "たべた",
+              "たべる"
+            ],
+            "correctIndex": 3,
+            "explanation": "まえに đi với Vる (たべる まえに)."
+          },
+          {
+            "id": "m_review_16_20_2_d1_q1",
+            "question": "ジョギングの あとで、なにを しますか。",
+            "options": [
+              "あさごはんを たべます",
+              "シャワーを あびます",
+              "おきます",
+              "かいしゃへ いきます"
+            ],
+            "correctIndex": 1,
+            "explanation": "ジョギング xong thì シャワーを あびます."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "review_16_20_3",
+    "title": "Đề thi 3: Trạm Ôn Tập JLPT N5 (Bài 16 - 20)",
+    "description": "Bộ đề số 3. Được xáo trộn ngẫu nhiên để chống học vẹt.",
+    "passages": [
+      {
+        "id": "p_review_16_20_3_moji1",
+        "type": "moji_mondai1",
+        "questions": [
+          {
+            "id": "m_review_16_20_3_m1_q0",
+            "question": "えいがを 【見】ます。",
+            "options": [
+              "み",
+              "き",
+              "よ",
+              "し"
+            ],
+            "correctIndex": 0,
+            "explanation": "見 đọc là み."
+          },
+          {
+            "id": "m_review_16_20_3_m1_q1",
+            "question": "あした 【雨】が ふります。",
+            "options": [
+              "ゆき",
+              "くも",
+              "はれ",
+              "あめ"
+            ],
+            "correctIndex": 3,
+            "explanation": "雨 đọc là あめ (Mưa)."
+          }
+        ]
+      },
+      {
+        "id": "p_review_16_20_3_moji2",
+        "type": "moji_mondai2",
+        "questions": [
+          {
+            "id": "m_review_16_20_3_m2_q0",
+            "question": "【しゃしん】を とります。",
+            "options": [
+              "真字",
+              "真写",
+              "写真",
+              "字真"
+            ],
+            "correctIndex": 2,
+            "explanation": "しゃしん viết là 写真."
+          },
+          {
+            "id": "m_review_16_20_3_m2_q1",
+            "question": "【みぎ】へ まがります。",
+            "options": [
+              "右",
+              "前",
+              "後",
+              "左"
+            ],
+            "correctIndex": 0,
+            "explanation": "みぎ (Bên phải) viết là 右."
+          }
+        ]
+      },
+      {
+        "id": "p_review_16_20_3_moji3",
+        "type": "moji_mondai3",
+        "questions": [
+          {
+            "id": "m_review_16_20_3_m3_q0",
+            "question": "ここに くるまを 【　　　】。",
+            "options": [
+              "とまる ください",
+              "とめないで ください",
+              "とめて ください",
+              "とまらないで ください"
+            ],
+            "correctIndex": 1,
+            "explanation": "Xin đừng đỗ xe ở đây: とめないで ください."
+          },
+          {
+            "id": "m_review_16_20_3_m3_q1",
+            "question": "パスポートを 【　　　】。",
+            "options": [
+              "みせなければ なりません",
+              "みせないで ください",
+              "みせても いいです",
+              "みせなくちゃ いいです"
+            ],
+            "correctIndex": 0,
+            "explanation": "Phải cho xem hộ chiếu: みせなければ なりません."
+          }
+        ]
+      },
+      {
+        "id": "p_review_16_20_3_bunpou1",
+        "type": "mondai1",
+        "questions": [
+          {
+            "id": "m_review_16_20_3_b1_q0",
+            "question": "うまに （　　　）ことが ありますか。",
+            "options": [
+              "のる",
+              "のった",
+              "のらない",
+              "のって"
+            ],
+            "correctIndex": 1,
+            "explanation": "Vた ことが あります (Đã từng...)."
+          },
+          {
+            "id": "m_review_16_20_3_b1_q1",
+            "question": "にほんへ （　　　） まえに、べんきょうしました。",
+            "options": [
+              "いった",
+              "いく",
+              "いって",
+              "いかない"
+            ],
+            "correctIndex": 1,
+            "explanation": "Vる まえに (Trước khi...)."
+          },
+          {
+            "id": "m_review_16_20_3_b1_q2",
+            "question": "わたしは ピアノを （　　　）が できます。",
+            "options": [
+              "ひき",
+              "ひいて",
+              "ひくこと",
+              "ひく"
+            ],
+            "correctIndex": 2,
+            "explanation": "Vる こと が できます (Có thể làm gì)."
+          }
+        ]
+      },
+      {
+        "id": "p_review_16_20_3_bunpou2",
+        "type": "mondai2",
+        "questions": [
+          {
+            "id": "m_review_16_20_3_b2_q0",
+            "question": "ここで　___ ___ _★_ ___　ください。",
+            "options": [
+              "しゃしん",
+              "とらないで",
+              "を",
+              "は"
+            ],
+            "correctIndex": 1,
+            "explanation": "ここで しゃしん は/を とらないで ください."
+          },
+          {
+            "id": "m_review_16_20_3_b2_q1",
+            "question": "わたしの　___ ___ _★_ ___　です。",
+            "options": [
+              "かくこと",
+              "は",
+              "えを",
+              "しゅみ"
+            ],
+            "correctIndex": 2,
+            "explanation": "わたしの しゅみ は えを かくこと です."
+          }
+        ]
+      },
+      {
+        "id": "p_review_16_20_3_dokkai1",
+        "type": "mondai3",
+        "text": [
+          "わたしは まいあさ ６じに おきます。",
+          "あさごはんを （　１　）まえに、ジョギングを します。",
+          "ジョギングは しゅみです。",
+          "そして、シャワーを あびてから、ごはんを たべます。"
+        ],
+        "questions": [
+          {
+            "id": "m_review_16_20_3_d1_q0",
+            "question": "（　１　）に入れるものはどれですか。",
+            "options": [
+              "たべて",
+              "たべる",
+              "たべた",
+              "たべない"
+            ],
+            "correctIndex": 1,
+            "explanation": "まえに đi với Vる (たべる まえに)."
+          },
+          {
+            "id": "m_review_16_20_3_d1_q1",
+            "question": "ジョギングの あとで、なにを しますか。",
+            "options": [
+              "おきます",
+              "かいしゃへ いきます",
+              "あさごはんを たべます",
+              "シャワーを あびます"
+            ],
+            "correctIndex": 3,
+            "explanation": "ジョギング xong thì シャワーを あびます."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "review_16_20_4",
+    "title": "Đề thi 4: Trạm Ôn Tập JLPT N5 (Bài 16 - 20)",
+    "description": "Bộ đề số 4. Được xáo trộn ngẫu nhiên để chống học vẹt.",
+    "passages": [
+      {
+        "id": "p_review_16_20_4_moji1",
+        "type": "moji_mondai1",
+        "questions": [
+          {
+            "id": "m_review_16_20_4_m1_q0",
+            "question": "えいがを 【見】ます。",
+            "options": [
+              "し",
+              "き",
+              "よ",
+              "み"
+            ],
+            "correctIndex": 3,
+            "explanation": "見 đọc là み."
+          },
+          {
+            "id": "m_review_16_20_4_m1_q1",
+            "question": "あした 【雨】が ふります。",
+            "options": [
+              "くも",
+              "はれ",
+              "ゆき",
+              "あめ"
+            ],
+            "correctIndex": 3,
+            "explanation": "雨 đọc là あめ (Mưa)."
+          }
+        ]
+      },
+      {
+        "id": "p_review_16_20_4_moji2",
+        "type": "moji_mondai2",
+        "questions": [
+          {
+            "id": "m_review_16_20_4_m2_q0",
+            "question": "【みぎ】へ まがります。",
+            "options": [
+              "左",
+              "前",
+              "右",
+              "後"
+            ],
+            "correctIndex": 2,
+            "explanation": "みぎ (Bên phải) viết là 右."
+          },
+          {
+            "id": "m_review_16_20_4_m2_q1",
+            "question": "【しゃしん】を とります。",
+            "options": [
+              "字真",
+              "写真",
+              "真写",
+              "真字"
+            ],
+            "correctIndex": 1,
+            "explanation": "しゃしん viết là 写真."
+          }
+        ]
+      },
+      {
+        "id": "p_review_16_20_4_moji3",
+        "type": "moji_mondai3",
+        "questions": [
+          {
+            "id": "m_review_16_20_4_m3_q0",
+            "question": "ここに くるまを 【　　　】。",
+            "options": [
+              "とめて ください",
+              "とまる ください",
+              "とめないで ください",
+              "とまらないで ください"
+            ],
+            "correctIndex": 2,
+            "explanation": "Xin đừng đỗ xe ở đây: とめないで ください."
+          },
+          {
+            "id": "m_review_16_20_4_m3_q1",
+            "question": "パスポートを 【　　　】。",
+            "options": [
+              "みせても いいです",
+              "みせなければ なりません",
+              "みせないで ください",
+              "みせなくちゃ いいです"
+            ],
+            "correctIndex": 1,
+            "explanation": "Phải cho xem hộ chiếu: みせなければ なりません."
+          }
+        ]
+      },
+      {
+        "id": "p_review_16_20_4_bunpou1",
+        "type": "mondai1",
+        "questions": [
+          {
+            "id": "m_review_16_20_4_b1_q0",
+            "question": "うまに （　　　）ことが ありますか。",
+            "options": [
+              "のらない",
+              "のった",
+              "のる",
+              "のって"
+            ],
+            "correctIndex": 1,
+            "explanation": "Vた ことが あります (Đã từng...)."
+          },
+          {
+            "id": "m_review_16_20_4_b1_q1",
+            "question": "わたしは ピアノを （　　　）が できます。",
+            "options": [
+              "ひいて",
+              "ひく",
+              "ひき",
+              "ひくこと"
+            ],
+            "correctIndex": 3,
+            "explanation": "Vる こと が できます (Có thể làm gì)."
+          },
+          {
+            "id": "m_review_16_20_4_b1_q2",
+            "question": "にほんへ （　　　） まえに、べんきょうしました。",
+            "options": [
+              "いって",
+              "いった",
+              "いく",
+              "いかない"
+            ],
+            "correctIndex": 2,
+            "explanation": "Vる まえに (Trước khi...)."
+          }
+        ]
+      },
+      {
+        "id": "p_review_16_20_4_bunpou2",
+        "type": "mondai2",
+        "questions": [
+          {
+            "id": "m_review_16_20_4_b2_q0",
+            "question": "ここで　___ ___ _★_ ___　ください。",
+            "options": [
+              "しゃしん",
+              "を",
+              "は",
+              "とらないで"
+            ],
+            "correctIndex": 3,
+            "explanation": "ここで しゃしん は/を とらないで ください."
+          },
+          {
+            "id": "m_review_16_20_4_b2_q1",
+            "question": "わたしの　___ ___ _★_ ___　です。",
+            "options": [
+              "えを",
+              "しゅみ",
+              "は",
+              "かくこと"
+            ],
+            "correctIndex": 0,
+            "explanation": "わたしの しゅみ は えを かくこと です."
+          }
+        ]
+      },
+      {
+        "id": "p_review_16_20_4_dokkai1",
+        "type": "mondai3",
+        "text": [
+          "わたしは まいあさ ６じに おきます。",
+          "あさごはんを （　１　）まえに、ジョギングを します。",
+          "ジョギングは しゅみです。",
+          "そして、シャワーを あびてから、ごはんを たべます。"
+        ],
+        "questions": [
+          {
+            "id": "m_review_16_20_4_d1_q0",
+            "question": "（　１　）に入れるものはどれですか。",
+            "options": [
+              "たべた",
+              "たべて",
+              "たべない",
+              "たべる"
+            ],
+            "correctIndex": 3,
+            "explanation": "まえに đi với Vる (たべる まえに)."
+          },
+          {
+            "id": "m_review_16_20_4_d1_q1",
+            "question": "ジョギングの あとで、なにを しますか。",
+            "options": [
+              "シャワーを あびます",
+              "おきます",
+              "あさごはんを たべます",
+              "かいしゃへ いきます"
+            ],
+            "correctIndex": 0,
+            "explanation": "ジョギング xong thì シャワーを あびます."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "review_16_20_5",
+    "title": "Đề thi 5: Trạm Ôn Tập JLPT N5 (Bài 16 - 20)",
+    "description": "Bộ đề số 5. Được xáo trộn ngẫu nhiên để chống học vẹt.",
+    "passages": [
+      {
+        "id": "p_review_16_20_5_moji1",
+        "type": "moji_mondai1",
+        "questions": [
+          {
+            "id": "m_review_16_20_5_m1_q0",
+            "question": "あした 【雨】が ふります。",
+            "options": [
+              "ゆき",
+              "あめ",
+              "くも",
+              "はれ"
+            ],
+            "correctIndex": 1,
+            "explanation": "雨 đọc là あめ (Mưa)."
+          },
+          {
+            "id": "m_review_16_20_5_m1_q1",
+            "question": "えいがを 【見】ます。",
+            "options": [
+              "よ",
+              "み",
+              "き",
+              "し"
+            ],
+            "correctIndex": 1,
+            "explanation": "見 đọc là み."
+          }
+        ]
+      },
+      {
+        "id": "p_review_16_20_5_moji2",
+        "type": "moji_mondai2",
+        "questions": [
+          {
+            "id": "m_review_16_20_5_m2_q0",
+            "question": "【しゃしん】を とります。",
+            "options": [
+              "字真",
+              "写真",
+              "真字",
+              "真写"
+            ],
+            "correctIndex": 1,
+            "explanation": "しゃしん viết là 写真."
+          },
+          {
+            "id": "m_review_16_20_5_m2_q1",
+            "question": "【みぎ】へ まがります。",
+            "options": [
+              "前",
+              "左",
+              "右",
+              "後"
+            ],
+            "correctIndex": 2,
+            "explanation": "みぎ (Bên phải) viết là 右."
+          }
+        ]
+      },
+      {
+        "id": "p_review_16_20_5_moji3",
+        "type": "moji_mondai3",
+        "questions": [
+          {
+            "id": "m_review_16_20_5_m3_q0",
+            "question": "ここに くるまを 【　　　】。",
+            "options": [
+              "とまらないで ください",
+              "とめて ください",
+              "とまる ください",
+              "とめないで ください"
+            ],
+            "correctIndex": 3,
+            "explanation": "Xin đừng đỗ xe ở đây: とめないで ください."
+          },
+          {
+            "id": "m_review_16_20_5_m3_q1",
+            "question": "パスポートを 【　　　】。",
+            "options": [
+              "みせなければ なりません",
+              "みせないで ください",
+              "みせても いいです",
+              "みせなくちゃ いいです"
+            ],
+            "correctIndex": 0,
+            "explanation": "Phải cho xem hộ chiếu: みせなければ なりません."
+          }
+        ]
+      },
+      {
+        "id": "p_review_16_20_5_bunpou1",
+        "type": "mondai1",
+        "questions": [
+          {
+            "id": "m_review_16_20_5_b1_q0",
+            "question": "にほんへ （　　　） まえに、べんきょうしました。",
+            "options": [
+              "いった",
+              "いかない",
+              "いって",
+              "いく"
+            ],
+            "correctIndex": 3,
+            "explanation": "Vる まえに (Trước khi...)."
+          },
+          {
+            "id": "m_review_16_20_5_b1_q1",
+            "question": "わたしは ピアノを （　　　）が できます。",
+            "options": [
+              "ひく",
+              "ひくこと",
+              "ひいて",
+              "ひき"
+            ],
+            "correctIndex": 1,
+            "explanation": "Vる こと が できます (Có thể làm gì)."
+          },
+          {
+            "id": "m_review_16_20_5_b1_q2",
+            "question": "うまに （　　　）ことが ありますか。",
+            "options": [
+              "のる",
+              "のって",
+              "のった",
+              "のらない"
+            ],
+            "correctIndex": 2,
+            "explanation": "Vた ことが あります (Đã từng...)."
+          }
+        ]
+      },
+      {
+        "id": "p_review_16_20_5_bunpou2",
+        "type": "mondai2",
+        "questions": [
+          {
+            "id": "m_review_16_20_5_b2_q0",
+            "question": "わたしの　___ ___ _★_ ___　です。",
+            "options": [
+              "しゅみ",
+              "は",
+              "えを",
+              "かくこと"
+            ],
+            "correctIndex": 2,
+            "explanation": "わたしの しゅみ は えを かくこと です."
+          },
+          {
+            "id": "m_review_16_20_5_b2_q1",
+            "question": "ここで　___ ___ _★_ ___　ください。",
+            "options": [
+              "は",
+              "とらないで",
+              "しゃしん",
+              "を"
+            ],
+            "correctIndex": 1,
+            "explanation": "ここで しゃしん は/を とらないで ください."
+          }
+        ]
+      },
+      {
+        "id": "p_review_16_20_5_dokkai1",
+        "type": "mondai3",
+        "text": [
+          "わたしは まいあさ ６じに おきます。",
+          "あさごはんを （　１　）まえに、ジョギングを します。",
+          "ジョギングは しゅみです。",
+          "そして、シャワーを あびてから、ごはんを たべます。"
+        ],
+        "questions": [
+          {
+            "id": "m_review_16_20_5_d1_q0",
+            "question": "（　１　）に入れるものはどれですか。",
+            "options": [
+              "たべる",
+              "たべて",
+              "たべた",
+              "たべない"
+            ],
+            "correctIndex": 0,
+            "explanation": "まえに đi với Vる (たべる まえに)."
+          },
+          {
+            "id": "m_review_16_20_5_d1_q1",
+            "question": "ジョギングの あとで、なにを しますか。",
+            "options": [
+              "シャワーを あびます",
+              "かいしゃへ いきます",
+              "おきます",
+              "あさごはんを たべます"
+            ],
+            "correctIndex": 0,
+            "explanation": "ジョギング xong thì シャワーを あびます."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "review_21_25_1",
+    "title": "Đề thi 1: Trạm Ôn Tập JLPT N5 (Bài 21 - 25)",
+    "description": "Bộ đề số 1. Được xáo trộn ngẫu nhiên để chống học vẹt.",
+    "passages": [
+      {
+        "id": "p_review_21_25_1_moji1",
+        "type": "moji_mondai1",
+        "questions": [
+          {
+            "id": "m_review_21_25_1_m1_q0",
+            "question": "【道】を まっすぐ いきます。",
+            "options": [
+              "みち",
+              "まち",
+              "くに",
+              "むら"
+            ],
+            "correctIndex": 0,
+            "explanation": "道 đọc là みち (Đường)."
+          },
+          {
+            "id": "m_review_21_25_1_m1_q1",
+            "question": "【電気】を つけます。",
+            "options": [
+              "でんぎ",
+              "てんき",
+              "でんき",
+              "てんぎ"
+            ],
+            "correctIndex": 2,
+            "explanation": "電気 đọc là でんき (Điện)."
+          }
+        ]
+      },
+      {
+        "id": "p_review_21_25_1_moji2",
+        "type": "moji_mondai2",
+        "questions": [
+          {
+            "id": "m_review_21_25_1_m2_q0",
+            "question": "あめが 【ふって】 います。",
+            "options": [
+              "落ちて",
+              "流って",
+              "降って",
+              "下って"
+            ],
+            "correctIndex": 2,
+            "explanation": "降って là Rơi (mưa)."
+          },
+          {
+            "id": "m_review_21_25_1_m2_q1",
+            "question": "【おとうと】が います。",
+            "options": [
+              "兄",
+              "弟",
+              "姉",
+              "妹"
+            ],
+            "correctIndex": 1,
+            "explanation": "弟 là Em trai."
+          }
+        ]
+      },
+      {
+        "id": "p_review_21_25_1_moji3",
+        "type": "moji_mondai3",
+        "questions": [
+          {
+            "id": "m_review_21_25_1_m3_q0",
+            "question": "ねむい 【　　　】、コーヒーを のみます。",
+            "options": [
+              "ば",
+              "と",
+              "とき",
+              "たら"
+            ],
+            "correctIndex": 2,
+            "explanation": "Khi buồn ngủ (ねむい とき)."
+          },
+          {
+            "id": "m_review_21_25_1_m3_q1",
+            "question": "あめが ふっても、いきます。",
+            "options": [
+              "あめが ふったら いきます。",
+              "あめが ふったら いきません。",
+              "あめが ふりますが、いきます。",
+              "あめが ふらないと いきます。"
+            ],
+            "correctIndex": 2,
+            "explanation": "Dù trời mưa tôi vẫn đi (Cho dù = ても)."
+          }
+        ]
+      },
+      {
+        "id": "p_review_21_25_1_bunpou1",
+        "type": "mondai1",
+        "questions": [
+          {
+            "id": "m_review_21_25_1_b1_q0",
+            "question": "あしたは あめが ふる（　　　） おもいます。",
+            "options": [
+              "に",
+              "と",
+              "で",
+              "を"
+            ],
+            "correctIndex": 1,
+            "explanation": "Mẫu câu ～と おもいます (Tôi nghĩ là...)."
+          },
+          {
+            "id": "m_review_21_25_1_b1_q1",
+            "question": "これは わたしが （　　　） かばんです。",
+            "options": [
+              "かう",
+              "かい",
+              "かった",
+              "かって"
+            ],
+            "correctIndex": 2,
+            "explanation": "Mệnh đề bổ nghĩa cho danh từ: かった かばん."
+          },
+          {
+            "id": "m_review_21_25_1_b1_q2",
+            "question": "じかんが なかった（　　　）、ほんを よみません。",
+            "options": [
+              "ば",
+              "と",
+              "から",
+              "たら"
+            ],
+            "correctIndex": 3,
+            "explanation": "Nếu không có thời gian -> なかったら."
+          }
+        ]
+      },
+      {
+        "id": "p_review_21_25_1_bunpou2",
+        "type": "mondai2",
+        "questions": [
+          {
+            "id": "m_review_21_25_1_b2_q0",
+            "question": "あの　___ ___ _★_ ___　は だれですか。",
+            "options": [
+              "かけている",
+              "ひと",
+              "を",
+              "メガネ"
+            ],
+            "correctIndex": 0,
+            "explanation": "あの メガネ を かけている ひと は だれですか."
+          },
+          {
+            "id": "m_review_21_25_1_b2_q1",
+            "question": "たのしく　___ ___ _★_ ___　と おもいます。",
+            "options": [
+              "ない",
+              "は",
+              "あしたの",
+              "パーティー"
+            ],
+            "correctIndex": 0,
+            "explanation": "あしたの パーティー は たのしく ない と おもいます."
+          }
+        ]
+      },
+      {
+        "id": "p_review_21_25_1_dokkai1",
+        "type": "mondai3",
+        "text": [
+          "わたしは きのう ともだちの うちへ いきました。",
+          "ともだちが おいしい ケーキを つくって （　１　）。",
+          "とても おいしかったです。",
+          "わたしは また ケーキを （　２　）と おもいます。"
+        ],
+        "questions": [
+          {
+            "id": "m_review_21_25_1_d1_q0",
+            "question": "（　１　）に入れるものはどれですか。",
+            "options": [
+              "もらいました",
+              "しました",
+              "あげました",
+              "くれました"
+            ],
+            "correctIndex": 3,
+            "explanation": "Bạn bè làm (cho mình) -> つくって くれました."
+          },
+          {
+            "id": "m_review_21_25_1_d1_q1",
+            "question": "（　２　）に入れるものはどれですか。",
+            "options": [
+              "たべて",
+              "たべる",
+              "たべた",
+              "たべたい"
+            ],
+            "correctIndex": 3,
+            "explanation": "Tôi nghĩ tôi MONG MUỐN ăn lại -> たべたい."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "review_21_25_2",
+    "title": "Đề thi 2: Trạm Ôn Tập JLPT N5 (Bài 21 - 25)",
+    "description": "Bộ đề số 2. Được xáo trộn ngẫu nhiên để chống học vẹt.",
+    "passages": [
+      {
+        "id": "p_review_21_25_2_moji1",
+        "type": "moji_mondai1",
+        "questions": [
+          {
+            "id": "m_review_21_25_2_m1_q0",
+            "question": "【道】を まっすぐ いきます。",
+            "options": [
+              "むら",
+              "くに",
+              "まち",
+              "みち"
+            ],
+            "correctIndex": 3,
+            "explanation": "道 đọc là みち (Đường)."
+          },
+          {
+            "id": "m_review_21_25_2_m1_q1",
+            "question": "【電気】を つけます。",
+            "options": [
+              "てんぎ",
+              "てんき",
+              "でんぎ",
+              "でんき"
+            ],
+            "correctIndex": 3,
+            "explanation": "電気 đọc là でんき (Điện)."
+          }
+        ]
+      },
+      {
+        "id": "p_review_21_25_2_moji2",
+        "type": "moji_mondai2",
+        "questions": [
+          {
+            "id": "m_review_21_25_2_m2_q0",
+            "question": "【おとうと】が います。",
+            "options": [
+              "弟",
+              "姉",
+              "兄",
+              "妹"
+            ],
+            "correctIndex": 0,
+            "explanation": "弟 là Em trai."
+          },
+          {
+            "id": "m_review_21_25_2_m2_q1",
+            "question": "あめが 【ふって】 います。",
+            "options": [
+              "下って",
+              "降って",
+              "落ちて",
+              "流って"
+            ],
+            "correctIndex": 1,
+            "explanation": "降って là Rơi (mưa)."
+          }
+        ]
+      },
+      {
+        "id": "p_review_21_25_2_moji3",
+        "type": "moji_mondai3",
+        "questions": [
+          {
+            "id": "m_review_21_25_2_m3_q0",
+            "question": "あめが ふっても、いきます。",
+            "options": [
+              "あめが ふらないと いきます。",
+              "あめが ふりますが、いきます。",
+              "あめが ふったら いきません。",
+              "あめが ふったら いきます。"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dù trời mưa tôi vẫn đi (Cho dù = ても)."
+          },
+          {
+            "id": "m_review_21_25_2_m3_q1",
+            "question": "ねむい 【　　　】、コーヒーを のみます。",
+            "options": [
+              "たら",
+              "ば",
+              "と",
+              "とき"
+            ],
+            "correctIndex": 3,
+            "explanation": "Khi buồn ngủ (ねむい とき)."
+          }
+        ]
+      },
+      {
+        "id": "p_review_21_25_2_bunpou1",
+        "type": "mondai1",
+        "questions": [
+          {
+            "id": "m_review_21_25_2_b1_q0",
+            "question": "あしたは あめが ふる（　　　） おもいます。",
+            "options": [
+              "と",
+              "で",
+              "を",
+              "に"
+            ],
+            "correctIndex": 0,
+            "explanation": "Mẫu câu ～と おもいます (Tôi nghĩ là...)."
+          },
+          {
+            "id": "m_review_21_25_2_b1_q1",
+            "question": "これは わたしが （　　　） かばんです。",
+            "options": [
+              "かって",
+              "かった",
+              "かい",
+              "かう"
+            ],
+            "correctIndex": 1,
+            "explanation": "Mệnh đề bổ nghĩa cho danh từ: かった かばん."
+          },
+          {
+            "id": "m_review_21_25_2_b1_q2",
+            "question": "じかんが なかった（　　　）、ほんを よみません。",
+            "options": [
+              "と",
+              "たら",
+              "から",
+              "ば"
+            ],
+            "correctIndex": 1,
+            "explanation": "Nếu không có thời gian -> なかったら."
+          }
+        ]
+      },
+      {
+        "id": "p_review_21_25_2_bunpou2",
+        "type": "mondai2",
+        "questions": [
+          {
+            "id": "m_review_21_25_2_b2_q0",
+            "question": "たのしく　___ ___ _★_ ___　と おもいます。",
+            "options": [
+              "あしたの",
+              "パーティー",
+              "ない",
+              "は"
+            ],
+            "correctIndex": 2,
+            "explanation": "あしたの パーティー は たのしく ない と おもいます."
+          },
+          {
+            "id": "m_review_21_25_2_b2_q1",
+            "question": "あの　___ ___ _★_ ___　は だれですか。",
+            "options": [
+              "を",
+              "ひと",
+              "メガネ",
+              "かけている"
+            ],
+            "correctIndex": 3,
+            "explanation": "あの メガネ を かけている ひと は だれですか."
+          }
+        ]
+      },
+      {
+        "id": "p_review_21_25_2_dokkai1",
+        "type": "mondai3",
+        "text": [
+          "わたしは きのう ともだちの うちへ いきました。",
+          "ともだちが おいしい ケーキを つくって （　１　）。",
+          "とても おいしかったです。",
+          "わたしは また ケーキを （　２　）と おもいます。"
+        ],
+        "questions": [
+          {
+            "id": "m_review_21_25_2_d1_q0",
+            "question": "（　１　）に入れるものはどれですか。",
+            "options": [
+              "くれました",
+              "しました",
+              "あげました",
+              "もらいました"
+            ],
+            "correctIndex": 0,
+            "explanation": "Bạn bè làm (cho mình) -> つくって くれました."
+          },
+          {
+            "id": "m_review_21_25_2_d1_q1",
+            "question": "（　２　）に入れるものはどれですか。",
+            "options": [
+              "たべたい",
+              "たべて",
+              "たべた",
+              "たべる"
+            ],
+            "correctIndex": 0,
+            "explanation": "Tôi nghĩ tôi MONG MUỐN ăn lại -> たべたい."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "review_21_25_3",
+    "title": "Đề thi 3: Trạm Ôn Tập JLPT N5 (Bài 21 - 25)",
+    "description": "Bộ đề số 3. Được xáo trộn ngẫu nhiên để chống học vẹt.",
+    "passages": [
+      {
+        "id": "p_review_21_25_3_moji1",
+        "type": "moji_mondai1",
+        "questions": [
+          {
+            "id": "m_review_21_25_3_m1_q0",
+            "question": "【道】を まっすぐ いきます。",
+            "options": [
+              "みち",
+              "むら",
+              "くに",
+              "まち"
+            ],
+            "correctIndex": 0,
+            "explanation": "道 đọc là みち (Đường)."
+          },
+          {
+            "id": "m_review_21_25_3_m1_q1",
+            "question": "【電気】を つけます。",
+            "options": [
+              "てんき",
+              "でんぎ",
+              "でんき",
+              "てんぎ"
+            ],
+            "correctIndex": 2,
+            "explanation": "電気 đọc là でんき (Điện)."
+          }
+        ]
+      },
+      {
+        "id": "p_review_21_25_3_moji2",
+        "type": "moji_mondai2",
+        "questions": [
+          {
+            "id": "m_review_21_25_3_m2_q0",
+            "question": "あめが 【ふって】 います。",
+            "options": [
+              "降って",
+              "落ちて",
+              "下って",
+              "流って"
+            ],
+            "correctIndex": 0,
+            "explanation": "降って là Rơi (mưa)."
+          },
+          {
+            "id": "m_review_21_25_3_m2_q1",
+            "question": "【おとうと】が います。",
+            "options": [
+              "弟",
+              "兄",
+              "妹",
+              "姉"
+            ],
+            "correctIndex": 0,
+            "explanation": "弟 là Em trai."
+          }
+        ]
+      },
+      {
+        "id": "p_review_21_25_3_moji3",
+        "type": "moji_mondai3",
+        "questions": [
+          {
+            "id": "m_review_21_25_3_m3_q0",
+            "question": "ねむい 【　　　】、コーヒーを のみます。",
+            "options": [
+              "と",
+              "たら",
+              "とき",
+              "ば"
+            ],
+            "correctIndex": 2,
+            "explanation": "Khi buồn ngủ (ねむい とき)."
+          },
+          {
+            "id": "m_review_21_25_3_m3_q1",
+            "question": "あめが ふっても、いきます。",
+            "options": [
+              "あめが ふったら いきます。",
+              "あめが ふらないと いきます。",
+              "あめが ふったら いきません。",
+              "あめが ふりますが、いきます。"
+            ],
+            "correctIndex": 3,
+            "explanation": "Dù trời mưa tôi vẫn đi (Cho dù = ても)."
+          }
+        ]
+      },
+      {
+        "id": "p_review_21_25_3_bunpou1",
+        "type": "mondai1",
+        "questions": [
+          {
+            "id": "m_review_21_25_3_b1_q0",
+            "question": "じかんが なかった（　　　）、ほんを よみません。",
+            "options": [
+              "から",
+              "ば",
+              "と",
+              "たら"
+            ],
+            "correctIndex": 3,
+            "explanation": "Nếu không có thời gian -> なかったら."
+          },
+          {
+            "id": "m_review_21_25_3_b1_q1",
+            "question": "あしたは あめが ふる（　　　） おもいます。",
+            "options": [
+              "に",
+              "を",
+              "で",
+              "と"
+            ],
+            "correctIndex": 3,
+            "explanation": "Mẫu câu ～と おもいます (Tôi nghĩ là...)."
+          },
+          {
+            "id": "m_review_21_25_3_b1_q2",
+            "question": "これは わたしが （　　　） かばんです。",
+            "options": [
+              "かい",
+              "かって",
+              "かう",
+              "かった"
+            ],
+            "correctIndex": 3,
+            "explanation": "Mệnh đề bổ nghĩa cho danh từ: かった かばん."
+          }
+        ]
+      },
+      {
+        "id": "p_review_21_25_3_bunpou2",
+        "type": "mondai2",
+        "questions": [
+          {
+            "id": "m_review_21_25_3_b2_q0",
+            "question": "あの　___ ___ _★_ ___　は だれですか。",
+            "options": [
+              "メガネ",
+              "かけている",
+              "を",
+              "ひと"
+            ],
+            "correctIndex": 1,
+            "explanation": "あの メガネ を かけている ひと は だれですか."
+          },
+          {
+            "id": "m_review_21_25_3_b2_q1",
+            "question": "たのしく　___ ___ _★_ ___　と おもいます。",
+            "options": [
+              "パーティー",
+              "は",
+              "あしたの",
+              "ない"
+            ],
+            "correctIndex": 3,
+            "explanation": "あしたの パーティー は たのしく ない と おもいます."
+          }
+        ]
+      },
+      {
+        "id": "p_review_21_25_3_dokkai1",
+        "type": "mondai3",
+        "text": [
+          "わたしは きのう ともだちの うちへ いきました。",
+          "ともだちが おいしい ケーキを つくって （　１　）。",
+          "とても おいしかったです。",
+          "わたしは また ケーキを （　２　）と おもいます。"
+        ],
+        "questions": [
+          {
+            "id": "m_review_21_25_3_d1_q0",
+            "question": "（　１　）に入れるものはどれですか。",
+            "options": [
+              "あげました",
+              "もらいました",
+              "しました",
+              "くれました"
+            ],
+            "correctIndex": 3,
+            "explanation": "Bạn bè làm (cho mình) -> つくって くれました."
+          },
+          {
+            "id": "m_review_21_25_3_d1_q1",
+            "question": "（　２　）に入れるものはどれですか。",
+            "options": [
+              "たべたい",
+              "たべた",
+              "たべる",
+              "たべて"
+            ],
+            "correctIndex": 0,
+            "explanation": "Tôi nghĩ tôi MONG MUỐN ăn lại -> たべたい."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "review_21_25_4",
+    "title": "Đề thi 4: Trạm Ôn Tập JLPT N5 (Bài 21 - 25)",
+    "description": "Bộ đề số 4. Được xáo trộn ngẫu nhiên để chống học vẹt.",
+    "passages": [
+      {
+        "id": "p_review_21_25_4_moji1",
+        "type": "moji_mondai1",
+        "questions": [
+          {
+            "id": "m_review_21_25_4_m1_q0",
+            "question": "【電気】を つけます。",
+            "options": [
+              "てんぎ",
+              "でんき",
+              "てんき",
+              "でんぎ"
+            ],
+            "correctIndex": 1,
+            "explanation": "電気 đọc là でんき (Điện)."
+          },
+          {
+            "id": "m_review_21_25_4_m1_q1",
+            "question": "【道】を まっすぐ いきます。",
+            "options": [
+              "まち",
+              "くに",
+              "むら",
+              "みち"
+            ],
+            "correctIndex": 3,
+            "explanation": "道 đọc là みち (Đường)."
+          }
+        ]
+      },
+      {
+        "id": "p_review_21_25_4_moji2",
+        "type": "moji_mondai2",
+        "questions": [
+          {
+            "id": "m_review_21_25_4_m2_q0",
+            "question": "あめが 【ふって】 います。",
+            "options": [
+              "降って",
+              "流って",
+              "下って",
+              "落ちて"
+            ],
+            "correctIndex": 0,
+            "explanation": "降って là Rơi (mưa)."
+          },
+          {
+            "id": "m_review_21_25_4_m2_q1",
+            "question": "【おとうと】が います。",
+            "options": [
+              "弟",
+              "兄",
+              "妹",
+              "姉"
+            ],
+            "correctIndex": 0,
+            "explanation": "弟 là Em trai."
+          }
+        ]
+      },
+      {
+        "id": "p_review_21_25_4_moji3",
+        "type": "moji_mondai3",
+        "questions": [
+          {
+            "id": "m_review_21_25_4_m3_q0",
+            "question": "ねむい 【　　　】、コーヒーを のみます。",
+            "options": [
+              "とき",
+              "と",
+              "ば",
+              "たら"
+            ],
+            "correctIndex": 0,
+            "explanation": "Khi buồn ngủ (ねむい とき)."
+          },
+          {
+            "id": "m_review_21_25_4_m3_q1",
+            "question": "あめが ふっても、いきます。",
+            "options": [
+              "あめが ふったら いきます。",
+              "あめが ふりますが、いきます。",
+              "あめが ふらないと いきます。",
+              "あめが ふったら いきません。"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dù trời mưa tôi vẫn đi (Cho dù = ても)."
+          }
+        ]
+      },
+      {
+        "id": "p_review_21_25_4_bunpou1",
+        "type": "mondai1",
+        "questions": [
+          {
+            "id": "m_review_21_25_4_b1_q0",
+            "question": "じかんが なかった（　　　）、ほんを よみません。",
+            "options": [
+              "ば",
+              "と",
+              "たら",
+              "から"
+            ],
+            "correctIndex": 2,
+            "explanation": "Nếu không có thời gian -> なかったら."
+          },
+          {
+            "id": "m_review_21_25_4_b1_q1",
+            "question": "これは わたしが （　　　） かばんです。",
+            "options": [
+              "かう",
+              "かい",
+              "かった",
+              "かって"
+            ],
+            "correctIndex": 2,
+            "explanation": "Mệnh đề bổ nghĩa cho danh từ: かった かばん."
+          },
+          {
+            "id": "m_review_21_25_4_b1_q2",
+            "question": "あしたは あめが ふる（　　　） おもいます。",
+            "options": [
+              "と",
+              "に",
+              "を",
+              "で"
+            ],
+            "correctIndex": 0,
+            "explanation": "Mẫu câu ～と おもいます (Tôi nghĩ là...)."
+          }
+        ]
+      },
+      {
+        "id": "p_review_21_25_4_bunpou2",
+        "type": "mondai2",
+        "questions": [
+          {
+            "id": "m_review_21_25_4_b2_q0",
+            "question": "あの　___ ___ _★_ ___　は だれですか。",
+            "options": [
+              "かけている",
+              "ひと",
+              "を",
+              "メガネ"
+            ],
+            "correctIndex": 0,
+            "explanation": "あの メガネ を かけている ひと は だれですか."
+          },
+          {
+            "id": "m_review_21_25_4_b2_q1",
+            "question": "たのしく　___ ___ _★_ ___　と おもいます。",
+            "options": [
+              "あしたの",
+              "ない",
+              "パーティー",
+              "は"
+            ],
+            "correctIndex": 1,
+            "explanation": "あしたの パーティー は たのしく ない と おもいます."
+          }
+        ]
+      },
+      {
+        "id": "p_review_21_25_4_dokkai1",
+        "type": "mondai3",
+        "text": [
+          "わたしは きのう ともだちの うちへ いきました。",
+          "ともだちが おいしい ケーキを つくって （　１　）。",
+          "とても おいしかったです。",
+          "わたしは また ケーキを （　２　）と おもいます。"
+        ],
+        "questions": [
+          {
+            "id": "m_review_21_25_4_d1_q0",
+            "question": "（　１　）に入れるものはどれですか。",
+            "options": [
+              "もらいました",
+              "しました",
+              "くれました",
+              "あげました"
+            ],
+            "correctIndex": 2,
+            "explanation": "Bạn bè làm (cho mình) -> つくって くれました."
+          },
+          {
+            "id": "m_review_21_25_4_d1_q1",
+            "question": "（　２　）に入れるものはどれですか。",
+            "options": [
+              "たべたい",
+              "たべた",
+              "たべる",
+              "たべて"
+            ],
+            "correctIndex": 0,
+            "explanation": "Tôi nghĩ tôi MONG MUỐN ăn lại -> たべたい."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "review_21_25_5",
+    "title": "Đề thi 5: Trạm Ôn Tập JLPT N5 (Bài 21 - 25)",
+    "description": "Bộ đề số 5. Được xáo trộn ngẫu nhiên để chống học vẹt.",
+    "passages": [
+      {
+        "id": "p_review_21_25_5_moji1",
+        "type": "moji_mondai1",
+        "questions": [
+          {
+            "id": "m_review_21_25_5_m1_q0",
+            "question": "【道】を まっすぐ いきます。",
+            "options": [
+              "まち",
+              "くに",
+              "みち",
+              "むら"
+            ],
+            "correctIndex": 2,
+            "explanation": "道 đọc là みち (Đường)."
+          },
+          {
+            "id": "m_review_21_25_5_m1_q1",
+            "question": "【電気】を つけます。",
+            "options": [
+              "てんき",
+              "てんぎ",
+              "でんき",
+              "でんぎ"
+            ],
+            "correctIndex": 2,
+            "explanation": "電気 đọc là でんき (Điện)."
+          }
+        ]
+      },
+      {
+        "id": "p_review_21_25_5_moji2",
+        "type": "moji_mondai2",
+        "questions": [
+          {
+            "id": "m_review_21_25_5_m2_q0",
+            "question": "あめが 【ふって】 います。",
+            "options": [
+              "降って",
+              "落ちて",
+              "流って",
+              "下って"
+            ],
+            "correctIndex": 0,
+            "explanation": "降って là Rơi (mưa)."
+          },
+          {
+            "id": "m_review_21_25_5_m2_q1",
+            "question": "【おとうと】が います。",
+            "options": [
+              "弟",
+              "姉",
+              "妹",
+              "兄"
+            ],
+            "correctIndex": 0,
+            "explanation": "弟 là Em trai."
+          }
+        ]
+      },
+      {
+        "id": "p_review_21_25_5_moji3",
+        "type": "moji_mondai3",
+        "questions": [
+          {
+            "id": "m_review_21_25_5_m3_q0",
+            "question": "あめが ふっても、いきます。",
+            "options": [
+              "あめが ふったら いきません。",
+              "あめが ふらないと いきます。",
+              "あめが ふったら いきます。",
+              "あめが ふりますが、いきます。"
+            ],
+            "correctIndex": 3,
+            "explanation": "Dù trời mưa tôi vẫn đi (Cho dù = ても)."
+          },
+          {
+            "id": "m_review_21_25_5_m3_q1",
+            "question": "ねむい 【　　　】、コーヒーを のみます。",
+            "options": [
+              "とき",
+              "と",
+              "ば",
+              "たら"
+            ],
+            "correctIndex": 0,
+            "explanation": "Khi buồn ngủ (ねむい とき)."
+          }
+        ]
+      },
+      {
+        "id": "p_review_21_25_5_bunpou1",
+        "type": "mondai1",
+        "questions": [
+          {
+            "id": "m_review_21_25_5_b1_q0",
+            "question": "じかんが なかった（　　　）、ほんを よみません。",
+            "options": [
+              "ば",
+              "から",
+              "たら",
+              "と"
+            ],
+            "correctIndex": 2,
+            "explanation": "Nếu không có thời gian -> なかったら."
+          },
+          {
+            "id": "m_review_21_25_5_b1_q1",
+            "question": "これは わたしが （　　　） かばんです。",
+            "options": [
+              "かう",
+              "かった",
+              "かい",
+              "かって"
+            ],
+            "correctIndex": 1,
+            "explanation": "Mệnh đề bổ nghĩa cho danh từ: かった かばん."
+          },
+          {
+            "id": "m_review_21_25_5_b1_q2",
+            "question": "あしたは あめが ふる（　　　） おもいます。",
+            "options": [
+              "で",
+              "と",
+              "に",
+              "を"
+            ],
+            "correctIndex": 1,
+            "explanation": "Mẫu câu ～と おもいます (Tôi nghĩ là...)."
+          }
+        ]
+      },
+      {
+        "id": "p_review_21_25_5_bunpou2",
+        "type": "mondai2",
+        "questions": [
+          {
+            "id": "m_review_21_25_5_b2_q0",
+            "question": "あの　___ ___ _★_ ___　は だれですか。",
+            "options": [
+              "メガネ",
+              "を",
+              "ひと",
+              "かけている"
+            ],
+            "correctIndex": 3,
+            "explanation": "あの メガネ を かけている ひと は だれですか."
+          },
+          {
+            "id": "m_review_21_25_5_b2_q1",
+            "question": "たのしく　___ ___ _★_ ___　と おもいます。",
+            "options": [
+              "あしたの",
+              "パーティー",
+              "ない",
+              "は"
+            ],
+            "correctIndex": 2,
+            "explanation": "あしたの パーティー は たのしく ない と おもいます."
+          }
+        ]
+      },
+      {
+        "id": "p_review_21_25_5_dokkai1",
+        "type": "mondai3",
+        "text": [
+          "わたしは きのう ともだちの うちへ いきました。",
+          "ともだちが おいしい ケーキを つくって （　１　）。",
+          "とても おいしかったです。",
+          "わたしは また ケーキを （　２　）と おもいます。"
+        ],
+        "questions": [
+          {
+            "id": "m_review_21_25_5_d1_q0",
+            "question": "（　１　）に入れるものはどれですか。",
+            "options": [
+              "あげました",
+              "もらいました",
+              "くれました",
+              "しました"
+            ],
+            "correctIndex": 2,
+            "explanation": "Bạn bè làm (cho mình) -> つくって くれました."
+          },
+          {
+            "id": "m_review_21_25_5_d1_q1",
+            "question": "（　２　）に入れるものはどれですか。",
+            "options": [
+              "たべた",
+              "たべる",
+              "たべたい",
+              "たべて"
+            ],
+            "correctIndex": 2,
+            "explanation": "Tôi nghĩ tôi MONG MUỐN ăn lại -> たべたい."
           }
         ]
       }
     ]
   }
-
-  ,
-  {
-    id: 'review_1_5_2',
-    title: 'Đề thi 2: Thực chiến JLPT N5',
-    description: 'Bộ đề số 2. Áp dụng từ vựng và ngữ pháp để giải quyết các tình huống khó hơn.',
-    passages: [
-      {
-        id: 'p_moji1_2',
-        type: 'moji_mondai1',
-        questions: [
-          { id: 'm1_2_1', question: '【先月】、日本へ きました。', options: ['らいげつ', 'こんげつ', 'せんげつ', 'まいつき'], correctIndex: 2, explanation: '先月 (Tiên Nguyệt) đọc là せんげつ (tháng trước).' },
-          { id: 'm1_2_2', question: 'わたしの 【国】は ベトナムです。', options: ['くに', 'まち', 'うち', 'いえ'], correctIndex: 0, explanation: '国 (Quốc) đọc là くに (đất nước).' }
-        ]
-      },
-      {
-        id: 'p_moji2_2',
-        type: 'moji_mondai2',
-        questions: [
-          { id: 'm2_2_1', question: '【でんしゃ】で かいしゃへ いきます。', options: ['電車', '電気', '電話', '電波'], correctIndex: 0, explanation: '電車 (Điện xa) nghĩa là tàu điện.' },
-          { id: 'm2_2_2', question: 'あの 【レストラン】は おいしいです。', options: ['レストンラ', 'レストラン', 'レストラソ', 'レスドラン'], correctIndex: 1, explanation: 'Restaurant viết là レストラン.' }
-        ]
-      },
-      {
-        id: 'p_moji3_2',
-        type: 'moji_mondai3',
-        questions: [
-          { id: 'm3_2_1', question: 'あしたは やすみです。うちで ゆっくり 【　　　】。', options: ['おきます', 'はたらきます', 'やすみます', 'おわります'], correctIndex: 2, explanation: 'Vì mai là ngày nghỉ nên ở nhà "nghỉ ngơi" (やすみます).' },
-          { id: 'm3_2_2', question: 'きのう １０じに 【　　　】。', options: ['おきました', 'ねました', 'きました', 'いきました'], correctIndex: 1, explanation: 'Hôm qua 10 giờ đã "ngủ" (ねました). 10 giờ tối thường là giờ ngủ.' }
-        ]
-      },
-      {
-        id: 'p_moji4_2',
-        type: 'moji_mondai4',
-        questions: [
-          { id: 'm4_2_1', question: 'この くるまは わたしの じゃありません。', options: ['わたしは くるまが ありません。', 'この くるまは だれのですか。', 'これは わたしの くるまじゃありません。', 'この くるまは あたらしいです。'], correctIndex: 2, explanation: 'Đồng nghĩa: Chiếc xe này không phải của tôi = Đây không phải là xe của tôi (これは わたしの くるまじゃありません).' }
-        ]
-      },
-      {
-        id: 'p_m1_2',
-        type: 'mondai1',
-        questions: [
-          { id: 'm1_2_q1', question: 'わたしは えんぴつ（　　　）てがみを かきます。', options: ['に', 'で', 'を', 'が'], correctIndex: 1, explanation: 'Viết bằng bút chì: dùng phương tiện/công cụ -> trợ từ で.' },
-          { id: 'm1_2_q2', question: 'あした どこ（　　　）いきません。', options: ['へも', 'をも', 'がも', 'でも'], correctIndex: 0, explanation: 'Phủ định hoàn toàn: どこへも いきません (Không đi đâu cả).' },
-          { id: 'm1_2_q3', question: 'きょうは ５じ（　　　）はたらきます。', options: ['まで', 'から', 'に', 'で'], correctIndex: 0, explanation: 'Làm việc "đến" 5 giờ -> まで.' },
-          { id: 'm1_2_q4', question: 'A「それは （　　　）ですか。」\nB「コンピューターの ほん です。」', options: ['なんの ほん', 'だれの ほん', 'どこ', 'なん'], correctIndex: 3, explanation: 'Hỏi cái gì dùng なん.' }
-        ]
-      },
-      {
-        id: 'p_m2_2',
-        type: 'mondai2',
-        questions: [
-          { id: 'm2_2_q1', question: 'ここは　___ ___ _★_ ___　です。', options: ['の', 'だいがく', 'とうきょう', 'しょくどう'], correctIndex: 0, explanation: 'ここは (とうきょう) (だいがく) (の) (しょくどう) です.' },
-          { id: 'm2_2_q2', question: 'わたしは　___ ___ _★_ ___　いきます。', options: ['ともだち', 'へ', 'と', 'ぎんこう'], correctIndex: 3, explanation: 'わたしは (ともだち) (と) (ぎんこう) (へ) いきます.' }
-        ]
-      },
-      {
-        id: 'p_m3_2',
-        type: 'mondai3',
-        text: [
-          'きのうは わたしの たんじょうびでした。',
-          'わたしは ともだち（　１　）レストランへ いきました。',
-          'レストランで おいしい ごはんを たべました。',
-          'それから、えいがを（　２　）。とても たのしかったです。'
-        ],
-        questions: [
-          { id: 'm3_2_q1', question: '（　１　）に入れるものはどれですか。', options: ['と', 'に', 'で', 'へ'], correctIndex: 0, explanation: 'Cùng với bạn -> と.' },
-          { id: 'm3_2_q2', question: '（　２　）に入れるものはどれですか。', options: ['みます', 'みました', 'みますか', 'みません'], correctIndex: 1, explanation: 'Kể chuyện hôm qua -> Quá khứ -> みました.' }
-        ]
-      },
-      {
-        id: 'p_m4_2',
-        type: 'mondai4',
-        text: [
-          'マリアさんは ブラジルじんです。サントスさんも ブラジルじんです。',
-          'ふたりは さくらだいがくの がくせいです。',
-          'マリアさんは まいにち バスで だいがくへ いきます。サントスさんは じてんしゃで いきます。'
-        ],
-        questions: [
-          { id: 'm4_2_q1', question: 'サントスさんは どうやって だいがくへ いきますか。', options: ['バスで いきます。', 'じてんしゃで いきます。', 'あるいて いきます。', 'でんしゃで いきます。'], correctIndex: 1, explanation: 'Trong bài: サントスさんは じてんしゃで いきます.' },
-          { id: 'm4_2_q2', question: 'ただしいものは どれですか。', options: ['マリアさんは がくせいじゃありません。', 'ふたりは ブラジルじんです。', 'サントスさんは かいしゃいんです。', 'マリアさんは じてんしゃで いきます。'], correctIndex: 1, explanation: 'Cả hai đều là người Brazil (ふたりは ブラジルじんです).' }
-        ]
-      },
-      {
-        id: 'p_m5_2',
-        type: 'mondai5',
-        text: [
-          'ミラーさんの かいしゃは ＩＭＣです。コンピューターの かいしゃです。',
-          'かいしゃは ９じから ５じまでです。',
-          'ミラーさんは まいあさ ７じはんに おきます。あさごはんは いつも パンと コーヒーです。',
-          'それから、でんしゃで かいしゃへ いきます。',
-          'きのうは １０じまで はたらきました。とても つかれました。'
-        ],
-        questions: [
-          { id: 'm5_2_q1', question: 'ミラーさんは まいあさ なにを たべますか。', options: ['ごはん', 'パン', 'なにも たべません', 'わかりません'], correctIndex: 1, explanation: 'パンと コーヒーです (Bánh mì và cà phê).' },
-          { id: 'm5_2_q2', question: 'きのう ミラーさんは なんじまで はたらきましたか。', options: ['５じ', '７じはん', '９じ', '１０じ'], correctIndex: 3, explanation: 'きのうは １０じまで はたらきました.' }
-        ]
-      },
-      {
-        id: 'p_m6_2',
-        type: 'mondai6',
-        htmlContent: '<div style="border: 2px solid var(--text); padding: 16px; border-radius: 8px; max-width: 400px; margin: 0 auto; background: var(--bg-card);"><h3 style="text-align: center; border-bottom: 2px dashed var(--border); padding-bottom: 8px; margin-top: 0;">さくら びじゅつかん</h3><ul style="list-style-type: none; padding-left: 0; line-height: 1.8;"><li><strong style="display:inline-block; width: 80px;">・やすみ：</strong>げつようび</li><li><strong style="display:inline-block; width: 80px;">・じかん：</strong>ごぜん １０：００ ～ ごご ４：００</li></ul></div>',
-        questions: [
-          { id: 'm6_2_q1', question: 'びじゅつかんは なんにょうびが やすみですか。', options: ['にちようび', 'げつようび', 'かようび', 'すいようび'], correctIndex: 1, explanation: '・やすみ：げつようび' }
-        ]
-      }
-    ]
-  }
-
-
-  ,
-  {
-    id: 'review_1_5_3',
-    title: 'Đề thi 3: Thực chiến JLPT N5',
-    description: 'Bộ đề số 2. Áp dụng từ vựng và ngữ pháp để giải quyết các tình huống khó hơn.',
-    passages: [
-      {
-        id: 'p_moji1_3',
-        type: 'moji_mondai1',
-        questions: [
-          { id: 'm1_3_1', question: '【先月】、日本へ きました。', options: ['らいげつ', 'こんげつ', 'せんげつ', 'まいつき'], correctIndex: 2, explanation: '先月 (Tiên Nguyệt) đọc là せんげつ (tháng trước).' },
-          { id: 'm1_3_3', question: 'わたしの 【国】は ベトナムです。', options: ['くに', 'まち', 'うち', 'いえ'], correctIndex: 0, explanation: '国 (Quốc) đọc là くに (đất nước).' }
-        ]
-      },
-      {
-        id: 'p_moji2_3',
-        type: 'moji_mondai2',
-        questions: [
-          { id: 'm2_3_1', question: '【でんしゃ】で かいしゃへ いきます。', options: ['電車', '電気', '電話', '電波'], correctIndex: 0, explanation: '電車 (Điện xa) nghĩa là tàu điện.' },
-          { id: 'm2_3_3', question: 'あの 【レストラン】は おいしいです。', options: ['レストンラ', 'レストラン', 'レストラソ', 'レスドラン'], correctIndex: 1, explanation: 'Restaurant viết là レストラン.' }
-        ]
-      },
-      {
-        id: 'p_moji3_3',
-        type: 'moji_mondai3',
-        questions: [
-          { id: 'm3_3_1', question: 'あしたは やすみです。うちで ゆっくり 【　　　】。', options: ['おきます', 'はたらきます', 'やすみます', 'おわります'], correctIndex: 2, explanation: 'Vì mai là ngày nghỉ nên ở nhà "nghỉ ngơi" (やすみます).' },
-          { id: 'm3_3_3', question: 'きのう １０じに 【　　　】。', options: ['おきました', 'ねました', 'きました', 'いきました'], correctIndex: 1, explanation: 'Hôm qua 10 giờ đã "ngủ" (ねました). 10 giờ tối thường là giờ ngủ.' }
-        ]
-      },
-      {
-        id: 'p_moji4_3',
-        type: 'moji_mondai4',
-        questions: [
-          { id: 'm4_3_1', question: 'この くるまは わたしの じゃありません。', options: ['わたしは くるまが ありません。', 'この くるまは だれのですか。', 'これは わたしの くるまじゃありません。', 'この くるまは あたらしいです。'], correctIndex: 2, explanation: 'Đồng nghĩa: Chiếc xe này không phải của tôi = Đây không phải là xe của tôi (これは わたしの くるまじゃありません).' }
-        ]
-      },
-      {
-        id: 'p_m1_3',
-        type: 'mondai1',
-        questions: [
-          { id: 'm1_3_q1', question: 'わたしは えんぴつ（　　　）てがみを かきます。', options: ['に', 'で', 'を', 'が'], correctIndex: 1, explanation: 'Viết bằng bút chì: dùng phương tiện/công cụ -> trợ từ で.' },
-          { id: 'm1_3_q2', question: 'あした どこ（　　　）いきません。', options: ['へも', 'をも', 'がも', 'でも'], correctIndex: 0, explanation: 'Phủ định hoàn toàn: どこへも いきません (Không đi đâu cả).' },
-          { id: 'm1_3_q3', question: 'きょうは ５じ（　　　）はたらきます。', options: ['まで', 'から', 'に', 'で'], correctIndex: 0, explanation: 'Làm việc "đến" 5 giờ -> まで.' },
-          { id: 'm1_3_q4', question: 'A「それは （　　　）ですか。」\nB「コンピューターの ほん です。」', options: ['なんの ほん', 'だれの ほん', 'どこ', 'なん'], correctIndex: 3, explanation: 'Hỏi cái gì dùng なん.' }
-        ]
-      },
-      {
-        id: 'p_m2_3',
-        type: 'mondai2',
-        questions: [
-          { id: 'm2_3_q1', question: 'ここは　___ ___ _★_ ___　です。', options: ['の', 'だいがく', 'とうきょう', 'しょくどう'], correctIndex: 0, explanation: 'ここは (とうきょう) (だいがく) (の) (しょくどう) です.' },
-          { id: 'm2_3_q2', question: 'わたしは　___ ___ _★_ ___　いきます。', options: ['ともだち', 'へ', 'と', 'ぎんこう'], correctIndex: 3, explanation: 'わたしは (ともだち) (と) (ぎんこう) (へ) いきます.' }
-        ]
-      },
-      {
-        id: 'p_m3_3',
-        type: 'mondai3',
-        text: [
-          'きのうは わたしの たんじょうびでした。',
-          'わたしは ともだち（　１　）レストランへ いきました。',
-          'レストランで おいしい ごはんを たべました。',
-          'それから、えいがを（　２　）。とても たのしかったです。'
-        ],
-        questions: [
-          { id: 'm3_3_q1', question: '（　１　）に入れるものはどれですか。', options: ['と', 'に', 'で', 'へ'], correctIndex: 0, explanation: 'Cùng với bạn -> と.' },
-          { id: 'm3_3_q2', question: '（　２　）に入れるものはどれですか。', options: ['みます', 'みました', 'みますか', 'みません'], correctIndex: 1, explanation: 'Kể chuyện hôm qua -> Quá khứ -> みました.' }
-        ]
-      },
-      {
-        id: 'p_m4_3',
-        type: 'mondai4',
-        text: [
-          'マリアさんは ブラジルじんです。サントスさんも ブラジルじんです。',
-          'ふたりは さくらだいがくの がくせいです。',
-          'マリアさんは まいにち バスで だいがくへ いきます。サントスさんは じてんしゃで いきます。'
-        ],
-        questions: [
-          { id: 'm4_3_q1', question: 'サントスさんは どうやって だいがくへ いきますか。', options: ['バスで いきます。', 'じてんしゃで いきます。', 'あるいて いきます。', 'でんしゃで いきます。'], correctIndex: 1, explanation: 'Trong bài: サントスさんは じてんしゃで いきます.' },
-          { id: 'm4_3_q2', question: 'ただしいものは どれですか。', options: ['マリアさんは がくせいじゃありません。', 'ふたりは ブラジルじんです。', 'サントスさんは かいしゃいんです。', 'マリアさんは じてんしゃで いきます。'], correctIndex: 1, explanation: 'Cả hai đều là người Brazil (ふたりは ブラジルじんです).' }
-        ]
-      },
-      {
-        id: 'p_m5_3',
-        type: 'mondai5',
-        text: [
-          'ミラーさんの かいしゃは ＩＭＣです。コンピューターの かいしゃです。',
-          'かいしゃは ９じから ５じまでです。',
-          'ミラーさんは まいあさ ７じはんに おきます。あさごはんは いつも パンと コーヒーです。',
-          'それから、でんしゃで かいしゃへ いきます。',
-          'きのうは １０じまで はたらきました。とても つかれました。'
-        ],
-        questions: [
-          { id: 'm5_3_q1', question: 'ミラーさんは まいあさ なにを たべますか。', options: ['ごはん', 'パン', 'なにも たべません', 'わかりません'], correctIndex: 1, explanation: 'パンと コーヒーです (Bánh mì và cà phê).' },
-          { id: 'm5_3_q2', question: 'きのう ミラーさんは なんじまで はたらきましたか。', options: ['５じ', '７じはん', '９じ', '１０じ'], correctIndex: 3, explanation: 'きのうは １０じまで はたらきました.' }
-        ]
-      },
-      {
-        id: 'p_m6_3',
-        type: 'mondai6',
-        htmlContent: '<div style="border: 2px solid var(--text); padding: 16px; border-radius: 8px; max-width: 400px; margin: 0 auto; background: var(--bg-card);"><h3 style="text-align: center; border-bottom: 2px dashed var(--border); padding-bottom: 8px; margin-top: 0;">さくら びじゅつかん</h3><ul style="list-style-type: none; padding-left: 0; line-height: 1.8;"><li><strong style="display:inline-block; width: 80px;">・やすみ：</strong>げつようび</li><li><strong style="display:inline-block; width: 80px;">・じかん：</strong>ごぜん １０：００ ～ ごご ４：００</li></ul></div>',
-        questions: [
-          { id: 'm6_3_q1', question: 'びじゅつかんは なんにょうびが やすみですか。', options: ['にちようび', 'げつようび', 'かようび', 'すいようび'], correctIndex: 1, explanation: '・やすみ：げつようび' }
-        ]
-      }
-    ]
-  }
-
-
-  ,
-  {
-    id: 'review_1_5_4',
-    title: 'Đề thi 4: Thực chiến JLPT N5',
-    description: 'Bộ đề số 2. Áp dụng từ vựng và ngữ pháp để giải quyết các tình huống khó hơn.',
-    passages: [
-      {
-        id: 'p_moji1_4',
-        type: 'moji_mondai1',
-        questions: [
-          { id: 'm1_4_1', question: '【先月】、日本へ きました。', options: ['らいげつ', 'こんげつ', 'せんげつ', 'まいつき'], correctIndex: 2, explanation: '先月 (Tiên Nguyệt) đọc là せんげつ (tháng trước).' },
-          { id: 'm1_4_4', question: 'わたしの 【国】は ベトナムです。', options: ['くに', 'まち', 'うち', 'いえ'], correctIndex: 0, explanation: '国 (Quốc) đọc là くに (đất nước).' }
-        ]
-      },
-      {
-        id: 'p_moji2_4',
-        type: 'moji_mondai2',
-        questions: [
-          { id: 'm2_4_1', question: '【でんしゃ】で かいしゃへ いきます。', options: ['電車', '電気', '電話', '電波'], correctIndex: 0, explanation: '電車 (Điện xa) nghĩa là tàu điện.' },
-          { id: 'm2_4_4', question: 'あの 【レストラン】は おいしいです。', options: ['レストンラ', 'レストラン', 'レストラソ', 'レスドラン'], correctIndex: 1, explanation: 'Restaurant viết là レストラン.' }
-        ]
-      },
-      {
-        id: 'p_moji3_4',
-        type: 'moji_mondai3',
-        questions: [
-          { id: 'm3_4_1', question: 'あしたは やすみです。うちで ゆっくり 【　　　】。', options: ['おきます', 'はたらきます', 'やすみます', 'おわります'], correctIndex: 2, explanation: 'Vì mai là ngày nghỉ nên ở nhà "nghỉ ngơi" (やすみます).' },
-          { id: 'm3_4_4', question: 'きのう １０じに 【　　　】。', options: ['おきました', 'ねました', 'きました', 'いきました'], correctIndex: 1, explanation: 'Hôm qua 10 giờ đã "ngủ" (ねました). 10 giờ tối thường là giờ ngủ.' }
-        ]
-      },
-      {
-        id: 'p_moji4_4',
-        type: 'moji_mondai4',
-        questions: [
-          { id: 'm4_4_1', question: 'この くるまは わたしの じゃありません。', options: ['わたしは くるまが ありません。', 'この くるまは だれのですか。', 'これは わたしの くるまじゃありません。', 'この くるまは あたらしいです。'], correctIndex: 2, explanation: 'Đồng nghĩa: Chiếc xe này không phải của tôi = Đây không phải là xe của tôi (これは わたしの くるまじゃありません).' }
-        ]
-      },
-      {
-        id: 'p_m1_4',
-        type: 'mondai1',
-        questions: [
-          { id: 'm1_4_q1', question: 'わたしは えんぴつ（　　　）てがみを かきます。', options: ['に', 'で', 'を', 'が'], correctIndex: 1, explanation: 'Viết bằng bút chì: dùng phương tiện/công cụ -> trợ từ で.' },
-          { id: 'm1_4_q2', question: 'あした どこ（　　　）いきません。', options: ['へも', 'をも', 'がも', 'でも'], correctIndex: 0, explanation: 'Phủ định hoàn toàn: どこへも いきません (Không đi đâu cả).' },
-          { id: 'm1_4_q3', question: 'きょうは ５じ（　　　）はたらきます。', options: ['まで', 'から', 'に', 'で'], correctIndex: 0, explanation: 'Làm việc "đến" 5 giờ -> まで.' },
-          { id: 'm1_4_q4', question: 'A「それは （　　　）ですか。」\nB「コンピューターの ほん です。」', options: ['なんの ほん', 'だれの ほん', 'どこ', 'なん'], correctIndex: 3, explanation: 'Hỏi cái gì dùng なん.' }
-        ]
-      },
-      {
-        id: 'p_m2_4',
-        type: 'mondai2',
-        questions: [
-          { id: 'm2_4_q1', question: 'ここは　___ ___ _★_ ___　です。', options: ['の', 'だいがく', 'とうきょう', 'しょくどう'], correctIndex: 0, explanation: 'ここは (とうきょう) (だいがく) (の) (しょくどう) です.' },
-          { id: 'm2_4_q2', question: 'わたしは　___ ___ _★_ ___　いきます。', options: ['ともだち', 'へ', 'と', 'ぎんこう'], correctIndex: 3, explanation: 'わたしは (ともだち) (と) (ぎんこう) (へ) いきます.' }
-        ]
-      },
-      {
-        id: 'p_m3_4',
-        type: 'mondai3',
-        text: [
-          'きのうは わたしの たんじょうびでした。',
-          'わたしは ともだち（　１　）レストランへ いきました。',
-          'レストランで おいしい ごはんを たべました。',
-          'それから、えいがを（　２　）。とても たのしかったです。'
-        ],
-        questions: [
-          { id: 'm3_4_q1', question: '（　１　）に入れるものはどれですか。', options: ['と', 'に', 'で', 'へ'], correctIndex: 0, explanation: 'Cùng với bạn -> と.' },
-          { id: 'm3_4_q2', question: '（　２　）に入れるものはどれですか。', options: ['みます', 'みました', 'みますか', 'みません'], correctIndex: 1, explanation: 'Kể chuyện hôm qua -> Quá khứ -> みました.' }
-        ]
-      },
-      {
-        id: 'p_m4_4',
-        type: 'mondai4',
-        text: [
-          'マリアさんは ブラジルじんです。サントスさんも ブラジルじんです。',
-          'ふたりは さくらだいがくの がくせいです。',
-          'マリアさんは まいにち バスで だいがくへ いきます。サントスさんは じてんしゃで いきます。'
-        ],
-        questions: [
-          { id: 'm4_4_q1', question: 'サントスさんは どうやって だいがくへ いきますか。', options: ['バスで いきます。', 'じてんしゃで いきます。', 'あるいて いきます。', 'でんしゃで いきます。'], correctIndex: 1, explanation: 'Trong bài: サントスさんは じてんしゃで いきます.' },
-          { id: 'm4_4_q2', question: 'ただしいものは どれですか。', options: ['マリアさんは がくせいじゃありません。', 'ふたりは ブラジルじんです。', 'サントスさんは かいしゃいんです。', 'マリアさんは じてんしゃで いきます。'], correctIndex: 1, explanation: 'Cả hai đều là người Brazil (ふたりは ブラジルじんです).' }
-        ]
-      },
-      {
-        id: 'p_m5_4',
-        type: 'mondai5',
-        text: [
-          'ミラーさんの かいしゃは ＩＭＣです。コンピューターの かいしゃです。',
-          'かいしゃは ９じから ５じまでです。',
-          'ミラーさんは まいあさ ７じはんに おきます。あさごはんは いつも パンと コーヒーです。',
-          'それから、でんしゃで かいしゃへ いきます。',
-          'きのうは １０じまで はたらきました。とても つかれました。'
-        ],
-        questions: [
-          { id: 'm5_4_q1', question: 'ミラーさんは まいあさ なにを たべますか。', options: ['ごはん', 'パン', 'なにも たべません', 'わかりません'], correctIndex: 1, explanation: 'パンと コーヒーです (Bánh mì và cà phê).' },
-          { id: 'm5_4_q2', question: 'きのう ミラーさんは なんじまで はたらきましたか。', options: ['５じ', '７じはん', '９じ', '１０じ'], correctIndex: 3, explanation: 'きのうは １０じまで はたらきました.' }
-        ]
-      },
-      {
-        id: 'p_m6_4',
-        type: 'mondai6',
-        htmlContent: '<div style="border: 2px solid var(--text); padding: 16px; border-radius: 8px; max-width: 400px; margin: 0 auto; background: var(--bg-card);"><h3 style="text-align: center; border-bottom: 2px dashed var(--border); padding-bottom: 8px; margin-top: 0;">さくら びじゅつかん</h3><ul style="list-style-type: none; padding-left: 0; line-height: 1.8;"><li><strong style="display:inline-block; width: 80px;">・やすみ：</strong>げつようび</li><li><strong style="display:inline-block; width: 80px;">・じかん：</strong>ごぜん １０：００ ～ ごご ４：００</li></ul></div>',
-        questions: [
-          { id: 'm6_4_q1', question: 'びじゅつかんは なんにょうびが やすみですか。', options: ['にちようび', 'げつようび', 'かようび', 'すいようび'], correctIndex: 1, explanation: '・やすみ：げつようび' }
-        ]
-      }
-    ]
-  }
-
-
-  ,
-  {
-    id: 'review_1_5_5',
-    title: 'Đề thi 5: Thực chiến JLPT N5',
-    description: 'Bộ đề số 2. Áp dụng từ vựng và ngữ pháp để giải quyết các tình huống khó hơn.',
-    passages: [
-      {
-        id: 'p_moji1_5',
-        type: 'moji_mondai1',
-        questions: [
-          { id: 'm1_5_1', question: '【先月】、日本へ きました。', options: ['らいげつ', 'こんげつ', 'せんげつ', 'まいつき'], correctIndex: 2, explanation: '先月 (Tiên Nguyệt) đọc là せんげつ (tháng trước).' },
-          { id: 'm1_5_5', question: 'わたしの 【国】は ベトナムです。', options: ['くに', 'まち', 'うち', 'いえ'], correctIndex: 0, explanation: '国 (Quốc) đọc là くに (đất nước).' }
-        ]
-      },
-      {
-        id: 'p_moji2_5',
-        type: 'moji_mondai2',
-        questions: [
-          { id: 'm2_5_1', question: '【でんしゃ】で かいしゃへ いきます。', options: ['電車', '電気', '電話', '電波'], correctIndex: 0, explanation: '電車 (Điện xa) nghĩa là tàu điện.' },
-          { id: 'm2_5_5', question: 'あの 【レストラン】は おいしいです。', options: ['レストンラ', 'レストラン', 'レストラソ', 'レスドラン'], correctIndex: 1, explanation: 'Restaurant viết là レストラン.' }
-        ]
-      },
-      {
-        id: 'p_moji3_5',
-        type: 'moji_mondai3',
-        questions: [
-          { id: 'm3_5_1', question: 'あしたは やすみです。うちで ゆっくり 【　　　】。', options: ['おきます', 'はたらきます', 'やすみます', 'おわります'], correctIndex: 2, explanation: 'Vì mai là ngày nghỉ nên ở nhà "nghỉ ngơi" (やすみます).' },
-          { id: 'm3_5_5', question: 'きのう １０じに 【　　　】。', options: ['おきました', 'ねました', 'きました', 'いきました'], correctIndex: 1, explanation: 'Hôm qua 10 giờ đã "ngủ" (ねました). 10 giờ tối thường là giờ ngủ.' }
-        ]
-      },
-      {
-        id: 'p_moji4_5',
-        type: 'moji_mondai4',
-        questions: [
-          { id: 'm4_5_1', question: 'この くるまは わたしの じゃありません。', options: ['わたしは くるまが ありません。', 'この くるまは だれのですか。', 'これは わたしの くるまじゃありません。', 'この くるまは あたらしいです。'], correctIndex: 2, explanation: 'Đồng nghĩa: Chiếc xe này không phải của tôi = Đây không phải là xe của tôi (これは わたしの くるまじゃありません).' }
-        ]
-      },
-      {
-        id: 'p_m1_5',
-        type: 'mondai1',
-        questions: [
-          { id: 'm1_5_q1', question: 'わたしは えんぴつ（　　　）てがみを かきます。', options: ['に', 'で', 'を', 'が'], correctIndex: 1, explanation: 'Viết bằng bút chì: dùng phương tiện/công cụ -> trợ từ で.' },
-          { id: 'm1_5_q2', question: 'あした どこ（　　　）いきません。', options: ['へも', 'をも', 'がも', 'でも'], correctIndex: 0, explanation: 'Phủ định hoàn toàn: どこへも いきません (Không đi đâu cả).' },
-          { id: 'm1_5_q3', question: 'きょうは ５じ（　　　）はたらきます。', options: ['まで', 'から', 'に', 'で'], correctIndex: 0, explanation: 'Làm việc "đến" 5 giờ -> まで.' },
-          { id: 'm1_5_q4', question: 'A「それは （　　　）ですか。」\nB「コンピューターの ほん です。」', options: ['なんの ほん', 'だれの ほん', 'どこ', 'なん'], correctIndex: 3, explanation: 'Hỏi cái gì dùng なん.' }
-        ]
-      },
-      {
-        id: 'p_m2_5',
-        type: 'mondai2',
-        questions: [
-          { id: 'm2_5_q1', question: 'ここは　___ ___ _★_ ___　です。', options: ['の', 'だいがく', 'とうきょう', 'しょくどう'], correctIndex: 0, explanation: 'ここは (とうきょう) (だいがく) (の) (しょくどう) です.' },
-          { id: 'm2_5_q2', question: 'わたしは　___ ___ _★_ ___　いきます。', options: ['ともだち', 'へ', 'と', 'ぎんこう'], correctIndex: 3, explanation: 'わたしは (ともだち) (と) (ぎんこう) (へ) いきます.' }
-        ]
-      },
-      {
-        id: 'p_m3_5',
-        type: 'mondai3',
-        text: [
-          'きのうは わたしの たんじょうびでした。',
-          'わたしは ともだち（　１　）レストランへ いきました。',
-          'レストランで おいしい ごはんを たべました。',
-          'それから、えいがを（　２　）。とても たのしかったです。'
-        ],
-        questions: [
-          { id: 'm3_5_q1', question: '（　１　）に入れるものはどれですか。', options: ['と', 'に', 'で', 'へ'], correctIndex: 0, explanation: 'Cùng với bạn -> と.' },
-          { id: 'm3_5_q2', question: '（　２　）に入れるものはどれですか。', options: ['みます', 'みました', 'みますか', 'みません'], correctIndex: 1, explanation: 'Kể chuyện hôm qua -> Quá khứ -> みました.' }
-        ]
-      },
-      {
-        id: 'p_m4_5',
-        type: 'mondai4',
-        text: [
-          'マリアさんは ブラジルじんです。サントスさんも ブラジルじんです。',
-          'ふたりは さくらだいがくの がくせいです。',
-          'マリアさんは まいにち バスで だいがくへ いきます。サントスさんは じてんしゃで いきます。'
-        ],
-        questions: [
-          { id: 'm4_5_q1', question: 'サントスさんは どうやって だいがくへ いきますか。', options: ['バスで いきます。', 'じてんしゃで いきます。', 'あるいて いきます。', 'でんしゃで いきます。'], correctIndex: 1, explanation: 'Trong bài: サントスさんは じてんしゃで いきます.' },
-          { id: 'm4_5_q2', question: 'ただしいものは どれですか。', options: ['マリアさんは がくせいじゃありません。', 'ふたりは ブラジルじんです。', 'サントスさんは かいしゃいんです。', 'マリアさんは じてんしゃで いきます。'], correctIndex: 1, explanation: 'Cả hai đều là người Brazil (ふたりは ブラジルじんです).' }
-        ]
-      },
-      {
-        id: 'p_m5_5',
-        type: 'mondai5',
-        text: [
-          'ミラーさんの かいしゃは ＩＭＣです。コンピューターの かいしゃです。',
-          'かいしゃは ９じから ５じまでです。',
-          'ミラーさんは まいあさ ７じはんに おきます。あさごはんは いつも パンと コーヒーです。',
-          'それから、でんしゃで かいしゃへ いきます。',
-          'きのうは １０じまで はたらきました。とても つかれました。'
-        ],
-        questions: [
-          { id: 'm5_5_q1', question: 'ミラーさんは まいあさ なにを たべますか。', options: ['ごはん', 'パン', 'なにも たべません', 'わかりません'], correctIndex: 1, explanation: 'パンと コーヒーです (Bánh mì và cà phê).' },
-          { id: 'm5_5_q2', question: 'きのう ミラーさんは なんじまで はたらきましたか。', options: ['５じ', '７じはん', '９じ', '１０じ'], correctIndex: 3, explanation: 'きのうは １０じまで はたらきました.' }
-        ]
-      },
-      {
-        id: 'p_m6_5',
-        type: 'mondai6',
-        htmlContent: '<div style="border: 2px solid var(--text); padding: 16px; border-radius: 8px; max-width: 400px; margin: 0 auto; background: var(--bg-card);"><h3 style="text-align: center; border-bottom: 2px dashed var(--border); padding-bottom: 8px; margin-top: 0;">さくら びじゅつかん</h3><ul style="list-style-type: none; padding-left: 0; line-height: 1.8;"><li><strong style="display:inline-block; width: 80px;">・やすみ：</strong>げつようび</li><li><strong style="display:inline-block; width: 80px;">・じかん：</strong>ごぜん １０：００ ～ ごご ４：００</li></ul></div>',
-        questions: [
-          { id: 'm6_5_q1', question: 'びじゅつかんは なんにょうびが やすみですか。', options: ['にちようび', 'げつようび', 'かようび', 'すいようび'], correctIndex: 1, explanation: '・やすみ：げつようび' }
-        ]
-      }
-    ]
-  }
-
-
-  ,
-  {
-    id: 'review_6_10_1',
-    title: 'Đề thi 1: Trạm Ôn Tập JLPT N5 (Bài 6 - 10)',
-    description: 'Bộ đề ôn tập số 1. Trọng tâm: Tự động từ/Tha động từ, Tính từ, Cho/Nhận.',
-    passages: [
-      {
-        id: 'p_610_moji1_1',
-        type: 'moji_mondai1',
-        questions: [
-          { id: 'm610_m1_1_1', question: '【手紙】を かきます。', options: ['てがみ', 'でがみ', 'てかみ', 'でかみ'], correctIndex: 0, explanation: '手紙 (Thủ Chỉ) đọc là てがみ (Bức thư).' },
-          { id: 'm610_m1_1_1b', question: 'あたらしい 【車】を かいました。', options: ['くろま', 'くるま', 'でんしゃ', 'じてんしゃ'], correctIndex: 1, explanation: '車 (Xa) đọc là くるま (Ô tô).' }
-        ]
-      },
-      {
-        id: 'p_610_moji2_1',
-        type: 'moji_mondai2',
-        questions: [
-          { id: 'm610_m2_1_1', question: '【えいご】を べんきょうします。', options: ['英話', '英語', '英吾', '英悟'], correctIndex: 1, explanation: '英語 (Anh Ngữ) là Tiếng Anh.' },
-          { id: 'm610_m2_1_1b', question: 'ともだちに 【プレゼント】を あげます。', options: ['プレセント', 'プレゼント', 'フレゼント', 'プレザント'], correctIndex: 1, explanation: 'Present (Quà tặng) viết Katakana là プレゼント.' }
-        ]
-      },
-      {
-        id: 'p_610_moji3_1',
-        type: 'moji_mondai3',
-        questions: [
-          { id: 'm610_m3_1_1', question: 'はさみで かみを 【　　　】。', options: ['きります', 'かします', 'かります', 'もらいます'], correctIndex: 0, explanation: 'Cắt (きります) giấy bằng kéo.' },
-          { id: 'm610_m3_1_1b', question: 'この りんごは とても 【　　　】です。', options: ['つめたい', 'おいしい', 'おもしろい', 'いそがしい'], correctIndex: 1, explanation: 'Táo (りんご) thì ngon (おいしい).' }
-        ]
-      },
-      {
-        id: 'p_610_moji4_1',
-        type: 'moji_mondai4',
-        questions: [
-          { id: 'm610_m4_1_1', question: 'きのうは さむかったです。', options: ['きのうは あつかったです。', 'きのうは あたたかかったです。', 'きのうは すずしかったです。', 'きのうは いい てんきじゃありませんでした。'], correctIndex: 3, explanation: 'Trời lạnh (さむい) mang nét nghĩa thời tiết không thuận lợi trong các lựa chọn. (Tạm lấy nghĩa tương đồng: いい てんきじゃありませんでした - Thời tiết không tốt).' }
-        ]
-      },
-      {
-        id: 'p_610_m1_1',
-        type: 'mondai1',
-        questions: [
-          { id: 'm610_m1_1_q1', question: 'スプーン（　　　）ごはんを たべます。', options: ['で', 'に', 'を', 'が'], correctIndex: 0, explanation: 'Chỉ phương tiện/công cụ -> trợ từ で.' },
-          { id: 'm610_m1_1_q2', question: 'わたしは 木村さん（　　　）はなを あげました。', options: ['で', 'に', 'を', 'へ'], correctIndex: 1, explanation: 'Cho ai cái gì -> Danh từ người + に.' },
-          { id: 'm610_m1_1_q3', question: '日本の カメラは （　　　）ですか。', options: ['どう', 'どんな', 'どれ', 'どの'], correctIndex: 0, explanation: 'Hỏi tính chất/cảm nhận (Thế nào?) -> どうですか.' },
-          { id: 'm610_m1_1_q4', question: 'きのうの パーティーは （　　　）。', options: ['たのしいです', 'たのしかった', 'たのしかったです', 'たのしいでした'], correctIndex: 2, explanation: 'Tính từ đuôi い ở quá khứ -> い => かったです.' }
-        ]
-      },
-      {
-        id: 'p_610_m2_1',
-        type: 'mondai2',
-        questions: [
-          { id: 'm610_m2_1_q1', question: 'とうきょうは　___ ___ _★_ ___　まちです。', options: ['て', 'きれいで', 'にぎやかな', 'とても'], correctIndex: 3, explanation: 'とうきょうは (とても) (きれいで) (にぎやかな) (まち) です. ★ nằm ở vị trí にぎやかな.' },
-          { id: 'm610_m2_1_q2', question: 'わたしは　___ ___ _★_ ___　もらいました。', options: ['を', 'ともだち', 'に', 'とけい'], correctIndex: 0, explanation: 'わたしは (ともだち) (に) (とけい) (を) もらいました. ★ nằm ở vị trí とけい.' }
-        ]
-      },
-      {
-        id: 'p_610_m3_1',
-        type: 'mondai3',
-        text: [
-          'きのう わたしは スーパーへ いきました。',
-          'スーパーで くだもの（　１　）かいました。',
-          'スーパーの くだものは （　２　）。',
-          'そして、うちで かぞくと たべました。'
-        ],
-        questions: [
-          { id: 'm610_m3_1_q1', question: '（　１　）に入れるものはどれですか。', options: ['と', 'に', 'を', 'が'], correctIndex: 2, explanation: 'Mua trái cây: くだものを かいます.' },
-          { id: 'm610_m3_1_q2', question: '（　２　）に入れるものはどれですか。', options: ['やすかったです', 'やすいでした', 'やすいです', 'やすくないでした'], correctIndex: 0, explanation: 'Trái cây hôm qua -> Quá khứ -> やすかったです.' }
-        ]
-      },
-      {
-        id: 'p_610_m4_1',
-        type: 'mondai4',
-        text: [
-          'これは わたしの あたらしい じてんしゃです。',
-          'きのう ちちに もらいました。',
-          'とても きれいです。そして べんりです。',
-          'あした この じてんしゃで がっこうへ いきます。'
-        ],
-        questions: [
-          { id: 'm610_m4_1_q1', question: 'じてんしゃは だれに もらいましたか。', options: ['はは', 'ちち', 'ともだち', 'せんせい'], correctIndex: 1, explanation: 'ちちに もらいました (Nhận từ bố).' },
-          { id: 'm610_m4_1_q2', question: 'ただしいものは どれですか。', options: ['あした あるいて がっこうへ いきます。', 'じてんしゃは きれいです。でも ふべんです。', 'きのう じてんしゃを かいました。', 'じてんしゃは べんりです。'], correctIndex: 3, explanation: 'Xe đạp vừa đẹp vừa tiện lợi (べんりです).' }
-        ]
-      },
-      {
-        id: 'p_610_m5_1',
-        type: 'mondai5',
-        text: [
-          'きょうは わたしの たんじょうびです。',
-          'あさ ははに プレゼントを もらいました。シャツと ぼうしです。',
-          'シャツは しろいです。ぼうしは くろいです。',
-          'わたしは くろい ぼうしが とても すきです。',
-          'よる かぞくと いっしょに レストランで しょくじを します。',
-          'とても たのしみです。'
-        ],
-        questions: [
-          { id: 'm610_m5_1_q1', question: 'なにを もらいましたか。', options: ['しろい シャツと しろい ぼうし', 'くろい シャツと くろい ぼうし', 'しろい シャツと くろい ぼうし', 'くろい シャツと しろい ぼうし'], correctIndex: 2, explanation: 'シャツは しろいです。ぼうしは くろいです (Áo trắng và mũ đen).' },
-          { id: 'm610_m5_1_q2', question: 'よる どこで ごはんを たべますか。', options: ['うち', 'レストラン', 'かいしゃ', 'がっこう'], correctIndex: 1, explanation: 'レストランで しょくじを します (Ăn tại nhà hàng).' }
-        ]
-      },
-      {
-        id: 'p_610_m6_1',
-        type: 'mondai6',
-        htmlContent: '<div style="border: 2px solid var(--text); padding: 16px; border-radius: 8px; max-width: 400px; margin: 0 auto; background: var(--bg-card);"><h3 style="text-align: center; border-bottom: 2px dashed var(--border); padding-bottom: 8px; margin-top: 0;">さくら レストラン メニュー</h3><ul style="list-style-type: none; padding-left: 0; line-height: 1.8;"><li><strong>・カレー：</strong> ６００えん</li><li><strong>・ラーメン：</strong> ５００えん</li><li><strong>・コーヒー：</strong> ２００えん</li></ul></div>',
-        questions: [
-          { id: 'm610_m6_1_q1', question: 'ラーメンと コーヒーを たのみます。いくらですか。', options: ['７００えん', '８００えん', '６００えん', '５００えん'], correctIndex: 0, explanation: 'Ramen 500 yên + Cà phê 200 yên = 700 yên.' }
-        ]
-      }
-    ]
-  }
-
-
-  ,
-  {
-    id: 'review_6_10_2',
-    title: 'Đề thi 2: Trạm Ôn Tập JLPT N5 (Bài 6 - 10)',
-    description: 'Bộ đề ôn tập số 1. Trọng tâm: Tự động từ/Tha động từ, Tính từ, Cho/Nhận.',
-    passages: [
-      {
-        id: 'p_610_moji1_2',
-        type: 'moji_mondai1',
-        questions: [
-          { id: 'm610_m1_1_2b', question: '【手紙】を かきます。', options: ['てがみ', 'でがみ', 'てかみ', 'でかみ'], correctIndex: 0, explanation: '手紙 (Thủ Chỉ) đọc là てがみ (Bức thư).' },
-          { id: 'm610_m1_1_2b', question: 'あたらしい 【車】を かいました。', options: ['くろま', 'くるま', 'でんしゃ', 'じてんしゃ'], correctIndex: 1, explanation: '車 (Xa) đọc là くるま (Ô tô).' }
-        ]
-      },
-      {
-        id: 'p_610_moji2_2',
-        type: 'moji_mondai2',
-        questions: [
-          { id: 'm610_m2_1_2b', question: '【えいご】を べんきょうします。', options: ['英話', '英語', '英吾', '英悟'], correctIndex: 1, explanation: '英語 (Anh Ngữ) là Tiếng Anh.' },
-          { id: 'm610_m2_1_2b', question: 'ともだちに 【プレゼント】を あげます。', options: ['プレセント', 'プレゼント', 'フレゼント', 'プレザント'], correctIndex: 1, explanation: 'Present (Quà tặng) viết Katakana là プレゼント.' }
-        ]
-      },
-      {
-        id: 'p_610_moji3_2',
-        type: 'moji_mondai3',
-        questions: [
-          { id: 'm610_m3_1_2b', question: 'はさみで かみを 【　　　】。', options: ['きります', 'かします', 'かります', 'もらいます'], correctIndex: 0, explanation: 'Cắt (きります) giấy bằng kéo.' },
-          { id: 'm610_m3_1_2b', question: 'この りんごは とても 【　　　】です。', options: ['つめたい', 'おいしい', 'おもしろい', 'いそがしい'], correctIndex: 1, explanation: 'Táo (りんご) thì ngon (おいしい).' }
-        ]
-      },
-      {
-        id: 'p_610_moji4_2',
-        type: 'moji_mondai4',
-        questions: [
-          { id: 'm610_m4_1_2b', question: 'きのうは さむかったです。', options: ['きのうは あつかったです。', 'きのうは あたたかかったです。', 'きのうは すずしかったです。', 'きのうは いい てんきじゃありませんでした。'], correctIndex: 3, explanation: 'Trời lạnh (さむい) mang nét nghĩa thời tiết không thuận lợi trong các lựa chọn. (Tạm lấy nghĩa tương đồng: いい てんきじゃありませんでした - Thời tiết không tốt).' }
-        ]
-      },
-      {
-        id: 'p_610_m1_2',
-        type: 'mondai1',
-        questions: [
-          { id: 'm610_m1_1_q1', question: 'スプーン（　　　）ごはんを たべます。', options: ['で', 'に', 'を', 'が'], correctIndex: 0, explanation: 'Chỉ phương tiện/công cụ -> trợ từ で.' },
-          { id: 'm610_m1_1_q2', question: 'わたしは 木村さん（　　　）はなを あげました。', options: ['で', 'に', 'を', 'へ'], correctIndex: 1, explanation: 'Cho ai cái gì -> Danh từ người + に.' },
-          { id: 'm610_m1_1_q3', question: '日本の カメラは （　　　）ですか。', options: ['どう', 'どんな', 'どれ', 'どの'], correctIndex: 0, explanation: 'Hỏi tính chất/cảm nhận (Thế nào?) -> どうですか.' },
-          { id: 'm610_m1_1_q4', question: 'きのうの パーティーは （　　　）。', options: ['たのしいです', 'たのしかった', 'たのしかったです', 'たのしいでした'], correctIndex: 2, explanation: 'Tính từ đuôi い ở quá khứ -> い => かったです.' }
-        ]
-      },
-      {
-        id: 'p_610_m2_2',
-        type: 'mondai2',
-        questions: [
-          { id: 'm610_m2_1_q1', question: 'とうきょうは　___ ___ _★_ ___　まちです。', options: ['て', 'きれいで', 'にぎやかな', 'とても'], correctIndex: 3, explanation: 'とうきょうは (とても) (きれいで) (にぎやかな) (まち) です. ★ nằm ở vị trí にぎやかな.' },
-          { id: 'm610_m2_1_q2', question: 'わたしは　___ ___ _★_ ___　もらいました。', options: ['を', 'ともだち', 'に', 'とけい'], correctIndex: 0, explanation: 'わたしは (ともだち) (に) (とけい) (を) もらいました. ★ nằm ở vị trí とけい.' }
-        ]
-      },
-      {
-        id: 'p_610_m3_2',
-        type: 'mondai3',
-        text: [
-          'きのう わたしは スーパーへ いきました。',
-          'スーパーで くだもの（　１　）かいました。',
-          'スーパーの くだものは （　２　）。',
-          'そして、うちで かぞくと たべました。'
-        ],
-        questions: [
-          { id: 'm610_m3_1_q1', question: '（　１　）に入れるものはどれですか。', options: ['と', 'に', 'を', 'が'], correctIndex: 2, explanation: 'Mua trái cây: くだものを かいます.' },
-          { id: 'm610_m3_1_q2', question: '（　２　）に入れるものはどれですか。', options: ['やすかったです', 'やすいでした', 'やすいです', 'やすくないでした'], correctIndex: 0, explanation: 'Trái cây hôm qua -> Quá khứ -> やすかったです.' }
-        ]
-      },
-      {
-        id: 'p_610_m4_2',
-        type: 'mondai4',
-        text: [
-          'これは わたしの あたらしい じてんしゃです。',
-          'きのう ちちに もらいました。',
-          'とても きれいです。そして べんりです。',
-          'あした この じてんしゃで がっこうへ いきます。'
-        ],
-        questions: [
-          { id: 'm610_m4_1_q1', question: 'じてんしゃは だれに もらいましたか。', options: ['はは', 'ちち', 'ともだち', 'せんせい'], correctIndex: 1, explanation: 'ちちに もらいました (Nhận từ bố).' },
-          { id: 'm610_m4_1_q2', question: 'ただしいものは どれですか。', options: ['あした あるいて がっこうへ いきます。', 'じてんしゃは きれいです。でも ふべんです。', 'きのう じてんしゃを かいました。', 'じてんしゃは べんりです。'], correctIndex: 3, explanation: 'Xe đạp vừa đẹp vừa tiện lợi (べんりです).' }
-        ]
-      },
-      {
-        id: 'p_610_m5_2',
-        type: 'mondai5',
-        text: [
-          'きょうは わたしの たんじょうびです。',
-          'あさ ははに プレゼントを もらいました。シャツと ぼうしです。',
-          'シャツは しろいです。ぼうしは くろいです。',
-          'わたしは くろい ぼうしが とても すきです。',
-          'よる かぞくと いっしょに レストランで しょくじを します。',
-          'とても たのしみです。'
-        ],
-        questions: [
-          { id: 'm610_m5_1_q1', question: 'なにを もらいましたか。', options: ['しろい シャツと しろい ぼうし', 'くろい シャツと くろい ぼうし', 'しろい シャツと くろい ぼうし', 'くろい シャツと しろい ぼうし'], correctIndex: 2, explanation: 'シャツは しろいです。ぼうしは くろいです (Áo trắng và mũ đen).' },
-          { id: 'm610_m5_1_q2', question: 'よる どこで ごはんを たべますか。', options: ['うち', 'レストラン', 'かいしゃ', 'がっこう'], correctIndex: 1, explanation: 'レストランで しょくじを します (Ăn tại nhà hàng).' }
-        ]
-      },
-      {
-        id: 'p_610_m6_2',
-        type: 'mondai6',
-        htmlContent: '<div style="border: 2px solid var(--text); padding: 16px; border-radius: 8px; max-width: 400px; margin: 0 auto; background: var(--bg-card);"><h3 style="text-align: center; border-bottom: 2px dashed var(--border); padding-bottom: 8px; margin-top: 0;">さくら レストラン メニュー</h3><ul style="list-style-type: none; padding-left: 0; line-height: 1.8;"><li><strong>・カレー：</strong> ６００えん</li><li><strong>・ラーメン：</strong> ５００えん</li><li><strong>・コーヒー：</strong> ２００えん</li></ul></div>',
-        questions: [
-          { id: 'm610_m6_1_q1', question: 'ラーメンと コーヒーを たのみます。いくらですか。', options: ['７００えん', '８００えん', '６００えん', '５００えん'], correctIndex: 0, explanation: 'Ramen 500 yên + Cà phê 200 yên = 700 yên.' }
-        ]
-      }
-    ]
-  }
-
-
-  ,
-  {
-    id: 'review_6_10_3',
-    title: 'Đề thi 3: Trạm Ôn Tập JLPT N5 (Bài 6 - 10)',
-    description: 'Bộ đề ôn tập số 1. Trọng tâm: Tự động từ/Tha động từ, Tính từ, Cho/Nhận.',
-    passages: [
-      {
-        id: 'p_610_moji1_3',
-        type: 'moji_mondai1',
-        questions: [
-          { id: 'm610_m1_1_3', question: '【手紙】を かきます。', options: ['てがみ', 'でがみ', 'てかみ', 'でかみ'], correctIndex: 0, explanation: '手紙 (Thủ Chỉ) đọc là てがみ (Bức thư).' },
-          { id: 'm610_m1_1_3b', question: 'あたらしい 【車】を かいました。', options: ['くろま', 'くるま', 'でんしゃ', 'じてんしゃ'], correctIndex: 1, explanation: '車 (Xa) đọc là くるま (Ô tô).' }
-        ]
-      },
-      {
-        id: 'p_610_moji2_3',
-        type: 'moji_mondai2',
-        questions: [
-          { id: 'm610_m2_1_3', question: '【えいご】を べんきょうします。', options: ['英話', '英語', '英吾', '英悟'], correctIndex: 1, explanation: '英語 (Anh Ngữ) là Tiếng Anh.' },
-          { id: 'm610_m2_1_3b', question: 'ともだちに 【プレゼント】を あげます。', options: ['プレセント', 'プレゼント', 'フレゼント', 'プレザント'], correctIndex: 1, explanation: 'Present (Quà tặng) viết Katakana là プレゼント.' }
-        ]
-      },
-      {
-        id: 'p_610_moji3_3',
-        type: 'moji_mondai3',
-        questions: [
-          { id: 'm610_m3_1_3', question: 'はさみで かみを 【　　　】。', options: ['きります', 'かします', 'かります', 'もらいます'], correctIndex: 0, explanation: 'Cắt (きります) giấy bằng kéo.' },
-          { id: 'm610_m3_1_3b', question: 'この りんごは とても 【　　　】です。', options: ['つめたい', 'おいしい', 'おもしろい', 'いそがしい'], correctIndex: 1, explanation: 'Táo (りんご) thì ngon (おいしい).' }
-        ]
-      },
-      {
-        id: 'p_610_moji4_3',
-        type: 'moji_mondai4',
-        questions: [
-          { id: 'm610_m4_1_3', question: 'きのうは さむかったです。', options: ['きのうは あつかったです。', 'きのうは あたたかかったです。', 'きのうは すずしかったです。', 'きのうは いい てんきじゃありませんでした。'], correctIndex: 3, explanation: 'Trời lạnh (さむい) mang nét nghĩa thời tiết không thuận lợi trong các lựa chọn. (Tạm lấy nghĩa tương đồng: いい てんきじゃありませんでした - Thời tiết không tốt).' }
-        ]
-      },
-      {
-        id: 'p_610_m1_3',
-        type: 'mondai1',
-        questions: [
-          { id: 'm610_m1_1_q1', question: 'スプーン（　　　）ごはんを たべます。', options: ['で', 'に', 'を', 'が'], correctIndex: 0, explanation: 'Chỉ phương tiện/công cụ -> trợ từ で.' },
-          { id: 'm610_m1_1_q2', question: 'わたしは 木村さん（　　　）はなを あげました。', options: ['で', 'に', 'を', 'へ'], correctIndex: 1, explanation: 'Cho ai cái gì -> Danh từ người + に.' },
-          { id: 'm610_m1_1_q3', question: '日本の カメラは （　　　）ですか。', options: ['どう', 'どんな', 'どれ', 'どの'], correctIndex: 0, explanation: 'Hỏi tính chất/cảm nhận (Thế nào?) -> どうですか.' },
-          { id: 'm610_m1_1_q4', question: 'きのうの パーティーは （　　　）。', options: ['たのしいです', 'たのしかった', 'たのしかったです', 'たのしいでした'], correctIndex: 2, explanation: 'Tính từ đuôi い ở quá khứ -> い => かったです.' }
-        ]
-      },
-      {
-        id: 'p_610_m2_3',
-        type: 'mondai2',
-        questions: [
-          { id: 'm610_m2_1_q1', question: 'とうきょうは　___ ___ _★_ ___　まちです。', options: ['て', 'きれいで', 'にぎやかな', 'とても'], correctIndex: 3, explanation: 'とうきょうは (とても) (きれいで) (にぎやかな) (まち) です. ★ nằm ở vị trí にぎやかな.' },
-          { id: 'm610_m2_1_q2', question: 'わたしは　___ ___ _★_ ___　もらいました。', options: ['を', 'ともだち', 'に', 'とけい'], correctIndex: 0, explanation: 'わたしは (ともだち) (に) (とけい) (を) もらいました. ★ nằm ở vị trí とけい.' }
-        ]
-      },
-      {
-        id: 'p_610_m3_3',
-        type: 'mondai3',
-        text: [
-          'きのう わたしは スーパーへ いきました。',
-          'スーパーで くだもの（　１　）かいました。',
-          'スーパーの くだものは （　２　）。',
-          'そして、うちで かぞくと たべました。'
-        ],
-        questions: [
-          { id: 'm610_m3_1_q1', question: '（　１　）に入れるものはどれですか。', options: ['と', 'に', 'を', 'が'], correctIndex: 2, explanation: 'Mua trái cây: くだものを かいます.' },
-          { id: 'm610_m3_1_q2', question: '（　２　）に入れるものはどれですか。', options: ['やすかったです', 'やすいでした', 'やすいです', 'やすくないでした'], correctIndex: 0, explanation: 'Trái cây hôm qua -> Quá khứ -> やすかったです.' }
-        ]
-      },
-      {
-        id: 'p_610_m4_3',
-        type: 'mondai4',
-        text: [
-          'これは わたしの あたらしい じてんしゃです。',
-          'きのう ちちに もらいました。',
-          'とても きれいです。そして べんりです。',
-          'あした この じてんしゃで がっこうへ いきます。'
-        ],
-        questions: [
-          { id: 'm610_m4_1_q1', question: 'じてんしゃは だれに もらいましたか。', options: ['はは', 'ちち', 'ともだち', 'せんせい'], correctIndex: 1, explanation: 'ちちに もらいました (Nhận từ bố).' },
-          { id: 'm610_m4_1_q2', question: 'ただしいものは どれですか。', options: ['あした あるいて がっこうへ いきます。', 'じてんしゃは きれいです。でも ふべんです。', 'きのう じてんしゃを かいました。', 'じてんしゃは べんりです。'], correctIndex: 3, explanation: 'Xe đạp vừa đẹp vừa tiện lợi (べんりです).' }
-        ]
-      },
-      {
-        id: 'p_610_m5_3',
-        type: 'mondai5',
-        text: [
-          'きょうは わたしの たんじょうびです。',
-          'あさ ははに プレゼントを もらいました。シャツと ぼうしです。',
-          'シャツは しろいです。ぼうしは くろいです。',
-          'わたしは くろい ぼうしが とても すきです。',
-          'よる かぞくと いっしょに レストランで しょくじを します。',
-          'とても たのしみです。'
-        ],
-        questions: [
-          { id: 'm610_m5_1_q1', question: 'なにを もらいましたか。', options: ['しろい シャツと しろい ぼうし', 'くろい シャツと くろい ぼうし', 'しろい シャツと くろい ぼうし', 'くろい シャツと しろい ぼうし'], correctIndex: 2, explanation: 'シャツは しろいです。ぼうしは くろいです (Áo trắng và mũ đen).' },
-          { id: 'm610_m5_1_q2', question: 'よる どこで ごはんを たべますか。', options: ['うち', 'レストラン', 'かいしゃ', 'がっこう'], correctIndex: 1, explanation: 'レストランで しょくじを します (Ăn tại nhà hàng).' }
-        ]
-      },
-      {
-        id: 'p_610_m6_3',
-        type: 'mondai6',
-        htmlContent: '<div style="border: 2px solid var(--text); padding: 16px; border-radius: 8px; max-width: 400px; margin: 0 auto; background: var(--bg-card);"><h3 style="text-align: center; border-bottom: 2px dashed var(--border); padding-bottom: 8px; margin-top: 0;">さくら レストラン メニュー</h3><ul style="list-style-type: none; padding-left: 0; line-height: 1.8;"><li><strong>・カレー：</strong> ６００えん</li><li><strong>・ラーメン：</strong> ５００えん</li><li><strong>・コーヒー：</strong> ２００えん</li></ul></div>',
-        questions: [
-          { id: 'm610_m6_1_q1', question: 'ラーメンと コーヒーを たのみます。いくらですか。', options: ['７００えん', '８００えん', '６００えん', '５００えん'], correctIndex: 0, explanation: 'Ramen 500 yên + Cà phê 200 yên = 700 yên.' }
-        ]
-      }
-    ]
-  }
-
-
-  ,
-  {
-    id: 'review_6_10_4',
-    title: 'Đề thi 4: Trạm Ôn Tập JLPT N5 (Bài 6 - 10)',
-    description: 'Bộ đề ôn tập số 1. Trọng tâm: Tự động từ/Tha động từ, Tính từ, Cho/Nhận.',
-    passages: [
-      {
-        id: 'p_610_moji1_4',
-        type: 'moji_mondai1',
-        questions: [
-          { id: 'm610_m1_1_4', question: '【手紙】を かきます。', options: ['てがみ', 'でがみ', 'てかみ', 'でかみ'], correctIndex: 0, explanation: '手紙 (Thủ Chỉ) đọc là てがみ (Bức thư).' },
-          { id: 'm610_m1_1_4b', question: 'あたらしい 【車】を かいました。', options: ['くろま', 'くるま', 'でんしゃ', 'じてんしゃ'], correctIndex: 1, explanation: '車 (Xa) đọc là くるま (Ô tô).' }
-        ]
-      },
-      {
-        id: 'p_610_moji2_4',
-        type: 'moji_mondai2',
-        questions: [
-          { id: 'm610_m2_1_4', question: '【えいご】を べんきょうします。', options: ['英話', '英語', '英吾', '英悟'], correctIndex: 1, explanation: '英語 (Anh Ngữ) là Tiếng Anh.' },
-          { id: 'm610_m2_1_4b', question: 'ともだちに 【プレゼント】を あげます。', options: ['プレセント', 'プレゼント', 'フレゼント', 'プレザント'], correctIndex: 1, explanation: 'Present (Quà tặng) viết Katakana là プレゼント.' }
-        ]
-      },
-      {
-        id: 'p_610_moji3_4',
-        type: 'moji_mondai3',
-        questions: [
-          { id: 'm610_m3_1_4', question: 'はさみで かみを 【　　　】。', options: ['きります', 'かします', 'かります', 'もらいます'], correctIndex: 0, explanation: 'Cắt (きります) giấy bằng kéo.' },
-          { id: 'm610_m3_1_4b', question: 'この りんごは とても 【　　　】です。', options: ['つめたい', 'おいしい', 'おもしろい', 'いそがしい'], correctIndex: 1, explanation: 'Táo (りんご) thì ngon (おいしい).' }
-        ]
-      },
-      {
-        id: 'p_610_moji4_4',
-        type: 'moji_mondai4',
-        questions: [
-          { id: 'm610_m4_1_4', question: 'きのうは さむかったです。', options: ['きのうは あつかったです。', 'きのうは あたたかかったです。', 'きのうは すずしかったです。', 'きのうは いい てんきじゃありませんでした。'], correctIndex: 3, explanation: 'Trời lạnh (さむい) mang nét nghĩa thời tiết không thuận lợi trong các lựa chọn. (Tạm lấy nghĩa tương đồng: いい てんきじゃありませんでした - Thời tiết không tốt).' }
-        ]
-      },
-      {
-        id: 'p_610_m1_4',
-        type: 'mondai1',
-        questions: [
-          { id: 'm610_m1_1_q1', question: 'スプーン（　　　）ごはんを たべます。', options: ['で', 'に', 'を', 'が'], correctIndex: 0, explanation: 'Chỉ phương tiện/công cụ -> trợ từ で.' },
-          { id: 'm610_m1_1_q2', question: 'わたしは 木村さん（　　　）はなを あげました。', options: ['で', 'に', 'を', 'へ'], correctIndex: 1, explanation: 'Cho ai cái gì -> Danh từ người + に.' },
-          { id: 'm610_m1_1_q3', question: '日本の カメラは （　　　）ですか。', options: ['どう', 'どんな', 'どれ', 'どの'], correctIndex: 0, explanation: 'Hỏi tính chất/cảm nhận (Thế nào?) -> どうですか.' },
-          { id: 'm610_m1_1_q4', question: 'きのうの パーティーは （　　　）。', options: ['たのしいです', 'たのしかった', 'たのしかったです', 'たのしいでした'], correctIndex: 2, explanation: 'Tính từ đuôi い ở quá khứ -> い => かったです.' }
-        ]
-      },
-      {
-        id: 'p_610_m2_4',
-        type: 'mondai2',
-        questions: [
-          { id: 'm610_m2_1_q1', question: 'とうきょうは　___ ___ _★_ ___　まちです。', options: ['て', 'きれいで', 'にぎやかな', 'とても'], correctIndex: 3, explanation: 'とうきょうは (とても) (きれいで) (にぎやかな) (まち) です. ★ nằm ở vị trí にぎやかな.' },
-          { id: 'm610_m2_1_q2', question: 'わたしは　___ ___ _★_ ___　もらいました。', options: ['を', 'ともだち', 'に', 'とけい'], correctIndex: 0, explanation: 'わたしは (ともだち) (に) (とけい) (を) もらいました. ★ nằm ở vị trí とけい.' }
-        ]
-      },
-      {
-        id: 'p_610_m3_4',
-        type: 'mondai3',
-        text: [
-          'きのう わたしは スーパーへ いきました。',
-          'スーパーで くだもの（　１　）かいました。',
-          'スーパーの くだものは （　２　）。',
-          'そして、うちで かぞくと たべました。'
-        ],
-        questions: [
-          { id: 'm610_m3_1_q1', question: '（　１　）に入れるものはどれですか。', options: ['と', 'に', 'を', 'が'], correctIndex: 2, explanation: 'Mua trái cây: くだものを かいます.' },
-          { id: 'm610_m3_1_q2', question: '（　２　）に入れるものはどれですか。', options: ['やすかったです', 'やすいでした', 'やすいです', 'やすくないでした'], correctIndex: 0, explanation: 'Trái cây hôm qua -> Quá khứ -> やすかったです.' }
-        ]
-      },
-      {
-        id: 'p_610_m4_4',
-        type: 'mondai4',
-        text: [
-          'これは わたしの あたらしい じてんしゃです。',
-          'きのう ちちに もらいました。',
-          'とても きれいです。そして べんりです。',
-          'あした この じてんしゃで がっこうへ いきます。'
-        ],
-        questions: [
-          { id: 'm610_m4_1_q1', question: 'じてんしゃは だれに もらいましたか。', options: ['はは', 'ちち', 'ともだち', 'せんせい'], correctIndex: 1, explanation: 'ちちに もらいました (Nhận từ bố).' },
-          { id: 'm610_m4_1_q2', question: 'ただしいものは どれですか。', options: ['あした あるいて がっこうへ いきます。', 'じてんしゃは きれいです。でも ふべんです。', 'きのう じてんしゃを かいました。', 'じてんしゃは べんりです。'], correctIndex: 3, explanation: 'Xe đạp vừa đẹp vừa tiện lợi (べんりです).' }
-        ]
-      },
-      {
-        id: 'p_610_m5_4',
-        type: 'mondai5',
-        text: [
-          'きょうは わたしの たんじょうびです。',
-          'あさ ははに プレゼントを もらいました。シャツと ぼうしです。',
-          'シャツは しろいです。ぼうしは くろいです。',
-          'わたしは くろい ぼうしが とても すきです。',
-          'よる かぞくと いっしょに レストランで しょくじを します。',
-          'とても たのしみです。'
-        ],
-        questions: [
-          { id: 'm610_m5_1_q1', question: 'なにを もらいましたか。', options: ['しろい シャツと しろい ぼうし', 'くろい シャツと くろい ぼうし', 'しろい シャツと くろい ぼうし', 'くろい シャツと しろい ぼうし'], correctIndex: 2, explanation: 'シャツは しろいです。ぼうしは くろいです (Áo trắng và mũ đen).' },
-          { id: 'm610_m5_1_q2', question: 'よる どこで ごはんを たべますか。', options: ['うち', 'レストラン', 'かいしゃ', 'がっこう'], correctIndex: 1, explanation: 'レストランで しょくじを します (Ăn tại nhà hàng).' }
-        ]
-      },
-      {
-        id: 'p_610_m6_4',
-        type: 'mondai6',
-        htmlContent: '<div style="border: 2px solid var(--text); padding: 16px; border-radius: 8px; max-width: 400px; margin: 0 auto; background: var(--bg-card);"><h3 style="text-align: center; border-bottom: 2px dashed var(--border); padding-bottom: 8px; margin-top: 0;">さくら レストラン メニュー</h3><ul style="list-style-type: none; padding-left: 0; line-height: 1.8;"><li><strong>・カレー：</strong> ６００えん</li><li><strong>・ラーメン：</strong> ５００えん</li><li><strong>・コーヒー：</strong> ２００えん</li></ul></div>',
-        questions: [
-          { id: 'm610_m6_1_q1', question: 'ラーメンと コーヒーを たのみます。いくらですか。', options: ['７００えん', '８００えん', '６００えん', '５００えん'], correctIndex: 0, explanation: 'Ramen 500 yên + Cà phê 200 yên = 700 yên.' }
-        ]
-      }
-    ]
-  }
-
-
-  ,
-  {
-    id: 'review_6_10_5',
-    title: 'Đề thi 5: Trạm Ôn Tập JLPT N5 (Bài 6 - 10)',
-    description: 'Bộ đề ôn tập số 1. Trọng tâm: Tự động từ/Tha động từ, Tính từ, Cho/Nhận.',
-    passages: [
-      {
-        id: 'p_610_moji1_5',
-        type: 'moji_mondai1',
-        questions: [
-          { id: 'm610_m1_1_5', question: '【手紙】を かきます。', options: ['てがみ', 'でがみ', 'てかみ', 'でかみ'], correctIndex: 0, explanation: '手紙 (Thủ Chỉ) đọc là てがみ (Bức thư).' },
-          { id: 'm610_m1_1_5b', question: 'あたらしい 【車】を かいました。', options: ['くろま', 'くるま', 'でんしゃ', 'じてんしゃ'], correctIndex: 1, explanation: '車 (Xa) đọc là くるま (Ô tô).' }
-        ]
-      },
-      {
-        id: 'p_610_moji2_5',
-        type: 'moji_mondai2',
-        questions: [
-          { id: 'm610_m2_1_5', question: '【えいご】を べんきょうします。', options: ['英話', '英語', '英吾', '英悟'], correctIndex: 1, explanation: '英語 (Anh Ngữ) là Tiếng Anh.' },
-          { id: 'm610_m2_1_5b', question: 'ともだちに 【プレゼント】を あげます。', options: ['プレセント', 'プレゼント', 'フレゼント', 'プレザント'], correctIndex: 1, explanation: 'Present (Quà tặng) viết Katakana là プレゼント.' }
-        ]
-      },
-      {
-        id: 'p_610_moji3_5',
-        type: 'moji_mondai3',
-        questions: [
-          { id: 'm610_m3_1_5', question: 'はさみで かみを 【　　　】。', options: ['きります', 'かします', 'かります', 'もらいます'], correctIndex: 0, explanation: 'Cắt (きります) giấy bằng kéo.' },
-          { id: 'm610_m3_1_5b', question: 'この りんごは とても 【　　　】です。', options: ['つめたい', 'おいしい', 'おもしろい', 'いそがしい'], correctIndex: 1, explanation: 'Táo (りんご) thì ngon (おいしい).' }
-        ]
-      },
-      {
-        id: 'p_610_moji4_5',
-        type: 'moji_mondai4',
-        questions: [
-          { id: 'm610_m4_1_5', question: 'きのうは さむかったです。', options: ['きのうは あつかったです。', 'きのうは あたたかかったです。', 'きのうは すずしかったです。', 'きのうは いい てんきじゃありませんでした。'], correctIndex: 3, explanation: 'Trời lạnh (さむい) mang nét nghĩa thời tiết không thuận lợi trong các lựa chọn. (Tạm lấy nghĩa tương đồng: いい てんきじゃありませんでした - Thời tiết không tốt).' }
-        ]
-      },
-      {
-        id: 'p_610_m1_5',
-        type: 'mondai1',
-        questions: [
-          { id: 'm610_m1_1_q1', question: 'スプーン（　　　）ごはんを たべます。', options: ['で', 'に', 'を', 'が'], correctIndex: 0, explanation: 'Chỉ phương tiện/công cụ -> trợ từ で.' },
-          { id: 'm610_m1_1_q2', question: 'わたしは 木村さん（　　　）はなを あげました。', options: ['で', 'に', 'を', 'へ'], correctIndex: 1, explanation: 'Cho ai cái gì -> Danh từ người + に.' },
-          { id: 'm610_m1_1_q3', question: '日本の カメラは （　　　）ですか。', options: ['どう', 'どんな', 'どれ', 'どの'], correctIndex: 0, explanation: 'Hỏi tính chất/cảm nhận (Thế nào?) -> どうですか.' },
-          { id: 'm610_m1_1_q4', question: 'きのうの パーティーは （　　　）。', options: ['たのしいです', 'たのしかった', 'たのしかったです', 'たのしいでした'], correctIndex: 2, explanation: 'Tính từ đuôi い ở quá khứ -> い => かったです.' }
-        ]
-      },
-      {
-        id: 'p_610_m2_5',
-        type: 'mondai2',
-        questions: [
-          { id: 'm610_m2_1_q1', question: 'とうきょうは　___ ___ _★_ ___　まちです。', options: ['て', 'きれいで', 'にぎやかな', 'とても'], correctIndex: 3, explanation: 'とうきょうは (とても) (きれいで) (にぎやかな) (まち) です. ★ nằm ở vị trí にぎやかな.' },
-          { id: 'm610_m2_1_q2', question: 'わたしは　___ ___ _★_ ___　もらいました。', options: ['を', 'ともだち', 'に', 'とけい'], correctIndex: 0, explanation: 'わたしは (ともだち) (に) (とけい) (を) もらいました. ★ nằm ở vị trí とけい.' }
-        ]
-      },
-      {
-        id: 'p_610_m3_5',
-        type: 'mondai3',
-        text: [
-          'きのう わたしは スーパーへ いきました。',
-          'スーパーで くだもの（　１　）かいました。',
-          'スーパーの くだものは （　２　）。',
-          'そして、うちで かぞくと たべました。'
-        ],
-        questions: [
-          { id: 'm610_m3_1_q1', question: '（　１　）に入れるものはどれですか。', options: ['と', 'に', 'を', 'が'], correctIndex: 2, explanation: 'Mua trái cây: くだものを かいます.' },
-          { id: 'm610_m3_1_q2', question: '（　２　）に入れるものはどれですか。', options: ['やすかったです', 'やすいでした', 'やすいです', 'やすくないでした'], correctIndex: 0, explanation: 'Trái cây hôm qua -> Quá khứ -> やすかったです.' }
-        ]
-      },
-      {
-        id: 'p_610_m4_5',
-        type: 'mondai4',
-        text: [
-          'これは わたしの あたらしい じてんしゃです。',
-          'きのう ちちに もらいました。',
-          'とても きれいです。そして べんりです。',
-          'あした この じてんしゃで がっこうへ いきます。'
-        ],
-        questions: [
-          { id: 'm610_m4_1_q1', question: 'じてんしゃは だれに もらいましたか。', options: ['はは', 'ちち', 'ともだち', 'せんせい'], correctIndex: 1, explanation: 'ちちに もらいました (Nhận từ bố).' },
-          { id: 'm610_m4_1_q2', question: 'ただしいものは どれですか。', options: ['あした あるいて がっこうへ いきます。', 'じてんしゃは きれいです。でも ふべんです。', 'きのう じてんしゃを かいました。', 'じてんしゃは べんりです。'], correctIndex: 3, explanation: 'Xe đạp vừa đẹp vừa tiện lợi (べんりです).' }
-        ]
-      },
-      {
-        id: 'p_610_m5_5',
-        type: 'mondai5',
-        text: [
-          'きょうは わたしの たんじょうびです。',
-          'あさ ははに プレゼントを もらいました。シャツと ぼうしです。',
-          'シャツは しろいです。ぼうしは くろいです。',
-          'わたしは くろい ぼうしが とても すきです。',
-          'よる かぞくと いっしょに レストランで しょくじを します。',
-          'とても たのしみです。'
-        ],
-        questions: [
-          { id: 'm610_m5_1_q1', question: 'なにを もらいましたか。', options: ['しろい シャツと しろい ぼうし', 'くろい シャツと くろい ぼうし', 'しろい シャツと くろい ぼうし', 'くろい シャツと しろい ぼうし'], correctIndex: 2, explanation: 'シャツは しろいです。ぼうしは くろいです (Áo trắng và mũ đen).' },
-          { id: 'm610_m5_1_q2', question: 'よる どこで ごはんを たべますか。', options: ['うち', 'レストラン', 'かいしゃ', 'がっこう'], correctIndex: 1, explanation: 'レストランで しょくじを します (Ăn tại nhà hàng).' }
-        ]
-      },
-      {
-        id: 'p_610_m6_5',
-        type: 'mondai6',
-        htmlContent: '<div style="border: 2px solid var(--text); padding: 16px; border-radius: 8px; max-width: 400px; margin: 0 auto; background: var(--bg-card);"><h3 style="text-align: center; border-bottom: 2px dashed var(--border); padding-bottom: 8px; margin-top: 0;">さくら レストラン メニュー</h3><ul style="list-style-type: none; padding-left: 0; line-height: 1.8;"><li><strong>・カレー：</strong> ６００えん</li><li><strong>・ラーメン：</strong> ５００えん</li><li><strong>・コーヒー：</strong> ２００えん</li></ul></div>',
-        questions: [
-          { id: 'm610_m6_1_q1', question: 'ラーメンと コーヒーを たのみます。いくらですか。', options: ['７００えん', '８００えん', '６００えん', '５００えん'], correctIndex: 0, explanation: 'Ramen 500 yên + Cà phê 200 yên = 700 yên.' }
-        ]
-      }
-    ]
-  }
-
-
-  ,
-  {
-    id: 'review_11_15_1',
-    title: 'Đề thi 1: Trạm Ôn Tập JLPT N5 (Bài 11 - 15)',
-    description: 'Bộ đề ôn tập số 1. Trọng tâm: Đếm số lượng, Thể て (Te), Mong muốn (たい/ほしい).',
-    passages: [
-      {
-        id: 'p_1115_moji1_1',
-        type: 'moji_mondai1',
-        questions: [
-          { id: 'm1115_m1_1_1', question: 'きのう 【外国】へ いきました。', options: ['がいこく', 'がいごく', 'かいこく', 'かいごく'], correctIndex: 0, explanation: '外国 (Ngoại Quốc) đọc là がいこく (Nước ngoài).' },
-          { id: 'm1115_m1_1_1b', question: 'ここは 【有名】な まちです。', options: ['ゆめい', 'ゆうめい', 'ゆめ', 'ゆうめ'], correctIndex: 1, explanation: '有名 (Hữu Danh) đọc là ゆうめい (Nổi tiếng).' }
-        ]
-      },
-      {
-        id: 'p_1115_moji2_1',
-        type: 'moji_mondai2',
-        questions: [
-          { id: 'm1115_m2_1_1', question: '【カメラ】を かいたいです。', options: ['カメテ', 'カメラ', 'ガメラ', 'カヌラ'], correctIndex: 1, explanation: 'Camera (máy ảnh) viết là カメラ.' },
-          { id: 'm1115_m2_1_1b', question: 'あたらし 【くるま】が ほしいです。', options: ['車', '軍', '庫', '連'], correctIndex: 0, explanation: 'Xe ô tô viết là 車.' }
-        ]
-      },
-      {
-        id: 'p_1115_moji3_1',
-        type: 'moji_mondai3',
-        questions: [
-          { id: 'm1115_m3_1_1', question: 'りんごを みっつ 【　　　】ください。', options: ['で', 'を', 'に', 'と'], correctIndex: 1, explanation: 'Xin vui lòng cho tôi 3 quả táo: りんごを みっつ ください.' },
-          { id: 'm1115_m3_1_1b', question: 'わたしは いま のどが 【　　　】。', options: ['かわきました', 'すきました', 'いたいです', 'わるいです'], correctIndex: 0, explanation: 'Khát nước: のどが かわきました.' }
-        ]
-      },
-      {
-        id: 'p_1115_moji4_1',
-        type: 'moji_mondai4',
-        questions: [
-          { id: 'm1115_m4_1_1', question: 'ここを まっすぐ いって ください。', options: ['ここは まっすぐです。', 'ここから まっすぐ いきましょう。', 'ここを まっすぐ いっても いいですか。', 'ここを まっすぐ いきなさい。'], correctIndex: 1, explanation: 'Hãy đi thẳng chỗ này = Chúng ta hãy đi thẳng từ đây (Tương đồng nghĩa sai khiến/rủ rê hành động).' }
-        ]
-      },
-      {
-        id: 'p_1115_m1_1',
-        type: 'mondai1',
-        questions: [
-          { id: 'm1115_m1_1_q1', question: 'きょうは （　　　） たのしかったです。', options: ['とても', 'あまり', 'ぜんぜん', 'すこし'], correctIndex: 0, explanation: 'Câu khẳng định -> とても (Rất).' },
-          { id: 'm1115_m1_1_q2', question: 'ここで しゃしんを （　　　）は いけません。', options: ['とる', 'とり', 'とって', 'とらない'], correctIndex: 2, explanation: 'Mẫu câu cấm đoán: Vて はいけません -> とって.' },
-          { id: 'm1115_m1_1_q3', question: 'A「ちょっと （　　　）ましょうか。」\nB「ええ、そうしましょう。」', options: ['やすみ', 'やすむ', 'やすんで', 'やすまない'], correctIndex: 0, explanation: 'Cấu trúc Vましょうか (Rủ rê) -> Động từ bỏ ます + ましょうか -> やすみ.' },
-          { id: 'm1115_m1_1_q4', question: 'りんご（　　　）みかんと どちらが すきですか。', options: ['と', 'や', 'に', 'で'], correctIndex: 0, explanation: 'So sánh lựa chọn: Danh từ 1 と Danh từ 2 と どちらが ~ -> と.' }
-        ]
-      },
-      {
-        id: 'p_1115_m2_1',
-        type: 'mondai2',
-        questions: [
-          { id: 'm1115_m2_1_q1', question: 'わたしは　___ ___ _★_ ___　いきます。', options: ['えいが', 'に', 'を', 'みに'], correctIndex: 3, explanation: 'わたしは (わたしは (えいが) (を) (みに) (いきます) -> ★ rơi vào みに.' },
-          { id: 'm1115_m2_1_q2', question: 'この　___ ___ _★_ ___　いいですか。', options: ['を', 'ペン', 'つかっても', 'は'], correctIndex: 2, explanation: 'この (ペン) (は) (つかっても) (いいですか).' }
-        ]
-      },
-      {
-        id: 'p_1115_m3_1',
-        type: 'mondai3',
-        text: [
-          'わたしの かぞくは ４にんです。',
-          'ちちと ははと あにと わたしです。',
-          'あには だいがくせいです。いま とうきょう（　１　）すんでいます。',
-          'わたしは こうこうせいです。',
-          'らいねん だいがくへ （　２　）たいです。'
-        ],
-        questions: [
-          { id: 'm1115_m3_1_q1', question: '（　１　）に入れるものはどれですか。', options: ['で', 'に', 'へ', 'を'], correctIndex: 1, explanation: 'Sống ở đâu dùng trợ từ に -> とうきょうに すんでいます.' },
-          { id: 'm1115_m3_1_q2', question: '（　２　）に入れるものはどれですか。', options: ['いき', 'いく', 'いって', 'いきたい'], correctIndex: 0, explanation: 'Muốn đi -> Động từ thể ます bỏ ます + たい -> いき.' }
-        ]
-      },
-      {
-        id: 'p_1115_m4_1',
-        type: 'mondai4',
-        text: [
-          '（みせで）',
-          'やまだ：すみません。この かばんは いくらですか。',
-          'てんいん：それは ３，０００えんです。',
-          'やまだ：じゃ、これを ください。あ、カードで はらっても いいですか。',
-          'てんいん：はい、いいですよ。'
-        ],
-        questions: [
-          { id: 'm1115_m4_1_q1', question: 'かばんは いくらですか。', options: ['３００えん', '３，０００えん', '１３，０００えん', '３０，０００えん'], correctIndex: 1, explanation: '３，０００えんです (3000 yên).' },
-          { id: 'm1115_m4_1_q2', question: 'やまださんは どうやって おかねを はらいますか。', options: ['げんきんで はらいます。', 'カードで はらいます。', 'おかねを はらいません。', 'わかりません。'], correctIndex: 1, explanation: 'カードで はらっても いいですか -> Bằng thẻ (カード).' }
-        ]
-      },
-      {
-        id: 'p_1115_m5_1',
-        type: 'mondai5',
-        text: [
-          'わたしは らいしゅうの にちようびに ともだちと きょうとへ いきます。',
-          'きょうとは おてらが たくさん ありますから、とても きれいです。',
-          'きょうとまで しんかんせんで ２じかんはん かかります。',
-          'きょうとで おてらを みて、おいしい ごはんを たべます。',
-          'そして、しゃしんを たくさん とりたいです。'
-        ],
-        questions: [
-          { id: 'm1115_m5_1_q1', question: 'だれと きょうとへ いきますか。', options: ['ひとりで', 'かぞくと', 'ともだちと', 'せんせいと'], correctIndex: 2, explanation: 'ともだちと きょうとへ いきます (Đi cùng bạn bè).' },
-          { id: 'm1115_m5_1_q2', question: 'ただしいものは どれですか。', options: ['きょうとまで バスで いきます。', 'きょうとで えいがを みます。', 'きょうとに おてらが ありません。', 'きょうとで しゃしんを とります。'], correctIndex: 3, explanation: 'しゃしんを たくさん とりたいです (Muốn chụp nhiều ảnh).' }
-        ]
-      },
-      {
-        id: 'p_1115_m6_1',
-        type: 'mondai6',
-        htmlContent: '<div style="border: 2px solid var(--text); padding: 16px; border-radius: 8px; max-width: 400px; margin: 0 auto; background: var(--bg-card);"><h3 style="text-align: center; border-bottom: 2px dashed var(--border); padding-bottom: 8px; margin-top: 0;">としょかんの ルール</h3><ul style="list-style-type: none; padding-left: 0; line-height: 1.8;"><li>１．ここで ごはんを たべないで ください。</li><li>２．しゃしんを とっては いけません。</li><li>３．ほんは ２しゅうかんで かえして ください。</li></ul></div>',
-        questions: [
-          { id: 'm1115_m6_1_q1', question: 'としょかんで しても いいことは どれですか。', options: ['ごはんを たべること', 'しゃしんを とること', 'ほんを かりること', 'おおきい こえで はなすこと'], correctIndex: 2, explanation: 'Mượn sách (ほんを かりること) là việc được phép. Cấm ăn, cấm chụp ảnh.' }
-        ]
-      }
-    ]
-  }
-
-
-  ,
-  {
-    id: 'review_11_15_2',
-    title: 'Đề thi 2: Trạm Ôn Tập JLPT N5 (Bài 11 - 15)',
-    description: 'Bộ đề ôn tập số 1. Trọng tâm: Đếm số lượng, Thể て (Te), Mong muốn (たい/ほしい).',
-    passages: [
-      {
-        id: 'p_1115_moji1_2',
-        type: 'moji_mondai1',
-        questions: [
-          { id: 'm1115_m1_1_2b', question: 'きのう 【外国】へ いきました。', options: ['がいこく', 'がいごく', 'かいこく', 'かいごく'], correctIndex: 0, explanation: '外国 (Ngoại Quốc) đọc là がいこく (Nước ngoài).' },
-          { id: 'm1115_m1_1_2b', question: 'ここは 【有名】な まちです。', options: ['ゆめい', 'ゆうめい', 'ゆめ', 'ゆうめ'], correctIndex: 1, explanation: '有名 (Hữu Danh) đọc là ゆうめい (Nổi tiếng).' }
-        ]
-      },
-      {
-        id: 'p_1115_moji2_2',
-        type: 'moji_mondai2',
-        questions: [
-          { id: 'm1115_m2_1_2b', question: '【カメラ】を かいたいです。', options: ['カメテ', 'カメラ', 'ガメラ', 'カヌラ'], correctIndex: 1, explanation: 'Camera (máy ảnh) viết là カメラ.' },
-          { id: 'm1115_m2_1_2b', question: 'あたらし 【くるま】が ほしいです。', options: ['車', '軍', '庫', '連'], correctIndex: 0, explanation: 'Xe ô tô viết là 車.' }
-        ]
-      },
-      {
-        id: 'p_1115_moji3_2',
-        type: 'moji_mondai3',
-        questions: [
-          { id: 'm1115_m3_1_2b', question: 'りんごを みっつ 【　　　】ください。', options: ['で', 'を', 'に', 'と'], correctIndex: 1, explanation: 'Xin vui lòng cho tôi 3 quả táo: りんごを みっつ ください.' },
-          { id: 'm1115_m3_1_2b', question: 'わたしは いま のどが 【　　　】。', options: ['かわきました', 'すきました', 'いたいです', 'わるいです'], correctIndex: 0, explanation: 'Khát nước: のどが かわきました.' }
-        ]
-      },
-      {
-        id: 'p_1115_moji4_2',
-        type: 'moji_mondai4',
-        questions: [
-          { id: 'm1115_m4_1_2b', question: 'ここを まっすぐ いって ください。', options: ['ここは まっすぐです。', 'ここから まっすぐ いきましょう。', 'ここを まっすぐ いっても いいですか。', 'ここを まっすぐ いきなさい。'], correctIndex: 1, explanation: 'Hãy đi thẳng chỗ này = Chúng ta hãy đi thẳng từ đây (Tương đồng nghĩa sai khiến/rủ rê hành động).' }
-        ]
-      },
-      {
-        id: 'p_1115_m1_2',
-        type: 'mondai1',
-        questions: [
-          { id: 'm1115_m1_1_q1', question: 'きょうは （　　　） たのしかったです。', options: ['とても', 'あまり', 'ぜんぜん', 'すこし'], correctIndex: 0, explanation: 'Câu khẳng định -> とても (Rất).' },
-          { id: 'm1115_m1_1_q2', question: 'ここで しゃしんを （　　　）は いけません。', options: ['とる', 'とり', 'とって', 'とらない'], correctIndex: 2, explanation: 'Mẫu câu cấm đoán: Vて はいけません -> とって.' },
-          { id: 'm1115_m1_1_q3', question: 'A「ちょっと （　　　）ましょうか。」\nB「ええ、そうしましょう。」', options: ['やすみ', 'やすむ', 'やすんで', 'やすまない'], correctIndex: 0, explanation: 'Cấu trúc Vましょうか (Rủ rê) -> Động từ bỏ ます + ましょうか -> やすみ.' },
-          { id: 'm1115_m1_1_q4', question: 'りんご（　　　）みかんと どちらが すきですか。', options: ['と', 'や', 'に', 'で'], correctIndex: 0, explanation: 'So sánh lựa chọn: Danh từ 1 と Danh từ 2 と どちらが ~ -> と.' }
-        ]
-      },
-      {
-        id: 'p_1115_m2_2',
-        type: 'mondai2',
-        questions: [
-          { id: 'm1115_m2_1_q1', question: 'わたしは　___ ___ _★_ ___　いきます。', options: ['えいが', 'に', 'を', 'みに'], correctIndex: 3, explanation: 'わたしは (わたしは (えいが) (を) (みに) (いきます) -> ★ rơi vào みに.' },
-          { id: 'm1115_m2_1_q2', question: 'この　___ ___ _★_ ___　いいですか。', options: ['を', 'ペン', 'つかっても', 'は'], correctIndex: 2, explanation: 'この (ペン) (は) (つかっても) (いいですか).' }
-        ]
-      },
-      {
-        id: 'p_1115_m3_2',
-        type: 'mondai3',
-        text: [
-          'わたしの かぞくは ４にんです。',
-          'ちちと ははと あにと わたしです。',
-          'あには だいがくせいです。いま とうきょう（　１　）すんでいます。',
-          'わたしは こうこうせいです。',
-          'らいねん だいがくへ （　２　）たいです。'
-        ],
-        questions: [
-          { id: 'm1115_m3_1_q1', question: '（　１　）に入れるものはどれですか。', options: ['で', 'に', 'へ', 'を'], correctIndex: 1, explanation: 'Sống ở đâu dùng trợ từ に -> とうきょうに すんでいます.' },
-          { id: 'm1115_m3_1_q2', question: '（　２　）に入れるものはどれですか。', options: ['いき', 'いく', 'いって', 'いきたい'], correctIndex: 0, explanation: 'Muốn đi -> Động từ thể ます bỏ ます + たい -> いき.' }
-        ]
-      },
-      {
-        id: 'p_1115_m4_2',
-        type: 'mondai4',
-        text: [
-          '（みせで）',
-          'やまだ：すみません。この かばんは いくらですか。',
-          'てんいん：それは ３，０００えんです。',
-          'やまだ：じゃ、これを ください。あ、カードで はらっても いいですか。',
-          'てんいん：はい、いいですよ。'
-        ],
-        questions: [
-          { id: 'm1115_m4_1_q1', question: 'かばんは いくらですか。', options: ['３００えん', '３，０００えん', '１３，０００えん', '３０，０００えん'], correctIndex: 1, explanation: '３，０００えんです (3000 yên).' },
-          { id: 'm1115_m4_1_q2', question: 'やまださんは どうやって おかねを はらいますか。', options: ['げんきんで はらいます。', 'カードで はらいます。', 'おかねを はらいません。', 'わかりません。'], correctIndex: 1, explanation: 'カードで はらっても いいですか -> Bằng thẻ (カード).' }
-        ]
-      },
-      {
-        id: 'p_1115_m5_2',
-        type: 'mondai5',
-        text: [
-          'わたしは らいしゅうの にちようびに ともだちと きょうとへ いきます。',
-          'きょうとは おてらが たくさん ありますから、とても きれいです。',
-          'きょうとまで しんかんせんで ２じかんはん かかります。',
-          'きょうとで おてらを みて、おいしい ごはんを たべます。',
-          'そして、しゃしんを たくさん とりたいです。'
-        ],
-        questions: [
-          { id: 'm1115_m5_1_q1', question: 'だれと きょうとへ いきますか。', options: ['ひとりで', 'かぞくと', 'ともだちと', 'せんせいと'], correctIndex: 2, explanation: 'ともだちと きょうとへ いきます (Đi cùng bạn bè).' },
-          { id: 'm1115_m5_1_q2', question: 'ただしいものは どれですか。', options: ['きょうとまで バスで いきます。', 'きょうとで えいがを みます。', 'きょうとに おてらが ありません。', 'きょうとで しゃしんを とります。'], correctIndex: 3, explanation: 'しゃしんを たくさん とりたいです (Muốn chụp nhiều ảnh).' }
-        ]
-      },
-      {
-        id: 'p_1115_m6_2',
-        type: 'mondai6',
-        htmlContent: '<div style="border: 2px solid var(--text); padding: 16px; border-radius: 8px; max-width: 400px; margin: 0 auto; background: var(--bg-card);"><h3 style="text-align: center; border-bottom: 2px dashed var(--border); padding-bottom: 8px; margin-top: 0;">としょかんの ルール</h3><ul style="list-style-type: none; padding-left: 0; line-height: 1.8;"><li>１．ここで ごはんを たべないで ください。</li><li>２．しゃしんを とっては いけません。</li><li>３．ほんは ２しゅうかんで かえして ください。</li></ul></div>',
-        questions: [
-          { id: 'm1115_m6_1_q1', question: 'としょかんで しても いいことは どれですか。', options: ['ごはんを たべること', 'しゃしんを とること', 'ほんを かりること', 'おおきい こえで はなすこと'], correctIndex: 2, explanation: 'Mượn sách (ほんを かりること) là việc được phép. Cấm ăn, cấm chụp ảnh.' }
-        ]
-      }
-    ]
-  }
-
-
-  ,
-  {
-    id: 'review_11_15_3',
-    title: 'Đề thi 3: Trạm Ôn Tập JLPT N5 (Bài 11 - 15)',
-    description: 'Bộ đề ôn tập số 1. Trọng tâm: Đếm số lượng, Thể て (Te), Mong muốn (たい/ほしい).',
-    passages: [
-      {
-        id: 'p_1115_moji1_3',
-        type: 'moji_mondai1',
-        questions: [
-          { id: 'm1115_m1_1_3', question: 'きのう 【外国】へ いきました。', options: ['がいこく', 'がいごく', 'かいこく', 'かいごく'], correctIndex: 0, explanation: '外国 (Ngoại Quốc) đọc là がいこく (Nước ngoài).' },
-          { id: 'm1115_m1_1_3b', question: 'ここは 【有名】な まちです。', options: ['ゆめい', 'ゆうめい', 'ゆめ', 'ゆうめ'], correctIndex: 1, explanation: '有名 (Hữu Danh) đọc là ゆうめい (Nổi tiếng).' }
-        ]
-      },
-      {
-        id: 'p_1115_moji2_3',
-        type: 'moji_mondai2',
-        questions: [
-          { id: 'm1115_m2_1_3', question: '【カメラ】を かいたいです。', options: ['カメテ', 'カメラ', 'ガメラ', 'カヌラ'], correctIndex: 1, explanation: 'Camera (máy ảnh) viết là カメラ.' },
-          { id: 'm1115_m2_1_3b', question: 'あたらし 【くるま】が ほしいです。', options: ['車', '軍', '庫', '連'], correctIndex: 0, explanation: 'Xe ô tô viết là 車.' }
-        ]
-      },
-      {
-        id: 'p_1115_moji3_3',
-        type: 'moji_mondai3',
-        questions: [
-          { id: 'm1115_m3_1_3', question: 'りんごを みっつ 【　　　】ください。', options: ['で', 'を', 'に', 'と'], correctIndex: 1, explanation: 'Xin vui lòng cho tôi 3 quả táo: りんごを みっつ ください.' },
-          { id: 'm1115_m3_1_3b', question: 'わたしは いま のどが 【　　　】。', options: ['かわきました', 'すきました', 'いたいです', 'わるいです'], correctIndex: 0, explanation: 'Khát nước: のどが かわきました.' }
-        ]
-      },
-      {
-        id: 'p_1115_moji4_3',
-        type: 'moji_mondai4',
-        questions: [
-          { id: 'm1115_m4_1_3', question: 'ここを まっすぐ いって ください。', options: ['ここは まっすぐです。', 'ここから まっすぐ いきましょう。', 'ここを まっすぐ いっても いいですか。', 'ここを まっすぐ いきなさい。'], correctIndex: 1, explanation: 'Hãy đi thẳng chỗ này = Chúng ta hãy đi thẳng từ đây (Tương đồng nghĩa sai khiến/rủ rê hành động).' }
-        ]
-      },
-      {
-        id: 'p_1115_m1_3',
-        type: 'mondai1',
-        questions: [
-          { id: 'm1115_m1_1_q1', question: 'きょうは （　　　） たのしかったです。', options: ['とても', 'あまり', 'ぜんぜん', 'すこし'], correctIndex: 0, explanation: 'Câu khẳng định -> とても (Rất).' },
-          { id: 'm1115_m1_1_q2', question: 'ここで しゃしんを （　　　）は いけません。', options: ['とる', 'とり', 'とって', 'とらない'], correctIndex: 2, explanation: 'Mẫu câu cấm đoán: Vて はいけません -> とって.' },
-          { id: 'm1115_m1_1_q3', question: 'A「ちょっと （　　　）ましょうか。」\nB「ええ、そうしましょう。」', options: ['やすみ', 'やすむ', 'やすんで', 'やすまない'], correctIndex: 0, explanation: 'Cấu trúc Vましょうか (Rủ rê) -> Động từ bỏ ます + ましょうか -> やすみ.' },
-          { id: 'm1115_m1_1_q4', question: 'りんご（　　　）みかんと どちらが すきですか。', options: ['と', 'や', 'に', 'で'], correctIndex: 0, explanation: 'So sánh lựa chọn: Danh từ 1 と Danh từ 2 と どちらが ~ -> と.' }
-        ]
-      },
-      {
-        id: 'p_1115_m2_3',
-        type: 'mondai2',
-        questions: [
-          { id: 'm1115_m2_1_q1', question: 'わたしは　___ ___ _★_ ___　いきます。', options: ['えいが', 'に', 'を', 'みに'], correctIndex: 3, explanation: 'わたしは (わたしは (えいが) (を) (みに) (いきます) -> ★ rơi vào みに.' },
-          { id: 'm1115_m2_1_q2', question: 'この　___ ___ _★_ ___　いいですか。', options: ['を', 'ペン', 'つかっても', 'は'], correctIndex: 2, explanation: 'この (ペン) (は) (つかっても) (いいですか).' }
-        ]
-      },
-      {
-        id: 'p_1115_m3_3',
-        type: 'mondai3',
-        text: [
-          'わたしの かぞくは ４にんです。',
-          'ちちと ははと あにと わたしです。',
-          'あには だいがくせいです。いま とうきょう（　１　）すんでいます。',
-          'わたしは こうこうせいです。',
-          'らいねん だいがくへ （　２　）たいです。'
-        ],
-        questions: [
-          { id: 'm1115_m3_1_q1', question: '（　１　）に入れるものはどれですか。', options: ['で', 'に', 'へ', 'を'], correctIndex: 1, explanation: 'Sống ở đâu dùng trợ từ に -> とうきょうに すんでいます.' },
-          { id: 'm1115_m3_1_q2', question: '（　２　）に入れるものはどれですか。', options: ['いき', 'いく', 'いって', 'いきたい'], correctIndex: 0, explanation: 'Muốn đi -> Động từ thể ます bỏ ます + たい -> いき.' }
-        ]
-      },
-      {
-        id: 'p_1115_m4_3',
-        type: 'mondai4',
-        text: [
-          '（みせで）',
-          'やまだ：すみません。この かばんは いくらですか。',
-          'てんいん：それは ３，０００えんです。',
-          'やまだ：じゃ、これを ください。あ、カードで はらっても いいですか。',
-          'てんいん：はい、いいですよ。'
-        ],
-        questions: [
-          { id: 'm1115_m4_1_q1', question: 'かばんは いくらですか。', options: ['３００えん', '３，０００えん', '１３，０００えん', '３０，０００えん'], correctIndex: 1, explanation: '３，０００えんです (3000 yên).' },
-          { id: 'm1115_m4_1_q2', question: 'やまださんは どうやって おかねを はらいますか。', options: ['げんきんで はらいます。', 'カードで はらいます。', 'おかねを はらいません。', 'わかりません。'], correctIndex: 1, explanation: 'カードで はらっても いいですか -> Bằng thẻ (カード).' }
-        ]
-      },
-      {
-        id: 'p_1115_m5_3',
-        type: 'mondai5',
-        text: [
-          'わたしは らいしゅうの にちようびに ともだちと きょうとへ いきます。',
-          'きょうとは おてらが たくさん ありますから、とても きれいです。',
-          'きょうとまで しんかんせんで ２じかんはん かかります。',
-          'きょうとで おてらを みて、おいしい ごはんを たべます。',
-          'そして、しゃしんを たくさん とりたいです。'
-        ],
-        questions: [
-          { id: 'm1115_m5_1_q1', question: 'だれと きょうとへ いきますか。', options: ['ひとりで', 'かぞくと', 'ともだちと', 'せんせいと'], correctIndex: 2, explanation: 'ともだちと きょうとへ いきます (Đi cùng bạn bè).' },
-          { id: 'm1115_m5_1_q2', question: 'ただしいものは どれですか。', options: ['きょうとまで バスで いきます。', 'きょうとで えいがを みます。', 'きょうとに おてらが ありません。', 'きょうとで しゃしんを とります。'], correctIndex: 3, explanation: 'しゃしんを たくさん とりたいです (Muốn chụp nhiều ảnh).' }
-        ]
-      },
-      {
-        id: 'p_1115_m6_3',
-        type: 'mondai6',
-        htmlContent: '<div style="border: 2px solid var(--text); padding: 16px; border-radius: 8px; max-width: 400px; margin: 0 auto; background: var(--bg-card);"><h3 style="text-align: center; border-bottom: 2px dashed var(--border); padding-bottom: 8px; margin-top: 0;">としょかんの ルール</h3><ul style="list-style-type: none; padding-left: 0; line-height: 1.8;"><li>１．ここで ごはんを たべないで ください。</li><li>２．しゃしんを とっては いけません。</li><li>３．ほんは ２しゅうかんで かえして ください。</li></ul></div>',
-        questions: [
-          { id: 'm1115_m6_1_q1', question: 'としょかんで しても いいことは どれですか。', options: ['ごはんを たべること', 'しゃしんを とること', 'ほんを かりること', 'おおきい こえで はなすこと'], correctIndex: 2, explanation: 'Mượn sách (ほんを かりること) là việc được phép. Cấm ăn, cấm chụp ảnh.' }
-        ]
-      }
-    ]
-  }
-
-
-  ,
-  {
-    id: 'review_11_15_4',
-    title: 'Đề thi 4: Trạm Ôn Tập JLPT N5 (Bài 11 - 15)',
-    description: 'Bộ đề ôn tập số 1. Trọng tâm: Đếm số lượng, Thể て (Te), Mong muốn (たい/ほしい).',
-    passages: [
-      {
-        id: 'p_1115_moji1_4',
-        type: 'moji_mondai1',
-        questions: [
-          { id: 'm1115_m1_1_4', question: 'きのう 【外国】へ いきました。', options: ['がいこく', 'がいごく', 'かいこく', 'かいごく'], correctIndex: 0, explanation: '外国 (Ngoại Quốc) đọc là がいこく (Nước ngoài).' },
-          { id: 'm1115_m1_1_4b', question: 'ここは 【有名】な まちです。', options: ['ゆめい', 'ゆうめい', 'ゆめ', 'ゆうめ'], correctIndex: 1, explanation: '有名 (Hữu Danh) đọc là ゆうめい (Nổi tiếng).' }
-        ]
-      },
-      {
-        id: 'p_1115_moji2_4',
-        type: 'moji_mondai2',
-        questions: [
-          { id: 'm1115_m2_1_4', question: '【カメラ】を かいたいです。', options: ['カメテ', 'カメラ', 'ガメラ', 'カヌラ'], correctIndex: 1, explanation: 'Camera (máy ảnh) viết là カメラ.' },
-          { id: 'm1115_m2_1_4b', question: 'あたらし 【くるま】が ほしいです。', options: ['車', '軍', '庫', '連'], correctIndex: 0, explanation: 'Xe ô tô viết là 車.' }
-        ]
-      },
-      {
-        id: 'p_1115_moji3_4',
-        type: 'moji_mondai3',
-        questions: [
-          { id: 'm1115_m3_1_4', question: 'りんごを みっつ 【　　　】ください。', options: ['で', 'を', 'に', 'と'], correctIndex: 1, explanation: 'Xin vui lòng cho tôi 3 quả táo: りんごを みっつ ください.' },
-          { id: 'm1115_m3_1_4b', question: 'わたしは いま のどが 【　　　】。', options: ['かわきました', 'すきました', 'いたいです', 'わるいです'], correctIndex: 0, explanation: 'Khát nước: のどが かわきました.' }
-        ]
-      },
-      {
-        id: 'p_1115_moji4_4',
-        type: 'moji_mondai4',
-        questions: [
-          { id: 'm1115_m4_1_4', question: 'ここを まっすぐ いって ください。', options: ['ここは まっすぐです。', 'ここから まっすぐ いきましょう。', 'ここを まっすぐ いっても いいですか。', 'ここを まっすぐ いきなさい。'], correctIndex: 1, explanation: 'Hãy đi thẳng chỗ này = Chúng ta hãy đi thẳng từ đây (Tương đồng nghĩa sai khiến/rủ rê hành động).' }
-        ]
-      },
-      {
-        id: 'p_1115_m1_4',
-        type: 'mondai1',
-        questions: [
-          { id: 'm1115_m1_1_q1', question: 'きょうは （　　　） たのしかったです。', options: ['とても', 'あまり', 'ぜんぜん', 'すこし'], correctIndex: 0, explanation: 'Câu khẳng định -> とても (Rất).' },
-          { id: 'm1115_m1_1_q2', question: 'ここで しゃしんを （　　　）は いけません。', options: ['とる', 'とり', 'とって', 'とらない'], correctIndex: 2, explanation: 'Mẫu câu cấm đoán: Vて はいけません -> とって.' },
-          { id: 'm1115_m1_1_q3', question: 'A「ちょっと （　　　）ましょうか。」\nB「ええ、そうしましょう。」', options: ['やすみ', 'やすむ', 'やすんで', 'やすまない'], correctIndex: 0, explanation: 'Cấu trúc Vましょうか (Rủ rê) -> Động từ bỏ ます + ましょうか -> やすみ.' },
-          { id: 'm1115_m1_1_q4', question: 'りんご（　　　）みかんと どちらが すきですか。', options: ['と', 'や', 'に', 'で'], correctIndex: 0, explanation: 'So sánh lựa chọn: Danh từ 1 と Danh từ 2 と どちらが ~ -> と.' }
-        ]
-      },
-      {
-        id: 'p_1115_m2_4',
-        type: 'mondai2',
-        questions: [
-          { id: 'm1115_m2_1_q1', question: 'わたしは　___ ___ _★_ ___　いきます。', options: ['えいが', 'に', 'を', 'みに'], correctIndex: 3, explanation: 'わたしは (わたしは (えいが) (を) (みに) (いきます) -> ★ rơi vào みに.' },
-          { id: 'm1115_m2_1_q2', question: 'この　___ ___ _★_ ___　いいですか。', options: ['を', 'ペン', 'つかっても', 'は'], correctIndex: 2, explanation: 'この (ペン) (は) (つかっても) (いいですか).' }
-        ]
-      },
-      {
-        id: 'p_1115_m3_4',
-        type: 'mondai3',
-        text: [
-          'わたしの かぞくは ４にんです。',
-          'ちちと ははと あにと わたしです。',
-          'あには だいがくせいです。いま とうきょう（　１　）すんでいます。',
-          'わたしは こうこうせいです。',
-          'らいねん だいがくへ （　２　）たいです。'
-        ],
-        questions: [
-          { id: 'm1115_m3_1_q1', question: '（　１　）に入れるものはどれですか。', options: ['で', 'に', 'へ', 'を'], correctIndex: 1, explanation: 'Sống ở đâu dùng trợ từ に -> とうきょうに すんでいます.' },
-          { id: 'm1115_m3_1_q2', question: '（　２　）に入れるものはどれですか。', options: ['いき', 'いく', 'いって', 'いきたい'], correctIndex: 0, explanation: 'Muốn đi -> Động từ thể ます bỏ ます + たい -> いき.' }
-        ]
-      },
-      {
-        id: 'p_1115_m4_4',
-        type: 'mondai4',
-        text: [
-          '（みせで）',
-          'やまだ：すみません。この かばんは いくらですか。',
-          'てんいん：それは ３，０００えんです。',
-          'やまだ：じゃ、これを ください。あ、カードで はらっても いいですか。',
-          'てんいん：はい、いいですよ。'
-        ],
-        questions: [
-          { id: 'm1115_m4_1_q1', question: 'かばんは いくらですか。', options: ['３００えん', '３，０００えん', '１３，０００えん', '３０，０００えん'], correctIndex: 1, explanation: '３，０００えんです (3000 yên).' },
-          { id: 'm1115_m4_1_q2', question: 'やまださんは どうやって おかねを はらいますか。', options: ['げんきんで はらいます。', 'カードで はらいます。', 'おかねを はらいません。', 'わかりません。'], correctIndex: 1, explanation: 'カードで はらっても いいですか -> Bằng thẻ (カード).' }
-        ]
-      },
-      {
-        id: 'p_1115_m5_4',
-        type: 'mondai5',
-        text: [
-          'わたしは らいしゅうの にちようびに ともだちと きょうとへ いきます。',
-          'きょうとは おてらが たくさん ありますから、とても きれいです。',
-          'きょうとまで しんかんせんで ２じかんはん かかります。',
-          'きょうとで おてらを みて、おいしい ごはんを たべます。',
-          'そして、しゃしんを たくさん とりたいです。'
-        ],
-        questions: [
-          { id: 'm1115_m5_1_q1', question: 'だれと きょうとへ いきますか。', options: ['ひとりで', 'かぞくと', 'ともだちと', 'せんせいと'], correctIndex: 2, explanation: 'ともだちと きょうとへ いきます (Đi cùng bạn bè).' },
-          { id: 'm1115_m5_1_q2', question: 'ただしいものは どれですか。', options: ['きょうとまで バスで いきます。', 'きょうとで えいがを みます。', 'きょうとに おてらが ありません。', 'きょうとで しゃしんを とります。'], correctIndex: 3, explanation: 'しゃしんを たくさん とりたいです (Muốn chụp nhiều ảnh).' }
-        ]
-      },
-      {
-        id: 'p_1115_m6_4',
-        type: 'mondai6',
-        htmlContent: '<div style="border: 2px solid var(--text); padding: 16px; border-radius: 8px; max-width: 400px; margin: 0 auto; background: var(--bg-card);"><h3 style="text-align: center; border-bottom: 2px dashed var(--border); padding-bottom: 8px; margin-top: 0;">としょかんの ルール</h3><ul style="list-style-type: none; padding-left: 0; line-height: 1.8;"><li>１．ここで ごはんを たべないで ください。</li><li>２．しゃしんを とっては いけません。</li><li>３．ほんは ２しゅうかんで かえして ください。</li></ul></div>',
-        questions: [
-          { id: 'm1115_m6_1_q1', question: 'としょかんで しても いいことは どれですか。', options: ['ごはんを たべること', 'しゃしんを とること', 'ほんを かりること', 'おおきい こえで はなすこと'], correctIndex: 2, explanation: 'Mượn sách (ほんを かりること) là việc được phép. Cấm ăn, cấm chụp ảnh.' }
-        ]
-      }
-    ]
-  }
-
-
-  ,
-  {
-    id: 'review_11_15_5',
-    title: 'Đề thi 5: Trạm Ôn Tập JLPT N5 (Bài 11 - 15)',
-    description: 'Bộ đề ôn tập số 1. Trọng tâm: Đếm số lượng, Thể て (Te), Mong muốn (たい/ほしい).',
-    passages: [
-      {
-        id: 'p_1115_moji1_5',
-        type: 'moji_mondai1',
-        questions: [
-          { id: 'm1115_m1_1_5', question: 'きのう 【外国】へ いきました。', options: ['がいこく', 'がいごく', 'かいこく', 'かいごく'], correctIndex: 0, explanation: '外国 (Ngoại Quốc) đọc là がいこく (Nước ngoài).' },
-          { id: 'm1115_m1_1_5b', question: 'ここは 【有名】な まちです。', options: ['ゆめい', 'ゆうめい', 'ゆめ', 'ゆうめ'], correctIndex: 1, explanation: '有名 (Hữu Danh) đọc là ゆうめい (Nổi tiếng).' }
-        ]
-      },
-      {
-        id: 'p_1115_moji2_5',
-        type: 'moji_mondai2',
-        questions: [
-          { id: 'm1115_m2_1_5', question: '【カメラ】を かいたいです。', options: ['カメテ', 'カメラ', 'ガメラ', 'カヌラ'], correctIndex: 1, explanation: 'Camera (máy ảnh) viết là カメラ.' },
-          { id: 'm1115_m2_1_5b', question: 'あたらし 【くるま】が ほしいです。', options: ['車', '軍', '庫', '連'], correctIndex: 0, explanation: 'Xe ô tô viết là 車.' }
-        ]
-      },
-      {
-        id: 'p_1115_moji3_5',
-        type: 'moji_mondai3',
-        questions: [
-          { id: 'm1115_m3_1_5', question: 'りんごを みっつ 【　　　】ください。', options: ['で', 'を', 'に', 'と'], correctIndex: 1, explanation: 'Xin vui lòng cho tôi 3 quả táo: りんごを みっつ ください.' },
-          { id: 'm1115_m3_1_5b', question: 'わたしは いま のどが 【　　　】。', options: ['かわきました', 'すきました', 'いたいです', 'わるいです'], correctIndex: 0, explanation: 'Khát nước: のどが かわきました.' }
-        ]
-      },
-      {
-        id: 'p_1115_moji4_5',
-        type: 'moji_mondai4',
-        questions: [
-          { id: 'm1115_m4_1_5', question: 'ここを まっすぐ いって ください。', options: ['ここは まっすぐです。', 'ここから まっすぐ いきましょう。', 'ここを まっすぐ いっても いいですか。', 'ここを まっすぐ いきなさい。'], correctIndex: 1, explanation: 'Hãy đi thẳng chỗ này = Chúng ta hãy đi thẳng từ đây (Tương đồng nghĩa sai khiến/rủ rê hành động).' }
-        ]
-      },
-      {
-        id: 'p_1115_m1_5',
-        type: 'mondai1',
-        questions: [
-          { id: 'm1115_m1_1_q1', question: 'きょうは （　　　） たのしかったです。', options: ['とても', 'あまり', 'ぜんぜん', 'すこし'], correctIndex: 0, explanation: 'Câu khẳng định -> とても (Rất).' },
-          { id: 'm1115_m1_1_q2', question: 'ここで しゃしんを （　　　）は いけません。', options: ['とる', 'とり', 'とって', 'とらない'], correctIndex: 2, explanation: 'Mẫu câu cấm đoán: Vて はいけません -> とって.' },
-          { id: 'm1115_m1_1_q3', question: 'A「ちょっと （　　　）ましょうか。」\nB「ええ、そうしましょう。」', options: ['やすみ', 'やすむ', 'やすんで', 'やすまない'], correctIndex: 0, explanation: 'Cấu trúc Vましょうか (Rủ rê) -> Động từ bỏ ます + ましょうか -> やすみ.' },
-          { id: 'm1115_m1_1_q4', question: 'りんご（　　　）みかんと どちらが すきですか。', options: ['と', 'や', 'に', 'で'], correctIndex: 0, explanation: 'So sánh lựa chọn: Danh từ 1 と Danh từ 2 と どちらが ~ -> と.' }
-        ]
-      },
-      {
-        id: 'p_1115_m2_5',
-        type: 'mondai2',
-        questions: [
-          { id: 'm1115_m2_1_q1', question: 'わたしは　___ ___ _★_ ___　いきます。', options: ['えいが', 'に', 'を', 'みに'], correctIndex: 3, explanation: 'わたしは (わたしは (えいが) (を) (みに) (いきます) -> ★ rơi vào みに.' },
-          { id: 'm1115_m2_1_q2', question: 'この　___ ___ _★_ ___　いいですか。', options: ['を', 'ペン', 'つかっても', 'は'], correctIndex: 2, explanation: 'この (ペン) (は) (つかっても) (いいですか).' }
-        ]
-      },
-      {
-        id: 'p_1115_m3_5',
-        type: 'mondai3',
-        text: [
-          'わたしの かぞくは ４にんです。',
-          'ちちと ははと あにと わたしです。',
-          'あには だいがくせいです。いま とうきょう（　１　）すんでいます。',
-          'わたしは こうこうせいです。',
-          'らいねん だいがくへ （　２　）たいです。'
-        ],
-        questions: [
-          { id: 'm1115_m3_1_q1', question: '（　１　）に入れるものはどれですか。', options: ['で', 'に', 'へ', 'を'], correctIndex: 1, explanation: 'Sống ở đâu dùng trợ từ に -> とうきょうに すんでいます.' },
-          { id: 'm1115_m3_1_q2', question: '（　２　）に入れるものはどれですか。', options: ['いき', 'いく', 'いって', 'いきたい'], correctIndex: 0, explanation: 'Muốn đi -> Động từ thể ます bỏ ます + たい -> いき.' }
-        ]
-      },
-      {
-        id: 'p_1115_m4_5',
-        type: 'mondai4',
-        text: [
-          '（みせで）',
-          'やまだ：すみません。この かばんは いくらですか。',
-          'てんいん：それは ３，０００えんです。',
-          'やまだ：じゃ、これを ください。あ、カードで はらっても いいですか。',
-          'てんいん：はい、いいですよ。'
-        ],
-        questions: [
-          { id: 'm1115_m4_1_q1', question: 'かばんは いくらですか。', options: ['３００えん', '３，０００えん', '１３，０００えん', '３０，０００えん'], correctIndex: 1, explanation: '３，０００えんです (3000 yên).' },
-          { id: 'm1115_m4_1_q2', question: 'やまださんは どうやって おかねを はらいますか。', options: ['げんきんで はらいます。', 'カードで はらいます。', 'おかねを はらいません。', 'わかりません。'], correctIndex: 1, explanation: 'カードで はらっても いいですか -> Bằng thẻ (カード).' }
-        ]
-      },
-      {
-        id: 'p_1115_m5_5',
-        type: 'mondai5',
-        text: [
-          'わたしは らいしゅうの にちようびに ともだちと きょうとへ いきます。',
-          'きょうとは おてらが たくさん ありますから、とても きれいです。',
-          'きょうとまで しんかんせんで ２じかんはん かかります。',
-          'きょうとで おてらを みて、おいしい ごはんを たべます。',
-          'そして、しゃしんを たくさん とりたいです。'
-        ],
-        questions: [
-          { id: 'm1115_m5_1_q1', question: 'だれと きょうとへ いきますか。', options: ['ひとりで', 'かぞくと', 'ともだちと', 'せんせいと'], correctIndex: 2, explanation: 'ともだちと きょうとへ いきます (Đi cùng bạn bè).' },
-          { id: 'm1115_m5_1_q2', question: 'ただしいものは どれですか。', options: ['きょうとまで バスで いきます。', 'きょうとで えいがを みます。', 'きょうとに おてらが ありません。', 'きょうとで しゃしんを とります。'], correctIndex: 3, explanation: 'しゃしんを たくさん とりたいです (Muốn chụp nhiều ảnh).' }
-        ]
-      },
-      {
-        id: 'p_1115_m6_5',
-        type: 'mondai6',
-        htmlContent: '<div style="border: 2px solid var(--text); padding: 16px; border-radius: 8px; max-width: 400px; margin: 0 auto; background: var(--bg-card);"><h3 style="text-align: center; border-bottom: 2px dashed var(--border); padding-bottom: 8px; margin-top: 0;">としょかんの ルール</h3><ul style="list-style-type: none; padding-left: 0; line-height: 1.8;"><li>１．ここで ごはんを たべないで ください。</li><li>２．しゃしんを とっては いけません。</li><li>３．ほんは ２しゅうかんで かえして ください。</li></ul></div>',
-        questions: [
-          { id: 'm1115_m6_1_q1', question: 'としょかんで しても いいことは どれですか。', options: ['ごはんを たべること', 'しゃしんを とること', 'ほんを かりること', 'おおきい こえで はなすこと'], correctIndex: 2, explanation: 'Mượn sách (ほんを かりること) là việc được phép. Cấm ăn, cấm chụp ảnh.' }
-        ]
-      }
-    ]
-  }
-
-
-  ,
-  {
-    id: 'review_16_20_1',
-    title: 'Đề thi 1: Trạm Ôn Tập JLPT N5 (Bài 16 - 20)',
-    description: 'Bộ đề ôn tập số 1. Trọng tâm: Thể ない, Thể từ điển (辞書形), Thể た, Thể thông thường.',
-    passages: [
-      {
-        id: 'p_1620_moji1_1',
-        type: 'moji_mondai1',
-        questions: [
-          { id: 'm1620_m1_1_1', question: 'えいがを 【見】ます。', options: ['み', 'き', 'し', 'よ'], correctIndex: 0, explanation: '見 (Kiến) đọc là み.' },
-          { id: 'm1620_m1_1_1b', question: 'あした 【雨】が ふります。', options: ['ゆき', 'あめ', 'はれ', 'くも'], correctIndex: 1, explanation: '雨 (Vũ) đọc là あめ (Mưa).' }
-        ]
-      },
-      {
-        id: 'p_1620_moji2_1',
-        type: 'moji_mondai2',
-        questions: [
-          { id: 'm1620_m2_1_1', question: '【みぎ】へ まがります。', options: ['右', '左', '前', '後'], correctIndex: 0, explanation: 'みぎ (Bên phải) viết là 右.' },
-          { id: 'm1620_m2_1_1b', question: '【しゃしん】を とります。', options: ['写真', '真写', '字真', '真字'], correctIndex: 0, explanation: 'しゃしん (Bức ảnh) viết là 写真.' }
-        ]
-      },
-      {
-        id: 'p_1620_moji3_1',
-        type: 'moji_mondai3',
-        questions: [
-          { id: 'm1620_m3_1_1', question: 'ここに くるまを 【　　　】。', options: ['とめないで ください', 'とまらないで ください', 'とめて ください', 'とまる ください'], correctIndex: 0, explanation: 'Xin đừng đỗ xe ở đây: とめないで ください.' },
-          { id: 'm1620_m3_1_1b', question: 'パスポートを 【　　　】。', options: ['みせないで ください', 'みせなければ なりません', 'みせても いいです', 'みせなくちゃ いいです'], correctIndex: 1, explanation: 'Phải cho xem hộ chiếu: みせなければ なりません.' }
-        ]
-      },
-      {
-        id: 'p_1620_moji4_1',
-        type: 'moji_mondai4',
-        questions: [
-          { id: 'm1620_m4_1_1', question: 'きのうは かいものしたり、えいがを みたり しました。', options: ['きのう かいものと えいがを しました。', 'きのう かいものをしてから、えいがを みました。', 'きのうは かいものと えいがなどを しました。', 'きのう かいものと えいがを みません。'], correctIndex: 2, explanation: 'Mẫu ～たり ～たり しました (Liệt kê hành động tiêu biểu).' }
-        ]
-      },
-      {
-        id: 'p_1620_m1_1',
-        type: 'mondai1',
-        questions: [
-          { id: 'm1620_m1_1_q1', question: 'わたしは ピアノを （　　　）が できます。', options: ['ひく', 'ひくこと', 'ひいて', 'ひき'], correctIndex: 1, explanation: 'Vる こと が できます (Có thể làm gì) -> ひくこと.' },
-          { id: 'm1620_m1_1_q2', question: 'にほんへ （　　　） まえに、にほんごを べんきょうしました。', options: ['いく', 'いって', 'いった', 'いかない'], correctIndex: 0, explanation: 'Vる まえに (Trước khi...) -> いく まえに.' },
-          { id: 'm1620_m1_1_q3', question: 'うまに （　　　）ことが ありますか。', options: ['のる', 'のった', 'のって', 'のらない'], correctIndex: 1, explanation: 'Vた ことが あります (Đã từng...) -> のった.' },
-          { id: 'm1620_m1_1_q4', question: 'あしたは （　　　） いいです。', options: ['はれと', 'はれに', 'はれなら', 'はれると'], correctIndex: 2, explanation: 'Mẫu câu Thể thông thường + と/なら いいですね (Cầu mong) - Thực ra bài 20 chỉ giới thiệu thể thông thường, tạm chấp nhận ở đây.' }
-        ]
-      },
-      {
-        id: 'p_1620_m2_1',
-        type: 'mondai2',
-        questions: [
-          { id: 'm1620_m2_1_q1', question: 'わたしの　___ ___ _★_ ___　です。', options: ['えを', 'しゅみ', 'は', 'かくこと'], correctIndex: 0, explanation: 'わたしの (しゅみ) (は) (えを) (かくこと) です. ★ rơi vào えを.' },
-          { id: 'm1620_m2_1_q2', question: 'ここで　___ ___ _★_ ___　ください。', options: ['を', 'しゃしん', 'とらないで', 'は'], correctIndex: 2, explanation: 'ここで (しゃしん) (は/を) (とらないで) (ください).' }
-        ]
-      },
-      {
-        id: 'p_1620_m3_1',
-        type: 'mondai3',
-        text: [
-          'わたしは まいあさ ６じに おきます。',
-          'あさごはんを （　１　）まえに、ジョギングを します。',
-          'ジョギングは しゅみです。',
-          'そして、シャワーを あびてから、ごはんを たべます。'
-        ],
-        questions: [
-          { id: 'm1620_m3_1_q1', question: '（　１　）に入れるものはどれですか。', options: ['たべる', 'たべた', 'たべて', 'たべない'], correctIndex: 0, explanation: 'まえに đi với Vる (たべる まえに).' },
-          { id: 'm1620_m3_1_q2', question: 'ジョギングの あとで、なにを しますか。', options: ['おきます', 'あさごはんを たべます', 'シャワーを あびます', 'かいしゃへ いきます'], correctIndex: 2, explanation: 'ジョギング xong thì シャワーを あびます.' }
-        ]
-      },
-      {
-        id: 'p_1620_m4_1',
-        type: 'mondai4',
-        text: [
-          'きのうは にちようびでした。',
-          'わたしは ともだちと うみへ いきました。',
-          'うみで およいだり、さかなを つったり しました。',
-          'とても たのしかったです。'
-        ],
-        questions: [
-          { id: 'm1620_m4_1_q1', question: 'きのう なにを しましたか。', options: ['うみへ いきました。', 'やまへ いきました。', 'まちへ いきました。', 'うちで やすみました。'], correctIndex: 0, explanation: 'Đi biển (うみへ いきました).' },
-          { id: 'm1620_m4_1_q2', question: 'うみで なにを しましたか。', options: ['さかなを かったり、たべたり しました。', 'およいだり、さかなを つったり しました。', 'しゃしんを とったり、えを かいたり しました。', 'ほんを よんだり、ねたり しました。'], correctIndex: 1, explanation: 'およいだり、さかなを つったり しました (Bơi và câu cá).' }
-        ]
-      },
-      {
-        id: 'p_1620_m5_1',
-        type: 'mondai5',
-        text: [
-          'わたしの しゅみは りょこうです。',
-          'いろいろな くにへ いきました。',
-          'アメリカや イギリスへ いった ことが あります。',
-          'でも、まだ フランスへ いった ことが ありません。',
-          'らいねん、フランスへ いきたいです。'
-        ],
-        questions: [
-          { id: 'm1620_m5_1_q1', question: 'しゅみは なんですか。', options: ['スポーツ', 'りょこう', 'えいが', 'どくしょ'], correctIndex: 1, explanation: 'しゅみは りょこうです (Sở thích là du lịch).' },
-          { id: 'm1620_m5_1_q2', question: 'どこの くにへ いった ことが ありませんか。', options: ['アメリカ', 'イギリス', 'フランス', 'にほん'], correctIndex: 2, explanation: 'まだ フランスへ いった ことが ありません (Chưa từng đi Pháp).' }
-        ]
-      },
-      {
-        id: 'p_1620_m6_1',
-        type: 'mondai6',
-        htmlContent: '<div style="border: 2px solid var(--text); padding: 16px; border-radius: 8px; max-width: 400px; margin: 0 auto; background: var(--bg-card);"><h3 style="text-align: center; border-bottom: 2px dashed var(--border); padding-bottom: 8px; margin-top: 0;">おねがい</h3><ul style="list-style-type: none; padding-left: 0; line-height: 1.8;"><li>・くつを ぬいで ください。</li><li>・おおきい こえで はなさないで ください。</li><li>・たばこを すわないで ください。</li></ul></div>',
-        questions: [
-          { id: 'm1620_m6_1_q1', question: 'ここでは しても いい ことは どれですか。', options: ['くつを はくこと', 'たばこを すうこと', 'ちいさい こえで はなすこと', 'おおきい こえで はなすこと'], correctIndex: 2, explanation: 'Đừng nói lớn tiếng -> Nói nhỏ tiếng thì được (ちいさい こえで はなすこと).' }
-        ]
-      }
-    ]
-  }
-
-
-  ,
-  {
-    id: 'review_21_25_1',
-    title: 'Đề thi 1: Trạm Ôn Tập JLPT N5 (Bài 21 - 25)',
-    description: 'Bộ đề ôn tập số 1. Trọng tâm: Câu phụ nite (と思います/と言います), Mệnh đề định ngữ, Mệnh đề thời gian (とき), Điều kiện (と/たら/ても), Cho nhận.',
-    passages: [
-      {
-        id: 'p_2125_moji1_1',
-        type: 'moji_mondai1',
-        questions: [
-          { id: 'm2125_m1_1_1', question: '【電氣】を つけます。', options: ['てんき', 'でんき', 'てんぎ', 'でんぎ'], correctIndex: 1, explanation: '電気 (Điện Khí) đọc là でんき (Điện).' },
-          { id: 'm2125_m1_1_1b', question: '【道】を まっすぐ いきます。', options: ['まち', 'みち', 'むら', 'くに'], correctIndex: 1, explanation: '道 (Đạo) đọc là みち (Đường).' }
-        ]
-      },
-      {
-        id: 'p_2125_moji2_1',
-        type: 'moji_mondai2',
-        questions: [
-          { id: 'm2125_m2_1_1', question: '【おとうと】が います。', options: ['弟', '兄', '妹', '姉'], correctIndex: 0, explanation: '弟 là Em trai (おとうと).' },
-          { id: 'm2125_m2_1_1b', question: 'あめが 【ふって】 います。', options: ['降って', '落ちて', '下って', '流って'], correctIndex: 0, explanation: '降って là Rơi/Đổ (mưa).' }
-        ]
-      },
-      {
-        id: 'p_2125_moji3_1',
-        type: 'moji_mondai3',
-        questions: [
-          { id: 'm2125_m3_1_1', question: 'ねむい 【　　　】、コーヒーを のみます。', options: ['とき', 'と', 'たら', 'ば'], correctIndex: 0, explanation: 'Khi buồn ngủ (ねむい とき).' },
-          { id: 'm2125_m3_1_1b', question: 'ボタンを おす 【　　　】、きっぷが でます。', options: ['とき', 'と', 'たら', 'ば'], correctIndex: 1, explanation: 'Hễ bấm nút thì vé sẽ ra (ボタンを おすと).' }
-        ]
-      },
-      {
-        id: 'p_2125_moji4_1',
-        type: 'moji_mondai4',
-        questions: [
-          { id: 'm2125_m4_1_1', question: 'あめが ふっても、いきます。', options: ['あめが ふったら いきます。', 'あめが ふったら いきません。', 'あめが ふりますが、いきます。', 'あめが ふらないと いきます。'], correctIndex: 2, explanation: 'Dù trời mưa tôi vẫn đi (Cho dù = ても).' }
-        ]
-      },
-      {
-        id: 'p_2125_m1_1',
-        type: 'mondai1',
-        questions: [
-          { id: 'm2125_m1_1_q1', question: 'あしたは あめが ふる（　　　） おもいます。', options: ['と', 'を', 'に', 'で'], correctIndex: 0, explanation: 'Mẫu câu ～と おもいます (Tôi nghĩ là...).' },
-          { id: 'm2125_m1_1_q2', question: 'これは わたしが （　　　） かばんです。', options: ['かい', 'かう', 'かった', 'かって'], correctIndex: 2, explanation: 'Mệnh đề bổ nghĩa cho danh từ: Vた N (Cái túi mà tôi đã mua) -> かった かばん.' },
-          { id: 'm2125_m1_1_q3', question: 'ともだちが わたし（　　　） ほんを くれました。', options: ['が', 'を', 'に', 'で'], correctIndex: 2, explanation: 'Bạn bè tặng (cho tôi) cuốn sách -> Trợ từ に (Cho ai).' },
-          { id: 'm2125_m1_1_q4', question: 'じかんが なかった（　　　）、ほんを よみません。', options: ['たら', 'と', 'から', 'ば'], correctIndex: 0, explanation: 'Nếu không có thời gian -> なかったら.' }
-        ]
-      },
-      {
-        id: 'p_2125_m2_1',
-        type: 'mondai2',
-        questions: [
-          { id: 'm2125_m2_1_q1', question: 'あの　___ ___ _★_ ___　は だれですか。', options: ['を', 'ひと', 'メガネ', 'かけている'], correctIndex: 3, explanation: 'あの (メガネ) (を) (かけている) (ひと) は だれですか. ★ rơi vào かけている.' },
-          { id: 'm2125_m2_1_q2', question: 'たのしく　___ ___ _★_ ___　と おもいます。', options: ['あしたの', 'は', 'パーティー', 'ない'], correctIndex: 3, explanation: '(あしたの) (パーティー) (は) たのしく (ない) と おもいます.' }
-        ]
-      },
-      {
-        id: 'p_2125_m3_1',
-        type: 'mondai3',
-        text: [
-          'わたしは きのう ともだちの うちへ いきました。',
-          'ともだちが おいしい ケーキを つくって （　１　）。',
-          'とても おいしかったです。',
-          'わたしは また ケーキを （　２　）と おもいます。'
-        ],
-        questions: [
-          { id: 'm2125_m3_1_q1', question: '（　１　）に入れるものはどれですか。', options: ['あげました', 'もらいました', 'くれました', 'しました'], correctIndex: 2, explanation: 'Bạn bè làm (cho mình) -> つくって くれました.' },
-          { id: 'm2125_m3_1_q2', question: '（　２　）に入れるものはどれですか。', options: ['たべる', 'たべた', 'たべたい', 'たべて'], correctIndex: 2, explanation: 'Tôi nghĩ tôi MONG MUỐN ăn lại -> たべたい.' }
-        ]
-      },
-      {
-        id: 'p_2125_m4_1',
-        type: 'mondai4',
-        text: [
-          'これは わたしが おきなわで とった しゃしんです。',
-          'うみが とても きれいです。',
-          'おきなわへ いく とき、ひこうきで いきました。',
-          'また おきなわへ いきたいです。'
-        ],
-        questions: [
-          { id: 'm2125_m4_1_q1', question: 'この しゃしんは どこで とりましたか。', options: ['とうきょうで', 'おきなわで', 'ひこうきで', 'うみで'], correctIndex: 1, explanation: 'おきなわで とった しゃしんです (Ảnh chụp ở Okinawa).' },
-          { id: 'm2125_m4_1_q2', question: 'どうやって おきなわへ いきましたか。', options: ['ふねで', 'ひこうきで', 'でんしゃで', 'くるまで'], correctIndex: 1, explanation: 'ひこうきで いきました (Đi bằng máy bay).' }
-        ]
-      },
-      {
-        id: 'p_2125_m5_1',
-        type: 'mondai5',
-        text: [
-          'A: あした ひまだったら、あそびに きませんか。',
-          'B: いいですね。なにか もって いきましょうか。',
-          'A: じゃあ、のみものを おねがいします。',
-          'B: わかりました。'
-        ],
-        questions: [
-          { id: 'm2125_m5_1_q1', question: 'Bさんは あした なにを しますか。', options: ['Aさんの うちへ いきます。', 'のみものを かいます。', 'Aさんの うちへ いって、のみものを もって いきます。', 'のみものを もって、Aさんの うちへ いきます。'], correctIndex: 3, explanation: 'B mang đồ uống và đến nhà A chơi.' },
-          { id: 'm2125_m5_1_q2', question: 'ただしいものは どれですか。', options: ['Aさんは ひまではありません。', 'Bさんは のみものを もって いきます。', 'Aさんは のみものを かいます。', 'Bさんは あそびに いきません。'], correctIndex: 1, explanation: 'B mang đồ uống đi (のみものを おねがいします -> わかりました).' }
-        ]
-      },
-      {
-        id: 'p_2125_m6_1',
-        type: 'mondai6',
-        htmlContent: '<div style="border: 2px solid var(--text); padding: 16px; border-radius: 8px; max-width: 400px; margin: 0 auto; background: var(--bg-card);"><h3 style="text-align: center; border-bottom: 2px dashed var(--border); padding-bottom: 8px; margin-top: 0;">さくら にほんご がっこう</h3><ul style="list-style-type: none; padding-left: 0; line-height: 1.8;"><li>・あめが ふったら、サッカーを しません。</li><li>・あめが ふらなくても、かぜが つよかったら、サッカーを しません。</li><li>・やすむ とき、せんせいに でんわを して ください。</li></ul></div>',
-        questions: [
-          { id: 'm2125_m6_1_q1', question: 'どんな とき サッカーを しますか。', options: ['あめが ふる とき', 'あめが ふらなくて、かぜが つよくない とき', 'あめが ふらなくて、かぜが つよい とき', 'かぜが つよい とき'], correctIndex: 1, explanation: 'Chỉ chơi khi: Không mưa VÀ gió không mạnh.' }
-        ]
-      }
-    ]
-  }
-
-
-  ,
-  {
-    id: 'review_16_20_2',
-    title: 'Đề thi 2: Trạm Ôn Tập JLPT N5 (Bài 16 - 20)',
-    description: 'Bộ đề ôn tập số 1. Trọng tâm: Thể ない, Thể từ điển (辞書形), Thể た, Thể thông thường.',
-    passages: [
-      {
-        id: 'p_1620_moji1_2',
-        type: 'moji_mondai1',
-        questions: [
-          { id: 'm1620_m1_1_2b', question: 'えいがを 【見】ます。', options: ['み', 'き', 'し', 'よ'], correctIndex: 0, explanation: '見 (Kiến) đọc là み.' },
-          { id: 'm1620_m1_1_2b', question: 'あした 【雨】が ふります。', options: ['ゆき', 'あめ', 'はれ', 'くも'], correctIndex: 1, explanation: '雨 (Vũ) đọc là あめ (Mưa).' }
-        ]
-      },
-      {
-        id: 'p_1620_moji2_2',
-        type: 'moji_mondai2',
-        questions: [
-          { id: 'm1620_m2_1_2b', question: '【みぎ】へ まがります。', options: ['右', '左', '前', '後'], correctIndex: 0, explanation: 'みぎ (Bên phải) viết là 右.' },
-          { id: 'm1620_m2_1_2b', question: '【しゃしん】を とります。', options: ['写真', '真写', '字真', '真字'], correctIndex: 0, explanation: 'しゃしん (Bức ảnh) viết là 写真.' }
-        ]
-      },
-      {
-        id: 'p_1620_moji3_2',
-        type: 'moji_mondai3',
-        questions: [
-          { id: 'm1620_m3_1_2b', question: 'ここに くるまを 【　　　】。', options: ['とめないで ください', 'とまらないで ください', 'とめて ください', 'とまる ください'], correctIndex: 0, explanation: 'Xin đừng đỗ xe ở đây: とめないで ください.' },
-          { id: 'm1620_m3_1_2b', question: 'パスポートを 【　　　】。', options: ['みせないで ください', 'みせなければ なりません', 'みせても いいです', 'みせなくちゃ いいです'], correctIndex: 1, explanation: 'Phải cho xem hộ chiếu: みせなければ なりません.' }
-        ]
-      },
-      {
-        id: 'p_1620_moji4_2',
-        type: 'moji_mondai4',
-        questions: [
-          { id: 'm1620_m4_1_2b', question: 'きのうは かいものしたり、えいがを みたり しました。', options: ['きのう かいものと えいがを しました。', 'きのう かいものをしてから、えいがを みました。', 'きのうは かいものと えいがなどを しました。', 'きのう かいものと えいがを みません。'], correctIndex: 2, explanation: 'Mẫu ～たり ～たり しました (Liệt kê hành động tiêu biểu).' }
-        ]
-      },
-      {
-        id: 'p_1620_m1_2',
-        type: 'mondai1',
-        questions: [
-          { id: 'm1620_m1_1_q1', question: 'わたしは ピアノを （　　　）が できます。', options: ['ひく', 'ひくこと', 'ひいて', 'ひき'], correctIndex: 1, explanation: 'Vる こと が できます (Có thể làm gì) -> ひくこと.' },
-          { id: 'm1620_m1_1_q2', question: 'にほんへ （　　　） まえに、にほんごを べんきょうしました。', options: ['いく', 'いって', 'いった', 'いかない'], correctIndex: 0, explanation: 'Vる まえに (Trước khi...) -> いく まえに.' },
-          { id: 'm1620_m1_1_q3', question: 'うまに （　　　）ことが ありますか。', options: ['のる', 'のった', 'のって', 'のらない'], correctIndex: 1, explanation: 'Vた ことが あります (Đã từng...) -> のった.' },
-          { id: 'm1620_m1_1_q4', question: 'あしたは （　　　） いいです。', options: ['はれと', 'はれに', 'はれなら', 'はれると'], correctIndex: 2, explanation: 'Mẫu câu Thể thông thường + と/なら いいですね (Cầu mong) - Thực ra bài 20 chỉ giới thiệu thể thông thường, tạm chấp nhận ở đây.' }
-        ]
-      },
-      {
-        id: 'p_1620_m2_2',
-        type: 'mondai2',
-        questions: [
-          { id: 'm1620_m2_1_q1', question: 'わたしの　___ ___ _★_ ___　です。', options: ['えを', 'しゅみ', 'は', 'かくこと'], correctIndex: 0, explanation: 'わたしの (しゅみ) (は) (えを) (かくこと) です. ★ rơi vào えを.' },
-          { id: 'm1620_m2_1_q2', question: 'ここで　___ ___ _★_ ___　ください。', options: ['を', 'しゃしん', 'とらないで', 'は'], correctIndex: 2, explanation: 'ここで (しゃしん) (は/を) (とらないで) (ください).' }
-        ]
-      },
-      {
-        id: 'p_1620_m3_2',
-        type: 'mondai3',
-        text: [
-          'わたしは まいあさ ６じに おきます。',
-          'あさごはんを （　１　）まえに、ジョギングを します。',
-          'ジョギングは しゅみです。',
-          'そして、シャワーを あびてから、ごはんを たべます。'
-        ],
-        questions: [
-          { id: 'm1620_m3_1_q1', question: '（　１　）に入れるものはどれですか。', options: ['たべる', 'たべた', 'たべて', 'たべない'], correctIndex: 0, explanation: 'まえに đi với Vる (たべる まえに).' },
-          { id: 'm1620_m3_1_q2', question: 'ジョギングの あとで、なにを しますか。', options: ['おきます', 'あさごはんを たべます', 'シャワーを あびます', 'かいしゃへ いきます'], correctIndex: 2, explanation: 'ジョギング xong thì シャワーを あびます.' }
-        ]
-      },
-      {
-        id: 'p_1620_m4_2',
-        type: 'mondai4',
-        text: [
-          'きのうは にちようびでした。',
-          'わたしは ともだちと うみへ いきました。',
-          'うみで およいだり、さかなを つったり しました。',
-          'とても たのしかったです。'
-        ],
-        questions: [
-          { id: 'm1620_m4_1_q1', question: 'きのう なにを しましたか。', options: ['うみへ いきました。', 'やまへ いきました。', 'まちへ いきました。', 'うちで やすみました。'], correctIndex: 0, explanation: 'Đi biển (うみへ いきました).' },
-          { id: 'm1620_m4_1_q2', question: 'うみで なにを しましたか。', options: ['さかなを かったり、たべたり しました。', 'およいだり、さかなを つったり しました。', 'しゃしんを とったり、えを かいたり しました。', 'ほんを よんだり、ねたり しました。'], correctIndex: 1, explanation: 'およいだり、さかなを つったり しました (Bơi và câu cá).' }
-        ]
-      },
-      {
-        id: 'p_1620_m5_2',
-        type: 'mondai5',
-        text: [
-          'わたしの しゅみは りょこうです。',
-          'いろいろな くにへ いきました。',
-          'アメリカや イギリスへ いった ことが あります。',
-          'でも、まだ フランスへ いった ことが ありません。',
-          'らいねん、フランスへ いきたいです。'
-        ],
-        questions: [
-          { id: 'm1620_m5_1_q1', question: 'しゅみは なんですか。', options: ['スポーツ', 'りょこう', 'えいが', 'どくしょ'], correctIndex: 1, explanation: 'しゅみは りょこうです (Sở thích là du lịch).' },
-          { id: 'm1620_m5_1_q2', question: 'どこの くにへ いった ことが ありませんか。', options: ['アメリカ', 'イギリス', 'フランス', 'にほん'], correctIndex: 2, explanation: 'まだ フランスへ いった ことが ありません (Chưa từng đi Pháp).' }
-        ]
-      },
-      {
-        id: 'p_1620_m6_2',
-        type: 'mondai6',
-        htmlContent: '<div style="border: 2px solid var(--text); padding: 16px; border-radius: 8px; max-width: 400px; margin: 0 auto; background: var(--bg-card);"><h3 style="text-align: center; border-bottom: 2px dashed var(--border); padding-bottom: 8px; margin-top: 0;">おねがい</h3><ul style="list-style-type: none; padding-left: 0; line-height: 1.8;"><li>・くつを ぬいで ください。</li><li>・おおきい こえで はなさないで ください。</li><li>・たばこを すわないで ください。</li></ul></div>',
-        questions: [
-          { id: 'm1620_m6_1_q1', question: 'ここでは しても いい ことは どれですか。', options: ['くつを はくこと', 'たばこを すうこと', 'ちいさい こえで はなすこと', 'おおきい こえで はなすこと'], correctIndex: 2, explanation: 'Đừng nói lớn tiếng -> Nói nhỏ tiếng thì được (ちいさい こえで はなすこと).' }
-        ]
-      }
-    ]
-  }
-
-
-  ,
-  {
-    id: 'review_21_25_2',
-    title: 'Đề thi 2: Trạm Ôn Tập JLPT N5 (Bài 21 - 25)',
-    description: 'Bộ đề ôn tập số 1. Trọng tâm: Câu phụ nite (と思います/と言います), Mệnh đề định ngữ, Mệnh đề thời gian (とき), Điều kiện (と/たら/ても), Cho nhận.',
-    passages: [
-      {
-        id: 'p_2125_moji1_2',
-        type: 'moji_mondai1',
-        questions: [
-          { id: 'm2125_m1_1_2b', question: '【電氣】を つけます。', options: ['てんき', 'でんき', 'てんぎ', 'でんぎ'], correctIndex: 1, explanation: '電気 (Điện Khí) đọc là でんき (Điện).' },
-          { id: 'm2125_m1_1_2b', question: '【道】を まっすぐ いきます。', options: ['まち', 'みち', 'むら', 'くに'], correctIndex: 1, explanation: '道 (Đạo) đọc là みち (Đường).' }
-        ]
-      },
-      {
-        id: 'p_2125_moji2_2',
-        type: 'moji_mondai2',
-        questions: [
-          { id: 'm2125_m2_1_2b', question: '【おとうと】が います。', options: ['弟', '兄', '妹', '姉'], correctIndex: 0, explanation: '弟 là Em trai (おとうと).' },
-          { id: 'm2125_m2_1_2b', question: 'あめが 【ふって】 います。', options: ['降って', '落ちて', '下って', '流って'], correctIndex: 0, explanation: '降って là Rơi/Đổ (mưa).' }
-        ]
-      },
-      {
-        id: 'p_2125_moji3_2',
-        type: 'moji_mondai3',
-        questions: [
-          { id: 'm2125_m3_1_2b', question: 'ねむい 【　　　】、コーヒーを のみます。', options: ['とき', 'と', 'たら', 'ば'], correctIndex: 0, explanation: 'Khi buồn ngủ (ねむい とき).' },
-          { id: 'm2125_m3_1_2b', question: 'ボタンを おす 【　　　】、きっぷが でます。', options: ['とき', 'と', 'たら', 'ば'], correctIndex: 1, explanation: 'Hễ bấm nút thì vé sẽ ra (ボタンを おすと).' }
-        ]
-      },
-      {
-        id: 'p_2125_moji4_2',
-        type: 'moji_mondai4',
-        questions: [
-          { id: 'm2125_m4_1_2b', question: 'あめが ふっても、いきます。', options: ['あめが ふったら いきます。', 'あめが ふったら いきません。', 'あめが ふりますが、いきます。', 'あめが ふらないと いきます。'], correctIndex: 2, explanation: 'Dù trời mưa tôi vẫn đi (Cho dù = ても).' }
-        ]
-      },
-      {
-        id: 'p_2125_m1_2',
-        type: 'mondai1',
-        questions: [
-          { id: 'm2125_m1_1_q1', question: 'あしたは あめが ふる（　　　） おもいます。', options: ['と', 'を', 'に', 'で'], correctIndex: 0, explanation: 'Mẫu câu ～と おもいます (Tôi nghĩ là...).' },
-          { id: 'm2125_m1_1_q2', question: 'これは わたしが （　　　） かばんです。', options: ['かい', 'かう', 'かった', 'かって'], correctIndex: 2, explanation: 'Mệnh đề bổ nghĩa cho danh từ: Vた N (Cái túi mà tôi đã mua) -> かった かばん.' },
-          { id: 'm2125_m1_1_q3', question: 'ともだちが わたし（　　　） ほんを くれました。', options: ['が', 'を', 'に', 'で'], correctIndex: 2, explanation: 'Bạn bè tặng (cho tôi) cuốn sách -> Trợ từ に (Cho ai).' },
-          { id: 'm2125_m1_1_q4', question: 'じかんが なかった（　　　）、ほんを よみません。', options: ['たら', 'と', 'から', 'ば'], correctIndex: 0, explanation: 'Nếu không có thời gian -> なかったら.' }
-        ]
-      },
-      {
-        id: 'p_2125_m2_2',
-        type: 'mondai2',
-        questions: [
-          { id: 'm2125_m2_1_q1', question: 'あの　___ ___ _★_ ___　は だれですか。', options: ['を', 'ひと', 'メガネ', 'かけている'], correctIndex: 3, explanation: 'あの (メガネ) (を) (かけている) (ひと) は だれですか. ★ rơi vào かけている.' },
-          { id: 'm2125_m2_1_q2', question: 'たのしく　___ ___ _★_ ___　と おもいます。', options: ['あしたの', 'は', 'パーティー', 'ない'], correctIndex: 3, explanation: '(あしたの) (パーティー) (は) たのしく (ない) と おもいます.' }
-        ]
-      },
-      {
-        id: 'p_2125_m3_2',
-        type: 'mondai3',
-        text: [
-          'わたしは きのう ともだちの うちへ いきました。',
-          'ともだちが おいしい ケーキを つくって （　１　）。',
-          'とても おいしかったです。',
-          'わたしは また ケーキを （　２　）と おもいます。'
-        ],
-        questions: [
-          { id: 'm2125_m3_1_q1', question: '（　１　）に入れるものはどれですか。', options: ['あげました', 'もらいました', 'くれました', 'しました'], correctIndex: 2, explanation: 'Bạn bè làm (cho mình) -> つくって くれました.' },
-          { id: 'm2125_m3_1_q2', question: '（　２　）に入れるものはどれですか。', options: ['たべる', 'たべた', 'たべたい', 'たべて'], correctIndex: 2, explanation: 'Tôi nghĩ tôi MONG MUỐN ăn lại -> たべたい.' }
-        ]
-      },
-      {
-        id: 'p_2125_m4_2',
-        type: 'mondai4',
-        text: [
-          'これは わたしが おきなわで とった しゃしんです。',
-          'うみが とても きれいです。',
-          'おきなわへ いく とき、ひこうきで いきました。',
-          'また おきなわへ いきたいです。'
-        ],
-        questions: [
-          { id: 'm2125_m4_1_q1', question: 'この しゃしんは どこで とりましたか。', options: ['とうきょうで', 'おきなわで', 'ひこうきで', 'うみで'], correctIndex: 1, explanation: 'おきなわで とった しゃしんです (Ảnh chụp ở Okinawa).' },
-          { id: 'm2125_m4_1_q2', question: 'どうやって おきなわへ いきましたか。', options: ['ふねで', 'ひこうきで', 'でんしゃで', 'くるまで'], correctIndex: 1, explanation: 'ひこうきで いきました (Đi bằng máy bay).' }
-        ]
-      },
-      {
-        id: 'p_2125_m5_2',
-        type: 'mondai5',
-        text: [
-          'A: あした ひまだったら、あそびに きませんか。',
-          'B: いいですね。なにか もって いきましょうか。',
-          'A: じゃあ、のみものを おねがいします。',
-          'B: わかりました。'
-        ],
-        questions: [
-          { id: 'm2125_m5_1_q1', question: 'Bさんは あした なにを しますか。', options: ['Aさんの うちへ いきます。', 'のみものを かいます。', 'Aさんの うちへ いって、のみものを もって いきます。', 'のみものを もって、Aさんの うちへ いきます。'], correctIndex: 3, explanation: 'B mang đồ uống và đến nhà A chơi.' },
-          { id: 'm2125_m5_1_q2', question: 'ただしいものは どれですか。', options: ['Aさんは ひまではありません。', 'Bさんは のみものを もって いきます。', 'Aさんは のみものを かいます。', 'Bさんは あそびに いきません。'], correctIndex: 1, explanation: 'B mang đồ uống đi (のみものを おねがいします -> わかりました).' }
-        ]
-      },
-      {
-        id: 'p_2125_m6_2',
-        type: 'mondai6',
-        htmlContent: '<div style="border: 2px solid var(--text); padding: 16px; border-radius: 8px; max-width: 400px; margin: 0 auto; background: var(--bg-card);"><h3 style="text-align: center; border-bottom: 2px dashed var(--border); padding-bottom: 8px; margin-top: 0;">さくら にほんご がっこう</h3><ul style="list-style-type: none; padding-left: 0; line-height: 1.8;"><li>・あめが ふったら、サッカーを しません。</li><li>・あめが ふらなくても、かぜが つよかったら、サッカーを しません。</li><li>・やすむ とき、せんせいに でんわを して ください。</li></ul></div>',
-        questions: [
-          { id: 'm2125_m6_1_q1', question: 'どんな とき サッカーを しますか。', options: ['あめが ふる とき', 'あめが ふらなくて、かぜが つよくない とき', 'あめが ふらなくて、かぜが つよい とき', 'かぜが つよい とき'], correctIndex: 1, explanation: 'Chỉ chơi khi: Không mưa VÀ gió không mạnh.' }
-        ]
-      }
-    ]
-  }
-
-
-  ,
-  {
-    id: 'review_16_20_3',
-    title: 'Đề thi 3: Trạm Ôn Tập JLPT N5 (Bài 16 - 20)',
-    description: 'Bộ đề ôn tập số 1. Trọng tâm: Thể ない, Thể từ điển (辞書形), Thể た, Thể thông thường.',
-    passages: [
-      {
-        id: 'p_1620_moji1_3',
-        type: 'moji_mondai1',
-        questions: [
-          { id: 'm1620_m1_1_3', question: 'えいがを 【見】ます。', options: ['み', 'き', 'し', 'よ'], correctIndex: 0, explanation: '見 (Kiến) đọc là み.' },
-          { id: 'm1620_m1_1_3b', question: 'あした 【雨】が ふります。', options: ['ゆき', 'あめ', 'はれ', 'くも'], correctIndex: 1, explanation: '雨 (Vũ) đọc là あめ (Mưa).' }
-        ]
-      },
-      {
-        id: 'p_1620_moji2_3',
-        type: 'moji_mondai2',
-        questions: [
-          { id: 'm1620_m2_1_3', question: '【みぎ】へ まがります。', options: ['右', '左', '前', '後'], correctIndex: 0, explanation: 'みぎ (Bên phải) viết là 右.' },
-          { id: 'm1620_m2_1_3b', question: '【しゃしん】を とります。', options: ['写真', '真写', '字真', '真字'], correctIndex: 0, explanation: 'しゃしん (Bức ảnh) viết là 写真.' }
-        ]
-      },
-      {
-        id: 'p_1620_moji3_3',
-        type: 'moji_mondai3',
-        questions: [
-          { id: 'm1620_m3_1_3', question: 'ここに くるまを 【　　　】。', options: ['とめないで ください', 'とまらないで ください', 'とめて ください', 'とまる ください'], correctIndex: 0, explanation: 'Xin đừng đỗ xe ở đây: とめないで ください.' },
-          { id: 'm1620_m3_1_3b', question: 'パスポートを 【　　　】。', options: ['みせないで ください', 'みせなければ なりません', 'みせても いいです', 'みせなくちゃ いいです'], correctIndex: 1, explanation: 'Phải cho xem hộ chiếu: みせなければ なりません.' }
-        ]
-      },
-      {
-        id: 'p_1620_moji4_3',
-        type: 'moji_mondai4',
-        questions: [
-          { id: 'm1620_m4_1_3', question: 'きのうは かいものしたり、えいがを みたり しました。', options: ['きのう かいものと えいがを しました。', 'きのう かいものをしてから、えいがを みました。', 'きのうは かいものと えいがなどを しました。', 'きのう かいものと えいがを みません。'], correctIndex: 2, explanation: 'Mẫu ～たり ～たり しました (Liệt kê hành động tiêu biểu).' }
-        ]
-      },
-      {
-        id: 'p_1620_m1_3',
-        type: 'mondai1',
-        questions: [
-          { id: 'm1620_m1_1_q1', question: 'わたしは ピアノを （　　　）が できます。', options: ['ひく', 'ひくこと', 'ひいて', 'ひき'], correctIndex: 1, explanation: 'Vる こと が できます (Có thể làm gì) -> ひくこと.' },
-          { id: 'm1620_m1_1_q2', question: 'にほんへ （　　　） まえに、にほんごを べんきょうしました。', options: ['いく', 'いって', 'いった', 'いかない'], correctIndex: 0, explanation: 'Vる まえに (Trước khi...) -> いく まえに.' },
-          { id: 'm1620_m1_1_q3', question: 'うまに （　　　）ことが ありますか。', options: ['のる', 'のった', 'のって', 'のらない'], correctIndex: 1, explanation: 'Vた ことが あります (Đã từng...) -> のった.' },
-          { id: 'm1620_m1_1_q4', question: 'あしたは （　　　） いいです。', options: ['はれと', 'はれに', 'はれなら', 'はれると'], correctIndex: 2, explanation: 'Mẫu câu Thể thông thường + と/なら いいですね (Cầu mong) - Thực ra bài 20 chỉ giới thiệu thể thông thường, tạm chấp nhận ở đây.' }
-        ]
-      },
-      {
-        id: 'p_1620_m2_3',
-        type: 'mondai2',
-        questions: [
-          { id: 'm1620_m2_1_q1', question: 'わたしの　___ ___ _★_ ___　です。', options: ['えを', 'しゅみ', 'は', 'かくこと'], correctIndex: 0, explanation: 'わたしの (しゅみ) (は) (えを) (かくこと) です. ★ rơi vào えを.' },
-          { id: 'm1620_m2_1_q2', question: 'ここで　___ ___ _★_ ___　ください。', options: ['を', 'しゃしん', 'とらないで', 'は'], correctIndex: 2, explanation: 'ここで (しゃしん) (は/を) (とらないで) (ください).' }
-        ]
-      },
-      {
-        id: 'p_1620_m3_3',
-        type: 'mondai3',
-        text: [
-          'わたしは まいあさ ６じに おきます。',
-          'あさごはんを （　１　）まえに、ジョギングを します。',
-          'ジョギングは しゅみです。',
-          'そして、シャワーを あびてから、ごはんを たべます。'
-        ],
-        questions: [
-          { id: 'm1620_m3_1_q1', question: '（　１　）に入れるものはどれですか。', options: ['たべる', 'たべた', 'たべて', 'たべない'], correctIndex: 0, explanation: 'まえに đi với Vる (たべる まえに).' },
-          { id: 'm1620_m3_1_q2', question: 'ジョギングの あとで、なにを しますか。', options: ['おきます', 'あさごはんを たべます', 'シャワーを あびます', 'かいしゃへ いきます'], correctIndex: 2, explanation: 'ジョギング xong thì シャワーを あびます.' }
-        ]
-      },
-      {
-        id: 'p_1620_m4_3',
-        type: 'mondai4',
-        text: [
-          'きのうは にちようびでした。',
-          'わたしは ともだちと うみへ いきました。',
-          'うみで およいだり、さかなを つったり しました。',
-          'とても たのしかったです。'
-        ],
-        questions: [
-          { id: 'm1620_m4_1_q1', question: 'きのう なにを しましたか。', options: ['うみへ いきました。', 'やまへ いきました。', 'まちへ いきました。', 'うちで やすみました。'], correctIndex: 0, explanation: 'Đi biển (うみへ いきました).' },
-          { id: 'm1620_m4_1_q2', question: 'うみで なにを しましたか。', options: ['さかなを かったり、たべたり しました。', 'およいだり、さかなを つったり しました。', 'しゃしんを とったり、えを かいたり しました。', 'ほんを よんだり、ねたり しました。'], correctIndex: 1, explanation: 'およいだり、さかなを つったり しました (Bơi và câu cá).' }
-        ]
-      },
-      {
-        id: 'p_1620_m5_3',
-        type: 'mondai5',
-        text: [
-          'わたしの しゅみは りょこうです。',
-          'いろいろな くにへ いきました。',
-          'アメリカや イギリスへ いった ことが あります。',
-          'でも、まだ フランスへ いった ことが ありません。',
-          'らいねん、フランスへ いきたいです。'
-        ],
-        questions: [
-          { id: 'm1620_m5_1_q1', question: 'しゅみは なんですか。', options: ['スポーツ', 'りょこう', 'えいが', 'どくしょ'], correctIndex: 1, explanation: 'しゅみは りょこうです (Sở thích là du lịch).' },
-          { id: 'm1620_m5_1_q2', question: 'どこの くにへ いった ことが ありませんか。', options: ['アメリカ', 'イギリス', 'フランス', 'にほん'], correctIndex: 2, explanation: 'まだ フランスへ いった ことが ありません (Chưa từng đi Pháp).' }
-        ]
-      },
-      {
-        id: 'p_1620_m6_3',
-        type: 'mondai6',
-        htmlContent: '<div style="border: 2px solid var(--text); padding: 16px; border-radius: 8px; max-width: 400px; margin: 0 auto; background: var(--bg-card);"><h3 style="text-align: center; border-bottom: 2px dashed var(--border); padding-bottom: 8px; margin-top: 0;">おねがい</h3><ul style="list-style-type: none; padding-left: 0; line-height: 1.8;"><li>・くつを ぬいで ください。</li><li>・おおきい こえで はなさないで ください。</li><li>・たばこを すわないで ください。</li></ul></div>',
-        questions: [
-          { id: 'm1620_m6_1_q1', question: 'ここでは しても いい ことは どれですか。', options: ['くつを はくこと', 'たばこを すうこと', 'ちいさい こえで はなすこと', 'おおきい こえで はなすこと'], correctIndex: 2, explanation: 'Đừng nói lớn tiếng -> Nói nhỏ tiếng thì được (ちいさい こえで はなすこと).' }
-        ]
-      }
-    ]
-  }
-
-
-  ,
-  {
-    id: 'review_21_25_3',
-    title: 'Đề thi 3: Trạm Ôn Tập JLPT N5 (Bài 21 - 25)',
-    description: 'Bộ đề ôn tập số 1. Trọng tâm: Câu phụ nite (と思います/と言います), Mệnh đề định ngữ, Mệnh đề thời gian (とき), Điều kiện (と/たら/ても), Cho nhận.',
-    passages: [
-      {
-        id: 'p_2125_moji1_3',
-        type: 'moji_mondai1',
-        questions: [
-          { id: 'm2125_m1_1_3', question: '【電氣】を つけます。', options: ['てんき', 'でんき', 'てんぎ', 'でんぎ'], correctIndex: 1, explanation: '電気 (Điện Khí) đọc là でんき (Điện).' },
-          { id: 'm2125_m1_1_3b', question: '【道】を まっすぐ いきます。', options: ['まち', 'みち', 'むら', 'くに'], correctIndex: 1, explanation: '道 (Đạo) đọc là みち (Đường).' }
-        ]
-      },
-      {
-        id: 'p_2125_moji2_3',
-        type: 'moji_mondai2',
-        questions: [
-          { id: 'm2125_m2_1_3', question: '【おとうと】が います。', options: ['弟', '兄', '妹', '姉'], correctIndex: 0, explanation: '弟 là Em trai (おとうと).' },
-          { id: 'm2125_m2_1_3b', question: 'あめが 【ふって】 います。', options: ['降って', '落ちて', '下って', '流って'], correctIndex: 0, explanation: '降って là Rơi/Đổ (mưa).' }
-        ]
-      },
-      {
-        id: 'p_2125_moji3_3',
-        type: 'moji_mondai3',
-        questions: [
-          { id: 'm2125_m3_1_3', question: 'ねむい 【　　　】、コーヒーを のみます。', options: ['とき', 'と', 'たら', 'ば'], correctIndex: 0, explanation: 'Khi buồn ngủ (ねむい とき).' },
-          { id: 'm2125_m3_1_3b', question: 'ボタンを おす 【　　　】、きっぷが でます。', options: ['とき', 'と', 'たら', 'ば'], correctIndex: 1, explanation: 'Hễ bấm nút thì vé sẽ ra (ボタンを おすと).' }
-        ]
-      },
-      {
-        id: 'p_2125_moji4_3',
-        type: 'moji_mondai4',
-        questions: [
-          { id: 'm2125_m4_1_3', question: 'あめが ふっても、いきます。', options: ['あめが ふったら いきます。', 'あめが ふったら いきません。', 'あめが ふりますが、いきます。', 'あめが ふらないと いきます。'], correctIndex: 2, explanation: 'Dù trời mưa tôi vẫn đi (Cho dù = ても).' }
-        ]
-      },
-      {
-        id: 'p_2125_m1_3',
-        type: 'mondai1',
-        questions: [
-          { id: 'm2125_m1_1_q1', question: 'あしたは あめが ふる（　　　） おもいます。', options: ['と', 'を', 'に', 'で'], correctIndex: 0, explanation: 'Mẫu câu ～と おもいます (Tôi nghĩ là...).' },
-          { id: 'm2125_m1_1_q2', question: 'これは わたしが （　　　） かばんです。', options: ['かい', 'かう', 'かった', 'かって'], correctIndex: 2, explanation: 'Mệnh đề bổ nghĩa cho danh từ: Vた N (Cái túi mà tôi đã mua) -> かった かばん.' },
-          { id: 'm2125_m1_1_q3', question: 'ともだちが わたし（　　　） ほんを くれました。', options: ['が', 'を', 'に', 'で'], correctIndex: 2, explanation: 'Bạn bè tặng (cho tôi) cuốn sách -> Trợ từ に (Cho ai).' },
-          { id: 'm2125_m1_1_q4', question: 'じかんが なかった（　　　）、ほんを よみません。', options: ['たら', 'と', 'から', 'ば'], correctIndex: 0, explanation: 'Nếu không có thời gian -> なかったら.' }
-        ]
-      },
-      {
-        id: 'p_2125_m2_3',
-        type: 'mondai2',
-        questions: [
-          { id: 'm2125_m2_1_q1', question: 'あの　___ ___ _★_ ___　は だれですか。', options: ['を', 'ひと', 'メガネ', 'かけている'], correctIndex: 3, explanation: 'あの (メガネ) (を) (かけている) (ひと) は だれですか. ★ rơi vào かけている.' },
-          { id: 'm2125_m2_1_q2', question: 'たのしく　___ ___ _★_ ___　と おもいます。', options: ['あしたの', 'は', 'パーティー', 'ない'], correctIndex: 3, explanation: '(あしたの) (パーティー) (は) たのしく (ない) と おもいます.' }
-        ]
-      },
-      {
-        id: 'p_2125_m3_3',
-        type: 'mondai3',
-        text: [
-          'わたしは きのう ともだちの うちへ いきました。',
-          'ともだちが おいしい ケーキを つくって （　１　）。',
-          'とても おいしかったです。',
-          'わたしは また ケーキを （　２　）と おもいます。'
-        ],
-        questions: [
-          { id: 'm2125_m3_1_q1', question: '（　１　）に入れるものはどれですか。', options: ['あげました', 'もらいました', 'くれました', 'しました'], correctIndex: 2, explanation: 'Bạn bè làm (cho mình) -> つくって くれました.' },
-          { id: 'm2125_m3_1_q2', question: '（　２　）に入れるものはどれですか。', options: ['たべる', 'たべた', 'たべたい', 'たべて'], correctIndex: 2, explanation: 'Tôi nghĩ tôi MONG MUỐN ăn lại -> たべたい.' }
-        ]
-      },
-      {
-        id: 'p_2125_m4_3',
-        type: 'mondai4',
-        text: [
-          'これは わたしが おきなわで とった しゃしんです。',
-          'うみが とても きれいです。',
-          'おきなわへ いく とき、ひこうきで いきました。',
-          'また おきなわへ いきたいです。'
-        ],
-        questions: [
-          { id: 'm2125_m4_1_q1', question: 'この しゃしんは どこで とりましたか。', options: ['とうきょうで', 'おきなわで', 'ひこうきで', 'うみで'], correctIndex: 1, explanation: 'おきなわで とった しゃしんです (Ảnh chụp ở Okinawa).' },
-          { id: 'm2125_m4_1_q2', question: 'どうやって おきなわへ いきましたか。', options: ['ふねで', 'ひこうきで', 'でんしゃで', 'くるまで'], correctIndex: 1, explanation: 'ひこうきで いきました (Đi bằng máy bay).' }
-        ]
-      },
-      {
-        id: 'p_2125_m5_3',
-        type: 'mondai5',
-        text: [
-          'A: あした ひまだったら、あそびに きませんか。',
-          'B: いいですね。なにか もって いきましょうか。',
-          'A: じゃあ、のみものを おねがいします。',
-          'B: わかりました。'
-        ],
-        questions: [
-          { id: 'm2125_m5_1_q1', question: 'Bさんは あした なにを しますか。', options: ['Aさんの うちへ いきます。', 'のみものを かいます。', 'Aさんの うちへ いって、のみものを もって いきます。', 'のみものを もって、Aさんの うちへ いきます。'], correctIndex: 3, explanation: 'B mang đồ uống và đến nhà A chơi.' },
-          { id: 'm2125_m5_1_q2', question: 'ただしいものは どれですか。', options: ['Aさんは ひまではありません。', 'Bさんは のみものを もって いきます。', 'Aさんは のみものを かいます。', 'Bさんは あそびに いきません。'], correctIndex: 1, explanation: 'B mang đồ uống đi (のみものを おねがいします -> わかりました).' }
-        ]
-      },
-      {
-        id: 'p_2125_m6_3',
-        type: 'mondai6',
-        htmlContent: '<div style="border: 2px solid var(--text); padding: 16px; border-radius: 8px; max-width: 400px; margin: 0 auto; background: var(--bg-card);"><h3 style="text-align: center; border-bottom: 2px dashed var(--border); padding-bottom: 8px; margin-top: 0;">さくら にほんご がっこう</h3><ul style="list-style-type: none; padding-left: 0; line-height: 1.8;"><li>・あめが ふったら、サッカーを しません。</li><li>・あめが ふらなくても、かぜが つよかったら、サッカーを しません。</li><li>・やすむ とき、せんせいに でんわを して ください。</li></ul></div>',
-        questions: [
-          { id: 'm2125_m6_1_q1', question: 'どんな とき サッカーを しますか。', options: ['あめが ふる とき', 'あめが ふらなくて、かぜが つよくない とき', 'あめが ふらなくて、かぜが つよい とき', 'かぜが つよい とき'], correctIndex: 1, explanation: 'Chỉ chơi khi: Không mưa VÀ gió không mạnh.' }
-        ]
-      }
-    ]
-  }
-
-
-  ,
-  {
-    id: 'review_16_20_4',
-    title: 'Đề thi 4: Trạm Ôn Tập JLPT N5 (Bài 16 - 20)',
-    description: 'Bộ đề ôn tập số 1. Trọng tâm: Thể ない, Thể từ điển (辞書形), Thể た, Thể thông thường.',
-    passages: [
-      {
-        id: 'p_1620_moji1_4',
-        type: 'moji_mondai1',
-        questions: [
-          { id: 'm1620_m1_1_4', question: 'えいがを 【見】ます。', options: ['み', 'き', 'し', 'よ'], correctIndex: 0, explanation: '見 (Kiến) đọc là み.' },
-          { id: 'm1620_m1_1_4b', question: 'あした 【雨】が ふります。', options: ['ゆき', 'あめ', 'はれ', 'くも'], correctIndex: 1, explanation: '雨 (Vũ) đọc là あめ (Mưa).' }
-        ]
-      },
-      {
-        id: 'p_1620_moji2_4',
-        type: 'moji_mondai2',
-        questions: [
-          { id: 'm1620_m2_1_4', question: '【みぎ】へ まがります。', options: ['右', '左', '前', '後'], correctIndex: 0, explanation: 'みぎ (Bên phải) viết là 右.' },
-          { id: 'm1620_m2_1_4b', question: '【しゃしん】を とります。', options: ['写真', '真写', '字真', '真字'], correctIndex: 0, explanation: 'しゃしん (Bức ảnh) viết là 写真.' }
-        ]
-      },
-      {
-        id: 'p_1620_moji3_4',
-        type: 'moji_mondai3',
-        questions: [
-          { id: 'm1620_m3_1_4', question: 'ここに くるまを 【　　　】。', options: ['とめないで ください', 'とまらないで ください', 'とめて ください', 'とまる ください'], correctIndex: 0, explanation: 'Xin đừng đỗ xe ở đây: とめないで ください.' },
-          { id: 'm1620_m3_1_4b', question: 'パスポートを 【　　　】。', options: ['みせないで ください', 'みせなければ なりません', 'みせても いいです', 'みせなくちゃ いいです'], correctIndex: 1, explanation: 'Phải cho xem hộ chiếu: みせなければ なりません.' }
-        ]
-      },
-      {
-        id: 'p_1620_moji4_4',
-        type: 'moji_mondai4',
-        questions: [
-          { id: 'm1620_m4_1_4', question: 'きのうは かいものしたり、えいがを みたり しました。', options: ['きのう かいものと えいがを しました。', 'きのう かいものをしてから、えいがを みました。', 'きのうは かいものと えいがなどを しました。', 'きのう かいものと えいがを みません。'], correctIndex: 2, explanation: 'Mẫu ～たり ～たり しました (Liệt kê hành động tiêu biểu).' }
-        ]
-      },
-      {
-        id: 'p_1620_m1_4',
-        type: 'mondai1',
-        questions: [
-          { id: 'm1620_m1_1_q1', question: 'わたしは ピアノを （　　　）が できます。', options: ['ひく', 'ひくこと', 'ひいて', 'ひき'], correctIndex: 1, explanation: 'Vる こと が できます (Có thể làm gì) -> ひくこと.' },
-          { id: 'm1620_m1_1_q2', question: 'にほんへ （　　　） まえに、にほんごを べんきょうしました。', options: ['いく', 'いって', 'いった', 'いかない'], correctIndex: 0, explanation: 'Vる まえに (Trước khi...) -> いく まえに.' },
-          { id: 'm1620_m1_1_q3', question: 'うまに （　　　）ことが ありますか。', options: ['のる', 'のった', 'のって', 'のらない'], correctIndex: 1, explanation: 'Vた ことが あります (Đã từng...) -> のった.' },
-          { id: 'm1620_m1_1_q4', question: 'あしたは （　　　） いいです。', options: ['はれと', 'はれに', 'はれなら', 'はれると'], correctIndex: 2, explanation: 'Mẫu câu Thể thông thường + と/なら いいですね (Cầu mong) - Thực ra bài 20 chỉ giới thiệu thể thông thường, tạm chấp nhận ở đây.' }
-        ]
-      },
-      {
-        id: 'p_1620_m2_4',
-        type: 'mondai2',
-        questions: [
-          { id: 'm1620_m2_1_q1', question: 'わたしの　___ ___ _★_ ___　です。', options: ['えを', 'しゅみ', 'は', 'かくこと'], correctIndex: 0, explanation: 'わたしの (しゅみ) (は) (えを) (かくこと) です. ★ rơi vào えを.' },
-          { id: 'm1620_m2_1_q2', question: 'ここで　___ ___ _★_ ___　ください。', options: ['を', 'しゃしん', 'とらないで', 'は'], correctIndex: 2, explanation: 'ここで (しゃしん) (は/を) (とらないで) (ください).' }
-        ]
-      },
-      {
-        id: 'p_1620_m3_4',
-        type: 'mondai3',
-        text: [
-          'わたしは まいあさ ６じに おきます。',
-          'あさごはんを （　１　）まえに、ジョギングを します。',
-          'ジョギングは しゅみです。',
-          'そして、シャワーを あびてから、ごはんを たべます。'
-        ],
-        questions: [
-          { id: 'm1620_m3_1_q1', question: '（　１　）に入れるものはどれですか。', options: ['たべる', 'たべた', 'たべて', 'たべない'], correctIndex: 0, explanation: 'まえに đi với Vる (たべる まえに).' },
-          { id: 'm1620_m3_1_q2', question: 'ジョギングの あとで、なにを しますか。', options: ['おきます', 'あさごはんを たべます', 'シャワーを あびます', 'かいしゃへ いきます'], correctIndex: 2, explanation: 'ジョギング xong thì シャワーを あびます.' }
-        ]
-      },
-      {
-        id: 'p_1620_m4_4',
-        type: 'mondai4',
-        text: [
-          'きのうは にちようびでした。',
-          'わたしは ともだちと うみへ いきました。',
-          'うみで およいだり、さかなを つったり しました。',
-          'とても たのしかったです。'
-        ],
-        questions: [
-          { id: 'm1620_m4_1_q1', question: 'きのう なにを しましたか。', options: ['うみへ いきました。', 'やまへ いきました。', 'まちへ いきました。', 'うちで やすみました。'], correctIndex: 0, explanation: 'Đi biển (うみへ いきました).' },
-          { id: 'm1620_m4_1_q2', question: 'うみで なにを しましたか。', options: ['さかなを かったり、たべたり しました。', 'およいだり、さかなを つったり しました。', 'しゃしんを とったり、えを かいたり しました。', 'ほんを よんだり、ねたり しました。'], correctIndex: 1, explanation: 'およいだり、さかなを つったり しました (Bơi và câu cá).' }
-        ]
-      },
-      {
-        id: 'p_1620_m5_4',
-        type: 'mondai5',
-        text: [
-          'わたしの しゅみは りょこうです。',
-          'いろいろな くにへ いきました。',
-          'アメリカや イギリスへ いった ことが あります。',
-          'でも、まだ フランスへ いった ことが ありません。',
-          'らいねん、フランスへ いきたいです。'
-        ],
-        questions: [
-          { id: 'm1620_m5_1_q1', question: 'しゅみは なんですか。', options: ['スポーツ', 'りょこう', 'えいが', 'どくしょ'], correctIndex: 1, explanation: 'しゅみは りょこうです (Sở thích là du lịch).' },
-          { id: 'm1620_m5_1_q2', question: 'どこの くにへ いった ことが ありませんか。', options: ['アメリカ', 'イギリス', 'フランス', 'にほん'], correctIndex: 2, explanation: 'まだ フランスへ いった ことが ありません (Chưa từng đi Pháp).' }
-        ]
-      },
-      {
-        id: 'p_1620_m6_4',
-        type: 'mondai6',
-        htmlContent: '<div style="border: 2px solid var(--text); padding: 16px; border-radius: 8px; max-width: 400px; margin: 0 auto; background: var(--bg-card);"><h3 style="text-align: center; border-bottom: 2px dashed var(--border); padding-bottom: 8px; margin-top: 0;">おねがい</h3><ul style="list-style-type: none; padding-left: 0; line-height: 1.8;"><li>・くつを ぬいで ください。</li><li>・おおきい こえで はなさないで ください。</li><li>・たばこを すわないで ください。</li></ul></div>',
-        questions: [
-          { id: 'm1620_m6_1_q1', question: 'ここでは しても いい ことは どれですか。', options: ['くつを はくこと', 'たばこを すうこと', 'ちいさい こえで はなすこと', 'おおきい こえで はなすこと'], correctIndex: 2, explanation: 'Đừng nói lớn tiếng -> Nói nhỏ tiếng thì được (ちいさい こえで はなすこと).' }
-        ]
-      }
-    ]
-  }
-
-
-  ,
-  {
-    id: 'review_21_25_4',
-    title: 'Đề thi 4: Trạm Ôn Tập JLPT N5 (Bài 21 - 25)',
-    description: 'Bộ đề ôn tập số 1. Trọng tâm: Câu phụ nite (と思います/と言います), Mệnh đề định ngữ, Mệnh đề thời gian (とき), Điều kiện (と/たら/ても), Cho nhận.',
-    passages: [
-      {
-        id: 'p_2125_moji1_4',
-        type: 'moji_mondai1',
-        questions: [
-          { id: 'm2125_m1_1_4', question: '【電氣】を つけます。', options: ['てんき', 'でんき', 'てんぎ', 'でんぎ'], correctIndex: 1, explanation: '電気 (Điện Khí) đọc là でんき (Điện).' },
-          { id: 'm2125_m1_1_4b', question: '【道】を まっすぐ いきます。', options: ['まち', 'みち', 'むら', 'くに'], correctIndex: 1, explanation: '道 (Đạo) đọc là みち (Đường).' }
-        ]
-      },
-      {
-        id: 'p_2125_moji2_4',
-        type: 'moji_mondai2',
-        questions: [
-          { id: 'm2125_m2_1_4', question: '【おとうと】が います。', options: ['弟', '兄', '妹', '姉'], correctIndex: 0, explanation: '弟 là Em trai (おとうと).' },
-          { id: 'm2125_m2_1_4b', question: 'あめが 【ふって】 います。', options: ['降って', '落ちて', '下って', '流って'], correctIndex: 0, explanation: '降って là Rơi/Đổ (mưa).' }
-        ]
-      },
-      {
-        id: 'p_2125_moji3_4',
-        type: 'moji_mondai3',
-        questions: [
-          { id: 'm2125_m3_1_4', question: 'ねむい 【　　　】、コーヒーを のみます。', options: ['とき', 'と', 'たら', 'ば'], correctIndex: 0, explanation: 'Khi buồn ngủ (ねむい とき).' },
-          { id: 'm2125_m3_1_4b', question: 'ボタンを おす 【　　　】、きっぷが でます。', options: ['とき', 'と', 'たら', 'ば'], correctIndex: 1, explanation: 'Hễ bấm nút thì vé sẽ ra (ボタンを おすと).' }
-        ]
-      },
-      {
-        id: 'p_2125_moji4_4',
-        type: 'moji_mondai4',
-        questions: [
-          { id: 'm2125_m4_1_4', question: 'あめが ふっても、いきます。', options: ['あめが ふったら いきます。', 'あめが ふったら いきません。', 'あめが ふりますが、いきます。', 'あめが ふらないと いきます。'], correctIndex: 2, explanation: 'Dù trời mưa tôi vẫn đi (Cho dù = ても).' }
-        ]
-      },
-      {
-        id: 'p_2125_m1_4',
-        type: 'mondai1',
-        questions: [
-          { id: 'm2125_m1_1_q1', question: 'あしたは あめが ふる（　　　） おもいます。', options: ['と', 'を', 'に', 'で'], correctIndex: 0, explanation: 'Mẫu câu ～と おもいます (Tôi nghĩ là...).' },
-          { id: 'm2125_m1_1_q2', question: 'これは わたしが （　　　） かばんです。', options: ['かい', 'かう', 'かった', 'かって'], correctIndex: 2, explanation: 'Mệnh đề bổ nghĩa cho danh từ: Vた N (Cái túi mà tôi đã mua) -> かった かばん.' },
-          { id: 'm2125_m1_1_q3', question: 'ともだちが わたし（　　　） ほんを くれました。', options: ['が', 'を', 'に', 'で'], correctIndex: 2, explanation: 'Bạn bè tặng (cho tôi) cuốn sách -> Trợ từ に (Cho ai).' },
-          { id: 'm2125_m1_1_q4', question: 'じかんが なかった（　　　）、ほんを よみません。', options: ['たら', 'と', 'から', 'ば'], correctIndex: 0, explanation: 'Nếu không có thời gian -> なかったら.' }
-        ]
-      },
-      {
-        id: 'p_2125_m2_4',
-        type: 'mondai2',
-        questions: [
-          { id: 'm2125_m2_1_q1', question: 'あの　___ ___ _★_ ___　は だれですか。', options: ['を', 'ひと', 'メガネ', 'かけている'], correctIndex: 3, explanation: 'あの (メガネ) (を) (かけている) (ひと) は だれですか. ★ rơi vào かけている.' },
-          { id: 'm2125_m2_1_q2', question: 'たのしく　___ ___ _★_ ___　と おもいます。', options: ['あしたの', 'は', 'パーティー', 'ない'], correctIndex: 3, explanation: '(あしたの) (パーティー) (は) たのしく (ない) と おもいます.' }
-        ]
-      },
-      {
-        id: 'p_2125_m3_4',
-        type: 'mondai3',
-        text: [
-          'わたしは きのう ともだちの うちへ いきました。',
-          'ともだちが おいしい ケーキを つくって （　１　）。',
-          'とても おいしかったです。',
-          'わたしは また ケーキを （　２　）と おもいます。'
-        ],
-        questions: [
-          { id: 'm2125_m3_1_q1', question: '（　１　）に入れるものはどれですか。', options: ['あげました', 'もらいました', 'くれました', 'しました'], correctIndex: 2, explanation: 'Bạn bè làm (cho mình) -> つくって くれました.' },
-          { id: 'm2125_m3_1_q2', question: '（　２　）に入れるものはどれですか。', options: ['たべる', 'たべた', 'たべたい', 'たべて'], correctIndex: 2, explanation: 'Tôi nghĩ tôi MONG MUỐN ăn lại -> たべたい.' }
-        ]
-      },
-      {
-        id: 'p_2125_m4_4',
-        type: 'mondai4',
-        text: [
-          'これは わたしが おきなわで とった しゃしんです。',
-          'うみが とても きれいです。',
-          'おきなわへ いく とき、ひこうきで いきました。',
-          'また おきなわへ いきたいです。'
-        ],
-        questions: [
-          { id: 'm2125_m4_1_q1', question: 'この しゃしんは どこで とりましたか。', options: ['とうきょうで', 'おきなわで', 'ひこうきで', 'うみで'], correctIndex: 1, explanation: 'おきなわで とった しゃしんです (Ảnh chụp ở Okinawa).' },
-          { id: 'm2125_m4_1_q2', question: 'どうやって おきなわへ いきましたか。', options: ['ふねで', 'ひこうきで', 'でんしゃで', 'くるまで'], correctIndex: 1, explanation: 'ひこうきで いきました (Đi bằng máy bay).' }
-        ]
-      },
-      {
-        id: 'p_2125_m5_4',
-        type: 'mondai5',
-        text: [
-          'A: あした ひまだったら、あそびに きませんか。',
-          'B: いいですね。なにか もって いきましょうか。',
-          'A: じゃあ、のみものを おねがいします。',
-          'B: わかりました。'
-        ],
-        questions: [
-          { id: 'm2125_m5_1_q1', question: 'Bさんは あした なにを しますか。', options: ['Aさんの うちへ いきます。', 'のみものを かいます。', 'Aさんの うちへ いって、のみものを もって いきます。', 'のみものを もって、Aさんの うちへ いきます。'], correctIndex: 3, explanation: 'B mang đồ uống và đến nhà A chơi.' },
-          { id: 'm2125_m5_1_q2', question: 'ただしいものは どれですか。', options: ['Aさんは ひまではありません。', 'Bさんは のみものを もって いきます。', 'Aさんは のみものを かいます。', 'Bさんは あそびに いきません。'], correctIndex: 1, explanation: 'B mang đồ uống đi (のみものを おねがいします -> わかりました).' }
-        ]
-      },
-      {
-        id: 'p_2125_m6_4',
-        type: 'mondai6',
-        htmlContent: '<div style="border: 2px solid var(--text); padding: 16px; border-radius: 8px; max-width: 400px; margin: 0 auto; background: var(--bg-card);"><h3 style="text-align: center; border-bottom: 2px dashed var(--border); padding-bottom: 8px; margin-top: 0;">さくら にほんご がっこう</h3><ul style="list-style-type: none; padding-left: 0; line-height: 1.8;"><li>・あめが ふったら、サッカーを しません。</li><li>・あめが ふらなくても、かぜが つよかったら、サッカーを しません。</li><li>・やすむ とき、せんせいに でんわを して ください。</li></ul></div>',
-        questions: [
-          { id: 'm2125_m6_1_q1', question: 'どんな とき サッカーを しますか。', options: ['あめが ふる とき', 'あめが ふらなくて、かぜが つよくない とき', 'あめが ふらなくて、かぜが つよい とき', 'かぜが つよい とき'], correctIndex: 1, explanation: 'Chỉ chơi khi: Không mưa VÀ gió không mạnh.' }
-        ]
-      }
-    ]
-  }
-
-
-  ,
-  {
-    id: 'review_16_20_5',
-    title: 'Đề thi 5: Trạm Ôn Tập JLPT N5 (Bài 16 - 20)',
-    description: 'Bộ đề ôn tập số 1. Trọng tâm: Thể ない, Thể từ điển (辞書形), Thể た, Thể thông thường.',
-    passages: [
-      {
-        id: 'p_1620_moji1_5',
-        type: 'moji_mondai1',
-        questions: [
-          { id: 'm1620_m1_1_5', question: 'えいがを 【見】ます。', options: ['み', 'き', 'し', 'よ'], correctIndex: 0, explanation: '見 (Kiến) đọc là み.' },
-          { id: 'm1620_m1_1_5b', question: 'あした 【雨】が ふります。', options: ['ゆき', 'あめ', 'はれ', 'くも'], correctIndex: 1, explanation: '雨 (Vũ) đọc là あめ (Mưa).' }
-        ]
-      },
-      {
-        id: 'p_1620_moji2_5',
-        type: 'moji_mondai2',
-        questions: [
-          { id: 'm1620_m2_1_5', question: '【みぎ】へ まがります。', options: ['右', '左', '前', '後'], correctIndex: 0, explanation: 'みぎ (Bên phải) viết là 右.' },
-          { id: 'm1620_m2_1_5b', question: '【しゃしん】を とります。', options: ['写真', '真写', '字真', '真字'], correctIndex: 0, explanation: 'しゃしん (Bức ảnh) viết là 写真.' }
-        ]
-      },
-      {
-        id: 'p_1620_moji3_5',
-        type: 'moji_mondai3',
-        questions: [
-          { id: 'm1620_m3_1_5', question: 'ここに くるまを 【　　　】。', options: ['とめないで ください', 'とまらないで ください', 'とめて ください', 'とまる ください'], correctIndex: 0, explanation: 'Xin đừng đỗ xe ở đây: とめないで ください.' },
-          { id: 'm1620_m3_1_5b', question: 'パスポートを 【　　　】。', options: ['みせないで ください', 'みせなければ なりません', 'みせても いいです', 'みせなくちゃ いいです'], correctIndex: 1, explanation: 'Phải cho xem hộ chiếu: みせなければ なりません.' }
-        ]
-      },
-      {
-        id: 'p_1620_moji4_5',
-        type: 'moji_mondai4',
-        questions: [
-          { id: 'm1620_m4_1_5', question: 'きのうは かいものしたり、えいがを みたり しました。', options: ['きのう かいものと えいがを しました。', 'きのう かいものをしてから、えいがを みました。', 'きのうは かいものと えいがなどを しました。', 'きのう かいものと えいがを みません。'], correctIndex: 2, explanation: 'Mẫu ～たり ～たり しました (Liệt kê hành động tiêu biểu).' }
-        ]
-      },
-      {
-        id: 'p_1620_m1_5',
-        type: 'mondai1',
-        questions: [
-          { id: 'm1620_m1_1_q1', question: 'わたしは ピアノを （　　　）が できます。', options: ['ひく', 'ひくこと', 'ひいて', 'ひき'], correctIndex: 1, explanation: 'Vる こと が できます (Có thể làm gì) -> ひくこと.' },
-          { id: 'm1620_m1_1_q2', question: 'にほんへ （　　　） まえに、にほんごを べんきょうしました。', options: ['いく', 'いって', 'いった', 'いかない'], correctIndex: 0, explanation: 'Vる まえに (Trước khi...) -> いく まえに.' },
-          { id: 'm1620_m1_1_q3', question: 'うまに （　　　）ことが ありますか。', options: ['のる', 'のった', 'のって', 'のらない'], correctIndex: 1, explanation: 'Vた ことが あります (Đã từng...) -> のった.' },
-          { id: 'm1620_m1_1_q4', question: 'あしたは （　　　） いいです。', options: ['はれと', 'はれに', 'はれなら', 'はれると'], correctIndex: 2, explanation: 'Mẫu câu Thể thông thường + と/なら いいですね (Cầu mong) - Thực ra bài 20 chỉ giới thiệu thể thông thường, tạm chấp nhận ở đây.' }
-        ]
-      },
-      {
-        id: 'p_1620_m2_5',
-        type: 'mondai2',
-        questions: [
-          { id: 'm1620_m2_1_q1', question: 'わたしの　___ ___ _★_ ___　です。', options: ['えを', 'しゅみ', 'は', 'かくこと'], correctIndex: 0, explanation: 'わたしの (しゅみ) (は) (えを) (かくこと) です. ★ rơi vào えを.' },
-          { id: 'm1620_m2_1_q2', question: 'ここで　___ ___ _★_ ___　ください。', options: ['を', 'しゃしん', 'とらないで', 'は'], correctIndex: 2, explanation: 'ここで (しゃしん) (は/を) (とらないで) (ください).' }
-        ]
-      },
-      {
-        id: 'p_1620_m3_5',
-        type: 'mondai3',
-        text: [
-          'わたしは まいあさ ６じに おきます。',
-          'あさごはんを （　１　）まえに、ジョギングを します。',
-          'ジョギングは しゅみです。',
-          'そして、シャワーを あびてから、ごはんを たべます。'
-        ],
-        questions: [
-          { id: 'm1620_m3_1_q1', question: '（　１　）に入れるものはどれですか。', options: ['たべる', 'たべた', 'たべて', 'たべない'], correctIndex: 0, explanation: 'まえに đi với Vる (たべる まえに).' },
-          { id: 'm1620_m3_1_q2', question: 'ジョギングの あとで、なにを しますか。', options: ['おきます', 'あさごはんを たべます', 'シャワーを あびます', 'かいしゃへ いきます'], correctIndex: 2, explanation: 'ジョギング xong thì シャワーを あびます.' }
-        ]
-      },
-      {
-        id: 'p_1620_m4_5',
-        type: 'mondai4',
-        text: [
-          'きのうは にちようびでした。',
-          'わたしは ともだちと うみへ いきました。',
-          'うみで およいだり、さかなを つったり しました。',
-          'とても たのしかったです。'
-        ],
-        questions: [
-          { id: 'm1620_m4_1_q1', question: 'きのう なにを しましたか。', options: ['うみへ いきました。', 'やまへ いきました。', 'まちへ いきました。', 'うちで やすみました。'], correctIndex: 0, explanation: 'Đi biển (うみへ いきました).' },
-          { id: 'm1620_m4_1_q2', question: 'うみで なにを しましたか。', options: ['さかなを かったり、たべたり しました。', 'およいだり、さかなを つったり しました。', 'しゃしんを とったり、えを かいたり しました。', 'ほんを よんだり、ねたり しました。'], correctIndex: 1, explanation: 'およいだり、さかなを つったり しました (Bơi và câu cá).' }
-        ]
-      },
-      {
-        id: 'p_1620_m5_5',
-        type: 'mondai5',
-        text: [
-          'わたしの しゅみは りょこうです。',
-          'いろいろな くにへ いきました。',
-          'アメリカや イギリスへ いった ことが あります。',
-          'でも、まだ フランスへ いった ことが ありません。',
-          'らいねん、フランスへ いきたいです。'
-        ],
-        questions: [
-          { id: 'm1620_m5_1_q1', question: 'しゅみは なんですか。', options: ['スポーツ', 'りょこう', 'えいが', 'どくしょ'], correctIndex: 1, explanation: 'しゅみは りょこうです (Sở thích là du lịch).' },
-          { id: 'm1620_m5_1_q2', question: 'どこの くにへ いった ことが ありませんか。', options: ['アメリカ', 'イギリス', 'フランス', 'にほん'], correctIndex: 2, explanation: 'まだ フランスへ いった ことが ありません (Chưa từng đi Pháp).' }
-        ]
-      },
-      {
-        id: 'p_1620_m6_5',
-        type: 'mondai6',
-        htmlContent: '<div style="border: 2px solid var(--text); padding: 16px; border-radius: 8px; max-width: 400px; margin: 0 auto; background: var(--bg-card);"><h3 style="text-align: center; border-bottom: 2px dashed var(--border); padding-bottom: 8px; margin-top: 0;">おねがい</h3><ul style="list-style-type: none; padding-left: 0; line-height: 1.8;"><li>・くつを ぬいで ください。</li><li>・おおきい こえで はなさないで ください。</li><li>・たばこを すわないで ください。</li></ul></div>',
-        questions: [
-          { id: 'm1620_m6_1_q1', question: 'ここでは しても いい ことは どれですか。', options: ['くつを はくこと', 'たばこを すうこと', 'ちいさい こえで はなすこと', 'おおきい こえで はなすこと'], correctIndex: 2, explanation: 'Đừng nói lớn tiếng -> Nói nhỏ tiếng thì được (ちいさい こえで はなすこと).' }
-        ]
-      }
-    ]
-  }
-
-
-  ,
-  {
-    id: 'review_21_25_5',
-    title: 'Đề thi 5: Trạm Ôn Tập JLPT N5 (Bài 21 - 25)',
-    description: 'Bộ đề ôn tập số 1. Trọng tâm: Câu phụ nite (と思います/と言います), Mệnh đề định ngữ, Mệnh đề thời gian (とき), Điều kiện (と/たら/ても), Cho nhận.',
-    passages: [
-      {
-        id: 'p_2125_moji1_5',
-        type: 'moji_mondai1',
-        questions: [
-          { id: 'm2125_m1_1_5', question: '【電氣】を つけます。', options: ['てんき', 'でんき', 'てんぎ', 'でんぎ'], correctIndex: 1, explanation: '電気 (Điện Khí) đọc là でんき (Điện).' },
-          { id: 'm2125_m1_1_5b', question: '【道】を まっすぐ いきます。', options: ['まち', 'みち', 'むら', 'くに'], correctIndex: 1, explanation: '道 (Đạo) đọc là みち (Đường).' }
-        ]
-      },
-      {
-        id: 'p_2125_moji2_5',
-        type: 'moji_mondai2',
-        questions: [
-          { id: 'm2125_m2_1_5', question: '【おとうと】が います。', options: ['弟', '兄', '妹', '姉'], correctIndex: 0, explanation: '弟 là Em trai (おとうと).' },
-          { id: 'm2125_m2_1_5b', question: 'あめが 【ふって】 います。', options: ['降って', '落ちて', '下って', '流って'], correctIndex: 0, explanation: '降って là Rơi/Đổ (mưa).' }
-        ]
-      },
-      {
-        id: 'p_2125_moji3_5',
-        type: 'moji_mondai3',
-        questions: [
-          { id: 'm2125_m3_1_5', question: 'ねむい 【　　　】、コーヒーを のみます。', options: ['とき', 'と', 'たら', 'ば'], correctIndex: 0, explanation: 'Khi buồn ngủ (ねむい とき).' },
-          { id: 'm2125_m3_1_5b', question: 'ボタンを おす 【　　　】、きっぷが でます。', options: ['とき', 'と', 'たら', 'ば'], correctIndex: 1, explanation: 'Hễ bấm nút thì vé sẽ ra (ボタンを おすと).' }
-        ]
-      },
-      {
-        id: 'p_2125_moji4_5',
-        type: 'moji_mondai4',
-        questions: [
-          { id: 'm2125_m4_1_5', question: 'あめが ふっても、いきます。', options: ['あめが ふったら いきます。', 'あめが ふったら いきません。', 'あめが ふりますが、いきます。', 'あめが ふらないと いきます。'], correctIndex: 2, explanation: 'Dù trời mưa tôi vẫn đi (Cho dù = ても).' }
-        ]
-      },
-      {
-        id: 'p_2125_m1_5',
-        type: 'mondai1',
-        questions: [
-          { id: 'm2125_m1_1_q1', question: 'あしたは あめが ふる（　　　） おもいます。', options: ['と', 'を', 'に', 'で'], correctIndex: 0, explanation: 'Mẫu câu ～と おもいます (Tôi nghĩ là...).' },
-          { id: 'm2125_m1_1_q2', question: 'これは わたしが （　　　） かばんです。', options: ['かい', 'かう', 'かった', 'かって'], correctIndex: 2, explanation: 'Mệnh đề bổ nghĩa cho danh từ: Vた N (Cái túi mà tôi đã mua) -> かった かばん.' },
-          { id: 'm2125_m1_1_q3', question: 'ともだちが わたし（　　　） ほんを くれました。', options: ['が', 'を', 'に', 'で'], correctIndex: 2, explanation: 'Bạn bè tặng (cho tôi) cuốn sách -> Trợ từ に (Cho ai).' },
-          { id: 'm2125_m1_1_q4', question: 'じかんが なかった（　　　）、ほんを よみません。', options: ['たら', 'と', 'から', 'ば'], correctIndex: 0, explanation: 'Nếu không có thời gian -> なかったら.' }
-        ]
-      },
-      {
-        id: 'p_2125_m2_5',
-        type: 'mondai2',
-        questions: [
-          { id: 'm2125_m2_1_q1', question: 'あの　___ ___ _★_ ___　は だれですか。', options: ['を', 'ひと', 'メガネ', 'かけている'], correctIndex: 3, explanation: 'あの (メガネ) (を) (かけている) (ひと) は だれですか. ★ rơi vào かけている.' },
-          { id: 'm2125_m2_1_q2', question: 'たのしく　___ ___ _★_ ___　と おもいます。', options: ['あしたの', 'は', 'パーティー', 'ない'], correctIndex: 3, explanation: '(あしたの) (パーティー) (は) たのしく (ない) と おもいます.' }
-        ]
-      },
-      {
-        id: 'p_2125_m3_5',
-        type: 'mondai3',
-        text: [
-          'わたしは きのう ともだちの うちへ いきました。',
-          'ともだちが おいしい ケーキを つくって （　１　）。',
-          'とても おいしかったです。',
-          'わたしは また ケーキを （　２　）と おもいます。'
-        ],
-        questions: [
-          { id: 'm2125_m3_1_q1', question: '（　１　）に入れるものはどれですか。', options: ['あげました', 'もらいました', 'くれました', 'しました'], correctIndex: 2, explanation: 'Bạn bè làm (cho mình) -> つくって くれました.' },
-          { id: 'm2125_m3_1_q2', question: '（　２　）に入れるものはどれですか。', options: ['たべる', 'たべた', 'たべたい', 'たべて'], correctIndex: 2, explanation: 'Tôi nghĩ tôi MONG MUỐN ăn lại -> たべたい.' }
-        ]
-      },
-      {
-        id: 'p_2125_m4_5',
-        type: 'mondai4',
-        text: [
-          'これは わたしが おきなわで とった しゃしんです。',
-          'うみが とても きれいです。',
-          'おきなわへ いく とき、ひこうきで いきました。',
-          'また おきなわへ いきたいです。'
-        ],
-        questions: [
-          { id: 'm2125_m4_1_q1', question: 'この しゃしんは どこで とりましたか。', options: ['とうきょうで', 'おきなわで', 'ひこうきで', 'うみで'], correctIndex: 1, explanation: 'おきなわで とった しゃしんです (Ảnh chụp ở Okinawa).' },
-          { id: 'm2125_m4_1_q2', question: 'どうやって おきなわへ いきましたか。', options: ['ふねで', 'ひこうきで', 'でんしゃで', 'くるまで'], correctIndex: 1, explanation: 'ひこうきで いきました (Đi bằng máy bay).' }
-        ]
-      },
-      {
-        id: 'p_2125_m5_5',
-        type: 'mondai5',
-        text: [
-          'A: あした ひまだったら、あそびに きませんか。',
-          'B: いいですね。なにか もって いきましょうか。',
-          'A: じゃあ、のみものを おねがいします。',
-          'B: わかりました。'
-        ],
-        questions: [
-          { id: 'm2125_m5_1_q1', question: 'Bさんは あした なにを しますか。', options: ['Aさんの うちへ いきます。', 'のみものを かいます。', 'Aさんの うちへ いって、のみものを もって いきます。', 'のみものを もって、Aさんの うちへ いきます。'], correctIndex: 3, explanation: 'B mang đồ uống và đến nhà A chơi.' },
-          { id: 'm2125_m5_1_q2', question: 'ただしいものは どれですか。', options: ['Aさんは ひまではありません。', 'Bさんは のみものを もって いきます。', 'Aさんは のみものを かいます。', 'Bさんは あそびに いきません。'], correctIndex: 1, explanation: 'B mang đồ uống đi (のみものを おねがいします -> わかりました).' }
-        ]
-      },
-      {
-        id: 'p_2125_m6_5',
-        type: 'mondai6',
-        htmlContent: '<div style="border: 2px solid var(--text); padding: 16px; border-radius: 8px; max-width: 400px; margin: 0 auto; background: var(--bg-card);"><h3 style="text-align: center; border-bottom: 2px dashed var(--border); padding-bottom: 8px; margin-top: 0;">さくら にほんご がっこう</h3><ul style="list-style-type: none; padding-left: 0; line-height: 1.8;"><li>・あめが ふったら、サッカーを しません。</li><li>・あめが ふらなくても、かぜが つよかったら、サッカーを しません。</li><li>・やすむ とき、せんせいに でんわを して ください。</li></ul></div>',
-        questions: [
-          { id: 'm2125_m6_1_q1', question: 'どんな とき サッカーを しますか。', options: ['あめが ふる とき', 'あめが ふらなくて、かぜが つよくない とき', 'あめが ふらなくて、かぜが つよい とき', 'かぜが つよい とき'], correctIndex: 1, explanation: 'Chỉ chơi khi: Không mưa VÀ gió không mạnh.' }
-        ]
-      }
-    ]
-  }
-
 ];
