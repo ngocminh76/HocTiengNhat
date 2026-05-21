@@ -1,6 +1,6 @@
 // src/pages/NihongoPage.tsx
 // Trang chọn bài học (danh sách bài みんなの日本語)
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { NIHONGO_LESSONS } from '../data/nihongo-lessons';
 
 interface Props {
@@ -98,9 +98,8 @@ export function NihongoPage({ mastery, sentenceMastery, checkpointMastery, onHom
           const isSelected = selectedForReview.includes(lesson.id);
 
           return (
-            <>
+            <React.Fragment key={lesson.id}>
             <button
-              key={lesson.id}
               onClick={() => {
                 if (isUnlocked) {
                   onSelectLesson([lesson.id]);
@@ -182,7 +181,7 @@ export function NihongoPage({ mastery, sentenceMastery, checkpointMastery, onHom
                 </button>
               </div>
             )}
-            </>
+            </React.Fragment>
           );
         })}
 
