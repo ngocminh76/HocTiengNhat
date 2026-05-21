@@ -12,6 +12,26 @@ export function DokkaiReviewPage({ reviewId, onHome, addXP, onComplete }: Props)
   const review = DOKKAI_REVIEWS.find(r => r.id === reviewId);
   const [answers, setAnswers] = useState<Record<string, number>>({});
   const [submitted, setSubmitted] = useState(false);
+  const [timeLeft, setTimeLeft] = useState(20 * 60); // 20 minutes in seconds
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  useEffect(() => {
+    if (submitted) return;
+    
+    if (timeLeft <= 0) {
+      handleSubmit();
+      return;
+    }
+
+    const timer = setInterval(() => {
+      setTimeLeft(prev => prev - 1);
+    }, 1000);
+
+    return () => clearInterval(timer);
+  }, [timeLeft, submitted]);
 
   if (!review) {
     return (
@@ -59,15 +79,31 @@ export function DokkaiReviewPage({ reviewId, onHome, addXP, onComplete }: Props)
 
   return (
     <div className="screen" style={{ padding: '16px 0', height: '100vh', display: 'flex', flexDirection: 'column' }}>
-      <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 24, flexShrink: 0 }}>
-        <button className="btn-back" onClick={onHome}>← Đóng</button>
-        <div>
-          <h2 style={{ fontSize: 20, fontWeight: 800, margin: 0, color: 'var(--green)' }}>{review.title}</h2>
-          <div style={{ fontSize: 13, color: 'var(--mute)' }}>{review.description}</div>
+      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 16, flexShrink: 0 }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
+          <button className="btn-back" onClick={onHome}>← Quay lại</button>
+          <div>
+            <h2 style={{ fontSize: 20, fontWeight: 800, margin: 0, color: 'var(--green)' }}>{review.title}</h2>
+            <div style={{ fontSize: 13, color: 'var(--mute)' }}>{review.description}</div>
+          </div>
+        </div>
+        
+        {/* TIMER UI */}
+        <div style={{ 
+          background: timeLeft < 180 ? 'rgba(239,71,111,0.1)' : 'var(--bg-card)', 
+          border: `2px solid ${timeLeft < 180 ? 'var(--red)' : 'var(--border)'}`,
+          padding: '8px 16px',
+          borderRadius: 20,
+          fontWeight: 900,
+          fontSize: 20,
+          color: timeLeft < 180 ? 'var(--red)' : 'var(--text)',
+          animation: (timeLeft < 60 && !submitted) ? 'pulse 1s infinite' : 'none'
+        }}>
+          ⏱ {Math.floor(timeLeft / 60).toString().padStart(2, '0')}:{(timeLeft % 60).toString().padStart(2, '0')}
         </div>
       </div>
 
-      <div style={{ flex: 1, overflowY: 'auto', paddingRight: 8, paddingBottom: 60 }}>
+      <div style={{ flex: 1, overflowY: 'auto', paddingRight: 8, paddingBottom: 64 }}>
         {review.passages.map((passage, pIdx) => {
           let typeLabel = '';
           switch(passage.type) {
