@@ -2239,6 +2239,7 @@ export function SummaryTableTab({ words, speak, supported }: {
 }) {
   const [mode, setMode] = useState<'type_jp' | 'type_vn'>('type_jp');
   const [inputs, setInputs] = useState<Record<string, string>>({});
+  const [inputs2, setInputs2] = useState<Record<string, string>>({});
 
   const norm = (s: string) => s.trim().toLowerCase().replace(/[\s~～〜\-]/g, '');
 
@@ -2257,14 +2258,14 @@ export function SummaryTableTab({ words, speak, supported }: {
            </button>
            <button 
              className={`btn ${mode === 'type_jp' ? 'btn-primary' : 'btn-ghost'}`}
-             onClick={() => { setMode('type_jp'); setInputs({}); }}
+             onClick={() => { setMode('type_jp'); setInputs({}); setInputs2({}); }}
              style={{ padding: '8px 16px', fontSize: 13 }}
            >
              Nhìn Việt - Gõ Nhật
            </button>
            <button 
              className={`btn ${mode === 'type_vn' ? 'btn-primary' : 'btn-ghost'}`}
-             onClick={() => { setMode('type_vn'); setInputs({}); }}
+             onClick={() => { setMode('type_vn'); setInputs({}); setInputs2({}); }}
              style={{ padding: '8px 16px', fontSize: 13 }}
            >
              Nhìn Nhật - Gõ Việt
@@ -2278,18 +2279,23 @@ export function SummaryTableTab({ words, speak, supported }: {
             <th style={{ padding: '14px 16px', textAlign: 'center', borderBottom: '1px solid var(--border)', width: '60px', color: 'var(--mute)', fontSize: 13, textTransform: 'uppercase', letterSpacing: 1 }}>
               STT
             </th>
-            <th style={{ padding: '14px 16px', textAlign: 'left', borderBottom: '1px solid var(--border)', width: '45%', color: 'var(--mute)', fontSize: 13, textTransform: 'uppercase', letterSpacing: 1 }}>
+            <th style={{ padding: '14px 16px', textAlign: 'left', borderBottom: '1px solid var(--border)', width: '30%', color: 'var(--mute)', fontSize: 13, textTransform: 'uppercase', letterSpacing: 1 }}>
               {mode === 'type_jp' ? 'Tiếng Việt' : 'Tiếng Nhật'}
             </th>
-            <th style={{ padding: '14px 16px', textAlign: 'left', borderBottom: '1px solid var(--border)', width: '45%', color: 'var(--mute)', fontSize: 13, textTransform: 'uppercase', letterSpacing: 1 }}>
-              {mode === 'type_jp' ? 'Nhập Tiếng Nhật (Romaji/Kana)' : 'Nhập Tiếng Việt'}
+            <th style={{ padding: '14px 16px', textAlign: 'left', borderBottom: '1px solid var(--border)', width: '35%', color: 'var(--mute)', fontSize: 13, textTransform: 'uppercase', letterSpacing: 1 }}>
+              Lần 1
+            </th>
+            <th style={{ padding: '14px 16px', textAlign: 'left', borderBottom: '1px solid var(--border)', width: '35%', color: 'var(--mute)', fontSize: 13, textTransform: 'uppercase', letterSpacing: 1 }}>
+              Lần 2
             </th>
           </tr>
         </thead>
         <tbody>
           {words.map((w, index) => {
              const val = inputs[w.id] || '';
+             const val2 = inputs2[w.id] || '';
              let isCorrect = false;
+             let isCorrect2 = false;
              if (val) {
                const nVal = norm(val);
                if (mode === 'type_jp') {
@@ -2298,9 +2304,17 @@ export function SummaryTableTab({ words, speak, supported }: {
                  isCorrect = nVal === norm(w.meaning);
                }
              }
+             if (val2) {
+               const nVal2 = norm(val2);
+               if (mode === 'type_jp') {
+                 isCorrect2 = nVal2 === norm(w.romaji) || nVal2 === norm(w.reading) || nVal2 === norm(w.word);
+               } else {
+                 isCorrect2 = nVal2 === norm(w.meaning);
+               }
+             }
 
              return (
-               <tr key={w.id} style={{ borderBottom: '1px solid var(--border)', transition: 'background 0.2s', background: isCorrect ? 'rgba(6,214,160,0.05)' : 'transparent' }}>
+               <tr key={w.id} style={{ borderBottom: '1px solid var(--border)', transition: 'background 0.2s', background: (isCorrect || isCorrect2) ? 'rgba(6,214,160,0.05)' : 'transparent' }}>
                  <td style={{ padding: '14px 16px', textAlign: 'center', fontWeight: 600, color: 'var(--mute)', verticalAlign: 'middle' }}>
                    {index + 1}
                  </td>
@@ -2341,7 +2355,35 @@ export function SummaryTableTab({ words, speak, supported }: {
                        }}
                      />
                      {isCorrect && (
-                       <div style={{ position: 'absolute', right: 12, top: '50%', transform: 'translateY(-50%)', fontSize: 16 }}>✅</div>
+                       <div className="no-print" style={{ position: 'absolute', right: 12, top: '50%', transform: 'translateY(-50%)', fontSize: 16 }}>✅</div>
+                     )}
+                   </div>
+                 </td>
+                 <td style={{ padding: '14px 16px', verticalAlign: 'middle' }}>
+                   <div style={{ position: 'relative' }}>
+                     <input 
+                       type="text"
+                       className="ex-input"
+                       style={{ 
+                         width: '100%', 
+                         padding: '10px 14px',
+                         border: isCorrect2 ? '2px solid var(--green)' : '1px solid var(--border)',
+                         background: isCorrect2 ? 'rgba(6,214,160,0.1)' : 'var(--surface-alt)',
+                         borderRadius: 8,
+                         outline: 'none',
+                         color: isCorrect2 ? 'var(--green)' : 'var(--text)',
+                         fontSize: 14,
+                         transition: 'all 0.2s'
+                       }}
+                       placeholder={mode === 'type_jp' ? "Gõ romaji..." : "Gõ nghĩa tiếng việt..."}
+                       value={val2}
+                       onChange={e => {
+                         const newVal = mode === 'type_jp' ? wanakana.toKana(e.target.value, { IMEMode: true }) : e.target.value;
+                         setInputs2(prev => ({ ...prev, [w.id]: newVal }));
+                       }}
+                     />
+                     {isCorrect2 && (
+                       <div className="no-print" style={{ position: 'absolute', right: 12, top: '50%', transform: 'translateY(-50%)', fontSize: 16 }}>✅</div>
                      )}
                    </div>
                  </td>
