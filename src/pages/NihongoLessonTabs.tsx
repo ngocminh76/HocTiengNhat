@@ -2275,16 +2275,19 @@ export function SummaryTableTab({ words, speak, supported }: {
       <table style={{ width: '100%', borderCollapse: 'collapse', background: 'var(--bg-card)', borderRadius: 12, overflow: 'hidden', border: '1px solid var(--border)' }}>
         <thead>
           <tr style={{ background: 'rgba(255,255,255,0.03)' }}>
-            <th style={{ padding: '14px 16px', textAlign: 'left', borderBottom: '1px solid var(--border)', width: '50%', color: 'var(--mute)', fontSize: 13, textTransform: 'uppercase', letterSpacing: 1 }}>
+            <th style={{ padding: '14px 16px', textAlign: 'center', borderBottom: '1px solid var(--border)', width: '60px', color: 'var(--mute)', fontSize: 13, textTransform: 'uppercase', letterSpacing: 1 }}>
+              STT
+            </th>
+            <th style={{ padding: '14px 16px', textAlign: 'left', borderBottom: '1px solid var(--border)', width: '45%', color: 'var(--mute)', fontSize: 13, textTransform: 'uppercase', letterSpacing: 1 }}>
               {mode === 'type_jp' ? 'Tiếng Việt' : 'Tiếng Nhật'}
             </th>
-            <th style={{ padding: '14px 16px', textAlign: 'left', borderBottom: '1px solid var(--border)', width: '50%', color: 'var(--mute)', fontSize: 13, textTransform: 'uppercase', letterSpacing: 1 }}>
+            <th style={{ padding: '14px 16px', textAlign: 'left', borderBottom: '1px solid var(--border)', width: '45%', color: 'var(--mute)', fontSize: 13, textTransform: 'uppercase', letterSpacing: 1 }}>
               {mode === 'type_jp' ? 'Nhập Tiếng Nhật (Romaji/Kana)' : 'Nhập Tiếng Việt'}
             </th>
           </tr>
         </thead>
         <tbody>
-          {words.map(w => {
+          {words.map((w, index) => {
              const val = inputs[w.id] || '';
              let isCorrect = false;
              if (val) {
@@ -2298,6 +2301,9 @@ export function SummaryTableTab({ words, speak, supported }: {
 
              return (
                <tr key={w.id} style={{ borderBottom: '1px solid var(--border)', transition: 'background 0.2s', background: isCorrect ? 'rgba(6,214,160,0.05)' : 'transparent' }}>
+                 <td style={{ padding: '14px 16px', textAlign: 'center', fontWeight: 600, color: 'var(--mute)', verticalAlign: 'middle' }}>
+                   {index + 1}
+                 </td>
                  <td style={{ padding: '14px 16px', fontWeight: 600, verticalAlign: 'middle' }}>
                    {mode === 'type_jp' ? (
                      <div style={{ color: 'var(--gold)', fontSize: 15 }}>{w.meaning}</div>

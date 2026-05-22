@@ -152,10 +152,10 @@ export function NihongoLessonPage({ lessons, onHome, onLessonComplete, sentenceM
       </div>
 
       {/* 2-col: sidebar + content */}
-      <div style={{ display: 'grid', gridTemplateColumns: '170px 1fr', gap: 16, alignItems: 'start' }}>
+      <div style={{ display: 'grid', gap: 16, alignItems: 'start' }} className="print-grid">
 
         {/* LEFT SIDEBAR */}
-        <div style={{ position: 'sticky', top: 140 }}>
+        <div className="no-print" style={{ position: 'sticky', top: 140 }}>
           <div style={{ background: 'var(--bg-card)', borderRadius: 14, border: '1px solid var(--border)', overflow: 'hidden' }}>
 
             <div style={{ padding: '8px 12px', fontSize: 10, fontWeight: 800, textTransform: 'uppercase', letterSpacing: 1, color: 'var(--mute)', background: 'rgba(255,255,255,0.02)', borderBottom: '1px solid var(--border)' }}>
