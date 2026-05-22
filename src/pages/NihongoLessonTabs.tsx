@@ -2246,7 +2246,15 @@ export function SummaryTableTab({ words, speak, supported }: {
     <div style={{ display: 'flex', flexDirection: 'column', gap: 16, paddingBottom: 60 }}>
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', background: 'var(--bg-card)', padding: '16px', borderRadius: 12, border: '1px solid var(--border)' }}>
         <h3 style={{ margin: 0, fontSize: 16 }}>Bảng Tổng Hợp ({words.length} từ)</h3>
-        <div style={{ display: 'flex', gap: 8 }}>
+        <div style={{ display: 'flex', gap: 8 }} className="no-print">
+           <button 
+             className="btn btn-ghost"
+             onClick={() => window.print()}
+             style={{ padding: '8px 16px', fontSize: 13, marginRight: 8, background: 'rgba(255,255,255,0.05)' }}
+             title="In bảng để luyện viết"
+           >
+             🖨️ PDF
+           </button>
            <button 
              className={`btn ${mode === 'type_jp' ? 'btn-primary' : 'btn-ghost'}`}
              onClick={() => { setMode('type_jp'); setInputs({}); }}
