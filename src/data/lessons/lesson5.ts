@@ -636,7 +636,13 @@ const lesson: NihongoLesson = {
       "reading": "ふつう",
       "romaji": "futsuu",
       "meaning": "Tàu thường, bình thường",
-      "type": "Danh từ"
+      "type": "Danh từ",
+      "kanjiBreakdown": {
+        "hanviet": "PHỔ THÔNG",
+        "components": "普 (Phổ) + 通 (Thông)",
+        "story": "Tàu Phổ Thông đi khắp mọi nơi một cách bình thường.",
+        "examples": "普通 (Tàu thường, bình thường)"
+      }
     },
     {
       "id": "L5_52",
@@ -644,7 +650,13 @@ const lesson: NihongoLesson = {
       "reading": "きゅうこう",
       "romaji": "kyuukou",
       "meaning": "Tàu tốc hành",
-      "type": "Danh từ"
+      "type": "Danh từ",
+      "kanjiBreakdown": {
+        "hanviet": "CẤP HÀNH",
+        "components": "急 (Cấp - Khẩn cấp) + 行 (Hành - Đi)",
+        "story": "Đi (行) một cách khẩn cấp (急) là tàu Tốc hành.",
+        "examples": "急行 (Tàu tốc hành), 急ぐ (Vội vã)"
+      }
     },
     {
       "id": "L5_53",
@@ -652,7 +664,13 @@ const lesson: NihongoLesson = {
       "reading": "とっきゅう",
       "romaji": "tokkyuu",
       "meaning": "Tàu tốc hành đặc biệt",
-      "type": "Danh từ"
+      "type": "Danh từ",
+      "kanjiBreakdown": {
+        "hanviet": "ĐẶC CẤP",
+        "components": "特 (Đặc - Đặc biệt) + 急 (Cấp - Khẩn cấp)",
+        "story": "Chuyến tàu vừa khẩn cấp (急) vừa Đặc biệt (特) là Tốc hành đặc biệt.",
+        "examples": "特急 (Tàu tốc hành đặc biệt), 特別 (Đặc biệt)"
+      }
     },
     {
       "id": "L5_54",
@@ -660,7 +678,13 @@ const lesson: NihongoLesson = {
       "reading": "つぎの",
       "romaji": "tsugino",
       "meaning": "Tiếp theo",
-      "type": "Tính từ"
+      "type": "Tính từ",
+      "kanjiBreakdown": {
+        "hanviet": "THỨ",
+        "components": "次 (Thứ - Tiếp theo)",
+        "story": "Người (欠) đứng ngáp đợi lần Thứ hai.",
+        "examples": "次 (Tiếp theo), 目次 (Mục lục)"
+      }
     },
     {
       "id": "L5_55",
@@ -668,7 +692,13 @@ const lesson: NihongoLesson = {
       "reading": "ことし",
       "romaji": "kotoshi",
       "meaning": "Năm nay",
-      "type": "Danh từ"
+      "type": "Danh từ",
+      "kanjiBreakdown": {
+        "hanviet": "KIM NIÊN",
+        "components": "今 (Kim - Hiện tại) + 年 (Niên - Năm)",
+        "story": "Năm (年) hiện tại (今) chính là Năm nay.",
+        "examples": "今年 (Năm nay)"
+      }
     },
     {
       "id": "L5_56",
@@ -676,7 +706,13 @@ const lesson: NihongoLesson = {
       "reading": "らいねん",
       "romaji": "rainen",
       "meaning": "Năm sau",
-      "type": "Danh từ"
+      "type": "Danh từ",
+      "kanjiBreakdown": {
+        "hanviet": "LAI NIÊN",
+        "components": "来 (Lai - Đến) + 年 (Niên - Năm)",
+        "story": "Năm (年) sắp tới đến (来) là Năm sau.",
+        "examples": "来年 (Năm sau)"
+      }
     },
     {
       "id": "L5_57",
@@ -684,7 +720,13 @@ const lesson: NihongoLesson = {
       "reading": "～ねん",
       "romaji": "~nen",
       "meaning": "Năm ~",
-      "type": "Hậu tố"
+      "type": "Hậu tố",
+      "kanjiBreakdown": {
+        "hanviet": "NIÊN",
+        "components": "年 (Niên)",
+        "story": "Người cõng lúa về nhà sau một Năm thu hoạch.",
+        "examples": "一年 (Một năm), 今年 (Năm nay)"
+      }
     },
     {
       "id": "L5_58",
@@ -692,7 +734,13 @@ const lesson: NihongoLesson = {
       "reading": "なんねん",
       "romaji": "nannen",
       "meaning": "Năm mấy",
-      "type": "Từ hỏi"
+      "type": "Từ hỏi",
+      "kanjiBreakdown": {
+        "hanviet": "HÀ NIÊN",
+        "components": "何 (Hà - Cái gì) + 年 (Niên - Năm)",
+        "story": "Hỏi xem là Năm (年) nào, mấy (何) năm.",
+        "examples": "何年 (Mấy năm)"
+      }
     },
     {
       "id": "L5_59",
@@ -700,7 +748,13 @@ const lesson: NihongoLesson = {
       "reading": "～がつ",
       "romaji": "~gatsu",
       "meaning": "Tháng ~",
-      "type": "Hậu tố"
+      "type": "Hậu tố",
+      "kanjiBreakdown": {
+        "hanviet": "NGUYỆT",
+        "components": "月 (Nguyệt)",
+        "story": "Hình ảnh mặt trăng khuyết, tượng trưng cho Tháng.",
+        "examples": "一月 (Tháng 1), 今月 (Tháng này)"
+      }
     },
     {
       "id": "L5_60",
@@ -708,7 +762,13 @@ const lesson: NihongoLesson = {
       "reading": "なんがつ",
       "romaji": "nangatsu",
       "meaning": "Tháng mấy",
-      "type": "Từ hỏi"
+      "type": "Từ hỏi",
+      "kanjiBreakdown": {
+        "hanviet": "HÀ NGUYỆT",
+        "components": "何 (Hà - Cái gì) + 月 (Nguyệt - Tháng)",
+        "story": "Hỏi xem là Tháng (月) nào, tháng mấy (何).",
+        "examples": "何月 (Tháng mấy)"
+      }
     },
     {
       "id": "L5_61",
@@ -716,7 +776,13 @@ const lesson: NihongoLesson = {
       "reading": "ついたち",
       "romaji": "tsuitachi",
       "meaning": "Ngày mùng 1",
-      "type": "Danh từ"
+      "type": "Danh từ",
+      "kanjiBreakdown": {
+        "hanviet": "NHẤT NHẬT",
+        "components": "一 (Nhất) + 日 (Nhật)",
+        "story": "Ngày đầu tiên của tháng.",
+        "examples": "一日 (Ngày mùng 1)"
+      }
     },
     {
       "id": "L5_62",
@@ -724,7 +790,13 @@ const lesson: NihongoLesson = {
       "reading": "ふつか",
       "romaji": "futsuka",
       "meaning": "Ngày mùng 2",
-      "type": "Danh từ"
+      "type": "Danh từ",
+      "kanjiBreakdown": {
+        "hanviet": "NHỊ NHẬT",
+        "components": "二 (Nhị) + 日 (Nhật)",
+        "story": "Ngày thứ 2 trong tháng.",
+        "examples": "二日 (Ngày mùng 2)"
+      }
     },
     {
       "id": "L5_63",
@@ -732,7 +804,13 @@ const lesson: NihongoLesson = {
       "reading": "みっか",
       "romaji": "mikka",
       "meaning": "Ngày mùng 3",
-      "type": "Danh từ"
+      "type": "Danh từ",
+      "kanjiBreakdown": {
+        "hanviet": "TAM NHẬT",
+        "components": "三 (Tam) + 日 (Nhật)",
+        "story": "Ngày thứ 3 trong tháng.",
+        "examples": "三日 (Ngày mùng 3)"
+      }
     },
     {
       "id": "L5_64",
@@ -740,7 +818,13 @@ const lesson: NihongoLesson = {
       "reading": "よっか",
       "romaji": "yokka",
       "meaning": "Ngày mùng 4",
-      "type": "Danh từ"
+      "type": "Danh từ",
+      "kanjiBreakdown": {
+        "hanviet": "TỨ NHẬT",
+        "components": "四 (Tứ) + 日 (Nhật)",
+        "story": "Ngày thứ 4 trong tháng.",
+        "examples": "四日 (Ngày mùng 4)"
+      }
     },
     {
       "id": "L5_65",
@@ -748,7 +832,13 @@ const lesson: NihongoLesson = {
       "reading": "いつか",
       "romaji": "itsuka",
       "meaning": "Ngày mùng 5",
-      "type": "Danh từ"
+      "type": "Danh từ",
+      "kanjiBreakdown": {
+        "hanviet": "NGŨ NHẬT",
+        "components": "五 (Ngũ) + 日 (Nhật)",
+        "story": "Ngày thứ 5 trong tháng.",
+        "examples": "五日 (Ngày mùng 5)"
+      }
     },
     {
       "id": "L5_66",
@@ -756,7 +846,13 @@ const lesson: NihongoLesson = {
       "reading": "むいか",
       "romaji": "muika",
       "meaning": "Ngày mùng 6",
-      "type": "Danh từ"
+      "type": "Danh từ",
+      "kanjiBreakdown": {
+        "hanviet": "LỤC NHẬT",
+        "components": "六 (Lục) + 日 (Nhật)",
+        "story": "Ngày thứ 6 trong tháng.",
+        "examples": "六日 (Ngày mùng 6)"
+      }
     },
     {
       "id": "L5_67",
@@ -764,7 +860,13 @@ const lesson: NihongoLesson = {
       "reading": "なのか",
       "romaji": "nanoka",
       "meaning": "Ngày mùng 7",
-      "type": "Danh từ"
+      "type": "Danh từ",
+      "kanjiBreakdown": {
+        "hanviet": "THẤT NHẬT",
+        "components": "七 (Thất) + 日 (Nhật)",
+        "story": "Ngày thứ 7 trong tháng.",
+        "examples": "七日 (Ngày mùng 7)"
+      }
     },
     {
       "id": "L5_68",
@@ -772,7 +874,13 @@ const lesson: NihongoLesson = {
       "reading": "ようか",
       "romaji": "youka",
       "meaning": "Ngày mùng 8",
-      "type": "Danh từ"
+      "type": "Danh từ",
+      "kanjiBreakdown": {
+        "hanviet": "BÁT NHẬT",
+        "components": "八 (Bát) + 日 (Nhật)",
+        "story": "Ngày thứ 8 trong tháng.",
+        "examples": "八日 (Ngày mùng 8)"
+      }
     },
     {
       "id": "L5_69",
@@ -780,7 +888,13 @@ const lesson: NihongoLesson = {
       "reading": "ここのか",
       "romaji": "kokonoka",
       "meaning": "Ngày mùng 9",
-      "type": "Danh từ"
+      "type": "Danh từ",
+      "kanjiBreakdown": {
+        "hanviet": "CỬU NHẬT",
+        "components": "九 (Cửu) + 日 (Nhật)",
+        "story": "Ngày thứ 9 trong tháng.",
+        "examples": "九日 (Ngày mùng 9)"
+      }
     },
     {
       "id": "L5_70",
@@ -788,7 +902,13 @@ const lesson: NihongoLesson = {
       "reading": "とおか",
       "romaji": "tooka",
       "meaning": "Ngày mùng 10",
-      "type": "Danh từ"
+      "type": "Danh từ",
+      "kanjiBreakdown": {
+        "hanviet": "THẬP NHẬT",
+        "components": "十 (Thập) + 日 (Nhật)",
+        "story": "Ngày thứ 10 trong tháng.",
+        "examples": "十日 (Ngày mùng 10)"
+      }
     },
     {
       "id": "L5_71",
@@ -796,7 +916,13 @@ const lesson: NihongoLesson = {
       "reading": "じゅうよっか",
       "romaji": "juuyokka",
       "meaning": "Ngày 14",
-      "type": "Danh từ"
+      "type": "Danh từ",
+      "kanjiBreakdown": {
+        "hanviet": "THẬP TỨ NHẬT",
+        "components": "十 (Thập) + 四 (Tứ) + 日 (Nhật)",
+        "story": "Ngày 14 trong tháng.",
+        "examples": "十四日 (Ngày 14)"
+      }
     },
     {
       "id": "L5_72",
@@ -804,7 +930,13 @@ const lesson: NihongoLesson = {
       "reading": "はつか",
       "romaji": "hatsuka",
       "meaning": "Ngày 20",
-      "type": "Danh từ"
+      "type": "Danh từ",
+      "kanjiBreakdown": {
+        "hanviet": "NHỊ THẬP NHẬT",
+        "components": "二 (Nhị) + 十 (Thập) + 日 (Nhật)",
+        "story": "Ngày 20 trong tháng.",
+        "examples": "二十日 (Ngày 20)"
+      }
     },
     {
       "id": "L5_73",
@@ -812,7 +944,13 @@ const lesson: NihongoLesson = {
       "reading": "にじゅうよっか",
       "romaji": "nijuuyokka",
       "meaning": "Ngày 24",
-      "type": "Danh từ"
+      "type": "Danh từ",
+      "kanjiBreakdown": {
+        "hanviet": "NHỊ THẬP TỨ NHẬT",
+        "components": "二 (Nhị) + 十 (Thập) + 四 (Tứ) + 日 (Nhật)",
+        "story": "Ngày 24 trong tháng.",
+        "examples": "二十四日 (Ngày 24)"
+      }
     },
     {
       "id": "L5_74",
@@ -820,7 +958,13 @@ const lesson: NihongoLesson = {
       "reading": "～にち",
       "romaji": "~nichi",
       "meaning": "Ngày ~",
-      "type": "Hậu tố"
+      "type": "Hậu tố",
+      "kanjiBreakdown": {
+        "hanviet": "NHẬT",
+        "components": "日 (Nhật)",
+        "story": "Hình ảnh mặt trời, tượng trưng cho Ngày.",
+        "examples": "毎日 (Mỗi ngày), 休日 (Ngày nghỉ)"
+      }
     },
     {
       "id": "L5_75",
@@ -828,7 +972,13 @@ const lesson: NihongoLesson = {
       "reading": "なんにち",
       "romaji": "nannichi",
       "meaning": "Ngày mấy",
-      "type": "Từ hỏi"
+      "type": "Từ hỏi",
+      "kanjiBreakdown": {
+        "hanviet": "HÀ NHẬT",
+        "components": "何 (Hà - Cái gì) + 日 (Nhật - Ngày)",
+        "story": "Hỏi xem là Ngày (日) nào, ngày mấy (何).",
+        "examples": "何日 (Ngày mấy)"
+      }
     }
   ],
   "grammar": [
