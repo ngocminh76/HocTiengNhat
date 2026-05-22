@@ -43,7 +43,7 @@ export function CheckpointDashboardPage({ checkpointId, checkpointMastery, onHom
         {tests.map((test, index) => {
           const mastery = checkpointMastery[test.id];
           const isPassed = mastery?.isPassed;
-          const isLocked = index > 0 && !checkpointMastery[tests[index - 1].id]?.isPassed;
+          const isLocked = false; // Luôn mở khóa theo yêu cầu của người dùng
 
           return (
             <button
