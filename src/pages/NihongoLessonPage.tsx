@@ -162,14 +162,14 @@ export function NihongoLessonPage({ lessons, onHome, onLessonComplete, sentenceM
               📚 Học & Luyện Tập
             </div>
             {([
-              { id: 'vocab', icon: '📋', label: 'Từ Vựng', sub: `${mergedWords.length} từ`, hidden: isCombined },
-              { id: 'grammar', icon: '📖', label: 'Ngữ Pháp', sub: 'Lý thuyết & Ví dụ', hidden: isCombined || !lessons[0]?.grammar },
-              { id: 'grammar_quiz', icon: '🧩', label: 'Luyện Ngữ Pháp', sub: 'Trắc nghiệm đục lỗ', hidden: isCombined || !lessons[0]?.grammarExercises },
+              { id: 'vocab', icon: '📋', label: 'Từ Vựng', sub: `${mergedWords.length} từ` },
+              { id: 'grammar', icon: '📖', label: 'Ngữ Pháp', sub: 'Lý thuyết & Ví dụ', hidden: !lessons.some(l => l.grammar) },
+              { id: 'grammar_quiz', icon: '🧩', label: 'Luyện Ngữ Pháp', sub: 'Trắc nghiệm đục lỗ', hidden: !lessons.some(l => l.grammarExercises) },
               { id: 'flash', icon: '⚡', label: 'Flash Quiz', sub: '' },
               { id: 'listen', icon: '🎧', label: 'Nghe & Gõ Từ', sub: '' },
               { id: 'match', icon: '🔗', label: 'Ghép Từ', sub: 'Hiragana ↔ Kanji' },
               { id: 'typing', icon: '⌨️', label: 'Gõ Từ Vựng', sub: 'Kanji ↔ Hiragana' },
-              { id: 'summary', icon: '📝', label: 'Điền Từ (Bảng)', sub: 'Việt ↔ Nhật', hidden: isCombined },
+              { id: 'summary', icon: '📝', label: 'Điền Từ (Bảng)', sub: 'Việt ↔ Nhật' },
               { id: 'translate', icon: '✍️', label: 'Dịch Câu', sub: 'Việt → Nhật' },
               { id: 'listen_sentence', icon: '⌨️', label: 'Nghe Gõ Câu', sub: 'Nghe → Romaji', hidden: !supported },
               { id: 'exam', icon: '📝', label: 'Thi Thử N5', sub: 'JLPT Mock', locked: !isExamUnlocked },
@@ -233,14 +233,14 @@ export function NihongoLessonPage({ lessons, onHome, onLessonComplete, sentenceM
 
         {/* CONTENT */}
         <div style={{ flex: 1, minWidth: 0, paddingBottom: 100 }}>
-          {tab === 'vocab' && !isCombined && <VocabTab words={mergedWords} mastery={mastery} speak={speak} supported={supported} />}
-          {tab === 'grammar' && !isCombined && lessons[0]?.grammar && <GrammarTab grammar={lessons[0].grammar} speak={speak} supported={supported} />}
-          {tab === 'grammar_quiz' && !isCombined && lessons[0]?.grammarExercises && <GrammarQuizTab exercises={lessons[0].grammarExercises} speak={speak} supported={supported} />}
+          {tab === 'vocab' && <VocabTab words={mergedWords} mastery={mastery} speak={speak} supported={supported} />}
+          {tab === 'grammar' && lessons.some(l => l.grammar) && <GrammarTab grammar={lessons.flatMap(l => l.grammar || [])} speak={speak} supported={supported} />}
+          {tab === 'grammar_quiz' && lessons.some(l => l.grammarExercises) && <GrammarQuizTab exercises={lessons.flatMap(l => l.grammarExercises || [])} speak={speak} supported={supported} />}
           {tab === 'flash' && <FlashTab words={mergedWords} mastery={mastery} onUpdate={updateMastery} speak={speak} supported={supported} />}
           {tab === 'listen' && <ListenTab words={mergedWords} mastery={mastery} onUpdate={updateMastery} speak={speak} supported={supported} />}
           {tab === 'match' && <MatchTab words={mergedWords} skipCount={masteredCount} />}
           {tab === 'typing' && <TypingTab words={mergedWords} mastery={mastery} onUpdate={updateMastery} speak={speak} supported={supported} />}
-          {tab === 'summary' && !isCombined && <SummaryTableTab words={mergedWords} speak={speak} supported={supported} />}
+          {tab === 'summary' && <SummaryTableTab words={mergedWords} speak={speak} supported={supported} />}
           { tab === 'translate' && <TranslateTab lesson={{ words: mergedWords, readings: mergedReadings } as any} speak={speak} supported={supported} sentenceMastery={sentenceMastery} updateSentenceMastery={updateSentenceMastery} /> }
           { tab === 'listen_sentence' && <ListenSentenceTab lesson={{ words: mergedWords, readings: mergedReadings } as any} speak={speak} supported={supported} sentenceMastery={sentenceMastery} updateSentenceMastery={updateSentenceMastery} /> }
           {tab === 'exam' && (
