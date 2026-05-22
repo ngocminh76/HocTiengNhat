@@ -16,25 +16,49 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_1_5_1_m1_q0",
             "question": "きょうは 【水曜日】です。",
             "options": [
-              "もくようび",
-              "かようび",
+              "きんようび",
               "すいようび",
-              "きんようび"
+              "もくようび",
+              "かようび"
             ],
-            "correctIndex": 2,
+            "correctIndex": 1,
             "explanation": "水曜日 đọc là すいようび (thứ Tư)."
           },
           {
             "id": "m_review_1_5_1_m1_q1",
             "question": "【毎日】 にほんごを べんきょうします。",
             "options": [
-              "まいしゅう",
               "まいとし",
-              "まいにち",
-              "まいげつ"
+              "まいしゅう",
+              "まいげつ",
+              "まいにち"
+            ],
+            "correctIndex": 3,
+            "explanation": "毎日 đọc là まいにち (mỗi ngày)."
+          },
+          {
+            "id": "m_review_1_5_1_m1_q2",
+            "question": "【先月】、日本へ きました。",
+            "options": [
+              "らいげつ",
+              "まいつき",
+              "せんげつ",
+              "こんげつ"
             ],
             "correctIndex": 2,
-            "explanation": "毎日 đọc là まいにち (mỗi ngày)."
+            "explanation": "先月 đọc là せんげつ (tháng trước)."
+          },
+          {
+            "id": "m_review_1_5_1_m1_q3",
+            "question": "わたしの 【国】は ベトナムです。",
+            "options": [
+              "うち",
+              "いえ",
+              "まち",
+              "くに"
+            ],
+            "correctIndex": 3,
+            "explanation": "国 đọc là くに (đất nước)."
           }
         ]
       },
@@ -44,27 +68,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_1_5_1_m2_q0",
-            "question": "【くるま】を かいました。",
+            "question": "ともだちと 【デパート】へ いきます。",
             "options": [
-              "庫",
-              "東",
-              "車",
-              "重"
+              "デパート",
+              "デパード",
+              "テパート",
+              "デバート"
             ],
-            "correctIndex": 2,
-            "explanation": "くるま (ô tô) viết là 車."
+            "correctIndex": 0,
+            "explanation": "Department store viết là デパート."
           },
           {
             "id": "m_review_1_5_1_m2_q1",
-            "question": "ともだちと 【デパート】へ いきます。",
+            "question": "【でんしゃ】で かいしゃへ いきます。",
             "options": [
-              "テパート",
-              "デパート",
-              "デバート",
-              "デパード"
+              "電気",
+              "電波",
+              "電話",
+              "電車"
+            ],
+            "correctIndex": 3,
+            "explanation": "電車 là tàu điện."
+          },
+          {
+            "id": "m_review_1_5_1_m2_q2",
+            "question": "【くるま】を かいました。",
+            "options": [
+              "東",
+              "重",
+              "庫",
+              "車"
+            ],
+            "correctIndex": 3,
+            "explanation": "くるま (ô tô) viết là 車."
+          },
+          {
+            "id": "m_review_1_5_1_m2_q3",
+            "question": "あの 【レストラン】は おいしいです。",
+            "options": [
+              "レスドラン",
+              "レストラン",
+              "レストラソ",
+              "レストンラ"
             ],
             "correctIndex": 1,
-            "explanation": "Department store viết là デパート."
+            "explanation": "Restaurant viết là レストラン."
           }
         ]
       },
@@ -76,25 +124,49 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_1_5_1_m3_q0",
             "question": "あしたは やすみです。うちで ゆっくり 【　　　】。",
             "options": [
-              "はたらきます",
+              "おわります",
               "おきます",
-              "やすみます",
-              "おわります"
+              "はたらきます",
+              "やすみます"
             ],
-            "correctIndex": 2,
+            "correctIndex": 3,
             "explanation": "Nghỉ ngơi: やすみます."
           },
           {
             "id": "m_review_1_5_1_m3_q1",
+            "question": "スーパーで くだものを 【　　　】。",
+            "options": [
+              "あいます",
+              "かいます",
+              "すいます",
+              "のみます"
+            ],
+            "correctIndex": 1,
+            "explanation": "Mua trái cây: かいます."
+          },
+          {
+            "id": "m_review_1_5_1_m3_q2",
             "question": "きのう １０じに 【　　　】。",
             "options": [
+              "いきました",
               "おきました",
               "きました",
-              "ねました",
-              "いきました"
+              "ねました"
             ],
-            "correctIndex": 2,
+            "correctIndex": 3,
             "explanation": "Đã ngủ lúc 10 giờ: ねました."
+          },
+          {
+            "id": "m_review_1_5_1_m3_q3",
+            "question": "えんぴつで てがみを 【　　　】。",
+            "options": [
+              "みます",
+              "かきます",
+              "ききます",
+              "よみます"
+            ],
+            "correctIndex": 1,
+            "explanation": "Viết thư: かきます."
           }
         ]
       },
@@ -104,38 +176,50 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_1_5_1_b1_q0",
-            "question": "あした どこ（　　　）いきません。",
+            "question": "きょうは ５じ（　　　）はたらきます。",
             "options": [
-              "をも",
-              "へも",
-              "でも",
-              "がも"
+              "まで",
+              "に",
+              "で",
+              "から"
             ],
-            "correctIndex": 1,
-            "explanation": "Phủ định hoàn toàn: どこへも いきません."
+            "correctIndex": 0,
+            "explanation": "Làm việc \"đến\" 5 giờ -> まで."
           },
           {
             "id": "m_review_1_5_1_b1_q1",
             "question": "わたしは えんぴつ（　　　）てがみを かきます。",
             "options": [
-              "が",
               "に",
-              "を",
-              "で"
+              "が",
+              "で",
+              "を"
             ],
-            "correctIndex": 3,
+            "correctIndex": 2,
             "explanation": "Phương tiện/công cụ -> で."
           },
           {
             "id": "m_review_1_5_1_b1_q2",
+            "question": "あした どこ（　　　）いきません。",
+            "options": [
+              "がも",
+              "でも",
+              "をも",
+              "へも"
+            ],
+            "correctIndex": 3,
+            "explanation": "Phủ định hoàn toàn: どこへも いきません."
+          },
+          {
+            "id": "m_review_1_5_1_b1_q3",
             "question": "A「それは （　　　）ですか。」 B「コンピューターの ほん です。」",
             "options": [
+              "だれの ほん",
               "なん",
               "どこ",
-              "だれの ほん",
               "なんの ほん"
             ],
-            "correctIndex": 0,
+            "correctIndex": 1,
             "explanation": "Hỏi cái gì dùng なん."
           }
         ]
@@ -148,24 +232,24 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_1_5_1_b2_q0",
             "question": "ここは　___ ___ _★_ ___　です。",
             "options": [
-              "しょくどう",
-              "の",
+              "だいがく",
               "とうきょう",
-              "だいがく"
+              "の",
+              "しょくどう"
             ],
-            "correctIndex": 1,
+            "correctIndex": 2,
             "explanation": "ここは とうきょう だいがく の しょくどう です."
           },
           {
             "id": "m_review_1_5_1_b2_q1",
             "question": "わたしは　___ ___ _★_ ___　いきます。",
             "options": [
-              "ともだち",
-              "ぎんこう",
               "と",
-              "へ"
+              "へ",
+              "ともだち",
+              "ぎんこう"
             ],
-            "correctIndex": 1,
+            "correctIndex": 3,
             "explanation": "わたしは ともだち と ぎんこう へ いきます."
           }
         ]
@@ -185,20 +269,20 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "question": "（　１　）に入れるものはどれですか。",
             "options": [
               "に",
-              "と",
+              "で",
               "へ",
-              "で"
+              "と"
             ],
-            "correctIndex": 1,
+            "correctIndex": 3,
             "explanation": "Cùng với bạn -> と."
           },
           {
             "id": "m_review_1_5_1_d1_q1",
             "question": "（　２　）に入れるものはどれですか。",
             "options": [
-              "みますか",
               "みます",
               "みません",
+              "みますか",
               "みました"
             ],
             "correctIndex": 3,
@@ -219,24 +303,48 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_1_5_2_m1_q0",
-            "question": "きょうは 【水曜日】です。",
+            "question": "わたしの 【国】は ベトナムです。",
             "options": [
-              "かようび",
-              "すいようび",
-              "もくようび",
-              "きんようび"
+              "まち",
+              "いえ",
+              "くに",
+              "うち"
             ],
-            "correctIndex": 1,
-            "explanation": "水曜日 đọc là すいようび (thứ Tư)."
+            "correctIndex": 2,
+            "explanation": "国 đọc là くに (đất nước)."
           },
           {
             "id": "m_review_1_5_2_m1_q1",
+            "question": "【先月】、日本へ きました。",
+            "options": [
+              "こんげつ",
+              "まいつき",
+              "らいげつ",
+              "せんげつ"
+            ],
+            "correctIndex": 3,
+            "explanation": "先月 đọc là せんげつ (tháng trước)."
+          },
+          {
+            "id": "m_review_1_5_2_m1_q2",
+            "question": "きょうは 【水曜日】です。",
+            "options": [
+              "きんようび",
+              "かようび",
+              "もくようび",
+              "すいようび"
+            ],
+            "correctIndex": 3,
+            "explanation": "水曜日 đọc là すいようび (thứ Tư)."
+          },
+          {
+            "id": "m_review_1_5_2_m1_q3",
             "question": "【毎日】 にほんごを べんきょうします。",
             "options": [
               "まいにち",
+              "まいげつ",
               "まいとし",
-              "まいしゅう",
-              "まいげつ"
+              "まいしゅう"
             ],
             "correctIndex": 0,
             "explanation": "毎日 đọc là まいにち (mỗi ngày)."
@@ -249,27 +357,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_1_5_2_m2_q0",
-            "question": "【くるま】を かいました。",
+            "question": "【でんしゃ】で かいしゃへ いきます。",
             "options": [
-              "庫",
-              "車",
-              "東",
-              "重"
+              "電車",
+              "電話",
+              "電波",
+              "電気"
             ],
-            "correctIndex": 1,
-            "explanation": "くるま (ô tô) viết là 車."
+            "correctIndex": 0,
+            "explanation": "電車 là tàu điện."
           },
           {
             "id": "m_review_1_5_2_m2_q1",
             "question": "あの 【レストラン】は おいしいです。",
             "options": [
+              "レスドラン",
               "レストンラ",
               "レストラソ",
-              "レストラン",
-              "レスドラン"
+              "レストラン"
             ],
-            "correctIndex": 2,
+            "correctIndex": 3,
             "explanation": "Restaurant viết là レストラン."
+          },
+          {
+            "id": "m_review_1_5_2_m2_q2",
+            "question": "ともだちと 【デパート】へ いきます。",
+            "options": [
+              "デパード",
+              "テパート",
+              "デバート",
+              "デパート"
+            ],
+            "correctIndex": 3,
+            "explanation": "Department store viết là デパート."
+          },
+          {
+            "id": "m_review_1_5_2_m2_q3",
+            "question": "【くるま】を かいました。",
+            "options": [
+              "庫",
+              "重",
+              "東",
+              "車"
+            ],
+            "correctIndex": 3,
+            "explanation": "くるま (ô tô) viết là 車."
           }
         ]
       },
@@ -281,24 +413,48 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_1_5_2_m3_q0",
             "question": "スーパーで くだものを 【　　　】。",
             "options": [
-              "あいます",
-              "かいます",
               "すいます",
-              "のみます"
+              "のみます",
+              "あいます",
+              "かいます"
             ],
-            "correctIndex": 1,
+            "correctIndex": 3,
             "explanation": "Mua trái cây: かいます."
           },
           {
             "id": "m_review_1_5_2_m3_q1",
+            "question": "あしたは やすみです。うちで ゆっくり 【　　　】。",
+            "options": [
+              "おわります",
+              "やすみます",
+              "はたらきます",
+              "おきます"
+            ],
+            "correctIndex": 1,
+            "explanation": "Nghỉ ngơi: やすみます."
+          },
+          {
+            "id": "m_review_1_5_2_m3_q2",
+            "question": "きのう １０じに 【　　　】。",
+            "options": [
+              "きました",
+              "いきました",
+              "ねました",
+              "おきました"
+            ],
+            "correctIndex": 2,
+            "explanation": "Đã ngủ lúc 10 giờ: ねました."
+          },
+          {
+            "id": "m_review_1_5_2_m3_q3",
             "question": "えんぴつで てがみを 【　　　】。",
             "options": [
               "ききます",
+              "みます",
               "かきます",
-              "よみます",
-              "みます"
+              "よみます"
             ],
-            "correctIndex": 1,
+            "correctIndex": 2,
             "explanation": "Viết thư: かきます."
           }
         ]
@@ -311,22 +467,22 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_1_5_2_b1_q0",
             "question": "わたしは えんぴつ（　　　）てがみを かきます。",
             "options": [
-              "を",
-              "が",
               "で",
-              "に"
+              "に",
+              "を",
+              "が"
             ],
-            "correctIndex": 2,
+            "correctIndex": 0,
             "explanation": "Phương tiện/công cụ -> で."
           },
           {
             "id": "m_review_1_5_2_b1_q1",
             "question": "あした どこ（　　　）いきません。",
             "options": [
-              "がも",
+              "をも",
               "へも",
               "でも",
-              "をも"
+              "がも"
             ],
             "correctIndex": 1,
             "explanation": "Phủ định hoàn toàn: どこへも いきません."
@@ -335,13 +491,25 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_1_5_2_b1_q2",
             "question": "きょうは ５じ（　　　）はたらきます。",
             "options": [
-              "から",
               "まで",
               "で",
-              "に"
+              "に",
+              "から"
             ],
-            "correctIndex": 1,
+            "correctIndex": 0,
             "explanation": "Làm việc \"đến\" 5 giờ -> まで."
+          },
+          {
+            "id": "m_review_1_5_2_b1_q3",
+            "question": "A「それは （　　　）ですか。」 B「コンピューターの ほん です。」",
+            "options": [
+              "なん",
+              "どこ",
+              "なんの ほん",
+              "だれの ほん"
+            ],
+            "correctIndex": 0,
+            "explanation": "Hỏi cái gì dùng なん."
           }
         ]
       },
@@ -351,27 +519,27 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_1_5_2_b2_q0",
-            "question": "ここは　___ ___ _★_ ___　です。",
+            "question": "わたしは　___ ___ _★_ ___　いきます。",
             "options": [
-              "の",
-              "だいがく",
-              "とうきょう",
-              "しょくどう"
+              "へ",
+              "ともだち",
+              "ぎんこう",
+              "と"
             ],
-            "correctIndex": 0,
-            "explanation": "ここは とうきょう だいがく の しょくどう です."
+            "correctIndex": 2,
+            "explanation": "わたしは ともだち と ぎんこう へ いきます."
           },
           {
             "id": "m_review_1_5_2_b2_q1",
-            "question": "わたしは　___ ___ _★_ ___　いきます。",
+            "question": "ここは　___ ___ _★_ ___　です。",
             "options": [
-              "ともだち",
-              "へ",
-              "と",
-              "ぎんこう"
+              "だいがく",
+              "の",
+              "しょくどう",
+              "とうきょう"
             ],
-            "correctIndex": 3,
-            "explanation": "わたしは ともだち と ぎんこう へ いきます."
+            "correctIndex": 1,
+            "explanation": "ここは とうきょう だいがく の しょくどう です."
           }
         ]
       },
@@ -390,11 +558,11 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "question": "（　１　）に入れるものはどれですか。",
             "options": [
               "で",
-              "と",
               "へ",
+              "と",
               "に"
             ],
-            "correctIndex": 1,
+            "correctIndex": 2,
             "explanation": "Cùng với bạn -> と."
           },
           {
@@ -402,11 +570,11 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "question": "（　２　）に入れるものはどれですか。",
             "options": [
               "みません",
+              "みました",
               "みます",
-              "みますか",
-              "みました"
+              "みますか"
             ],
-            "correctIndex": 3,
+            "correctIndex": 1,
             "explanation": "Kể chuyện quá khứ -> みました."
           }
         ]
@@ -424,18 +592,42 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_1_5_3_m1_q0",
-            "question": "きょうは 【水曜日】です。",
+            "question": "【先月】、日本へ きました。",
             "options": [
-              "きんようび",
-              "かようび",
-              "すいようび",
-              "もくようび"
+              "らいげつ",
+              "せんげつ",
+              "まいつき",
+              "こんげつ"
             ],
-            "correctIndex": 2,
-            "explanation": "水曜日 đọc là すいようび (thứ Tư)."
+            "correctIndex": 1,
+            "explanation": "先月 đọc là せんげつ (tháng trước)."
           },
           {
             "id": "m_review_1_5_3_m1_q1",
+            "question": "わたしの 【国】は ベトナムです。",
+            "options": [
+              "くに",
+              "まち",
+              "いえ",
+              "うち"
+            ],
+            "correctIndex": 0,
+            "explanation": "国 đọc là くに (đất nước)."
+          },
+          {
+            "id": "m_review_1_5_3_m1_q2",
+            "question": "きょうは 【水曜日】です。",
+            "options": [
+              "すいようび",
+              "もくようび",
+              "かようび",
+              "きんようび"
+            ],
+            "correctIndex": 0,
+            "explanation": "水曜日 đọc là すいようび (thứ Tư)."
+          },
+          {
+            "id": "m_review_1_5_3_m1_q3",
             "question": "【毎日】 にほんごを べんきょうします。",
             "options": [
               "まいにち",
@@ -454,27 +646,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_1_5_3_m2_q0",
+            "question": "【くるま】を かいました。",
+            "options": [
+              "東",
+              "重",
+              "庫",
+              "車"
+            ],
+            "correctIndex": 3,
+            "explanation": "くるま (ô tô) viết là 車."
+          },
+          {
+            "id": "m_review_1_5_3_m2_q1",
             "question": "ともだちと 【デパート】へ いきます。",
             "options": [
-              "デバート",
-              "テパート",
               "デパード",
+              "テパート",
+              "デバート",
               "デパート"
             ],
             "correctIndex": 3,
             "explanation": "Department store viết là デパート."
           },
           {
-            "id": "m_review_1_5_3_m2_q1",
+            "id": "m_review_1_5_3_m2_q2",
             "question": "あの 【レストラン】は おいしいです。",
             "options": [
-              "レストラソ",
+              "レストンラ",
               "レスドラン",
-              "レストラン",
-              "レストンラ"
+              "レストラソ",
+              "レストラン"
             ],
-            "correctIndex": 2,
+            "correctIndex": 3,
             "explanation": "Restaurant viết là レストラン."
+          },
+          {
+            "id": "m_review_1_5_3_m2_q3",
+            "question": "【でんしゃ】で かいしゃへ いきます。",
+            "options": [
+              "電車",
+              "電話",
+              "電気",
+              "電波"
+            ],
+            "correctIndex": 0,
+            "explanation": "電車 là tàu điện."
           }
         ]
       },
@@ -486,25 +702,49 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_1_5_3_m3_q0",
             "question": "あしたは やすみです。うちで ゆっくり 【　　　】。",
             "options": [
-              "はたらきます",
-              "おきます",
+              "おわります",
               "やすみます",
-              "おわります"
+              "おきます",
+              "はたらきます"
             ],
-            "correctIndex": 2,
+            "correctIndex": 1,
             "explanation": "Nghỉ ngơi: やすみます."
           },
           {
             "id": "m_review_1_5_3_m3_q1",
+            "question": "えんぴつで てがみを 【　　　】。",
+            "options": [
+              "みます",
+              "よみます",
+              "ききます",
+              "かきます"
+            ],
+            "correctIndex": 3,
+            "explanation": "Viết thư: かきます."
+          },
+          {
+            "id": "m_review_1_5_3_m3_q2",
             "question": "きのう １０じに 【　　　】。",
             "options": [
-              "いきました",
-              "ねました",
+              "きました",
               "おきました",
-              "きました"
+              "ねました",
+              "いきました"
             ],
-            "correctIndex": 1,
+            "correctIndex": 2,
             "explanation": "Đã ngủ lúc 10 giờ: ねました."
+          },
+          {
+            "id": "m_review_1_5_3_m3_q3",
+            "question": "スーパーで くだものを 【　　　】。",
+            "options": [
+              "あいます",
+              "のみます",
+              "かいます",
+              "すいます"
+            ],
+            "correctIndex": 2,
+            "explanation": "Mua trái cây: かいます."
           }
         ]
       },
@@ -516,36 +756,48 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_1_5_3_b1_q0",
             "question": "わたしは えんぴつ（　　　）てがみを かきます。",
             "options": [
-              "に",
-              "が",
+              "を",
               "で",
-              "を"
+              "が",
+              "に"
             ],
-            "correctIndex": 2,
+            "correctIndex": 1,
             "explanation": "Phương tiện/công cụ -> で."
           },
           {
             "id": "m_review_1_5_3_b1_q1",
-            "question": "きょうは ５じ（　　　）はたらきます。",
+            "question": "あした どこ（　　　）いきません。",
             "options": [
-              "から",
-              "まで",
-              "に",
-              "で"
+              "をも",
+              "がも",
+              "へも",
+              "でも"
             ],
-            "correctIndex": 1,
-            "explanation": "Làm việc \"đến\" 5 giờ -> まで."
+            "correctIndex": 2,
+            "explanation": "Phủ định hoàn toàn: どこへも いきません."
           },
           {
             "id": "m_review_1_5_3_b1_q2",
+            "question": "きょうは ５じ（　　　）はたらきます。",
+            "options": [
+              "で",
+              "に",
+              "から",
+              "まで"
+            ],
+            "correctIndex": 3,
+            "explanation": "Làm việc \"đến\" 5 giờ -> まで."
+          },
+          {
+            "id": "m_review_1_5_3_b1_q3",
             "question": "A「それは （　　　）ですか。」 B「コンピューターの ほん です。」",
             "options": [
-              "どこ",
-              "なん",
               "だれの ほん",
-              "なんの ほん"
+              "なんの ほん",
+              "どこ",
+              "なん"
             ],
-            "correctIndex": 1,
+            "correctIndex": 3,
             "explanation": "Hỏi cái gì dùng なん."
           }
         ]
@@ -556,27 +808,27 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_1_5_3_b2_q0",
-            "question": "ここは　___ ___ _★_ ___　です。",
+            "question": "わたしは　___ ___ _★_ ___　いきます。",
             "options": [
-              "しょくどう",
-              "の",
-              "だいがく",
-              "とうきょう"
+              "ぎんこう",
+              "へ",
+              "ともだち",
+              "と"
             ],
-            "correctIndex": 1,
-            "explanation": "ここは とうきょう だいがく の しょくどう です."
+            "correctIndex": 0,
+            "explanation": "わたしは ともだち と ぎんこう へ いきます."
           },
           {
             "id": "m_review_1_5_3_b2_q1",
-            "question": "わたしは　___ ___ _★_ ___　いきます。",
+            "question": "ここは　___ ___ _★_ ___　です。",
             "options": [
-              "へ",
-              "ともだち",
-              "ぎんこう",
-              "と"
+              "だいがく",
+              "しょくどう",
+              "とうきょう",
+              "の"
             ],
-            "correctIndex": 2,
-            "explanation": "わたしは ともだち と ぎんこう へ いきます."
+            "correctIndex": 3,
+            "explanation": "ここは とうきょう だいがく の しょくどう です."
           }
         ]
       },
@@ -594,9 +846,9 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_1_5_3_d1_q0",
             "question": "（　１　）に入れるものはどれですか。",
             "options": [
-              "で",
-              "に",
               "へ",
+              "に",
+              "で",
               "と"
             ],
             "correctIndex": 3,
@@ -607,11 +859,11 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "question": "（　２　）に入れるものはどれですか。",
             "options": [
               "みますか",
-              "みません",
               "みました",
+              "みません",
               "みます"
             ],
-            "correctIndex": 2,
+            "correctIndex": 1,
             "explanation": "Kể chuyện quá khứ -> みました."
           }
         ]
@@ -629,24 +881,48 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_1_5_4_m1_q0",
+            "question": "【先月】、日本へ きました。",
+            "options": [
+              "せんげつ",
+              "まいつき",
+              "らいげつ",
+              "こんげつ"
+            ],
+            "correctIndex": 0,
+            "explanation": "先月 đọc là せんげつ (tháng trước)."
+          },
+          {
+            "id": "m_review_1_5_4_m1_q1",
+            "question": "わたしの 【国】は ベトナムです。",
+            "options": [
+              "いえ",
+              "くに",
+              "まち",
+              "うち"
+            ],
+            "correctIndex": 1,
+            "explanation": "国 đọc là くに (đất nước)."
+          },
+          {
+            "id": "m_review_1_5_4_m1_q2",
             "question": "きょうは 【水曜日】です。",
             "options": [
-              "かようび",
+              "もくようび",
               "すいようび",
               "きんようび",
-              "もくようび"
+              "かようび"
             ],
             "correctIndex": 1,
             "explanation": "水曜日 đọc là すいようび (thứ Tư)."
           },
           {
-            "id": "m_review_1_5_4_m1_q1",
+            "id": "m_review_1_5_4_m1_q3",
             "question": "【毎日】 にほんごを べんきょうします。",
             "options": [
               "まいにち",
+              "まいしゅう",
               "まいげつ",
-              "まいとし",
-              "まいしゅう"
+              "まいとし"
             ],
             "correctIndex": 0,
             "explanation": "毎日 đọc là まいにち (mỗi ngày)."
@@ -659,26 +935,50 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_1_5_4_m2_q0",
-            "question": "ともだちと 【デパート】へ いきます。",
+            "question": "【でんしゃ】で かいしゃへ いきます。",
             "options": [
-              "デバート",
-              "テパート",
-              "デパード",
-              "デパート"
+              "電車",
+              "電波",
+              "電気",
+              "電話"
             ],
-            "correctIndex": 3,
-            "explanation": "Department store viết là デパート."
+            "correctIndex": 0,
+            "explanation": "電車 là tàu điện."
           },
           {
             "id": "m_review_1_5_4_m2_q1",
-            "question": "【くるま】を かいました。",
+            "question": "あの 【レストラン】は おいしいです。",
             "options": [
-              "庫",
-              "車",
-              "東",
-              "重"
+              "レストラソ",
+              "レスドラン",
+              "レストラン",
+              "レストンラ"
+            ],
+            "correctIndex": 2,
+            "explanation": "Restaurant viết là レストラン."
+          },
+          {
+            "id": "m_review_1_5_4_m2_q2",
+            "question": "ともだちと 【デパート】へ いきます。",
+            "options": [
+              "テパート",
+              "デパート",
+              "デバート",
+              "デパード"
             ],
             "correctIndex": 1,
+            "explanation": "Department store viết là デパート."
+          },
+          {
+            "id": "m_review_1_5_4_m2_q3",
+            "question": "【くるま】を かいました。",
+            "options": [
+              "車",
+              "重",
+              "庫",
+              "東"
+            ],
+            "correctIndex": 0,
             "explanation": "くるま (ô tô) viết là 車."
           }
         ]
@@ -691,12 +991,12 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_1_5_4_m3_q0",
             "question": "えんぴつで てがみを 【　　　】。",
             "options": [
-              "ききます",
-              "かきます",
+              "みます",
               "よみます",
-              "みます"
+              "かきます",
+              "ききます"
             ],
-            "correctIndex": 1,
+            "correctIndex": 2,
             "explanation": "Viết thư: かきます."
           },
           {
@@ -704,12 +1004,36 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "question": "スーパーで くだものを 【　　　】。",
             "options": [
               "のみます",
-              "すいます",
               "かいます",
-              "あいます"
+              "あいます",
+              "すいます"
             ],
-            "correctIndex": 2,
+            "correctIndex": 1,
             "explanation": "Mua trái cây: かいます."
+          },
+          {
+            "id": "m_review_1_5_4_m3_q2",
+            "question": "きのう １０じに 【　　　】。",
+            "options": [
+              "おきました",
+              "いきました",
+              "きました",
+              "ねました"
+            ],
+            "correctIndex": 3,
+            "explanation": "Đã ngủ lúc 10 giờ: ねました."
+          },
+          {
+            "id": "m_review_1_5_4_m3_q3",
+            "question": "あしたは やすみです。うちで ゆっくり 【　　　】。",
+            "options": [
+              "おわります",
+              "やすみます",
+              "はたらきます",
+              "おきます"
+            ],
+            "correctIndex": 1,
+            "explanation": "Nghỉ ngơi: やすみます."
           }
         ]
       },
@@ -722,35 +1046,47 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "question": "わたしは えんぴつ（　　　）てがみを かきます。",
             "options": [
               "を",
-              "が",
               "で",
-              "に"
+              "に",
+              "が"
             ],
-            "correctIndex": 2,
+            "correctIndex": 1,
             "explanation": "Phương tiện/công cụ -> で."
           },
           {
             "id": "m_review_1_5_4_b1_q1",
             "question": "あした どこ（　　　）いきません。",
             "options": [
-              "でも",
-              "がも",
               "へも",
-              "をも"
+              "をも",
+              "がも",
+              "でも"
             ],
-            "correctIndex": 2,
+            "correctIndex": 0,
             "explanation": "Phủ định hoàn toàn: どこへも いきません."
           },
           {
             "id": "m_review_1_5_4_b1_q2",
+            "question": "A「それは （　　　）ですか。」 B「コンピューターの ほん です。」",
+            "options": [
+              "だれの ほん",
+              "なん",
+              "なんの ほん",
+              "どこ"
+            ],
+            "correctIndex": 1,
+            "explanation": "Hỏi cái gì dùng なん."
+          },
+          {
+            "id": "m_review_1_5_4_b1_q3",
             "question": "きょうは ５じ（　　　）はたらきます。",
             "options": [
+              "に",
               "まで",
               "から",
-              "で",
-              "に"
+              "で"
             ],
-            "correctIndex": 0,
+            "correctIndex": 1,
             "explanation": "Làm việc \"đến\" 5 giờ -> まで."
           }
         ]
@@ -761,27 +1097,27 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_1_5_4_b2_q0",
-            "question": "ここは　___ ___ _★_ ___　です。",
+            "question": "わたしは　___ ___ _★_ ___　いきます。",
             "options": [
-              "しょくどう",
-              "とうきょう",
-              "の",
-              "だいがく"
+              "ぎんこう",
+              "と",
+              "へ",
+              "ともだち"
             ],
-            "correctIndex": 2,
-            "explanation": "ここは とうきょう だいがく の しょくどう です."
+            "correctIndex": 0,
+            "explanation": "わたしは ともだち と ぎんこう へ いきます."
           },
           {
             "id": "m_review_1_5_4_b2_q1",
-            "question": "わたしは　___ ___ _★_ ___　いきます。",
+            "question": "ここは　___ ___ _★_ ___　です。",
             "options": [
-              "へ",
-              "ともだち",
-              "ぎんこう",
-              "と"
+              "とうきょう",
+              "だいがく",
+              "しょくどう",
+              "の"
             ],
-            "correctIndex": 2,
-            "explanation": "わたしは ともだち と ぎんこう へ いきます."
+            "correctIndex": 3,
+            "explanation": "ここは とうきょう だいがく の しょくどう です."
           }
         ]
       },
@@ -799,24 +1135,24 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_1_5_4_d1_q0",
             "question": "（　１　）に入れるものはどれですか。",
             "options": [
-              "で",
-              "へ",
+              "と",
               "に",
-              "と"
+              "で",
+              "へ"
             ],
-            "correctIndex": 3,
+            "correctIndex": 0,
             "explanation": "Cùng với bạn -> と."
           },
           {
             "id": "m_review_1_5_4_d1_q1",
             "question": "（　２　）に入れるものはどれですか。",
             "options": [
-              "みます",
               "みません",
-              "みますか",
-              "みました"
+              "みます",
+              "みました",
+              "みますか"
             ],
-            "correctIndex": 3,
+            "correctIndex": 2,
             "explanation": "Kể chuyện quá khứ -> みました."
           }
         ]
@@ -834,27 +1170,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_1_5_5_m1_q0",
+            "question": "きょうは 【水曜日】です。",
+            "options": [
+              "きんようび",
+              "かようび",
+              "すいようび",
+              "もくようび"
+            ],
+            "correctIndex": 2,
+            "explanation": "水曜日 đọc là すいようび (thứ Tư)."
+          },
+          {
+            "id": "m_review_1_5_5_m1_q1",
+            "question": "【先月】、日本へ きました。",
+            "options": [
+              "せんげつ",
+              "こんげつ",
+              "まいつき",
+              "らいげつ"
+            ],
+            "correctIndex": 0,
+            "explanation": "先月 đọc là せんげつ (tháng trước)."
+          },
+          {
+            "id": "m_review_1_5_5_m1_q2",
             "question": "【毎日】 にほんごを べんきょうします。",
             "options": [
               "まいげつ",
-              "まいしゅう",
+              "まいとし",
               "まいにち",
-              "まいとし"
+              "まいしゅう"
             ],
             "correctIndex": 2,
             "explanation": "毎日 đọc là まいにち (mỗi ngày)."
           },
           {
-            "id": "m_review_1_5_5_m1_q1",
-            "question": "きょうは 【水曜日】です。",
+            "id": "m_review_1_5_5_m1_q3",
+            "question": "わたしの 【国】は ベトナムです。",
             "options": [
-              "きんようび",
-              "かようび",
-              "もくようび",
-              "すいようび"
+              "いえ",
+              "まち",
+              "うち",
+              "くに"
             ],
             "correctIndex": 3,
-            "explanation": "水曜日 đọc là すいようび (thứ Tư)."
+            "explanation": "国 đọc là くに (đất nước)."
           }
         ]
       },
@@ -866,9 +1226,9 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_1_5_5_m2_q0",
             "question": "ともだちと 【デパート】へ いきます。",
             "options": [
-              "デパード",
               "デバート",
               "テパート",
+              "デパード",
               "デパート"
             ],
             "correctIndex": 3,
@@ -876,10 +1236,34 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
           },
           {
             "id": "m_review_1_5_5_m2_q1",
+            "question": "あの 【レストラン】は おいしいです。",
+            "options": [
+              "レストラン",
+              "レスドラン",
+              "レストラソ",
+              "レストンラ"
+            ],
+            "correctIndex": 0,
+            "explanation": "Restaurant viết là レストラン."
+          },
+          {
+            "id": "m_review_1_5_5_m2_q2",
+            "question": "【でんしゃ】で かいしゃへ いきます。",
+            "options": [
+              "電気",
+              "電車",
+              "電波",
+              "電話"
+            ],
+            "correctIndex": 1,
+            "explanation": "電車 là tàu điện."
+          },
+          {
+            "id": "m_review_1_5_5_m2_q3",
             "question": "【くるま】を かいました。",
             "options": [
-              "東",
               "庫",
+              "東",
               "重",
               "車"
             ],
@@ -896,22 +1280,46 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_1_5_5_m3_q0",
             "question": "あしたは やすみです。うちで ゆっくり 【　　　】。",
             "options": [
-              "やすみます",
-              "おわります",
               "はたらきます",
+              "おわります",
+              "やすみます",
               "おきます"
             ],
-            "correctIndex": 0,
+            "correctIndex": 2,
             "explanation": "Nghỉ ngơi: やすみます."
           },
           {
             "id": "m_review_1_5_5_m3_q1",
+            "question": "きのう １０じに 【　　　】。",
+            "options": [
+              "きました",
+              "ねました",
+              "おきました",
+              "いきました"
+            ],
+            "correctIndex": 1,
+            "explanation": "Đã ngủ lúc 10 giờ: ねました."
+          },
+          {
+            "id": "m_review_1_5_5_m3_q2",
+            "question": "えんぴつで てがみを 【　　　】。",
+            "options": [
+              "よみます",
+              "かきます",
+              "みます",
+              "ききます"
+            ],
+            "correctIndex": 1,
+            "explanation": "Viết thư: かきます."
+          },
+          {
+            "id": "m_review_1_5_5_m3_q3",
             "question": "スーパーで くだものを 【　　　】。",
             "options": [
               "のみます",
-              "すいます",
+              "あいます",
               "かいます",
-              "あいます"
+              "すいます"
             ],
             "correctIndex": 2,
             "explanation": "Mua trái cây: かいます."
@@ -924,10 +1332,22 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_1_5_5_b1_q0",
+            "question": "あした どこ（　　　）いきません。",
+            "options": [
+              "をも",
+              "へも",
+              "がも",
+              "でも"
+            ],
+            "correctIndex": 1,
+            "explanation": "Phủ định hoàn toàn: どこへも いきません."
+          },
+          {
+            "id": "m_review_1_5_5_b1_q1",
             "question": "わたしは えんぴつ（　　　）てがみを かきます。",
             "options": [
-              "が",
               "に",
+              "が",
               "で",
               "を"
             ],
@@ -935,28 +1355,28 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "explanation": "Phương tiện/công cụ -> で."
           },
           {
-            "id": "m_review_1_5_5_b1_q1",
-            "question": "あした どこ（　　　）いきません。",
-            "options": [
-              "へも",
-              "がも",
-              "をも",
-              "でも"
-            ],
-            "correctIndex": 0,
-            "explanation": "Phủ định hoàn toàn: どこへも いきません."
-          },
-          {
             "id": "m_review_1_5_5_b1_q2",
             "question": "きょうは ５じ（　　　）はたらきます。",
             "options": [
-              "で",
-              "に",
+              "まで",
               "から",
-              "まで"
+              "に",
+              "で"
             ],
-            "correctIndex": 3,
+            "correctIndex": 0,
             "explanation": "Làm việc \"đến\" 5 giờ -> まで."
+          },
+          {
+            "id": "m_review_1_5_5_b1_q3",
+            "question": "A「それは （　　　）ですか。」 B「コンピューターの ほん です。」",
+            "options": [
+              "なん",
+              "だれの ほん",
+              "どこ",
+              "なんの ほん"
+            ],
+            "correctIndex": 0,
+            "explanation": "Hỏi cái gì dùng なん."
           }
         ]
       },
@@ -968,24 +1388,24 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_1_5_5_b2_q0",
             "question": "ここは　___ ___ _★_ ___　です。",
             "options": [
-              "だいがく",
               "とうきょう",
+              "の",
               "しょくどう",
-              "の"
+              "だいがく"
             ],
-            "correctIndex": 3,
+            "correctIndex": 1,
             "explanation": "ここは とうきょう だいがく の しょくどう です."
           },
           {
             "id": "m_review_1_5_5_b2_q1",
             "question": "わたしは　___ ___ _★_ ___　いきます。",
             "options": [
-              "へ",
-              "と",
               "ともだち",
-              "ぎんこう"
+              "ぎんこう",
+              "と",
+              "へ"
             ],
-            "correctIndex": 3,
+            "correctIndex": 1,
             "explanation": "わたしは ともだち と ぎんこう へ いきます."
           }
         ]
@@ -1004,24 +1424,24 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_1_5_5_d1_q0",
             "question": "（　１　）に入れるものはどれですか。",
             "options": [
+              "と",
               "へ",
-              "で",
               "に",
-              "と"
+              "で"
             ],
-            "correctIndex": 3,
+            "correctIndex": 0,
             "explanation": "Cùng với bạn -> と."
           },
           {
             "id": "m_review_1_5_5_d1_q1",
             "question": "（　２　）に入れるものはどれですか。",
             "options": [
-              "みません",
               "みます",
-              "みますか",
-              "みました"
+              "みません",
+              "みました",
+              "みますか"
             ],
-            "correctIndex": 3,
+            "correctIndex": 2,
             "explanation": "Kể chuyện quá khứ -> みました."
           }
         ]
@@ -1051,6 +1471,18 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
           },
           {
             "id": "m_review_6_10_1_m1_q1",
+            "question": "【古い】 じてんしゃです。",
+            "options": [
+              "ひろい",
+              "ふろい",
+              "ふるい",
+              "ぶるい"
+            ],
+            "correctIndex": 2,
+            "explanation": "古い đọc là ふるい (cũ)."
+          },
+          {
+            "id": "m_review_6_10_1_m1_q2",
             "question": "【えいご】を べんきょうします。",
             "options": [
               "英話",
@@ -1060,6 +1492,18 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             ],
             "correctIndex": 2,
             "explanation": "英語 là Tiếng Anh."
+          },
+          {
+            "id": "m_review_6_10_1_m1_q3",
+            "question": "【手紙】を かきます。",
+            "options": [
+              "でがみ",
+              "てかみ",
+              "でかみ",
+              "てがみ"
+            ],
+            "correctIndex": 3,
+            "explanation": "手紙 đọc là てがみ (Bức thư)."
           }
         ]
       },
@@ -1069,27 +1513,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_6_10_1_m2_q0",
-            "question": "【シャツ】を かいました。",
-            "options": [
-              "シヤツ",
-              "シャツ",
-              "シヤッ",
-              "サツ"
-            ],
-            "correctIndex": 1,
-            "explanation": "Shirt viết là シャツ."
-          },
-          {
-            "id": "m_review_6_10_1_m2_q1",
             "question": "【パン】を たべます。",
             "options": [
-              "ハン",
               "パン",
+              "ハン",
               "バン",
               "ホン"
             ],
-            "correctIndex": 1,
+            "correctIndex": 0,
             "explanation": "Bread viết là パン."
+          },
+          {
+            "id": "m_review_6_10_1_m2_q1",
+            "question": "【シャツ】を かいました。",
+            "options": [
+              "シヤッ",
+              "サツ",
+              "シヤツ",
+              "シャツ"
+            ],
+            "correctIndex": 3,
+            "explanation": "Shirt viết là シャツ."
+          },
+          {
+            "id": "m_review_6_10_1_m2_q2",
+            "question": "【コーヒー】を のみます。",
+            "options": [
+              "コヒ",
+              "コーヒ",
+              "コヒー",
+              "コーヒー"
+            ],
+            "correctIndex": 3,
+            "explanation": "Coffee viết là コーヒー."
+          },
+          {
+            "id": "m_review_6_10_1_m2_q3",
+            "question": "【プレゼント】を あげます。",
+            "options": [
+              "プレセント",
+              "プレザント",
+              "プレゼント",
+              "フレゼント"
+            ],
+            "correctIndex": 2,
+            "explanation": "Present (Quà) viết Katakana là プレゼント."
           }
         ]
       },
@@ -1101,25 +1569,49 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_6_10_1_m3_q0",
             "question": "せんせいから ほんを 【　　　】。",
             "options": [
-              "おしえました",
-              "あげました",
               "もらいました",
-              "かしました"
+              "おしえました",
+              "かしました",
+              "あげました"
             ],
-            "correctIndex": 2,
+            "correctIndex": 0,
             "explanation": "Nhận từ giáo viên (もらいました)."
           },
           {
             "id": "m_review_6_10_1_m3_q1",
+            "question": "はさみで かみを 【　　　】。",
+            "options": [
+              "もらいます",
+              "かします",
+              "かります",
+              "きります"
+            ],
+            "correctIndex": 3,
+            "explanation": "Cắt (きります) giấy."
+          },
+          {
+            "id": "m_review_6_10_1_m3_q2",
             "question": "日本の カメラは 【　　　】ですか。",
             "options": [
-              "どの",
-              "どう",
               "どれ",
-              "どんな"
+              "どの",
+              "どんな",
+              "どう"
             ],
-            "correctIndex": 1,
+            "correctIndex": 3,
             "explanation": "Thế nào? (どうですか)."
+          },
+          {
+            "id": "m_review_6_10_1_m3_q3",
+            "question": "この りんごは とても 【　　　】です。",
+            "options": [
+              "おいしい",
+              "おもしろい",
+              "いそがしい",
+              "つめたい"
+            ],
+            "correctIndex": 0,
+            "explanation": "Táo thì ngon (おいしい)."
           }
         ]
       },
@@ -1129,39 +1621,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_6_10_1_b1_q0",
-            "question": "きのうの パーティーは （　　　）。",
-            "options": [
-              "たのしいでした",
-              "たのしいです",
-              "たのしかったです",
-              "たのしかった"
-            ],
-            "correctIndex": 2,
-            "explanation": "Tính từ đuôi い ở quá khứ -> かったです."
-          },
-          {
-            "id": "m_review_6_10_1_b1_q1",
             "question": "わたしは 木村さん（　　　）はなを あげました。",
             "options": [
-              "に",
               "を",
               "へ",
-              "で"
+              "で",
+              "に"
             ],
-            "correctIndex": 0,
+            "correctIndex": 3,
             "explanation": "Cho ai cái gì -> に."
           },
           {
-            "id": "m_review_6_10_1_b1_q2",
+            "id": "m_review_6_10_1_b1_q1",
             "question": "この へやは （　　　）ありません。",
             "options": [
-              "しずか",
-              "しずかに",
               "しずかくて",
-              "しずかじゃ"
+              "しずかじゃ",
+              "しずか",
+              "しずかに"
             ],
-            "correctIndex": 3,
+            "correctIndex": 1,
             "explanation": "Phủ định tính từ đuôi な -> じゃ ありません."
+          },
+          {
+            "id": "m_review_6_10_1_b1_q2",
+            "question": "スプーン（　　　）ごはんを たべます。",
+            "options": [
+              "を",
+              "で",
+              "が",
+              "に"
+            ],
+            "correctIndex": 1,
+            "explanation": "Chỉ phương tiện/công cụ -> で."
+          },
+          {
+            "id": "m_review_6_10_1_b1_q3",
+            "question": "きのうの パーティーは （　　　）。",
+            "options": [
+              "たのしかったです",
+              "たのしいです",
+              "たのしかった",
+              "たのしいでした"
+            ],
+            "correctIndex": 0,
+            "explanation": "Tính từ đuôi い ở quá khứ -> かったです."
           }
         ]
       },
@@ -1173,24 +1677,24 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_6_10_1_b2_q0",
             "question": "わたしは　___ ___ _★_ ___　もらいました。",
             "options": [
-              "とけい",
-              "を",
+              "に",
               "ともだち",
-              "に"
+              "を",
+              "とけい"
             ],
-            "correctIndex": 1,
+            "correctIndex": 2,
             "explanation": "わたしは ともだち に とけい を もらいました."
           },
           {
             "id": "m_review_6_10_1_b2_q1",
             "question": "とうきょうは　___ ___ _★_ ___　まちです。",
             "options": [
-              "とても",
-              "にぎやかな",
+              "て",
               "きれいで",
-              "て"
+              "にぎやかな",
+              "とても"
             ],
-            "correctIndex": 0,
+            "correctIndex": 3,
             "explanation": "とうきょうは とても きれいで にぎやかな まち です."
           }
         ]
@@ -1209,22 +1713,22 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_6_10_1_d1_q0",
             "question": "なにを もらいましたか。",
             "options": [
-              "くろい シャツと しろい ぼうし",
-              "しろい シャツと くろい ぼうし",
               "くろい シャツと くろい ぼうし",
-              "しろい シャツと しろい ぼうし"
+              "くろい シャツと しろい ぼうし",
+              "しろい シャツと しろい ぼうし",
+              "しろい シャツと くろい ぼうし"
             ],
-            "correctIndex": 1,
+            "correctIndex": 3,
             "explanation": "シャツは しろいです。ぼうしは くろいです."
           },
           {
             "id": "m_review_6_10_1_d1_q1",
             "question": "よる どこで ごはんを たべますか。",
             "options": [
-              "うち",
+              "がっこう",
               "レストラン",
-              "かいしゃ",
-              "がっこう"
+              "うち",
+              "かいしゃ"
             ],
             "correctIndex": 1,
             "explanation": "レストランで しょくじを します."
@@ -1246,25 +1750,49 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_6_10_2_m1_q0",
             "question": "【手紙】を かきます。",
             "options": [
-              "てかみ",
               "でかみ",
               "てがみ",
-              "でがみ"
+              "でがみ",
+              "てかみ"
             ],
-            "correctIndex": 2,
+            "correctIndex": 1,
             "explanation": "手紙 đọc là てがみ (Bức thư)."
           },
           {
             "id": "m_review_6_10_2_m1_q1",
             "question": "【えいご】を べんきょうします。",
             "options": [
-              "英話",
-              "英吾",
+              "英語",
               "英悟",
-              "英語"
+              "英話",
+              "英吾"
             ],
-            "correctIndex": 3,
+            "correctIndex": 0,
             "explanation": "英語 là Tiếng Anh."
+          },
+          {
+            "id": "m_review_6_10_2_m1_q2",
+            "question": "【新しい】 くるまです。",
+            "options": [
+              "あたらしい",
+              "あだらしい",
+              "あらたしい",
+              "あたらし"
+            ],
+            "correctIndex": 0,
+            "explanation": "新しい đọc là あたらしい (mới)."
+          },
+          {
+            "id": "m_review_6_10_2_m1_q3",
+            "question": "【古い】 じてんしゃです。",
+            "options": [
+              "ふるい",
+              "ふろい",
+              "ひろい",
+              "ぶるい"
+            ],
+            "correctIndex": 0,
+            "explanation": "古い đọc là ふるい (cũ)."
           }
         ]
       },
@@ -1274,27 +1802,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_6_10_2_m2_q0",
-            "question": "【シャツ】を かいました。",
+            "question": "【プレゼント】を あげます。",
             "options": [
-              "シヤツ",
-              "シヤッ",
-              "サツ",
-              "シャツ"
+              "プレセント",
+              "プレゼント",
+              "フレゼント",
+              "プレザント"
             ],
-            "correctIndex": 3,
-            "explanation": "Shirt viết là シャツ."
+            "correctIndex": 1,
+            "explanation": "Present (Quà) viết Katakana là プレゼント."
           },
           {
             "id": "m_review_6_10_2_m2_q1",
             "question": "【コーヒー】を のみます。",
             "options": [
-              "コヒ",
-              "コーヒー",
               "コーヒ",
-              "コヒー"
+              "コヒー",
+              "コーヒー",
+              "コヒ"
+            ],
+            "correctIndex": 2,
+            "explanation": "Coffee viết là コーヒー."
+          },
+          {
+            "id": "m_review_6_10_2_m2_q2",
+            "question": "【シャツ】を かいました。",
+            "options": [
+              "サツ",
+              "シャツ",
+              "シヤッ",
+              "シヤツ"
             ],
             "correctIndex": 1,
-            "explanation": "Coffee viết là コーヒー."
+            "explanation": "Shirt viết là シャツ."
+          },
+          {
+            "id": "m_review_6_10_2_m2_q3",
+            "question": "【パン】を たべます。",
+            "options": [
+              "ハン",
+              "ホン",
+              "パン",
+              "バン"
+            ],
+            "correctIndex": 2,
+            "explanation": "Bread viết là パン."
           }
         ]
       },
@@ -1306,25 +1858,49 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_6_10_2_m3_q0",
             "question": "日本の カメラは 【　　　】ですか。",
             "options": [
-              "どの",
-              "どれ",
               "どう",
-              "どんな"
+              "どんな",
+              "どの",
+              "どれ"
             ],
-            "correctIndex": 2,
+            "correctIndex": 0,
             "explanation": "Thế nào? (どうですか)."
           },
           {
             "id": "m_review_6_10_2_m3_q1",
+            "question": "はさみで かみを 【　　　】。",
+            "options": [
+              "かします",
+              "もらいます",
+              "きります",
+              "かります"
+            ],
+            "correctIndex": 2,
+            "explanation": "Cắt (きります) giấy."
+          },
+          {
+            "id": "m_review_6_10_2_m3_q2",
             "question": "この りんごは とても 【　　　】です。",
             "options": [
+              "おいしい",
               "いそがしい",
-              "おもしろい",
               "つめたい",
-              "おいしい"
+              "おもしろい"
             ],
-            "correctIndex": 3,
+            "correctIndex": 0,
             "explanation": "Táo thì ngon (おいしい)."
+          },
+          {
+            "id": "m_review_6_10_2_m3_q3",
+            "question": "せんせいから ほんを 【　　　】。",
+            "options": [
+              "あげました",
+              "もらいました",
+              "おしえました",
+              "かしました"
+            ],
+            "correctIndex": 1,
+            "explanation": "Nhận từ giáo viên (もらいました)."
           }
         ]
       },
@@ -1334,39 +1910,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_6_10_2_b1_q0",
-            "question": "スプーン（　　　）ごはんを たべます。",
+            "question": "きのうの パーティーは （　　　）。",
             "options": [
-              "に",
-              "が",
-              "で",
-              "を"
+              "たのしいです",
+              "たのしかったです",
+              "たのしいでした",
+              "たのしかった"
             ],
-            "correctIndex": 2,
-            "explanation": "Chỉ phương tiện/công cụ -> で."
+            "correctIndex": 1,
+            "explanation": "Tính từ đuôi い ở quá khứ -> かったです."
           },
           {
             "id": "m_review_6_10_2_b1_q1",
             "question": "わたしは 木村さん（　　　）はなを あげました。",
             "options": [
-              "で",
               "に",
-              "を",
-              "へ"
+              "で",
+              "へ",
+              "を"
             ],
-            "correctIndex": 1,
+            "correctIndex": 0,
             "explanation": "Cho ai cái gì -> に."
           },
           {
             "id": "m_review_6_10_2_b1_q2",
-            "question": "きのうの パーティーは （　　　）。",
+            "question": "この へやは （　　　）ありません。",
             "options": [
-              "たのしいです",
-              "たのしいでした",
-              "たのしかったです",
-              "たのしかった"
+              "しずかに",
+              "しずか",
+              "しずかくて",
+              "しずかじゃ"
+            ],
+            "correctIndex": 3,
+            "explanation": "Phủ định tính từ đuôi な -> じゃ ありません."
+          },
+          {
+            "id": "m_review_6_10_2_b1_q3",
+            "question": "スプーン（　　　）ごはんを たべます。",
+            "options": [
+              "が",
+              "を",
+              "で",
+              "に"
             ],
             "correctIndex": 2,
-            "explanation": "Tính từ đuôi い ở quá khứ -> かったです."
+            "explanation": "Chỉ phương tiện/công cụ -> で."
           }
         ]
       },
@@ -1378,24 +1966,24 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_6_10_2_b2_q0",
             "question": "とうきょうは　___ ___ _★_ ___　まちです。",
             "options": [
+              "とても",
               "て",
               "きれいで",
-              "とても",
               "にぎやかな"
             ],
-            "correctIndex": 2,
+            "correctIndex": 0,
             "explanation": "とうきょうは とても きれいで にぎやかな まち です."
           },
           {
             "id": "m_review_6_10_2_b2_q1",
             "question": "わたしは　___ ___ _★_ ___　もらいました。",
             "options": [
+              "ともだち",
               "を",
               "とけい",
-              "ともだち",
               "に"
             ],
-            "correctIndex": 0,
+            "correctIndex": 1,
             "explanation": "わたしは ともだち に とけい を もらいました."
           }
         ]
@@ -1414,24 +2002,24 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_6_10_2_d1_q0",
             "question": "なにを もらいましたか。",
             "options": [
-              "くろい シャツと くろい ぼうし",
               "くろい シャツと しろい ぼうし",
-              "しろい シャツと しろい ぼうし",
-              "しろい シャツと くろい ぼうし"
+              "しろい シャツと くろい ぼうし",
+              "くろい シャツと くろい ぼうし",
+              "しろい シャツと しろい ぼうし"
             ],
-            "correctIndex": 3,
+            "correctIndex": 1,
             "explanation": "シャツは しろいです。ぼうしは くろいです."
           },
           {
             "id": "m_review_6_10_2_d1_q1",
             "question": "よる どこで ごはんを たべますか。",
             "options": [
-              "レストラン",
               "うち",
+              "レストラン",
               "かいしゃ",
               "がっこう"
             ],
-            "correctIndex": 0,
+            "correctIndex": 1,
             "explanation": "レストランで しょくじを します."
           }
         ]
@@ -1449,26 +2037,50 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_6_10_3_m1_q0",
-            "question": "【手紙】を かきます。",
+            "question": "【えいご】を べんきょうします。",
             "options": [
-              "てかみ",
-              "でかみ",
-              "でがみ",
-              "てがみ"
+              "英語",
+              "英話",
+              "英吾",
+              "英悟"
             ],
-            "correctIndex": 3,
-            "explanation": "手紙 đọc là てがみ (Bức thư)."
+            "correctIndex": 0,
+            "explanation": "英語 là Tiếng Anh."
           },
           {
             "id": "m_review_6_10_3_m1_q1",
+            "question": "【手紙】を かきます。",
+            "options": [
+              "てかみ",
+              "でがみ",
+              "てがみ",
+              "でかみ"
+            ],
+            "correctIndex": 2,
+            "explanation": "手紙 đọc là てがみ (Bức thư)."
+          },
+          {
+            "id": "m_review_6_10_3_m1_q2",
+            "question": "【新しい】 くるまです。",
+            "options": [
+              "あたらしい",
+              "あたらし",
+              "あだらしい",
+              "あらたしい"
+            ],
+            "correctIndex": 0,
+            "explanation": "新しい đọc là あたらしい (mới)."
+          },
+          {
+            "id": "m_review_6_10_3_m1_q3",
             "question": "【古い】 じてんしゃです。",
             "options": [
               "ぶるい",
-              "ふるい",
               "ふろい",
+              "ふるい",
               "ひろい"
             ],
-            "correctIndex": 1,
+            "correctIndex": 2,
             "explanation": "古い đọc là ふるい (cũ)."
           }
         ]
@@ -1483,8 +2095,8 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "options": [
               "パン",
               "ハン",
-              "バン",
-              "ホン"
+              "ホン",
+              "バン"
             ],
             "correctIndex": 0,
             "explanation": "Bread viết là パン."
@@ -1493,13 +2105,37 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_6_10_3_m2_q1",
             "question": "【シャツ】を かいました。",
             "options": [
-              "サツ",
+              "シャツ",
               "シヤッ",
-              "シヤツ",
-              "シャツ"
+              "サツ",
+              "シヤツ"
+            ],
+            "correctIndex": 0,
+            "explanation": "Shirt viết là シャツ."
+          },
+          {
+            "id": "m_review_6_10_3_m2_q2",
+            "question": "【コーヒー】を のみます。",
+            "options": [
+              "コヒ",
+              "コヒー",
+              "コーヒー",
+              "コーヒ"
+            ],
+            "correctIndex": 2,
+            "explanation": "Coffee viết là コーヒー."
+          },
+          {
+            "id": "m_review_6_10_3_m2_q3",
+            "question": "【プレゼント】を あげます。",
+            "options": [
+              "プレザント",
+              "フレゼント",
+              "プレセント",
+              "プレゼント"
             ],
             "correctIndex": 3,
-            "explanation": "Shirt viết là シャツ."
+            "explanation": "Present (Quà) viết Katakana là プレゼント."
           }
         ]
       },
@@ -1509,27 +2145,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_6_10_3_m3_q0",
-            "question": "せんせいから ほんを 【　　　】。",
+            "question": "この りんごは とても 【　　　】です。",
             "options": [
-              "おしえました",
-              "もらいました",
-              "あげました",
-              "かしました"
+              "いそがしい",
+              "おいしい",
+              "おもしろい",
+              "つめたい"
             ],
             "correctIndex": 1,
-            "explanation": "Nhận từ giáo viên (もらいました)."
+            "explanation": "Táo thì ngon (おいしい)."
           },
           {
             "id": "m_review_6_10_3_m3_q1",
+            "question": "はさみで かみを 【　　　】。",
+            "options": [
+              "かします",
+              "きります",
+              "かります",
+              "もらいます"
+            ],
+            "correctIndex": 1,
+            "explanation": "Cắt (きります) giấy."
+          },
+          {
+            "id": "m_review_6_10_3_m3_q2",
             "question": "日本の カメラは 【　　　】ですか。",
             "options": [
               "どの",
-              "どんな",
               "どう",
-              "どれ"
+              "どれ",
+              "どんな"
             ],
-            "correctIndex": 2,
+            "correctIndex": 1,
             "explanation": "Thế nào? (どうですか)."
+          },
+          {
+            "id": "m_review_6_10_3_m3_q3",
+            "question": "せんせいから ほんを 【　　　】。",
+            "options": [
+              "かしました",
+              "あげました",
+              "おしえました",
+              "もらいました"
+            ],
+            "correctIndex": 3,
+            "explanation": "Nhận từ giáo viên (もらいました)."
           }
         ]
       },
@@ -1543,34 +2203,46 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "options": [
               "が",
               "に",
-              "を",
-              "で"
+              "で",
+              "を"
             ],
-            "correctIndex": 3,
+            "correctIndex": 2,
             "explanation": "Chỉ phương tiện/công cụ -> で."
           },
           {
             "id": "m_review_6_10_3_b1_q1",
+            "question": "この へやは （　　　）ありません。",
+            "options": [
+              "しずかじゃ",
+              "しずか",
+              "しずかくて",
+              "しずかに"
+            ],
+            "correctIndex": 0,
+            "explanation": "Phủ định tính từ đuôi な -> じゃ ありません."
+          },
+          {
+            "id": "m_review_6_10_3_b1_q2",
             "question": "わたしは 木村さん（　　　）はなを あげました。",
             "options": [
               "へ",
-              "で",
               "を",
+              "で",
               "に"
             ],
             "correctIndex": 3,
             "explanation": "Cho ai cái gì -> に."
           },
           {
-            "id": "m_review_6_10_3_b1_q2",
+            "id": "m_review_6_10_3_b1_q3",
             "question": "きのうの パーティーは （　　　）。",
             "options": [
-              "たのしかった",
               "たのしいでした",
-              "たのしかったです",
-              "たのしいです"
+              "たのしいです",
+              "たのしかった",
+              "たのしかったです"
             ],
-            "correctIndex": 2,
+            "correctIndex": 3,
             "explanation": "Tính từ đuôi い ở quá khứ -> かったです."
           }
         ]
@@ -1581,27 +2253,27 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_6_10_3_b2_q0",
+            "question": "とうきょうは　___ ___ _★_ ___　まちです。",
+            "options": [
+              "にぎやかな",
+              "て",
+              "とても",
+              "きれいで"
+            ],
+            "correctIndex": 2,
+            "explanation": "とうきょうは とても きれいで にぎやかな まち です."
+          },
+          {
+            "id": "m_review_6_10_3_b2_q1",
             "question": "わたしは　___ ___ _★_ ___　もらいました。",
             "options": [
               "を",
-              "とけい",
               "に",
+              "とけい",
               "ともだち"
             ],
             "correctIndex": 0,
             "explanation": "わたしは ともだち に とけい を もらいました."
-          },
-          {
-            "id": "m_review_6_10_3_b2_q1",
-            "question": "とうきょうは　___ ___ _★_ ___　まちです。",
-            "options": [
-              "きれいで",
-              "とても",
-              "て",
-              "にぎやかな"
-            ],
-            "correctIndex": 1,
-            "explanation": "とうきょうは とても きれいで にぎやかな まち です."
           }
         ]
       },
@@ -1619,9 +2291,9 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_6_10_3_d1_q0",
             "question": "なにを もらいましたか。",
             "options": [
-              "くろい シャツと しろい ぼうし",
-              "しろい シャツと しろい ぼうし",
               "くろい シャツと くろい ぼうし",
+              "しろい シャツと しろい ぼうし",
+              "くろい シャツと しろい ぼうし",
               "しろい シャツと くろい ぼうし"
             ],
             "correctIndex": 3,
@@ -1631,12 +2303,12 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_6_10_3_d1_q1",
             "question": "よる どこで ごはんを たべますか。",
             "options": [
-              "かいしゃ",
               "レストラン",
-              "うち",
-              "がっこう"
+              "がっこう",
+              "かいしゃ",
+              "うち"
             ],
-            "correctIndex": 1,
+            "correctIndex": 0,
             "explanation": "レストランで しょくじを します."
           }
         ]
@@ -1654,6 +2326,18 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_6_10_4_m1_q0",
+            "question": "【手紙】を かきます。",
+            "options": [
+              "てがみ",
+              "でがみ",
+              "でかみ",
+              "てかみ"
+            ],
+            "correctIndex": 0,
+            "explanation": "手紙 đọc là てがみ (Bức thư)."
+          },
+          {
+            "id": "m_review_6_10_4_m1_q1",
             "question": "【えいご】を べんきょうします。",
             "options": [
               "英吾",
@@ -1665,16 +2349,28 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "explanation": "英語 là Tiếng Anh."
           },
           {
-            "id": "m_review_6_10_4_m1_q1",
-            "question": "【手紙】を かきます。",
+            "id": "m_review_6_10_4_m1_q2",
+            "question": "【新しい】 くるまです。",
             "options": [
-              "でかみ",
-              "でがみ",
-              "てがみ",
-              "てかみ"
+              "あたらしい",
+              "あらたしい",
+              "あだらしい",
+              "あたらし"
             ],
-            "correctIndex": 2,
-            "explanation": "手紙 đọc là てがみ (Bức thư)."
+            "correctIndex": 0,
+            "explanation": "新しい đọc là あたらしい (mới)."
+          },
+          {
+            "id": "m_review_6_10_4_m1_q3",
+            "question": "【古い】 じてんしゃです。",
+            "options": [
+              "ぶるい",
+              "ふろい",
+              "ひろい",
+              "ふるい"
+            ],
+            "correctIndex": 3,
+            "explanation": "古い đọc là ふるい (cũ)."
           }
         ]
       },
@@ -1684,27 +2380,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_6_10_4_m2_q0",
+            "question": "【パン】を たべます。",
+            "options": [
+              "ハン",
+              "パン",
+              "ホン",
+              "バン"
+            ],
+            "correctIndex": 1,
+            "explanation": "Bread viết là パン."
+          },
+          {
+            "id": "m_review_6_10_4_m2_q1",
             "question": "【プレゼント】を あげます。",
             "options": [
-              "フレゼント",
+              "プレセント",
               "プレゼント",
               "プレザント",
-              "プレセント"
+              "フレゼント"
             ],
             "correctIndex": 1,
             "explanation": "Present (Quà) viết Katakana là プレゼント."
           },
           {
-            "id": "m_review_6_10_4_m2_q1",
+            "id": "m_review_6_10_4_m2_q2",
             "question": "【コーヒー】を のみます。",
             "options": [
-              "コーヒー",
               "コヒ",
+              "コーヒー",
               "コヒー",
               "コーヒ"
             ],
-            "correctIndex": 0,
+            "correctIndex": 1,
             "explanation": "Coffee viết là コーヒー."
+          },
+          {
+            "id": "m_review_6_10_4_m2_q3",
+            "question": "【シャツ】を かいました。",
+            "options": [
+              "シヤッ",
+              "サツ",
+              "シャツ",
+              "シヤツ"
+            ],
+            "correctIndex": 2,
+            "explanation": "Shirt viết là シャツ."
           }
         ]
       },
@@ -1714,27 +2434,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_6_10_4_m3_q0",
-            "question": "はさみで かみを 【　　　】。",
+            "question": "日本の カメラは 【　　　】ですか。",
             "options": [
-              "もらいます",
-              "きります",
-              "かします",
-              "かります"
+              "どんな",
+              "どう",
+              "どれ",
+              "どの"
             ],
             "correctIndex": 1,
-            "explanation": "Cắt (きります) giấy."
+            "explanation": "Thế nào? (どうですか)."
           },
           {
             "id": "m_review_6_10_4_m3_q1",
+            "question": "せんせいから ほんを 【　　　】。",
+            "options": [
+              "おしえました",
+              "かしました",
+              "あげました",
+              "もらいました"
+            ],
+            "correctIndex": 3,
+            "explanation": "Nhận từ giáo viên (もらいました)."
+          },
+          {
+            "id": "m_review_6_10_4_m3_q2",
             "question": "この りんごは とても 【　　　】です。",
             "options": [
-              "つめたい",
-              "おいしい",
               "おもしろい",
-              "いそがしい"
+              "いそがしい",
+              "つめたい",
+              "おいしい"
             ],
-            "correctIndex": 1,
+            "correctIndex": 3,
             "explanation": "Táo thì ngon (おいしい)."
+          },
+          {
+            "id": "m_review_6_10_4_m3_q3",
+            "question": "はさみで かみを 【　　　】。",
+            "options": [
+              "かします",
+              "かります",
+              "もらいます",
+              "きります"
+            ],
+            "correctIndex": 3,
+            "explanation": "Cắt (きります) giấy."
           }
         ]
       },
@@ -1746,16 +2490,40 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_6_10_4_b1_q0",
             "question": "きのうの パーティーは （　　　）。",
             "options": [
+              "たのしかった",
               "たのしいです",
               "たのしいでした",
-              "たのしかったです",
-              "たのしかった"
+              "たのしかったです"
             ],
-            "correctIndex": 2,
+            "correctIndex": 3,
             "explanation": "Tính từ đuôi い ở quá khứ -> かったです."
           },
           {
             "id": "m_review_6_10_4_b1_q1",
+            "question": "わたしは 木村さん（　　　）はなを あげました。",
+            "options": [
+              "へ",
+              "で",
+              "を",
+              "に"
+            ],
+            "correctIndex": 3,
+            "explanation": "Cho ai cái gì -> に."
+          },
+          {
+            "id": "m_review_6_10_4_b1_q2",
+            "question": "スプーン（　　　）ごはんを たべます。",
+            "options": [
+              "で",
+              "が",
+              "に",
+              "を"
+            ],
+            "correctIndex": 0,
+            "explanation": "Chỉ phương tiện/công cụ -> で."
+          },
+          {
+            "id": "m_review_6_10_4_b1_q3",
             "question": "この へやは （　　　）ありません。",
             "options": [
               "しずかに",
@@ -1765,18 +2533,6 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             ],
             "correctIndex": 1,
             "explanation": "Phủ định tính từ đuôi な -> じゃ ありません."
-          },
-          {
-            "id": "m_review_6_10_4_b1_q2",
-            "question": "わたしは 木村さん（　　　）はなを あげました。",
-            "options": [
-              "で",
-              "へ",
-              "を",
-              "に"
-            ],
-            "correctIndex": 3,
-            "explanation": "Cho ai cái gì -> に."
           }
         ]
       },
@@ -1788,8 +2544,8 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_6_10_4_b2_q0",
             "question": "わたしは　___ ___ _★_ ___　もらいました。",
             "options": [
-              "に",
               "ともだち",
+              "に",
               "を",
               "とけい"
             ],
@@ -1801,11 +2557,11 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "question": "とうきょうは　___ ___ _★_ ___　まちです。",
             "options": [
               "にぎやかな",
-              "きれいで",
               "とても",
+              "きれいで",
               "て"
             ],
-            "correctIndex": 2,
+            "correctIndex": 1,
             "explanation": "とうきょうは とても きれいで にぎやかな まち です."
           }
         ]
@@ -1824,10 +2580,10 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_6_10_4_d1_q0",
             "question": "なにを もらいましたか。",
             "options": [
+              "くろい シャツと くろい ぼうし",
               "くろい シャツと しろい ぼうし",
-              "しろい シャツと しろい ぼうし",
               "しろい シャツと くろい ぼうし",
-              "くろい シャツと くろい ぼうし"
+              "しろい シャツと しろい ぼうし"
             ],
             "correctIndex": 2,
             "explanation": "シャツは しろいです。ぼうしは くろいです."
@@ -1836,12 +2592,12 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_6_10_4_d1_q1",
             "question": "よる どこで ごはんを たべますか。",
             "options": [
-              "うち",
-              "かいしゃ",
               "レストラン",
-              "がっこう"
+              "がっこう",
+              "かいしゃ",
+              "うち"
             ],
-            "correctIndex": 2,
+            "correctIndex": 0,
             "explanation": "レストランで しょくじを します."
           }
         ]
@@ -1859,6 +2615,42 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_6_10_5_m1_q0",
+            "question": "【新しい】 くるまです。",
+            "options": [
+              "あらたしい",
+              "あだらしい",
+              "あたらし",
+              "あたらしい"
+            ],
+            "correctIndex": 3,
+            "explanation": "新しい đọc là あたらしい (mới)."
+          },
+          {
+            "id": "m_review_6_10_5_m1_q1",
+            "question": "【えいご】を べんきょうします。",
+            "options": [
+              "英悟",
+              "英語",
+              "英吾",
+              "英話"
+            ],
+            "correctIndex": 1,
+            "explanation": "英語 là Tiếng Anh."
+          },
+          {
+            "id": "m_review_6_10_5_m1_q2",
+            "question": "【古い】 じてんしゃです。",
+            "options": [
+              "ひろい",
+              "ふろい",
+              "ふるい",
+              "ぶるい"
+            ],
+            "correctIndex": 2,
+            "explanation": "古い đọc là ふるい (cũ)."
+          },
+          {
+            "id": "m_review_6_10_5_m1_q3",
             "question": "【手紙】を かきます。",
             "options": [
               "でかみ",
@@ -1868,18 +2660,6 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             ],
             "correctIndex": 1,
             "explanation": "手紙 đọc là てがみ (Bức thư)."
-          },
-          {
-            "id": "m_review_6_10_5_m1_q1",
-            "question": "【えいご】を べんきょうします。",
-            "options": [
-              "英語",
-              "英悟",
-              "英吾",
-              "英話"
-            ],
-            "correctIndex": 0,
-            "explanation": "英語 là Tiếng Anh."
           }
         ]
       },
@@ -1889,27 +2669,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_6_10_5_m2_q0",
-            "question": "【パン】を たべます。",
+            "question": "【シャツ】を かいました。",
             "options": [
-              "パン",
-              "ホン",
-              "ハン",
-              "バン"
+              "シャツ",
+              "サツ",
+              "シヤツ",
+              "シヤッ"
             ],
             "correctIndex": 0,
-            "explanation": "Bread viết là パン."
+            "explanation": "Shirt viết là シャツ."
           },
           {
             "id": "m_review_6_10_5_m2_q1",
-            "question": "【シャツ】を かいました。",
+            "question": "【コーヒー】を のみます。",
             "options": [
-              "サツ",
-              "シャツ",
-              "シヤッ",
-              "シヤツ"
+              "コヒー",
+              "コーヒ",
+              "コヒ",
+              "コーヒー"
             ],
-            "correctIndex": 1,
-            "explanation": "Shirt viết là シャツ."
+            "correctIndex": 3,
+            "explanation": "Coffee viết là コーヒー."
+          },
+          {
+            "id": "m_review_6_10_5_m2_q2",
+            "question": "【プレゼント】を あげます。",
+            "options": [
+              "プレゼント",
+              "プレザント",
+              "プレセント",
+              "フレゼント"
+            ],
+            "correctIndex": 0,
+            "explanation": "Present (Quà) viết Katakana là プレゼント."
+          },
+          {
+            "id": "m_review_6_10_5_m2_q3",
+            "question": "【パン】を たべます。",
+            "options": [
+              "バン",
+              "ホン",
+              "パン",
+              "ハン"
+            ],
+            "correctIndex": 2,
+            "explanation": "Bread viết là パン."
           }
         ]
       },
@@ -1922,24 +2726,48 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "question": "はさみで かみを 【　　　】。",
             "options": [
               "かします",
-              "きります",
+              "もらいます",
               "かります",
-              "もらいます"
+              "きります"
             ],
-            "correctIndex": 1,
+            "correctIndex": 3,
             "explanation": "Cắt (きります) giấy."
           },
           {
             "id": "m_review_6_10_5_m3_q1",
+            "question": "この りんごは とても 【　　　】です。",
+            "options": [
+              "おいしい",
+              "つめたい",
+              "いそがしい",
+              "おもしろい"
+            ],
+            "correctIndex": 0,
+            "explanation": "Táo thì ngon (おいしい)."
+          },
+          {
+            "id": "m_review_6_10_5_m3_q2",
             "question": "せんせいから ほんを 【　　　】。",
             "options": [
-              "かしました",
               "もらいました",
-              "あげました",
-              "おしえました"
+              "おしえました",
+              "かしました",
+              "あげました"
+            ],
+            "correctIndex": 0,
+            "explanation": "Nhận từ giáo viên (もらいました)."
+          },
+          {
+            "id": "m_review_6_10_5_m3_q3",
+            "question": "日本の カメラは 【　　　】ですか。",
+            "options": [
+              "どの",
+              "どう",
+              "どんな",
+              "どれ"
             ],
             "correctIndex": 1,
-            "explanation": "Nhận từ giáo viên (もらいました)."
+            "explanation": "Thế nào? (どうですか)."
           }
         ]
       },
@@ -1949,39 +2777,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_6_10_5_b1_q0",
-            "question": "きのうの パーティーは （　　　）。",
+            "question": "この へやは （　　　）ありません。",
             "options": [
-              "たのしいです",
-              "たのしかった",
-              "たのしいでした",
-              "たのしかったです"
+              "しずか",
+              "しずかくて",
+              "しずかに",
+              "しずかじゃ"
             ],
             "correctIndex": 3,
-            "explanation": "Tính từ đuôi い ở quá khứ -> かったです."
+            "explanation": "Phủ định tính từ đuôi な -> じゃ ありません."
           },
           {
             "id": "m_review_6_10_5_b1_q1",
+            "question": "スプーン（　　　）ごはんを たべます。",
+            "options": [
+              "が",
+              "を",
+              "で",
+              "に"
+            ],
+            "correctIndex": 2,
+            "explanation": "Chỉ phương tiện/công cụ -> で."
+          },
+          {
+            "id": "m_review_6_10_5_b1_q2",
             "question": "わたしは 木村さん（　　　）はなを あげました。",
             "options": [
-              "を",
-              "に",
               "で",
+              "に",
+              "を",
               "へ"
             ],
             "correctIndex": 1,
             "explanation": "Cho ai cái gì -> に."
           },
           {
-            "id": "m_review_6_10_5_b1_q2",
-            "question": "スプーン（　　　）ごはんを たべます。",
+            "id": "m_review_6_10_5_b1_q3",
+            "question": "きのうの パーティーは （　　　）。",
             "options": [
-              "で",
-              "を",
-              "が",
-              "に"
+              "たのしかった",
+              "たのしかったです",
+              "たのしいです",
+              "たのしいでした"
             ],
-            "correctIndex": 0,
-            "explanation": "Chỉ phương tiện/công cụ -> で."
+            "correctIndex": 1,
+            "explanation": "Tính từ đuôi い ở quá khứ -> かったです."
           }
         ]
       },
@@ -1991,27 +2831,27 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_6_10_5_b2_q0",
-            "question": "とうきょうは　___ ___ _★_ ___　まちです。",
-            "options": [
-              "とても",
-              "きれいで",
-              "にぎやかな",
-              "て"
-            ],
-            "correctIndex": 0,
-            "explanation": "とうきょうは とても きれいで にぎやかな まち です."
-          },
-          {
-            "id": "m_review_6_10_5_b2_q1",
             "question": "わたしは　___ ___ _★_ ___　もらいました。",
             "options": [
-              "とけい",
               "に",
+              "ともだち",
               "を",
-              "ともだち"
+              "とけい"
             ],
             "correctIndex": 2,
             "explanation": "わたしは ともだち に とけい を もらいました."
+          },
+          {
+            "id": "m_review_6_10_5_b2_q1",
+            "question": "とうきょうは　___ ___ _★_ ___　まちです。",
+            "options": [
+              "にぎやかな",
+              "とても",
+              "て",
+              "きれいで"
+            ],
+            "correctIndex": 1,
+            "explanation": "とうきょうは とても きれいで にぎやかな まち です."
           }
         ]
       },
@@ -2030,21 +2870,21 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "question": "なにを もらいましたか。",
             "options": [
               "くろい シャツと くろい ぼうし",
-              "くろい シャツと しろい ぼうし",
               "しろい シャツと くろい ぼうし",
+              "くろい シャツと しろい ぼうし",
               "しろい シャツと しろい ぼうし"
             ],
-            "correctIndex": 2,
+            "correctIndex": 1,
             "explanation": "シャツは しろいです。ぼうしは くろいです."
           },
           {
             "id": "m_review_6_10_5_d1_q1",
             "question": "よる どこで ごはんを たべますか。",
             "options": [
-              "がっこう",
-              "レストラン",
               "うち",
-              "かいしゃ"
+              "レストラン",
+              "かいしゃ",
+              "がっこう"
             ],
             "correctIndex": 1,
             "explanation": "レストランで しょくじを します."
@@ -2068,22 +2908,46 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "options": [
               "いっか",
               "いつか",
-              "いちにち",
-              "ついたち"
+              "ついたち",
+              "いちにち"
             ],
-            "correctIndex": 2,
+            "correctIndex": 3,
             "explanation": "一日 trong khoảng thời gian đọc là いちにち."
           },
           {
             "id": "m_review_11_15_1_m1_q1",
+            "question": "【切手】を かいました。",
+            "options": [
+              "きって",
+              "きっぷ",
+              "きくて",
+              "きっぶ"
+            ],
+            "correctIndex": 0,
+            "explanation": "切手 đọc là きって (Tem)."
+          },
+          {
+            "id": "m_review_11_15_1_m1_q2",
+            "question": "【外国】へ いきました。",
+            "options": [
+              "がいこく",
+              "がいごく",
+              "かいごく",
+              "かいこく"
+            ],
+            "correctIndex": 0,
+            "explanation": "外国 đọc là がいこく (Nước ngoài)."
+          },
+          {
+            "id": "m_review_11_15_1_m1_q3",
             "question": "ここは 【有名】な まちです。",
             "options": [
-              "ゆうめ",
-              "ゆめ",
               "ゆめい",
-              "ゆうめい"
+              "ゆうめい",
+              "ゆうめ",
+              "ゆめ"
             ],
-            "correctIndex": 3,
+            "correctIndex": 1,
             "explanation": "有名 đọc là ゆうめい (Nổi tiếng)."
           }
         ]
@@ -2094,6 +2958,42 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_11_15_1_m2_q0",
+            "question": "【デパート】へ いきます。",
+            "options": [
+              "テパート",
+              "テバート",
+              "デパート",
+              "デバート"
+            ],
+            "correctIndex": 2,
+            "explanation": "Department store viết là デパート."
+          },
+          {
+            "id": "m_review_11_15_1_m2_q1",
+            "question": "あたらし 【くるま】が ほしいです。",
+            "options": [
+              "庫",
+              "連",
+              "車",
+              "軍"
+            ],
+            "correctIndex": 2,
+            "explanation": "Xe ô tô viết là 車."
+          },
+          {
+            "id": "m_review_11_15_1_m2_q2",
+            "question": "【スーパー】で くだものを かいます。",
+            "options": [
+              "スーバー",
+              "スーパー",
+              "ズーパー",
+              "ズーバー"
+            ],
+            "correctIndex": 1,
+            "explanation": "Supermarket viết là スーパー."
+          },
+          {
+            "id": "m_review_11_15_1_m2_q3",
             "question": "【カメラ】を かいたいです。",
             "options": [
               "カメラ",
@@ -2103,18 +3003,6 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             ],
             "correctIndex": 0,
             "explanation": "Camera viết là カメラ."
-          },
-          {
-            "id": "m_review_11_15_1_m2_q1",
-            "question": "あたらし 【くるま】が ほしいです。",
-            "options": [
-              "連",
-              "軍",
-              "庫",
-              "車"
-            ],
-            "correctIndex": 3,
-            "explanation": "Xe ô tô viết là 車."
           }
         ]
       },
@@ -2124,26 +3012,50 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_11_15_1_m3_q0",
-            "question": "いま のどが 【　　　】。",
+            "question": "【　　　】から きましたか。",
             "options": [
-              "すきました",
-              "いたいです",
-              "かわきました",
-              "わるいです"
+              "いつ",
+              "どこ",
+              "なん",
+              "だれ"
             ],
-            "correctIndex": 2,
-            "explanation": "Khát nước: のどが かわきました."
+            "correctIndex": 1,
+            "explanation": "Từ đâu đến? (どこ)."
           },
           {
             "id": "m_review_11_15_1_m3_q1",
-            "question": "りんごを みっつ 【　　　】。",
+            "question": "えきまで 【　　　】で いきます。",
             "options": [
-              "で",
-              "に",
-              "を",
-              "ください"
+              "しんかんせん",
+              "ふね",
+              "じてんしゃ",
+              "ひこうき"
+            ],
+            "correctIndex": 2,
+            "explanation": "Đi đến nhà ga bằng xe đạp (じてんしゃ)."
+          },
+          {
+            "id": "m_review_11_15_1_m3_q2",
+            "question": "いま のどが 【　　　】。",
+            "options": [
+              "わるいです",
+              "いたいです",
+              "すきました",
+              "かわきました"
             ],
             "correctIndex": 3,
+            "explanation": "Khát nước: のどが かわきました."
+          },
+          {
+            "id": "m_review_11_15_1_m3_q3",
+            "question": "りんごを みっつ 【　　　】。",
+            "options": [
+              "を",
+              "で",
+              "ください",
+              "に"
+            ],
+            "correctIndex": 2,
             "explanation": "Cho tôi 3 quả táo: りんごを みっつ ください."
           }
         ]
@@ -2156,36 +3068,48 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_11_15_1_b1_q0",
             "question": "ここで しゃしんを （　　　）は いけません。",
             "options": [
-              "とらない",
-              "とって",
               "とり",
-              "とる"
+              "とって",
+              "とる",
+              "とらない"
             ],
             "correctIndex": 1,
             "explanation": "Cấm đoán: Vて はいけません -> とって."
           },
           {
             "id": "m_review_11_15_1_b1_q1",
-            "question": "きょうは （　　　） たのしかったです。",
+            "question": "わたしは にほんご（　　　） わかります。",
             "options": [
-              "とても",
-              "すこし",
-              "あまり",
-              "ぜんぜん"
+              "で",
+              "を",
+              "が",
+              "に"
             ],
-            "correctIndex": 0,
-            "explanation": "Khẳng định -> とても (Rất)."
+            "correctIndex": 2,
+            "explanation": "Hiểu cái gì dùng trợ từ が."
           },
           {
             "id": "m_review_11_15_1_b1_q2",
-            "question": "A「ちょっと （　　　）ましょうか。」",
+            "question": "きょうは （　　　） たのしかったです。",
             "options": [
-              "やすまない",
-              "やすむ",
-              "やすみ",
-              "やすんで"
+              "すこし",
+              "あまり",
+              "とても",
+              "ぜんぜん"
             ],
             "correctIndex": 2,
+            "explanation": "Khẳng định -> とても (Rất)."
+          },
+          {
+            "id": "m_review_11_15_1_b1_q3",
+            "question": "A「ちょっと （　　　）ましょうか。」",
+            "options": [
+              "やすむ",
+              "やすみ",
+              "やすんで",
+              "やすまない"
+            ],
+            "correctIndex": 1,
             "explanation": "Rủ rê -> Động từ bỏ ます + ましょうか -> やすみ."
           }
         ]
@@ -2196,27 +3120,27 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_11_15_1_b2_q0",
-            "question": "わたしは　___ ___ _★_ ___　いきます。",
+            "question": "この　___ ___ _★_ ___　いいですか。",
             "options": [
-              "えいが",
-              "みに",
               "を",
-              "に"
+              "は",
+              "つかっても",
+              "ペン"
             ],
-            "correctIndex": 1,
-            "explanation": "わたしは えいが を みに いきます."
+            "correctIndex": 2,
+            "explanation": "この ペン は つかっても いいですか."
           },
           {
             "id": "m_review_11_15_1_b2_q1",
-            "question": "この　___ ___ _★_ ___　いいですか。",
+            "question": "わたしは　___ ___ _★_ ___　いきます。",
             "options": [
-              "つかっても",
-              "ペン",
-              "は",
+              "みに",
+              "えいが",
+              "に",
               "を"
             ],
             "correctIndex": 0,
-            "explanation": "この ペン は つかっても いいですか."
+            "explanation": "わたしは えいが を みに いきます."
           }
         ]
       },
@@ -2235,9 +3159,9 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "question": "（　１　）に入れるものはどれですか。",
             "options": [
               "に",
-              "へ",
+              "を",
               "で",
-              "を"
+              "へ"
             ],
             "correctIndex": 0,
             "explanation": "Sống ở đâu dùng trợ từ に."
@@ -2246,9 +3170,9 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_11_15_1_d1_q1",
             "question": "（　２　）に入れるものはどれですか。",
             "options": [
-              "いきたい",
-              "いき",
               "いって",
+              "いき",
+              "いきたい",
               "いく"
             ],
             "correctIndex": 1,
@@ -2269,27 +3193,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_11_15_2_m1_q0",
-            "question": "【外国】へ いきました。",
-            "options": [
-              "がいこく",
-              "かいごく",
-              "がいごく",
-              "かいこく"
-            ],
-            "correctIndex": 0,
-            "explanation": "外国 đọc là がいこく (Nước ngoài)."
-          },
-          {
-            "id": "m_review_11_15_2_m1_q1",
             "question": "ここは 【有名】な まちです。",
             "options": [
               "ゆめい",
-              "ゆうめい",
               "ゆうめ",
+              "ゆうめい",
               "ゆめ"
             ],
-            "correctIndex": 1,
+            "correctIndex": 2,
             "explanation": "有名 đọc là ゆうめい (Nổi tiếng)."
+          },
+          {
+            "id": "m_review_11_15_2_m1_q1",
+            "question": "【外国】へ いきました。",
+            "options": [
+              "かいこく",
+              "かいごく",
+              "がいごく",
+              "がいこく"
+            ],
+            "correctIndex": 3,
+            "explanation": "外国 đọc là がいこく (Nước ngoài)."
+          },
+          {
+            "id": "m_review_11_15_2_m1_q2",
+            "question": "【切手】を かいました。",
+            "options": [
+              "きっぶ",
+              "きくて",
+              "きっぷ",
+              "きって"
+            ],
+            "correctIndex": 3,
+            "explanation": "切手 đọc là きって (Tem)."
+          },
+          {
+            "id": "m_review_11_15_2_m1_q3",
+            "question": "【一日】に ３かい くすりを のみます。",
+            "options": [
+              "いちにち",
+              "ついたち",
+              "いつか",
+              "いっか"
+            ],
+            "correctIndex": 0,
+            "explanation": "一日 trong khoảng thời gian đọc là いちにち."
           }
         ]
       },
@@ -2299,26 +3247,50 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_11_15_2_m2_q0",
+            "question": "【スーパー】で くだものを かいます。",
+            "options": [
+              "ズーパー",
+              "スーパー",
+              "スーバー",
+              "ズーバー"
+            ],
+            "correctIndex": 1,
+            "explanation": "Supermarket viết là スーパー."
+          },
+          {
+            "id": "m_review_11_15_2_m2_q1",
             "question": "あたらし 【くるま】が ほしいです。",
             "options": [
-              "連",
+              "軍",
               "車",
-              "庫",
-              "軍"
+              "連",
+              "庫"
             ],
             "correctIndex": 1,
             "explanation": "Xe ô tô viết là 車."
           },
           {
-            "id": "m_review_11_15_2_m2_q1",
-            "question": "【カメラ】を かいたいです。",
+            "id": "m_review_11_15_2_m2_q2",
+            "question": "【デパート】へ いきます。",
             "options": [
-              "ガメラ",
-              "カメラ",
-              "カメテ",
-              "カヌラ"
+              "テバート",
+              "デパート",
+              "テパート",
+              "デバート"
             ],
             "correctIndex": 1,
+            "explanation": "Department store viết là デパート."
+          },
+          {
+            "id": "m_review_11_15_2_m2_q3",
+            "question": "【カメラ】を かいたいです。",
+            "options": [
+              "カメラ",
+              "カメテ",
+              "ガメラ",
+              "カヌラ"
+            ],
+            "correctIndex": 0,
             "explanation": "Camera viết là カメラ."
           }
         ]
@@ -2329,27 +3301,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_11_15_2_m3_q0",
-            "question": "りんごを みっつ 【　　　】。",
+            "question": "【　　　】から きましたか。",
             "options": [
-              "で",
-              "を",
-              "ください",
-              "に"
+              "どこ",
+              "いつ",
+              "なん",
+              "だれ"
             ],
-            "correctIndex": 2,
-            "explanation": "Cho tôi 3 quả táo: りんごを みっつ ください."
+            "correctIndex": 0,
+            "explanation": "Từ đâu đến? (どこ)."
           },
           {
             "id": "m_review_11_15_2_m3_q1",
+            "question": "りんごを みっつ 【　　　】。",
+            "options": [
+              "に",
+              "で",
+              "を",
+              "ください"
+            ],
+            "correctIndex": 3,
+            "explanation": "Cho tôi 3 quả táo: りんごを みっつ ください."
+          },
+          {
+            "id": "m_review_11_15_2_m3_q2",
             "question": "いま のどが 【　　　】。",
             "options": [
-              "すきました",
               "いたいです",
-              "かわきました",
-              "わるいです"
+              "すきました",
+              "わるいです",
+              "かわきました"
+            ],
+            "correctIndex": 3,
+            "explanation": "Khát nước: のどが かわきました."
+          },
+          {
+            "id": "m_review_11_15_2_m3_q3",
+            "question": "えきまで 【　　　】で いきます。",
+            "options": [
+              "ひこうき",
+              "しんかんせん",
+              "じてんしゃ",
+              "ふね"
             ],
             "correctIndex": 2,
-            "explanation": "Khát nước: のどが かわきました."
+            "explanation": "Đi đến nhà ga bằng xe đạp (じてんしゃ)."
           }
         ]
       },
@@ -2361,21 +3357,21 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_11_15_2_b1_q0",
             "question": "きょうは （　　　） たのしかったです。",
             "options": [
-              "ぜんぜん",
               "とても",
+              "ぜんぜん",
               "あまり",
               "すこし"
             ],
-            "correctIndex": 1,
+            "correctIndex": 0,
             "explanation": "Khẳng định -> とても (Rất)."
           },
           {
             "id": "m_review_11_15_2_b1_q1",
             "question": "A「ちょっと （　　　）ましょうか。」",
             "options": [
-              "やすまない",
-              "やすみ",
               "やすんで",
+              "やすみ",
+              "やすまない",
               "やすむ"
             ],
             "correctIndex": 1,
@@ -2383,14 +3379,26 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
           },
           {
             "id": "m_review_11_15_2_b1_q2",
+            "question": "わたしは にほんご（　　　） わかります。",
+            "options": [
+              "に",
+              "が",
+              "で",
+              "を"
+            ],
+            "correctIndex": 1,
+            "explanation": "Hiểu cái gì dùng trợ từ が."
+          },
+          {
+            "id": "m_review_11_15_2_b1_q3",
             "question": "ここで しゃしんを （　　　）は いけません。",
             "options": [
               "とらない",
+              "とって",
               "とる",
-              "とり",
-              "とって"
+              "とり"
             ],
-            "correctIndex": 3,
+            "correctIndex": 1,
             "explanation": "Cấm đoán: Vて はいけません -> とって."
           }
         ]
@@ -2403,24 +3411,24 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_11_15_2_b2_q0",
             "question": "わたしは　___ ___ _★_ ___　いきます。",
             "options": [
-              "を",
-              "みに",
               "に",
-              "えいが"
+              "を",
+              "えいが",
+              "みに"
             ],
-            "correctIndex": 1,
+            "correctIndex": 3,
             "explanation": "わたしは えいが を みに いきます."
           },
           {
             "id": "m_review_11_15_2_b2_q1",
             "question": "この　___ ___ _★_ ___　いいですか。",
             "options": [
+              "つかっても",
               "は",
               "ペン",
-              "を",
-              "つかっても"
+              "を"
             ],
-            "correctIndex": 3,
+            "correctIndex": 0,
             "explanation": "この ペン は つかっても いいですか."
           }
         ]
@@ -2440,9 +3448,9 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "question": "（　１　）に入れるものはどれですか。",
             "options": [
               "へ",
-              "を",
+              "で",
               "に",
-              "で"
+              "を"
             ],
             "correctIndex": 2,
             "explanation": "Sống ở đâu dùng trợ từ に."
@@ -2451,12 +3459,12 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_11_15_2_d1_q1",
             "question": "（　２　）に入れるものはどれですか。",
             "options": [
+              "いきたい",
               "いき",
               "いって",
-              "いきたい",
               "いく"
             ],
-            "correctIndex": 0,
+            "correctIndex": 1,
             "explanation": "Vます bỏ ます + たい -> いき."
           }
         ]
@@ -2474,27 +3482,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_11_15_3_m1_q0",
-            "question": "【外国】へ いきました。",
-            "options": [
-              "がいごく",
-              "かいこく",
-              "かいごく",
-              "がいこく"
-            ],
-            "correctIndex": 3,
-            "explanation": "外国 đọc là がいこく (Nước ngoài)."
-          },
-          {
-            "id": "m_review_11_15_3_m1_q1",
             "question": "ここは 【有名】な まちです。",
             "options": [
-              "ゆめい",
+              "ゆうめ",
               "ゆうめい",
-              "ゆめ",
-              "ゆうめ"
+              "ゆめい",
+              "ゆめ"
             ],
             "correctIndex": 1,
             "explanation": "有名 đọc là ゆうめい (Nổi tiếng)."
+          },
+          {
+            "id": "m_review_11_15_3_m1_q1",
+            "question": "【外国】へ いきました。",
+            "options": [
+              "かいごく",
+              "がいこく",
+              "かいこく",
+              "がいごく"
+            ],
+            "correctIndex": 1,
+            "explanation": "外国 đọc là がいこく (Nước ngoài)."
+          },
+          {
+            "id": "m_review_11_15_3_m1_q2",
+            "question": "【一日】に ３かい くすりを のみます。",
+            "options": [
+              "ついたち",
+              "いつか",
+              "いちにち",
+              "いっか"
+            ],
+            "correctIndex": 2,
+            "explanation": "一日 trong khoảng thời gian đọc là いちにち."
+          },
+          {
+            "id": "m_review_11_15_3_m1_q3",
+            "question": "【切手】を かいました。",
+            "options": [
+              "きくて",
+              "きって",
+              "きっぷ",
+              "きっぶ"
+            ],
+            "correctIndex": 1,
+            "explanation": "切手 đọc là きって (Tem)."
           }
         ]
       },
@@ -2504,27 +3536,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_11_15_3_m2_q0",
-            "question": "あたらし 【くるま】が ほしいです。",
+            "question": "【カメラ】を かいたいです。",
             "options": [
-              "軍",
-              "車",
-              "連",
-              "庫"
+              "カメラ",
+              "カメテ",
+              "ガメラ",
+              "カヌラ"
             ],
-            "correctIndex": 1,
-            "explanation": "Xe ô tô viết là 車."
+            "correctIndex": 0,
+            "explanation": "Camera viết là カメラ."
           },
           {
             "id": "m_review_11_15_3_m2_q1",
-            "question": "【カメラ】を かいたいです。",
+            "question": "あたらし 【くるま】が ほしいです。",
             "options": [
-              "カヌラ",
-              "ガメラ",
-              "カメテ",
-              "カメラ"
+              "軍",
+              "連",
+              "庫",
+              "車"
             ],
             "correctIndex": 3,
-            "explanation": "Camera viết là カメラ."
+            "explanation": "Xe ô tô viết là 車."
+          },
+          {
+            "id": "m_review_11_15_3_m2_q2",
+            "question": "【スーパー】で くだものを かいます。",
+            "options": [
+              "スーバー",
+              "スーパー",
+              "ズーパー",
+              "ズーバー"
+            ],
+            "correctIndex": 1,
+            "explanation": "Supermarket viết là スーパー."
+          },
+          {
+            "id": "m_review_11_15_3_m2_q3",
+            "question": "【デパート】へ いきます。",
+            "options": [
+              "デパート",
+              "テパート",
+              "デバート",
+              "テバート"
+            ],
+            "correctIndex": 0,
+            "explanation": "Department store viết là デパート."
           }
         ]
       },
@@ -2536,16 +3592,40 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_11_15_3_m3_q0",
             "question": "いま のどが 【　　　】。",
             "options": [
-              "かわきました",
               "いたいです",
-              "わるいです",
-              "すきました"
+              "すきました",
+              "かわきました",
+              "わるいです"
             ],
-            "correctIndex": 0,
+            "correctIndex": 2,
             "explanation": "Khát nước: のどが かわきました."
           },
           {
             "id": "m_review_11_15_3_m3_q1",
+            "question": "えきまで 【　　　】で いきます。",
+            "options": [
+              "ふね",
+              "ひこうき",
+              "じてんしゃ",
+              "しんかんせん"
+            ],
+            "correctIndex": 2,
+            "explanation": "Đi đến nhà ga bằng xe đạp (じてんしゃ)."
+          },
+          {
+            "id": "m_review_11_15_3_m3_q2",
+            "question": "【　　　】から きましたか。",
+            "options": [
+              "どこ",
+              "だれ",
+              "なん",
+              "いつ"
+            ],
+            "correctIndex": 0,
+            "explanation": "Từ đâu đến? (どこ)."
+          },
+          {
+            "id": "m_review_11_15_3_m3_q3",
             "question": "りんごを みっつ 【　　　】。",
             "options": [
               "で",
@@ -2564,39 +3644,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_11_15_3_b1_q0",
-            "question": "A「ちょっと （　　　）ましょうか。」",
+            "question": "わたしは にほんご（　　　） わかります。",
             "options": [
-              "やすんで",
-              "やすみ",
-              "やすまない",
-              "やすむ"
+              "が",
+              "を",
+              "で",
+              "に"
             ],
-            "correctIndex": 1,
-            "explanation": "Rủ rê -> Động từ bỏ ます + ましょうか -> やすみ."
+            "correctIndex": 0,
+            "explanation": "Hiểu cái gì dùng trợ từ が."
           },
           {
             "id": "m_review_11_15_3_b1_q1",
-            "question": "ここで しゃしんを （　　　）は いけません。",
+            "question": "きょうは （　　　） たのしかったです。",
             "options": [
-              "とる",
-              "とらない",
-              "とって",
-              "とり"
+              "とても",
+              "あまり",
+              "ぜんぜん",
+              "すこし"
             ],
-            "correctIndex": 2,
-            "explanation": "Cấm đoán: Vて はいけません -> とって."
+            "correctIndex": 0,
+            "explanation": "Khẳng định -> とても (Rất)."
           },
           {
             "id": "m_review_11_15_3_b1_q2",
-            "question": "きょうは （　　　） たのしかったです。",
+            "question": "ここで しゃしんを （　　　）は いけません。",
             "options": [
-              "あまり",
-              "すこし",
-              "とても",
-              "ぜんぜん"
+              "とる",
+              "とって",
+              "とり",
+              "とらない"
             ],
-            "correctIndex": 2,
-            "explanation": "Khẳng định -> とても (Rất)."
+            "correctIndex": 1,
+            "explanation": "Cấm đoán: Vて はいけません -> とって."
+          },
+          {
+            "id": "m_review_11_15_3_b1_q3",
+            "question": "A「ちょっと （　　　）ましょうか。」",
+            "options": [
+              "やすみ",
+              "やすまない",
+              "やすんで",
+              "やすむ"
+            ],
+            "correctIndex": 0,
+            "explanation": "Rủ rê -> Động từ bỏ ます + ましょうか -> やすみ."
           }
         ]
       },
@@ -2608,24 +3700,24 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_11_15_3_b2_q0",
             "question": "この　___ ___ _★_ ___　いいですか。",
             "options": [
+              "つかっても",
               "ペン",
               "は",
-              "を",
-              "つかっても"
+              "を"
             ],
-            "correctIndex": 3,
+            "correctIndex": 0,
             "explanation": "この ペン は つかっても いいですか."
           },
           {
             "id": "m_review_11_15_3_b2_q1",
             "question": "わたしは　___ ___ _★_ ___　いきます。",
             "options": [
-              "えいが",
-              "を",
               "に",
-              "みに"
+              "を",
+              "みに",
+              "えいが"
             ],
-            "correctIndex": 3,
+            "correctIndex": 2,
             "explanation": "わたしは えいが を みに いきます."
           }
         ]
@@ -2644,24 +3736,24 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_11_15_3_d1_q0",
             "question": "（　１　）に入れるものはどれですか。",
             "options": [
+              "へ",
               "に",
-              "で",
               "を",
-              "へ"
+              "で"
             ],
-            "correctIndex": 0,
+            "correctIndex": 1,
             "explanation": "Sống ở đâu dùng trợ từ に."
           },
           {
             "id": "m_review_11_15_3_d1_q1",
             "question": "（　２　）に入れるものはどれですか。",
             "options": [
+              "いく",
               "いって",
               "いきたい",
-              "いき",
-              "いく"
+              "いき"
             ],
-            "correctIndex": 2,
+            "correctIndex": 3,
             "explanation": "Vます bỏ ます + たい -> いき."
           }
         ]
@@ -2679,27 +3771,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_11_15_4_m1_q0",
-            "question": "【一日】に ３かい くすりを のみます。",
+            "question": "【外国】へ いきました。",
             "options": [
-              "ついたち",
-              "いっか",
-              "いつか",
-              "いちにち"
+              "がいこく",
+              "がいごく",
+              "かいごく",
+              "かいこく"
             ],
-            "correctIndex": 3,
-            "explanation": "一日 trong khoảng thời gian đọc là いちにち."
+            "correctIndex": 0,
+            "explanation": "外国 đọc là がいこく (Nước ngoài)."
           },
           {
             "id": "m_review_11_15_4_m1_q1",
-            "question": "【外国】へ いきました。",
+            "question": "ここは 【有名】な まちです。",
             "options": [
-              "がいごく",
-              "かいごく",
-              "かいこく",
-              "がいこく"
+              "ゆめい",
+              "ゆうめい",
+              "ゆめ",
+              "ゆうめ"
             ],
-            "correctIndex": 3,
-            "explanation": "外国 đọc là がいこく (Nước ngoài)."
+            "correctIndex": 1,
+            "explanation": "有名 đọc là ゆうめい (Nổi tiếng)."
+          },
+          {
+            "id": "m_review_11_15_4_m1_q2",
+            "question": "【切手】を かいました。",
+            "options": [
+              "きっぶ",
+              "きって",
+              "きっぷ",
+              "きくて"
+            ],
+            "correctIndex": 1,
+            "explanation": "切手 đọc là きって (Tem)."
+          },
+          {
+            "id": "m_review_11_15_4_m1_q3",
+            "question": "【一日】に ３かい くすりを のみます。",
+            "options": [
+              "いつか",
+              "ついたち",
+              "いちにち",
+              "いっか"
+            ],
+            "correctIndex": 2,
+            "explanation": "一日 trong khoảng thời gian đọc là いちにち."
           }
         ]
       },
@@ -2709,23 +3825,47 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_11_15_4_m2_q0",
-            "question": "あたらし 【くるま】が ほしいです。",
+            "question": "【スーパー】で くだものを かいます。",
             "options": [
-              "庫",
-              "軍",
-              "車",
-              "連"
+              "スーパー",
+              "ズーパー",
+              "スーバー",
+              "ズーバー"
             ],
-            "correctIndex": 2,
-            "explanation": "Xe ô tô viết là 車."
+            "correctIndex": 0,
+            "explanation": "Supermarket viết là スーパー."
           },
           {
             "id": "m_review_11_15_4_m2_q1",
+            "question": "【デパート】へ いきます。",
+            "options": [
+              "テパート",
+              "デバート",
+              "テバート",
+              "デパート"
+            ],
+            "correctIndex": 3,
+            "explanation": "Department store viết là デパート."
+          },
+          {
+            "id": "m_review_11_15_4_m2_q2",
+            "question": "あたらし 【くるま】が ほしいです。",
+            "options": [
+              "軍",
+              "庫",
+              "連",
+              "車"
+            ],
+            "correctIndex": 3,
+            "explanation": "Xe ô tô viết là 車."
+          },
+          {
+            "id": "m_review_11_15_4_m2_q3",
             "question": "【カメラ】を かいたいです。",
             "options": [
+              "ガメラ",
               "カメテ",
               "カヌラ",
-              "ガメラ",
               "カメラ"
             ],
             "correctIndex": 3,
@@ -2739,27 +3879,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_11_15_4_m3_q0",
-            "question": "りんごを みっつ 【　　　】。",
+            "question": "【　　　】から きましたか。",
             "options": [
-              "を",
-              "ください",
-              "に",
-              "で"
+              "どこ",
+              "いつ",
+              "だれ",
+              "なん"
             ],
-            "correctIndex": 1,
-            "explanation": "Cho tôi 3 quả táo: りんごを みっつ ください."
+            "correctIndex": 0,
+            "explanation": "Từ đâu đến? (どこ)."
           },
           {
             "id": "m_review_11_15_4_m3_q1",
+            "question": "りんごを みっつ 【　　　】。",
+            "options": [
+              "ください",
+              "に",
+              "で",
+              "を"
+            ],
+            "correctIndex": 0,
+            "explanation": "Cho tôi 3 quả táo: りんごを みっつ ください."
+          },
+          {
+            "id": "m_review_11_15_4_m3_q2",
             "question": "いま のどが 【　　　】。",
             "options": [
-              "わるいです",
-              "かわきました",
               "いたいです",
-              "すきました"
+              "すきました",
+              "わるいです",
+              "かわきました"
             ],
-            "correctIndex": 1,
+            "correctIndex": 3,
             "explanation": "Khát nước: のどが かわきました."
+          },
+          {
+            "id": "m_review_11_15_4_m3_q3",
+            "question": "えきまで 【　　　】で いきます。",
+            "options": [
+              "しんかんせん",
+              "ふね",
+              "じてんしゃ",
+              "ひこうき"
+            ],
+            "correctIndex": 2,
+            "explanation": "Đi đến nhà ga bằng xe đạp (じてんしゃ)."
           }
         ]
       },
@@ -2769,39 +3933,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_11_15_4_b1_q0",
-            "question": "きょうは （　　　） たのしかったです。",
+            "question": "わたしは にほんご（　　　） わかります。",
             "options": [
-              "ぜんぜん",
-              "すこし",
-              "とても",
-              "あまり"
+              "で",
+              "が",
+              "に",
+              "を"
             ],
-            "correctIndex": 2,
-            "explanation": "Khẳng định -> とても (Rất)."
+            "correctIndex": 1,
+            "explanation": "Hiểu cái gì dùng trợ từ が."
           },
           {
             "id": "m_review_11_15_4_b1_q1",
-            "question": "A「ちょっと （　　　）ましょうか。」",
+            "question": "きょうは （　　　） たのしかったです。",
             "options": [
-              "やすみ",
-              "やすまない",
-              "やすむ",
-              "やすんで"
+              "とても",
+              "ぜんぜん",
+              "すこし",
+              "あまり"
             ],
             "correctIndex": 0,
-            "explanation": "Rủ rê -> Động từ bỏ ます + ましょうか -> やすみ."
+            "explanation": "Khẳng định -> とても (Rất)."
           },
           {
             "id": "m_review_11_15_4_b1_q2",
             "question": "ここで しゃしんを （　　　）は いけません。",
             "options": [
-              "とって",
-              "とらない",
               "とり",
-              "とる"
+              "とる",
+              "とって",
+              "とらない"
             ],
-            "correctIndex": 0,
+            "correctIndex": 2,
             "explanation": "Cấm đoán: Vて はいけません -> とって."
+          },
+          {
+            "id": "m_review_11_15_4_b1_q3",
+            "question": "A「ちょっと （　　　）ましょうか。」",
+            "options": [
+              "やすむ",
+              "やすみ",
+              "やすんで",
+              "やすまない"
+            ],
+            "correctIndex": 1,
+            "explanation": "Rủ rê -> Động từ bỏ ます + ましょうか -> やすみ."
           }
         ]
       },
@@ -2811,27 +3987,27 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_11_15_4_b2_q0",
-            "question": "この　___ ___ _★_ ___　いいですか。",
+            "question": "わたしは　___ ___ _★_ ___　いきます。",
             "options": [
-              "ペン",
-              "つかっても",
+              "に",
               "を",
-              "は"
+              "みに",
+              "えいが"
             ],
-            "correctIndex": 1,
-            "explanation": "この ペン は つかっても いいですか."
+            "correctIndex": 2,
+            "explanation": "わたしは えいが を みに いきます."
           },
           {
             "id": "m_review_11_15_4_b2_q1",
-            "question": "わたしは　___ ___ _★_ ___　いきます。",
+            "question": "この　___ ___ _★_ ___　いいですか。",
             "options": [
-              "みに",
-              "に",
-              "えいが",
+              "つかっても",
+              "ペン",
+              "は",
               "を"
             ],
             "correctIndex": 0,
-            "explanation": "わたしは えいが を みに いきます."
+            "explanation": "この ペン は つかっても いいですか."
           }
         ]
       },
@@ -2849,24 +4025,24 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_11_15_4_d1_q0",
             "question": "（　１　）に入れるものはどれですか。",
             "options": [
-              "で",
-              "に",
               "を",
-              "へ"
+              "へ",
+              "で",
+              "に"
             ],
-            "correctIndex": 1,
+            "correctIndex": 3,
             "explanation": "Sống ở đâu dùng trợ từ に."
           },
           {
             "id": "m_review_11_15_4_d1_q1",
             "question": "（　２　）に入れるものはどれですか。",
             "options": [
-              "いきたい",
-              "いく",
               "いき",
-              "いって"
+              "いって",
+              "いく",
+              "いきたい"
             ],
-            "correctIndex": 2,
+            "correctIndex": 0,
             "explanation": "Vます bỏ ます + たい -> いき."
           }
         ]
@@ -2884,27 +4060,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_11_15_5_m1_q0",
-            "question": "ここは 【有名】な まちです。",
+            "question": "【一日】に ３かい くすりを のみます。",
             "options": [
-              "ゆうめ",
-              "ゆめい",
-              "ゆめ",
-              "ゆうめい"
+              "いちにち",
+              "ついたち",
+              "いつか",
+              "いっか"
             ],
-            "correctIndex": 3,
-            "explanation": "有名 đọc là ゆうめい (Nổi tiếng)."
+            "correctIndex": 0,
+            "explanation": "一日 trong khoảng thời gian đọc là いちにち."
           },
           {
             "id": "m_review_11_15_5_m1_q1",
-            "question": "【一日】に ３かい くすりを のみます。",
+            "question": "【切手】を かいました。",
             "options": [
-              "いっか",
-              "いちにち",
-              "いつか",
-              "ついたち"
+              "きって",
+              "きっぶ",
+              "きくて",
+              "きっぷ"
             ],
-            "correctIndex": 1,
-            "explanation": "一日 trong khoảng thời gian đọc là いちにち."
+            "correctIndex": 0,
+            "explanation": "切手 đọc là きって (Tem)."
+          },
+          {
+            "id": "m_review_11_15_5_m1_q2",
+            "question": "ここは 【有名】な まちです。",
+            "options": [
+              "ゆうめい",
+              "ゆうめ",
+              "ゆめい",
+              "ゆめ"
+            ],
+            "correctIndex": 0,
+            "explanation": "有名 đọc là ゆうめい (Nổi tiếng)."
+          },
+          {
+            "id": "m_review_11_15_5_m1_q3",
+            "question": "【外国】へ いきました。",
+            "options": [
+              "がいこく",
+              "かいごく",
+              "かいこく",
+              "がいごく"
+            ],
+            "correctIndex": 0,
+            "explanation": "外国 đọc là がいこく (Nước ngoài)."
           }
         ]
       },
@@ -2914,27 +4114,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_11_15_5_m2_q0",
+            "question": "【カメラ】を かいたいです。",
+            "options": [
+              "カヌラ",
+              "カメラ",
+              "カメテ",
+              "ガメラ"
+            ],
+            "correctIndex": 1,
+            "explanation": "Camera viết là カメラ."
+          },
+          {
+            "id": "m_review_11_15_5_m2_q1",
             "question": "あたらし 【くるま】が ほしいです。",
             "options": [
-              "連",
-              "車",
               "軍",
-              "庫"
+              "車",
+              "庫",
+              "連"
             ],
             "correctIndex": 1,
             "explanation": "Xe ô tô viết là 車."
           },
           {
-            "id": "m_review_11_15_5_m2_q1",
-            "question": "【カメラ】を かいたいです。",
+            "id": "m_review_11_15_5_m2_q2",
+            "question": "【デパート】へ いきます。",
             "options": [
-              "カメラ",
-              "カヌラ",
-              "カメテ",
-              "ガメラ"
+              "テバート",
+              "テパート",
+              "デバート",
+              "デパート"
             ],
-            "correctIndex": 0,
-            "explanation": "Camera viết là カメラ."
+            "correctIndex": 3,
+            "explanation": "Department store viết là デパート."
+          },
+          {
+            "id": "m_review_11_15_5_m2_q3",
+            "question": "【スーパー】で くだものを かいます。",
+            "options": [
+              "ズーパー",
+              "スーパー",
+              "スーバー",
+              "ズーバー"
+            ],
+            "correctIndex": 1,
+            "explanation": "Supermarket viết là スーパー."
           }
         ]
       },
@@ -2944,27 +4168,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_11_15_5_m3_q0",
-            "question": "りんごを みっつ 【　　　】。",
+            "question": "【　　　】から きましたか。",
             "options": [
-              "に",
-              "ください",
-              "を",
-              "で"
+              "どこ",
+              "だれ",
+              "いつ",
+              "なん"
             ],
-            "correctIndex": 1,
-            "explanation": "Cho tôi 3 quả táo: りんごを みっつ ください."
+            "correctIndex": 0,
+            "explanation": "Từ đâu đến? (どこ)."
           },
           {
             "id": "m_review_11_15_5_m3_q1",
+            "question": "えきまで 【　　　】で いきます。",
+            "options": [
+              "しんかんせん",
+              "じてんしゃ",
+              "ひこうき",
+              "ふね"
+            ],
+            "correctIndex": 1,
+            "explanation": "Đi đến nhà ga bằng xe đạp (じてんしゃ)."
+          },
+          {
+            "id": "m_review_11_15_5_m3_q2",
             "question": "いま のどが 【　　　】。",
             "options": [
-              "いたいです",
               "わるいです",
+              "いたいです",
               "かわきました",
               "すきました"
             ],
             "correctIndex": 2,
             "explanation": "Khát nước: のどが かわきました."
+          },
+          {
+            "id": "m_review_11_15_5_m3_q3",
+            "question": "りんごを みっつ 【　　　】。",
+            "options": [
+              "に",
+              "ください",
+              "で",
+              "を"
+            ],
+            "correctIndex": 1,
+            "explanation": "Cho tôi 3 quả táo: りんごを みっつ ください."
           }
         ]
       },
@@ -2974,39 +4222,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_11_15_5_b1_q0",
-            "question": "ここで しゃしんを （　　　）は いけません。",
-            "options": [
-              "とって",
-              "とらない",
-              "とる",
-              "とり"
-            ],
-            "correctIndex": 0,
-            "explanation": "Cấm đoán: Vて はいけません -> とって."
-          },
-          {
-            "id": "m_review_11_15_5_b1_q1",
             "question": "きょうは （　　　） たのしかったです。",
             "options": [
               "とても",
               "すこし",
-              "あまり",
-              "ぜんぜん"
+              "ぜんぜん",
+              "あまり"
             ],
             "correctIndex": 0,
             "explanation": "Khẳng định -> とても (Rất)."
           },
           {
+            "id": "m_review_11_15_5_b1_q1",
+            "question": "わたしは にほんご（　　　） わかります。",
+            "options": [
+              "で",
+              "が",
+              "を",
+              "に"
+            ],
+            "correctIndex": 1,
+            "explanation": "Hiểu cái gì dùng trợ từ が."
+          },
+          {
             "id": "m_review_11_15_5_b1_q2",
             "question": "A「ちょっと （　　　）ましょうか。」",
             "options": [
-              "やすむ",
               "やすまない",
-              "やすんで",
-              "やすみ"
+              "やすみ",
+              "やすむ",
+              "やすんで"
             ],
-            "correctIndex": 3,
+            "correctIndex": 1,
             "explanation": "Rủ rê -> Động từ bỏ ます + ましょうか -> やすみ."
+          },
+          {
+            "id": "m_review_11_15_5_b1_q3",
+            "question": "ここで しゃしんを （　　　）は いけません。",
+            "options": [
+              "とって",
+              "とる",
+              "とり",
+              "とらない"
+            ],
+            "correctIndex": 0,
+            "explanation": "Cấm đoán: Vて はいけません -> とって."
           }
         ]
       },
@@ -3016,27 +4276,27 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_11_15_5_b2_q0",
-            "question": "わたしは　___ ___ _★_ ___　いきます。",
+            "question": "この　___ ___ _★_ ___　いいですか。",
             "options": [
-              "えいが",
+              "は",
               "を",
-              "みに",
-              "に"
+              "つかっても",
+              "ペン"
             ],
             "correctIndex": 2,
-            "explanation": "わたしは えいが を みに いきます."
+            "explanation": "この ペン は つかっても いいですか."
           },
           {
             "id": "m_review_11_15_5_b2_q1",
-            "question": "この　___ ___ _★_ ___　いいですか。",
+            "question": "わたしは　___ ___ _★_ ___　いきます。",
             "options": [
-              "つかっても",
+              "みに",
               "を",
-              "は",
-              "ペン"
+              "えいが",
+              "に"
             ],
             "correctIndex": 0,
-            "explanation": "この ペン は つかっても いいですか."
+            "explanation": "わたしは えいが を みに いきます."
           }
         ]
       },
@@ -3054,12 +4314,12 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_11_15_5_d1_q0",
             "question": "（　１　）に入れるものはどれですか。",
             "options": [
-              "で",
-              "へ",
               "に",
+              "へ",
+              "で",
               "を"
             ],
-            "correctIndex": 2,
+            "correctIndex": 0,
             "explanation": "Sống ở đâu dùng trợ từ に."
           },
           {
@@ -3067,8 +4327,8 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "question": "（　２　）に入れるものはどれですか。",
             "options": [
               "いく",
-              "いきたい",
               "いって",
+              "いきたい",
               "いき"
             ],
             "correctIndex": 3,
@@ -3091,25 +4351,49 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_16_20_1_m1_q0",
             "question": "えいがを 【見】ます。",
             "options": [
+              "し",
               "よ",
-              "み",
               "き",
-              "し"
+              "み"
             ],
-            "correctIndex": 1,
+            "correctIndex": 3,
             "explanation": "見 đọc là み."
           },
           {
             "id": "m_review_16_20_1_m1_q1",
-            "question": "あした 【雨】が ふります。",
+            "question": "【午前】 ６時に おきます。",
             "options": [
-              "ゆき",
-              "はれ",
-              "くも",
-              "あめ"
+              "ごご",
+              "こうぜん",
+              "ごせん",
+              "ごぜん"
             ],
             "correctIndex": 3,
+            "explanation": "午前 đọc là ごぜん (Buổi sáng)."
+          },
+          {
+            "id": "m_review_16_20_1_m1_q2",
+            "question": "あした 【雨】が ふります。",
+            "options": [
+              "くも",
+              "あめ",
+              "ゆき",
+              "はれ"
+            ],
+            "correctIndex": 1,
             "explanation": "雨 đọc là あめ (Mưa)."
+          },
+          {
+            "id": "m_review_16_20_1_m1_q3",
+            "question": "【午後】の じゅぎょうは ありません。",
+            "options": [
+              "ごご",
+              "ごこう",
+              "こうご",
+              "ごぜん"
+            ],
+            "correctIndex": 0,
+            "explanation": "午後 đọc là ごご (Buổi chiều)."
           }
         ]
       },
@@ -3119,27 +4403,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_16_20_1_m2_q0",
-            "question": "【しゃしん】を とります。",
+            "question": "【よる】ねます。",
             "options": [
-              "写真",
-              "字真",
-              "真写",
-              "真字"
+              "昼",
+              "夜",
+              "朝",
+              "夕"
             ],
-            "correctIndex": 0,
-            "explanation": "しゃしん viết là 写真."
+            "correctIndex": 1,
+            "explanation": "よる (Buổi tối) viết là 夜."
           },
           {
             "id": "m_review_16_20_1_m2_q1",
             "question": "【みぎ】へ まがります。",
             "options": [
-              "後",
               "右",
-              "左",
-              "前"
+              "前",
+              "後",
+              "左"
+            ],
+            "correctIndex": 0,
+            "explanation": "みぎ (Bên phải) viết là 右."
+          },
+          {
+            "id": "m_review_16_20_1_m2_q2",
+            "question": "【しゃしん】を とります。",
+            "options": [
+              "真字",
+              "写真",
+              "字真",
+              "真写"
             ],
             "correctIndex": 1,
-            "explanation": "みぎ (Bên phải) viết là 右."
+            "explanation": "しゃしん viết là 写真."
+          },
+          {
+            "id": "m_review_16_20_1_m2_q3",
+            "question": "【ひる】ごはんを たべます。",
+            "options": [
+              "朝",
+              "晩",
+              "昼",
+              "夜"
+            ],
+            "correctIndex": 2,
+            "explanation": "ひる (Buổi trưa) viết là 昼."
           }
         ]
       },
@@ -3149,27 +4457,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_16_20_1_m3_q0",
-            "question": "ここに くるまを 【　　　】。",
+            "question": "かぜを ひきましたから、くすりを 【　　　】。",
             "options": [
-              "とまらないで ください",
-              "とめて ください",
-              "とめないで ください",
-              "とまる ください"
+              "のみます",
+              "きます",
+              "たべます",
+              "します"
             ],
-            "correctIndex": 2,
-            "explanation": "Xin đừng đỗ xe ở đây: とめないで ください."
+            "correctIndex": 0,
+            "explanation": "Uống thuốc: くすりを のみます."
           },
           {
             "id": "m_review_16_20_1_m3_q1",
+            "question": "あしたは 【　　　】から、どこも いきません。",
+            "options": [
+              "くも",
+              "ゆき",
+              "はれ",
+              "あめ"
+            ],
+            "correctIndex": 3,
+            "explanation": "Trời mưa nên không đi đâu cả (あめ)."
+          },
+          {
+            "id": "m_review_16_20_1_m3_q2",
             "question": "パスポートを 【　　　】。",
             "options": [
-              "みせても いいです",
               "みせないで ください",
-              "みせなければ なりません",
-              "みせなくちゃ いいです"
+              "みせても いいです",
+              "みせなくちゃ いいです",
+              "みせなければ なりません"
             ],
-            "correctIndex": 2,
+            "correctIndex": 3,
             "explanation": "Phải cho xem hộ chiếu: みせなければ なりません."
+          },
+          {
+            "id": "m_review_16_20_1_m3_q3",
+            "question": "ここに くるまを 【　　　】。",
+            "options": [
+              "とめないで ください",
+              "とまらないで ください",
+              "とまる ください",
+              "とめて ください"
+            ],
+            "correctIndex": 0,
+            "explanation": "Xin đừng đỗ xe ở đây: とめないで ください."
           }
         ]
       },
@@ -3182,36 +4514,48 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "question": "わたしは ピアノを （　　　）が できます。",
             "options": [
               "ひく",
+              "ひいて",
               "ひき",
-              "ひくこと",
-              "ひいて"
+              "ひくこと"
             ],
-            "correctIndex": 2,
+            "correctIndex": 3,
             "explanation": "Vる こと が できます (Có thể làm gì)."
           },
           {
             "id": "m_review_16_20_1_b1_q1",
-            "question": "にほんへ （　　　） まえに、べんきょうしました。",
-            "options": [
-              "いく",
-              "いって",
-              "いかない",
-              "いった"
-            ],
-            "correctIndex": 0,
-            "explanation": "Vる まえに (Trước khi...)."
-          },
-          {
-            "id": "m_review_16_20_1_b1_q2",
             "question": "うまに （　　　）ことが ありますか。",
             "options": [
               "のって",
-              "のらない",
+              "のった",
               "のる",
-              "のった"
+              "のらない"
             ],
-            "correctIndex": 3,
+            "correctIndex": 1,
             "explanation": "Vた ことが あります (Đã từng...)."
+          },
+          {
+            "id": "m_review_16_20_1_b1_q2",
+            "question": "にほんへ （　　　） まえに、べんきょうしました。",
+            "options": [
+              "いって",
+              "いかない",
+              "いく",
+              "いった"
+            ],
+            "correctIndex": 2,
+            "explanation": "Vる まえに (Trước khi...)."
+          },
+          {
+            "id": "m_review_16_20_1_b1_q3",
+            "question": "この りんごは おいしい（　　　）、やすいです。",
+            "options": [
+              "て",
+              "が",
+              "し",
+              "から"
+            ],
+            "correctIndex": 2,
+            "explanation": "Vừa ngon lại vừa rẻ: おいしいし、やすいです."
           }
         ]
       },
@@ -3224,23 +4568,23 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "question": "わたしの　___ ___ _★_ ___　です。",
             "options": [
               "かくこと",
+              "えを",
               "しゅみ",
-              "は",
-              "えを"
+              "は"
             ],
-            "correctIndex": 3,
+            "correctIndex": 1,
             "explanation": "わたしの しゅみ は えを かくこと です."
           },
           {
             "id": "m_review_16_20_1_b2_q1",
             "question": "ここで　___ ___ _★_ ___　ください。",
             "options": [
-              "とらないで",
+              "しゃしん",
               "は",
               "を",
-              "しゃしん"
+              "とらないで"
             ],
-            "correctIndex": 0,
+            "correctIndex": 3,
             "explanation": "ここで しゃしん は/を とらないで ください."
           }
         ]
@@ -3259,9 +4603,9 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_16_20_1_d1_q0",
             "question": "（　１　）に入れるものはどれですか。",
             "options": [
-              "たべない",
-              "たべる",
               "たべた",
+              "たべる",
+              "たべない",
               "たべて"
             ],
             "correctIndex": 1,
@@ -3271,12 +4615,12 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_16_20_1_d1_q1",
             "question": "ジョギングの あとで、なにを しますか。",
             "options": [
-              "かいしゃへ いきます",
               "シャワーを あびます",
-              "おきます",
-              "あさごはんを たべます"
+              "かいしゃへ いきます",
+              "あさごはんを たべます",
+              "おきます"
             ],
-            "correctIndex": 1,
+            "correctIndex": 0,
             "explanation": "ジョギング xong thì シャワーを あびます."
           }
         ]
@@ -3296,8 +4640,8 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_16_20_2_m1_q0",
             "question": "あした 【雨】が ふります。",
             "options": [
-              "ゆき",
               "くも",
+              "ゆき",
               "はれ",
               "あめ"
             ],
@@ -3306,15 +4650,39 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
           },
           {
             "id": "m_review_16_20_2_m1_q1",
+            "question": "【午後】の じゅぎょうは ありません。",
+            "options": [
+              "こうご",
+              "ごこう",
+              "ごぜん",
+              "ごご"
+            ],
+            "correctIndex": 3,
+            "explanation": "午後 đọc là ごご (Buổi chiều)."
+          },
+          {
+            "id": "m_review_16_20_2_m1_q2",
             "question": "えいがを 【見】ます。",
             "options": [
               "み",
-              "よ",
               "し",
+              "よ",
               "き"
             ],
             "correctIndex": 0,
             "explanation": "見 đọc là み."
+          },
+          {
+            "id": "m_review_16_20_2_m1_q3",
+            "question": "【午前】 ６時に おきます。",
+            "options": [
+              "こうぜん",
+              "ごせん",
+              "ごぜん",
+              "ごご"
+            ],
+            "correctIndex": 2,
+            "explanation": "午前 đọc là ごぜん (Buổi sáng)."
           }
         ]
       },
@@ -3324,27 +4692,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_16_20_2_m2_q0",
-            "question": "【しゃしん】を とります。",
+            "question": "【みぎ】へ まがります。",
             "options": [
-              "写真",
-              "字真",
-              "真字",
-              "真写"
+              "前",
+              "右",
+              "後",
+              "左"
             ],
-            "correctIndex": 0,
-            "explanation": "しゃしん viết là 写真."
+            "correctIndex": 1,
+            "explanation": "みぎ (Bên phải) viết là 右."
           },
           {
             "id": "m_review_16_20_2_m2_q1",
-            "question": "【みぎ】へ まがります。",
+            "question": "【しゃしん】を とります。",
             "options": [
-              "左",
-              "後",
-              "前",
-              "右"
+              "字真",
+              "写真",
+              "真字",
+              "真写"
+            ],
+            "correctIndex": 1,
+            "explanation": "しゃしん viết là 写真."
+          },
+          {
+            "id": "m_review_16_20_2_m2_q2",
+            "question": "【ひる】ごはんを たべます。",
+            "options": [
+              "夜",
+              "朝",
+              "昼",
+              "晩"
+            ],
+            "correctIndex": 2,
+            "explanation": "ひる (Buổi trưa) viết là 昼."
+          },
+          {
+            "id": "m_review_16_20_2_m2_q3",
+            "question": "【よる】ねます。",
+            "options": [
+              "昼",
+              "朝",
+              "夕",
+              "夜"
             ],
             "correctIndex": 3,
-            "explanation": "みぎ (Bên phải) viết là 右."
+            "explanation": "よる (Buổi tối) viết là 夜."
           }
         ]
       },
@@ -3354,27 +4746,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_16_20_2_m3_q0",
-            "question": "パスポートを 【　　　】。",
-            "options": [
-              "みせても いいです",
-              "みせなければ なりません",
-              "みせなくちゃ いいです",
-              "みせないで ください"
-            ],
-            "correctIndex": 1,
-            "explanation": "Phải cho xem hộ chiếu: みせなければ なりません."
-          },
-          {
-            "id": "m_review_16_20_2_m3_q1",
             "question": "ここに くるまを 【　　　】。",
             "options": [
-              "とめて ください",
-              "とめないで ください",
               "とまらないで ください",
+              "とめないで ください",
+              "とめて ください",
               "とまる ください"
             ],
             "correctIndex": 1,
             "explanation": "Xin đừng đỗ xe ở đây: とめないで ください."
+          },
+          {
+            "id": "m_review_16_20_2_m3_q1",
+            "question": "あしたは 【　　　】から、どこも いきません。",
+            "options": [
+              "はれ",
+              "くも",
+              "ゆき",
+              "あめ"
+            ],
+            "correctIndex": 3,
+            "explanation": "Trời mưa nên không đi đâu cả (あめ)."
+          },
+          {
+            "id": "m_review_16_20_2_m3_q2",
+            "question": "かぜを ひきましたから、くすりを 【　　　】。",
+            "options": [
+              "します",
+              "のみます",
+              "たべます",
+              "きます"
+            ],
+            "correctIndex": 1,
+            "explanation": "Uống thuốc: くすりを のみます."
+          },
+          {
+            "id": "m_review_16_20_2_m3_q3",
+            "question": "パスポートを 【　　　】。",
+            "options": [
+              "みせても いいです",
+              "みせなくちゃ いいです",
+              "みせないで ください",
+              "みせなければ なりません"
+            ],
+            "correctIndex": 3,
+            "explanation": "Phải cho xem hộ chiếu: みせなければ なりません."
           }
         ]
       },
@@ -3386,37 +4802,49 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_16_20_2_b1_q0",
             "question": "うまに （　　　）ことが ありますか。",
             "options": [
-              "のった",
-              "のらない",
               "のって",
-              "のる"
+              "のらない",
+              "のる",
+              "のった"
             ],
-            "correctIndex": 0,
+            "correctIndex": 3,
             "explanation": "Vた ことが あります (Đã từng...)."
           },
           {
             "id": "m_review_16_20_2_b1_q1",
-            "question": "にほんへ （　　　） まえに、べんきょうしました。",
+            "question": "この りんごは おいしい（　　　）、やすいです。",
             "options": [
-              "いく",
-              "いった",
-              "いかない",
-              "いって"
+              "が",
+              "し",
+              "て",
+              "から"
             ],
-            "correctIndex": 0,
-            "explanation": "Vる まえに (Trước khi...)."
+            "correctIndex": 1,
+            "explanation": "Vừa ngon lại vừa rẻ: おいしいし、やすいです."
           },
           {
             "id": "m_review_16_20_2_b1_q2",
             "question": "わたしは ピアノを （　　　）が できます。",
             "options": [
-              "ひくこと",
               "ひく",
               "ひいて",
-              "ひき"
+              "ひき",
+              "ひくこと"
             ],
-            "correctIndex": 0,
+            "correctIndex": 3,
             "explanation": "Vる こと が できます (Có thể làm gì)."
+          },
+          {
+            "id": "m_review_16_20_2_b1_q3",
+            "question": "にほんへ （　　　） まえに、べんきょうしました。",
+            "options": [
+              "いって",
+              "いかない",
+              "いった",
+              "いく"
+            ],
+            "correctIndex": 3,
+            "explanation": "Vる まえに (Trước khi...)."
           }
         ]
       },
@@ -3428,24 +4856,24 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_16_20_2_b2_q0",
             "question": "わたしの　___ ___ _★_ ___　です。",
             "options": [
-              "は",
-              "しゅみ",
               "かくこと",
-              "えを"
+              "えを",
+              "は",
+              "しゅみ"
             ],
-            "correctIndex": 3,
+            "correctIndex": 1,
             "explanation": "わたしの しゅみ は えを かくこと です."
           },
           {
             "id": "m_review_16_20_2_b2_q1",
             "question": "ここで　___ ___ _★_ ___　ください。",
             "options": [
+              "しゃしん",
               "とらないで",
               "は",
-              "しゃしん",
               "を"
             ],
-            "correctIndex": 0,
+            "correctIndex": 1,
             "explanation": "ここで しゃしん は/を とらないで ください."
           }
         ]
@@ -3464,24 +4892,24 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_16_20_2_d1_q0",
             "question": "（　１　）に入れるものはどれですか。",
             "options": [
-              "たべて",
               "たべない",
-              "たべた",
-              "たべる"
+              "たべて",
+              "たべる",
+              "たべた"
             ],
-            "correctIndex": 3,
+            "correctIndex": 2,
             "explanation": "まえに đi với Vる (たべる まえに)."
           },
           {
             "id": "m_review_16_20_2_d1_q1",
             "question": "ジョギングの あとで、なにを しますか。",
             "options": [
-              "あさごはんを たべます",
-              "シャワーを あびます",
               "おきます",
-              "かいしゃへ いきます"
+              "かいしゃへ いきます",
+              "あさごはんを たべます",
+              "シャワーを あびます"
             ],
-            "correctIndex": 1,
+            "correctIndex": 3,
             "explanation": "ジョギング xong thì シャワーを あびます."
           }
         ]
@@ -3501,25 +4929,49 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_16_20_3_m1_q0",
             "question": "えいがを 【見】ます。",
             "options": [
-              "み",
+              "し",
               "き",
-              "よ",
-              "し"
+              "み",
+              "よ"
             ],
-            "correctIndex": 0,
+            "correctIndex": 2,
             "explanation": "見 đọc là み."
           },
           {
             "id": "m_review_16_20_3_m1_q1",
             "question": "あした 【雨】が ふります。",
             "options": [
-              "ゆき",
               "くも",
+              "あめ",
               "はれ",
-              "あめ"
+              "ゆき"
             ],
-            "correctIndex": 3,
+            "correctIndex": 1,
             "explanation": "雨 đọc là あめ (Mưa)."
+          },
+          {
+            "id": "m_review_16_20_3_m1_q2",
+            "question": "【午後】の じゅぎょうは ありません。",
+            "options": [
+              "ごこう",
+              "ごご",
+              "ごぜん",
+              "こうご"
+            ],
+            "correctIndex": 1,
+            "explanation": "午後 đọc là ごご (Buổi chiều)."
+          },
+          {
+            "id": "m_review_16_20_3_m1_q3",
+            "question": "【午前】 ６時に おきます。",
+            "options": [
+              "ごせん",
+              "こうぜん",
+              "ごぜん",
+              "ごご"
+            ],
+            "correctIndex": 2,
+            "explanation": "午前 đọc là ごぜん (Buổi sáng)."
           }
         ]
       },
@@ -3529,26 +4981,50 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_16_20_3_m2_q0",
-            "question": "【しゃしん】を とります。",
+            "question": "【よる】ねます。",
             "options": [
-              "真字",
-              "真写",
-              "写真",
-              "字真"
+              "昼",
+              "夜",
+              "夕",
+              "朝"
             ],
-            "correctIndex": 2,
-            "explanation": "しゃしん viết là 写真."
+            "correctIndex": 1,
+            "explanation": "よる (Buổi tối) viết là 夜."
           },
           {
             "id": "m_review_16_20_3_m2_q1",
+            "question": "【ひる】ごはんを たべます。",
+            "options": [
+              "夜",
+              "朝",
+              "昼",
+              "晩"
+            ],
+            "correctIndex": 2,
+            "explanation": "ひる (Buổi trưa) viết là 昼."
+          },
+          {
+            "id": "m_review_16_20_3_m2_q2",
+            "question": "【しゃしん】を とります。",
+            "options": [
+              "字真",
+              "真字",
+              "真写",
+              "写真"
+            ],
+            "correctIndex": 3,
+            "explanation": "しゃしん viết là 写真."
+          },
+          {
+            "id": "m_review_16_20_3_m2_q3",
             "question": "【みぎ】へ まがります。",
             "options": [
+              "後",
               "右",
               "前",
-              "後",
               "左"
             ],
-            "correctIndex": 0,
+            "correctIndex": 1,
             "explanation": "みぎ (Bên phải) viết là 右."
           }
         ]
@@ -3559,27 +5035,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_16_20_3_m3_q0",
-            "question": "ここに くるまを 【　　　】。",
+            "question": "かぜを ひきましたから、くすりを 【　　　】。",
             "options": [
-              "とまる ください",
-              "とめないで ください",
-              "とめて ください",
-              "とまらないで ください"
+              "きます",
+              "のみます",
+              "たべます",
+              "します"
             ],
             "correctIndex": 1,
-            "explanation": "Xin đừng đỗ xe ở đây: とめないで ください."
+            "explanation": "Uống thuốc: くすりを のみます."
           },
           {
             "id": "m_review_16_20_3_m3_q1",
             "question": "パスポートを 【　　　】。",
             "options": [
               "みせなければ なりません",
+              "みせなくちゃ いいです",
               "みせないで ください",
-              "みせても いいです",
-              "みせなくちゃ いいです"
+              "みせても いいです"
             ],
             "correctIndex": 0,
             "explanation": "Phải cho xem hộ chiếu: みせなければ なりません."
+          },
+          {
+            "id": "m_review_16_20_3_m3_q2",
+            "question": "あしたは 【　　　】から、どこも いきません。",
+            "options": [
+              "はれ",
+              "ゆき",
+              "くも",
+              "あめ"
+            ],
+            "correctIndex": 3,
+            "explanation": "Trời mưa nên không đi đâu cả (あめ)."
+          },
+          {
+            "id": "m_review_16_20_3_m3_q3",
+            "question": "ここに くるまを 【　　　】。",
+            "options": [
+              "とまらないで ください",
+              "とめて ください",
+              "とめないで ください",
+              "とまる ください"
+            ],
+            "correctIndex": 2,
+            "explanation": "Xin đừng đỗ xe ở đây: とめないで ください."
           }
         ]
       },
@@ -3589,39 +5089,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_16_20_3_b1_q0",
-            "question": "うまに （　　　）ことが ありますか。",
+            "question": "わたしは ピアノを （　　　）が できます。",
             "options": [
-              "のる",
-              "のった",
-              "のらない",
-              "のって"
+              "ひき",
+              "ひくこと",
+              "ひく",
+              "ひいて"
             ],
             "correctIndex": 1,
-            "explanation": "Vた ことが あります (Đã từng...)."
+            "explanation": "Vる こと が できます (Có thể làm gì)."
           },
           {
             "id": "m_review_16_20_3_b1_q1",
             "question": "にほんへ （　　　） まえに、べんきょうしました。",
             "options": [
-              "いった",
               "いく",
               "いって",
+              "いった",
               "いかない"
             ],
-            "correctIndex": 1,
+            "correctIndex": 0,
             "explanation": "Vる まえに (Trước khi...)."
           },
           {
             "id": "m_review_16_20_3_b1_q2",
-            "question": "わたしは ピアノを （　　　）が できます。",
+            "question": "うまに （　　　）ことが ありますか。",
             "options": [
-              "ひき",
-              "ひいて",
-              "ひくこと",
-              "ひく"
+              "のった",
+              "のって",
+              "のらない",
+              "のる"
             ],
-            "correctIndex": 2,
-            "explanation": "Vる こと が できます (Có thể làm gì)."
+            "correctIndex": 0,
+            "explanation": "Vた ことが あります (Đã từng...)."
+          },
+          {
+            "id": "m_review_16_20_3_b1_q3",
+            "question": "この りんごは おいしい（　　　）、やすいです。",
+            "options": [
+              "し",
+              "から",
+              "が",
+              "て"
+            ],
+            "correctIndex": 0,
+            "explanation": "Vừa ngon lại vừa rẻ: おいしいし、やすいです."
           }
         ]
       },
@@ -3631,27 +5143,27 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_16_20_3_b2_q0",
+            "question": "わたしの　___ ___ _★_ ___　です。",
+            "options": [
+              "かくこと",
+              "えを",
+              "しゅみ",
+              "は"
+            ],
+            "correctIndex": 1,
+            "explanation": "わたしの しゅみ は えを かくこと です."
+          },
+          {
+            "id": "m_review_16_20_3_b2_q1",
             "question": "ここで　___ ___ _★_ ___　ください。",
             "options": [
-              "しゃしん",
-              "とらないで",
               "を",
+              "とらないで",
+              "しゃしん",
               "は"
             ],
             "correctIndex": 1,
             "explanation": "ここで しゃしん は/を とらないで ください."
-          },
-          {
-            "id": "m_review_16_20_3_b2_q1",
-            "question": "わたしの　___ ___ _★_ ___　です。",
-            "options": [
-              "かくこと",
-              "は",
-              "えを",
-              "しゅみ"
-            ],
-            "correctIndex": 2,
-            "explanation": "わたしの しゅみ は えを かくこと です."
           }
         ]
       },
@@ -3669,24 +5181,24 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_16_20_3_d1_q0",
             "question": "（　１　）に入れるものはどれですか。",
             "options": [
-              "たべて",
-              "たべる",
               "たべた",
-              "たべない"
+              "たべない",
+              "たべる",
+              "たべて"
             ],
-            "correctIndex": 1,
+            "correctIndex": 2,
             "explanation": "まえに đi với Vる (たべる まえに)."
           },
           {
             "id": "m_review_16_20_3_d1_q1",
             "question": "ジョギングの あとで、なにを しますか。",
             "options": [
-              "おきます",
               "かいしゃへ いきます",
               "あさごはんを たべます",
-              "シャワーを あびます"
+              "シャワーを あびます",
+              "おきます"
             ],
-            "correctIndex": 3,
+            "correctIndex": 2,
             "explanation": "ジョギング xong thì シャワーを あびます."
           }
         ]
@@ -3704,26 +5216,50 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_16_20_4_m1_q0",
-            "question": "えいがを 【見】ます。",
+            "question": "【午後】の じゅぎょうは ありません。",
             "options": [
-              "し",
-              "き",
-              "よ",
-              "み"
+              "ごぜん",
+              "ごこう",
+              "ごご",
+              "こうご"
             ],
-            "correctIndex": 3,
-            "explanation": "見 đọc là み."
+            "correctIndex": 2,
+            "explanation": "午後 đọc là ごご (Buổi chiều)."
           },
           {
             "id": "m_review_16_20_4_m1_q1",
-            "question": "あした 【雨】が ふります。",
+            "question": "えいがを 【見】ます。",
             "options": [
-              "くも",
-              "はれ",
-              "ゆき",
-              "あめ"
+              "よ",
+              "み",
+              "き",
+              "し"
+            ],
+            "correctIndex": 1,
+            "explanation": "見 đọc là み."
+          },
+          {
+            "id": "m_review_16_20_4_m1_q2",
+            "question": "【午前】 ６時に おきます。",
+            "options": [
+              "ごご",
+              "ごせん",
+              "こうぜん",
+              "ごぜん"
             ],
             "correctIndex": 3,
+            "explanation": "午前 đọc là ごぜん (Buổi sáng)."
+          },
+          {
+            "id": "m_review_16_20_4_m1_q3",
+            "question": "あした 【雨】が ふります。",
+            "options": [
+              "はれ",
+              "くも",
+              "あめ",
+              "ゆき"
+            ],
+            "correctIndex": 2,
             "explanation": "雨 đọc là あめ (Mưa)."
           }
         ]
@@ -3737,11 +5273,11 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "question": "【みぎ】へ まがります。",
             "options": [
               "左",
-              "前",
               "右",
-              "後"
+              "後",
+              "前"
             ],
-            "correctIndex": 2,
+            "correctIndex": 1,
             "explanation": "みぎ (Bên phải) viết là 右."
           },
           {
@@ -3749,12 +5285,36 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "question": "【しゃしん】を とります。",
             "options": [
               "字真",
-              "写真",
+              "真字",
               "真写",
-              "真字"
+              "写真"
+            ],
+            "correctIndex": 3,
+            "explanation": "しゃしん viết là 写真."
+          },
+          {
+            "id": "m_review_16_20_4_m2_q2",
+            "question": "【ひる】ごはんを たべます。",
+            "options": [
+              "晩",
+              "昼",
+              "朝",
+              "夜"
             ],
             "correctIndex": 1,
-            "explanation": "しゃしん viết là 写真."
+            "explanation": "ひる (Buổi trưa) viết là 昼."
+          },
+          {
+            "id": "m_review_16_20_4_m2_q3",
+            "question": "【よる】ねます。",
+            "options": [
+              "昼",
+              "朝",
+              "夕",
+              "夜"
+            ],
+            "correctIndex": 3,
+            "explanation": "よる (Buổi tối) viết là 夜."
           }
         ]
       },
@@ -3767,23 +5327,47 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "question": "ここに くるまを 【　　　】。",
             "options": [
               "とめて ください",
-              "とまる ください",
+              "とまらないで ください",
               "とめないで ください",
-              "とまらないで ください"
+              "とまる ください"
             ],
             "correctIndex": 2,
             "explanation": "Xin đừng đỗ xe ở đây: とめないで ください."
           },
           {
             "id": "m_review_16_20_4_m3_q1",
+            "question": "あしたは 【　　　】から、どこも いきません。",
+            "options": [
+              "あめ",
+              "はれ",
+              "ゆき",
+              "くも"
+            ],
+            "correctIndex": 0,
+            "explanation": "Trời mưa nên không đi đâu cả (あめ)."
+          },
+          {
+            "id": "m_review_16_20_4_m3_q2",
+            "question": "かぜを ひきましたから、くすりを 【　　　】。",
+            "options": [
+              "たべます",
+              "のみます",
+              "きます",
+              "します"
+            ],
+            "correctIndex": 1,
+            "explanation": "Uống thuốc: くすりを のみます."
+          },
+          {
+            "id": "m_review_16_20_4_m3_q3",
             "question": "パスポートを 【　　　】。",
             "options": [
               "みせても いいです",
-              "みせなければ なりません",
               "みせないで ください",
-              "みせなくちゃ いいです"
+              "みせなくちゃ いいです",
+              "みせなければ なりません"
             ],
-            "correctIndex": 1,
+            "correctIndex": 3,
             "explanation": "Phải cho xem hộ chiếu: みせなければ なりません."
           }
         ]
@@ -3794,39 +5378,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_16_20_4_b1_q0",
-            "question": "うまに （　　　）ことが ありますか。",
+            "question": "この りんごは おいしい（　　　）、やすいです。",
             "options": [
-              "のらない",
-              "のった",
-              "のる",
-              "のって"
+              "て",
+              "から",
+              "し",
+              "が"
             ],
-            "correctIndex": 1,
-            "explanation": "Vた ことが あります (Đã từng...)."
+            "correctIndex": 2,
+            "explanation": "Vừa ngon lại vừa rẻ: おいしいし、やすいです."
           },
           {
             "id": "m_review_16_20_4_b1_q1",
-            "question": "わたしは ピアノを （　　　）が できます。",
+            "question": "うまに （　　　）ことが ありますか。",
             "options": [
-              "ひいて",
-              "ひく",
-              "ひき",
-              "ひくこと"
+              "のった",
+              "のらない",
+              "のる",
+              "のって"
             ],
-            "correctIndex": 3,
-            "explanation": "Vる こと が できます (Có thể làm gì)."
+            "correctIndex": 0,
+            "explanation": "Vた ことが あります (Đã từng...)."
           },
           {
             "id": "m_review_16_20_4_b1_q2",
             "question": "にほんへ （　　　） まえに、べんきょうしました。",
             "options": [
+              "いかない",
               "いって",
               "いった",
-              "いく",
-              "いかない"
+              "いく"
             ],
-            "correctIndex": 2,
+            "correctIndex": 3,
             "explanation": "Vる まえに (Trước khi...)."
+          },
+          {
+            "id": "m_review_16_20_4_b1_q3",
+            "question": "わたしは ピアノを （　　　）が できます。",
+            "options": [
+              "ひいて",
+              "ひき",
+              "ひく",
+              "ひくこと"
+            ],
+            "correctIndex": 3,
+            "explanation": "Vる こと が できます (Có thể làm gì)."
           }
         ]
       },
@@ -3836,27 +5432,27 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_16_20_4_b2_q0",
-            "question": "ここで　___ ___ _★_ ___　ください。",
+            "question": "わたしの　___ ___ _★_ ___　です。",
             "options": [
-              "しゃしん",
-              "を",
-              "は",
-              "とらないで"
+              "しゅみ",
+              "かくこと",
+              "えを",
+              "は"
             ],
-            "correctIndex": 3,
-            "explanation": "ここで しゃしん は/を とらないで ください."
+            "correctIndex": 2,
+            "explanation": "わたしの しゅみ は えを かくこと です."
           },
           {
             "id": "m_review_16_20_4_b2_q1",
-            "question": "わたしの　___ ___ _★_ ___　です。",
+            "question": "ここで　___ ___ _★_ ___　ください。",
             "options": [
-              "えを",
-              "しゅみ",
               "は",
-              "かくこと"
+              "しゃしん",
+              "とらないで",
+              "を"
             ],
-            "correctIndex": 0,
-            "explanation": "わたしの しゅみ は えを かくこと です."
+            "correctIndex": 2,
+            "explanation": "ここで しゃしん は/を とらないで ください."
           }
         ]
       },
@@ -3874,24 +5470,24 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_16_20_4_d1_q0",
             "question": "（　１　）に入れるものはどれですか。",
             "options": [
-              "たべた",
-              "たべて",
               "たべない",
-              "たべる"
+              "たべて",
+              "たべる",
+              "たべた"
             ],
-            "correctIndex": 3,
+            "correctIndex": 2,
             "explanation": "まえに đi với Vる (たべる まえに)."
           },
           {
             "id": "m_review_16_20_4_d1_q1",
             "question": "ジョギングの あとで、なにを しますか。",
             "options": [
-              "シャワーを あびます",
-              "おきます",
               "あさごはんを たべます",
-              "かいしゃへ いきます"
+              "おきます",
+              "かいしゃへ いきます",
+              "シャワーを あびます"
             ],
-            "correctIndex": 0,
+            "correctIndex": 3,
             "explanation": "ジョギング xong thì シャワーを あびます."
           }
         ]
@@ -3909,26 +5505,50 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_16_20_5_m1_q0",
-            "question": "あした 【雨】が ふります。",
+            "question": "【午前】 ６時に おきます。",
             "options": [
-              "ゆき",
-              "あめ",
-              "くも",
-              "はれ"
+              "ごご",
+              "ごせん",
+              "ごぜん",
+              "こうぜん"
             ],
-            "correctIndex": 1,
-            "explanation": "雨 đọc là あめ (Mưa)."
+            "correctIndex": 2,
+            "explanation": "午前 đọc là ごぜん (Buổi sáng)."
           },
           {
             "id": "m_review_16_20_5_m1_q1",
+            "question": "【午後】の じゅぎょうは ありません。",
+            "options": [
+              "ごご",
+              "ごぜん",
+              "ごこう",
+              "こうご"
+            ],
+            "correctIndex": 0,
+            "explanation": "午後 đọc là ごご (Buổi chiều)."
+          },
+          {
+            "id": "m_review_16_20_5_m1_q2",
+            "question": "あした 【雨】が ふります。",
+            "options": [
+              "あめ",
+              "くも",
+              "ゆき",
+              "はれ"
+            ],
+            "correctIndex": 0,
+            "explanation": "雨 đọc là あめ (Mưa)."
+          },
+          {
+            "id": "m_review_16_20_5_m1_q3",
             "question": "えいがを 【見】ます。",
             "options": [
-              "よ",
-              "み",
               "き",
-              "し"
+              "し",
+              "よ",
+              "み"
             ],
-            "correctIndex": 1,
+            "correctIndex": 3,
             "explanation": "見 đọc là み."
           }
         ]
@@ -3939,27 +5559,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_16_20_5_m2_q0",
+            "question": "【みぎ】へ まがります。",
+            "options": [
+              "右",
+              "左",
+              "後",
+              "前"
+            ],
+            "correctIndex": 0,
+            "explanation": "みぎ (Bên phải) viết là 右."
+          },
+          {
+            "id": "m_review_16_20_5_m2_q1",
             "question": "【しゃしん】を とります。",
             "options": [
-              "字真",
-              "写真",
               "真字",
+              "写真",
+              "字真",
               "真写"
             ],
             "correctIndex": 1,
             "explanation": "しゃしん viết là 写真."
           },
           {
-            "id": "m_review_16_20_5_m2_q1",
-            "question": "【みぎ】へ まがります。",
+            "id": "m_review_16_20_5_m2_q2",
+            "question": "【ひる】ごはんを たべます。",
             "options": [
-              "前",
-              "左",
-              "右",
-              "後"
+              "朝",
+              "昼",
+              "晩",
+              "夜"
+            ],
+            "correctIndex": 1,
+            "explanation": "ひる (Buổi trưa) viết là 昼."
+          },
+          {
+            "id": "m_review_16_20_5_m2_q3",
+            "question": "【よる】ねます。",
+            "options": [
+              "昼",
+              "夕",
+              "夜",
+              "朝"
             ],
             "correctIndex": 2,
-            "explanation": "みぎ (Bên phải) viết là 右."
+            "explanation": "よる (Buổi tối) viết là 夜."
           }
         ]
       },
@@ -3973,23 +5617,47 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "options": [
               "とまらないで ください",
               "とめて ください",
-              "とまる ください",
-              "とめないで ください"
+              "とめないで ください",
+              "とまる ください"
             ],
-            "correctIndex": 3,
+            "correctIndex": 2,
             "explanation": "Xin đừng đỗ xe ở đây: とめないで ください."
           },
           {
             "id": "m_review_16_20_5_m3_q1",
             "question": "パスポートを 【　　　】。",
             "options": [
+              "みせなくちゃ いいです",
               "みせなければ なりません",
               "みせないで ください",
-              "みせても いいです",
-              "みせなくちゃ いいです"
+              "みせても いいです"
             ],
-            "correctIndex": 0,
+            "correctIndex": 1,
             "explanation": "Phải cho xem hộ chiếu: みせなければ なりません."
+          },
+          {
+            "id": "m_review_16_20_5_m3_q2",
+            "question": "かぜを ひきましたから、くすりを 【　　　】。",
+            "options": [
+              "きます",
+              "たべます",
+              "のみます",
+              "します"
+            ],
+            "correctIndex": 2,
+            "explanation": "Uống thuốc: くすりを のみます."
+          },
+          {
+            "id": "m_review_16_20_5_m3_q3",
+            "question": "あしたは 【　　　】から、どこも いきません。",
+            "options": [
+              "くも",
+              "はれ",
+              "ゆき",
+              "あめ"
+            ],
+            "correctIndex": 3,
+            "explanation": "Trời mưa nên không đi đâu cả (あめ)."
           }
         ]
       },
@@ -3999,39 +5667,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_16_20_5_b1_q0",
-            "question": "にほんへ （　　　） まえに、べんきょうしました。",
+            "question": "わたしは ピアノを （　　　）が できます。",
             "options": [
-              "いった",
-              "いかない",
-              "いって",
-              "いく"
+              "ひき",
+              "ひいて",
+              "ひく",
+              "ひくこと"
             ],
             "correctIndex": 3,
-            "explanation": "Vる まえに (Trước khi...)."
+            "explanation": "Vる こと が できます (Có thể làm gì)."
           },
           {
             "id": "m_review_16_20_5_b1_q1",
-            "question": "わたしは ピアノを （　　　）が できます。",
+            "question": "にほんへ （　　　） まえに、べんきょうしました。",
             "options": [
-              "ひく",
-              "ひくこと",
-              "ひいて",
-              "ひき"
+              "いかない",
+              "いって",
+              "いく",
+              "いった"
             ],
-            "correctIndex": 1,
-            "explanation": "Vる こと が できます (Có thể làm gì)."
+            "correctIndex": 2,
+            "explanation": "Vる まえに (Trước khi...)."
           },
           {
             "id": "m_review_16_20_5_b1_q2",
             "question": "うまに （　　　）ことが ありますか。",
             "options": [
-              "のる",
-              "のって",
               "のった",
-              "のらない"
+              "のらない",
+              "のって",
+              "のる"
             ],
-            "correctIndex": 2,
+            "correctIndex": 0,
             "explanation": "Vた ことが あります (Đã từng...)."
+          },
+          {
+            "id": "m_review_16_20_5_b1_q3",
+            "question": "この りんごは おいしい（　　　）、やすいです。",
+            "options": [
+              "から",
+              "て",
+              "が",
+              "し"
+            ],
+            "correctIndex": 3,
+            "explanation": "Vừa ngon lại vừa rẻ: おいしいし、やすいです."
           }
         ]
       },
@@ -4041,27 +5721,27 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_16_20_5_b2_q0",
-            "question": "わたしの　___ ___ _★_ ___　です。",
+            "question": "ここで　___ ___ _★_ ___　ください。",
             "options": [
-              "しゅみ",
+              "を",
               "は",
-              "えを",
-              "かくこと"
+              "とらないで",
+              "しゃしん"
             ],
             "correctIndex": 2,
-            "explanation": "わたしの しゅみ は えを かくこと です."
+            "explanation": "ここで しゃしん は/を とらないで ください."
           },
           {
             "id": "m_review_16_20_5_b2_q1",
-            "question": "ここで　___ ___ _★_ ___　ください。",
+            "question": "わたしの　___ ___ _★_ ___　です。",
             "options": [
+              "かくこと",
               "は",
-              "とらないで",
-              "しゃしん",
-              "を"
+              "えを",
+              "しゅみ"
             ],
-            "correctIndex": 1,
-            "explanation": "ここで しゃしん は/を とらないで ください."
+            "correctIndex": 2,
+            "explanation": "わたしの しゅみ は えを かくこと です."
           }
         ]
       },
@@ -4079,12 +5759,12 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_16_20_5_d1_q0",
             "question": "（　１　）に入れるものはどれですか。",
             "options": [
-              "たべる",
-              "たべて",
               "たべた",
-              "たべない"
+              "たべない",
+              "たべて",
+              "たべる"
             ],
-            "correctIndex": 0,
+            "correctIndex": 3,
             "explanation": "まえに đi với Vる (たべる まえに)."
           },
           {
@@ -4093,8 +5773,8 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "options": [
               "シャワーを あびます",
               "かいしゃへ いきます",
-              "おきます",
-              "あさごはんを たべます"
+              "あさごはんを たべます",
+              "おきます"
             ],
             "correctIndex": 0,
             "explanation": "ジョギング xong thì シャワーを あびます."
@@ -4114,26 +5794,50 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_21_25_1_m1_q0",
-            "question": "【道】を まっすぐ いきます。",
+            "question": "【去年】 にほんへ きました。",
             "options": [
-              "みち",
-              "まち",
-              "くに",
-              "むら"
+              "きょうねん",
+              "こんねん",
+              "きょねん",
+              "こねん"
             ],
-            "correctIndex": 0,
-            "explanation": "道 đọc là みち (Đường)."
+            "correctIndex": 2,
+            "explanation": "去年 đọc là きょねん (Năm ngoái)."
           },
           {
             "id": "m_review_21_25_1_m1_q1",
+            "question": "【今年】は ２０２３ねんです。",
+            "options": [
+              "ことし",
+              "こんねん",
+              "きょとし",
+              "こんとし"
+            ],
+            "correctIndex": 0,
+            "explanation": "今年 đọc là ことし (Năm nay)."
+          },
+          {
+            "id": "m_review_21_25_1_m1_q2",
+            "question": "【道】を まっすぐ いきます。",
+            "options": [
+              "くに",
+              "むら",
+              "まち",
+              "みち"
+            ],
+            "correctIndex": 3,
+            "explanation": "道 đọc là みち (Đường)."
+          },
+          {
+            "id": "m_review_21_25_1_m1_q3",
             "question": "【電気】を つけます。",
             "options": [
-              "でんぎ",
-              "てんき",
               "でんき",
-              "てんぎ"
+              "てんぎ",
+              "てんき",
+              "でんぎ"
             ],
-            "correctIndex": 2,
+            "correctIndex": 0,
             "explanation": "電気 đọc là でんき (Điện)."
           }
         ]
@@ -4144,27 +5848,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_21_25_1_m2_q0",
-            "question": "あめが 【ふって】 います。",
+            "question": "【おとうと】が います。",
             "options": [
-              "落ちて",
-              "流って",
-              "降って",
-              "下って"
+              "姉",
+              "妹",
+              "弟",
+              "兄"
             ],
             "correctIndex": 2,
-            "explanation": "降って là Rơi (mưa)."
+            "explanation": "弟 là Em trai."
           },
           {
             "id": "m_review_21_25_1_m2_q1",
-            "question": "【おとうと】が います。",
+            "question": "あめが 【ふって】 います。",
             "options": [
-              "兄",
-              "弟",
-              "姉",
-              "妹"
+              "降って",
+              "落ちて",
+              "流って",
+              "下って"
             ],
-            "correctIndex": 1,
-            "explanation": "弟 là Em trai."
+            "correctIndex": 0,
+            "explanation": "降って là Rơi (mưa)."
+          },
+          {
+            "id": "m_review_21_25_1_m2_q2",
+            "question": "【らいねん】は なにを しますか。",
+            "options": [
+              "来年",
+              "去年",
+              "今年",
+              "毎年"
+            ],
+            "correctIndex": 0,
+            "explanation": "らいねん (Năm sau) viết là 来年."
+          },
+          {
+            "id": "m_review_21_25_1_m2_q3",
+            "question": "【まいにち】 べんきょうします。",
+            "options": [
+              "毎日",
+              "毎年",
+              "毎週",
+              "毎月"
+            ],
+            "correctIndex": 0,
+            "explanation": "まいにち (Mỗi ngày) viết là 毎日."
           }
         ]
       },
@@ -4176,25 +5904,49 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_21_25_1_m3_q0",
             "question": "ねむい 【　　　】、コーヒーを のみます。",
             "options": [
-              "ば",
-              "と",
+              "たら",
               "とき",
-              "たら"
+              "ば",
+              "と"
             ],
-            "correctIndex": 2,
+            "correctIndex": 1,
             "explanation": "Khi buồn ngủ (ねむい とき)."
           },
           {
             "id": "m_review_21_25_1_m3_q1",
-            "question": "あめが ふっても、いきます。",
+            "question": "きのうは とても 【　　　】です。",
             "options": [
-              "あめが ふったら いきます。",
-              "あめが ふったら いきません。",
-              "あめが ふりますが、いきます。",
-              "あめが ふらないと いきます。"
+              "いそがしい",
+              "ひま",
+              "いそがしかった",
+              "ひまだった"
             ],
             "correctIndex": 2,
+            "explanation": "Hôm qua đã rất bận (いそがしかった)."
+          },
+          {
+            "id": "m_review_21_25_1_m3_q2",
+            "question": "あめが ふっても、いきます。",
+            "options": [
+              "あめが ふりますが、いきます。",
+              "あめが ふったら いきません。",
+              "あめが ふらないと いきます。",
+              "あめが ふったら いきます。"
+            ],
+            "correctIndex": 0,
             "explanation": "Dù trời mưa tôi vẫn đi (Cho dù = ても)."
+          },
+          {
+            "id": "m_review_21_25_1_m3_q3",
+            "question": "やすみは 【　　　】ですか。",
+            "options": [
+              "だれ",
+              "なん",
+              "どこ",
+              "いつ"
+            ],
+            "correctIndex": 3,
+            "explanation": "Khi nào được nghỉ? (いつ)."
           }
         ]
       },
@@ -4204,39 +5956,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_21_25_1_b1_q0",
-            "question": "あしたは あめが ふる（　　　） おもいます。",
+            "question": "じかんが なかった（　　　）、ほんを よみません。",
             "options": [
-              "に",
-              "と",
-              "で",
-              "を"
+              "たら",
+              "ば",
+              "から",
+              "と"
             ],
-            "correctIndex": 1,
-            "explanation": "Mẫu câu ～と おもいます (Tôi nghĩ là...)."
+            "correctIndex": 0,
+            "explanation": "Nếu không có thời gian -> なかったら."
           },
           {
             "id": "m_review_21_25_1_b1_q1",
             "question": "これは わたしが （　　　） かばんです。",
             "options": [
-              "かう",
               "かい",
-              "かった",
-              "かって"
+              "かって",
+              "かう",
+              "かった"
             ],
-            "correctIndex": 2,
+            "correctIndex": 3,
             "explanation": "Mệnh đề bổ nghĩa cho danh từ: かった かばん."
           },
           {
             "id": "m_review_21_25_1_b1_q2",
-            "question": "じかんが なかった（　　　）、ほんを よみません。",
+            "question": "あしたは あめが ふる（　　　） おもいます。",
             "options": [
-              "ば",
-              "と",
-              "から",
-              "たら"
+              "に",
+              "で",
+              "を",
+              "と"
             ],
             "correctIndex": 3,
-            "explanation": "Nếu không có thời gian -> なかったら."
+            "explanation": "Mẫu câu ～と おもいます (Tôi nghĩ là...)."
+          },
+          {
+            "id": "m_review_21_25_1_b1_q3",
+            "question": "わたしは にほんごが はなせる（　　　） に なりました。",
+            "options": [
+              "よう",
+              "ところ",
+              "もの",
+              "こと"
+            ],
+            "correctIndex": 0,
+            "explanation": "Đã có thể nói tiếng Nhật (～ようになる)."
           }
         ]
       },
@@ -4248,12 +6012,12 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_21_25_1_b2_q0",
             "question": "あの　___ ___ _★_ ___　は だれですか。",
             "options": [
-              "かけている",
               "ひと",
               "を",
-              "メガネ"
+              "メガネ",
+              "かけている"
             ],
-            "correctIndex": 0,
+            "correctIndex": 3,
             "explanation": "あの メガネ を かけている ひと は だれですか."
           },
           {
@@ -4261,9 +6025,9 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "question": "たのしく　___ ___ _★_ ___　と おもいます。",
             "options": [
               "ない",
-              "は",
               "あしたの",
-              "パーティー"
+              "パーティー",
+              "は"
             ],
             "correctIndex": 0,
             "explanation": "あしたの パーティー は たのしく ない と おもいます."
@@ -4284,12 +6048,12 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_21_25_1_d1_q0",
             "question": "（　１　）に入れるものはどれですか。",
             "options": [
-              "もらいました",
-              "しました",
+              "くれました",
               "あげました",
-              "くれました"
+              "もらいました",
+              "しました"
             ],
-            "correctIndex": 3,
+            "correctIndex": 0,
             "explanation": "Bạn bè làm (cho mình) -> つくって くれました."
           },
           {
@@ -4297,8 +6061,8 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "question": "（　２　）に入れるものはどれですか。",
             "options": [
               "たべて",
-              "たべる",
               "たべた",
+              "たべる",
               "たべたい"
             ],
             "correctIndex": 3,
@@ -4319,27 +6083,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_21_25_2_m1_q0",
-            "question": "【道】を まっすぐ いきます。",
+            "question": "【電気】を つけます。",
             "options": [
-              "むら",
-              "くに",
-              "まち",
-              "みち"
+              "てんき",
+              "でんき",
+              "でんぎ",
+              "てんぎ"
             ],
-            "correctIndex": 3,
-            "explanation": "道 đọc là みち (Đường)."
+            "correctIndex": 1,
+            "explanation": "電気 đọc là でんき (Điện)."
           },
           {
             "id": "m_review_21_25_2_m1_q1",
-            "question": "【電気】を つけます。",
+            "question": "【道】を まっすぐ いきます。",
             "options": [
-              "てんぎ",
-              "てんき",
-              "でんぎ",
-              "でんき"
+              "くに",
+              "むら",
+              "みち",
+              "まち"
+            ],
+            "correctIndex": 2,
+            "explanation": "道 đọc là みち (Đường)."
+          },
+          {
+            "id": "m_review_21_25_2_m1_q2",
+            "question": "【去年】 にほんへ きました。",
+            "options": [
+              "きょうねん",
+              "こんねん",
+              "こねん",
+              "きょねん"
             ],
             "correctIndex": 3,
-            "explanation": "電気 đọc là でんき (Điện)."
+            "explanation": "去年 đọc là きょねん (Năm ngoái)."
+          },
+          {
+            "id": "m_review_21_25_2_m1_q3",
+            "question": "【今年】は ２０２３ねんです。",
+            "options": [
+              "こんとし",
+              "ことし",
+              "こんねん",
+              "きょとし"
+            ],
+            "correctIndex": 1,
+            "explanation": "今年 đọc là ことし (Năm nay)."
           }
         ]
       },
@@ -4351,25 +6139,49 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_21_25_2_m2_q0",
             "question": "【おとうと】が います。",
             "options": [
-              "弟",
               "姉",
+              "妹",
               "兄",
-              "妹"
+              "弟"
             ],
-            "correctIndex": 0,
+            "correctIndex": 3,
             "explanation": "弟 là Em trai."
           },
           {
             "id": "m_review_21_25_2_m2_q1",
             "question": "あめが 【ふって】 います。",
             "options": [
-              "下って",
-              "降って",
+              "流って",
               "落ちて",
-              "流って"
+              "下って",
+              "降って"
             ],
-            "correctIndex": 1,
+            "correctIndex": 3,
             "explanation": "降って là Rơi (mưa)."
+          },
+          {
+            "id": "m_review_21_25_2_m2_q2",
+            "question": "【らいねん】は なにを しますか。",
+            "options": [
+              "来年",
+              "今年",
+              "去年",
+              "毎年"
+            ],
+            "correctIndex": 0,
+            "explanation": "らいねん (Năm sau) viết là 来年."
+          },
+          {
+            "id": "m_review_21_25_2_m2_q3",
+            "question": "【まいにち】 べんきょうします。",
+            "options": [
+              "毎日",
+              "毎週",
+              "毎月",
+              "毎年"
+            ],
+            "correctIndex": 0,
+            "explanation": "まいにち (Mỗi ngày) viết là 毎日."
           }
         ]
       },
@@ -4381,10 +6193,10 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_21_25_2_m3_q0",
             "question": "あめが ふっても、いきます。",
             "options": [
-              "あめが ふらないと いきます。",
+              "あめが ふったら いきます。",
               "あめが ふりますが、いきます。",
               "あめが ふったら いきません。",
-              "あめが ふったら いきます。"
+              "あめが ふらないと いきます。"
             ],
             "correctIndex": 1,
             "explanation": "Dù trời mưa tôi vẫn đi (Cho dù = ても)."
@@ -4393,13 +6205,37 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_21_25_2_m3_q1",
             "question": "ねむい 【　　　】、コーヒーを のみます。",
             "options": [
-              "たら",
-              "ば",
+              "とき",
               "と",
-              "とき"
+              "ば",
+              "たら"
             ],
-            "correctIndex": 3,
+            "correctIndex": 0,
             "explanation": "Khi buồn ngủ (ねむい とき)."
+          },
+          {
+            "id": "m_review_21_25_2_m3_q2",
+            "question": "やすみは 【　　　】ですか。",
+            "options": [
+              "だれ",
+              "いつ",
+              "どこ",
+              "なん"
+            ],
+            "correctIndex": 1,
+            "explanation": "Khi nào được nghỉ? (いつ)."
+          },
+          {
+            "id": "m_review_21_25_2_m3_q3",
+            "question": "きのうは とても 【　　　】です。",
+            "options": [
+              "ひま",
+              "ひまだった",
+              "いそがしかった",
+              "いそがしい"
+            ],
+            "correctIndex": 2,
+            "explanation": "Hôm qua đã rất bận (いそがしかった)."
           }
         ]
       },
@@ -4409,39 +6245,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_21_25_2_b1_q0",
+            "question": "わたしは にほんごが はなせる（　　　） に なりました。",
+            "options": [
+              "よう",
+              "こと",
+              "ところ",
+              "もの"
+            ],
+            "correctIndex": 0,
+            "explanation": "Đã có thể nói tiếng Nhật (～ようになる)."
+          },
+          {
+            "id": "m_review_21_25_2_b1_q1",
+            "question": "じかんが なかった（　　　）、ほんを よみません。",
+            "options": [
+              "ば",
+              "たら",
+              "と",
+              "から"
+            ],
+            "correctIndex": 1,
+            "explanation": "Nếu không có thời gian -> なかったら."
+          },
+          {
+            "id": "m_review_21_25_2_b1_q2",
+            "question": "これは わたしが （　　　） かばんです。",
+            "options": [
+              "かって",
+              "かい",
+              "かう",
+              "かった"
+            ],
+            "correctIndex": 3,
+            "explanation": "Mệnh đề bổ nghĩa cho danh từ: かった かばん."
+          },
+          {
+            "id": "m_review_21_25_2_b1_q3",
             "question": "あしたは あめが ふる（　　　） おもいます。",
             "options": [
               "と",
-              "で",
               "を",
+              "で",
               "に"
             ],
             "correctIndex": 0,
             "explanation": "Mẫu câu ～と おもいます (Tôi nghĩ là...)."
-          },
-          {
-            "id": "m_review_21_25_2_b1_q1",
-            "question": "これは わたしが （　　　） かばんです。",
-            "options": [
-              "かって",
-              "かった",
-              "かい",
-              "かう"
-            ],
-            "correctIndex": 1,
-            "explanation": "Mệnh đề bổ nghĩa cho danh từ: かった かばん."
-          },
-          {
-            "id": "m_review_21_25_2_b1_q2",
-            "question": "じかんが なかった（　　　）、ほんを よみません。",
-            "options": [
-              "と",
-              "たら",
-              "から",
-              "ば"
-            ],
-            "correctIndex": 1,
-            "explanation": "Nếu không có thời gian -> なかったら."
           }
         ]
       },
@@ -4451,27 +6299,27 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_21_25_2_b2_q0",
-            "question": "たのしく　___ ___ _★_ ___　と おもいます。",
+            "question": "あの　___ ___ _★_ ___　は だれですか。",
             "options": [
-              "あしたの",
-              "パーティー",
-              "ない",
-              "は"
+              "ひと",
+              "メガネ",
+              "かけている",
+              "を"
             ],
             "correctIndex": 2,
-            "explanation": "あしたの パーティー は たのしく ない と おもいます."
+            "explanation": "あの メガネ を かけている ひと は だれですか."
           },
           {
             "id": "m_review_21_25_2_b2_q1",
-            "question": "あの　___ ___ _★_ ___　は だれですか。",
+            "question": "たのしく　___ ___ _★_ ___　と おもいます。",
             "options": [
-              "を",
-              "ひと",
-              "メガネ",
-              "かけている"
+              "ない",
+              "パーティー",
+              "は",
+              "あしたの"
             ],
-            "correctIndex": 3,
-            "explanation": "あの メガネ を かけている ひと は だれですか."
+            "correctIndex": 0,
+            "explanation": "あしたの パーティー は たのしく ない と おもいます."
           }
         ]
       },
@@ -4489,24 +6337,24 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_21_25_2_d1_q0",
             "question": "（　１　）に入れるものはどれですか。",
             "options": [
-              "くれました",
+              "もらいました",
               "しました",
               "あげました",
-              "もらいました"
+              "くれました"
             ],
-            "correctIndex": 0,
+            "correctIndex": 3,
             "explanation": "Bạn bè làm (cho mình) -> つくって くれました."
           },
           {
             "id": "m_review_21_25_2_d1_q1",
             "question": "（　２　）に入れるものはどれですか。",
             "options": [
+              "たべる",
               "たべたい",
-              "たべて",
               "たべた",
-              "たべる"
+              "たべて"
             ],
-            "correctIndex": 0,
+            "correctIndex": 1,
             "explanation": "Tôi nghĩ tôi MONG MUỐN ăn lại -> たべたい."
           }
         ]
@@ -4524,26 +6372,50 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_21_25_3_m1_q0",
-            "question": "【道】を まっすぐ いきます。",
+            "question": "【今年】は ２０２３ねんです。",
             "options": [
-              "みち",
-              "むら",
-              "くに",
-              "まち"
+              "ことし",
+              "こんとし",
+              "こんねん",
+              "きょとし"
             ],
             "correctIndex": 0,
-            "explanation": "道 đọc là みち (Đường)."
+            "explanation": "今年 đọc là ことし (Năm nay)."
           },
           {
             "id": "m_review_21_25_3_m1_q1",
+            "question": "【道】を まっすぐ いきます。",
+            "options": [
+              "くに",
+              "むら",
+              "まち",
+              "みち"
+            ],
+            "correctIndex": 3,
+            "explanation": "道 đọc là みち (Đường)."
+          },
+          {
+            "id": "m_review_21_25_3_m1_q2",
+            "question": "【去年】 にほんへ きました。",
+            "options": [
+              "こねん",
+              "きょうねん",
+              "きょねん",
+              "こんねん"
+            ],
+            "correctIndex": 2,
+            "explanation": "去年 đọc là きょねん (Năm ngoái)."
+          },
+          {
+            "id": "m_review_21_25_3_m1_q3",
             "question": "【電気】を つけます。",
             "options": [
               "てんき",
-              "でんぎ",
               "でんき",
+              "でんぎ",
               "てんぎ"
             ],
-            "correctIndex": 2,
+            "correctIndex": 1,
             "explanation": "電気 đọc là でんき (Điện)."
           }
         ]
@@ -4554,6 +6426,30 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_21_25_3_m2_q0",
+            "question": "【らいねん】は なにを しますか。",
+            "options": [
+              "今年",
+              "毎年",
+              "来年",
+              "去年"
+            ],
+            "correctIndex": 2,
+            "explanation": "らいねん (Năm sau) viết là 来年."
+          },
+          {
+            "id": "m_review_21_25_3_m2_q1",
+            "question": "【まいにち】 べんきょうします。",
+            "options": [
+              "毎日",
+              "毎週",
+              "毎月",
+              "毎年"
+            ],
+            "correctIndex": 0,
+            "explanation": "まいにち (Mỗi ngày) viết là 毎日."
+          },
+          {
+            "id": "m_review_21_25_3_m2_q2",
             "question": "あめが 【ふって】 います。",
             "options": [
               "降って",
@@ -4565,15 +6461,15 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "explanation": "降って là Rơi (mưa)."
           },
           {
-            "id": "m_review_21_25_3_m2_q1",
+            "id": "m_review_21_25_3_m2_q3",
             "question": "【おとうと】が います。",
             "options": [
-              "弟",
-              "兄",
+              "姉",
               "妹",
-              "姉"
+              "兄",
+              "弟"
             ],
-            "correctIndex": 0,
+            "correctIndex": 3,
             "explanation": "弟 là Em trai."
           }
         ]
@@ -4584,27 +6480,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_21_25_3_m3_q0",
-            "question": "ねむい 【　　　】、コーヒーを のみます。",
+            "question": "あめが ふっても、いきます。",
             "options": [
-              "と",
-              "たら",
-              "とき",
-              "ば"
+              "あめが ふりますが、いきます。",
+              "あめが ふったら いきます。",
+              "あめが ふったら いきません。",
+              "あめが ふらないと いきます。"
             ],
-            "correctIndex": 2,
-            "explanation": "Khi buồn ngủ (ねむい とき)."
+            "correctIndex": 0,
+            "explanation": "Dù trời mưa tôi vẫn đi (Cho dù = ても)."
           },
           {
             "id": "m_review_21_25_3_m3_q1",
-            "question": "あめが ふっても、いきます。",
+            "question": "きのうは とても 【　　　】です。",
             "options": [
-              "あめが ふったら いきます。",
-              "あめが ふらないと いきます。",
-              "あめが ふったら いきません。",
-              "あめが ふりますが、いきます。"
+              "ひまだった",
+              "いそがしい",
+              "いそがしかった",
+              "ひま"
             ],
-            "correctIndex": 3,
-            "explanation": "Dù trời mưa tôi vẫn đi (Cho dù = ても)."
+            "correctIndex": 2,
+            "explanation": "Hôm qua đã rất bận (いそがしかった)."
+          },
+          {
+            "id": "m_review_21_25_3_m3_q2",
+            "question": "ねむい 【　　　】、コーヒーを のみます。",
+            "options": [
+              "たら",
+              "とき",
+              "ば",
+              "と"
+            ],
+            "correctIndex": 1,
+            "explanation": "Khi buồn ngủ (ねむい とき)."
+          },
+          {
+            "id": "m_review_21_25_3_m3_q3",
+            "question": "やすみは 【　　　】ですか。",
+            "options": [
+              "いつ",
+              "なん",
+              "どこ",
+              "だれ"
+            ],
+            "correctIndex": 0,
+            "explanation": "Khi nào được nghỉ? (いつ)."
           }
         ]
       },
@@ -4626,27 +6546,39 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
           },
           {
             "id": "m_review_21_25_3_b1_q1",
+            "question": "これは わたしが （　　　） かばんです。",
+            "options": [
+              "かった",
+              "かって",
+              "かう",
+              "かい"
+            ],
+            "correctIndex": 0,
+            "explanation": "Mệnh đề bổ nghĩa cho danh từ: かった かばん."
+          },
+          {
+            "id": "m_review_21_25_3_b1_q2",
+            "question": "わたしは にほんごが はなせる（　　　） に なりました。",
+            "options": [
+              "ところ",
+              "よう",
+              "こと",
+              "もの"
+            ],
+            "correctIndex": 1,
+            "explanation": "Đã có thể nói tiếng Nhật (～ようになる)."
+          },
+          {
+            "id": "m_review_21_25_3_b1_q3",
             "question": "あしたは あめが ふる（　　　） おもいます。",
             "options": [
+              "で",
               "に",
               "を",
-              "で",
               "と"
             ],
             "correctIndex": 3,
             "explanation": "Mẫu câu ～と おもいます (Tôi nghĩ là...)."
-          },
-          {
-            "id": "m_review_21_25_3_b1_q2",
-            "question": "これは わたしが （　　　） かばんです。",
-            "options": [
-              "かい",
-              "かって",
-              "かう",
-              "かった"
-            ],
-            "correctIndex": 3,
-            "explanation": "Mệnh đề bổ nghĩa cho danh từ: かった かばん."
           }
         ]
       },
@@ -4656,27 +6588,27 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_21_25_3_b2_q0",
-            "question": "あの　___ ___ _★_ ___　は だれですか。",
-            "options": [
-              "メガネ",
-              "かけている",
-              "を",
-              "ひと"
-            ],
-            "correctIndex": 1,
-            "explanation": "あの メガネ を かけている ひと は だれですか."
-          },
-          {
-            "id": "m_review_21_25_3_b2_q1",
             "question": "たのしく　___ ___ _★_ ___　と おもいます。",
             "options": [
               "パーティー",
+              "ない",
               "は",
-              "あしたの",
-              "ない"
+              "あしたの"
             ],
-            "correctIndex": 3,
+            "correctIndex": 1,
             "explanation": "あしたの パーティー は たのしく ない と おもいます."
+          },
+          {
+            "id": "m_review_21_25_3_b2_q1",
+            "question": "あの　___ ___ _★_ ___　は だれですか。",
+            "options": [
+              "ひと",
+              "を",
+              "かけている",
+              "メガネ"
+            ],
+            "correctIndex": 2,
+            "explanation": "あの メガネ を かけている ひと は だれですか."
           }
         ]
       },
@@ -4694,9 +6626,9 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_21_25_3_d1_q0",
             "question": "（　１　）に入れるものはどれですか。",
             "options": [
+              "しました",
               "あげました",
               "もらいました",
-              "しました",
               "くれました"
             ],
             "correctIndex": 3,
@@ -4707,9 +6639,9 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "question": "（　２　）に入れるものはどれですか。",
             "options": [
               "たべたい",
-              "たべた",
+              "たべて",
               "たべる",
-              "たべて"
+              "たべた"
             ],
             "correctIndex": 0,
             "explanation": "Tôi nghĩ tôi MONG MUỐN ăn lại -> たべたい."
@@ -4729,26 +6661,50 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_21_25_4_m1_q0",
-            "question": "【電気】を つけます。",
+            "question": "【今年】は ２０２３ねんです。",
             "options": [
-              "てんぎ",
-              "でんき",
-              "てんき",
-              "でんぎ"
+              "きょとし",
+              "こんねん",
+              "ことし",
+              "こんとし"
             ],
-            "correctIndex": 1,
-            "explanation": "電気 đọc là でんき (Điện)."
+            "correctIndex": 2,
+            "explanation": "今年 đọc là ことし (Năm nay)."
           },
           {
             "id": "m_review_21_25_4_m1_q1",
+            "question": "【電気】を つけます。",
+            "options": [
+              "てんき",
+              "てんぎ",
+              "でんき",
+              "でんぎ"
+            ],
+            "correctIndex": 2,
+            "explanation": "電気 đọc là でんき (Điện)."
+          },
+          {
+            "id": "m_review_21_25_4_m1_q2",
+            "question": "【去年】 にほんへ きました。",
+            "options": [
+              "こんねん",
+              "きょねん",
+              "こねん",
+              "きょうねん"
+            ],
+            "correctIndex": 1,
+            "explanation": "去年 đọc là きょねん (Năm ngoái)."
+          },
+          {
+            "id": "m_review_21_25_4_m1_q3",
             "question": "【道】を まっすぐ いきます。",
             "options": [
-              "まち",
-              "くに",
               "むら",
-              "みち"
+              "くに",
+              "みち",
+              "まち"
             ],
-            "correctIndex": 3,
+            "correctIndex": 2,
             "explanation": "道 đọc là みち (Đường)."
           }
         ]
@@ -4759,26 +6715,50 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_21_25_4_m2_q0",
-            "question": "あめが 【ふって】 います。",
+            "question": "【らいねん】は なにを しますか。",
             "options": [
-              "降って",
-              "流って",
-              "下って",
-              "落ちて"
+              "去年",
+              "来年",
+              "毎年",
+              "今年"
             ],
-            "correctIndex": 0,
-            "explanation": "降って là Rơi (mưa)."
+            "correctIndex": 1,
+            "explanation": "らいねん (Năm sau) viết là 来年."
           },
           {
             "id": "m_review_21_25_4_m2_q1",
+            "question": "あめが 【ふって】 います。",
+            "options": [
+              "流って",
+              "落ちて",
+              "下って",
+              "降って"
+            ],
+            "correctIndex": 3,
+            "explanation": "降って là Rơi (mưa)."
+          },
+          {
+            "id": "m_review_21_25_4_m2_q2",
+            "question": "【まいにち】 べんきょうします。",
+            "options": [
+              "毎年",
+              "毎日",
+              "毎週",
+              "毎月"
+            ],
+            "correctIndex": 1,
+            "explanation": "まいにち (Mỗi ngày) viết là 毎日."
+          },
+          {
+            "id": "m_review_21_25_4_m2_q3",
             "question": "【おとうと】が います。",
             "options": [
-              "弟",
+              "姉",
               "兄",
               "妹",
-              "姉"
+              "弟"
             ],
-            "correctIndex": 0,
+            "correctIndex": 3,
             "explanation": "弟 là Em trai."
           }
         ]
@@ -4791,25 +6771,49 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_21_25_4_m3_q0",
             "question": "ねむい 【　　　】、コーヒーを のみます。",
             "options": [
-              "とき",
-              "と",
               "ば",
-              "たら"
+              "たら",
+              "とき",
+              "と"
             ],
-            "correctIndex": 0,
+            "correctIndex": 2,
             "explanation": "Khi buồn ngủ (ねむい とき)."
           },
           {
             "id": "m_review_21_25_4_m3_q1",
             "question": "あめが ふっても、いきます。",
             "options": [
-              "あめが ふったら いきます。",
               "あめが ふりますが、いきます。",
-              "あめが ふらないと いきます。",
-              "あめが ふったら いきません。"
+              "あめが ふったら いきます。",
+              "あめが ふったら いきません。",
+              "あめが ふらないと いきます。"
+            ],
+            "correctIndex": 0,
+            "explanation": "Dù trời mưa tôi vẫn đi (Cho dù = ても)."
+          },
+          {
+            "id": "m_review_21_25_4_m3_q2",
+            "question": "やすみは 【　　　】ですか。",
+            "options": [
+              "だれ",
+              "なん",
+              "どこ",
+              "いつ"
+            ],
+            "correctIndex": 3,
+            "explanation": "Khi nào được nghỉ? (いつ)."
+          },
+          {
+            "id": "m_review_21_25_4_m3_q3",
+            "question": "きのうは とても 【　　　】です。",
+            "options": [
+              "ひまだった",
+              "いそがしかった",
+              "いそがしい",
+              "ひま"
             ],
             "correctIndex": 1,
-            "explanation": "Dù trời mưa tôi vẫn đi (Cho dù = ても)."
+            "explanation": "Hôm qua đã rất bận (いそがしかった)."
           }
         ]
       },
@@ -4819,38 +6823,50 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_21_25_4_b1_q0",
-            "question": "じかんが なかった（　　　）、ほんを よみません。",
+            "question": "わたしは にほんごが はなせる（　　　） に なりました。",
             "options": [
-              "ば",
-              "と",
-              "たら",
-              "から"
+              "こと",
+              "もの",
+              "よう",
+              "ところ"
             ],
             "correctIndex": 2,
-            "explanation": "Nếu không có thời gian -> なかったら."
+            "explanation": "Đã có thể nói tiếng Nhật (～ようになる)."
           },
           {
             "id": "m_review_21_25_4_b1_q1",
-            "question": "これは わたしが （　　　） かばんです。",
+            "question": "じかんが なかった（　　　）、ほんを よみません。",
             "options": [
-              "かう",
-              "かい",
-              "かった",
-              "かって"
+              "から",
+              "ば",
+              "と",
+              "たら"
             ],
-            "correctIndex": 2,
-            "explanation": "Mệnh đề bổ nghĩa cho danh từ: かった かばん."
+            "correctIndex": 3,
+            "explanation": "Nếu không có thời gian -> なかったら."
           },
           {
             "id": "m_review_21_25_4_b1_q2",
-            "question": "あしたは あめが ふる（　　　） おもいます。",
+            "question": "これは わたしが （　　　） かばんです。",
             "options": [
-              "と",
-              "に",
-              "を",
-              "で"
+              "かった",
+              "かう",
+              "かって",
+              "かい"
             ],
             "correctIndex": 0,
+            "explanation": "Mệnh đề bổ nghĩa cho danh từ: かった かばん."
+          },
+          {
+            "id": "m_review_21_25_4_b1_q3",
+            "question": "あしたは あめが ふる（　　　） おもいます。",
+            "options": [
+              "を",
+              "と",
+              "に",
+              "で"
+            ],
+            "correctIndex": 1,
             "explanation": "Mẫu câu ～と おもいます (Tôi nghĩ là...)."
           }
         ]
@@ -4864,9 +6880,9 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "question": "あの　___ ___ _★_ ___　は だれですか。",
             "options": [
               "かけている",
+              "メガネ",
               "ひと",
-              "を",
-              "メガネ"
+              "を"
             ],
             "correctIndex": 0,
             "explanation": "あの メガネ を かけている ひと は だれですか."
@@ -4875,12 +6891,12 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_21_25_4_b2_q1",
             "question": "たのしく　___ ___ _★_ ___　と おもいます。",
             "options": [
-              "あしたの",
               "ない",
               "パーティー",
+              "あしたの",
               "は"
             ],
-            "correctIndex": 1,
+            "correctIndex": 0,
             "explanation": "あしたの パーティー は たのしく ない と おもいます."
           }
         ]
@@ -4900,23 +6916,23 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "question": "（　１　）に入れるものはどれですか。",
             "options": [
               "もらいました",
-              "しました",
               "くれました",
-              "あげました"
+              "あげました",
+              "しました"
             ],
-            "correctIndex": 2,
+            "correctIndex": 1,
             "explanation": "Bạn bè làm (cho mình) -> つくって くれました."
           },
           {
             "id": "m_review_21_25_4_d1_q1",
             "question": "（　２　）に入れるものはどれですか。",
             "options": [
-              "たべたい",
-              "たべた",
               "たべる",
-              "たべて"
+              "たべて",
+              "たべたい",
+              "たべた"
             ],
-            "correctIndex": 0,
+            "correctIndex": 2,
             "explanation": "Tôi nghĩ tôi MONG MUỐN ăn lại -> たべたい."
           }
         ]
@@ -4936,25 +6952,49 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_21_25_5_m1_q0",
             "question": "【道】を まっすぐ いきます。",
             "options": [
-              "まち",
               "くに",
-              "みち",
-              "むら"
+              "むら",
+              "まち",
+              "みち"
             ],
-            "correctIndex": 2,
+            "correctIndex": 3,
             "explanation": "道 đọc là みち (Đường)."
           },
           {
             "id": "m_review_21_25_5_m1_q1",
             "question": "【電気】を つけます。",
             "options": [
-              "てんき",
-              "てんぎ",
               "でんき",
-              "でんぎ"
+              "でんぎ",
+              "てんぎ",
+              "てんき"
             ],
-            "correctIndex": 2,
+            "correctIndex": 0,
             "explanation": "電気 đọc là でんき (Điện)."
+          },
+          {
+            "id": "m_review_21_25_5_m1_q2",
+            "question": "【去年】 にほんへ きました。",
+            "options": [
+              "こねん",
+              "きょうねん",
+              "こんねん",
+              "きょねん"
+            ],
+            "correctIndex": 3,
+            "explanation": "去年 đọc là きょねん (Năm ngoái)."
+          },
+          {
+            "id": "m_review_21_25_5_m1_q3",
+            "question": "【今年】は ２０２３ねんです。",
+            "options": [
+              "ことし",
+              "きょとし",
+              "こんとし",
+              "こんねん"
+            ],
+            "correctIndex": 0,
+            "explanation": "今年 đọc là ことし (Năm nay)."
           }
         ]
       },
@@ -4966,25 +7006,49 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_21_25_5_m2_q0",
             "question": "あめが 【ふって】 います。",
             "options": [
-              "降って",
               "落ちて",
               "流って",
-              "下って"
+              "下って",
+              "降って"
             ],
-            "correctIndex": 0,
+            "correctIndex": 3,
             "explanation": "降って là Rơi (mưa)."
           },
           {
             "id": "m_review_21_25_5_m2_q1",
-            "question": "【おとうと】が います。",
+            "question": "【まいにち】 べんきょうします。",
             "options": [
-              "弟",
-              "姉",
-              "妹",
-              "兄"
+              "毎日",
+              "毎年",
+              "毎週",
+              "毎月"
             ],
             "correctIndex": 0,
+            "explanation": "まいにち (Mỗi ngày) viết là 毎日."
+          },
+          {
+            "id": "m_review_21_25_5_m2_q2",
+            "question": "【おとうと】が います。",
+            "options": [
+              "兄",
+              "姉",
+              "弟",
+              "妹"
+            ],
+            "correctIndex": 2,
             "explanation": "弟 là Em trai."
+          },
+          {
+            "id": "m_review_21_25_5_m2_q3",
+            "question": "【らいねん】は なにを しますか。",
+            "options": [
+              "毎年",
+              "去年",
+              "来年",
+              "今年"
+            ],
+            "correctIndex": 2,
+            "explanation": "らいねん (Năm sau) viết là 来年."
           }
         ]
       },
@@ -4994,27 +7058,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_21_25_5_m3_q0",
+            "question": "やすみは 【　　　】ですか。",
+            "options": [
+              "いつ",
+              "だれ",
+              "どこ",
+              "なん"
+            ],
+            "correctIndex": 0,
+            "explanation": "Khi nào được nghỉ? (いつ)."
+          },
+          {
+            "id": "m_review_21_25_5_m3_q1",
             "question": "あめが ふっても、いきます。",
             "options": [
               "あめが ふったら いきません。",
               "あめが ふらないと いきます。",
-              "あめが ふったら いきます。",
-              "あめが ふりますが、いきます。"
+              "あめが ふりますが、いきます。",
+              "あめが ふったら いきます。"
             ],
-            "correctIndex": 3,
+            "correctIndex": 2,
             "explanation": "Dù trời mưa tôi vẫn đi (Cho dù = ても)."
           },
           {
-            "id": "m_review_21_25_5_m3_q1",
+            "id": "m_review_21_25_5_m3_q2",
             "question": "ねむい 【　　　】、コーヒーを のみます。",
             "options": [
-              "とき",
               "と",
-              "ば",
-              "たら"
+              "とき",
+              "たら",
+              "ば"
             ],
-            "correctIndex": 0,
+            "correctIndex": 1,
             "explanation": "Khi buồn ngủ (ねむい とき)."
+          },
+          {
+            "id": "m_review_21_25_5_m3_q3",
+            "question": "きのうは とても 【　　　】です。",
+            "options": [
+              "ひまだった",
+              "いそがしかった",
+              "ひま",
+              "いそがしい"
+            ],
+            "correctIndex": 1,
+            "explanation": "Hôm qua đã rất bận (いそがしかった)."
           }
         ]
       },
@@ -5024,39 +7112,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_21_25_5_b1_q0",
-            "question": "じかんが なかった（　　　）、ほんを よみません。",
-            "options": [
-              "ば",
-              "から",
-              "たら",
-              "と"
-            ],
-            "correctIndex": 2,
-            "explanation": "Nếu không có thời gian -> なかったら."
-          },
-          {
-            "id": "m_review_21_25_5_b1_q1",
             "question": "これは わたしが （　　　） かばんです。",
             "options": [
-              "かう",
               "かった",
               "かい",
-              "かって"
+              "かって",
+              "かう"
             ],
-            "correctIndex": 1,
+            "correctIndex": 0,
             "explanation": "Mệnh đề bổ nghĩa cho danh từ: かった かばん."
           },
           {
-            "id": "m_review_21_25_5_b1_q2",
+            "id": "m_review_21_25_5_b1_q1",
             "question": "あしたは あめが ふる（　　　） おもいます。",
             "options": [
-              "で",
               "と",
+              "を",
               "に",
-              "を"
+              "で"
             ],
-            "correctIndex": 1,
+            "correctIndex": 0,
             "explanation": "Mẫu câu ～と おもいます (Tôi nghĩ là...)."
+          },
+          {
+            "id": "m_review_21_25_5_b1_q2",
+            "question": "じかんが なかった（　　　）、ほんを よみません。",
+            "options": [
+              "たら",
+              "ば",
+              "から",
+              "と"
+            ],
+            "correctIndex": 0,
+            "explanation": "Nếu không có thời gian -> なかったら."
+          },
+          {
+            "id": "m_review_21_25_5_b1_q3",
+            "question": "わたしは にほんごが はなせる（　　　） に なりました。",
+            "options": [
+              "ところ",
+              "もの",
+              "よう",
+              "こと"
+            ],
+            "correctIndex": 2,
+            "explanation": "Đã có thể nói tiếng Nhật (～ようになる)."
           }
         ]
       },
@@ -5066,27 +7166,27 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_21_25_5_b2_q0",
-            "question": "あの　___ ___ _★_ ___　は だれですか。",
+            "question": "たのしく　___ ___ _★_ ___　と おもいます。",
             "options": [
-              "メガネ",
-              "を",
-              "ひと",
-              "かけている"
+              "ない",
+              "パーティー",
+              "あしたの",
+              "は"
             ],
-            "correctIndex": 3,
-            "explanation": "あの メガネ を かけている ひと は だれですか."
+            "correctIndex": 0,
+            "explanation": "あしたの パーティー は たのしく ない と おもいます."
           },
           {
             "id": "m_review_21_25_5_b2_q1",
-            "question": "たのしく　___ ___ _★_ ___　と おもいます。",
+            "question": "あの　___ ___ _★_ ___　は だれですか。",
             "options": [
-              "あしたの",
-              "パーティー",
-              "ない",
-              "は"
+              "かけている",
+              "メガネ",
+              "ひと",
+              "を"
             ],
-            "correctIndex": 2,
-            "explanation": "あしたの パーティー は たのしく ない と おもいます."
+            "correctIndex": 0,
+            "explanation": "あの メガネ を かけている ひと は だれですか."
           }
         ]
       },
@@ -5104,10 +7204,10 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_21_25_5_d1_q0",
             "question": "（　１　）に入れるものはどれですか。",
             "options": [
-              "あげました",
+              "しました",
               "もらいました",
               "くれました",
-              "しました"
+              "あげました"
             ],
             "correctIndex": 2,
             "explanation": "Bạn bè làm (cho mình) -> つくって くれました."
@@ -5116,10 +7216,10 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_21_25_5_d1_q1",
             "question": "（　２　）に入れるものはどれですか。",
             "options": [
-              "たべた",
+              "たべて",
               "たべる",
               "たべたい",
-              "たべて"
+              "たべた"
             ],
             "correctIndex": 2,
             "explanation": "Tôi nghĩ tôi MONG MUỐN ăn lại -> たべたい."

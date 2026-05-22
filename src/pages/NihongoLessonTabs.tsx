@@ -55,11 +55,21 @@ export function VocabTab({ words, mastery, speak, supported }: {
   speak: (t: string, r?: number) => void; supported: boolean;
 }) {
   const [filter, setFilter] = useState<'all' | 'weak' | 'mastered'>('all');
+  const [searchQuery, setSearchQuery] = useState('');
   const filtered = words.filter(w => {
     const m = getWordMastery(mastery, w.id);
-    if (filter === 'weak') return m.correct < 3 && m.total > 0;
-    if (filter === 'mastered') return m.correct >= 3;
-    return true;
+    let tabMatch = true;
+    if (filter === 'weak') tabMatch = m.correct < 3 && m.total > 0;
+    if (filter === 'mastered') tabMatch = m.correct >= 3;
+    if (!tabMatch) return false;
+
+    if (!searchQuery.trim()) return true;
+    const q = searchQuery.toLowerCase().trim();
+    return (
+      (w.word && w.word.toLowerCase().includes(q)) ||
+      (w.reading && w.reading.toLowerCase().includes(q)) ||
+      (w.meaning && w.meaning.toLowerCase().includes(q))
+    );
   });
   const weakCount = words.filter(w => { const m = getWordMastery(mastery, w.id); return m.correct < 3 && m.total > 0; }).length;
   const masteredCount = words.filter(w => getWordMastery(mastery, w.id).correct >= 3).length;
@@ -82,6 +92,23 @@ export function VocabTab({ words, mastery, speak, supported }: {
             {f.label}
           </button>
         ))}
+        <input 
+          type="text" 
+          placeholder="🔍 Tìm kiếm..." 
+          value={searchQuery}
+          onChange={e => setSearchQuery(e.target.value)}
+          style={{
+            marginLeft: 8,
+            padding: '4px 12px',
+            borderRadius: 20,
+            border: '1px solid var(--border)',
+            background: 'var(--bg)',
+            color: 'var(--text)',
+            fontSize: 13,
+            outline: 'none',
+            width: 150
+          }}
+        />
         <span style={{ marginLeft: 'auto', fontSize: 11, color: 'var(--mute)' }}>
           {filtered.length} từ · 5 thẻ/hàng
         </span>
