@@ -136,7 +136,7 @@ export function NihongoLessonPage({ lessons, onHome, onLessonComplete, sentenceM
     <div className="screen" style={{ padding: '16px 0' }}>
       {/* Header */}
       <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 16, paddingBottom: 12, paddingTop: 16, borderBottom: '1px solid var(--border)', position: 'sticky', top: 50, zIndex: 40, background: 'var(--bg)' }}>
-        <button className="btn-back" onClick={onHome}>← Danh sách bài</button>
+        <button className="btn-back no-print" onClick={onHome}>← Danh sách bài</button>
         <div style={{ flex: 1 }}>
           <div style={{ fontSize: 11, color: 'var(--mute)', fontWeight: 700, letterSpacing: 1 }}>{isCombined ? 'Tổng Ôn Luyện' : lessons[0].chapter}</div>
           <h2 style={{ fontSize: 18, fontWeight: 800, margin: 0 }}>
@@ -144,7 +144,7 @@ export function NihongoLessonPage({ lessons, onHome, onLessonComplete, sentenceM
             <span style={{ fontSize: 13, color: 'var(--mute)', fontWeight: 400 }}>— {isCombined ? 'Review Mode' : lessons[0].titleVn}</span>
           </h2>
         </div>
-        <div style={{ textAlign: 'right' }}>
+        <div className="no-print" style={{ textAlign: 'right' }}>
           <div style={{ fontSize: 16, fontWeight: 700, color: masteredCount === mergedWords.length ? 'var(--green)' : 'var(--gold)' }}>
             {masteredCount}/{mergedWords.length} thuộc
           </div>
