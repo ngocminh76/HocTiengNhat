@@ -482,7 +482,13 @@ const lesson: NihongoLesson = {
       "reading": "ローマじ",
       "romaji": "roomaji",
       "meaning": "Chữ Romaji",
-      "type": "Danh từ"
+      "type": "Danh từ",
+      "kanjiBreakdown": {
+        "hanviet": "TỰ",
+        "components": "字 (Tự)",
+        "story": "Chữ cái.",
+        "examples": "ローマ字 (Chữ Romaji), 漢字 (Hán tự)"
+      }
     },
     {
       "id": "L9_41",

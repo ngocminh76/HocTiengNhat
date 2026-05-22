@@ -444,7 +444,13 @@ const lesson: NihongoLesson = {
       "reading": "しつれいします",
       "romaji": "shitsureishimasu",
       "meaning": "Xin thất lễ / Xin phép",
-      "type": "Mẫu câu"
+      "type": "Mẫu câu",
+      "kanjiBreakdown": {
+        "hanviet": "THẤT LỄ",
+        "components": "失 (Thất) + 礼 (Lễ)",
+        "story": "Mất đi lễ nghĩa, dùng để xin lỗi, xin phép.",
+        "examples": "失礼します (Xin thất lễ)"
+      }
     },
     {
       "id": "L7_43",
@@ -468,7 +474,13 @@ const lesson: NihongoLesson = {
       "reading": "りょこう",
       "romaji": "ryokou",
       "meaning": "Chuyến du lịch",
-      "type": "Danh từ"
+      "type": "Danh từ",
+      "kanjiBreakdown": {
+        "hanviet": "LỮ HÀNH",
+        "components": "旅 (Lữ) + 行 (Hành)",
+        "story": "Chuyến đi xa.",
+        "examples": "旅行 (Du lịch)"
+      }
     },
     {
       "id": "L7_46",
@@ -476,7 +488,13 @@ const lesson: NihongoLesson = {
       "reading": "おみやげ",
       "romaji": "omiyage",
       "meaning": "Quà lưu niệm",
-      "type": "Danh từ"
+      "type": "Danh từ",
+      "kanjiBreakdown": {
+        "hanviet": "THỔ SẢN",
+        "components": "土 (Thổ) + 産 (Sản)",
+        "story": "Sản vật của vùng đất đó.",
+        "examples": "お土産 (Quà lưu niệm)"
+      }
     },
     {
       "id": "L7_47",

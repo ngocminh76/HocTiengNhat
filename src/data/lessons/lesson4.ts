@@ -626,7 +626,13 @@ const lesson: NihongoLesson = {
       "reading": "でんわばんごう",
       "romaji": "denwabangou",
       "meaning": "Số điện thoại",
-      "type": "Danh từ"
+      "type": "Danh từ",
+      "kanjiBreakdown": {
+        "hanviet": "ĐIỆN THOẠI PHIÊN HIỆU",
+        "components": "電 (Điện) + 話 (Thoại) + 番 (Phiên) + 号 (Hiệu)",
+        "story": "Số của máy điện thoại.",
+        "examples": "電話番号 (Số điện thoại)"
+      }
     },
     {
       "id": "L4_36b",
@@ -634,7 +640,13 @@ const lesson: NihongoLesson = {
       "reading": "ばんごうあんない",
       "romaji": "bangouannai",
       "meaning": "Dịch vụ hỏi số điện thoại (116)",
-      "type": "Danh từ"
+      "type": "Danh từ",
+      "kanjiBreakdown": {
+        "hanviet": "PHIÊN HIỆU ÁN NỘI",
+        "components": "番 (Phiên) + 号 (Hiệu) + 案 (Án) + 内 (Nội)",
+        "story": "Dịch vụ hướng dẫn (Án Nội) số điện thoại (Phiên Hiệu).",
+        "examples": "番号案内 (Dịch vụ hỏi số)"
+      }
     },
     {
       "id": "L4_36c",
@@ -642,7 +654,13 @@ const lesson: NihongoLesson = {
       "reading": "おといあわせ",
       "romaji": "otoiawase",
       "meaning": "Số điện thoại cần hỏi, giải đáp thắc mắc",
-      "type": "Danh từ"
+      "type": "Danh từ",
+      "kanjiBreakdown": {
+        "hanviet": "VẤN HỢP",
+        "components": "問 (Vấn) + 合 (Hợp)",
+        "story": "Hỏi han xem có phù hợp không.",
+        "examples": "お問い合わせ (Giải đáp thắc mắc)"
+      }
     },
     {
       "id": "L4_37",

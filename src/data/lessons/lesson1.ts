@@ -28,7 +28,13 @@ const lesson: NihongoLesson = {
       "reading": "わたしたち",
       "romaji": "watashitachi",
       "meaning": "Chúng tôi, chúng ta",
-      "type": "Đại từ"
+      "type": "Đại từ",
+      "kanjiBreakdown": {
+        "hanviet": "TƯ",
+        "components": "私 (Tư)",
+        "story": "Chữ Tư dùng để chỉ bản thân (tôi).",
+        "examples": "私 (Tôi), 私たち (Chúng tôi)"
+      }
     },
     {
       "id": "L1_02",
@@ -58,7 +64,13 @@ const lesson: NihongoLesson = {
       "reading": "あのかた",
       "romaji": "ano kata",
       "meaning": "Vị kia (cách nói lịch sự của あの人)",
-      "type": "Đại từ"
+      "type": "Đại từ",
+      "kanjiBreakdown": {
+        "hanviet": "PHƯƠNG",
+        "components": "方 (Phương)",
+        "story": "Hướng về phương kia.",
+        "examples": "あの方 (Vị kia), 方法 (Phương pháp)"
+      }
     },
     {
       "id": "L1_04",
@@ -252,7 +264,13 @@ const lesson: NihongoLesson = {
       "reading": "でんき",
       "romaji": "denki",
       "meaning": "Điện, đèn điện",
-      "type": "Danh từ"
+      "type": "Danh từ",
+      "kanjiBreakdown": {
+        "hanviet": "ĐIỆN KHÍ",
+        "components": "電 (Điện) + 気 (Khí)",
+        "story": "Luồng khí chạy bằng điện là điện, đèn điện.",
+        "examples": "電気 (Điện, đèn điện), 元気 (Khỏe mạnh)"
+      }
     },
     {
       "id": "L1_17b",
@@ -412,7 +430,13 @@ const lesson: NihongoLesson = {
       "reading": "～さい",
       "romaji": "~sai",
       "meaning": "~ tuổi",
-      "type": "Hậu tố"
+      "type": "Hậu tố",
+      "kanjiBreakdown": {
+        "hanviet": "TUẾ",
+        "components": "歳 (Tuế)",
+        "story": "Chỉ tuổi tác của con người.",
+        "examples": "二十歳 (20 tuổi), 歳 (Tuổi)"
+      }
     },
     {
       "id": "L1_32b",
@@ -420,7 +444,13 @@ const lesson: NihongoLesson = {
       "reading": "なんさい",
       "romaji": "nansai",
       "meaning": "Mấy tuổi, bao nhiêu tuổi",
-      "type": "Từ để hỏi"
+      "type": "Từ để hỏi",
+      "kanjiBreakdown": {
+        "hanviet": "HÀ TUẾ",
+        "components": "何 (Hà) + 歳 (Tuế)",
+        "story": "Hỏi xem bao nhiêu tuổi.",
+        "examples": "何歳 (Bao nhiêu tuổi)"
+      }
     },
     {
       "id": "L1_32c",
@@ -460,7 +490,13 @@ const lesson: NihongoLesson = {
       "reading": "～からきました",
       "romaji": "~kara kimashita",
       "meaning": "Tôi đến từ ~",
-      "type": "Mẫu câu"
+      "type": "Mẫu câu",
+      "kanjiBreakdown": {
+        "hanviet": "LAI",
+        "components": "来 (Lai)",
+        "story": "Hành động đến từ một nơi nào đó.",
+        "examples": "来ます (Đến), 来年 (Năm sau)"
+      }
     },
     {
       "id": "L1_35",

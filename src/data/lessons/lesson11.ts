@@ -508,7 +508,13 @@ const lesson: NihongoLesson = {
       "reading": "おにいさん",
       "romaji": "oniisan",
       "meaning": "Anh trai (của người khác)",
-      "type": "Danh từ"
+      "type": "Danh từ",
+      "kanjiBreakdown": {
+        "hanviet": "HUYNH",
+        "components": "兄 (Huynh)",
+        "story": "Người anh trai trong gia đình.",
+        "examples": "お兄さん (Anh trai), 兄弟 (Huynh đệ)"
+      }
     },
     {
       "id": "L11_42",
@@ -530,7 +536,13 @@ const lesson: NihongoLesson = {
       "reading": "おねえさん",
       "romaji": "oneesan",
       "meaning": "Chị gái (của người khác)",
-      "type": "Danh từ"
+      "type": "Danh từ",
+      "kanjiBreakdown": {
+        "hanviet": "TỶ",
+        "components": "姉 (Tỷ)",
+        "story": "Người chị gái trong gia đình.",
+        "examples": "お姉さん (Chị gái), 姉妹 (Chị em gái)"
+      }
     },
     {
       "id": "L11_44",
@@ -552,7 +564,13 @@ const lesson: NihongoLesson = {
       "reading": "おとうとさん",
       "romaji": "otoutosan",
       "meaning": "Em trai (của người khác)",
-      "type": "Danh từ"
+      "type": "Danh từ",
+      "kanjiBreakdown": {
+        "hanviet": "ĐỆ",
+        "components": "弟 (Đệ)",
+        "story": "Người em trai trong gia đình.",
+        "examples": "弟さん (Em trai), 兄弟 (Huynh đệ)"
+      }
     },
     {
       "id": "L11_46",
@@ -574,7 +592,13 @@ const lesson: NihongoLesson = {
       "reading": "いもうとさん",
       "romaji": "imoutosan",
       "meaning": "Em gái (của người khác)",
-      "type": "Danh từ"
+      "type": "Danh từ",
+      "kanjiBreakdown": {
+        "hanviet": "MUỘI",
+        "components": "妹 (Muội)",
+        "story": "Người em gái trong gia đình.",
+        "examples": "妹さん (Em gái), 姉妹 (Chị em gái)"
+      }
     },
     {
       "id": "L11_48",

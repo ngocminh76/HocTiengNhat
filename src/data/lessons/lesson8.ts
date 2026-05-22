@@ -572,7 +572,13 @@ const lesson: NihongoLesson = {
       "reading": "つめたい",
       "romaji": "tsumetai",
       "meaning": "Lạnh (cảm giác khi chạm vào)",
-      "type": "Tính từ i"
+      "type": "Tính từ i",
+      "kanjiBreakdown": {
+        "hanviet": "LÃNH",
+        "components": "冷 (Lãnh)",
+        "story": "Cảm giác lạnh khi chạm vào.",
+        "examples": "冷たい (Lạnh)"
+      }
     },
     {
       "id": "L8_44",
@@ -580,7 +586,13 @@ const lesson: NihongoLesson = {
       "reading": "やさしい",
       "romaji": "yasashii",
       "meaning": "Dễ",
-      "type": "Tính từ i"
+      "type": "Tính từ i",
+      "kanjiBreakdown": {
+        "hanviet": "DỊCH",
+        "components": "易 (Dịch)",
+        "story": "Việc gì đó dễ dàng.",
+        "examples": "易しい (Dễ)"
+      }
     },
     {
       "id": "L8_45",
@@ -588,7 +600,13 @@ const lesson: NihongoLesson = {
       "reading": "ひくい",
       "romaji": "hikui",
       "meaning": "Thấp",
-      "type": "Tính từ i"
+      "type": "Tính từ i",
+      "kanjiBreakdown": {
+        "hanviet": "ĐÊ",
+        "components": "低 (Đê)",
+        "story": "Vị trí thấp.",
+        "examples": "低い (Thấp)"
+      }
     },
     {
       "id": "L8_46",
@@ -610,7 +628,13 @@ const lesson: NihongoLesson = {
       "reading": "くろい",
       "romaji": "kuroi",
       "meaning": "Màu đen",
-      "type": "Tính từ i"
+      "type": "Tính từ i",
+      "kanjiBreakdown": {
+        "hanviet": "HẮC",
+        "components": "黒 (Hắc)",
+        "story": "Màu đen.",
+        "examples": "黒い (Màu đen)"
+      }
     },
     {
       "id": "L8_48",
@@ -618,7 +642,13 @@ const lesson: NihongoLesson = {
       "reading": "あかい",
       "romaji": "akai",
       "meaning": "Màu đỏ",
-      "type": "Tính từ i"
+      "type": "Tính từ i",
+      "kanjiBreakdown": {
+        "hanviet": "XÍCH",
+        "components": "赤 (Xích)",
+        "story": "Màu đỏ.",
+        "examples": "赤い (Màu đỏ)"
+      }
     },
     {
       "id": "L8_49",
@@ -626,7 +656,13 @@ const lesson: NihongoLesson = {
       "reading": "あおい",
       "romaji": "aoi",
       "meaning": "Màu xanh da trời",
-      "type": "Tính từ i"
+      "type": "Tính từ i",
+      "kanjiBreakdown": {
+        "hanviet": "THANH",
+        "components": "青 (Thanh)",
+        "story": "Màu xanh.",
+        "examples": "青い (Màu xanh)"
+      }
     },
     {
       "id": "L8_50",
@@ -634,7 +670,13 @@ const lesson: NihongoLesson = {
       "reading": "さくら",
       "romaji": "sakura",
       "meaning": "Hoa anh đào",
-      "type": "Danh từ"
+      "type": "Danh từ",
+      "kanjiBreakdown": {
+        "hanviet": "ANH",
+        "components": "桜 (Anh)",
+        "story": "Hoa anh đào.",
+        "examples": "桜 (Hoa anh đào)"
+      }
     },
     {
       "id": "L8_51",
@@ -642,7 +684,13 @@ const lesson: NihongoLesson = {
       "reading": "たべもの",
       "romaji": "tabemono",
       "meaning": "Đồ ăn",
-      "type": "Danh từ"
+      "type": "Danh từ",
+      "kanjiBreakdown": {
+        "hanviet": "THỰC VẬT",
+        "components": "食 (Thực) + 物 (Vật)",
+        "story": "Vật phẩm để ăn.",
+        "examples": "食べ物 (Đồ ăn)"
+      }
     },
     {
       "id": "L8_52",
@@ -650,7 +698,13 @@ const lesson: NihongoLesson = {
       "reading": "べんきょう",
       "romaji": "benkyou",
       "meaning": "Việc học tập",
-      "type": "Danh từ"
+      "type": "Danh từ",
+      "kanjiBreakdown": {
+        "hanviet": "MIỄN CƯỜNG",
+        "components": "勉 (Miễn) + 強 (Cường)",
+        "story": "Cố gắng gượng ép làm việc gì đó.",
+        "examples": "勉強 (Học tập)"
+      }
     },
     {
       "id": "L8_53",
@@ -658,7 +712,13 @@ const lesson: NihongoLesson = {
       "reading": "せいかつ",
       "romaji": "seikatsu",
       "meaning": "Cuộc sống, sinh hoạt",
-      "type": "Danh từ"
+      "type": "Danh từ",
+      "kanjiBreakdown": {
+        "hanviet": "SINH HOẠT",
+        "components": "生 (Sinh) + 活 (Hoạt)",
+        "story": "Hoạt động sống hàng ngày.",
+        "examples": "生活 (Cuộc sống, sinh hoạt)"
+      }
     },
     {
       "id": "L8_54",
@@ -666,7 +726,13 @@ const lesson: NihongoLesson = {
       "reading": "おしごと",
       "romaji": "oshigoto",
       "meaning": "Công việc (thêm お để tôn kính)",
-      "type": "Danh từ"
+      "type": "Danh từ",
+      "kanjiBreakdown": {
+        "hanviet": "SĨ SỰ",
+        "components": "仕 (Sĩ) + 事 (Sự)",
+        "story": "Sự việc của người phục vụ, công việc.",
+        "examples": "お仕事 (Công việc)"
+      }
     },
     {
       "id": "L8_55",

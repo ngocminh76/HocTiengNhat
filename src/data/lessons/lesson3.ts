@@ -332,7 +332,13 @@ const lesson: NihongoLesson = {
       "reading": "〜をみせてください",
       "romaji": "~o misete kudasai",
       "meaning": "Cho tôi xem ~",
-      "type": "Mẫu câu"
+      "type": "Mẫu câu",
+      "kanjiBreakdown": {
+        "hanviet": "KIẾN",
+        "components": "見 (Kiến)",
+        "story": "Hành động nhìn, xem.",
+        "examples": "見ます (Nhìn), 見せます (Cho xem)"
+      }
     },
     {
       "id": "L3_24c",
@@ -638,7 +644,13 @@ const lesson: NihongoLesson = {
       "reading": "しんおおさか",
       "romaji": "shin-oosaka",
       "meaning": "Tên một nhà ga ở Osaka",
-      "type": "Danh từ"
+      "type": "Danh từ",
+      "kanjiBreakdown": {
+        "hanviet": "TÂN ĐẠI PHẢN",
+        "components": "新 (Tân) + 大 (Đại) + 阪 (Phản)",
+        "story": "Nhà ga Shin-Osaka (Tân Đại Phản).",
+        "examples": "新大阪 (Ga Shin-Osaka)"
+      }
     },
     {
       "id": "L3_48",

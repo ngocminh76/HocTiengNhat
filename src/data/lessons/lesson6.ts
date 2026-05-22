@@ -574,7 +574,13 @@ const lesson: NihongoLesson = {
       "reading": "なに",
       "romaji": "nani",
       "meaning": "Cái gì",
-      "type": "Từ hỏi"
+      "type": "Từ hỏi",
+      "kanjiBreakdown": {
+        "hanviet": "HÀ",
+        "components": "何 (Hà)",
+        "story": "Dùng để hỏi cái gì.",
+        "examples": "何 (Cái gì), 何時 (Mấy giờ)"
+      }
     },
     {
       "id": "L6_48",
@@ -622,7 +628,13 @@ const lesson: NihongoLesson = {
       "reading": "なんですか",
       "romaji": "nandesuka",
       "meaning": "Có gì không ạ? / Vâng?",
-      "type": "Mẫu câu"
+      "type": "Mẫu câu",
+      "kanjiBreakdown": {
+        "hanviet": "HÀ",
+        "components": "何 (Hà)",
+        "story": "Dùng để hỏi cái gì.",
+        "examples": "何ですか (Cái gì vậy?)"
+      }
     },
     {
       "id": "L6_54",
