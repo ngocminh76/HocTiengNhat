@@ -311,3 +311,5 @@ button{font-family:inherit;cursor:pointer;border:none}
 
 .print-grid { grid-template-columns: 170px 1fr; }
 @media print { .print-grid { grid-template-columns: 1fr !important; } input::placeholder { color: transparent !important; } }
+
+@media print { @page { margin: 0; } body { padding: 10mm; } }

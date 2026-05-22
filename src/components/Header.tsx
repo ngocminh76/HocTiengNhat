@@ -9,7 +9,7 @@ interface Props {
 export function Header({ progress, onReset }: Props) {
   const { xp, streak, learnedIds } = progress;
   return (
-    <header className="hdr">
+    <header className="hdr no-print">
       <div className="hdr-logo">⛩️ <span>Hành Trình Tiếng Nhật</span></div>
       <div className="hdr-stats">
         <div className="badge">🔥 {streak} ngày</div>
