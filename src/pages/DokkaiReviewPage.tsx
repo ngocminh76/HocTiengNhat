@@ -13,6 +13,7 @@ export function DokkaiReviewPage({ reviewId, onHome, addXP, onComplete }: Props)
   const [answers, setAnswers] = useState<Record<string, number>>({});
   const [submitted, setSubmitted] = useState(false);
   const [timeLeft, setTimeLeft] = useState(20 * 60); // 20 minutes in seconds
+  const [revealedExplanations, setRevealedExplanations] = useState<Record<string, boolean>>({});
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -205,15 +206,40 @@ export function DokkaiReviewPage({ reviewId, onHome, addXP, onComplete }: Props)
                         })}
                       </div>
 
-                      {submitted && (
-                        <div style={{ marginTop: 16, paddingLeft: 32 }}>
-                          {isCorrect ? (
-                            <div style={{ color: 'var(--green)', fontSize: 14, fontWeight: 700 }}>✅ Chính xác!</div>
-                          ) : (
-                            <div style={{ color: 'var(--red)', fontSize: 14, fontWeight: 700 }}>❌ Sai rồi!</div>
+                      <div style={{ display: 'flex', gap: 12, alignItems: 'center', marginTop: 12, paddingLeft: 32 }} className="no-print">
+                        {q.explanation && (
+                          <button
+                            onClick={() => setRevealedExplanations(prev => ({ ...prev, [q.id]: !prev[q.id] }))}
+                            style={{
+                              background: 'transparent',
+                              color: 'var(--gold)',
+                              fontSize: 13,
+                              fontWeight: 600,
+                              cursor: 'pointer',
+                              display: 'inline-flex',
+                              alignItems: 'center',
+                              gap: 6,
+                              padding: '6px 12px',
+                              borderRadius: 20,
+                              transition: 'all 0.15s',
+                              backgroundColor: revealedExplanations[q.id] ? 'rgba(255, 184, 108, 0.1)' : 'rgba(255, 255, 255, 0.02)',
+                              border: '1px solid rgba(255, 184, 108, 0.2)'
+                            }}
+                          >
+                            💡 {revealedExplanations[q.id] ? 'Ẩn giải thích' : 'Xem gợi ý / giải thích'}
+                          </button>
+                        )}
+                      </div>
+
+                      {(submitted || revealedExplanations[q.id]) && (
+                        <div style={{ marginTop: 12, paddingLeft: 32 }}>
+                          {submitted && (
+                            <div style={{ color: isCorrect ? 'var(--green)' : 'var(--red)', fontSize: 14, fontWeight: 700, marginBottom: 8 }}>
+                              {isCorrect ? '✅ Chính xác!' : '❌ Sai rồi!'}
+                            </div>
                           )}
                           {q.explanation && (
-                            <div style={{ marginTop: 8, fontSize: 13, color: 'var(--mute)', background: 'rgba(255,255,255,0.05)', padding: '12px', borderRadius: 8 }}>
+                            <div style={{ fontSize: 13, color: 'var(--mute)', background: 'rgba(255,255,255,0.04)', padding: '14px', borderRadius: 8, borderLeft: '3px solid var(--gold)', lineHeight: 1.5 }}>
                               <strong>Giải thích:</strong> {q.explanation}
                             </div>
                           )}

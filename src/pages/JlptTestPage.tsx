@@ -14,6 +14,7 @@ export function JlptTestPage({ test, onBack, onHome }: Props) {
   const [submitted, setSubmitted] = useState(false);
   const [timeLeft, setTimeLeft] = useState(25 * 60); // 25 minutes limit
   const { speak, supported } = useSpeech();
+  const [revealedExplanations, setRevealedExplanations] = useState<Record<string, boolean>>({});
 
   useEffect(() => {
     if (submitted || timeLeft <= 0) return;
@@ -220,14 +221,41 @@ export function JlptTestPage({ test, onBack, onHome }: Props) {
                 })}
               </div>
 
-              {submitted && (
-                <div style={{ marginTop: 20, background: 'var(--bg)', border: '1px solid var(--border)', borderRadius: 12, overflow: 'hidden' }}>
-                  <div style={{ padding: '12px 16px', background: 'rgba(255,255,255,0.02)', borderBottom: '1px solid var(--border)', display: 'flex', alignItems: 'center', gap: 8 }}>
-                    <strong style={{ color: answers[q.id] === q.answer ? 'var(--green)' : 'var(--red)' }}>
-                      {answers[q.id] === q.answer ? '✅ Đúng' : '❌ Sai'} 
-                    </strong>
-                    <span style={{ color: 'var(--mute)', fontSize: 13 }}>| Giải thích chi tiết</span>
-                  </div>
+              <div style={{ display: 'flex', gap: 12, alignItems: 'center', marginTop: 16 }} className="no-print">
+                {q.explanation && (
+                  <button
+                    onClick={() => setRevealedExplanations(prev => ({ ...prev, [q.id]: !prev[q.id] }))}
+                    style={{
+                      background: 'transparent',
+                      color: 'var(--gold)',
+                      fontSize: 13,
+                      fontWeight: 600,
+                      cursor: 'pointer',
+                      display: 'inline-flex',
+                      alignItems: 'center',
+                      gap: 6,
+                      padding: '6px 12px',
+                      borderRadius: 20,
+                      transition: 'all 0.15s',
+                      backgroundColor: revealedExplanations[q.id] ? 'rgba(255, 184, 108, 0.1)' : 'rgba(255, 255, 255, 0.02)',
+                      border: '1px solid rgba(255, 184, 108, 0.2)'
+                    }}
+                  >
+                    💡 {revealedExplanations[q.id] ? 'Ẩn giải thích' : 'Xem gợi ý / giải thích'}
+                  </button>
+                )}
+              </div>
+
+              {(submitted || revealedExplanations[q.id]) && (
+                <div style={{ marginTop: 16, background: 'var(--bg)', border: '1px solid var(--border)', borderRadius: 12, overflow: 'hidden' }}>
+                  {submitted && (
+                    <div style={{ padding: '12px 16px', background: 'rgba(255,255,255,0.02)', borderBottom: '1px solid var(--border)', display: 'flex', alignItems: 'center', gap: 8 }}>
+                      <strong style={{ color: answers[q.id] === q.answer ? 'var(--green)' : 'var(--red)' }}>
+                        {answers[q.id] === q.answer ? '✅ Đúng' : '❌ Sai'} 
+                      </strong>
+                      <span style={{ color: 'var(--mute)', fontSize: 13 }}>| Kết quả bài làm</span>
+                    </div>
+                  )}
                   <div style={{ padding: 16, fontSize: 14, lineHeight: 1.6 }}>
                     {q.translation && (
                       <div style={{ marginBottom: 12 }}>
