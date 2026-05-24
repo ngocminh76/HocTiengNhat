@@ -70,13 +70,21 @@ export function DokkaiReviewPage({ reviewId, onHome, addXP, onComplete }: Props)
   };
 
   let globalQuestionIndex = 1;
-  const isPassed = submitted && Object.values(answers).reduce((acc, _, idx) => {
-      let qList: any[] = [];
-      review.passages.forEach(p => qList = qList.concat(p.questions));
-      const q = qList[idx];
-      if (answers[q.id] === q.correctIndex) return acc + 1;
-      return acc;
-  }, 0) >= 15;
+  
+  // Flat list of all questions in the review
+  const allQuestions = React.useMemo(() => {
+    let qList: any[] = [];
+    review.passages.forEach(p => {
+      qList = qList.concat(p.questions);
+    });
+    return qList;
+  }, [review]);
+
+  const correctCount = React.useMemo(() => {
+    return allQuestions.filter(q => answers[q.id] === q.correctIndex).length;
+  }, [allQuestions, answers]);
+
+  const isPassed = submitted && correctCount >= 15;
 
   return (
     <div className="screen" style={{ padding: '16px 0', height: '100vh', display: 'flex', flexDirection: 'column' }}>
@@ -291,14 +299,8 @@ export function DokkaiReviewPage({ reviewId, onHome, addXP, onComplete }: Props)
               {isPassed ? 'HOÀN THÀNH XUẤT SẮC!' : 'CẦN CỐ GẮNG THÊM!'}
             </div>
             <div style={{ fontSize: 16, color: 'var(--text)', marginBottom: 24 }}>
-              Bạn đã làm đúng <strong>{Object.values(answers).reduce((acc, _, idx) => {
-                  let qList: any[] = [];
-                  review.passages.forEach(p => qList = qList.concat(p.questions));
-                  const q = qList[idx];
-                  if (answers[q.id] === q.correctIndex) return acc + 1;
-                  return acc;
-              }, 0)} / 21</strong> câu. 
-              {!isPassed && ' (Cần đạt 15/21 để qua ải)'}
+              Bạn đã làm đúng <strong>{correctCount} / {allQuestions.length}</strong> câu. 
+              {!isPassed && ` (Cần đạt 15/${allQuestions.length} để qua ải)`}
             </div>
             <button 
               className={isPassed ? "btn btn-primary" : "btn btn-ghost"}
