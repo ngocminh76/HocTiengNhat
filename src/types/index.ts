@@ -159,3 +159,26 @@ export interface ParticleQuestion {
     [key: string]: string | undefined; // Other components if any
   };
 }
+
+export interface DokkaiQuestion {
+  id: string;
+  question: string;
+  options: string[];
+  correctIndex: number;
+  explanation?: string;
+}
+
+export interface DokkaiPassage {
+  id: string;
+  type: 'moji_mondai1' | 'moji_mondai2' | 'moji_mondai3' | 'mondai1' | 'mondai2' | 'mondai3' | 'mondai4' | 'mondai5' | 'mondai6';
+  text?: string[];
+  htmlContent?: string;
+  questions: DokkaiQuestion[];
+}
+
+export interface DokkaiReview {
+  id: string;
+  title: string;
+  description: string;
+  passages: DokkaiPassage[];
+}

@@ -8,6 +8,48 @@ interface Props {
   onComplete?: (isPassed: boolean, score: number) => void;
 }
 
+const PASSAGE_TRANSLATIONS: Record<string, string[]> = {
+  'review_1_5': [
+    'Hôm qua là sinh nhật của tôi.',
+    'Tôi đã đi đến nhà hàng cùng với bạn bè. (1)',
+    'Chúng tôi đã ăn bữa ăn ngon ở nhà hàng.',
+    'Sau đó, chúng tôi đã xem phim. (2) Nó đã rất vui.'
+  ],
+  'review_6_10': [
+    'Hôm nay là sinh nhật của tôi.',
+    'Buổi sáng, tôi đã nhận được quà từ mẹ. Đó là một chiếc áo sơ mi và một chiếc mũ.',
+    'Áo sơ mi màu trắng. Mũ màu đen.',
+    'Buổi tối, tôi cùng gia đình đi ăn tối tại nhà hàng.'
+  ],
+  'review_11_15': [
+    'Gia đình của tôi có 4 người.',
+    'Anh trai tôi là sinh viên đại học. Hiện tại đang sống ở Tokyo. (1)',
+    'Tôi là học sinh cấp ba (trung học phổ thông).',
+    'Sang năm tôi muốn vào đại học. (2)'
+  ],
+  'review_16_20': [
+    'Tôi thức dậy lúc 6 giờ mỗi sáng.',
+    'Trước khi ăn sáng, tôi chạy bộ. (1)',
+    'Chạy bộ là sở thích của tôi.',
+    'Và sau khi tắm vòi hoa sen, tôi ăn cơm.'
+  ],
+  'review_21_25': [
+    'Hôm qua tôi đã đến nhà bạn bè chơi.',
+    'Bạn tôi đã làm bánh kem ngon cho tôi ăn. (1)',
+    'Bánh đã rất ngon.',
+    'Tôi nghĩ là mình muốn ăn bánh kem lại lần nữa. (2)'
+  ]
+};
+
+const getPassageTranslation = (reviewId: string) => {
+  if (reviewId.startsWith('review_1_5_')) return PASSAGE_TRANSLATIONS['review_1_5'];
+  if (reviewId.startsWith('review_6_10_')) return PASSAGE_TRANSLATIONS['review_6_10'];
+  if (reviewId.startsWith('review_11_15_')) return PASSAGE_TRANSLATIONS['review_11_15'];
+  if (reviewId.startsWith('review_16_20_')) return PASSAGE_TRANSLATIONS['review_16_20'];
+  if (reviewId.startsWith('review_21_25_')) return PASSAGE_TRANSLATIONS['review_21_25'];
+  return null;
+};
+
 export function DokkaiReviewPage({ reviewId, onHome, addXP, onComplete }: Props) {
   const review = DOKKAI_REVIEWS.find(r => r.id === reviewId);
   const [answers, setAnswers] = useState<Record<string, number>>({});
@@ -146,17 +188,37 @@ export function DokkaiReviewPage({ reviewId, onHome, addXP, onComplete }: Props)
               </div>
 
               {/* Passage Content */}
-              <div style={{ marginBottom: 24 }}>
-                {passage.htmlContent ? (
-                  <div dangerouslySetInnerHTML={{ __html: passage.htmlContent }} />
-                ) : (
-                  <div style={{ fontSize: 18, lineHeight: 1.8, color: 'var(--text)', background: 'rgba(255,255,255,0.02)', padding: '16px', borderRadius: 8, borderLeft: '4px solid #64b5f6' }}>
-                    {passage.text?.map((para, i) => (
-                      <p key={i} style={{ margin: '0 0 12px 0' }}>{para}</p>
-                    ))}
-                  </div>
-                )}
-              </div>
+              {(passage.text || passage.htmlContent) && (
+                <div style={{ marginBottom: 24 }}>
+                  {passage.htmlContent ? (
+                    <div dangerouslySetInnerHTML={{ __html: passage.htmlContent }} />
+                  ) : (() => {
+                    const translation = getPassageTranslation(reviewId);
+                    return translation ? (
+                      <div className="passage-row">
+                        <div className="passage-col" style={{ fontSize: 18, lineHeight: 1.8, color: 'var(--text)', background: 'rgba(122, 162, 247, 0.02)', padding: '20px', borderRadius: 12, borderLeft: '4px solid var(--blue)' }}>
+                          <div style={{ fontSize: 13, fontWeight: 800, color: 'var(--blue)', marginBottom: 12, textTransform: 'uppercase', letterSpacing: 0.5 }}>Đoạn văn chính (日本語)</div>
+                          {passage.text?.map((para, i) => (
+                            <p key={i} style={{ margin: '0 0 12px 0' }}>{para}</p>
+                          ))}
+                        </div>
+                        <div className="passage-col" style={{ fontSize: 16, lineHeight: 1.8, color: 'var(--text)', background: 'rgba(255, 184, 108, 0.02)', padding: '20px', borderRadius: 12, borderLeft: '4px solid var(--gold)', fontStyle: 'italic' }}>
+                          <div style={{ fontSize: 13, fontWeight: 800, color: 'var(--gold)', marginBottom: 12, textTransform: 'uppercase', letterSpacing: 0.5, fontStyle: 'normal' }}>Dịch nghĩa (Tiếng Việt)</div>
+                          {translation.map((para, i) => (
+                            <p key={i} style={{ margin: '0 0 12px 0' }}>{para}</p>
+                          ))}
+                        </div>
+                      </div>
+                    ) : (
+                      <div style={{ fontSize: 18, lineHeight: 1.8, color: 'var(--text)', background: 'rgba(255,255,255,0.02)', padding: '16px', borderRadius: 8, borderLeft: '4px solid #64b5f6' }}>
+                        {passage.text?.map((para, i) => (
+                          <p key={i} style={{ margin: '0 0 12px 0' }}>{para}</p>
+                        ))}
+                      </div>
+                    );
+                  })()}
+                </div>
+              )}
 
               {/* Questions */}
               <div style={{ display: 'flex', flexDirection: 'column', gap: 24 }}>
