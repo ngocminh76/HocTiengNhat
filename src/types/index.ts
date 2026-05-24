@@ -172,6 +172,8 @@ export interface DokkaiPassage {
   id: string;
   type: 'moji_mondai1' | 'moji_mondai2' | 'moji_mondai3' | 'mondai1' | 'mondai2' | 'mondai3' | 'mondai4' | 'mondai5' | 'mondai6';
   text?: string[];
+  translation?: string[];
+  vocabulary?: string[];
   htmlContent?: string;
   questions: DokkaiQuestion[];
 }

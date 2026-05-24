@@ -276,8 +276,8 @@ export function DokkaiReviewPage({ reviewId, onHome, addXP, onComplete }: Props)
                   {passage.htmlContent ? (
                     <div dangerouslySetInnerHTML={{ __html: passage.htmlContent }} />
                   ) : (() => {
-                    const translation = getPassageTranslation(review.id);
-                    const vocabulary = getPassageVocabulary(review.id);
+                    const translation = passage.translation || getPassageTranslation(review.id);
+                    const vocabulary = passage.vocabulary || getPassageVocabulary(review.id);
                     return translation ? (
                       <div style={{ display: 'flex', gap: '24px', flexWrap: 'wrap', width: '100%' }}>
                         {/* Cột 1: Đoạn văn chính */}
