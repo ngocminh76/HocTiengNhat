@@ -158,93 +158,109 @@ export function DokkaiReviewPage({ reviewId, onHome, addXP, onComplete }: Props)
                   const isCorrect = answers[q.id] === q.correctIndex;
 
                   return (
-                    <div key={q.id}>
-                      <div style={{ fontSize: 16, fontWeight: 700, marginBottom: 12 }}>
-                        <span style={{ display: 'inline-block', background: 'var(--text)', color: 'var(--bg)', borderRadius: '50%', width: 24, height: 24, textAlign: 'center', lineHeight: '24px', fontSize: 14, marginRight: 8 }}>
-                          {qNum}
-                        </span>
-                        {q.question}
-                      </div>
+                    <div key={q.id} style={{ borderBottom: '1px solid rgba(255,255,255,0.05)', paddingBottom: 24, marginBottom: 12 }}>
+                      <div className="q-row">
+                        {/* Left column: Question, Options, Button */}
+                        <div className="q-col-left">
+                          <div style={{ fontSize: 16, fontWeight: 700, marginBottom: 12 }}>
+                            <span style={{ display: 'inline-block', background: 'var(--text)', color: 'var(--bg)', borderRadius: '50%', width: 24, height: 24, textAlign: 'center', lineHeight: '24px', fontSize: 14, marginRight: 8 }}>
+                              {qNum}
+                            </span>
+                            {q.question}
+                          </div>
 
-                      <div style={{ display: 'flex', flexDirection: 'column', gap: 8, paddingLeft: 32 }}>
-                        {q.options.map((opt, oIdx) => {
-                          const isSelected = answers[q.id] === oIdx;
-                          let bg = 'var(--surface-alt)';
-                          let border = '1px solid var(--border)';
-                          
-                          if (submitted) {
-                            if (oIdx === q.correctIndex) {
-                              bg = 'rgba(6,214,160,0.1)';
-                              border = '1px solid var(--green)';
-                            } else if (isSelected) {
-                              bg = 'rgba(239,71,111,0.1)';
-                              border = '1px solid var(--red)';
-                            }
-                          } else if (isSelected) {
-                            bg = 'rgba(100,181,246,0.1)';
-                            border = '1px solid #64b5f6';
-                          }
+                          <div style={{ display: 'flex', flexDirection: 'column', gap: 8, paddingLeft: 32 }}>
+                            {q.options.map((opt, oIdx) => {
+                              const isSelected = answers[q.id] === oIdx;
+                              let bg = 'var(--surface-alt)';
+                              let border = '1px solid var(--border)';
+                              
+                              if (submitted) {
+                                  if (oIdx === q.correctIndex) {
+                                    bg = 'rgba(6,214,160,0.1)';
+                                    border = '1px solid var(--green)';
+                                  } else if (isSelected) {
+                                    bg = 'rgba(239,71,111,0.1)';
+                                    border = '1px solid var(--red)';
+                                  }
+                              } else if (isSelected) {
+                                bg = 'rgba(100,181,246,0.1)';
+                                border = '1px solid #64b5f6';
+                              }
 
-                          return (
-                            <button
-                              key={oIdx}
-                              onClick={() => handleSelect(q.id, oIdx)}
-                              style={{
-                                display: 'flex', alignItems: 'center', gap: 12,
-                                padding: '12px 16px', borderRadius: 8,
-                                background: bg, border: border,
-                                textAlign: 'left', cursor: submitted ? 'default' : 'pointer',
-                                transition: 'all 0.2s', color: 'var(--text)'
-                              }}
-                            >
-                              <div style={{ width: 24, height: 24, borderRadius: '50%', border: `2px solid ${isSelected ? (submitted ? (isCorrect ? 'var(--green)' : 'var(--red)') : '#64b5f6') : 'var(--mute)'}`, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                                {isSelected && <div style={{ width: 12, height: 12, borderRadius: '50%', background: submitted ? (isCorrect ? 'var(--green)' : 'var(--red)') : '#64b5f6' }} />}
-                              </div>
-                              <span style={{ fontSize: 16 }}>{opt}</span>
-                            </button>
-                          );
-                        })}
-                      </div>
+                              return (
+                                <button
+                                  key={oIdx}
+                                  onClick={() => handleSelect(q.id, oIdx)}
+                                  style={{
+                                    display: 'flex', alignItems: 'center', gap: 12,
+                                    padding: '12px 16px', borderRadius: 8,
+                                    background: bg, border: border,
+                                    textAlign: 'left', cursor: submitted ? 'default' : 'pointer',
+                                    transition: 'all 0.2s', color: 'var(--text)',
+                                    width: '100%'
+                                  }}
+                                >
+                                  <div style={{ width: 24, height: 24, borderRadius: '50%', border: `2px solid ${isSelected ? (submitted ? (isCorrect ? 'var(--green)' : 'var(--red)') : '#64b5f6') : 'var(--mute)'}`, display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
+                                    {isSelected && <div style={{ width: 12, height: 12, borderRadius: '50%', background: submitted ? (isCorrect ? 'var(--green)' : 'var(--red)') : '#64b5f6' }} />}
+                                  </div>
+                                  <span style={{ fontSize: 16 }}>{opt}</span>
+                                </button>
+                              );
+                            })}
+                          </div>
 
-                      <div style={{ display: 'flex', gap: 12, alignItems: 'center', marginTop: 12, paddingLeft: 32 }} className="no-print">
-                        {q.explanation && (
-                          <button
-                            onClick={() => setRevealedExplanations(prev => ({ ...prev, [q.id]: !prev[q.id] }))}
-                            style={{
-                              background: 'transparent',
-                              color: 'var(--gold)',
-                              fontSize: 13,
-                              fontWeight: 600,
-                              cursor: 'pointer',
-                              display: 'inline-flex',
-                              alignItems: 'center',
-                              gap: 6,
-                              padding: '6px 12px',
-                              borderRadius: 20,
-                              transition: 'all 0.15s',
-                              backgroundColor: revealedExplanations[q.id] ? 'rgba(255, 184, 108, 0.1)' : 'rgba(255, 255, 255, 0.02)',
-                              border: '1px solid rgba(255, 184, 108, 0.2)'
-                            }}
-                          >
-                            💡 {revealedExplanations[q.id] ? 'Ẩn giải thích' : 'Xem gợi ý / giải thích'}
-                          </button>
+                          <div style={{ display: 'flex', gap: 12, alignItems: 'center', marginTop: 16, paddingLeft: 32 }} className="no-print">
+                            {q.explanation && (
+                              <button
+                                onClick={() => setRevealedExplanations(prev => ({ ...prev, [q.id]: !prev[q.id] }))}
+                                style={{
+                                  background: 'transparent',
+                                  color: 'var(--gold)',
+                                  fontSize: 13,
+                                  fontWeight: 600,
+                                  cursor: 'pointer',
+                                  display: 'inline-flex',
+                                  alignItems: 'center',
+                                  gap: 6,
+                                  padding: '6px 12px',
+                                  borderRadius: 20,
+                                  transition: 'all 0.15s',
+                                  backgroundColor: revealedExplanations[q.id] ? 'rgba(255, 184, 108, 0.1)' : 'rgba(255, 255, 255, 0.02)',
+                                  border: '1px solid rgba(255, 184, 108, 0.2)'
+                                }}
+                              >
+                                💡 {revealedExplanations[q.id] ? 'Ẩn giải thích' : 'Xem gợi ý / giải thích'}
+                              </button>
+                            )}
+                          </div>
+                        </div>
+
+                        {/* Right column: Explanation or Placeholder */}
+                        {submitted || revealedExplanations[q.id] ? (
+                          <div className="q-col-right">
+                            <div style={{ background: 'rgba(255,255,255,0.02)', border: '1px solid var(--border)', borderRadius: 12, padding: '16px', height: '100%', boxSizing: 'border-box' }}>
+                              {submitted && (
+                                <div style={{ color: isCorrect ? 'var(--green)' : 'var(--red)', fontSize: 14, fontWeight: 700, marginBottom: 12 }}>
+                                  {isCorrect ? '✅ Chính xác!' : '❌ Sai rồi!'}
+                                </div>
+                              )}
+                              {q.explanation && (
+                                <div style={{ fontSize: 13, color: 'var(--mute)', lineHeight: 1.5, whiteSpace: 'pre-wrap' }}>
+                                  <strong style={{ color: 'var(--gold)', fontSize: 14 }}>💡 Giải thích chi tiết:</strong><br />{q.explanation}
+                                </div>
+                              )}
+                            </div>
+                          </div>
+                        ) : (
+                          <div className="q-col-right q-col-right-placeholder">
+                            <div className="q-placeholder">
+                              <span style={{ fontSize: 24, marginBottom: 8 }}>💡</span>
+                              <span style={{ fontSize: 13 }}>Nhấn nút "Xem gợi ý" để xem giải thích chi tiết tại đây.</span>
+                            </div>
+                          </div>
                         )}
                       </div>
-
-                      {(submitted || revealedExplanations[q.id]) && (
-                        <div style={{ marginTop: 12, paddingLeft: 32 }}>
-                          {submitted && (
-                            <div style={{ color: isCorrect ? 'var(--green)' : 'var(--red)', fontSize: 14, fontWeight: 700, marginBottom: 8 }}>
-                              {isCorrect ? '✅ Chính xác!' : '❌ Sai rồi!'}
-                            </div>
-                          )}
-                          {q.explanation && (
-                            <div style={{ fontSize: 13, color: 'var(--mute)', background: 'rgba(255,255,255,0.04)', padding: '14px', borderRadius: 8, borderLeft: '3px solid var(--gold)', lineHeight: 1.5, whiteSpace: 'pre-wrap' }}>
-                              <strong>Giải thích:</strong><br />{q.explanation}
-                            </div>
-                          )}
-                        </div>
-                      )}
                     </div>
                   );
                 })}

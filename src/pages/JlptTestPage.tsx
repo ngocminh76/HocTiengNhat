@@ -86,7 +86,7 @@ export function JlptTestPage({ test, onBack, onHome }: Props) {
         ⏱ {formatTime(timeLeft)}
       </div>
 
-      <div style={{ maxWidth: 680, margin: '0 auto' }}>
+      <div style={{ maxWidth: 1000, margin: '0 auto' }}>
         {submitted && (
           <div style={{ 
             background: score === test.questions.length ? 'rgba(76, 175, 80, 0.1)' : 'rgba(255, 152, 0, 0.1)',
@@ -143,131 +143,148 @@ export function JlptTestPage({ test, onBack, onHome }: Props) {
                 </div>
               )}
 
-              {q.type === 'listening' ? (
-                <div style={{ textAlign: 'center', marginBottom: 20 }}>
-                  <button 
-                    className="btn" 
-                    style={{ padding: '16px 32px', fontSize: 24, borderRadius: 100, background: 'var(--primary-fade)', color: 'var(--primary)', border: '2px solid var(--primary)' }}
-                    onClick={() => {
-                      const textToSpeak = q.question.split('|')[1] || q.question.split('|')[0];
-                      speak(textToSpeak, 0.9);
-                    }}
-                  >
-                    ▶ Phát Âm Thanh
-                  </button>
-                  <p style={{ marginTop: 12, color: 'var(--mute)' }}>Nghe và chọn từ vựng tiếng Nhật tương ứng.</p>
-                </div>
-              ) : (
-                <div style={{ fontSize: 18, fontWeight: 500, marginBottom: 20, lineHeight: 1.5, whiteSpace: 'pre-wrap' }}>
-                  {q.question}
-                </div>
-              )}
-
-              <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 12 }}>
-                {q.options.map((opt, optIndex) => {
-                  const isSelected = answers[q.id] === opt;
-                  const isCorrect = opt === q.answer;
-                  
-                  let bg = 'rgba(255,255,255,0.03)';
-                  let borderColor = 'var(--border)';
-                  let color = 'inherit';
-
-                  if (submitted) {
-                    if (isCorrect) {
-                      bg = 'rgba(76, 175, 80, 0.1)';
-                      borderColor = 'var(--green)';
-                      color = 'var(--green)';
-                    } else if (isSelected) {
-                      bg = 'rgba(244, 67, 54, 0.1)';
-                      borderColor = 'var(--red)';
-                      color = 'var(--red)';
-                    }
-                  } else if (isSelected) {
-                    bg = 'var(--primary-fade)';
-                    borderColor = 'var(--primary)';
-                    color = 'var(--primary)';
-                  }
-
-                  return (
-                    <button key={optIndex}
-                      onClick={() => handleSelect(q.id, opt)}
-                      disabled={submitted}
-                      style={{
-                        padding: '12px 16px',
-                        background: bg,
-                        border: `1px solid ${borderColor}`,
-                        color: color,
-                        borderRadius: 8,
-                        fontSize: 15,
-                        textAlign: 'left',
-                        cursor: submitted ? 'default' : 'pointer',
-                        transition: 'all 0.2s',
-                        display: 'flex',
-                        alignItems: 'center',
-                        gap: 12
-                      }}
-                    >
-                      <div style={{ 
-                        width: 24, height: 24, borderRadius: '50%', 
-                        border: `1px solid ${isSelected || (submitted && isCorrect) ? 'currentColor' : 'var(--mute)'}`,
-                        display: 'flex', alignItems: 'center', justifyContent: 'center',
-                        fontSize: 12, flexShrink: 0
-                      }}>
-                        {submitted && isCorrect ? '✓' : submitted && isSelected ? '✕' : isSelected ? '●' : ''}
-                      </div>
-                      {opt}
-                    </button>
-                  );
-                })}
-              </div>
-
-              <div style={{ display: 'flex', gap: 12, alignItems: 'center', marginTop: 16 }} className="no-print">
-                {q.explanation && (
-                  <button
-                    onClick={() => setRevealedExplanations(prev => ({ ...prev, [q.id]: !prev[q.id] }))}
-                    style={{
-                      background: 'transparent',
-                      color: 'var(--gold)',
-                      fontSize: 13,
-                      fontWeight: 600,
-                      cursor: 'pointer',
-                      display: 'inline-flex',
-                      alignItems: 'center',
-                      gap: 6,
-                      padding: '6px 12px',
-                      borderRadius: 20,
-                      transition: 'all 0.15s',
-                      backgroundColor: revealedExplanations[q.id] ? 'rgba(255, 184, 108, 0.1)' : 'rgba(255, 255, 255, 0.02)',
-                      border: '1px solid rgba(255, 184, 108, 0.2)'
-                    }}
-                  >
-                    💡 {revealedExplanations[q.id] ? 'Ẩn giải thích' : 'Xem gợi ý / giải thích'}
-                  </button>
-                )}
-              </div>
-
-              {(submitted || revealedExplanations[q.id]) && (
-                <div style={{ marginTop: 16, background: 'var(--bg)', border: '1px solid var(--border)', borderRadius: 12, overflow: 'hidden' }}>
-                  {submitted && (
-                    <div style={{ padding: '12px 16px', background: 'rgba(255,255,255,0.02)', borderBottom: '1px solid var(--border)', display: 'flex', alignItems: 'center', gap: 8 }}>
-                      <strong style={{ color: answers[q.id] === q.answer ? 'var(--green)' : 'var(--red)' }}>
-                        {answers[q.id] === q.answer ? '✅ Đúng' : '❌ Sai'} 
-                      </strong>
-                      <span style={{ color: 'var(--mute)', fontSize: 13 }}>| Kết quả bài làm</span>
+              <div className="q-row">
+                <div className="q-col-left">
+                  {q.type === 'listening' ? (
+                    <div style={{ textAlign: 'center', marginBottom: 20 }}>
+                      <button 
+                        className="btn" 
+                        style={{ padding: '16px 32px', fontSize: 24, borderRadius: 100, background: 'var(--primary-fade)', color: 'var(--primary)', border: '2px solid var(--primary)' }}
+                        onClick={() => {
+                          const textToSpeak = q.question.split('|')[1] || q.question.split('|')[0];
+                          speak(textToSpeak, 0.9);
+                        }}
+                      >
+                        ▶ Phát Âm Thanh
+                      </button>
+                      <p style={{ marginTop: 12, color: 'var(--mute)', fontSize: 14 }}>Nghe và chọn từ vựng tiếng Nhật tương ứng.</p>
+                    </div>
+                  ) : (
+                    <div style={{ fontSize: 18, fontWeight: 500, marginBottom: 20, lineHeight: 1.5, whiteSpace: 'pre-wrap' }}>
+                      {q.question}
                     </div>
                   )}
-                  <div style={{ padding: 16, fontSize: 14, lineHeight: 1.6, whiteSpace: 'pre-wrap' }}>
-                    {q.translation && (
-                      <div style={{ marginBottom: 12 }}>
-                        <strong style={{ color: 'var(--gold)' }}>Dịch nghĩa:</strong> {q.translation}
-                      </div>
+
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
+                    {q.options.map((opt, optIndex) => {
+                      const isSelected = answers[q.id] === opt;
+                      const isCorrect = opt === q.answer;
+                      
+                      let bg = 'rgba(255,255,255,0.03)';
+                      let borderColor = 'var(--border)';
+                      let color = 'inherit';
+
+                      if (submitted) {
+                        if (isCorrect) {
+                          bg = 'rgba(76, 175, 80, 0.1)';
+                          borderColor = 'var(--green)';
+                          color = 'var(--green)';
+                        } else if (isSelected) {
+                          bg = 'rgba(244, 67, 54, 0.1)';
+                          borderColor = 'var(--red)';
+                          color = 'var(--red)';
+                        }
+                      } else if (isSelected) {
+                        bg = 'var(--primary-fade)';
+                        borderColor = 'var(--primary)';
+                        color = 'var(--primary)';
+                      }
+
+                      return (
+                        <button key={optIndex}
+                          onClick={() => handleSelect(q.id, opt)}
+                          disabled={submitted}
+                          style={{
+                            padding: '12px 16px',
+                            background: bg,
+                            border: `1px solid ${borderColor}`,
+                            color: color,
+                            borderRadius: 8,
+                            fontSize: 15,
+                            textAlign: 'left',
+                            cursor: submitted ? 'default' : 'pointer',
+                            transition: 'all 0.2s',
+                            display: 'flex',
+                            alignItems: 'center',
+                            gap: 12,
+                            width: '100%'
+                          }}
+                        >
+                          <div style={{ 
+                            width: 24, height: 24, borderRadius: '50%', 
+                            border: `1px solid ${isSelected || (submitted && isCorrect) ? 'currentColor' : 'var(--mute)'}`,
+                            display: 'flex', alignItems: 'center', justifyContent: 'center',
+                            fontSize: 12, flexShrink: 0
+                          }}>
+                            {submitted && isCorrect ? '✓' : submitted && isSelected ? '✕' : isSelected ? '●' : ''}
+                          </div>
+                          {opt}
+                        </button>
+                      );
+                    })}
+                  </div>
+
+                  <div style={{ display: 'flex', gap: 12, alignItems: 'center', marginTop: 16 }} className="no-print">
+                    {q.explanation && (
+                      <button
+                        onClick={() => setRevealedExplanations(prev => ({ ...prev, [q.id]: !prev[q.id] }))}
+                        style={{
+                          background: 'transparent',
+                          color: 'var(--gold)',
+                          fontSize: 13,
+                          fontWeight: 600,
+                          cursor: 'pointer',
+                          display: 'inline-flex',
+                          alignItems: 'center',
+                          gap: 6,
+                          padding: '6px 12px',
+                          borderRadius: 20,
+                          transition: 'all 0.15s',
+                          backgroundColor: revealedExplanations[q.id] ? 'rgba(255, 184, 108, 0.1)' : 'rgba(255, 255, 255, 0.02)',
+                          border: '1px solid rgba(255, 184, 108, 0.2)'
+                        }}
+                      >
+                        💡 {revealedExplanations[q.id] ? 'Ẩn giải thích' : 'Xem gợi ý / giải thích'}
+                      </button>
                     )}
-                    <div>
-                      <strong style={{ color: 'var(--primary)' }}>Giải thích:</strong><br />{q.explanation}
-                    </div>
                   </div>
                 </div>
-              )}
+
+                {/* Right column: Explanation or Placeholder */}
+                {submitted || revealedExplanations[q.id] ? (
+                  <div className="q-col-right">
+                    <div style={{ marginTop: 0, background: 'rgba(255,255,255,0.02)', border: '1px solid var(--border)', borderRadius: 12, overflow: 'hidden', height: '100%', boxSizing: 'border-box' }}>
+                      {submitted && (
+                        <div style={{ padding: '12px 16px', background: 'rgba(255,255,255,0.02)', borderBottom: '1px solid var(--border)', display: 'flex', alignItems: 'center', gap: 8 }}>
+                          <strong style={{ color: answers[q.id] === q.answer ? 'var(--green)' : 'var(--red)' }}>
+                            {answers[q.id] === q.answer ? '✅ Đúng' : '❌ Sai'} 
+                          </strong>
+                          <span style={{ color: 'var(--mute)', fontSize: 13 }}>| Kết quả bài làm</span>
+                        </div>
+                      )}
+                      <div style={{ padding: 16, fontSize: 14, lineHeight: 1.6, whiteSpace: 'pre-wrap' }}>
+                        {q.translation && (
+                          <div style={{ marginBottom: 12 }}>
+                            <strong style={{ color: 'var(--gold)' }}>Dịch nghĩa:</strong> {q.translation}
+                          </div>
+                        )}
+                        {q.explanation && (
+                          <div>
+                            <strong style={{ color: 'var(--primary)' }}>Giải thích chi tiết:</strong><br />{q.explanation}
+                          </div>
+                        )}
+                      </div>
+                    </div>
+                  </div>
+                ) : (
+                  <div className="q-col-right q-col-right-placeholder">
+                    <div className="q-placeholder">
+                      <span style={{ fontSize: 24, marginBottom: 8 }}>💡</span>
+                      <span style={{ fontSize: 13 }}>Nhấn nút "Xem gợi ý" để xem giải thích chi tiết tại đây.</span>
+                    </div>
+                  </div>
+                )}
+              </div>
             </div>
           ))}
         </div>
