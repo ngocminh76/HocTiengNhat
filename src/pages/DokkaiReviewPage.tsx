@@ -247,7 +247,8 @@ export function DokkaiReviewPage({ reviewId, onHome, addXP, onComplete }: Props)
                               )}
                               {q.explanation && (
                                 <div style={{ fontSize: 14, color: 'var(--text)', lineHeight: 1.6, whiteSpace: 'pre-wrap' }}>
-                                  <strong style={{ color: 'var(--gold)', fontSize: 15 }}>💡 Giải thích chi tiết:</strong><br />{q.explanation}
+                                  <strong style={{ color: 'var(--gold)', fontSize: 15 }}>💡 Giải thích chi tiết:</strong><br />
+                                  <div dangerouslySetInnerHTML={{ __html: q.explanation }} />
                                 </div>
                               )}
                             </div>

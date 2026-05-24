@@ -270,7 +270,8 @@ export function JlptTestPage({ test, onBack, onHome }: Props) {
                         )}
                         {q.explanation && (
                           <div>
-                            <strong style={{ color: 'var(--blue)' }}>Giải thích chi tiết:</strong><br />{q.explanation}
+                            <strong style={{ color: 'var(--blue)' }}>Giải thích chi tiết:</strong><br />
+                            <div dangerouslySetInnerHTML={{ __html: q.explanation }} />
                           </div>
                         )}
                       </div>
