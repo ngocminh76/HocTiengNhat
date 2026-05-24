@@ -14,51 +14,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_1_5_1_m1_q0",
-            "question": "きょうは 【水曜日】です。",
+            "question": "わたしの 【国】は ベトナムです。",
             "options": [
-              "きんようび",
-              "すいようび",
-              "もくようび",
-              "かようび"
+              "まち",
+              "くに",
+              "いえ",
+              "うち"
             ],
             "correctIndex": 1,
-            "explanation": "水曜日 đọc là すいようび (thứ Tư)."
+            "explanation": "Dịch nghĩa: Đất nước của tôi là Việt Nam.\n- Chữ Hán 【国】 (Quốc) có cách đọc âm ôn/kun là くに (kuni) nghĩa là đất nước, quốc gia.\n- Phân tích các đáp án khác: まち (machi: thành thị, con phố), うち (uchi: nhà/gia đình mình), いえ (ie: nhà - ngôi nhà vật lý)."
           },
           {
             "id": "m_review_1_5_1_m1_q1",
-            "question": "【毎日】 にほんごを べんきょうします。",
+            "question": "きょうは 【水曜日】です。",
             "options": [
-              "まいとし",
-              "まいしゅう",
-              "まいげつ",
-              "まいにち"
+              "かようび",
+              "すいようび",
+              "もくようび",
+              "きんようび"
             ],
-            "correctIndex": 3,
-            "explanation": "毎日 đọc là まいにち (mỗi ngày)."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Hôm nay là thứ Tư.\n- Chữ Hán 【水曜日】 (Thủy Diệu Nhật) có cách đọc tương ứng là すいようび (suiyoubi) nghĩa là thứ Tư.\n- Phân tích các đáp án khác: かようび (kayoubi: thứ Ba), もくようび (mokuyoubi: thứ Năm), kiんようび (kinyoubi: thứ Sáu)."
           },
           {
             "id": "m_review_1_5_1_m1_q2",
             "question": "【先月】、日本へ きました。",
             "options": [
-              "らいげつ",
-              "まいつき",
+              "こんげつ",
               "せんげつ",
-              "こんげつ"
+              "まいつき",
+              "らいげつ"
             ],
-            "correctIndex": 2,
-            "explanation": "先月 đọc là せんげつ (tháng trước)."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Tháng trước tôi đã đến Nhật Bản.\n- Chữ Hán 【先月】 (Tiên Nguyệt) có cách đọc tương ứng là せんげつ (sengetsu) nghĩa là tháng trước.\n- Phân tích các đáp án khác: らいげつ (raigetsu: tháng sau), こんげつ (kongetsu: tháng này), まいつき (maitsuki: mỗi tháng)."
           },
           {
             "id": "m_review_1_5_1_m1_q3",
-            "question": "わたしの 【国】は ベトナムです。",
+            "question": "【毎日】 にほんごを べんきょうします。",
             "options": [
-              "うち",
-              "いえ",
-              "まち",
-              "くに"
+              "まいしゅう",
+              "まいげつ",
+              "まいにち",
+              "まいとし"
             ],
-            "correctIndex": 3,
-            "explanation": "国 đọc là くに (đất nước)."
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Hàng ngày tôi học tiếng Nhật.\n- Chữ Hán 【毎日】 (Mỗi Nhật) có cách đọc tương ứng là まいにち (mainichi) nghĩa là mỗi ngày, hàng ngày.\n- Phân tích các đáp án khác: まいしゅう (maishuu: mỗi tuần), まいげつ (maigetsu: mỗi tháng), まいとし (maitoshi: mỗi năm)."
           }
         ]
       },
@@ -68,30 +68,6 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_1_5_1_m2_q0",
-            "question": "ともだちと 【デパート】へ いきます。",
-            "options": [
-              "デパート",
-              "デパード",
-              "テパート",
-              "デバート"
-            ],
-            "correctIndex": 0,
-            "explanation": "Department store viết là デパート."
-          },
-          {
-            "id": "m_review_1_5_1_m2_q1",
-            "question": "【でんしゃ】で かいしゃへ いきます。",
-            "options": [
-              "電気",
-              "電波",
-              "電話",
-              "電車"
-            ],
-            "correctIndex": 3,
-            "explanation": "電車 là tàu điện."
-          },
-          {
-            "id": "m_review_1_5_1_m2_q2",
             "question": "【くるま】を かいました。",
             "options": [
               "東",
@@ -100,19 +76,43 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "車"
             ],
             "correctIndex": 3,
-            "explanation": "くるま (ô tô) viết là 車."
+            "explanation": "Dịch nghĩa: Tôi đã mua ô tô.\n- 【くるま】 (xe hơi, ô tô) viết bằng chữ Kanji là 車 (Xa).\n- Các đáp án còn lại là các chữ Kanji có nét tương đồng dễ gây nhầm lẫn: 東 (Đông: phía đông), 重 (Trọng: nặng), 庫 (Khố: nhà kho)."
+          },
+          {
+            "id": "m_review_1_5_1_m2_q1",
+            "question": "ともだちと 【...】へ いきます。",
+            "options": [
+              "デパート",
+              "デバート",
+              "テパート",
+              "デパード"
+            ],
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa: Tôi đi đến trung tâm thương mại cùng bạn bè.\n- 【デパート】 (cửa hàng bách hóa - bắt nguồn từ tiếng Anh: Department store) viết chuẩn bằng Katakana là デパート.\n- Chú ý phân biệt phụ âm đục: \"de\" là デ (có dấu tenten) chứ không phải テ (te) hay ペ (pe)."
+          },
+          {
+            "id": "m_review_1_5_1_m2_q2",
+            "question": "あの 【レストラン】は おいしいです。",
+            "options": [
+              "レストラソ",
+              "レストンラ",
+              "レストラン",
+              "レスドラン"
+            ],
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Nhà hàng kia ngon lắm.\n- 【レストラン】 (nhà hàng - bắt nguồn từ tiếng Anh: Restaurant) được viết bằng chữ Katakana là レストラン.\n- Chú ý các nét viết tương tự dễ nhầm: chữ ツ (tsu) khác với シ (shi), và chữ ン (n) khác với ソ (so)."
           },
           {
             "id": "m_review_1_5_1_m2_q3",
-            "question": "あの 【レストラン】は おいしいです。",
+            "question": "【でんしゃ】で かいしゃへ いきます。",
             "options": [
-              "レスドラン",
-              "レストラン",
-              "レストラソ",
-              "レストンラ"
+              "電車",
+              "電気",
+              "電話",
+              "電波"
             ],
-            "correctIndex": 1,
-            "explanation": "Restaurant viết là レストラン."
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa: Tôi đi làm bằng tàu điện.\n- 【でんしゃ】 (tàu điện) viết bằng chữ Kanji là 電車 (Điện Xa) mang ý nghĩa xe chạy bằng điện.\n- Phân tích các đáp án khác: 電気 (Điện Khí: đồ điện, điện), 電話 (Điện Thoại: điện thoại), 電波 (Điện Ba: sóng điện)."
           }
         ]
       },
@@ -122,51 +122,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_1_5_1_m3_q0",
-            "question": "あしたは やすみです。うちで ゆっくり 【　　　】。",
+            "question": "スーパーで くだものを 【　　　】。",
             "options": [
-              "おわります",
-              "おきます",
-              "はたらきます",
-              "やすみます"
+              "かいます",
+              "すいます",
+              "あいます",
+              "のみます"
             ],
-            "correctIndex": 3,
-            "explanation": "Nghỉ ngơi: やすみます."
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa: Tôi mua trái cây ở siêu thị.\n- Cụm từ: くだものを かいます (mua hoa quả/trái cây).\n- Trợ từ で chỉ địa điểm diễn ra hành động (tại siêu thị).\n- Các đáp án khác: あいます (gặp gỡ), すいます (hút thuốc), のみます (uống)."
           },
           {
             "id": "m_review_1_5_1_m3_q1",
-            "question": "スーパーで くだものを 【　　　】。",
+            "question": "えんぴつで てがみを 【　　　】。",
             "options": [
-              "あいます",
-              "かいます",
-              "すいます",
-              "のみます"
+              "よみます",
+              "ききます",
+              "みます",
+              "かきます"
             ],
-            "correctIndex": 1,
-            "explanation": "Mua trái cây: かいます."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Tôi viết thư bằng bút chì.\n- Cụm từ: てがみを かきます (viết thư).\n- Trợ từ で ở đây chỉ phương tiện, công cụ (bằng bút chì).\n- Các đáp án khác không hợp nghĩa: よみます (đọc thư - không dùng với bằng bút chì), ききます (nghe), みます (xem)."
           },
           {
             "id": "m_review_1_5_1_m3_q2",
             "question": "きのう １０じに 【　　　】。",
             "options": [
-              "いきました",
-              "おきました",
               "きました",
-              "ねました"
+              "ねました",
+              "おきました",
+              "いきました"
             ],
-            "correctIndex": 3,
-            "explanation": "Đã ngủ lúc 10 giờ: ねました."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Hôm qua tôi đã đi ngủ lúc 10 giờ.\n- Động từ ねました (đã ngủ, từ gốc là ねます) phù hợp nhất với mốc thời gian tối 10 giờ.\n- Trợ từ に đi kèm mốc thời gian cụ thể (10じ).\n- Các đáp án khác không hợp lý: おきました (đã thức dậy), きました (đã đến), いきました (đã đi)."
           },
           {
             "id": "m_review_1_5_1_m3_q3",
-            "question": "えんぴつで てがみを 【　　　】。",
+            "question": "あしたは やすみです。うちで ゆっくり 【　　　】。",
             "options": [
-              "みます",
-              "かきます",
-              "ききます",
-              "よみます"
+              "やすみます",
+              "はたらきます",
+              "おわります",
+              "おきます"
             ],
-            "correctIndex": 1,
-            "explanation": "Viết thư: かきます."
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa: Ngày mai là ngày nghỉ. Tôi sẽ nghỉ ngơi thư thả ở nhà.\n- Cụm từ phổ biến: ゆっくり 休みます (nghỉ ngơi thong thả/thư thả).\n- Phù hợp hoàn hảo với vế trước: \"Ngày mai là ngày nghỉ (やすみ)\".\n- Các đáp án khác không phù hợp logic: おきます (thức dậy), はたらきます (làm việc), おわります (kết thúc)."
           }
         ]
       },
@@ -176,51 +176,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_1_5_1_b1_q0",
-            "question": "きょうは ５じ（　　　）はたらきます。",
+            "question": "A「それは （　　　）ですか。」 B「コンピューターの ほん です。」",
             "options": [
-              "まで",
-              "に",
-              "で",
-              "から"
+              "だれの ほん",
+              "なんの ほん",
+              "なん",
+              "đâu/đây/đó"
             ],
-            "correctIndex": 0,
-            "explanation": "Làm việc \"đến\" 5 giờ -> まで."
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: A: \"Đó là cái gì thế?\" - B: \"Là cuốn sách về máy tính.\"\n- Từ để hỏi cho vật thể chưa xác định là なん (Cái gì?). Câu hỏi đầy đủ: それは なんですか (Đó là cái gì?).\n- Các đáp án khác không phù hợp ngữ pháp hoặc ngữ cảnh: なんの ほん (Sách gì - thiếu vị ngữ ですか), だれの ほん (Sách của ai)."
           },
           {
             "id": "m_review_1_5_1_b1_q1",
-            "question": "わたしは えんぴつ（　　　）てがみを かきます。",
+            "question": "きょうは ５じ（　　　）はたらきます。",
             "options": [
-              "に",
-              "が",
               "で",
-              "を"
+              "に",
+              "から",
+              "まで"
             ],
-            "correctIndex": 2,
-            "explanation": "Phương tiện/công cụ -> で."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Hôm nay tôi làm việc đến 5 giờ.\n- Trợ từ まで (đến) dùng để chỉ giới hạn thời gian kết thúc của một hành động liên tục (làm việc đến 5 giờ).\n- Các đáp án khác: から (từ - chỉ điểm bắt đầu), に (vào lúc - hành động tức thời), で (tại - nơi diễn ra hành động)."
           },
           {
             "id": "m_review_1_5_1_b1_q2",
             "question": "あした どこ（　　　）いきません。",
             "options": [
-              "がも",
-              "でも",
               "をも",
+              "がも",
+              "đến/đo/đây",
               "へも"
             ],
             "correctIndex": 3,
-            "explanation": "Phủ định hoàn toàn: どこへも いきません."
+            "explanation": "Dịch nghĩa: Ngày mai tôi không đi đâu cả.\n- Mẫu câu phủ định hoàn toàn: Từ để hỏi chỉ nơi chốn + へも + động từ phủ định (không đi bất cứ đâu).\n- Cấu trúc chuẩn xác: どこへも いきません."
           },
           {
             "id": "m_review_1_5_1_b1_q3",
-            "question": "A「それは （　　　）ですか。」 B「コンピューターの ほん です。」",
+            "question": "わたしは えんぴつ（　　　）てがみを かきます。",
             "options": [
-              "だれの ほん",
-              "なん",
-              "どこ",
-              "なんの ほん"
+              "を",
+              "に",
+              "で",
+              "が"
             ],
-            "correctIndex": 1,
-            "explanation": "Hỏi cái gì dùng なん."
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Tôi viết thư bằng bút chì.\n- Trợ từ で biểu thị phương tiện, công cụ hoặc cách thức thực hiện hành động (bằng bút chì).\n- Các trợ từ khác không phù hợp: に (chỉ mốc thời gian/đích đến), を (chỉ đối tượng tác động trực tiếp của hành động), が (chỉ chủ ngữ/đối tượng chỉ khả năng)."
           }
         ]
       },
@@ -230,27 +230,27 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_1_5_1_b2_q0",
-            "question": "ここは　___ ___ _★_ ___　です。",
+            "question": "ここは　___ ___ _★_ ___　es。",
             "options": [
               "だいがく",
-              "とうきょう",
               "の",
+              "とうきょう",
               "しょくどう"
             ],
-            "correctIndex": 2,
-            "explanation": "ここは とうきょう だいがく の しょくどう です."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Đây là nhà ăn của trường Đại học Tokyo.\n- Phân tích trật tự từ: ここは (Đây là) + とうきょう (3) + だいがく (2) + の (1) + しょくどう (4) + です.\n- Trợ từ の dùng để liên kết hai danh từ, danh từ trước (Tokyo Daigaku) bổ nghĩa cho danh từ sau (Shokudou).\n- Vị trí dấu sao nằm ở từ thứ 3 trong cụm sắp xếp, tương ứng với trợ từ の (1)."
           },
           {
             "id": "m_review_1_5_1_b2_q1",
             "question": "わたしは　___ ___ _★_ ___　いきます。",
             "options": [
+              "ぎんこう",
               "と",
-              "へ",
               "ともだち",
-              "ぎんこう"
+              "へ"
             ],
-            "correctIndex": 3,
-            "explanation": "わたしは ともだち と ぎんこう へ いきます."
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa: Tôi đi ngân hàng cùng với bạn bè.\n- Phân tích trật tự từ: わたしは + ともだち (1) + と (3) + ぎんこう (4) + へ (2) + いきます.\n- Trợ từ と ở đây mang nghĩa là \"cùng với\". Trợ từ へ chỉ hướng di chuyển đến địa điểm (Ngân hàng).\n- Vị trí dấu sao nằm ở từ thứ 3 trong cụm sắp xếp, tương ứng với danh từ ぎんこう (4)."
           }
         ]
       },
@@ -258,7 +258,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "id": "p_review_1_5_1_dokkai1",
         "type": "mondai3",
         "text": [
-          "きのうは わたしの たんじょうびでした。",
+          "きのうは わたしの たnじょうびでした。",
           "わたしは ともだち（　１　）レストランへ いきました。",
           "レストランで おいしい ごはんを たべました。",
           "それから、えいがを（　２　）。とても たのしかったです。"
@@ -266,27 +266,27 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_1_5_1_d1_q0",
-            "question": "（　１　）に入れるものはどれですか。",
+            "question": "（　１　）に入れるものはdđầu/nơi/nào?",
             "options": [
-              "に",
-              "で",
+              "と",
               "へ",
-              "と"
+              "で",
+              "に"
             ],
-            "correctIndex": 3,
-            "explanation": "Cùng với bạn -> と."
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa đoạn: \"Hôm qua là sinh nhật của tôi. Tôi đã đi đến nhà hàng cùng với bạn.\"\n- Trợ từ と dùng để liên kết đối tượng cùng thực hiện hành động (cùng với ai đó) -> ともだちと (cùng với bạn)."
           },
           {
             "id": "m_review_1_5_1_d1_q1",
-            "question": "（　２　）に入れるものはどれですか。",
+            "question": "（　２　）に入れるものはdđầu/nơi/nào?",
             "options": [
-              "みます",
               "みません",
-              "みますか",
-              "みました"
+              "みました",
+              "みます",
+              "みますか"
             ],
-            "correctIndex": 3,
-            "explanation": "Kể chuyện quá khứ -> みました."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa đoạn: \"Sau đó, tôi đã xem phim. Rất là vui.\"\n- Vì mốc thời gian là \"Hôm qua (きのう)\", toàn bộ câu chuyện đang kể lại trong quá khứ nên động từ xem phim phải chia ở thể quá khứ khẳng định -> みました."
           }
         ]
       }
@@ -311,43 +311,43 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "うち"
             ],
             "correctIndex": 2,
-            "explanation": "国 đọc là くに (đất nước)."
+            "explanation": "Dịch nghĩa: Đất nước của tôi là Việt Nam.\n- Chữ Hán 【国】 (Quốc) có cách đọc âm ôn/kun là くに (kuni) nghĩa là đất nước, quốc gia.\n- Phân tích các đáp án khác: まち (machi: thành thị, con phố), うち (uchi: nhà/gia đình mình), いえ (ie: nhà - ngôi nhà vật lý)."
           },
           {
             "id": "m_review_1_5_2_m1_q1",
             "question": "【先月】、日本へ きました。",
             "options": [
-              "こんげつ",
-              "まいつき",
+              "せんげつ",
               "らいげつ",
-              "せんげつ"
+              "まいつき",
+              "こんげつ"
             ],
-            "correctIndex": 3,
-            "explanation": "先月 đọc là せんげつ (tháng trước)."
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa: Tháng trước tôi đã đến Nhật Bản.\n- Chữ Hán 【先月】 (Tiên Nguyệt) có cách đọc tương ứng là せんげつ (sengetsu) nghĩa là tháng trước.\n- Phân tích các đáp án khác: らいげつ (raigetsu: tháng sau), こんげつ (kongetsu: tháng này), まいつき (maitsuki: mỗi tháng)."
           },
           {
             "id": "m_review_1_5_2_m1_q2",
-            "question": "きょうは 【水曜日】です。",
+            "question": "【毎日】 にほんごを べんきょうします。",
             "options": [
-              "きんようび",
-              "かようび",
-              "もくようび",
-              "すいようび"
+              "まいとし",
+              "まいにち",
+              "まいげつ",
+              "まいしゅう"
             ],
-            "correctIndex": 3,
-            "explanation": "水曜日 đọc là すいようび (thứ Tư)."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Hàng ngày tôi học tiếng Nhật.\n- Chữ Hán 【毎日】 (Mỗi Nhật) có cách đọc tương ứng là まいにち (mainichi) nghĩa là mỗi ngày, hàng ngày.\n- Phân tích các đáp án khác: まいしゅう (maishuu: mỗi tuần), まいげつ (maigetsu: mỗi tháng), まいとし (maitoshi: mỗi năm)."
           },
           {
             "id": "m_review_1_5_2_m1_q3",
-            "question": "【毎日】 にほんごを べんきょうします。",
+            "question": "きょうは 【水曜日】です。",
             "options": [
-              "まいにち",
-              "まいげつ",
-              "まいとし",
-              "まいしゅう"
+              "もくようび",
+              "すいようび",
+              "きんようび",
+              "かようび"
             ],
-            "correctIndex": 0,
-            "explanation": "毎日 đọc là まいにち (mỗi ngày)."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Hôm nay là thứ Tư.\n- Chữ Hán 【水曜日】 (Thủy Diệu Nhật) có cách đọc tương ứng là すいようび (suiyoubi) nghĩa là thứ Tư.\n- Phân tích các đáp án khác: かようび (kayoubi: thứ Ba), もくようび (mokuyoubi: thứ Năm), kiんようび (kinyoubi: thứ Sáu)."
           }
         ]
       },
@@ -359,29 +359,29 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_1_5_2_m2_q0",
             "question": "【でんしゃ】で かいしゃへ いきます。",
             "options": [
-              "電車",
               "電話",
+              "電気",
               "電波",
-              "電気"
+              "電車"
             ],
-            "correctIndex": 0,
-            "explanation": "電車 là tàu điện."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Tôi đi làm bằng tàu điện.\n- 【でんしゃ】 (tàu điện) viết bằng chữ Kanji là 電車 (Điện Xa) mang ý nghĩa xe chạy bằng điện.\n- Phân tích các đáp án khác: 電気 (Điện Khí: đồ điện, điện), 電話 (Điện Thoại: điện thoại), 電波 (Điện Ba: sóng điện)."
           },
           {
             "id": "m_review_1_5_2_m2_q1",
             "question": "あの 【レストラン】は おいしいです。",
             "options": [
               "レスドラン",
+              "レストラン",
               "レストンラ",
-              "レストラソ",
-              "レストラン"
+              "レストラソ"
             ],
-            "correctIndex": 3,
-            "explanation": "Restaurant viết là レストラン."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Nhà hàng kia ngon lắm.\n- 【レストラン】 (nhà hàng - bắt nguồn từ tiếng Anh: Restaurant) được viết bằng chữ Katakana là レストラン.\n- Chú ý các nét viết tương tự dễ nhầm: chữ ツ (tsu) khác với シ (shi), và chữ ン (n) khác với ソ (so)."
           },
           {
             "id": "m_review_1_5_2_m2_q2",
-            "question": "ともだちと 【デパート】へ いきます。",
+            "question": "ともだちと 【...】へ いきます。",
             "options": [
               "デパード",
               "テパート",
@@ -389,19 +389,19 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "デパート"
             ],
             "correctIndex": 3,
-            "explanation": "Department store viết là デパート."
+            "explanation": "Dịch nghĩa: Tôi đi đến trung tâm thương mại cùng bạn bè.\n- 【デパート】 (cửa hàng bách hóa - bắt nguồn từ tiếng Anh: Department store) viết chuẩn bằng Katakana là デパート.\n- Chú ý phân biệt phụ âm đục: \"de\" là デ (có dấu tenten) chứ không phải テ (te) hay ペ (pe)."
           },
           {
             "id": "m_review_1_5_2_m2_q3",
             "question": "【くるま】を かいました。",
             "options": [
-              "庫",
               "重",
               "東",
-              "車"
+              "車",
+              "庫"
             ],
-            "correctIndex": 3,
-            "explanation": "くるま (ô tô) viết là 車."
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Tôi đã mua ô tô.\n- 【くるま】 (xe hơi, ô tô) viết bằng chữ Kanji là 車 (Xa).\n- Các đáp án còn lại là các chữ Kanji có nét tương đồng dễ gây nhầm lẫn: 東 (Đông: phía đông), 重 (Trọng: nặng), 庫 (Khố: nhà kho)."
           }
         ]
       },
@@ -411,51 +411,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_1_5_2_m3_q0",
-            "question": "スーパーで くだものを 【　　　】。",
-            "options": [
-              "すいます",
-              "のみます",
-              "あいます",
-              "かいます"
-            ],
-            "correctIndex": 3,
-            "explanation": "Mua trái cây: かいます."
-          },
-          {
-            "id": "m_review_1_5_2_m3_q1",
             "question": "あしたは やすみです。うちで ゆっくり 【　　　】。",
             "options": [
-              "おわります",
               "やすみます",
+              "おわります",
               "はたらきます",
               "おきます"
             ],
-            "correctIndex": 1,
-            "explanation": "Nghỉ ngơi: やすみます."
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa: Ngày mai là ngày nghỉ. Tôi sẽ nghỉ ngơi thư thả ở nhà.\n- Cụm từ phổ biến: ゆっくり 休みます (nghỉ ngơi thong thả/thư thả).\n- Phù hợp hoàn hảo với vế trước: \"Ngày mai là ngày nghỉ (やすみ)\".\n- Các đáp án khác không phù hợp logic: おきます (thức dậy), はたらきます (làm việc), おわります (kết thúc)."
+          },
+          {
+            "id": "m_review_1_5_2_m3_q1",
+            "question": "きのう １０じに 【　　　】。",
+            "options": [
+              "いきました",
+              "おきました",
+              "きました",
+              "ねました"
+            ],
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Hôm qua tôi đã đi ngủ lúc 10 giờ.\n- Động từ ねました (đã ngủ, từ gốc là ねます) phù hợp nhất với mốc thời gian tối 10 giờ.\n- Trợ từ に đi kèm mốc thời gian cụ thể (10じ).\n- Các đáp án khác không hợp lý: おきました (đã thức dậy), きました (đã đến), いきました (đã đi)."
           },
           {
             "id": "m_review_1_5_2_m3_q2",
-            "question": "きのう １０じに 【　　　】。",
+            "question": "えんぴつで てがみを 【　　　】。",
             "options": [
-              "きました",
-              "いきました",
-              "ねました",
-              "おきました"
+              "みます",
+              "ききます",
+              "よみます",
+              "かきます"
             ],
-            "correctIndex": 2,
-            "explanation": "Đã ngủ lúc 10 giờ: ねました."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Tôi viết thư bằng bút chì.\n- Cụm từ: てがみを かきます (viết thư).\n- Trợ từ で ở đây chỉ phương tiện, công cụ (bằng bút chì).\n- Các đáp án khác không hợp nghĩa: よみます (đọc thư - không dùng với bằng bút chì), ききます (nghe), みます (xem)."
           },
           {
             "id": "m_review_1_5_2_m3_q3",
-            "question": "えんぴつで てがみを 【　　　】。",
+            "question": "スーパーで くだものを 【　　　】。",
             "options": [
-              "ききます",
-              "みます",
-              "かきます",
-              "よみます"
+              "あいます",
+              "のみます",
+              "すいます",
+              "かいます"
             ],
-            "correctIndex": 2,
-            "explanation": "Viết thư: かきます."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Tôi mua trái cây ở siêu thị.\n- Cụm từ: くだものを かいます (mua hoa quả/trái cây).\n- Trợ từ で chỉ địa điểm diễn ra hành động (tại siêu thị).\n- Các đáp án khác: あいます (gặp gỡ), すいます (hút thuốc), のみます (uống)."
           }
         ]
       },
@@ -465,6 +465,42 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_1_5_2_b1_q0",
+            "question": "A「それは （　　　）ですか。」 B「コンピューターの ほん です。」",
+            "options": [
+              "だれの ほん",
+              "なん",
+              "đâu/đây/đó",
+              "なんの ほん"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: A: \"Đó là cái gì thế?\" - B: \"Là cuốn sách về máy tính.\"\n- Từ để hỏi cho vật thể chưa xác định là なん (Cái gì?). Câu hỏi đầy đủ: それは なんですか (Đó là cái gì?).\n- Các đáp án khác không phù hợp ngữ pháp hoặc ngữ cảnh: なんの ほん (Sách gì - thiếu vị ngữ ですか), だれの ほん (Sách của ai)."
+          },
+          {
+            "id": "m_review_1_5_2_b1_q1",
+            "question": "あした どこ（　　　）いきません。",
+            "options": [
+              "đến/đo/đây",
+              "をも",
+              "へも",
+              "がも"
+            ],
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Ngày mai tôi không đi đâu cả.\n- Mẫu câu phủ định hoàn toàn: Từ để hỏi chỉ nơi chốn + へも + động từ phủ định (không đi bất cứ đâu).\n- Cấu trúc chuẩn xác: どこへも いきません."
+          },
+          {
+            "id": "m_review_1_5_2_b1_q2",
+            "question": "きょうは ５じ（　　　）はたらきます。",
+            "options": [
+              "で",
+              "に",
+              "まで",
+              "から"
+            ],
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Hôm nay tôi làm việc đến 5 giờ.\n- Trợ từ まで (đến) dùng để chỉ giới hạn thời gian kết thúc của một hành động liên tục (làm việc đến 5 giờ).\n- Các đáp án khác: から (từ - chỉ điểm bắt đầu), に (vào lúc - hành động tức thời), で (tại - nơi diễn ra hành động)."
+          },
+          {
+            "id": "m_review_1_5_2_b1_q3",
             "question": "わたしは えんぴつ（　　　）てがみを かきます。",
             "options": [
               "で",
@@ -473,43 +509,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "が"
             ],
             "correctIndex": 0,
-            "explanation": "Phương tiện/công cụ -> で."
-          },
-          {
-            "id": "m_review_1_5_2_b1_q1",
-            "question": "あした どこ（　　　）いきません。",
-            "options": [
-              "をも",
-              "へも",
-              "でも",
-              "がも"
-            ],
-            "correctIndex": 1,
-            "explanation": "Phủ định hoàn toàn: どこへも いきません."
-          },
-          {
-            "id": "m_review_1_5_2_b1_q2",
-            "question": "きょうは ５じ（　　　）はたらきます。",
-            "options": [
-              "まで",
-              "で",
-              "に",
-              "から"
-            ],
-            "correctIndex": 0,
-            "explanation": "Làm việc \"đến\" 5 giờ -> まで."
-          },
-          {
-            "id": "m_review_1_5_2_b1_q3",
-            "question": "A「それは （　　　）ですか。」 B「コンピューターの ほん です。」",
-            "options": [
-              "なん",
-              "どこ",
-              "なんの ほん",
-              "だれの ほん"
-            ],
-            "correctIndex": 0,
-            "explanation": "Hỏi cái gì dùng なん."
+            "explanation": "Dịch nghĩa: Tôi viết thư bằng bút chì.\n- Trợ từ で biểu thị phương tiện, công cụ hoặc cách thức thực hiện hành động (bằng bút chì).\n- Các trợ từ khác không phù hợp: に (chỉ mốc thời gian/đích đến), を (chỉ đối tượng tác động trực tiếp của hành động), が (chỉ chủ ngữ/đối tượng chỉ khả năng)."
           }
         ]
       },
@@ -521,25 +521,25 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_1_5_2_b2_q0",
             "question": "わたしは　___ ___ _★_ ___　いきます。",
             "options": [
+              "ぎんこう",
               "へ",
               "ともだち",
-              "ぎんこう",
               "と"
             ],
-            "correctIndex": 2,
-            "explanation": "わたしは ともだち と ぎんこう へ いきます."
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa: Tôi đi ngân hàng cùng với bạn bè.\n- Phân tích trật tự từ: わたしは + ともだち (1) + と (3) + ぎんこう (4) + へ (2) + いきます.\n- Trợ từ と ở đây mang nghĩa là \"cùng với\". Trợ từ へ chỉ hướng di chuyển đến địa điểm (Ngân hàng).\n- Vị trí dấu sao nằm ở từ thứ 3 trong cụm sắp xếp, tương ứng với danh từ ぎんこう (4)."
           },
           {
             "id": "m_review_1_5_2_b2_q1",
-            "question": "ここは　___ ___ _★_ ___　です。",
+            "question": "ここは　___ ___ _★_ ___　es。",
             "options": [
-              "だいがく",
               "の",
+              "とうきょう",
               "しょくどう",
-              "とうきょう"
+              "だいがく"
             ],
-            "correctIndex": 1,
-            "explanation": "ここは とうきょう だいがく の しょくどう です."
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa: Đây là nhà ăn của trường Đại học Tokyo.\n- Phân tích trật tự từ: ここは (Đây là) + とうきょう (3) + だいがく (2) + の (1) + しょくどう (4) + です.\n- Trợ từ の dùng để liên kết hai danh từ, danh từ trước (Tokyo Daigaku) bổ nghĩa cho danh từ sau (Shokudou).\n- Vị trí dấu sao nằm ở từ thứ 3 trong cụm sắp xếp, tương ứng với trợ từ の (1)."
           }
         ]
       },
@@ -547,7 +547,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "id": "p_review_1_5_2_dokkai1",
         "type": "mondai3",
         "text": [
-          "きのうは わたしの たんじょうびでした。",
+          "きのうは わたしの たnじょうびでした。",
           "わたしは ともだち（　１　）レストランへ いきました。",
           "レストランで おいしい ごはんを たべました。",
           "それから、えいがを（　２　）。とても たのしかったです。"
@@ -555,27 +555,27 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_1_5_2_d1_q0",
-            "question": "（　１　）に入れるものはどれですか。",
+            "question": "（　１　）に入れるものはdđầu/nơi/nào?",
             "options": [
-              "で",
               "へ",
               "と",
-              "に"
+              "に",
+              "で"
             ],
-            "correctIndex": 2,
-            "explanation": "Cùng với bạn -> と."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa đoạn: \"Hôm qua là sinh nhật của tôi. Tôi đã đi đến nhà hàng cùng với bạn.\"\n- Trợ từ と dùng để liên kết đối tượng cùng thực hiện hành động (cùng với ai đó) -> ともだちと (cùng với bạn)."
           },
           {
             "id": "m_review_1_5_2_d1_q1",
-            "question": "（　２　）に入れるものはどれですか。",
+            "question": "（　２　）に入れるものはdđầu/nơi/nào?",
             "options": [
-              "みません",
+              "みますか",
               "みました",
               "みます",
-              "みますか"
+              "みません"
             ],
             "correctIndex": 1,
-            "explanation": "Kể chuyện quá khứ -> みました."
+            "explanation": "Dịch nghĩa đoạn: \"Sau đó, tôi đã xem phim. Rất là vui.\"\n- Vì mốc thời gian là \"Hôm qua (きのう)\", toàn bộ câu chuyện đang kể lại trong quá khứ nên động từ xem phim phải chia ở thể quá khứ khẳng định -> みました."
           }
         ]
       }
@@ -592,51 +592,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_1_5_3_m1_q0",
-            "question": "【先月】、日本へ きました。",
+            "question": "きょうは 【水曜日】です。",
             "options": [
-              "らいげつ",
-              "せんげつ",
-              "まいつき",
-              "こんげつ"
+              "もくようび",
+              "きんようび",
+              "すいようび",
+              "かようび"
             ],
-            "correctIndex": 1,
-            "explanation": "先月 đọc là せんげつ (tháng trước)."
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Hôm nay là thứ Tư.\n- Chữ Hán 【水曜日】 (Thủy Diệu Nhật) có cách đọc tương ứng là すいようび (suiyoubi) nghĩa là thứ Tư.\n- Phân tích các đáp án khác: かようび (kayoubi: thứ Ba), もくようび (mokuyoubi: thứ Năm), kiんようび (kinyoubi: thứ Sáu)."
           },
           {
             "id": "m_review_1_5_3_m1_q1",
             "question": "わたしの 【国】は ベトナムです。",
             "options": [
               "くに",
+              "うち",
               "まち",
-              "いえ",
-              "うち"
+              "いえ"
             ],
             "correctIndex": 0,
-            "explanation": "国 đọc là くに (đất nước)."
+            "explanation": "Dịch nghĩa: Đất nước của tôi là Việt Nam.\n- Chữ Hán 【国】 (Quốc) có cách đọc âm ôn/kun là くに (kuni) nghĩa là đất nước, quốc gia.\n- Phân tích các đáp án khác: まち (machi: thành thị, con phố), うち (uchi: nhà/gia đình mình), いえ (ie: nhà - ngôi nhà vật lý)."
           },
           {
             "id": "m_review_1_5_3_m1_q2",
-            "question": "きょうは 【水曜日】です。",
+            "question": "【先月】、日本へ きました。",
             "options": [
-              "すいようび",
-              "もくようび",
-              "かようび",
-              "きんようび"
+              "らいげつ",
+              "せんげつ",
+              "こんげつ",
+              "まいつき"
             ],
-            "correctIndex": 0,
-            "explanation": "水曜日 đọc là すいようび (thứ Tư)."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Tháng trước tôi đã đến Nhật Bản.\n- Chữ Hán 【先月】 (Tiên Nguyệt) có cách đọc tương ứng là せんげつ (sengetsu) nghĩa là tháng trước.\n- Phân tích các đáp án khác: らいげつ (raigetsu: tháng sau), こんげつ (kongetsu: tháng này), まいつき (maitsuki: mỗi tháng)."
           },
           {
             "id": "m_review_1_5_3_m1_q3",
             "question": "【毎日】 にほんごを べんきょうします。",
             "options": [
-              "まいにち",
-              "まいとし",
               "まいげつ",
-              "まいしゅう"
+              "まいとし",
+              "まいしゅう",
+              "まいにち"
             ],
-            "correctIndex": 0,
-            "explanation": "毎日 đọc là まいにち (mỗi ngày)."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Hàng ngày tôi học tiếng Nhật.\n- Chữ Hán 【毎日】 (Mỗi Nhật) có cách đọc tương ứng là まいにち (mainichi) nghĩa là mỗi ngày, hàng ngày.\n- Phân tích các đáp án khác: まいしゅう (maishuu: mỗi tuần), まいげつ (maigetsu: mỗi tháng), まいとし (maitoshi: mỗi năm)."
           }
         ]
       },
@@ -646,51 +646,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_1_5_3_m2_q0",
-            "question": "【くるま】を かいました。",
+            "question": "ともだちと 【...】へ いきます。",
             "options": [
-              "東",
-              "重",
-              "庫",
-              "車"
+              "デバート",
+              "テパート",
+              "デパート",
+              "デパード"
             ],
-            "correctIndex": 3,
-            "explanation": "くるま (ô tô) viết là 車."
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Tôi đi đến trung tâm thương mại cùng bạn bè.\n- 【デパート】 (cửa hàng bách hóa - bắt nguồn từ tiếng Anh: Department store) viết chuẩn bằng Katakana là デパート.\n- Chú ý phân biệt phụ âm đục: \"de\" là デ (có dấu tenten) chứ không phải テ (te) hay ペ (pe)."
           },
           {
             "id": "m_review_1_5_3_m2_q1",
-            "question": "ともだちと 【デパート】へ いきます。",
+            "question": "【でんしゃ】で かいしゃへ いきます。",
             "options": [
-              "デパード",
-              "テパート",
-              "デバート",
-              "デパート"
+              "電話",
+              "電波",
+              "電車",
+              "電気"
             ],
-            "correctIndex": 3,
-            "explanation": "Department store viết là デパート."
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Tôi đi làm bằng tàu điện.\n- 【でんしゃ】 (tàu điện) viết bằng chữ Kanji là 電車 (Điện Xa) mang ý nghĩa xe chạy bằng điện.\n- Phân tích các đáp án khác: 電気 (Điện Khí: đồ điện, điện), 電話 (Điện Thoại: điện thoại), 電波 (Điện Ba: sóng điện)."
           },
           {
             "id": "m_review_1_5_3_m2_q2",
-            "question": "あの 【レストラン】は おいしいです。",
+            "question": "【くるま】を かいました。",
             "options": [
-              "レストンラ",
-              "レスドラン",
-              "レストラソ",
-              "レストラン"
+              "東",
+              "庫",
+              "車",
+              "重"
             ],
-            "correctIndex": 3,
-            "explanation": "Restaurant viết là レストラン."
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Tôi đã mua ô tô.\n- 【くるま】 (xe hơi, ô tô) viết bằng chữ Kanji là 車 (Xa).\n- Các đáp án còn lại là các chữ Kanji có nét tương đồng dễ gây nhầm lẫn: 東 (Đông: phía đông), 重 (Trọng: nặng), 庫 (Khố: nhà kho)."
           },
           {
             "id": "m_review_1_5_3_m2_q3",
-            "question": "【でんしゃ】で かいしゃへ いきます。",
+            "question": "あの 【レストラン】は おいしいです。",
             "options": [
-              "電車",
-              "電話",
-              "電気",
-              "電波"
+              "レストラン",
+              "レスドラン",
+              "レストンラ",
+              "レストラソ"
             ],
             "correctIndex": 0,
-            "explanation": "電車 là tàu điện."
+            "explanation": "Dịch nghĩa: Nhà hàng kia ngon lắm.\n- 【レストラン】 (nhà hàng - bắt nguồn từ tiếng Anh: Restaurant) được viết bằng chữ Katakana là レストラン.\n- Chú ý các nét viết tương tự dễ nhầm: chữ ツ (tsu) khác với シ (shi), và chữ ン (n) khác với ソ (so)."
           }
         ]
       },
@@ -700,51 +700,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_1_5_3_m3_q0",
-            "question": "あしたは やすみです。うちで ゆっくり 【　　　】。",
+            "question": "きのう １０じに 【　　　】。",
             "options": [
-              "おわります",
-              "やすみます",
-              "おきます",
-              "はたらきます"
+              "ねました",
+              "いきました",
+              "おきました",
+              "きました"
             ],
-            "correctIndex": 1,
-            "explanation": "Nghỉ ngơi: やすみます."
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa: Hôm qua tôi đã đi ngủ lúc 10 giờ.\n- Động từ ねました (đã ngủ, từ gốc là ねます) phù hợp nhất với mốc thời gian tối 10 giờ.\n- Trợ từ に đi kèm mốc thời gian cụ thể (10じ).\n- Các đáp án khác không hợp lý: おきました (đã thức dậy), きました (đã đến), いきました (đã đi)."
           },
           {
             "id": "m_review_1_5_3_m3_q1",
-            "question": "えんぴつで てがみを 【　　　】。",
+            "question": "あしたは やすみです。うちで ゆっくり 【　　　】。",
             "options": [
-              "みます",
-              "よみます",
-              "ききます",
-              "かきます"
+              "おきます",
+              "やすみます",
+              "はたらきます",
+              "おわります"
             ],
-            "correctIndex": 3,
-            "explanation": "Viết thư: かきます."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Ngày mai là ngày nghỉ. Tôi sẽ nghỉ ngơi thư thả ở nhà.\n- Cụm từ phổ biến: ゆっくり 休みます (nghỉ ngơi thong thả/thư thả).\n- Phù hợp hoàn hảo với vế trước: \"Ngày mai là ngày nghỉ (やすみ)\".\n- Các đáp án khác không phù hợp logic: おきます (thức dậy), はたらきます (làm việc), おわります (kết thúc)."
           },
           {
             "id": "m_review_1_5_3_m3_q2",
-            "question": "きのう １０じに 【　　　】。",
+            "question": "えんぴつで てがみを 【　　　】。",
             "options": [
-              "きました",
-              "おきました",
-              "ねました",
-              "いきました"
+              "みます",
+              "ききます",
+              "よみます",
+              "かきます"
             ],
-            "correctIndex": 2,
-            "explanation": "Đã ngủ lúc 10 giờ: ねました."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Tôi viết thư bằng bút chì.\n- Cụm từ: てがみを かきます (viết thư).\n- Trợ từ で ở đây chỉ phương tiện, công cụ (bằng bút chì).\n- Các đáp án khác không hợp nghĩa: よみます (đọc thư - không dùng với bằng bút chì), ききます (nghe), みます (xem)."
           },
           {
             "id": "m_review_1_5_3_m3_q3",
             "question": "スーパーで くだものを 【　　　】。",
             "options": [
               "あいます",
-              "のみます",
+              "すいます",
               "かいます",
-              "すいます"
+              "のみます"
             ],
             "correctIndex": 2,
-            "explanation": "Mua trái cây: かいます."
+            "explanation": "Dịch nghĩa: Tôi mua trái cây ở siêu thị.\n- Cụm từ: くだものを かいます (mua hoa quả/trái cây).\n- Trợ từ で chỉ địa điểm diễn ra hành động (tại siêu thị).\n- Các đáp án khác: あいます (gặp gỡ), すいます (hút thuốc), のみます (uống)."
           }
         ]
       },
@@ -756,49 +756,49 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_1_5_3_b1_q0",
             "question": "わたしは えんぴつ（　　　）てがみを かきます。",
             "options": [
-              "を",
+              "に",
               "で",
               "が",
-              "に"
+              "を"
             ],
             "correctIndex": 1,
-            "explanation": "Phương tiện/công cụ -> で."
+            "explanation": "Dịch nghĩa: Tôi viết thư bằng bút chì.\n- Trợ từ で biểu thị phương tiện, công cụ hoặc cách thức thực hiện hành động (bằng bút chì).\n- Các trợ từ khác không phù hợp: に (chỉ mốc thời gian/đích đến), を (chỉ đối tượng tác động trực tiếp của hành động), が (chỉ chủ ngữ/đối tượng chỉ khả năng)."
           },
           {
             "id": "m_review_1_5_3_b1_q1",
             "question": "あした どこ（　　　）いきません。",
             "options": [
               "をも",
+              "đến/đo/đây",
               "がも",
-              "へも",
-              "でも"
+              "へも"
             ],
-            "correctIndex": 2,
-            "explanation": "Phủ định hoàn toàn: どこへも いきません."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Ngày mai tôi không đi đâu cả.\n- Mẫu câu phủ định hoàn toàn: Từ để hỏi chỉ nơi chốn + へも + động từ phủ định (không đi bất cứ đâu).\n- Cấu trúc chuẩn xác: どこへも いきません."
           },
           {
             "id": "m_review_1_5_3_b1_q2",
             "question": "きょうは ５じ（　　　）はたらきます。",
             "options": [
+              "から",
               "で",
               "に",
-              "から",
               "まで"
             ],
             "correctIndex": 3,
-            "explanation": "Làm việc \"đến\" 5 giờ -> まで."
+            "explanation": "Dịch nghĩa: Hôm nay tôi làm việc đến 5 giờ.\n- Trợ từ まで (đến) dùng để chỉ giới hạn thời gian kết thúc của một hành động liên tục (làm việc đến 5 giờ).\n- Các đáp án khác: から (từ - chỉ điểm bắt đầu), に (vào lúc - hành động tức thời), で (tại - nơi diễn ra hành động)."
           },
           {
             "id": "m_review_1_5_3_b1_q3",
             "question": "A「それは （　　　）ですか。」 B「コンピューターの ほん です。」",
             "options": [
+              "なん",
               "だれの ほん",
-              "なんの ほん",
-              "どこ",
-              "なん"
+              "đâu/đây/đó",
+              "なんの ほん"
             ],
-            "correctIndex": 3,
-            "explanation": "Hỏi cái gì dùng なん."
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa: A: \"Đó là cái gì thế?\" - B: \"Là cuốn sách về máy tính.\"\n- Từ để hỏi cho vật thể chưa xác định là なん (Cái gì?). Câu hỏi đầy đủ: それは なんですか (Đó là cái gì?).\n- Các đáp án khác không phù hợp ngữ pháp hoặc ngữ cảnh: なんの ほん (Sách gì - thiếu vị ngữ ですか), だれの ほん (Sách của ai)."
           }
         ]
       },
@@ -810,25 +810,25 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_1_5_3_b2_q0",
             "question": "わたしは　___ ___ _★_ ___　いきます。",
             "options": [
+              "と",
               "ぎんこう",
-              "へ",
               "ともだち",
-              "と"
+              "へ"
             ],
-            "correctIndex": 0,
-            "explanation": "わたしは ともだち と ぎんこう へ いきます."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Tôi đi ngân hàng cùng với bạn bè.\n- Phân tích trật tự từ: わたしは + ともだち (1) + と (3) + ぎんこう (4) + へ (2) + いきます.\n- Trợ từ と ở đây mang nghĩa là \"cùng với\". Trợ từ へ chỉ hướng di chuyển đến địa điểm (Ngân hàng).\n- Vị trí dấu sao nằm ở từ thứ 3 trong cụm sắp xếp, tương ứng với danh từ ぎんこう (4)."
           },
           {
             "id": "m_review_1_5_3_b2_q1",
-            "question": "ここは　___ ___ _★_ ___　です。",
+            "question": "ここは　___ ___ _★_ ___　es。",
             "options": [
-              "だいがく",
-              "しょくどう",
+              "の",
               "とうきょう",
-              "の"
+              "だいがく",
+              "しょくどう"
             ],
-            "correctIndex": 3,
-            "explanation": "ここは とうきょう だいがく の しょくどう です."
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa: Đây là nhà ăn của trường Đại học Tokyo.\n- Phân tích trật tự từ: ここは (Đây là) + とうきょう (3) + だいがく (2) + の (1) + しょくどう (4) + です.\n- Trợ từ の dùng để liên kết hai danh từ, danh từ trước (Tokyo Daigaku) bổ nghĩa cho danh từ sau (Shokudou).\n- Vị trí dấu sao nằm ở từ thứ 3 trong cụm sắp xếp, tương ứng với trợ từ の (1)."
           }
         ]
       },
@@ -836,7 +836,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "id": "p_review_1_5_3_dokkai1",
         "type": "mondai3",
         "text": [
-          "きのうは わたしの たんじょうびでした。",
+          "きのうは わたしの たnじょうびでした。",
           "わたしは ともだち（　１　）レストランへ いきました。",
           "レストランで おいしい ごはんを たべました。",
           "それから、えいがを（　２　）。とても たのしかったです。"
@@ -844,27 +844,27 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_1_5_3_d1_q0",
-            "question": "（　１　）に入れるものはどれですか。",
+            "question": "（　１　）に入れるものはdđầu/nơi/nào?",
             "options": [
+              "と",
               "へ",
-              "に",
               "で",
-              "と"
+              "に"
             ],
-            "correctIndex": 3,
-            "explanation": "Cùng với bạn -> と."
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa đoạn: \"Hôm qua là sinh nhật của tôi. Tôi đã đi đến nhà hàng cùng với bạn.\"\n- Trợ từ と dùng để liên kết đối tượng cùng thực hiện hành động (cùng với ai đó) -> ともだちと (cùng với bạn)."
           },
           {
             "id": "m_review_1_5_3_d1_q1",
-            "question": "（　２　）に入れるものはどれですか。",
+            "question": "（　２　）に入れるものはdđầu/nơi/nào?",
             "options": [
-              "みますか",
               "みました",
-              "みません",
-              "みます"
+              "みますか",
+              "みます",
+              "みません"
             ],
-            "correctIndex": 1,
-            "explanation": "Kể chuyện quá khứ -> みました."
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa đoạn: \"Sau đó, tôi đã xem phim. Rất là vui.\"\n- Vì mốc thời gian là \"Hôm qua (きのう)\", toàn bộ câu chuyện đang kể lại trong quá khứ nên động từ xem phim phải chia ở thể quá khứ khẳng định -> みました."
           }
         ]
       }
@@ -881,51 +881,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_1_5_4_m1_q0",
-            "question": "【先月】、日本へ きました。",
-            "options": [
-              "せんげつ",
-              "まいつき",
-              "らいげつ",
-              "こんげつ"
-            ],
-            "correctIndex": 0,
-            "explanation": "先月 đọc là せんげつ (tháng trước)."
-          },
-          {
-            "id": "m_review_1_5_4_m1_q1",
             "question": "わたしの 【国】は ベトナムです。",
             "options": [
-              "いえ",
               "くに",
+              "いえ",
               "まち",
               "うち"
             ],
-            "correctIndex": 1,
-            "explanation": "国 đọc là くに (đất nước)."
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa: Đất nước của tôi là Việt Nam.\n- Chữ Hán 【国】 (Quốc) có cách đọc âm ôn/kun là くに (kuni) nghĩa là đất nước, quốc gia.\n- Phân tích các đáp án khác: まち (machi: thành thị, con phố), うち (uchi: nhà/gia đình mình), いえ (ie: nhà - ngôi nhà vật lý)."
           },
           {
-            "id": "m_review_1_5_4_m1_q2",
+            "id": "m_review_1_5_4_m1_q1",
             "question": "きょうは 【水曜日】です。",
             "options": [
               "もくようび",
+              "かようび",
               "すいようび",
-              "きんようび",
-              "かようび"
+              "きんようび"
             ],
-            "correctIndex": 1,
-            "explanation": "水曜日 đọc là すいようび (thứ Tư)."
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Hôm nay là thứ Tư.\n- Chữ Hán 【水曜日】 (Thủy Diệu Nhật) có cách đọc tương ứng là すいようび (suiyoubi) nghĩa là thứ Tư.\n- Phân tích các đáp án khác: かようび (kayoubi: thứ Ba), もくようび (mokuyoubi: thứ Năm), kiんようび (kinyoubi: thứ Sáu)."
+          },
+          {
+            "id": "m_review_1_5_4_m1_q2",
+            "question": "【先月】、日本へ きました。",
+            "options": [
+              "せんげつ",
+              "らいげつ",
+              "まいつき",
+              "こんげつ"
+            ],
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa: Tháng trước tôi đã đến Nhật Bản.\n- Chữ Hán 【先月】 (Tiên Nguyệt) có cách đọc tương ứng là せんげつ (sengetsu) nghĩa là tháng trước.\n- Phân tích các đáp án khác: らいげつ (raigetsu: tháng sau), こんげつ (kongetsu: tháng này), まいつき (maitsuki: mỗi tháng)."
           },
           {
             "id": "m_review_1_5_4_m1_q3",
             "question": "【毎日】 にほんごを べんきょうします。",
             "options": [
               "まいにち",
-              "まいしゅう",
               "まいげつ",
-              "まいとし"
+              "まいとし",
+              "まいしゅう"
             ],
             "correctIndex": 0,
-            "explanation": "毎日 đọc là まいにち (mỗi ngày)."
+            "explanation": "Dịch nghĩa: Hàng ngày tôi học tiếng Nhật.\n- Chữ Hán 【毎日】 (Mỗi Nhật) có cách đọc tương ứng là まいにち (mainichi) nghĩa là mỗi ngày, hàng ngày.\n- Phân tích các đáp án khác: まいしゅう (maishuu: mỗi tuần), まいげつ (maigetsu: mỗi tháng), まいとし (maitoshi: mỗi năm)."
           }
         ]
       },
@@ -935,51 +935,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_1_5_4_m2_q0",
-            "question": "【でんしゃ】で かいしゃへ いきます。",
+            "question": "【くるま】を かいました。",
             "options": [
-              "電車",
-              "電波",
-              "電気",
-              "電話"
+              "庫",
+              "東",
+              "重",
+              "車"
             ],
-            "correctIndex": 0,
-            "explanation": "電車 là tàu điện."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Tôi đã mua ô tô.\n- 【くるま】 (xe hơi, ô tô) viết bằng chữ Kanji là 車 (Xa).\n- Các đáp án còn lại là các chữ Kanji có nét tương đồng dễ gây nhầm lẫn: 東 (Đông: phía đông), 重 (Trọng: nặng), 庫 (Khố: nhà kho)."
           },
           {
             "id": "m_review_1_5_4_m2_q1",
-            "question": "あの 【レストラン】は おいしいです。",
+            "question": "ともだちと 【...】へ いきます。",
             "options": [
-              "レストラソ",
-              "レスドラン",
-              "レストラン",
-              "レストンラ"
+              "デパード",
+              "デパート",
+              "デバート",
+              "テパート"
             ],
-            "correctIndex": 2,
-            "explanation": "Restaurant viết là レストラン."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Tôi đi đến trung tâm thương mại cùng bạn bè.\n- 【デパート】 (cửa hàng bách hóa - bắt nguồn từ tiếng Anh: Department store) viết chuẩn bằng Katakana là デパート.\n- Chú ý phân biệt phụ âm đục: \"de\" là デ (có dấu tenten) chứ không phải テ (te) hay ペ (pe)."
           },
           {
             "id": "m_review_1_5_4_m2_q2",
-            "question": "ともだちと 【デパート】へ いきます。",
+            "question": "あの 【レストラン】は おいしいです。",
             "options": [
-              "テパート",
-              "デパート",
-              "デバート",
-              "デパード"
+              "レストンラ",
+              "レストラソ",
+              "レスドラン",
+              "レストラン"
             ],
-            "correctIndex": 1,
-            "explanation": "Department store viết là デパート."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Nhà hàng kia ngon lắm.\n- 【レストラン】 (nhà hàng - bắt nguồn từ tiếng Anh: Restaurant) được viết bằng chữ Katakana là レストラン.\n- Chú ý các nét viết tương tự dễ nhầm: chữ ツ (tsu) khác với シ (shi), và chữ ン (n) khác với ソ (so)."
           },
           {
             "id": "m_review_1_5_4_m2_q3",
-            "question": "【くるま】を かいました。",
+            "question": "【でんしゃ】で かいしゃへ いきます。",
             "options": [
-              "車",
-              "重",
-              "庫",
-              "東"
+              "電話",
+              "電車",
+              "電波",
+              "電気"
             ],
-            "correctIndex": 0,
-            "explanation": "くるま (ô tô) viết là 車."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Tôi đi làm bằng tàu điện.\n- 【でんしゃ】 (tàu điện) viết bằng chữ Kanji là 電車 (Điện Xa) mang ý nghĩa xe chạy bằng điện.\n- Phân tích các đáp án khác: 電気 (Điện Khí: đồ điện, điện), 電話 (Điện Thoại: điện thoại), 電波 (Điện Ba: sóng điện)."
           }
         ]
       },
@@ -989,51 +989,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_1_5_4_m3_q0",
-            "question": "えんぴつで てがみを 【　　　】。",
+            "question": "スーパーで くだものを 【　　　】。",
             "options": [
-              "みます",
-              "よみます",
-              "かきます",
-              "ききます"
+              "あいます",
+              "かいます",
+              "すいます",
+              "のみます"
             ],
-            "correctIndex": 2,
-            "explanation": "Viết thư: かきます."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Tôi mua trái cây ở siêu thị.\n- Cụm từ: くだものを かいます (mua hoa quả/trái cây).\n- Trợ từ で chỉ địa điểm diễn ra hành động (tại siêu thị).\n- Các đáp án khác: あいます (gặp gỡ), すいます (hút thuốc), のみます (uống)."
           },
           {
             "id": "m_review_1_5_4_m3_q1",
-            "question": "スーパーで くだものを 【　　　】。",
-            "options": [
-              "のみます",
-              "かいます",
-              "あいます",
-              "すいます"
-            ],
-            "correctIndex": 1,
-            "explanation": "Mua trái cây: かいます."
-          },
-          {
-            "id": "m_review_1_5_4_m3_q2",
             "question": "きのう １０じに 【　　　】。",
             "options": [
               "おきました",
-              "いきました",
+              "ねました",
               "きました",
-              "ねました"
+              "いきました"
             ],
-            "correctIndex": 3,
-            "explanation": "Đã ngủ lúc 10 giờ: ねました."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Hôm qua tôi đã đi ngủ lúc 10 giờ.\n- Động từ ねました (đã ngủ, từ gốc là ねます) phù hợp nhất với mốc thời gian tối 10 giờ.\n- Trợ từ に đi kèm mốc thời gian cụ thể (10じ).\n- Các đáp án khác không hợp lý: おきました (đã thức dậy), きました (đã đến), いきました (đã đi)."
+          },
+          {
+            "id": "m_review_1_5_4_m3_q2",
+            "question": "あしたは やすみです。うちで ゆっくり 【　　　】。",
+            "options": [
+              "はたらきます",
+              "おわります",
+              "やすみます",
+              "おきます"
+            ],
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Ngày mai là ngày nghỉ. Tôi sẽ nghỉ ngơi thư thả ở nhà.\n- Cụm từ phổ biến: ゆっくり 休みます (nghỉ ngơi thong thả/thư thả).\n- Phù hợp hoàn hảo với vế trước: \"Ngày mai là ngày nghỉ (やすみ)\".\n- Các đáp án khác không phù hợp logic: おきます (thức dậy), はたらきます (làm việc), おわります (kết thúc)."
           },
           {
             "id": "m_review_1_5_4_m3_q3",
-            "question": "あしたは やすみです。うちで ゆっくり 【　　　】。",
+            "question": "えんぴつで てがみを 【　　　】。",
             "options": [
-              "おわります",
-              "やすみます",
-              "はたらきます",
-              "おきます"
+              "よみます",
+              "ききます",
+              "かきます",
+              "みます"
             ],
-            "correctIndex": 1,
-            "explanation": "Nghỉ ngơi: やすみます."
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Tôi viết thư bằng bút chì.\n- Cụm từ: てがみを かきます (viết thư).\n- Trợ từ で ở đây chỉ phương tiện, công cụ (bằng bút chì).\n- Các đáp án khác không hợp nghĩa: よみます (đọc thư - không dùng với bằng bút chì), ききます (nghe), みます (xem)."
           }
         ]
       },
@@ -1043,51 +1043,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_1_5_4_b1_q0",
-            "question": "わたしは えんぴつ（　　　）てがみを かきます。",
+            "question": "きょうは ５じ（　　　）はたらきます。",
             "options": [
-              "を",
+              "から",
               "で",
-              "に",
-              "が"
+              "まで",
+              "に"
             ],
-            "correctIndex": 1,
-            "explanation": "Phương tiện/công cụ -> で."
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Hôm nay tôi làm việc đến 5 giờ.\n- Trợ từ まで (đến) dùng để chỉ giới hạn thời gian kết thúc của một hành động liên tục (làm việc đến 5 giờ).\n- Các đáp án khác: から (từ - chỉ điểm bắt đầu), に (vào lúc - hành động tức thời), で (tại - nơi diễn ra hành động)."
           },
           {
             "id": "m_review_1_5_4_b1_q1",
-            "question": "あした どこ（　　　）いきません。",
+            "question": "A「それは （　　　）ですか。」 B「コンピューターの ほん です。」",
             "options": [
-              "へも",
-              "をも",
-              "がも",
-              "でも"
+              "なん",
+              "なんの ほん",
+              "đâu/đây/đó",
+              "だれの ほん"
             ],
             "correctIndex": 0,
-            "explanation": "Phủ định hoàn toàn: どこへも いきません."
+            "explanation": "Dịch nghĩa: A: \"Đó là cái gì thế?\" - B: \"Là cuốn sách về máy tính.\"\n- Từ để hỏi cho vật thể chưa xác định là なん (Cái gì?). Câu hỏi đầy đủ: それは なんですか (Đó là cái gì?).\n- Các đáp án khác không phù hợp ngữ pháp hoặc ngữ cảnh: なんの ほん (Sách gì - thiếu vị ngữ ですか), だれの ほん (Sách của ai)."
           },
           {
             "id": "m_review_1_5_4_b1_q2",
-            "question": "A「それは （　　　）ですか。」 B「コンピューターの ほん です。」",
+            "question": "あした どこ（　　　）いきません。",
             "options": [
-              "だれの ほん",
-              "なん",
-              "なんの ほん",
-              "どこ"
+              "đến/đo/đây",
+              "をも",
+              "へも",
+              "がも"
             ],
-            "correctIndex": 1,
-            "explanation": "Hỏi cái gì dùng なん."
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Ngày mai tôi không đi đâu cả.\n- Mẫu câu phủ định hoàn toàn: Từ để hỏi chỉ nơi chốn + へも + động từ phủ định (không đi bất cứ đâu).\n- Cấu trúc chuẩn xác: どこへも いきません."
           },
           {
             "id": "m_review_1_5_4_b1_q3",
-            "question": "きょうは ５じ（　　　）はたらきます。",
+            "question": "わたしは えんぴつ（　　　）てがみを かきます。",
             "options": [
+              "が",
               "に",
-              "まで",
-              "から",
-              "で"
+              "で",
+              "を"
             ],
-            "correctIndex": 1,
-            "explanation": "Làm việc \"đến\" 5 giờ -> まで."
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Tôi viết thư bằng bút chì.\n- Trợ từ で biểu thị phương tiện, công cụ hoặc cách thức thực hiện hành động (bằng bút chì).\n- Các trợ từ khác không phù hợp: に (chỉ mốc thời gian/đích đến), を (chỉ đối tượng tác động trực tiếp của hành động), が (chỉ chủ ngữ/đối tượng chỉ khả năng)."
           }
         ]
       },
@@ -1097,27 +1097,27 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_1_5_4_b2_q0",
-            "question": "わたしは　___ ___ _★_ ___　いきます。",
+            "question": "ここは　___ ___ _★_ ___　es。",
             "options": [
-              "ぎんこう",
-              "と",
-              "へ",
-              "ともだち"
+              "だいがく",
+              "しょくどう",
+              "の",
+              "とうきょう"
             ],
-            "correctIndex": 0,
-            "explanation": "わたしは ともだち と ぎんこう へ いきます."
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Đây là nhà ăn của trường Đại học Tokyo.\n- Phân tích trật tự từ: ここは (Đây là) + とうきょう (3) + だいがく (2) + の (1) + しょくどう (4) + です.\n- Trợ từ の dùng để liên kết hai danh từ, danh từ trước (Tokyo Daigaku) bổ nghĩa cho danh từ sau (Shokudou).\n- Vị trí dấu sao nằm ở từ thứ 3 trong cụm sắp xếp, tương ứng với trợ từ の (1)."
           },
           {
             "id": "m_review_1_5_4_b2_q1",
-            "question": "ここは　___ ___ _★_ ___　です。",
+            "question": "わたしは　___ ___ _★_ ___　いきます。",
             "options": [
-              "とうきょう",
-              "だいがく",
-              "しょくどう",
-              "の"
+              "へ",
+              "と",
+              "ともだち",
+              "ぎんこう"
             ],
             "correctIndex": 3,
-            "explanation": "ここは とうきょう だいがく の しょくどう です."
+            "explanation": "Dịch nghĩa: Tôi đi ngân hàng cùng với bạn bè.\n- Phân tích trật tự từ: わたしは + ともだち (1) + と (3) + ぎんこう (4) + へ (2) + いきます.\n- Trợ từ と ở đây mang nghĩa là \"cùng với\". Trợ từ へ chỉ hướng di chuyển đến địa điểm (Ngân hàng).\n- Vị trí dấu sao nằm ở từ thứ 3 trong cụm sắp xếp, tương ứng với danh từ ぎんこう (4)."
           }
         ]
       },
@@ -1125,7 +1125,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "id": "p_review_1_5_4_dokkai1",
         "type": "mondai3",
         "text": [
-          "きのうは わたしの たんじょうびでした。",
+          "きのうは わたしの たnじょうびでした。",
           "わたしは ともだち（　１　）レストランへ いきました。",
           "レストランで おいしい ごはんを たべました。",
           "それから、えいがを（　２　）。とても たのしかったです。"
@@ -1133,27 +1133,27 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_1_5_4_d1_q0",
-            "question": "（　１　）に入れるものはどれですか。",
+            "question": "（　１　）に入れるものはdđầu/nơi/nào?",
             "options": [
               "と",
-              "に",
+              "へ",
               "で",
-              "へ"
+              "に"
             ],
             "correctIndex": 0,
-            "explanation": "Cùng với bạn -> と."
+            "explanation": "Dịch nghĩa đoạn: \"Hôm qua là sinh nhật của tôi. Tôi đã đi đến nhà hàng cùng với bạn.\"\n- Trợ từ と dùng để liên kết đối tượng cùng thực hiện hành động (cùng với ai đó) -> ともだちと (cùng với bạn)."
           },
           {
             "id": "m_review_1_5_4_d1_q1",
-            "question": "（　２　）に入れるものはどれですか。",
+            "question": "（　２　）に入れるものはdđầu/nơi/nào?",
             "options": [
               "みません",
               "みます",
-              "みました",
-              "みますか"
+              "みますか",
+              "みました"
             ],
-            "correctIndex": 2,
-            "explanation": "Kể chuyện quá khứ -> みました."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa đoạn: \"Sau đó, tôi đã xem phim. Rất là vui.\"\n- Vì mốc thời gian là \"Hôm qua (きのう)\", toàn bộ câu chuyện đang kể lại trong quá khứ nên động từ xem phim phải chia ở thể quá khứ khẳng định -> みました."
           }
         ]
       }
@@ -1170,51 +1170,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_1_5_5_m1_q0",
-            "question": "きょうは 【水曜日】です。",
+            "question": "わたしの 【国】は ベトナムです。",
             "options": [
-              "きんようび",
-              "かようび",
-              "すいようび",
-              "もくようび"
+              "いえ",
+              "くに",
+              "うち",
+              "まち"
             ],
-            "correctIndex": 2,
-            "explanation": "水曜日 đọc là すいようび (thứ Tư)."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Đất nước của tôi là Việt Nam.\n- Chữ Hán 【国】 (Quốc) có cách đọc âm ôn/kun là くに (kuni) nghĩa là đất nước, quốc gia.\n- Phân tích các đáp án khác: まち (machi: thành thị, con phố), うち (uchi: nhà/gia đình mình), いえ (ie: nhà - ngôi nhà vật lý)."
           },
           {
             "id": "m_review_1_5_5_m1_q1",
             "question": "【先月】、日本へ きました。",
             "options": [
+              "らいげつ",
               "せんげつ",
               "こんげつ",
-              "まいつき",
-              "らいげつ"
+              "まいつき"
             ],
-            "correctIndex": 0,
-            "explanation": "先月 đọc là せんげつ (tháng trước)."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Tháng trước tôi đã đến Nhật Bản.\n- Chữ Hán 【先月】 (Tiên Nguyệt) có cách đọc tương ứng là せんげつ (sengetsu) nghĩa là tháng trước.\n- Phân tích các đáp án khác: らいげつ (raigetsu: tháng sau), こんげつ (kongetsu: tháng này), まいつき (maitsuki: mỗi tháng)."
           },
           {
             "id": "m_review_1_5_5_m1_q2",
             "question": "【毎日】 にほんごを べんきょうします。",
             "options": [
               "まいげつ",
+              "まいしゅう",
               "まいとし",
-              "まいにち",
-              "まいしゅう"
+              "まいにち"
             ],
-            "correctIndex": 2,
-            "explanation": "毎日 đọc là まいにち (mỗi ngày)."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Hàng ngày tôi học tiếng Nhật.\n- Chữ Hán 【毎日】 (Mỗi Nhật) có cách đọc tương ứng là まいにち (mainichi) nghĩa là mỗi ngày, hàng ngày.\n- Phân tích các đáp án khác: まいしゅう (maishuu: mỗi tuần), まいげつ (maigetsu: mỗi tháng), まいとし (maitoshi: mỗi năm)."
           },
           {
             "id": "m_review_1_5_5_m1_q3",
-            "question": "わたしの 【国】は ベトナムです。",
+            "question": "きょうは 【水曜日】です。",
             "options": [
-              "いえ",
-              "まち",
-              "うち",
-              "くに"
+              "すいようび",
+              "きんようび",
+              "かようび",
+              "もくようび"
             ],
-            "correctIndex": 3,
-            "explanation": "国 đọc là くに (đất nước)."
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa: Hôm nay là thứ Tư.\n- Chữ Hán 【水曜日】 (Thủy Diệu Nhật) có cách đọc tương ứng là すいようび (suiyoubi) nghĩa là thứ Tư.\n- Phân tích các đáp án khác: かようび (kayoubi: thứ Ba), もくようび (mokuyoubi: thứ Năm), kiんようび (kinyoubi: thứ Sáu)."
           }
         ]
       },
@@ -1224,51 +1224,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_1_5_5_m2_q0",
-            "question": "ともだちと 【デパート】へ いきます。",
+            "question": "【くるま】を かいました。",
             "options": [
-              "デバート",
-              "テパート",
-              "デパード",
-              "デパート"
+              "東",
+              "庫",
+              "車",
+              "重"
             ],
-            "correctIndex": 3,
-            "explanation": "Department store viết là デパート."
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Tôi đã mua ô tô.\n- 【くるま】 (xe hơi, ô tô) viết bằng chữ Kanji là 車 (Xa).\n- Các đáp án còn lại là các chữ Kanji có nét tương đồng dễ gây nhầm lẫn: 東 (Đông: phía đông), 重 (Trọng: nặng), 庫 (Khố: nhà kho)."
           },
           {
             "id": "m_review_1_5_5_m2_q1",
-            "question": "あの 【レストラン】は おいしいです。",
+            "question": "ともだちと 【...】へ いきます。",
             "options": [
-              "レストラン",
-              "レスドラン",
-              "レストラソ",
-              "レストンラ"
+              "デパート",
+              "デパード",
+              "テパート",
+              "デバート"
             ],
             "correctIndex": 0,
-            "explanation": "Restaurant viết là レストラン."
+            "explanation": "Dịch nghĩa: Tôi đi đến trung tâm thương mại cùng bạn bè.\n- 【デパート】 (cửa hàng bách hóa - bắt nguồn từ tiếng Anh: Department store) viết chuẩn bằng Katakana là デパート.\n- Chú ý phân biệt phụ âm đục: \"de\" là デ (có dấu tenten) chứ không phải テ (te) hay ペ (pe)."
           },
           {
             "id": "m_review_1_5_5_m2_q2",
-            "question": "【でんしゃ】で かいしゃへ いきます。",
+            "question": "あの 【レストラン】は おいしいです。",
             "options": [
-              "電気",
-              "電車",
-              "電波",
-              "電話"
+              "レストンラ",
+              "レストラン",
+              "レスドラン",
+              "レストラソ"
             ],
             "correctIndex": 1,
-            "explanation": "電車 là tàu điện."
+            "explanation": "Dịch nghĩa: Nhà hàng kia ngon lắm.\n- 【レストラン】 (nhà hàng - bắt nguồn từ tiếng Anh: Restaurant) được viết bằng chữ Katakana là レストラン.\n- Chú ý các nét viết tương tự dễ nhầm: chữ ツ (tsu) khác với シ (shi), và chữ ン (n) khác với ソ (so)."
           },
           {
             "id": "m_review_1_5_5_m2_q3",
-            "question": "【くるま】を かいました。",
+            "question": "【でんしゃ】で かいしゃへ いきます。",
             "options": [
-              "庫",
-              "東",
-              "重",
-              "車"
+              "電話",
+              "電気",
+              "電車",
+              "電波"
             ],
-            "correctIndex": 3,
-            "explanation": "くるま (ô tô) viết là 車."
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Tôi đi làm bằng tàu điện.\n- 【でんしゃ】 (tàu điện) viết bằng chữ Kanji là 電車 (Điện Xa) mang ý nghĩa xe chạy bằng điện.\n- Phân tích các đáp án khác: 電気 (Điện Khí: đồ điện, điện), 電話 (Điện Thoại: điện thoại), 電波 (Điện Ba: sóng điện)."
           }
         ]
       },
@@ -1278,51 +1278,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_1_5_5_m3_q0",
-            "question": "あしたは やすみです。うちで ゆっくり 【　　　】。",
-            "options": [
-              "はたらきます",
-              "おわります",
-              "やすみます",
-              "おきます"
-            ],
-            "correctIndex": 2,
-            "explanation": "Nghỉ ngơi: やすみます."
-          },
-          {
-            "id": "m_review_1_5_5_m3_q1",
-            "question": "きのう １０じに 【　　　】。",
-            "options": [
-              "きました",
-              "ねました",
-              "おきました",
-              "いきました"
-            ],
-            "correctIndex": 1,
-            "explanation": "Đã ngủ lúc 10 giờ: ねました."
-          },
-          {
-            "id": "m_review_1_5_5_m3_q2",
             "question": "えんぴつで てがみを 【　　　】。",
             "options": [
-              "よみます",
               "かきます",
+              "よみます",
               "みます",
               "ききます"
             ],
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa: Tôi viết thư bằng bút chì.\n- Cụm từ: てがみを かきます (viết thư).\n- Trợ từ で ở đây chỉ phương tiện, công cụ (bằng bút chì).\n- Các đáp án khác không hợp nghĩa: よみます (đọc thư - không dùng với bằng bút chì), ききます (nghe), みます (xem)."
+          },
+          {
+            "id": "m_review_1_5_5_m3_q1",
+            "question": "あしたは やすみです。うちで ゆっくり 【　　　】。",
+            "options": [
+              "おきます",
+              "おわります",
+              "やすみます",
+              "はたらきます"
+            ],
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Ngày mai là ngày nghỉ. Tôi sẽ nghỉ ngơi thư thả ở nhà.\n- Cụm từ phổ biến: ゆっくり 休みます (nghỉ ngơi thong thả/thư thả).\n- Phù hợp hoàn hảo với vế trước: \"Ngày mai là ngày nghỉ (やすみ)\".\n- Các đáp án khác không phù hợp logic: おきます (thức dậy), はたらきます (làm việc), おわります (kết thúc)."
+          },
+          {
+            "id": "m_review_1_5_5_m3_q2",
+            "question": "スーパーで くだものを 【　　　】。",
+            "options": [
+              "すいます",
+              "かいます",
+              "のみます",
+              "あいます"
+            ],
             "correctIndex": 1,
-            "explanation": "Viết thư: かきます."
+            "explanation": "Dịch nghĩa: Tôi mua trái cây ở siêu thị.\n- Cụm từ: くだものを かいます (mua hoa quả/trái cây).\n- Trợ từ で chỉ địa điểm diễn ra hành động (tại siêu thị).\n- Các đáp án khác: あいます (gặp gỡ), すいます (hút thuốc), のみます (uống)."
           },
           {
             "id": "m_review_1_5_5_m3_q3",
-            "question": "スーパーで くだものを 【　　　】。",
+            "question": "きのう １０じに 【　　　】。",
             "options": [
-              "のみます",
-              "あいます",
-              "かいます",
-              "すいます"
+              "おきました",
+              "いきました",
+              "きました",
+              "ねました"
             ],
-            "correctIndex": 2,
-            "explanation": "Mua trái cây: かいます."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Hôm qua tôi đã đi ngủ lúc 10 giờ.\n- Động từ ねました (đã ngủ, từ gốc là ねます) phù hợp nhất với mốc thời gian tối 10 giờ.\n- Trợ từ に đi kèm mốc thời gian cụ thể (10じ).\n- Các đáp án khác không hợp lý: おきました (đã thức dậy), きました (đã đến), いきました (đã đi)."
           }
         ]
       },
@@ -1332,51 +1332,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_1_5_5_b1_q0",
-            "question": "あした どこ（　　　）いきません。",
-            "options": [
-              "をも",
-              "へも",
-              "がも",
-              "でも"
-            ],
-            "correctIndex": 1,
-            "explanation": "Phủ định hoàn toàn: どこへも いきません."
-          },
-          {
-            "id": "m_review_1_5_5_b1_q1",
             "question": "わたしは えんぴつ（　　　）てがみを かきます。",
             "options": [
-              "に",
               "が",
-              "で",
-              "を"
-            ],
-            "correctIndex": 2,
-            "explanation": "Phương tiện/công cụ -> で."
-          },
-          {
-            "id": "m_review_1_5_5_b1_q2",
-            "question": "きょうは ５じ（　　　）はたらきます。",
-            "options": [
-              "まで",
-              "から",
+              "を",
               "に",
               "で"
             ],
-            "correctIndex": 0,
-            "explanation": "Làm việc \"đến\" 5 giờ -> まで."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Tôi viết thư bằng bút chì.\n- Trợ từ で biểu thị phương tiện, công cụ hoặc cách thức thực hiện hành động (bằng bút chì).\n- Các trợ từ khác không phù hợp: に (chỉ mốc thời gian/đích đến), を (chỉ đối tượng tác động trực tiếp của hành động), が (chỉ chủ ngữ/đối tượng chỉ khả năng)."
+          },
+          {
+            "id": "m_review_1_5_5_b1_q1",
+            "question": "あした どこ（　　　）いきません。",
+            "options": [
+              "がも",
+              "へも",
+              "đến/đo/đây",
+              "をも"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Ngày mai tôi không đi đâu cả.\n- Mẫu câu phủ định hoàn toàn: Từ để hỏi chỉ nơi chốn + へも + động từ phủ định (không đi bất cứ đâu).\n- Cấu trúc chuẩn xác: どこへも いきません."
+          },
+          {
+            "id": "m_review_1_5_5_b1_q2",
+            "question": "A「それは （　　　）ですか。」 B「コンピューターの ほん です。」",
+            "options": [
+              "だれの ほん",
+              "đâu/đây/đó",
+              "なんの ほん",
+              "なん"
+            ],
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: A: \"Đó là cái gì thế?\" - B: \"Là cuốn sách về máy tính.\"\n- Từ để hỏi cho vật thể chưa xác định là なん (Cái gì?). Câu hỏi đầy đủ: それは なんですか (Đó là cái gì?).\n- Các đáp án khác không phù hợp ngữ pháp hoặc ngữ cảnh: なんの ほん (Sách gì - thiếu vị ngữ ですか), だれの ほん (Sách của ai)."
           },
           {
             "id": "m_review_1_5_5_b1_q3",
-            "question": "A「それは （　　　）ですか。」 B「コンピューターの ほん です。」",
+            "question": "きょうは ５じ（　　　）はたらきます。",
             "options": [
-              "なん",
-              "だれの ほん",
-              "どこ",
-              "なんの ほん"
+              "に",
+              "から",
+              "で",
+              "まで"
             ],
-            "correctIndex": 0,
-            "explanation": "Hỏi cái gì dùng なん."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Hôm nay tôi làm việc đến 5 giờ.\n- Trợ từ まで (đến) dùng để chỉ giới hạn thời gian kết thúc của một hành động liên tục (làm việc đến 5 giờ).\n- Các đáp án khác: から (từ - chỉ điểm bắt đầu), に (vào lúc - hành động tức thời), で (tại - nơi diễn ra hành động)."
           }
         ]
       },
@@ -1386,27 +1386,27 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_1_5_5_b2_q0",
-            "question": "ここは　___ ___ _★_ ___　です。",
-            "options": [
-              "とうきょう",
-              "の",
-              "しょくどう",
-              "だいがく"
-            ],
-            "correctIndex": 1,
-            "explanation": "ここは とうきょう だいがく の しょくどう です."
-          },
-          {
-            "id": "m_review_1_5_5_b2_q1",
             "question": "わたしは　___ ___ _★_ ___　いきます。",
             "options": [
               "ともだち",
               "ぎんこう",
-              "と",
-              "へ"
+              "へ",
+              "と"
             ],
             "correctIndex": 1,
-            "explanation": "わたしは ともだち と ぎんこう へ いきます."
+            "explanation": "Dịch nghĩa: Tôi đi ngân hàng cùng với bạn bè.\n- Phân tích trật tự từ: わたしは + ともだち (1) + と (3) + ぎんこう (4) + へ (2) + いきます.\n- Trợ từ と ở đây mang nghĩa là \"cùng với\". Trợ từ へ chỉ hướng di chuyển đến địa điểm (Ngân hàng).\n- Vị trí dấu sao nằm ở từ thứ 3 trong cụm sắp xếp, tương ứng với danh từ ぎんこう (4)."
+          },
+          {
+            "id": "m_review_1_5_5_b2_q1",
+            "question": "ここは　___ ___ _★_ ___　es。",
+            "options": [
+              "だいがく",
+              "の",
+              "しょくどう",
+              "とうきょう"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Đây là nhà ăn của trường Đại học Tokyo.\n- Phân tích trật tự từ: ここは (Đây là) + とうきょう (3) + だいがく (2) + の (1) + しょくどう (4) + です.\n- Trợ từ の dùng để liên kết hai danh từ, danh từ trước (Tokyo Daigaku) bổ nghĩa cho danh từ sau (Shokudou).\n- Vị trí dấu sao nằm ở từ thứ 3 trong cụm sắp xếp, tương ứng với trợ từ の (1)."
           }
         ]
       },
@@ -1414,7 +1414,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "id": "p_review_1_5_5_dokkai1",
         "type": "mondai3",
         "text": [
-          "きのうは わたしの たんじょうびでした。",
+          "きのうは わたしの たnじょうびでした。",
           "わたしは ともだち（　１　）レストランへ いきました。",
           "レストランで おいしい ごはんを たべました。",
           "それから、えいがを（　２　）。とても たのしかったです。"
@@ -1422,27 +1422,27 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_1_5_5_d1_q0",
-            "question": "（　１　）に入れるものはどれですか。",
+            "question": "（　１　）に入れるものはdđầu/nơi/nào?",
             "options": [
-              "と",
               "へ",
               "に",
-              "で"
+              "で",
+              "と"
             ],
-            "correctIndex": 0,
-            "explanation": "Cùng với bạn -> と."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa đoạn: \"Hôm qua là sinh nhật của tôi. Tôi đã đi đến nhà hàng cùng với bạn.\"\n- Trợ từ と dùng để liên kết đối tượng cùng thực hiện hành động (cùng với ai đó) -> ともだちと (cùng với bạn)."
           },
           {
             "id": "m_review_1_5_5_d1_q1",
-            "question": "（　２　）に入れるものはどれですか。",
+            "question": "（　２　）に入れるものはdđầu/nơi/nào?",
             "options": [
-              "みます",
-              "みません",
+              "みますか",
               "みました",
-              "みますか"
+              "みません",
+              "みます"
             ],
-            "correctIndex": 2,
-            "explanation": "Kể chuyện quá khứ -> みました."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa đoạn: \"Sau đó, tôi đã xem phim. Rất là vui.\"\n- Vì mốc thời gian là \"Hôm qua (きのう)\", toàn bộ câu chuyện đang kể lại trong quá khứ nên động từ xem phim phải chia ở thể quá khứ khẳng định -> みました."
           }
         ]
       }
@@ -1459,51 +1459,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_6_10_1_m1_q0",
-            "question": "【新しい】 くるまです。",
+            "question": "【古い】 じてんしゃです。",
             "options": [
-              "あたらしい",
-              "あたらし",
-              "あらたしい",
-              "あだらしい"
+              "ぶるい",
+              "ふるい",
+              "ひろい",
+              "ふろい"
             ],
-            "correctIndex": 0,
-            "explanation": "新しい đọc là あたらしい (mới)."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Đó là chiếc xe đạp cũ.\n- Tính từ 【古い】 (Cổ) có cách đọc tương ứng là ふるい (furui) nghĩa là cũ.\n- Phân tích các đáp án khác: ぶるい (phát âm sai), ひろい (rộng rãi), ふろい (phát âm sai)."
           },
           {
             "id": "m_review_6_10_1_m1_q1",
-            "question": "【古い】 じてんしゃです。",
+            "question": "【新しい】 くるまです。",
             "options": [
-              "ひろい",
-              "ふろい",
-              "ふるい",
-              "ぶるい"
+              "あだらしい",
+              "あたらし",
+              "あたらしい",
+              "あらたしい"
             ],
             "correctIndex": 2,
-            "explanation": "古い đọc là ふるい (cũ)."
+            "explanation": "Dịch nghĩa: Đó là chiếc xe hơi mới.\n- Tính từ 【新しい】 (Tân) có cách đọc Hiragana đầy đủ là あたらしい (atarashii) nghĩa là mới.\n- Chú ý cách viết okurigana (phần đuôi chữ đi kèm sau chữ Hán) là しい."
           },
           {
             "id": "m_review_6_10_1_m1_q2",
             "question": "【えいご】を べんきょうします。",
             "options": [
               "英話",
-              "英悟",
+              "英吾",
               "英語",
-              "英吾"
+              "英悟"
             ],
             "correctIndex": 2,
-            "explanation": "英語 là Tiếng Anh."
+            "explanation": "Dịch nghĩa: Tôi học tiếng Anh.\n- 【えいご】 (tiếng Anh) viết bằng chữ Hán là 英語 (Anh Ngữ).\n- Phân tích các đáp án khác: 英話 (Anh Thoại - không tồn tại), 英吾, 英悟 là các từ đồng âm hoặc ghép sai chữ."
           },
           {
             "id": "m_review_6_10_1_m1_q3",
             "question": "【手紙】を かきます。",
             "options": [
+              "てがみ",
               "でがみ",
               "てかみ",
-              "でかみ",
-              "てがみ"
+              "でかみ"
             ],
-            "correctIndex": 3,
-            "explanation": "手紙 đọc là てがみ (Bức thư)."
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa: Tôi viết thư.\n- Chữ Hán 【手紙】 (Thủ Chỉ) có cách đọc tương ứng là てがみ (tegami) nghĩa là bức thư.\n- Chú ý âm đục của từ: \"ga\" chứ không phải \"ka\", và \"te\" chứ không phải \"de\"."
           }
         ]
       },
@@ -1515,49 +1515,49 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_6_10_1_m2_q0",
             "question": "【パン】を たべます。",
             "options": [
-              "パン",
+              "ホン",
               "ハン",
               "バン",
-              "ホン"
+              "パン"
             ],
-            "correctIndex": 0,
-            "explanation": "Bread viết là パン."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Tôi ăn bánh mì.\n- 【パン】 (bánh mì - mượn từ tiếng Bồ Đào Nha: Pão) viết bằng Katakana là パン (chữ ハ có dấu tròn maru).\n- Phân tích các đáp án khác: ハン (han), バン (ban), ホン (hon)."
           },
           {
             "id": "m_review_6_10_1_m2_q1",
-            "question": "【シャツ】を かいました。",
+            "question": "【プレゼント】を あげます。",
             "options": [
-              "シヤッ",
-              "サツ",
-              "シヤツ",
-              "シャツ"
+              "フレゼント",
+              "プレセント",
+              "プレゼント",
+              "プレザント"
             ],
-            "correctIndex": 3,
-            "explanation": "Shirt viết là シャツ."
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Tôi tặng quà.\n- 【プレゼント】 (quà tặng - bắt nguồn từ tiếng Anh: Present) viết bằng Katakana chuẩn xác là プレゼント.\n- Chú ý phân biệt chữ ゼン (zen) có dấu tenten khác với セン (sen)."
           },
           {
             "id": "m_review_6_10_1_m2_q2",
             "question": "【コーヒー】を のみます。",
             "options": [
               "コヒ",
-              "コーヒ",
+              "コーヒー",
               "コヒー",
-              "コーヒー"
+              "コーヒ"
             ],
-            "correctIndex": 3,
-            "explanation": "Coffee viết là コーヒー."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Tôi uống cà phê.\n- 【コーヒー】 (Cà phê - bắt nguồn từ tiếng Anh: Coffee) viết chuẩn Katakana bắt buộc phải có hai trường âm (dấu gạch ngang biểu thị kéo dài âm tiết): コーヒー.\n- Các đáp án khác sai quy tắc trường âm."
           },
           {
             "id": "m_review_6_10_1_m2_q3",
-            "question": "【プレゼント】を あげます。",
+            "question": "【シャツ】を かいました。",
             "options": [
-              "プレセント",
-              "プレザント",
-              "プレゼント",
-              "フレゼント"
+              "シャツ",
+              "シヤッ",
+              "サツ",
+              "シヤツ"
             ],
-            "correctIndex": 2,
-            "explanation": "Present (Quà) viết Katakana là プレゼント."
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa: Tôi đã mua áo sơ mi.\n- 【シャツ】 (áo sơ mi - bắt nguồn từ tiếng Anh: Shirt) viết bằng Katakana phải có chữ ャ (ya nhỏ) để tạo thành âm ghép \"sha\": シャツ.\n- Phân tích đáp án khác: シヤツ (chữ ya lớn - đọc là shi-ya-tsu, sai)."
           }
         ]
       },
@@ -1567,51 +1567,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_6_10_1_m3_q0",
-            "question": "せんせいから ほんを 【　　　】。",
-            "options": [
-              "もらいました",
-              "おしえました",
-              "かしました",
-              "あげました"
-            ],
-            "correctIndex": 0,
-            "explanation": "Nhận từ giáo viên (もらいました)."
-          },
-          {
-            "id": "m_review_6_10_1_m3_q1",
             "question": "はさみで かみを 【　　　】。",
             "options": [
               "もらいます",
               "かします",
-              "かります",
-              "きります"
+              "きります",
+              "かりまs"
             ],
-            "correctIndex": 3,
-            "explanation": "Cắt (きります) giấy."
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Tôi cắt giấy bằng kéo.\n- Động từ きります (kiri-masu: cắt) đi kèm công cụ はさみ (kéo) và đối tượng かみ (giấy) là phù hợp nhất.\n- Phân tích các động từ khác: かします (cho mượn), かります (mượn), もらいます (nhận)."
+          },
+          {
+            "id": "m_review_6_10_1_m3_q1",
+            "question": "この りんごは とても 【　　　】です。",
+            "options": [
+              "いそがしい",
+              "おいしい",
+              "つめたい",
+              "おもしろい"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Quả táo này rất ngon.\n- Tính từ おいしい (oishii: ngon) phù hợp nhất để miêu tả đồ ăn (táo).\n- Phân tích các tính từ khác: つめたい (lạnh - dùng cho cảm giác tiếp xúc), おもしろい (thú vị - dùng cho sách, phim), いそgがしい (bận rộn - dùng cho con người)."
           },
           {
             "id": "m_review_6_10_1_m3_q2",
-            "question": "日本の カメラは 【　　　】ですか。",
+            "question": "せんせいから ほんを 【　　　】。",
             "options": [
-              "どれ",
-              "どの",
-              "どんな",
-              "どう"
+              "あげました",
+              "おしえました",
+              "かしました",
+              "もらいました"
             ],
             "correctIndex": 3,
-            "explanation": "Thế nào? (どうですか)."
+            "explanation": "Dịch nghĩa: Tôi đã nhận được sách từ thầy cô giáo.\n- Cấu trúc: [Người] から/に [Vật] を もらいます (Nhận cái gì từ ai đó). Do có trợ từ から (từ) chỉ nguồn gốc, động từ もらいました (đã nhận) là chính xác.\n- Các động từ còn lại không khớp trợ từ: あげました (cho/tặng), かしました (cho mượn), おしえました (dạy)."
           },
           {
             "id": "m_review_6_10_1_m3_q3",
-            "question": "この りんごは とても 【　　　】です。",
+            "question": "日本の カメラは 【　　　】ですか。",
             "options": [
-              "おいしい",
-              "おもしろい",
-              "いそがしい",
-              "つめたい"
+              "どの",
+              "どんな",
+              "どう",
+              "どれ"
             ],
-            "correctIndex": 0,
-            "explanation": "Táo thì ngon (おいしい)."
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Máy ảnh của Nhật Bản thế nào?\n- Cụm hỏi ý kiến, cảm tưởng: どうですか (Như thế nào?).\n- Phân tích các đáp án khác: どんな (như thế nào - phải đứng trước danh từ), どれ (cái nào - dùng để chọn lựa trong nhóm), どの (cái nào - phải đứng trước danh từ)."
           }
         ]
       },
@@ -1621,51 +1621,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_6_10_1_b1_q0",
-            "question": "わたしは 木村さん（　　　）はなを あげました。",
+            "question": "きのうの パーティーは （　　　）。",
             "options": [
-              "を",
-              "へ",
-              "で",
-              "に"
+              "たのしいでした",
+              "たのしかった",
+              "たのしかったです",
+              "たのしいです"
             ],
-            "correctIndex": 3,
-            "explanation": "Cho ai cái gì -> に."
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Bữa tiệc hôm qua đã rất vui.\n- Thời gian là \"Hôm qua (きのう)\", nên câu phải chia ở quá khứ lịch sự.\n- Quy tắc chia quá khứ lịch sự của tính từ đuôi い (たのしい): Bỏ い thêm かったです -> たのしかったです.\n- Chú ý: Tiếng Nhật không dùng \"đuôi い + でした\" (như たのしいでした, đây là lỗi cực kỳ phổ biến)."
           },
           {
             "id": "m_review_6_10_1_b1_q1",
-            "question": "この へやは （　　　）ありません。",
+            "question": "スプーン（　　　）ごはんを たべます。",
             "options": [
-              "しずかくて",
-              "しずかじゃ",
-              "しずか",
-              "しずかに"
+              "で",
+              "gが",
+              "を",
+              "に"
             ],
-            "correctIndex": 1,
-            "explanation": "Phủ định tính từ đuôi な -> じゃ ありません."
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa: Tôi ăn cơm bằng thìa.\n- Trợ từ で được dùng để chỉ phương tiện, công cụ hoặc nguyên liệu thực hiện hành động (bằng thìa/muỗng).\n- Các đáp án khác không phù hợp: に (chỉ thời gian/nơi chốn hướng tới), を (chỉ đối tượng trực tiếp), が (chỉ chủ ngữ)."
           },
           {
             "id": "m_review_6_10_1_b1_q2",
-            "question": "スプーン（　　　）ごはんを たべます。",
+            "question": "わたしは 木村さん（　　　）はなを あげました。",
             "options": [
-              "を",
+              "に",
+              "へ",
               "で",
-              "が",
-              "に"
+              "を"
             ],
-            "correctIndex": 1,
-            "explanation": "Chỉ phương tiện/công cụ -> で."
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa: Tôi đã tặng hoa cho chị Kimura.\n- Cấu trúc: [Người cho] は [Người nhận] に [Vật] を あげます. Trợ từ に chỉ đối tượng gián tiếp tiếp nhận hành động (cho/tặng ai đó)."
           },
           {
             "id": "m_review_6_10_1_b1_q3",
-            "question": "きのうの パーティーは （　　　）。",
+            "question": "この へ야는 （　　　）ありません。",
             "options": [
-              "たのしかったです",
-              "たのしいです",
-              "たのしかった",
-              "たのしいでした"
+              "しずかに",
+              "しずか",
+              "しずかくて",
+              "しずかじゃ"
             ],
-            "correctIndex": 0,
-            "explanation": "Tính từ đuôi い ở quá khứ -> かったです."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Căn phòng này không yên tĩnh.\n- Tính từ しずか (yên tĩnh) là tính từ đuôi な.\n- Quy tắc phủ định tính từ đuôi な: [Danh từ/Tính từ đuôi な] + じゃ/では ありません -> しずかじゃ ありません.\n- Phân tích đáp án khác: しずかくて (dạng nối của tính từ đuôi い, sai)."
           }
         ]
       },
@@ -1678,24 +1678,24 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "question": "わたしは　___ ___ _★_ ___　もらいました。",
             "options": [
               "に",
-              "ともだち",
-              "を",
-              "とけい"
+              "tともだち",
+              "とけい",
+              "を"
             ],
-            "correctIndex": 2,
-            "explanation": "わたしは ともだち に とけい を もらいました."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Tôi đã nhận chiếc đồng hồ từ bạn bè.\n- Phân tích trật tự từ: わたしは + とmだち (2) + に (3) + とけい (4) + を (1) + もらいました.\n- Cấu trúc: [Người nhận] は [Người cho] に [Vật] を もらいます (Nhận cái gì từ ai).\n- Vị trí dấu sao nằm ở từ thứ 3 trong cụm sắp xếp, tương ứng với danh từ và trợ từ とけいを (vị trí ngôi sao là 4, tức là và trợ từ を (1) đi sau とけい)."
           },
           {
             "id": "m_review_6_10_1_b2_q1",
             "question": "とうきょうは　___ ___ _★_ ___　まちです。",
             "options": [
-              "て",
-              "きれいで",
+              "とても",
               "にぎやかな",
-              "とても"
+              "て",
+              "きれいで"
             ],
-            "correctIndex": 3,
-            "explanation": "とうきょうは とても きれいで にぎやかな まち です."
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa: Tokyo là một thành phố rất đẹp và nhộn nhịp.\n- Phân tích trật tự từ: とうきょうは + とても (4) + きれいで (2) + にぎやかな (3) + まちです.\n- Quy tắc nối tính từ đuôi な (きれい): Chuyển sang thể て thành きれいで để nối tiếp với tính từ tiếp theo (にぎやかな).\n- Vị trí dấu sao nằm ở từ thứ 3 trong cụm sắp xếp, tương ứng với tính từ にぎやかな (3)."
           }
         ]
       },
@@ -1715,23 +1715,23 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "options": [
               "くろい シャツと くろい ぼうし",
               "くろい シャツと しろい ぼうし",
-              "しろい シャツと しろい ぼうし",
-              "しろい シャツと くろい ぼうし"
+              "しろい シャツと くろi ぼうし",
+              "しろい シャツと しろい ぼうし"
             ],
-            "correctIndex": 3,
-            "explanation": "シャツは しろいです。ぼうしは くろいです."
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa đoạn văn: \"Hôm nay là sinh nhật tôi. Sáng nay tôi nhận được quà từ mẹ: áo sơ mi và mũ. Chiếc áo sơ mi thì màu trắng, chiếc mũ thì màu đen.\"\n- Do đó, món quà nhận được là: Áo sơ mi trắng và mũ đen -> しろい シャツと くろい ぼうし."
           },
           {
             "id": "m_review_6_10_1_d1_q1",
             "question": "よる どこで ごはんを たべますか。",
             "options": [
-              "がっこう",
               "レストラン",
+              "かいしゃ",
               "うち",
-              "かいしゃ"
+              "gがっこう"
             ],
-            "correctIndex": 1,
-            "explanation": "レストランで しょくじを します."
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa đoạn văn: \"Buổi tối, tôi cùng gia đình đi dùng bữa tại nhà hàng.\"\n- Nơi ăn cơm vào buổi tối là nhà hàng -> レストラン."
           }
         ]
       }
@@ -1751,48 +1751,48 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "question": "【手紙】を かきます。",
             "options": [
               "でかみ",
-              "てがみ",
               "でがみ",
-              "てかみ"
+              "てかみ",
+              "てがみ"
             ],
-            "correctIndex": 1,
-            "explanation": "手紙 đọc là てがみ (Bức thư)."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Tôi viết thư.\n- Chữ Hán 【手紙】 (Thủ Chỉ) có cách đọc tương ứng là てがみ (tegami) nghĩa là bức thư.\n- Chú ý âm đục của từ: \"ga\" chứ không phải \"ka\", và \"te\" chứ không phải \"de\"."
           },
           {
             "id": "m_review_6_10_2_m1_q1",
             "question": "【えいご】を べんきょうします。",
             "options": [
-              "英語",
-              "英悟",
+              "英吾",
               "英話",
-              "英吾"
+              "英語",
+              "英悟"
             ],
-            "correctIndex": 0,
-            "explanation": "英語 là Tiếng Anh."
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Tôi học tiếng Anh.\n- 【えいご】 (tiếng Anh) viết bằng chữ Hán là 英語 (Anh Ngữ).\n- Phân tích các đáp án khác: 英話 (Anh Thoại - không tồn tại), 英吾, 英悟 là các từ đồng âm hoặc ghép sai chữ."
           },
           {
             "id": "m_review_6_10_2_m1_q2",
             "question": "【新しい】 くるまです。",
             "options": [
-              "あたらしい",
               "あだらしい",
               "あらたしい",
-              "あたらし"
+              "あたらし",
+              "あたらしい"
             ],
-            "correctIndex": 0,
-            "explanation": "新しい đọc là あたらしい (mới)."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Đó là chiếc xe hơi mới.\n- Tính từ 【新しい】 (Tân) có cách đọc Hiragana đầy đủ là あたらしい (atarashii) nghĩa là mới.\n- Chú ý cách viết okurigana (phần đuôi chữ đi kèm sau chữ Hán) là しい."
           },
           {
             "id": "m_review_6_10_2_m1_q3",
             "question": "【古い】 じてんしゃです。",
             "options": [
-              "ふるい",
+              "ぶるい",
               "ふろい",
-              "ひろい",
-              "ぶるい"
+              "ふるい",
+              "ひろい"
             ],
-            "correctIndex": 0,
-            "explanation": "古い đọc là ふるい (cũ)."
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Đó là chiếc xe đạp cũ.\n- Tính từ 【古い】 (Cổ) có cách đọc tương ứng là ふるい (furui) nghĩa là cũ.\n- Phân tích các đáp án khác: ぶるい (phát âm sai), ひろい (rộng rãi), ふろい (phát âm sai)."
           }
         ]
       },
@@ -1802,51 +1802,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_6_10_2_m2_q0",
-            "question": "【プレゼント】を あげます。",
+            "question": "【シャツ】を かいました。",
             "options": [
-              "プレセント",
-              "プレゼント",
-              "フレゼント",
-              "プレザント"
+              "シャツ",
+              "シヤッ",
+              "シヤツ",
+              "サツ"
             ],
-            "correctIndex": 1,
-            "explanation": "Present (Quà) viết Katakana là プレゼント."
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa: Tôi đã mua áo sơ mi.\n- 【シャツ】 (áo sơ mi - bắt nguồn từ tiếng Anh: Shirt) viết bằng Katakana phải có chữ ャ (ya nhỏ) để tạo thành âm ghép \"sha\": シャツ.\n- Phân tích đáp án khác: シヤツ (chữ ya lớn - đọc là shi-ya-tsu, sai)."
           },
           {
             "id": "m_review_6_10_2_m2_q1",
             "question": "【コーヒー】を のみます。",
             "options": [
-              "コーヒ",
+              "コヒ",
               "コヒー",
               "コーヒー",
-              "コヒ"
+              "コーヒ"
             ],
             "correctIndex": 2,
-            "explanation": "Coffee viết là コーヒー."
+            "explanation": "Dịch nghĩa: Tôi uống cà phê.\n- 【コーヒー】 (Cà phê - bắt nguồn từ tiếng Anh: Coffee) viết chuẩn Katakana bắt buộc phải có hai trường âm (dấu gạch ngang biểu thị kéo dài âm tiết): コーヒー.\n- Các đáp án khác sai quy tắc trường âm."
           },
           {
             "id": "m_review_6_10_2_m2_q2",
-            "question": "【シャツ】を かいました。",
+            "question": "【プレゼント】を あげます。",
             "options": [
-              "サツ",
-              "シャツ",
-              "シヤッ",
-              "シヤツ"
+              "プレゼント",
+              "プレザント",
+              "フレゼント",
+              "プレセント"
             ],
-            "correctIndex": 1,
-            "explanation": "Shirt viết là シャツ."
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa: Tôi tặng quà.\n- 【プレゼント】 (quà tặng - bắt nguồn từ tiếng Anh: Present) viết bằng Katakana chuẩn xác là プレゼント.\n- Chú ý phân biệt chữ ゼン (zen) có dấu tenten khác với セン (sen)."
           },
           {
             "id": "m_review_6_10_2_m2_q3",
             "question": "【パン】を たべます。",
             "options": [
-              "ハン",
-              "ホン",
               "パン",
+              "ホン",
+              "ハン",
               "バン"
             ],
-            "correctIndex": 2,
-            "explanation": "Bread viết là パン."
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa: Tôi ăn bánh mì.\n- 【パン】 (bánh mì - mượn từ tiếng Bồ Đào Nha: Pão) viết bằng Katakana là パン (chữ ハ có dấu tròn maru).\n- Phân tích các đáp án khác: ハン (han), バン (ban), ホン (hon)."
           }
         ]
       },
@@ -1858,49 +1858,49 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_6_10_2_m3_q0",
             "question": "日本の カメラは 【　　　】ですか。",
             "options": [
-              "どう",
-              "どんな",
+              "どれ",
               "どの",
-              "どれ"
+              "どんな",
+              "どう"
             ],
-            "correctIndex": 0,
-            "explanation": "Thế nào? (どうですか)."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Máy ảnh của Nhật Bản thế nào?\n- Cụm hỏi ý kiến, cảm tưởng: どうですか (Như thế nào?).\n- Phân tích các đáp án khác: どんな (như thế nào - phải đứng trước danh từ), どれ (cái nào - dùng để chọn lựa trong nhóm), どの (cái nào - phải đứng trước danh từ)."
           },
           {
             "id": "m_review_6_10_2_m3_q1",
-            "question": "はさみで かみを 【　　　】。",
+            "question": "せんせいから ほんを 【　　　】。",
             "options": [
-              "かします",
-              "もらいます",
-              "きります",
-              "かります"
+              "かしました",
+              "あげました",
+              "おしえました",
+              "もらいました"
             ],
-            "correctIndex": 2,
-            "explanation": "Cắt (きります) giấy."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Tôi đã nhận được sách từ thầy cô giáo.\n- Cấu trúc: [Người] から/に [Vật] を もらいます (Nhận cái gì từ ai đó). Do có trợ từ から (từ) chỉ nguồn gốc, động từ もらいました (đã nhận) là chính xác.\n- Các động từ còn lại không khớp trợ từ: あげました (cho/tặng), かしました (cho mượn), おしえました (dạy)."
           },
           {
             "id": "m_review_6_10_2_m3_q2",
             "question": "この りんごは とても 【　　　】です。",
             "options": [
-              "おいしい",
-              "いそがしい",
+              "おもしろい",
               "つめたい",
-              "おもしろい"
+              "おいしい",
+              "いそがしい"
             ],
-            "correctIndex": 0,
-            "explanation": "Táo thì ngon (おいしい)."
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Quả táo này rất ngon.\n- Tính từ おいしい (oishii: ngon) phù hợp nhất để miêu tả đồ ăn (táo).\n- Phân tích các tính từ khác: つめたい (lạnh - dùng cho cảm giác tiếp xúc), おもしろい (thú vị - dùng cho sách, phim), いそgがしい (bận rộn - dùng cho con người)."
           },
           {
             "id": "m_review_6_10_2_m3_q3",
-            "question": "せんせいから ほんを 【　　　】。",
+            "question": "はさみで かみを 【　　　】。",
             "options": [
-              "あげました",
-              "もらいました",
-              "おしえました",
-              "かしました"
+              "かりまs",
+              "きります",
+              "かします",
+              "もらいます"
             ],
             "correctIndex": 1,
-            "explanation": "Nhận từ giáo viên (もらいました)."
+            "explanation": "Dịch nghĩa: Tôi cắt giấy bằng kéo.\n- Động từ きります (kiri-masu: cắt) đi kèm công cụ はさみ (kéo) và đối tượng かみ (giấy) là phù hợp nhất.\n- Phân tích các động từ khác: かします (cho mượn), かります (mượn), もらいます (nhận)."
           }
         ]
       },
@@ -1910,51 +1910,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_6_10_2_b1_q0",
-            "question": "きのうの パーティーは （　　　）。",
+            "question": "この へ야는 （　　　）ありません。",
             "options": [
-              "たのしいです",
-              "たのしかったです",
-              "たのしいでした",
-              "たのしかった"
+              "しずかに",
+              "しずかじゃ",
+              "しずか",
+              "しずかくて"
             ],
             "correctIndex": 1,
-            "explanation": "Tính từ đuôi い ở quá khứ -> かったです."
+            "explanation": "Dịch nghĩa: Căn phòng này không yên tĩnh.\n- Tính từ しずか (yên tĩnh) là tính từ đuôi な.\n- Quy tắc phủ định tính từ đuôi な: [Danh từ/Tính từ đuôi な] + じゃ/では ありません -> しずかじゃ ありません.\n- Phân tích đáp án khác: しずかくて (dạng nối của tính từ đuôi い, sai)."
           },
           {
             "id": "m_review_6_10_2_b1_q1",
-            "question": "わたしは 木村さん（　　　）はなを あげました。",
+            "question": "きのうの パーティーは （　　　）。",
             "options": [
-              "に",
-              "で",
-              "へ",
-              "を"
+              "たのしかったです",
+              "たのしいです",
+              "たのしかった",
+              "たのしいでした"
             ],
             "correctIndex": 0,
-            "explanation": "Cho ai cái gì -> に."
+            "explanation": "Dịch nghĩa: Bữa tiệc hôm qua đã rất vui.\n- Thời gian là \"Hôm qua (きのう)\", nên câu phải chia ở quá khứ lịch sự.\n- Quy tắc chia quá khứ lịch sự của tính từ đuôi い (たのしい): Bỏ い thêm かったです -> たのしかったです.\n- Chú ý: Tiếng Nhật không dùng \"đuôi い + でした\" (như たのしいでした, đây là lỗi cực kỳ phổ biến)."
           },
           {
             "id": "m_review_6_10_2_b1_q2",
-            "question": "この へやは （　　　）ありません。",
+            "question": "スプーン（　　　）ごはんを たべます。",
             "options": [
-              "しずかに",
-              "しずか",
-              "しずかくて",
-              "しずかじゃ"
+              "を",
+              "で",
+              "gが",
+              "に"
             ],
-            "correctIndex": 3,
-            "explanation": "Phủ định tính từ đuôi な -> じゃ ありません."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Tôi ăn cơm bằng thìa.\n- Trợ từ で được dùng để chỉ phương tiện, công cụ hoặc nguyên liệu thực hiện hành động (bằng thìa/muỗng).\n- Các đáp án khác không phù hợp: に (chỉ thời gian/nơi chốn hướng tới), を (chỉ đối tượng trực tiếp), が (chỉ chủ ngữ)."
           },
           {
             "id": "m_review_6_10_2_b1_q3",
-            "question": "スプーン（　　　）ごはんを たべます。",
+            "question": "わたしは 木村さん（　　　）はなを あげました。",
             "options": [
-              "が",
               "を",
+              "に",
               "で",
-              "に"
+              "へ"
             ],
-            "correctIndex": 2,
-            "explanation": "Chỉ phương tiện/công cụ -> で."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Tôi đã tặng hoa cho chị Kimura.\n- Cấu trúc: [Người cho] は [Người nhận] に [Vật] を あげます. Trợ từ に chỉ đối tượng gián tiếp tiếp nhận hành động (cho/tặng ai đó)."
           }
         ]
       },
@@ -1966,25 +1966,25 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_6_10_2_b2_q0",
             "question": "とうきょうは　___ ___ _★_ ___　まちです。",
             "options": [
-              "とても",
-              "て",
+              "にぎやかな",
               "きれいで",
-              "にぎやかな"
+              "て",
+              "とても"
             ],
-            "correctIndex": 0,
-            "explanation": "とうきょうは とても きれいで にぎやかな まち です."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Tokyo là một thành phố rất đẹp và nhộn nhịp.\n- Phân tích trật tự từ: とうきょうは + とても (4) + きれいで (2) + にぎやかな (3) + まちです.\n- Quy tắc nối tính từ đuôi な (きれい): Chuyển sang thể て thành きれいで để nối tiếp với tính từ tiếp theo (にぎやかな).\n- Vị trí dấu sao nằm ở từ thứ 3 trong cụm sắp xếp, tương ứng với tính từ にぎやかな (3)."
           },
           {
             "id": "m_review_6_10_2_b2_q1",
             "question": "わたしは　___ ___ _★_ ___　もらいました。",
             "options": [
-              "ともだち",
-              "を",
               "とけい",
-              "に"
+              "tともだち",
+              "に",
+              "を"
             ],
-            "correctIndex": 1,
-            "explanation": "わたしは ともだち に とけい を もらいました."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Tôi đã nhận chiếc đồng hồ từ bạn bè.\n- Phân tích trật tự từ: わたしは + とmだち (2) + に (3) + とけい (4) + を (1) + もらいました.\n- Cấu trúc: [Người nhận] は [Người cho] に [Vật] を もらいます (Nhận cái gì từ ai).\n- Vị trí dấu sao nằm ở từ thứ 3 trong cụm sắp xếp, tương ứng với danh từ và trợ từ とけいを (vị trí ngôi sao là 4, tức là và trợ từ を (1) đi sau とけい)."
           }
         ]
       },
@@ -2002,25 +2002,25 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_6_10_2_d1_q0",
             "question": "なにを もらいましたか。",
             "options": [
+              "しろい シャツと くろi ぼうし",
               "くろい シャツと しろい ぼうし",
-              "しろい シャツと くろい ぼうし",
               "くろい シャツと くろい ぼうし",
               "しろい シャツと しろい ぼうし"
             ],
-            "correctIndex": 1,
-            "explanation": "シャツは しろいです。ぼうしは くろいです."
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa đoạn văn: \"Hôm nay là sinh nhật tôi. Sáng nay tôi nhận được quà từ mẹ: áo sơ mi và mũ. Chiếc áo sơ mi thì màu trắng, chiếc mũ thì màu đen.\"\n- Do đó, món quà nhận được là: Áo sơ mi trắng và mũ đen -> しろい シャツと くろい ぼうし."
           },
           {
             "id": "m_review_6_10_2_d1_q1",
             "question": "よる どこで ごはんを たべますか。",
             "options": [
               "うち",
-              "レストラン",
               "かいしゃ",
-              "がっこう"
+              "gがっこう",
+              "レストラン"
             ],
-            "correctIndex": 1,
-            "explanation": "レストランで しょくじを します."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa đoạn văn: \"Buổi tối, tôi cùng gia đình đi dùng bữa tại nhà hàng.\"\n- Nơi ăn cơm vào buổi tối là nhà hàng -> レストラン."
           }
         ]
       }
@@ -2037,51 +2037,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_6_10_3_m1_q0",
-            "question": "【えいご】を べんきょうします。",
+            "question": "【手紙】を かきます。",
             "options": [
-              "英語",
-              "英話",
-              "英吾",
-              "英悟"
+              "てがみ",
+              "でかみ",
+              "でがみ",
+              "てかみ"
             ],
             "correctIndex": 0,
-            "explanation": "英語 là Tiếng Anh."
+            "explanation": "Dịch nghĩa: Tôi viết thư.\n- Chữ Hán 【手紙】 (Thủ Chỉ) có cách đọc tương ứng là てがみ (tegami) nghĩa là bức thư.\n- Chú ý âm đục của từ: \"ga\" chứ không phải \"ka\", và \"te\" chứ không phải \"de\"."
           },
           {
             "id": "m_review_6_10_3_m1_q1",
-            "question": "【手紙】を かきます。",
+            "question": "【えいご】を べんきょうします。",
             "options": [
-              "てかみ",
-              "でがみ",
-              "てがみ",
-              "でかみ"
+              "英吾",
+              "英語",
+              "英悟",
+              "英話"
             ],
-            "correctIndex": 2,
-            "explanation": "手紙 đọc là てがみ (Bức thư)."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Tôi học tiếng Anh.\n- 【えいご】 (tiếng Anh) viết bằng chữ Hán là 英語 (Anh Ngữ).\n- Phân tích các đáp án khác: 英話 (Anh Thoại - không tồn tại), 英吾, 英悟 là các từ đồng âm hoặc ghép sai chữ."
           },
           {
             "id": "m_review_6_10_3_m1_q2",
             "question": "【新しい】 くるまです。",
             "options": [
-              "あたらしい",
+              "あらたしい",
               "あたらし",
               "あだらしい",
-              "あらたしい"
+              "あたらしい"
             ],
-            "correctIndex": 0,
-            "explanation": "新しい đọc là あたらしい (mới)."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Đó là chiếc xe hơi mới.\n- Tính từ 【新しい】 (Tân) có cách đọc Hiragana đầy đủ là あたらしい (atarashii) nghĩa là mới.\n- Chú ý cách viết okurigana (phần đuôi chữ đi kèm sau chữ Hán) là しい."
           },
           {
             "id": "m_review_6_10_3_m1_q3",
             "question": "【古い】 じてんしゃです。",
             "options": [
-              "ぶるい",
               "ふろい",
               "ふるい",
+              "ぶるい",
               "ひろい"
             ],
-            "correctIndex": 2,
-            "explanation": "古い đọc là ふるい (cũ)."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Đó là chiếc xe đạp cũ.\n- Tính từ 【古い】 (Cổ) có cách đọc tương ứng là ふるい (furui) nghĩa là cũ.\n- Phân tích các đáp án khác: ぶるい (phát âm sai), ひろい (rộng rãi), ふろい (phát âm sai)."
           }
         ]
       },
@@ -2091,51 +2091,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_6_10_3_m2_q0",
-            "question": "【パン】を たべます。",
+            "question": "【プレゼント】を あげます。",
             "options": [
-              "パン",
-              "ハン",
-              "ホン",
-              "バン"
+              "プレゼント",
+              "プレセント",
+              "プレザント",
+              "フレゼント"
             ],
             "correctIndex": 0,
-            "explanation": "Bread viết là パン."
+            "explanation": "Dịch nghĩa: Tôi tặng quà.\n- 【プレゼント】 (quà tặng - bắt nguồn từ tiếng Anh: Present) viết bằng Katakana chuẩn xác là プレゼント.\n- Chú ý phân biệt chữ ゼン (zen) có dấu tenten khác với セン (sen)."
           },
           {
             "id": "m_review_6_10_3_m2_q1",
-            "question": "【シャツ】を かいました。",
+            "question": "【コーヒー】を のみます。",
             "options": [
-              "シャツ",
-              "シヤッ",
-              "サツ",
-              "シヤツ"
+              "コヒー",
+              "コヒ",
+              "コーヒ",
+              "コーヒー"
             ],
-            "correctIndex": 0,
-            "explanation": "Shirt viết là シャツ."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Tôi uống cà phê.\n- 【コーヒー】 (Cà phê - bắt nguồn từ tiếng Anh: Coffee) viết chuẩn Katakana bắt buộc phải có hai trường âm (dấu gạch ngang biểu thị kéo dài âm tiết): コーヒー.\n- Các đáp án khác sai quy tắc trường âm."
           },
           {
             "id": "m_review_6_10_3_m2_q2",
-            "question": "【コーヒー】を のみます。",
+            "question": "【パン】を たべます。",
             "options": [
-              "コヒ",
-              "コヒー",
-              "コーヒー",
-              "コーヒ"
+              "パン",
+              "バン",
+              "ハン",
+              "ホン"
             ],
-            "correctIndex": 2,
-            "explanation": "Coffee viết là コーヒー."
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa: Tôi ăn bánh mì.\n- 【パン】 (bánh mì - mượn từ tiếng Bồ Đào Nha: Pão) viết bằng Katakana là パン (chữ ハ có dấu tròn maru).\n- Phân tích các đáp án khác: ハン (han), バン (ban), ホン (hon)."
           },
           {
             "id": "m_review_6_10_3_m2_q3",
-            "question": "【プレゼント】を あげます。",
+            "question": "【シャツ】を かいました。",
             "options": [
-              "プレザント",
-              "フレゼント",
-              "プレセント",
-              "プレゼント"
+              "シヤッ",
+              "シャツ",
+              "シヤツ",
+              "サツ"
             ],
-            "correctIndex": 3,
-            "explanation": "Present (Quà) viết Katakana là プレゼント."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Tôi đã mua áo sơ mi.\n- 【シャツ】 (áo sơ mi - bắt nguồn từ tiếng Anh: Shirt) viết bằng Katakana phải có chữ ャ (ya nhỏ) để tạo thành âm ghép \"sha\": シャツ.\n- Phân tích đáp án khác: シヤツ (chữ ya lớn - đọc là shi-ya-tsu, sai)."
           }
         ]
       },
@@ -2145,30 +2145,42 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_6_10_3_m3_q0",
-            "question": "この りんごは とても 【　　　】です。",
+            "question": "はさみで かみを 【　　　】。",
             "options": [
-              "いそがしい",
-              "おいしい",
-              "おもしろい",
-              "つめたい"
+              "きります",
+              "かします",
+              "もらいます",
+              "かりまs"
             ],
-            "correctIndex": 1,
-            "explanation": "Táo thì ngon (おいしい)."
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa: Tôi cắt giấy bằng kéo.\n- Động từ きります (kiri-masu: cắt) đi kèm công cụ はさみ (kéo) và đối tượng かみ (giấy) là phù hợp nhất.\n- Phân tích các động từ khác: かします (cho mượn), かります (mượn), もらいます (nhận)."
           },
           {
             "id": "m_review_6_10_3_m3_q1",
-            "question": "はさみで かみを 【　　　】。",
+            "question": "この りんごは とても 【　　　】です。",
             "options": [
-              "かします",
-              "きります",
-              "かります",
-              "もらいます"
+              "おもしろい",
+              "つめたい",
+              "おいしい",
+              "いそがしい"
             ],
-            "correctIndex": 1,
-            "explanation": "Cắt (きります) giấy."
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Quả táo này rất ngon.\n- Tính từ おいしい (oishii: ngon) phù hợp nhất để miêu tả đồ ăn (táo).\n- Phân tích các tính từ khác: つめたい (lạnh - dùng cho cảm giác tiếp xúc), おもしろい (thú vị - dùng cho sách, phim), いそgがしい (bận rộn - dùng cho con người)."
           },
           {
             "id": "m_review_6_10_3_m3_q2",
+            "question": "せんせいから ほんを 【　　　】。",
+            "options": [
+              "かしました",
+              "おしえました",
+              "もらいました",
+              "あげました"
+            ],
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Tôi đã nhận được sách từ thầy cô giáo.\n- Cấu trúc: [Người] から/に [Vật] を もらいます (Nhận cái gì từ ai đó). Do có trợ từ から (từ) chỉ nguồn gốc, động từ もらいました (đã nhận) là chính xác.\n- Các động từ còn lại không khớp trợ từ: あげました (cho/tặng), かしました (cho mượn), おしえました (dạy)."
+          },
+          {
+            "id": "m_review_6_10_3_m3_q3",
             "question": "日本の カメラは 【　　　】ですか。",
             "options": [
               "どの",
@@ -2177,19 +2189,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "どんな"
             ],
             "correctIndex": 1,
-            "explanation": "Thế nào? (どうですか)."
-          },
-          {
-            "id": "m_review_6_10_3_m3_q3",
-            "question": "せんせいから ほんを 【　　　】。",
-            "options": [
-              "かしました",
-              "あげました",
-              "おしえました",
-              "もらいました"
-            ],
-            "correctIndex": 3,
-            "explanation": "Nhận từ giáo viên (もらいました)."
+            "explanation": "Dịch nghĩa: Máy ảnh của Nhật Bản thế nào?\n- Cụm hỏi ý kiến, cảm tưởng: どうですか (Như thế nào?).\n- Phân tích các đáp án khác: どんな (như thế nào - phải đứng trước danh từ), どれ (cái nào - dùng để chọn lựa trong nhóm), どの (cái nào - phải đứng trước danh từ)."
           }
         ]
       },
@@ -2201,25 +2201,25 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_6_10_3_b1_q0",
             "question": "スプーン（　　　）ごはんを たべます。",
             "options": [
-              "が",
-              "に",
               "で",
-              "を"
+              "を",
+              "に",
+              "gが"
             ],
-            "correctIndex": 2,
-            "explanation": "Chỉ phương tiện/công cụ -> で."
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa: Tôi ăn cơm bằng thìa.\n- Trợ từ で được dùng để chỉ phương tiện, công cụ hoặc nguyên liệu thực hiện hành động (bằng thìa/muỗng).\n- Các đáp án khác không phù hợp: に (chỉ thời gian/nơi chốn hướng tới), を (chỉ đối tượng trực tiếp), が (chỉ chủ ngữ)."
           },
           {
             "id": "m_review_6_10_3_b1_q1",
-            "question": "この へやは （　　　）ありません。",
+            "question": "この へ야는 （　　　）ありません。",
             "options": [
               "しずかじゃ",
               "しずか",
-              "しずかくて",
-              "しずかに"
+              "しずかに",
+              "しずかくて"
             ],
             "correctIndex": 0,
-            "explanation": "Phủ định tính từ đuôi な -> じゃ ありません."
+            "explanation": "Dịch nghĩa: Căn phòng này không yên tĩnh.\n- Tính từ しずか (yên tĩnh) là tính từ đuôi な.\n- Quy tắc phủ định tính từ đuôi な: [Danh từ/Tính từ đuôi な] + じゃ/では ありません -> しずかじゃ ありません.\n- Phân tích đáp án khác: しずかくて (dạng nối của tính từ đuôi い, sai)."
           },
           {
             "id": "m_review_6_10_3_b1_q2",
@@ -2231,19 +2231,19 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "に"
             ],
             "correctIndex": 3,
-            "explanation": "Cho ai cái gì -> に."
+            "explanation": "Dịch nghĩa: Tôi đã tặng hoa cho chị Kimura.\n- Cấu trúc: [Người cho] は [Người nhận] に [Vật] を あげます. Trợ từ に chỉ đối tượng gián tiếp tiếp nhận hành động (cho/tặng ai đó)."
           },
           {
             "id": "m_review_6_10_3_b1_q3",
             "question": "きのうの パーティーは （　　　）。",
             "options": [
-              "たのしいでした",
-              "たのしいです",
               "たのしかった",
+              "たのしいです",
+              "たのしいでした",
               "たのしかったです"
             ],
             "correctIndex": 3,
-            "explanation": "Tính từ đuôi い ở quá khứ -> かったです."
+            "explanation": "Dịch nghĩa: Bữa tiệc hôm qua đã rất vui.\n- Thời gian là \"Hôm qua (きのう)\", nên câu phải chia ở quá khứ lịch sự.\n- Quy tắc chia quá khứ lịch sự của tính từ đuôi い (たのしい): Bỏ い thêm かったです -> たのしかったです.\n- Chú ý: Tiếng Nhật không dùng \"đuôi い + でした\" (như たのしいでした, đây là lỗi cực kỳ phổ biến)."
           }
         ]
       },
@@ -2256,24 +2256,24 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "question": "とうきょうは　___ ___ _★_ ___　まちです。",
             "options": [
               "にぎやかな",
-              "て",
+              "きれいで",
               "とても",
-              "きれいで"
+              "て"
             ],
             "correctIndex": 2,
-            "explanation": "とうきょうは とても きれいで にぎやかな まち です."
+            "explanation": "Dịch nghĩa: Tokyo là một thành phố rất đẹp và nhộn nhịp.\n- Phân tích trật tự từ: とうきょうは + とても (4) + きれいで (2) + にぎやかな (3) + まちです.\n- Quy tắc nối tính từ đuôi な (きれい): Chuyển sang thể て thành きれいで để nối tiếp với tính từ tiếp theo (にぎやかな).\n- Vị trí dấu sao nằm ở từ thứ 3 trong cụm sắp xếp, tương ứng với tính từ にぎやかな (3)."
           },
           {
             "id": "m_review_6_10_3_b2_q1",
             "question": "わたしは　___ ___ _★_ ___　もらいました。",
             "options": [
-              "を",
+              "tともだち",
               "に",
               "とけい",
-              "ともだち"
+              "を"
             ],
-            "correctIndex": 0,
-            "explanation": "わたしは ともだち に とけい を もらいました."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Tôi đã nhận chiếc đồng hồ từ bạn bè.\n- Phân tích trật tự từ: わたしは + とmだち (2) + に (3) + とけい (4) + を (1) + もらいました.\n- Cấu trúc: [Người nhận] は [Người cho] に [Vật] を もらいます (Nhận cái gì từ ai).\n- Vị trí dấu sao nằm ở từ thứ 3 trong cụm sắp xếp, tương ứng với danh từ và trợ từ とけいを (vị trí ngôi sao là 4, tức là và trợ từ を (1) đi sau とけい)."
           }
         ]
       },
@@ -2291,25 +2291,25 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_6_10_3_d1_q0",
             "question": "なにを もらいましたか。",
             "options": [
-              "くろい シャツと くろい ぼうし",
-              "しろい シャツと しろい ぼうし",
               "くろい シャツと しろい ぼうし",
-              "しろい シャツと くろい ぼうし"
+              "しろい シャツと くろi ぼうし",
+              "くろい シャツと くろい ぼうし",
+              "しろい シャツと しろい ぼうし"
             ],
-            "correctIndex": 3,
-            "explanation": "シャツは しろいです。ぼうしは くろいです."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa đoạn văn: \"Hôm nay là sinh nhật tôi. Sáng nay tôi nhận được quà từ mẹ: áo sơ mi và mũ. Chiếc áo sơ mi thì màu trắng, chiếc mũ thì màu đen.\"\n- Do đó, món quà nhận được là: Áo sơ mi trắng và mũ đen -> しろい シャツと くろい ぼうし."
           },
           {
             "id": "m_review_6_10_3_d1_q1",
             "question": "よる どこで ごはんを たべますか。",
             "options": [
-              "レストラン",
-              "がっこう",
               "かいしゃ",
-              "うち"
+              "うち",
+              "gがっこう",
+              "レストラン"
             ],
-            "correctIndex": 0,
-            "explanation": "レストランで しょくじを します."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa đoạn văn: \"Buổi tối, tôi cùng gia đình đi dùng bữa tại nhà hàng.\"\n- Nơi ăn cơm vào buổi tối là nhà hàng -> レストラン."
           }
         ]
       }
@@ -2326,51 +2326,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_6_10_4_m1_q0",
-            "question": "【手紙】を かきます。",
+            "question": "【新しい】 くるまです。",
             "options": [
-              "てがみ",
-              "でがみ",
-              "でかみ",
-              "てかみ"
+              "あらたしい",
+              "あたらし",
+              "あたらしい",
+              "あだらしい"
             ],
-            "correctIndex": 0,
-            "explanation": "手紙 đọc là てがみ (Bức thư)."
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Đó là chiếc xe hơi mới.\n- Tính từ 【新しい】 (Tân) có cách đọc Hiragana đầy đủ là あたらしい (atarashii) nghĩa là mới.\n- Chú ý cách viết okurigana (phần đuôi chữ đi kèm sau chữ Hán) là しい."
           },
           {
             "id": "m_review_6_10_4_m1_q1",
-            "question": "【えいご】を べんきょうします。",
-            "options": [
-              "英吾",
-              "英悟",
-              "英語",
-              "英話"
-            ],
-            "correctIndex": 2,
-            "explanation": "英語 là Tiếng Anh."
-          },
-          {
-            "id": "m_review_6_10_4_m1_q2",
-            "question": "【新しい】 くるまです。",
-            "options": [
-              "あたらしい",
-              "あらたしい",
-              "あだらしい",
-              "あたらし"
-            ],
-            "correctIndex": 0,
-            "explanation": "新しい đọc là あたらしい (mới)."
-          },
-          {
-            "id": "m_review_6_10_4_m1_q3",
             "question": "【古い】 じてんしゃです。",
             "options": [
               "ぶるい",
+              "ふるい",
               "ふろい",
-              "ひろい",
-              "ふるい"
+              "ひろい"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Đó là chiếc xe đạp cũ.\n- Tính từ 【古い】 (Cổ) có cách đọc tương ứng là ふるい (furui) nghĩa là cũ.\n- Phân tích các đáp án khác: ぶるい (phát âm sai), ひろい (rộng rãi), ふろい (phát âm sai)."
+          },
+          {
+            "id": "m_review_6_10_4_m1_q2",
+            "question": "【えいご】を べんきょうします。",
+            "options": [
+              "英悟",
+              "英吾",
+              "英話",
+              "英語"
             ],
             "correctIndex": 3,
-            "explanation": "古い đọc là ふるい (cũ)."
+            "explanation": "Dịch nghĩa: Tôi học tiếng Anh.\n- 【えいご】 (tiếng Anh) viết bằng chữ Hán là 英語 (Anh Ngữ).\n- Phân tích các đáp án khác: 英話 (Anh Thoại - không tồn tại), 英吾, 英悟 là các từ đồng âm hoặc ghép sai chữ."
+          },
+          {
+            "id": "m_review_6_10_4_m1_q3",
+            "question": "【手紙】を かきます。",
+            "options": [
+              "でがみ",
+              "でかみ",
+              "てがみ",
+              "てかみ"
+            ],
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Tôi viết thư.\n- Chữ Hán 【手紙】 (Thủ Chỉ) có cách đọc tương ứng là てがみ (tegami) nghĩa là bức thư.\n- Chú ý âm đục của từ: \"ga\" chứ không phải \"ka\", và \"te\" chứ không phải \"de\"."
           }
         ]
       },
@@ -2380,42 +2380,30 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_6_10_4_m2_q0",
-            "question": "【パン】を たべます。",
+            "question": "【プレゼント】を あげます。",
             "options": [
-              "ハン",
-              "パン",
-              "ホン",
-              "バン"
+              "プレザント",
+              "プレセント",
+              "プレゼント",
+              "フレゼント"
             ],
-            "correctIndex": 1,
-            "explanation": "Bread viết là パン."
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Tôi tặng quà.\n- 【プレゼント】 (quà tặng - bắt nguồn từ tiếng Anh: Present) viết bằng Katakana chuẩn xác là プレゼント.\n- Chú ý phân biệt chữ ゼン (zen) có dấu tenten khác với セン (sen)."
           },
           {
             "id": "m_review_6_10_4_m2_q1",
-            "question": "【プレゼント】を あげます。",
+            "question": "【コーヒー】を のみます。",
             "options": [
-              "プレセント",
-              "プレゼント",
-              "プレザント",
-              "フレゼント"
+              "コヒー",
+              "コーヒー",
+              "コーヒ",
+              "コヒ"
             ],
             "correctIndex": 1,
-            "explanation": "Present (Quà) viết Katakana là プレゼント."
+            "explanation": "Dịch nghĩa: Tôi uống cà phê.\n- 【コーヒー】 (Cà phê - bắt nguồn từ tiếng Anh: Coffee) viết chuẩn Katakana bắt buộc phải có hai trường âm (dấu gạch ngang biểu thị kéo dài âm tiết): コーヒー.\n- Các đáp án khác sai quy tắc trường âm."
           },
           {
             "id": "m_review_6_10_4_m2_q2",
-            "question": "【コーヒー】を のみます。",
-            "options": [
-              "コヒ",
-              "コーヒー",
-              "コヒー",
-              "コーヒ"
-            ],
-            "correctIndex": 1,
-            "explanation": "Coffee viết là コーヒー."
-          },
-          {
-            "id": "m_review_6_10_4_m2_q3",
             "question": "【シャツ】を かいました。",
             "options": [
               "シヤッ",
@@ -2424,7 +2412,19 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "シヤツ"
             ],
             "correctIndex": 2,
-            "explanation": "Shirt viết là シャツ."
+            "explanation": "Dịch nghĩa: Tôi đã mua áo sơ mi.\n- 【シャツ】 (áo sơ mi - bắt nguồn từ tiếng Anh: Shirt) viết bằng Katakana phải có chữ ャ (ya nhỏ) để tạo thành âm ghép \"sha\": シャツ.\n- Phân tích đáp án khác: シヤツ (chữ ya lớn - đọc là shi-ya-tsu, sai)."
+          },
+          {
+            "id": "m_review_6_10_4_m2_q3",
+            "question": "【パン】を たべます。",
+            "options": [
+              "ハン",
+              "パン",
+              "ホン",
+              "バン"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Tôi ăn bánh mì.\n- 【パン】 (bánh mì - mượn từ tiếng Bồ Đào Nha: Pão) viết bằng Katakana là パン (chữ ハ có dấu tròn maru).\n- Phân tích các đáp án khác: ハン (han), バン (ban), ホン (hon)."
           }
         ]
       },
@@ -2436,49 +2436,49 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_6_10_4_m3_q0",
             "question": "日本の カメラは 【　　　】ですか。",
             "options": [
-              "どんな",
               "どう",
               "どれ",
-              "どの"
+              "どの",
+              "どんな"
             ],
-            "correctIndex": 1,
-            "explanation": "Thế nào? (どうですか)."
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa: Máy ảnh của Nhật Bản thế nào?\n- Cụm hỏi ý kiến, cảm tưởng: どうですか (Như thế nào?).\n- Phân tích các đáp án khác: どんな (như thế nào - phải đứng trước danh từ), どれ (cái nào - dùng để chọn lựa trong nhóm), どの (cái nào - phải đứng trước danh từ)."
           },
           {
             "id": "m_review_6_10_4_m3_q1",
             "question": "せんせいから ほんを 【　　　】。",
             "options": [
-              "おしえました",
-              "かしました",
               "あげました",
-              "もらいました"
+              "おしえました",
+              "もらいました",
+              "かしました"
             ],
-            "correctIndex": 3,
-            "explanation": "Nhận từ giáo viên (もらいました)."
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Tôi đã nhận được sách từ thầy cô giáo.\n- Cấu trúc: [Người] から/に [Vật] を もらいます (Nhận cái gì từ ai đó). Do có trợ từ から (từ) chỉ nguồn gốc, động từ もらいました (đã nhận) là chính xác.\n- Các động từ còn lại không khớp trợ từ: あげました (cho/tặng), かしました (cho mượn), おしえました (dạy)."
           },
           {
             "id": "m_review_6_10_4_m3_q2",
             "question": "この りんごは とても 【　　　】です。",
             "options": [
-              "おもしろい",
+              "おいしい",
               "いそがしい",
               "つめたい",
-              "おいしい"
+              "おもしろい"
             ],
-            "correctIndex": 3,
-            "explanation": "Táo thì ngon (おいしい)."
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa: Quả táo này rất ngon.\n- Tính từ おいしい (oishii: ngon) phù hợp nhất để miêu tả đồ ăn (táo).\n- Phân tích các tính từ khác: つめたい (lạnh - dùng cho cảm giác tiếp xúc), おもしろい (thú vị - dùng cho sách, phim), いそgがしい (bận rộn - dùng cho con người)."
           },
           {
             "id": "m_review_6_10_4_m3_q3",
             "question": "はさみで かみを 【　　　】。",
             "options": [
+              "かりまs",
               "かします",
-              "かります",
-              "もらいます",
-              "きります"
+              "きります",
+              "もらいます"
             ],
-            "correctIndex": 3,
-            "explanation": "Cắt (きります) giấy."
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Tôi cắt giấy bằng kéo.\n- Động từ きります (kiri-masu: cắt) đi kèm công cụ はさみ (kéo) và đối tượng かみ (giấy) là phù hợp nhất.\n- Phân tích các động từ khác: かします (cho mượn), かります (mượn), もらいます (nhận)."
           }
         ]
       },
@@ -2488,51 +2488,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_6_10_4_b1_q0",
-            "question": "きのうの パーティーは （　　　）。",
-            "options": [
-              "たのしかった",
-              "たのしいです",
-              "たのしいでした",
-              "たのしかったです"
-            ],
-            "correctIndex": 3,
-            "explanation": "Tính từ đuôi い ở quá khứ -> かったです."
-          },
-          {
-            "id": "m_review_6_10_4_b1_q1",
             "question": "わたしは 木村さん（　　　）はなを あげました。",
             "options": [
               "へ",
               "で",
-              "を",
-              "に"
+              "に",
+              "を"
             ],
-            "correctIndex": 3,
-            "explanation": "Cho ai cái gì -> に."
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Tôi đã tặng hoa cho chị Kimura.\n- Cấu trúc: [Người cho] は [Người nhận] に [Vật] を あげます. Trợ từ に chỉ đối tượng gián tiếp tiếp nhận hành động (cho/tặng ai đó)."
+          },
+          {
+            "id": "m_review_6_10_4_b1_q1",
+            "question": "この へ야는 （　　　）ありません。",
+            "options": [
+              "しずかくて",
+              "しずかじゃ",
+              "しずかに",
+              "しずか"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Căn phòng này không yên tĩnh.\n- Tính từ しずか (yên tĩnh) là tính từ đuôi な.\n- Quy tắc phủ định tính từ đuôi な: [Danh từ/Tính từ đuôi な] + じゃ/では ありません -> しずかじゃ ありません.\n- Phân tích đáp án khác: しずかくて (dạng nối của tính từ đuôi い, sai)."
           },
           {
             "id": "m_review_6_10_4_b1_q2",
             "question": "スプーン（　　　）ごはんを たべます。",
             "options": [
+              "を",
               "で",
-              "が",
               "に",
-              "を"
+              "gが"
             ],
-            "correctIndex": 0,
-            "explanation": "Chỉ phương tiện/công cụ -> で."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Tôi ăn cơm bằng thìa.\n- Trợ từ で được dùng để chỉ phương tiện, công cụ hoặc nguyên liệu thực hiện hành động (bằng thìa/muỗng).\n- Các đáp án khác không phù hợp: に (chỉ thời gian/nơi chốn hướng tới), を (chỉ đối tượng trực tiếp), が (chỉ chủ ngữ)."
           },
           {
             "id": "m_review_6_10_4_b1_q3",
-            "question": "この へやは （　　　）ありません。",
+            "question": "きのうの パーティーは （　　　）。",
             "options": [
-              "しずかに",
-              "しずかじゃ",
-              "しずかくて",
-              "しずか"
+              "たのしいです",
+              "たのしいでした",
+              "たのしかった",
+              "たのしかったです"
             ],
-            "correctIndex": 1,
-            "explanation": "Phủ định tính từ đuôi な -> じゃ ありません."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Bữa tiệc hôm qua đã rất vui.\n- Thời gian là \"Hôm qua (きのう)\", nên câu phải chia ở quá khứ lịch sự.\n- Quy tắc chia quá khứ lịch sự của tính từ đuôi い (たのしい): Bỏ い thêm かったです -> たのしかったです.\n- Chú ý: Tiếng Nhật không dùng \"đuôi い + でした\" (như たのしいでした, đây là lỗi cực kỳ phổ biến)."
           }
         ]
       },
@@ -2544,25 +2544,25 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_6_10_4_b2_q0",
             "question": "わたしは　___ ___ _★_ ___　もらいました。",
             "options": [
-              "ともだち",
+              "tともだち",
               "に",
               "を",
               "とけい"
             ],
             "correctIndex": 2,
-            "explanation": "わたしは ともだち に とけい を もらいました."
+            "explanation": "Dịch nghĩa: Tôi đã nhận chiếc đồng hồ từ bạn bè.\n- Phân tích trật tự từ: わたしは + とmだち (2) + に (3) + とけい (4) + を (1) + もらいました.\n- Cấu trúc: [Người nhận] は [Người cho] に [Vật] を もらいます (Nhận cái gì từ ai).\n- Vị trí dấu sao nằm ở từ thứ 3 trong cụm sắp xếp, tương ứng với danh từ và trợ từ とけいを (vị trí ngôi sao là 4, tức là và trợ từ を (1) đi sau とけい)."
           },
           {
             "id": "m_review_6_10_4_b2_q1",
             "question": "とうきょうは　___ ___ _★_ ___　まちです。",
             "options": [
-              "にぎやかな",
-              "とても",
+              "て",
               "きれいで",
-              "て"
+              "にぎやかな",
+              "とても"
             ],
-            "correctIndex": 1,
-            "explanation": "とうきょうは とても きれいで にぎやかな まち です."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Tokyo là một thành phố rất đẹp và nhộn nhịp.\n- Phân tích trật tự từ: とうきょうは + とても (4) + きれいで (2) + にぎやかな (3) + まちです.\n- Quy tắc nối tính từ đuôi な (きれい): Chuyển sang thể て thành きれいで để nối tiếp với tính từ tiếp theo (にぎやかな).\n- Vị trí dấu sao nằm ở từ thứ 3 trong cụm sắp xếp, tương ứng với tính từ にぎやかな (3)."
           }
         ]
       },
@@ -2580,25 +2580,25 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_6_10_4_d1_q0",
             "question": "なにを もらいましたか。",
             "options": [
-              "くろい シャツと くろい ぼうし",
+              "しろい シャツと くろi ぼうし",
               "くろい シャツと しろい ぼうし",
-              "しろい シャツと くろい ぼうし",
-              "しろい シャツと しろい ぼうし"
+              "しろい シャツと しろい ぼうし",
+              "くろい シャツと くろい ぼうし"
             ],
-            "correctIndex": 2,
-            "explanation": "シャツは しろいです。ぼうしは くろいです."
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa đoạn văn: \"Hôm nay là sinh nhật tôi. Sáng nay tôi nhận được quà từ mẹ: áo sơ mi và mũ. Chiếc áo sơ mi thì màu trắng, chiếc mũ thì màu đen.\"\n- Do đó, món quà nhận được là: Áo sơ mi trắng và mũ đen -> しろい シャツと くろい ぼうし."
           },
           {
             "id": "m_review_6_10_4_d1_q1",
             "question": "よる どこで ごはんを たべますか。",
             "options": [
-              "レストラン",
-              "がっこう",
+              "gがっこう",
+              "うち",
               "かいしゃ",
-              "うち"
+              "レストラン"
             ],
-            "correctIndex": 0,
-            "explanation": "レストランで しょくじを します."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa đoạn văn: \"Buổi tối, tôi cùng gia đình đi dùng bữa tại nhà hàng.\"\n- Nơi ăn cơm vào buổi tối là nhà hàng -> レストラン."
           }
         ]
       }
@@ -2615,51 +2615,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_6_10_5_m1_q0",
-            "question": "【新しい】 くるまです。",
-            "options": [
-              "あらたしい",
-              "あだらしい",
-              "あたらし",
-              "あたらしい"
-            ],
-            "correctIndex": 3,
-            "explanation": "新しい đọc là あたらしい (mới)."
-          },
-          {
-            "id": "m_review_6_10_5_m1_q1",
             "question": "【えいご】を べんきょうします。",
             "options": [
               "英悟",
+              "英話",
               "英語",
-              "英吾",
-              "英話"
+              "英吾"
             ],
-            "correctIndex": 1,
-            "explanation": "英語 là Tiếng Anh."
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Tôi học tiếng Anh.\n- 【えいご】 (tiếng Anh) viết bằng chữ Hán là 英語 (Anh Ngữ).\n- Phân tích các đáp án khác: 英話 (Anh Thoại - không tồn tại), 英吾, 英悟 là các từ đồng âm hoặc ghép sai chữ."
+          },
+          {
+            "id": "m_review_6_10_5_m1_q1",
+            "question": "【手紙】を かきます。",
+            "options": [
+              "でがみ",
+              "でかみ",
+              "てかみ",
+              "てがみ"
+            ],
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Tôi viết thư.\n- Chữ Hán 【手紙】 (Thủ Chỉ) có cách đọc tương ứng là てがみ (tegami) nghĩa là bức thư.\n- Chú ý âm đục của từ: \"ga\" chứ không phải \"ka\", và \"te\" chứ không phải \"de\"."
           },
           {
             "id": "m_review_6_10_5_m1_q2",
             "question": "【古い】 じてんしゃです。",
             "options": [
-              "ひろい",
-              "ふろい",
+              "ぶるい",
               "ふるい",
-              "ぶるい"
+              "ふろい",
+              "ひろい"
             ],
-            "correctIndex": 2,
-            "explanation": "古い đọc là ふるい (cũ)."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Đó là chiếc xe đạp cũ.\n- Tính từ 【古い】 (Cổ) có cách đọc tương ứng là ふるい (furui) nghĩa là cũ.\n- Phân tích các đáp án khác: ぶるい (phát âm sai), ひろい (rộng rãi), ふろい (phát âm sai)."
           },
           {
             "id": "m_review_6_10_5_m1_q3",
-            "question": "【手紙】を かきます。",
+            "question": "【新しい】 くるまです。",
             "options": [
-              "でかみ",
-              "てがみ",
-              "てかみ",
-              "でがみ"
+              "あたらしい",
+              "あらたしい",
+              "あだらしい",
+              "あたらし"
             ],
-            "correctIndex": 1,
-            "explanation": "手紙 đọc là てがみ (Bức thư)."
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa: Đó là chiếc xe hơi mới.\n- Tính từ 【新しい】 (Tân) có cách đọc Hiragana đầy đủ là あたらしい (atarashii) nghĩa là mới.\n- Chú ý cách viết okurigana (phần đuôi chữ đi kèm sau chữ Hán) là しい."
           }
         ]
       },
@@ -2669,39 +2669,39 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_6_10_5_m2_q0",
-            "question": "【シャツ】を かいました。",
-            "options": [
-              "シャツ",
-              "サツ",
-              "シヤツ",
-              "シヤッ"
-            ],
-            "correctIndex": 0,
-            "explanation": "Shirt viết là シャツ."
-          },
-          {
-            "id": "m_review_6_10_5_m2_q1",
             "question": "【コーヒー】を のみます。",
             "options": [
-              "コヒー",
               "コーヒ",
               "コヒ",
+              "コヒー",
               "コーヒー"
             ],
             "correctIndex": 3,
-            "explanation": "Coffee viết là コーヒー."
+            "explanation": "Dịch nghĩa: Tôi uống cà phê.\n- 【コーヒー】 (Cà phê - bắt nguồn từ tiếng Anh: Coffee) viết chuẩn Katakana bắt buộc phải có hai trường âm (dấu gạch ngang biểu thị kéo dài âm tiết): コーヒー.\n- Các đáp án khác sai quy tắc trường âm."
+          },
+          {
+            "id": "m_review_6_10_5_m2_q1",
+            "question": "【シャツ】を かいました。",
+            "options": [
+              "シヤッ",
+              "サツ",
+              "シャツ",
+              "シヤツ"
+            ],
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Tôi đã mua áo sơ mi.\n- 【シャツ】 (áo sơ mi - bắt nguồn từ tiếng Anh: Shirt) viết bằng Katakana phải có chữ ャ (ya nhỏ) để tạo thành âm ghép \"sha\": シャツ.\n- Phân tích đáp án khác: シヤツ (chữ ya lớn - đọc là shi-ya-tsu, sai)."
           },
           {
             "id": "m_review_6_10_5_m2_q2",
             "question": "【プレゼント】を あげます。",
             "options": [
-              "プレゼント",
-              "プレザント",
+              "フレゼント",
               "プレセント",
-              "フレゼント"
+              "プレゼント",
+              "プレザント"
             ],
-            "correctIndex": 0,
-            "explanation": "Present (Quà) viết Katakana là プレゼント."
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Tôi tặng quà.\n- 【プレゼント】 (quà tặng - bắt nguồn từ tiếng Anh: Present) viết bằng Katakana chuẩn xác là プレゼント.\n- Chú ý phân biệt chữ ゼン (zen) có dấu tenten khác với セン (sen)."
           },
           {
             "id": "m_review_6_10_5_m2_q3",
@@ -2709,11 +2709,11 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "options": [
               "バン",
               "ホン",
-              "パン",
-              "ハン"
+              "ハン",
+              "パン"
             ],
-            "correctIndex": 2,
-            "explanation": "Bread viết là パン."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Tôi ăn bánh mì.\n- 【パン】 (bánh mì - mượn từ tiếng Bồ Đào Nha: Pão) viết bằng Katakana là パン (chữ ハ có dấu tròn maru).\n- Phân tích các đáp án khác: ハン (han), バン (ban), ホン (hon)."
           }
         ]
       },
@@ -2723,51 +2723,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_6_10_5_m3_q0",
-            "question": "はさみで かみを 【　　　】。",
-            "options": [
-              "かします",
-              "もらいます",
-              "かります",
-              "きります"
-            ],
-            "correctIndex": 3,
-            "explanation": "Cắt (きります) giấy."
-          },
-          {
-            "id": "m_review_6_10_5_m3_q1",
             "question": "この りんごは とても 【　　　】です。",
             "options": [
-              "おいしい",
               "つめたい",
+              "おいしい",
               "いそがしい",
               "おもしろい"
             ],
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Quả táo này rất ngon.\n- Tính từ おいしい (oishii: ngon) phù hợp nhất để miêu tả đồ ăn (táo).\n- Phân tích các tính từ khác: つめたい (lạnh - dùng cho cảm giác tiếp xúc), おもしろい (thú vị - dùng cho sách, phim), いそgがしい (bận rộn - dùng cho con người)."
+          },
+          {
+            "id": "m_review_6_10_5_m3_q1",
+            "question": "はさみで かみを 【　　　】。",
+            "options": [
+              "きります",
+              "かします",
+              "かりまs",
+              "もらいます"
+            ],
             "correctIndex": 0,
-            "explanation": "Táo thì ngon (おいしい)."
+            "explanation": "Dịch nghĩa: Tôi cắt giấy bằng kéo.\n- Động từ きります (kiri-masu: cắt) đi kèm công cụ はさみ (kéo) và đối tượng かみ (giấy) là phù hợp nhất.\n- Phân tích các động từ khác: かします (cho mượn), かります (mượn), もらいます (nhận)."
           },
           {
             "id": "m_review_6_10_5_m3_q2",
             "question": "せんせいから ほんを 【　　　】。",
             "options": [
-              "もらいました",
-              "おしえました",
               "かしました",
+              "おしえました",
+              "もらいました",
               "あげました"
             ],
-            "correctIndex": 0,
-            "explanation": "Nhận từ giáo viên (もらいました)."
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Tôi đã nhận được sách từ thầy cô giáo.\n- Cấu trúc: [Người] から/に [Vật] を もらいます (Nhận cái gì từ ai đó). Do có trợ từ から (từ) chỉ nguồn gốc, động từ もらいました (đã nhận) là chính xác.\n- Các động từ còn lại không khớp trợ từ: あげました (cho/tặng), かしました (cho mượn), おしえました (dạy)."
           },
           {
             "id": "m_review_6_10_5_m3_q3",
             "question": "日本の カメラは 【　　　】ですか。",
             "options": [
-              "どの",
-              "どう",
+              "どれ",
               "どんな",
-              "どれ"
+              "どの",
+              "どう"
             ],
-            "correctIndex": 1,
-            "explanation": "Thế nào? (どうですか)."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Máy ảnh của Nhật Bản thế nào?\n- Cụm hỏi ý kiến, cảm tưởng: どうですか (Như thế nào?).\n- Phân tích các đáp án khác: どんな (như thế nào - phải đứng trước danh từ), どれ (cái nào - dùng để chọn lựa trong nhóm), どの (cái nào - phải đứng trước danh từ)."
           }
         ]
       },
@@ -2777,51 +2777,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_6_10_5_b1_q0",
-            "question": "この へやは （　　　）ありません。",
+            "question": "きのうの パーティーは （　　　）。",
             "options": [
-              "しずか",
-              "しずかくて",
-              "しずかに",
-              "しずかじゃ"
+              "たのしいです",
+              "たのしいでした",
+              "たのしかったです",
+              "たのしかった"
             ],
-            "correctIndex": 3,
-            "explanation": "Phủ định tính từ đuôi な -> じゃ ありません."
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Bữa tiệc hôm qua đã rất vui.\n- Thời gian là \"Hôm qua (きのう)\", nên câu phải chia ở quá khứ lịch sự.\n- Quy tắc chia quá khứ lịch sự của tính từ đuôi い (たのしい): Bỏ い thêm かったです -> たのしかったです.\n- Chú ý: Tiếng Nhật không dùng \"đuôi い + でした\" (như たのしいでした, đây là lỗi cực kỳ phổ biến)."
           },
           {
             "id": "m_review_6_10_5_b1_q1",
-            "question": "スプーン（　　　）ごはんを たべます。",
+            "question": "わたしは 木村さん（　　　）はなを あげました。",
             "options": [
-              "が",
-              "を",
+              "へ",
               "で",
+              "を",
               "に"
             ],
-            "correctIndex": 2,
-            "explanation": "Chỉ phương tiện/công cụ -> で."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Tôi đã tặng hoa cho chị Kimura.\n- Cấu trúc: [Người cho] は [Người nhận] に [Vật] を あげます. Trợ từ に chỉ đối tượng gián tiếp tiếp nhận hành động (cho/tặng ai đó)."
           },
           {
             "id": "m_review_6_10_5_b1_q2",
-            "question": "わたしは 木村さん（　　　）はなを あげました。",
+            "question": "スプーン（　　　）ごはんを たべます。",
             "options": [
-              "で",
               "に",
               "を",
-              "へ"
+              "で",
+              "gが"
             ],
-            "correctIndex": 1,
-            "explanation": "Cho ai cái gì -> に."
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Tôi ăn cơm bằng thìa.\n- Trợ từ で được dùng để chỉ phương tiện, công cụ hoặc nguyên liệu thực hiện hành động (bằng thìa/muỗng).\n- Các đáp án khác không phù hợp: に (chỉ thời gian/nơi chốn hướng tới), を (chỉ đối tượng trực tiếp), が (chỉ chủ ngữ)."
           },
           {
             "id": "m_review_6_10_5_b1_q3",
-            "question": "きのうの パーティーは （　　　）。",
+            "question": "この へ야는 （　　　）ありません。",
             "options": [
-              "たのしかった",
-              "たのしかったです",
-              "たのしいです",
-              "たのしいでした"
+              "しずか",
+              "しずかに",
+              "しずかじゃ",
+              "しずかくて"
             ],
-            "correctIndex": 1,
-            "explanation": "Tính từ đuôi い ở quá khứ -> かったです."
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Căn phòng này không yên tĩnh.\n- Tính từ しずか (yên tĩnh) là tính từ đuôi な.\n- Quy tắc phủ định tính từ đuôi な: [Danh từ/Tính từ đuôi な] + じゃ/では ありません -> しずかじゃ ありません.\n- Phân tích đáp án khác: しずかくて (dạng nối của tính từ đuôi い, sai)."
           }
         ]
       },
@@ -2833,25 +2833,25 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_6_10_5_b2_q0",
             "question": "わたしは　___ ___ _★_ ___　もらいました。",
             "options": [
+              "tともだち",
               "に",
-              "ともだち",
               "を",
               "とけい"
             ],
             "correctIndex": 2,
-            "explanation": "わたしは ともだち に とけい を もらいました."
+            "explanation": "Dịch nghĩa: Tôi đã nhận chiếc đồng hồ từ bạn bè.\n- Phân tích trật tự từ: わたしは + とmだち (2) + に (3) + とけい (4) + を (1) + もらいました.\n- Cấu trúc: [Người nhận] は [Người cho] に [Vật] を もらいます (Nhận cái gì từ ai).\n- Vị trí dấu sao nằm ở từ thứ 3 trong cụm sắp xếp, tương ứng với danh từ và trợ từ とけいを (vị trí ngôi sao là 4, tức là và trợ từ を (1) đi sau とけい)."
           },
           {
             "id": "m_review_6_10_5_b2_q1",
             "question": "とうきょうは　___ ___ _★_ ___　まちです。",
             "options": [
-              "にぎやかな",
               "とても",
+              "にぎやかな",
               "て",
               "きれいで"
             ],
-            "correctIndex": 1,
-            "explanation": "とうきょうは とても きれいで にぎやかな まち です."
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa: Tokyo là một thành phố rất đẹp và nhộn nhịp.\n- Phân tích trật tự từ: とうきょうは + とても (4) + きれいで (2) + にぎやかな (3) + まちです.\n- Quy tắc nối tính từ đuôi な (きれい): Chuyển sang thể て thành きれいで để nối tiếp với tính từ tiếp theo (にぎやかな).\n- Vị trí dấu sao nằm ở từ thứ 3 trong cụm sắp xếp, tương ứng với tính từ にぎやかな (3)."
           }
         ]
       },
@@ -2870,12 +2870,12 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "question": "なにを もらいましたか。",
             "options": [
               "くろい シャツと くろい ぼうし",
-              "しろい シャツと くろい ぼうし",
               "くろい シャツと しろい ぼうし",
-              "しろい シャツと しろい ぼうし"
+              "しろい シャツと しろい ぼうし",
+              "しろい シャツと くろi ぼうし"
             ],
-            "correctIndex": 1,
-            "explanation": "シャツは しろいです。ぼうしは くろいです."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa đoạn văn: \"Hôm nay là sinh nhật tôi. Sáng nay tôi nhận được quà từ mẹ: áo sơ mi và mũ. Chiếc áo sơ mi thì màu trắng, chiếc mũ thì màu đen.\"\n- Do đó, món quà nhận được là: Áo sơ mi trắng và mũ đen -> しろい シャツと くろい ぼうし."
           },
           {
             "id": "m_review_6_10_5_d1_q1",
@@ -2884,10 +2884,10 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "うち",
               "レストラン",
               "かいしゃ",
-              "がっこう"
+              "gがっこう"
             ],
             "correctIndex": 1,
-            "explanation": "レストランで しょくじを します."
+            "explanation": "Dịch nghĩa đoạn văn: \"Buổi tối, tôi cùng gia đình đi dùng bữa tại nhà hàng.\"\n- Nơi ăn cơm vào buổi tối là nhà hàng -> レストラン."
           }
         ]
       }
@@ -2904,51 +2904,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_11_15_1_m1_q0",
-            "question": "【一日】に ３かい くすりを のみます。",
+            "question": "【切手】を かいました。",
             "options": [
-              "いっか",
-              "いつか",
-              "ついたち",
-              "いちにち"
+              "きくて",
+              "きって",
+              "きっぶ",
+              "きっぷ"
             ],
-            "correctIndex": 3,
-            "explanation": "一日 trong khoảng thời gian đọc là いちにち."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Tôi đã mua tem.\n- Chữ Hán 【切手】 (Thiết Thủ) có cách đọc là きって (kitte) nghĩa là tem thư.\n- Chú ý phân biệt với きっぷ (kippu: vé tàu xe, chữ Hán là 切符)."
           },
           {
             "id": "m_review_11_15_1_m1_q1",
-            "question": "【切手】を かいました。",
+            "question": "【外国】へ いきました。",
             "options": [
-              "きって",
-              "きっぷ",
-              "きくて",
-              "きっぶ"
+              "かいこく",
+              "かいごく",
+              "がいこk",
+              "がいごく"
             ],
-            "correctIndex": 0,
-            "explanation": "切手 đọc là きって (Tem)."
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Tôi đã đi nước ngoài.\n- Chữ Hán 【外国】 (Ngoại Quốc) có cách đọc Hiragana tương ứng là がいこく (gaikoku).\n- Chú ý âm đục của từ: \"gai\" và \"ko\", không biến âm thành \"go\" hay \"kai\"."
           },
           {
             "id": "m_review_11_15_1_m1_q2",
-            "question": "【外国】へ いきました。",
+            "question": "ngõ/nơi/ở đây là 【有名】な まちです。",
             "options": [
-              "がいこく",
-              "がいごく",
-              "かいごく",
-              "かいこく"
+              "ゆめ",
+              "ゆうめ",
+              "ゆうめい",
+              "ゆめい"
             ],
-            "correctIndex": 0,
-            "explanation": "外国 đọc là がいこく (Nước ngoài)."
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Đây là một thành phố nổi tiếng.\n- Chữ Hán 【有名】 (Hữu Danh) có cách đọc tương ứng là ゆうめい (yuumei) nghĩa là nổi tiếng.\n- Chú ý từ này có hai trường âm: ゆう (yuu) và めい (mei)."
           },
           {
             "id": "m_review_11_15_1_m1_q3",
-            "question": "ここは 【有名】な まちです。",
+            "question": "【一日】に ３かい くすりを のみます。",
             "options": [
-              "ゆめい",
-              "ゆうめい",
-              "ゆうめ",
-              "ゆめ"
+              "いちにち",
+              "いつか",
+              "いっか",
+              "ついたち"
             ],
-            "correctIndex": 1,
-            "explanation": "有名 đọc là ゆうめい (Nổi tiếng)."
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa: Một ngày tôi uống thuốc 3 lần.\n- 【一日】 biểu thị thời lượng \"một ngày\" đọc là いちにち (ichinichi).\n- Phân tích các đáp án khác: ついたち (tsuitachi: ngày mùng 1 đầu tháng, chỉ mốc thời gian chứ không chỉ thời lượng), いつか (itsuka: ngày mùng 5/năm ngày)."
           }
         ]
       },
@@ -2958,51 +2958,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_11_15_1_m2_q0",
-            "question": "【デパート】へ いきます。",
+            "question": "【スーパー】で くだものを かいます。",
             "options": [
-              "テパート",
-              "テバート",
-              "デパート",
-              "デバート"
+              "ズーパー",
+              "ズーバー",
+              "スーバー",
+              "スーパー"
             ],
-            "correctIndex": 2,
-            "explanation": "Department store viết là デパート."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Tôi mua trái cây ở siêu thị.\n- 【スーパー】 (Siêu thị - Supermarket) viết Katakana chuẩn xác là スーパー có trường âm kéo dài."
           },
           {
             "id": "m_review_11_15_1_m2_q1",
-            "question": "あたらし 【くるま】が ほしいです。",
+            "question": "【デパート】へ いきます。",
             "options": [
-              "庫",
-              "連",
-              "車",
-              "軍"
+              "デバート",
+              "デパート",
+              "テパート",
+              "テバート"
             ],
-            "correctIndex": 2,
-            "explanation": "Xe ô tô viết là 車."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Tôi đi đến bách hóa.\n- 【デパート】 (Cửa hàng bách hóa) viết bằng Katakana chuẩn xác là デパート.\n- Chú ý âm đục của chữ デ (de) và âm thường của chữ パ (pa - có maru)."
           },
           {
             "id": "m_review_11_15_1_m2_q2",
-            "question": "【スーパー】で くだものを かいます。",
+            "question": "【カメラ】を かいたいです。",
             "options": [
-              "スーバー",
-              "スーパー",
-              "ズーパー",
-              "ズーバー"
+              "カヌラ",
+              "カメラ",
+              "ガメラ",
+              "カメテ"
             ],
             "correctIndex": 1,
-            "explanation": "Supermarket viết là スーパー."
+            "explanation": "Dịch nghĩa: Tôi muốn mua máy ảnh.\n- 【カメラ】 (Máy ảnh - Camera) viết bằng Katakana chuẩn xác là カメラ.\n- Các chữ Katakana tương đồng dễ gây nhầm lẫn: ラ (ra) khác với テ (te) hay ヌ (nu)."
           },
           {
             "id": "m_review_11_15_1_m2_q3",
-            "question": "【カメラ】を かいたいです。",
+            "question": "あたらし 【くるま】が ほしいです。",
             "options": [
-              "カメラ",
-              "ガメラ",
-              "カメテ",
-              "カヌラ"
+              "軍",
+              "庫",
+              "車",
+              "連"
             ],
-            "correctIndex": 0,
-            "explanation": "Camera viết là カメラ."
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Tôi muốn một chiếc xe hơi mới.\n- 【くるま】 (xe hơi, ô tô) viết bằng chữ Kanji là 車 (Xa).\n- Các chữ Kanji gây nhiễu có nét viết tương đồng: 軍 (Quân), 庫 (Khố), 連 (Liên)."
           }
         ]
       },
@@ -3012,51 +3012,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_11_15_1_m3_q0",
-            "question": "【　　　】から きましたか。",
+            "question": "いま のどが 【　　　】。",
             "options": [
-              "いつ",
-              "どこ",
-              "なん",
-              "だれ"
+              "かわきました",
+              "すきました",
+              "いたいです",
+              "わるいです"
             ],
-            "correctIndex": 1,
-            "explanation": "Từ đâu đến? (どこ)."
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa: Bây giờ tôi đang khát nước.\n- Cụm từ cố định: のどが かわきました (khát nước, nghĩa đen là họng khô rồi).\n- Phân tích các đáp án khác: おなかが すきました (đói bụng), あたまが いたい (đau đầu)."
           },
           {
             "id": "m_review_11_15_1_m3_q1",
-            "question": "えきまで 【　　　】で いきます。",
+            "question": "りんごを みっつ 【　　　】。",
             "options": [
-              "しんかんせん",
-              "ふね",
-              "じてんしゃ",
-              "ひこうき"
+              "に",
+              "ください",
+              "を",
+              "で"
             ],
-            "correctIndex": 2,
-            "explanation": "Đi đến nhà ga bằng xe đạp (じてんしゃ)."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Xin vui lòng cho tôi 3 quả táo.\n- Cấu trúc yêu cầu lịch sự khi mua bán hoặc gọi món: [Danh từ] + [Số lượng] + ください (Xin cho tôi/Vui lòng lấy cho tôi...)."
           },
           {
             "id": "m_review_11_15_1_m3_q2",
-            "question": "いま のどが 【　　　】。",
+            "question": "【　　　】から きましたか。",
             "options": [
-              "わるいです",
-              "いたいです",
-              "すきました",
-              "かわきました"
+              "dどこ",
+              "なん",
+              "だれ",
+              "いつ"
             ],
-            "correctIndex": 3,
-            "explanation": "Khát nước: のどが かわきました."
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa: Bạn đến từ đâu?\n- Cấu trúc hỏi nguồn gốc, quê quán: どこから きましたか (Đến từ đâu?).\n- Phân tích các đáp án khác: だれ (ai), いつ (khi nào), なん (cái gì)."
           },
           {
             "id": "m_review_11_15_1_m3_q3",
-            "question": "りんごを みっつ 【　　　】。",
+            "question": "えきまで 【　　　】で いきます。",
             "options": [
-              "を",
-              "で",
-              "ください",
-              "に"
+              "ひこうき",
+              "ふね",
+              "しんかんせん",
+              "じてんしゃ"
             ],
-            "correctIndex": 2,
-            "explanation": "Cho tôi 3 quả táo: りんごを みっつ ください."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Tôi đi đến ga bằng xe đạp.\n- Trợ từ で chỉ phương tiện. Đi đến ga tàu thông thường và hợp lý nhất là dùng じてんしゃ (xe đạp).\n- Các phương tiện khác không thực tế trong cuộc sống hàng ngày để ra ga: ひこうき (máy bay), ふね (thuyền), しんかんせん (tàu siêu tốc)."
           }
         ]
       },
@@ -3066,39 +3066,39 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_11_15_1_b1_q0",
-            "question": "ここで しゃしんを （　　　）は いけません。",
-            "options": [
-              "とり",
-              "とって",
-              "とる",
-              "とらない"
-            ],
-            "correctIndex": 1,
-            "explanation": "Cấm đoán: Vて はいけません -> とって."
-          },
-          {
-            "id": "m_review_11_15_1_b1_q1",
             "question": "わたしは にほんご（　　　） わかります。",
             "options": [
-              "で",
+              "để (dùng sai, o: で)",
               "を",
               "が",
               "に"
             ],
             "correctIndex": 2,
-            "explanation": "Hiểu cái gì dùng trợ từ が."
+            "explanation": "Dịch nghĩa: Tôi hiểu tiếng Nhật.\n- Động từ わかります (hiểu, biết) là động từ trạng thái, đi kèm đối tượng của sự thấu hiểu bằng trợ từ が (không dùng trợ từ を)."
           },
           {
-            "id": "m_review_11_15_1_b1_q2",
+            "id": "m_review_11_15_1_b1_q1",
             "question": "きょうは （　　　） たのしかったです。",
             "options": [
               "すこし",
-              "あまり",
               "とても",
-              "ぜんぜん"
+              "hoàn toàn không",
+              "tự nhiên/không lắm"
             ],
-            "correctIndex": 2,
-            "explanation": "Khẳng định -> とても (Rất)."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Hôm nay đã rất vui.\n- Tính từ chia khẳng định quá khứ (たのしかった) đi kèm phó từ mức độ khẳng định là とても (rất).\n- Các đáp án khác dùng với thể phủ định: あまり...ない (không... lắm), ぜんぜん...ない (hoàn toàn không... ở phủ định)."
+          },
+          {
+            "id": "m_review_11_15_1_b1_q2",
+            "question": "ここで しゃしんを （　　　）は いけません。",
+            "options": [
+              "とる",
+              "とって",
+              "とらない",
+              "とり"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Không được phép chụp ảnh ở đây.\n- Mẫu câu cấm đoán nhẹ: Vて + は いけません (không được làm gì).\n- Động từ とります (chụp ảnh) chuyển sang thể て là とって."
           },
           {
             "id": "m_review_11_15_1_b1_q3",
@@ -3106,11 +3106,11 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "options": [
               "やすむ",
               "やすみ",
-              "やすんで",
-              "やすまない"
+              "やすまない",
+              "やすんで"
             ],
             "correctIndex": 1,
-            "explanation": "Rủ rê -> Động từ bỏ ます + ましょうか -> やすみ."
+            "explanation": "Dịch nghĩa: A: \"Chúng ta cùng nghỉ ngơi một chút nhé?\"\n- Mẫu câu đề nghị/rủ rê lịch sự: Động từ thể ます bỏ ます + ましょうか.\n- Động từ やすみます bỏ ます thành やすみ."
           }
         ]
       },
@@ -3120,27 +3120,27 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_11_15_1_b2_q0",
-            "question": "この　___ ___ _★_ ___　いいですか。",
-            "options": [
-              "を",
-              "は",
-              "つかっても",
-              "ペン"
-            ],
-            "correctIndex": 2,
-            "explanation": "この ペン は つかっても いいですか."
-          },
-          {
-            "id": "m_review_11_15_1_b2_q1",
             "question": "わたしは　___ ___ _★_ ___　いきます。",
             "options": [
-              "みに",
               "えいが",
+              "みに",
               "に",
               "を"
             ],
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Tôi đi xem phim.\n- Phân tích trật tự từ: わたしは + えいが (1) + を (3) + みに (4) + に (2) + いきます.\n- Cấu trúc chỉ mục đích di chuyển: [Danh từ] + を + [Động từ thể ます bỏ ます] + に + いきます.\n- Vị trí dấu sao nằm ở từ thứ 3 trong cụm sắp xếp, tương ứng với động từ chỉ mục đích みに (4)."
+          },
+          {
+            "id": "m_review_11_15_1_b2_q1",
+            "question": "この　___ ___ _★_ ___　いいですか。",
+            "options": [
+              "つかっても",
+              "ペン",
+              "を",
+              "は"
+            ],
             "correctIndex": 0,
-            "explanation": "わたしは えいが を みに いきます."
+            "explanation": "Dịch nghĩa: Tôi dùng chiếc bút này có được không?\n- Phân tích trật tự từ: この + ペン (2) + は (4) + つかっても (3) + いいですか.\n- Cấu trúc xin phép lịch sự: Vて + も いいですか (làm gì có được không?).\n- Vị trí dấu sao nằm ở từ thứ 3 trong cụm sắp xếp, tương ứng với động từ つかっても (3)."
           }
         ]
       },
@@ -3158,25 +3158,25 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_11_15_1_d1_q0",
             "question": "（　１　）に入れるものはどれですか。",
             "options": [
-              "に",
-              "を",
               "で",
-              "へ"
+              "へ",
+              "を",
+              "に"
             ],
-            "correctIndex": 0,
-            "explanation": "Sống ở đâu dùng trợ từ に."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa đoạn: \"Gia đình tôi có 4 người. Anh trai tôi là sinh viên. Hiện tại anh đang sống ở Tokyo.\"\n- Trợ từ đi với động từ chỉ sự cư trú すんでいます (sống tại) bắt buộc phải dùng trợ từ に."
           },
           {
             "id": "m_review_11_15_1_d1_q1",
             "question": "（　２　）に入れるものはどれですか。",
             "options": [
               "いって",
-              "いき",
               "いきたい",
+              "いき",
               "いく"
             ],
-            "correctIndex": 1,
-            "explanation": "Vます bỏ ます + たい -> いき."
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa đoạn: \"Tôi là học sinh cấp 3. Sang năm tôi muốn đỗ/đi học đại học.\"\n- Cấu trúc mong muốn: Vます bỏ ます + たい (muốn làm gì). Động từ いきます (đi) bỏ ます thành いき đi với đuôi たい -> いき (đáp án 1)."
           }
         ]
       }
@@ -3193,42 +3193,6 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_11_15_2_m1_q0",
-            "question": "ここは 【有名】な まちです。",
-            "options": [
-              "ゆめい",
-              "ゆうめ",
-              "ゆうめい",
-              "ゆめ"
-            ],
-            "correctIndex": 2,
-            "explanation": "有名 đọc là ゆうめい (Nổi tiếng)."
-          },
-          {
-            "id": "m_review_11_15_2_m1_q1",
-            "question": "【外国】へ いきました。",
-            "options": [
-              "かいこく",
-              "かいごく",
-              "がいごく",
-              "がいこく"
-            ],
-            "correctIndex": 3,
-            "explanation": "外国 đọc là がいこく (Nước ngoài)."
-          },
-          {
-            "id": "m_review_11_15_2_m1_q2",
-            "question": "【切手】を かいました。",
-            "options": [
-              "きっぶ",
-              "きくて",
-              "きっぷ",
-              "きって"
-            ],
-            "correctIndex": 3,
-            "explanation": "切手 đọc là きって (Tem)."
-          },
-          {
-            "id": "m_review_11_15_2_m1_q3",
             "question": "【一日】に ３かい くすりを のみます。",
             "options": [
               "いちにち",
@@ -3237,7 +3201,43 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "いっか"
             ],
             "correctIndex": 0,
-            "explanation": "一日 trong khoảng thời gian đọc là いちにち."
+            "explanation": "Dịch nghĩa: Một ngày tôi uống thuốc 3 lần.\n- 【一日】 biểu thị thời lượng \"một ngày\" đọc là いちにち (ichinichi).\n- Phân tích các đáp án khác: ついたち (tsuitachi: ngày mùng 1 đầu tháng, chỉ mốc thời gian chứ không chỉ thời lượng), いつか (itsuka: ngày mùng 5/năm ngày)."
+          },
+          {
+            "id": "m_review_11_15_2_m1_q1",
+            "question": "ngõ/nơi/ở đây là 【有名】な まちです。",
+            "options": [
+              "ゆめ",
+              "ゆうめ",
+              "ゆめい",
+              "ゆうめい"
+            ],
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Đây là một thành phố nổi tiếng.\n- Chữ Hán 【有名】 (Hữu Danh) có cách đọc tương ứng là ゆうめい (yuumei) nghĩa là nổi tiếng.\n- Chú ý từ này có hai trường âm: ゆう (yuu) và めい (mei)."
+          },
+          {
+            "id": "m_review_11_15_2_m1_q2",
+            "question": "【切手】を かいました。",
+            "options": [
+              "きくて",
+              "きっぶ",
+              "きっぷ",
+              "きって"
+            ],
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Tôi đã mua tem.\n- Chữ Hán 【切手】 (Thiết Thủ) có cách đọc là きって (kitte) nghĩa là tem thư.\n- Chú ý phân biệt với きっぷ (kippu: vé tàu xe, chữ Hán là 切符)."
+          },
+          {
+            "id": "m_review_11_15_2_m1_q3",
+            "question": "【外国】へ いきました。",
+            "options": [
+              "がいごく",
+              "かいこく",
+              "かいごく",
+              "がいこk"
+            ],
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Tôi đã đi nước ngoài.\n- Chữ Hán 【外国】 (Ngoại Quốc) có cách đọc Hiragana tương ứng là がいこく (gaikoku).\n- Chú ý âm đục của từ: \"gai\" và \"ko\", không biến âm thành \"go\" hay \"kai\"."
           }
         ]
       },
@@ -3247,15 +3247,15 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_11_15_2_m2_q0",
-            "question": "【スーパー】で くだものを かいます。",
+            "question": "【カメラ】を かいたいです。",
             "options": [
-              "ズーパー",
-              "スーパー",
-              "スーバー",
-              "ズーバー"
+              "カメラ",
+              "ガメラ",
+              "カメテ",
+              "カヌラ"
             ],
-            "correctIndex": 1,
-            "explanation": "Supermarket viết là スーパー."
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa: Tôi muốn mua máy ảnh.\n- 【カメラ】 (Máy ảnh - Camera) viết bằng Katakana chuẩn xác là カメラ.\n- Các chữ Katakana tương đồng dễ gây nhầm lẫn: ラ (ra) khác với テ (te) hay ヌ (nu)."
           },
           {
             "id": "m_review_11_15_2_m2_q1",
@@ -3263,11 +3263,11 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "options": [
               "軍",
               "車",
-              "連",
-              "庫"
+              "庫",
+              "連"
             ],
             "correctIndex": 1,
-            "explanation": "Xe ô tô viết là 車."
+            "explanation": "Dịch nghĩa: Tôi muốn một chiếc xe hơi mới.\n- 【くるま】 (xe hơi, ô tô) viết bằng chữ Kanji là 車 (Xa).\n- Các chữ Kanji gây nhiễu có nét viết tương đồng: 軍 (Quân), 庫 (Khố), 連 (Liên)."
           },
           {
             "id": "m_review_11_15_2_m2_q2",
@@ -3275,23 +3275,23 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "options": [
               "テバート",
               "デパート",
-              "テパート",
-              "デバート"
+              "デバート",
+              "テパート"
             ],
             "correctIndex": 1,
-            "explanation": "Department store viết là デパート."
+            "explanation": "Dịch nghĩa: Tôi đi đến bách hóa.\n- 【デパート】 (Cửa hàng bách hóa) viết bằng Katakana chuẩn xác là デパート.\n- Chú ý âm đục của chữ デ (de) và âm thường của chữ パ (pa - có maru)."
           },
           {
             "id": "m_review_11_15_2_m2_q3",
-            "question": "【カメラ】を かいたいです。",
+            "question": "【スーパー】で くだものを かいます。",
             "options": [
-              "カメラ",
-              "カメテ",
-              "ガメラ",
-              "カヌラ"
+              "スーバー",
+              "ズーパー",
+              "ズーバー",
+              "スーパー"
             ],
-            "correctIndex": 0,
-            "explanation": "Camera viết là カメラ."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Tôi mua trái cây ở siêu thị.\n- 【スーパー】 (Siêu thị - Supermarket) viết Katakana chuẩn xác là スーパー có trường âm kéo dài."
           }
         ]
       },
@@ -3301,51 +3301,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_11_15_2_m3_q0",
-            "question": "【　　　】から きましたか。",
+            "question": "りんごを みっつ 【　　　】。",
             "options": [
-              "どこ",
-              "いつ",
-              "なん",
-              "だれ"
+              "ください",
+              "を",
+              "に",
+              "で"
             ],
             "correctIndex": 0,
-            "explanation": "Từ đâu đến? (どこ)."
+            "explanation": "Dịch nghĩa: Xin vui lòng cho tôi 3 quả táo.\n- Cấu trúc yêu cầu lịch sự khi mua bán hoặc gọi món: [Danh từ] + [Số lượng] + ください (Xin cho tôi/Vui lòng lấy cho tôi...)."
           },
           {
             "id": "m_review_11_15_2_m3_q1",
-            "question": "りんごを みっつ 【　　　】。",
+            "question": "【　　　】から きましたか。",
             "options": [
-              "に",
-              "で",
-              "を",
-              "ください"
+              "なん",
+              "いつ",
+              "dどこ",
+              "だれ"
             ],
-            "correctIndex": 3,
-            "explanation": "Cho tôi 3 quả táo: りんごを みっつ ください."
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Bạn đến từ đâu?\n- Cấu trúc hỏi nguồn gốc, quê quán: どこから きましたか (Đến từ đâu?).\n- Phân tích các đáp án khác: だれ (ai), いつ (khi nào), なん (cái gì)."
           },
           {
             "id": "m_review_11_15_2_m3_q2",
             "question": "いま のどが 【　　　】。",
             "options": [
+              "わるいです",
               "いたいです",
               "すきました",
-              "わるいです",
               "かわきました"
             ],
             "correctIndex": 3,
-            "explanation": "Khát nước: のどが かわきました."
+            "explanation": "Dịch nghĩa: Bây giờ tôi đang khát nước.\n- Cụm từ cố định: のどが かわきました (khát nước, nghĩa đen là họng khô rồi).\n- Phân tích các đáp án khác: おなかが すきました (đói bụng), あたまが いたい (đau đầu)."
           },
           {
             "id": "m_review_11_15_2_m3_q3",
             "question": "えきまで 【　　　】で いきます。",
             "options": [
-              "ひこうき",
-              "しんかんせん",
+              "ふね",
               "じてんしゃ",
-              "ふね"
+              "ひこうき",
+              "しんかんせん"
             ],
-            "correctIndex": 2,
-            "explanation": "Đi đến nhà ga bằng xe đạp (じてんしゃ)."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Tôi đi đến ga bằng xe đạp.\n- Trợ từ で chỉ phương tiện. Đi đến ga tàu thông thường và hợp lý nhất là dùng じてんしゃ (xe đạp).\n- Các phương tiện khác không thực tế trong cuộc sống hàng ngày để ra ga: ひこうき (máy bay), ふね (thuyền), しんかんせん (tàu siêu tốc)."
           }
         ]
       },
@@ -3355,51 +3355,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_11_15_2_b1_q0",
-            "question": "きょうは （　　　） たのしかったです。",
+            "question": "A「ちょっと （　　　）ましょうか。」",
             "options": [
-              "とても",
-              "ぜんぜん",
-              "あまり",
-              "すこし"
+              "やすむ",
+              "やすみ",
+              "やすまない",
+              "やすんで"
             ],
-            "correctIndex": 0,
-            "explanation": "Khẳng định -> とても (Rất)."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: A: \"Chúng ta cùng nghỉ ngơi một chút nhé?\"\n- Mẫu câu đề nghị/rủ rê lịch sự: Động từ thể ます bỏ ます + ましょうか.\n- Động từ やすみます bỏ ます thành やすみ."
           },
           {
             "id": "m_review_11_15_2_b1_q1",
-            "question": "A「ちょっと （　　　）ましょうか。」",
+            "question": "ここで しゃしんを （　　　）は いけません。",
             "options": [
-              "やすんで",
-              "やすみ",
-              "やすまない",
-              "やすむ"
+              "とる",
+              "とって",
+              "とらない",
+              "とり"
             ],
             "correctIndex": 1,
-            "explanation": "Rủ rê -> Động từ bỏ ます + ましょうか -> やすみ."
+            "explanation": "Dịch nghĩa: Không được phép chụp ảnh ở đây.\n- Mẫu câu cấm đoán nhẹ: Vて + は いけません (không được làm gì).\n- Động từ とります (chụp ảnh) chuyển sang thể て là とって."
           },
           {
             "id": "m_review_11_15_2_b1_q2",
             "question": "わたしは にほんご（　　　） わかります。",
             "options": [
-              "に",
               "が",
-              "で",
-              "を"
+              "を",
+              "に",
+              "để (dùng sai, o: で)"
             ],
-            "correctIndex": 1,
-            "explanation": "Hiểu cái gì dùng trợ từ が."
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa: Tôi hiểu tiếng Nhật.\n- Động từ わかります (hiểu, biết) là động từ trạng thái, đi kèm đối tượng của sự thấu hiểu bằng trợ từ が (không dùng trợ từ を)."
           },
           {
             "id": "m_review_11_15_2_b1_q3",
-            "question": "ここで しゃしんを （　　　）は いけません。",
+            "question": "きょうは （　　　） たのしかったです。",
             "options": [
-              "とらない",
-              "とって",
-              "とる",
-              "とり"
+              "tự nhiên/không lắm",
+              "hoàn toàn không",
+              "とても",
+              "すこし"
             ],
-            "correctIndex": 1,
-            "explanation": "Cấm đoán: Vて はいけません -> とって."
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Hôm nay đã rất vui.\n- Tính từ chia khẳng định quá khứ (たのしかった) đi kèm phó từ mức độ khẳng định là とても (rất).\n- Các đáp án khác dùng với thể phủ định: あまり...ない (không... lắm), ぜんぜん...ない (hoàn toàn không... ở phủ định)."
           }
         ]
       },
@@ -3409,27 +3409,27 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_11_15_2_b2_q0",
-            "question": "わたしは　___ ___ _★_ ___　いきます。",
+            "question": "この　___ ___ _★_ ___　いいですか。",
             "options": [
-              "に",
-              "を",
-              "えいが",
-              "みに"
+              "ペン",
+              "つかっても",
+              "は",
+              "を"
             ],
-            "correctIndex": 3,
-            "explanation": "わたしは えいが を みに いきます."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Tôi dùng chiếc bút này có được không?\n- Phân tích trật tự từ: この + ペン (2) + は (4) + つかっても (3) + いいですか.\n- Cấu trúc xin phép lịch sự: Vて + も いいですか (làm gì có được không?).\n- Vị trí dấu sao nằm ở từ thứ 3 trong cụm sắp xếp, tương ứng với động từ つかっても (3)."
           },
           {
             "id": "m_review_11_15_2_b2_q1",
-            "question": "この　___ ___ _★_ ___　いいですか。",
+            "question": "わたしは　___ ___ _★_ ___　いきます。",
             "options": [
-              "つかっても",
-              "は",
-              "ペン",
+              "みに",
+              "えいが",
+              "に",
               "を"
             ],
             "correctIndex": 0,
-            "explanation": "この ペン は つかっても いいですか."
+            "explanation": "Dịch nghĩa: Tôi đi xem phim.\n- Phân tích trật tự từ: わたしは + えいが (1) + を (3) + みに (4) + に (2) + いきます.\n- Cấu trúc chỉ mục đích di chuyển: [Danh từ] + を + [Động từ thể ます bỏ ます] + に + いきます.\n- Vị trí dấu sao nằm ở từ thứ 3 trong cụm sắp xếp, tương ứng với động từ chỉ mục đích みに (4)."
           }
         ]
       },
@@ -3447,25 +3447,25 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_11_15_2_d1_q0",
             "question": "（　１　）に入れるものはどれですか。",
             "options": [
-              "へ",
-              "で",
               "に",
+              "で",
+              "へ",
               "を"
             ],
-            "correctIndex": 2,
-            "explanation": "Sống ở đâu dùng trợ từ に."
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa đoạn: \"Gia đình tôi có 4 người. Anh trai tôi là sinh viên. Hiện tại anh đang sống ở Tokyo.\"\n- Trợ từ đi với động từ chỉ sự cư trú すんでいます (sống tại) bắt buộc phải dùng trợ từ に."
           },
           {
             "id": "m_review_11_15_2_d1_q1",
             "question": "（　２　）に入れるものはどれですか。",
             "options": [
-              "いきたい",
-              "いき",
               "いって",
-              "いく"
+              "いく",
+              "いき",
+              "いきたい"
             ],
-            "correctIndex": 1,
-            "explanation": "Vます bỏ ます + たい -> いき."
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa đoạn: \"Tôi là học sinh cấp 3. Sang năm tôi muốn đỗ/đi học đại học.\"\n- Cấu trúc mong muốn: Vます bỏ ます + たい (muốn làm gì). Động từ いきます (đi) bỏ ます thành いき đi với đuôi たい -> いき (đáp án 1)."
           }
         ]
       }
@@ -3482,51 +3482,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_11_15_3_m1_q0",
-            "question": "ここは 【有名】な まちです。",
+            "question": "【外国】へ いきました。",
             "options": [
-              "ゆうめ",
-              "ゆうめい",
-              "ゆめい",
-              "ゆめ"
+              "かいこく",
+              "かいごく",
+              "がいごく",
+              "がいこk"
             ],
-            "correctIndex": 1,
-            "explanation": "有名 đọc là ゆうめい (Nổi tiếng)."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Tôi đã đi nước ngoài.\n- Chữ Hán 【外国】 (Ngoại Quốc) có cách đọc Hiragana tương ứng là がいこく (gaikoku).\n- Chú ý âm đục của từ: \"gai\" và \"ko\", không biến âm thành \"go\" hay \"kai\"."
           },
           {
             "id": "m_review_11_15_3_m1_q1",
-            "question": "【外国】へ いきました。",
+            "question": "【切手】を かいました。",
             "options": [
-              "かいごく",
-              "がいこく",
-              "かいこく",
-              "がいごく"
+              "きっぶ",
+              "きっぷ",
+              "きって",
+              "きくて"
             ],
-            "correctIndex": 1,
-            "explanation": "外国 đọc là がいこく (Nước ngoài)."
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Tôi đã mua tem.\n- Chữ Hán 【切手】 (Thiết Thủ) có cách đọc là きって (kitte) nghĩa là tem thư.\n- Chú ý phân biệt với きっぷ (kippu: vé tàu xe, chữ Hán là 切符)."
           },
           {
             "id": "m_review_11_15_3_m1_q2",
-            "question": "【一日】に ３かい くすりを のみます。",
+            "question": "ngõ/nơi/ở đây là 【有名】な まちです。",
             "options": [
-              "ついたち",
-              "いつか",
-              "いちにち",
-              "いっか"
+              "ゆめ",
+              "ゆうめ",
+              "ゆうめい",
+              "ゆめい"
             ],
             "correctIndex": 2,
-            "explanation": "一日 trong khoảng thời gian đọc là いちにち."
+            "explanation": "Dịch nghĩa: Đây là một thành phố nổi tiếng.\n- Chữ Hán 【有名】 (Hữu Danh) có cách đọc tương ứng là ゆうめい (yuumei) nghĩa là nổi tiếng.\n- Chú ý từ này có hai trường âm: ゆう (yuu) và めい (mei)."
           },
           {
             "id": "m_review_11_15_3_m1_q3",
-            "question": "【切手】を かいました。",
+            "question": "【一日】に ３かい くすりを のみます。",
             "options": [
-              "きくて",
-              "きって",
-              "きっぷ",
-              "きっぶ"
+              "いちにち",
+              "いっか",
+              "ついたち",
+              "いつか"
             ],
-            "correctIndex": 1,
-            "explanation": "切手 đọc là きって (Tem)."
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa: Một ngày tôi uống thuốc 3 lần.\n- 【一日】 biểu thị thời lượng \"một ngày\" đọc là いちにち (ichinichi).\n- Phân tích các đáp án khác: ついたち (tsuitachi: ngày mùng 1 đầu tháng, chỉ mốc thời gian chứ không chỉ thời lượng), いつか (itsuka: ngày mùng 5/năm ngày)."
           }
         ]
       },
@@ -3536,51 +3536,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_11_15_3_m2_q0",
-            "question": "【カメラ】を かいたいです。",
+            "question": "【スーパー】で くだものを かいます。",
             "options": [
-              "カメラ",
-              "カメテ",
-              "ガメラ",
-              "カヌラ"
+              "ズーパー",
+              "ズーバー",
+              "スーバー",
+              "スーパー"
             ],
-            "correctIndex": 0,
-            "explanation": "Camera viết là カメラ."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Tôi mua trái cây ở siêu thị.\n- 【スーパー】 (Siêu thị - Supermarket) viết Katakana chuẩn xác là スーパー có trường âm kéo dài."
           },
           {
             "id": "m_review_11_15_3_m2_q1",
-            "question": "あたらし 【くるま】が ほしいです。",
-            "options": [
-              "軍",
-              "連",
-              "庫",
-              "車"
-            ],
-            "correctIndex": 3,
-            "explanation": "Xe ô tô viết là 車."
-          },
-          {
-            "id": "m_review_11_15_3_m2_q2",
-            "question": "【スーパー】で くだものを かいます。",
-            "options": [
-              "スーバー",
-              "スーパー",
-              "ズーパー",
-              "ズーバー"
-            ],
-            "correctIndex": 1,
-            "explanation": "Supermarket viết là スーパー."
-          },
-          {
-            "id": "m_review_11_15_3_m2_q3",
             "question": "【デパート】へ いきます。",
             "options": [
               "デパート",
-              "テパート",
               "デバート",
+              "テパート",
               "テバート"
             ],
             "correctIndex": 0,
-            "explanation": "Department store viết là デパート."
+            "explanation": "Dịch nghĩa: Tôi đi đến bách hóa.\n- 【デパート】 (Cửa hàng bách hóa) viết bằng Katakana chuẩn xác là デパート.\n- Chú ý âm đục của chữ デ (de) và âm thường của chữ パ (pa - có maru)."
+          },
+          {
+            "id": "m_review_11_15_3_m2_q2",
+            "question": "あたらし 【くるま】が ほしいです。",
+            "options": [
+              "連",
+              "車",
+              "庫",
+              "軍"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Tôi muốn một chiếc xe hơi mới.\n- 【くるま】 (xe hơi, ô tô) viết bằng chữ Kanji là 車 (Xa).\n- Các chữ Kanji gây nhiễu có nét viết tương đồng: 軍 (Quân), 庫 (Khố), 連 (Liên)."
+          },
+          {
+            "id": "m_review_11_15_3_m2_q3",
+            "question": "【カメラ】を かいたいです。",
+            "options": [
+              "カメラ",
+              "カヌラ",
+              "ガメラ",
+              "カメテ"
+            ],
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa: Tôi muốn mua máy ảnh.\n- 【カメラ】 (Máy ảnh - Camera) viết bằng Katakana chuẩn xác là カメラ.\n- Các chữ Katakana tương đồng dễ gây nhầm lẫn: ラ (ra) khác với テ (te) hay ヌ (nu)."
           }
         ]
       },
@@ -3590,51 +3590,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_11_15_3_m3_q0",
-            "question": "いま のどが 【　　　】。",
+            "question": "【　　　】から きましたか。",
             "options": [
-              "いたいです",
-              "すきました",
-              "かわきました",
-              "わるいです"
+              "いつ",
+              "だれ",
+              "dどこ",
+              "なん"
             ],
             "correctIndex": 2,
-            "explanation": "Khát nước: のどが かわきました."
+            "explanation": "Dịch nghĩa: Bạn đến từ đâu?\n- Cấu trúc hỏi nguồn gốc, quê quán: どこから きましたか (Đến từ đâu?).\n- Phân tích các đáp án khác: だれ (ai), いつ (khi nào), なん (cái gì)."
           },
           {
             "id": "m_review_11_15_3_m3_q1",
             "question": "えきまで 【　　　】で いきます。",
             "options": [
-              "ふね",
+              "しんかんせん",
               "ひこうき",
               "じてんしゃ",
-              "しんかんせん"
+              "ふね"
             ],
             "correctIndex": 2,
-            "explanation": "Đi đến nhà ga bằng xe đạp (じてんしゃ)."
+            "explanation": "Dịch nghĩa: Tôi đi đến ga bằng xe đạp.\n- Trợ từ で chỉ phương tiện. Đi đến ga tàu thông thường và hợp lý nhất là dùng じてんしゃ (xe đạp).\n- Các phương tiện khác không thực tế trong cuộc sống hàng ngày để ra ga: ひこうき (máy bay), ふね (thuyền), しんかんせん (tàu siêu tốc)."
           },
           {
             "id": "m_review_11_15_3_m3_q2",
-            "question": "【　　　】から きましたか。",
+            "question": "いま のどが 【　　　】。",
             "options": [
-              "どこ",
-              "だれ",
-              "なん",
-              "いつ"
+              "いたいです",
+              "わるいです",
+              "かわきました",
+              "すきました"
             ],
-            "correctIndex": 0,
-            "explanation": "Từ đâu đến? (どこ)."
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Bây giờ tôi đang khát nước.\n- Cụm từ cố định: のどが かわきました (khát nước, nghĩa đen là họng khô rồi).\n- Phân tích các đáp án khác: おなかが すきました (đói bụng), あたまが いたい (đau đầu)."
           },
           {
             "id": "m_review_11_15_3_m3_q3",
             "question": "りんごを みっつ 【　　　】。",
             "options": [
-              "で",
-              "を",
               "に",
-              "ください"
+              "ください",
+              "を",
+              "で"
             ],
-            "correctIndex": 3,
-            "explanation": "Cho tôi 3 quả táo: りんごを みっつ ください."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Xin vui lòng cho tôi 3 quả táo.\n- Cấu trúc yêu cầu lịch sự khi mua bán hoặc gọi món: [Danh từ] + [Số lượng] + ください (Xin cho tôi/Vui lòng lấy cho tôi...)."
           }
         ]
       },
@@ -3644,51 +3644,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_11_15_3_b1_q0",
-            "question": "わたしは にほんご（　　　） わかります。",
-            "options": [
-              "が",
-              "を",
-              "で",
-              "に"
-            ],
-            "correctIndex": 0,
-            "explanation": "Hiểu cái gì dùng trợ từ が."
-          },
-          {
-            "id": "m_review_11_15_3_b1_q1",
             "question": "きょうは （　　　） たのしかったです。",
             "options": [
               "とても",
-              "あまり",
-              "ぜんぜん",
-              "すこし"
+              "すこし",
+              "hoàn toàn không",
+              "tự nhiên/không lắm"
             ],
             "correctIndex": 0,
-            "explanation": "Khẳng định -> とても (Rất)."
+            "explanation": "Dịch nghĩa: Hôm nay đã rất vui.\n- Tính từ chia khẳng định quá khứ (たのしかった) đi kèm phó từ mức độ khẳng định là とても (rất).\n- Các đáp án khác dùng với thể phủ định: あまり...ない (không... lắm), ぜんぜん...ない (hoàn toàn không... ở phủ định)."
+          },
+          {
+            "id": "m_review_11_15_3_b1_q1",
+            "question": "ここで しゃしんを （　　　）は いけません。",
+            "options": [
+              "とり",
+              "とって",
+              "とらない",
+              "とる"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Không được phép chụp ảnh ở đây.\n- Mẫu câu cấm đoán nhẹ: Vて + は いけません (không được làm gì).\n- Động từ とります (chụp ảnh) chuyển sang thể て là とって."
           },
           {
             "id": "m_review_11_15_3_b1_q2",
-            "question": "ここで しゃしんを （　　　）は いけません。",
+            "question": "わたしは にほんご（　　　） わかります。",
             "options": [
-              "とる",
-              "とって",
-              "とり",
-              "とらない"
+              "để (dùng sai, o: で)",
+              "を",
+              "に",
+              "が"
             ],
-            "correctIndex": 1,
-            "explanation": "Cấm đoán: Vて はいけません -> とって."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Tôi hiểu tiếng Nhật.\n- Động từ わかります (hiểu, biết) là động từ trạng thái, đi kèm đối tượng của sự thấu hiểu bằng trợ từ が (không dùng trợ từ を)."
           },
           {
             "id": "m_review_11_15_3_b1_q3",
             "question": "A「ちょっと （　　　）ましょうか。」",
             "options": [
-              "やすみ",
               "やすまない",
               "やすんで",
-              "やすむ"
+              "やすむ",
+              "やすみ"
             ],
-            "correctIndex": 0,
-            "explanation": "Rủ rê -> Động từ bỏ ます + ましょうか -> やすみ."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: A: \"Chúng ta cùng nghỉ ngơi một chút nhé?\"\n- Mẫu câu đề nghị/rủ rê lịch sự: Động từ thể ます bỏ ます + ましょうか.\n- Động từ やすみます bỏ ます thành やすみ."
           }
         ]
       },
@@ -3698,27 +3698,27 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_11_15_3_b2_q0",
-            "question": "この　___ ___ _★_ ___　いいですか。",
+            "question": "わたしは　___ ___ _★_ ___　いきます。",
             "options": [
-              "つかっても",
-              "ペン",
-              "は",
-              "を"
+              "えいが",
+              "に",
+              "を",
+              "みに"
             ],
-            "correctIndex": 0,
-            "explanation": "この ペン は つかっても いいですか."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Tôi đi xem phim.\n- Phân tích trật tự từ: わたしは + えいが (1) + を (3) + みに (4) + に (2) + いきます.\n- Cấu trúc chỉ mục đích di chuyển: [Danh từ] + を + [Động từ thể ます bỏ ます] + に + いきます.\n- Vị trí dấu sao nằm ở từ thứ 3 trong cụm sắp xếp, tương ứng với động từ chỉ mục đích みに (4)."
           },
           {
             "id": "m_review_11_15_3_b2_q1",
-            "question": "わたしは　___ ___ _★_ ___　いきます。",
+            "question": "この　___ ___ _★_ ___　いいですか。",
             "options": [
-              "に",
+              "つかっても",
               "を",
-              "みに",
-              "えいが"
+              "は",
+              "ペン"
             ],
-            "correctIndex": 2,
-            "explanation": "わたしは えいが を みに いきます."
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa: Tôi dùng chiếc bút này có được không?\n- Phân tích trật tự từ: この + ペン (2) + は (4) + つかっても (3) + いいですか.\n- Cấu trúc xin phép lịch sự: Vて + も いいですか (làm gì có được không?).\n- Vị trí dấu sao nằm ở từ thứ 3 trong cụm sắp xếp, tương ứng với động từ つかっても (3)."
           }
         ]
       },
@@ -3742,19 +3742,19 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "で"
             ],
             "correctIndex": 1,
-            "explanation": "Sống ở đâu dùng trợ từ に."
+            "explanation": "Dịch nghĩa đoạn: \"Gia đình tôi có 4 người. Anh trai tôi là sinh viên. Hiện tại anh đang sống ở Tokyo.\"\n- Trợ từ đi với động từ chỉ sự cư trú すんでいます (sống tại) bắt buộc phải dùng trợ từ に."
           },
           {
             "id": "m_review_11_15_3_d1_q1",
             "question": "（　２　）に入れるものはどれですか。",
             "options": [
               "いく",
+              "いき",
               "いって",
-              "いきたい",
-              "いき"
+              "いきたい"
             ],
-            "correctIndex": 3,
-            "explanation": "Vます bỏ ます + たい -> いき."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa đoạn: \"Tôi là học sinh cấp 3. Sang năm tôi muốn đỗ/đi học đại học.\"\n- Cấu trúc mong muốn: Vます bỏ ます + たい (muốn làm gì). Động từ いきます (đi) bỏ ます thành いき đi với đuôi たい -> いき (đáp án 1)."
           }
         ]
       }
@@ -3771,51 +3771,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_11_15_4_m1_q0",
-            "question": "【外国】へ いきました。",
+            "question": "【一日】に ３かい くすりを のみます。",
             "options": [
-              "がいこく",
-              "がいごく",
-              "かいごく",
-              "かいこく"
+              "いちにち",
+              "いつか",
+              "いっか",
+              "ついたち"
             ],
             "correctIndex": 0,
-            "explanation": "外国 đọc là がいこく (Nước ngoài)."
+            "explanation": "Dịch nghĩa: Một ngày tôi uống thuốc 3 lần.\n- 【一日】 biểu thị thời lượng \"một ngày\" đọc là いちにち (ichinichi).\n- Phân tích các đáp án khác: ついたち (tsuitachi: ngày mùng 1 đầu tháng, chỉ mốc thời gian chứ không chỉ thời lượng), いつか (itsuka: ngày mùng 5/năm ngày)."
           },
           {
             "id": "m_review_11_15_4_m1_q1",
-            "question": "ここは 【有名】な まちです。",
+            "question": "【切手】を かいました。",
             "options": [
-              "ゆめい",
-              "ゆうめい",
-              "ゆめ",
-              "ゆうめ"
+              "きっぷ",
+              "きって",
+              "きくて",
+              "きっぶ"
             ],
             "correctIndex": 1,
-            "explanation": "有名 đọc là ゆうめい (Nổi tiếng)."
+            "explanation": "Dịch nghĩa: Tôi đã mua tem.\n- Chữ Hán 【切手】 (Thiết Thủ) có cách đọc là きって (kitte) nghĩa là tem thư.\n- Chú ý phân biệt với きっぷ (kippu: vé tàu xe, chữ Hán là 切符)."
           },
           {
             "id": "m_review_11_15_4_m1_q2",
-            "question": "【切手】を かいました。",
+            "question": "ngõ/nơi/ở đây là 【有名】な まちです。",
             "options": [
-              "きっぶ",
-              "きって",
-              "きっぷ",
-              "きくて"
+              "ゆうめ",
+              "ゆめ",
+              "ゆめい",
+              "ゆうめい"
             ],
-            "correctIndex": 1,
-            "explanation": "切手 đọc là きって (Tem)."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Đây là một thành phố nổi tiếng.\n- Chữ Hán 【有名】 (Hữu Danh) có cách đọc tương ứng là ゆうめい (yuumei) nghĩa là nổi tiếng.\n- Chú ý từ này có hai trường âm: ゆう (yuu) và めい (mei)."
           },
           {
             "id": "m_review_11_15_4_m1_q3",
-            "question": "【一日】に ３かい くすりを のみます。",
+            "question": "【外国】へ いきました。",
             "options": [
-              "いつか",
-              "ついたち",
-              "いちにち",
-              "いっか"
+              "かいごく",
+              "がいごく",
+              "かいこく",
+              "がいこk"
             ],
-            "correctIndex": 2,
-            "explanation": "一日 trong khoảng thời gian đọc là いちにち."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Tôi đã đi nước ngoài.\n- Chữ Hán 【外国】 (Ngoại Quốc) có cách đọc Hiragana tương ứng là がいこく (gaikoku).\n- Chú ý âm đục của từ: \"gai\" và \"ko\", không biến âm thành \"go\" hay \"kai\"."
           }
         ]
       },
@@ -3825,51 +3825,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_11_15_4_m2_q0",
-            "question": "【スーパー】で くだものを かいます。",
-            "options": [
-              "スーパー",
-              "ズーパー",
-              "スーバー",
-              "ズーバー"
-            ],
-            "correctIndex": 0,
-            "explanation": "Supermarket viết là スーパー."
-          },
-          {
-            "id": "m_review_11_15_4_m2_q1",
-            "question": "【デパート】へ いきます。",
-            "options": [
-              "テパート",
-              "デバート",
-              "テバート",
-              "デパート"
-            ],
-            "correctIndex": 3,
-            "explanation": "Department store viết là デパート."
-          },
-          {
-            "id": "m_review_11_15_4_m2_q2",
-            "question": "あたらし 【くるま】が ほしいです。",
-            "options": [
-              "軍",
-              "庫",
-              "連",
-              "車"
-            ],
-            "correctIndex": 3,
-            "explanation": "Xe ô tô viết là 車."
-          },
-          {
-            "id": "m_review_11_15_4_m2_q3",
             "question": "【カメラ】を かいたいです。",
             "options": [
               "ガメラ",
+              "カメラ",
               "カメテ",
-              "カヌラ",
-              "カメラ"
+              "カヌラ"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Tôi muốn mua máy ảnh.\n- 【カメラ】 (Máy ảnh - Camera) viết bằng Katakana chuẩn xác là カメラ.\n- Các chữ Katakana tương đồng dễ gây nhầm lẫn: ラ (ra) khác với テ (te) hay ヌ (nu)."
+          },
+          {
+            "id": "m_review_11_15_4_m2_q1",
+            "question": "あたらし 【くるま】が ほしいです。",
+            "options": [
+              "庫",
+              "車",
+              "軍",
+              "連"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Tôi muốn một chiếc xe hơi mới.\n- 【くるま】 (xe hơi, ô tô) viết bằng chữ Kanji là 車 (Xa).\n- Các chữ Kanji gây nhiễu có nét viết tương đồng: 軍 (Quân), 庫 (Khố), 連 (Liên)."
+          },
+          {
+            "id": "m_review_11_15_4_m2_q2",
+            "question": "【デパート】へ いきます。",
+            "options": [
+              "テバート",
+              "テパート",
+              "デバート",
+              "デパート"
             ],
             "correctIndex": 3,
-            "explanation": "Camera viết là カメラ."
+            "explanation": "Dịch nghĩa: Tôi đi đến bách hóa.\n- 【デパート】 (Cửa hàng bách hóa) viết bằng Katakana chuẩn xác là デパート.\n- Chú ý âm đục của chữ デ (de) và âm thường của chữ パ (pa - có maru)."
+          },
+          {
+            "id": "m_review_11_15_4_m2_q3",
+            "question": "【スーパー】で くだものを かいます。",
+            "options": [
+              "スーバー",
+              "ズーパー",
+              "ズーバー",
+              "スーパー"
+            ],
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Tôi mua trái cây ở siêu thị.\n- 【スーパー】 (Siêu thị - Supermarket) viết Katakana chuẩn xác là スーパー có trường âm kéo dài."
           }
         ]
       },
@@ -3881,49 +3881,49 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_11_15_4_m3_q0",
             "question": "【　　　】から きましたか。",
             "options": [
-              "どこ",
-              "いつ",
+              "dどこ",
+              "なん",
               "だれ",
-              "なん"
+              "いつ"
             ],
             "correctIndex": 0,
-            "explanation": "Từ đâu đến? (どこ)."
+            "explanation": "Dịch nghĩa: Bạn đến từ đâu?\n- Cấu trúc hỏi nguồn gốc, quê quán: どこから きましたか (Đến từ đâu?).\n- Phân tích các đáp án khác: だれ (ai), いつ (khi nào), なん (cái gì)."
           },
           {
             "id": "m_review_11_15_4_m3_q1",
-            "question": "りんごを みっつ 【　　　】。",
+            "question": "えきまで 【　　　】で いきます。",
             "options": [
-              "ください",
-              "に",
-              "で",
-              "を"
+              "ひこうき",
+              "じてんしゃ",
+              "ふね",
+              "しんかんせん"
             ],
-            "correctIndex": 0,
-            "explanation": "Cho tôi 3 quả táo: りんごを みっつ ください."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Tôi đi đến ga bằng xe đạp.\n- Trợ từ で chỉ phương tiện. Đi đến ga tàu thông thường và hợp lý nhất là dùng じてんしゃ (xe đạp).\n- Các phương tiện khác không thực tế trong cuộc sống hàng ngày để ra ga: ひこうき (máy bay), ふね (thuyền), しんかんせん (tàu siêu tốc)."
           },
           {
             "id": "m_review_11_15_4_m3_q2",
             "question": "いま のどが 【　　　】。",
             "options": [
-              "いたいです",
               "すきました",
+              "かわきました",
               "わるいです",
-              "かわきました"
+              "いたいです"
             ],
-            "correctIndex": 3,
-            "explanation": "Khát nước: のどが かわきました."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Bây giờ tôi đang khát nước.\n- Cụm từ cố định: のどが かわきました (khát nước, nghĩa đen là họng khô rồi).\n- Phân tích các đáp án khác: おなかが すきました (đói bụng), あたまが いたい (đau đầu)."
           },
           {
             "id": "m_review_11_15_4_m3_q3",
-            "question": "えきまで 【　　　】で いきます。",
+            "question": "りんごを みっつ 【　　　】。",
             "options": [
-              "しんかんせん",
-              "ふね",
-              "じてんしゃ",
-              "ひこうき"
+              "を",
+              "に",
+              "ください",
+              "で"
             ],
             "correctIndex": 2,
-            "explanation": "Đi đến nhà ga bằng xe đạp (じてんしゃ)."
+            "explanation": "Dịch nghĩa: Xin vui lòng cho tôi 3 quả táo.\n- Cấu trúc yêu cầu lịch sự khi mua bán hoặc gọi món: [Danh từ] + [Số lượng] + ください (Xin cho tôi/Vui lòng lấy cho tôi...)."
           }
         ]
       },
@@ -3933,51 +3933,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_11_15_4_b1_q0",
-            "question": "わたしは にほんご（　　　） わかります。",
+            "question": "きょうは （　　　） たのしかったです。",
             "options": [
-              "で",
-              "が",
-              "に",
-              "を"
+              "hoàn toàn không",
+              "tự nhiên/không lắm",
+              "とても",
+              "すこし"
             ],
-            "correctIndex": 1,
-            "explanation": "Hiểu cái gì dùng trợ từ が."
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Hôm nay đã rất vui.\n- Tính từ chia khẳng định quá khứ (たのしかった) đi kèm phó từ mức độ khẳng định là とても (rất).\n- Các đáp án khác dùng với thể phủ định: あまり...ない (không... lắm), ぜんぜん...ない (hoàn toàn không... ở phủ định)."
           },
           {
             "id": "m_review_11_15_4_b1_q1",
-            "question": "きょうは （　　　） たのしかったです。",
+            "question": "ここで しゃしんを （　　　）は いけません。",
             "options": [
-              "とても",
-              "ぜんぜん",
-              "すこし",
-              "あまり"
+              "とる",
+              "とり",
+              "とらない",
+              "とって"
             ],
-            "correctIndex": 0,
-            "explanation": "Khẳng định -> とても (Rất)."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Không được phép chụp ảnh ở đây.\n- Mẫu câu cấm đoán nhẹ: Vて + は いけません (không được làm gì).\n- Động từ とります (chụp ảnh) chuyển sang thể て là とって."
           },
           {
             "id": "m_review_11_15_4_b1_q2",
-            "question": "ここで しゃしんを （　　　）は いけません。",
+            "question": "わたしは にほんご（　　　） わかります。",
             "options": [
-              "とり",
-              "とる",
-              "とって",
-              "とらない"
+              "để (dùng sai, o: で)",
+              "が",
+              "を",
+              "に"
             ],
-            "correctIndex": 2,
-            "explanation": "Cấm đoán: Vて はいけません -> とって."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Tôi hiểu tiếng Nhật.\n- Động từ わかります (hiểu, biết) là động từ trạng thái, đi kèm đối tượng của sự thấu hiểu bằng trợ từ が (không dùng trợ từ を)."
           },
           {
             "id": "m_review_11_15_4_b1_q3",
             "question": "A「ちょっと （　　　）ましょうか。」",
             "options": [
-              "やすむ",
+              "やすまない",
               "やすみ",
               "やすんで",
-              "やすまない"
+              "やすむ"
             ],
             "correctIndex": 1,
-            "explanation": "Rủ rê -> Động từ bỏ ます + ましょうか -> やすみ."
+            "explanation": "Dịch nghĩa: A: \"Chúng ta cùng nghỉ ngơi một chút nhé?\"\n- Mẫu câu đề nghị/rủ rê lịch sự: Động từ thể ます bỏ ます + ましょうか.\n- Động từ やすみます bỏ ます thành やすみ."
           }
         ]
       },
@@ -3990,24 +3990,24 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "question": "わたしは　___ ___ _★_ ___　いきます。",
             "options": [
               "に",
+              "えいが",
               "を",
-              "みに",
-              "えいが"
+              "みに"
             ],
-            "correctIndex": 2,
-            "explanation": "わたしは えいが を みに いきます."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Tôi đi xem phim.\n- Phân tích trật tự từ: わたしは + えいが (1) + を (3) + みに (4) + に (2) + いきます.\n- Cấu trúc chỉ mục đích di chuyển: [Danh từ] + を + [Động từ thể ます bỏ ます] + に + いきます.\n- Vị trí dấu sao nằm ở từ thứ 3 trong cụm sắp xếp, tương ứng với động từ chỉ mục đích みに (4)."
           },
           {
             "id": "m_review_11_15_4_b2_q1",
             "question": "この　___ ___ _★_ ___　いいですか。",
             "options": [
-              "つかっても",
+              "を",
               "ペン",
               "は",
-              "を"
+              "つかっても"
             ],
-            "correctIndex": 0,
-            "explanation": "この ペン は つかっても いいですか."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Tôi dùng chiếc bút này có được không?\n- Phân tích trật tự từ: この + ペン (2) + は (4) + つかっても (3) + いいですか.\n- Cấu trúc xin phép lịch sự: Vて + も いいですか (làm gì có được không?).\n- Vị trí dấu sao nằm ở từ thứ 3 trong cụm sắp xếp, tương ứng với động từ つかっても (3)."
           }
         ]
       },
@@ -4025,25 +4025,25 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_11_15_4_d1_q0",
             "question": "（　１　）に入れるものはどれですか。",
             "options": [
+              "に",
               "を",
               "へ",
-              "で",
-              "に"
+              "で"
             ],
-            "correctIndex": 3,
-            "explanation": "Sống ở đâu dùng trợ từ に."
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa đoạn: \"Gia đình tôi có 4 người. Anh trai tôi là sinh viên. Hiện tại anh đang sống ở Tokyo.\"\n- Trợ từ đi với động từ chỉ sự cư trú すんでいます (sống tại) bắt buộc phải dùng trợ từ に."
           },
           {
             "id": "m_review_11_15_4_d1_q1",
             "question": "（　２　）に入れるものはどれですか。",
             "options": [
               "いき",
-              "いって",
               "いく",
+              "いって",
               "いきたい"
             ],
             "correctIndex": 0,
-            "explanation": "Vます bỏ ます + たい -> いき."
+            "explanation": "Dịch nghĩa đoạn: \"Tôi là học sinh cấp 3. Sang năm tôi muốn đỗ/đi học đại học.\"\n- Cấu trúc mong muốn: Vます bỏ ます + たい (muốn làm gì). Động từ いきます (đi) bỏ ます thành いき đi với đuôi たい -> いき (đáp án 1)."
           }
         ]
       }
@@ -4060,51 +4060,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_11_15_5_m1_q0",
-            "question": "【一日】に ３かい くすりを のみます。",
-            "options": [
-              "いちにち",
-              "ついたち",
-              "いつか",
-              "いっか"
-            ],
-            "correctIndex": 0,
-            "explanation": "一日 trong khoảng thời gian đọc là いちにち."
-          },
-          {
-            "id": "m_review_11_15_5_m1_q1",
-            "question": "【切手】を かいました。",
-            "options": [
-              "きって",
-              "きっぶ",
-              "きくて",
-              "きっぷ"
-            ],
-            "correctIndex": 0,
-            "explanation": "切手 đọc là きって (Tem)."
-          },
-          {
-            "id": "m_review_11_15_5_m1_q2",
-            "question": "ここは 【有名】な まちです。",
-            "options": [
-              "ゆうめい",
-              "ゆうめ",
-              "ゆめい",
-              "ゆめ"
-            ],
-            "correctIndex": 0,
-            "explanation": "有名 đọc là ゆうめい (Nổi tiếng)."
-          },
-          {
-            "id": "m_review_11_15_5_m1_q3",
             "question": "【外国】へ いきました。",
             "options": [
-              "がいこく",
+              "がいこk",
               "かいごく",
               "かいこく",
               "がいごく"
             ],
             "correctIndex": 0,
-            "explanation": "外国 đọc là がいこく (Nước ngoài)."
+            "explanation": "Dịch nghĩa: Tôi đã đi nước ngoài.\n- Chữ Hán 【外国】 (Ngoại Quốc) có cách đọc Hiragana tương ứng là がいこく (gaikoku).\n- Chú ý âm đục của từ: \"gai\" và \"ko\", không biến âm thành \"go\" hay \"kai\"."
+          },
+          {
+            "id": "m_review_11_15_5_m1_q1",
+            "question": "ngõ/nơi/ở đây là 【有名】な まちです。",
+            "options": [
+              "ゆうめ",
+              "ゆめ",
+              "ゆうめい",
+              "ゆめい"
+            ],
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Đây là một thành phố nổi tiếng.\n- Chữ Hán 【有名】 (Hữu Danh) có cách đọc tương ứng là ゆうめい (yuumei) nghĩa là nổi tiếng.\n- Chú ý từ này có hai trường âm: ゆう (yuu) và めい (mei)."
+          },
+          {
+            "id": "m_review_11_15_5_m1_q2",
+            "question": "【切手】を かいました。",
+            "options": [
+              "きって",
+              "きっぷ",
+              "きくて",
+              "きっぶ"
+            ],
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa: Tôi đã mua tem.\n- Chữ Hán 【切手】 (Thiết Thủ) có cách đọc là きって (kitte) nghĩa là tem thư.\n- Chú ý phân biệt với きっぷ (kippu: vé tàu xe, chữ Hán là 切符)."
+          },
+          {
+            "id": "m_review_11_15_5_m1_q3",
+            "question": "【一日】に ３かい くすりを のみます。",
+            "options": [
+              "いつか",
+              "ついたち",
+              "いちにち",
+              "いっか"
+            ],
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Một ngày tôi uống thuốc 3 lần.\n- 【一日】 biểu thị thời lượng \"một ngày\" đọc là いちにち (ichinichi).\n- Phân tích các đáp án khác: ついたち (tsuitachi: ngày mùng 1 đầu tháng, chỉ mốc thời gian chứ không chỉ thời lượng), いつか (itsuka: ngày mùng 5/năm ngày)."
           }
         ]
       },
@@ -4116,49 +4116,49 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_11_15_5_m2_q0",
             "question": "【カメラ】を かいたいです。",
             "options": [
-              "カヌラ",
               "カメラ",
-              "カメテ",
-              "ガメラ"
+              "ガメラ",
+              "カヌラ",
+              "カメテ"
             ],
-            "correctIndex": 1,
-            "explanation": "Camera viết là カメラ."
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa: Tôi muốn mua máy ảnh.\n- 【カメラ】 (Máy ảnh - Camera) viết bằng Katakana chuẩn xác là カメラ.\n- Các chữ Katakana tương đồng dễ gây nhầm lẫn: ラ (ra) khác với テ (te) hay ヌ (nu)."
           },
           {
             "id": "m_review_11_15_5_m2_q1",
-            "question": "あたらし 【くるま】が ほしいです。",
+            "question": "【スーパー】で くだものを かいます。",
             "options": [
-              "軍",
-              "車",
-              "庫",
-              "連"
+              "ズーバー",
+              "スーバー",
+              "スーパー",
+              "ズーパー"
             ],
-            "correctIndex": 1,
-            "explanation": "Xe ô tô viết là 車."
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Tôi mua trái cây ở siêu thị.\n- 【スーパー】 (Siêu thị - Supermarket) viết Katakana chuẩn xác là スーパー có trường âm kéo dài."
           },
           {
             "id": "m_review_11_15_5_m2_q2",
-            "question": "【デパート】へ いきます。",
+            "question": "あたらし 【くるま】が ほしいです。",
             "options": [
-              "テバート",
-              "テパート",
-              "デバート",
-              "デパート"
+              "連",
+              "軍",
+              "車",
+              "庫"
             ],
-            "correctIndex": 3,
-            "explanation": "Department store viết là デパート."
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Tôi muốn một chiếc xe hơi mới.\n- 【くるま】 (xe hơi, ô tô) viết bằng chữ Kanji là 車 (Xa).\n- Các chữ Kanji gây nhiễu có nét viết tương đồng: 軍 (Quân), 庫 (Khố), 連 (Liên)."
           },
           {
             "id": "m_review_11_15_5_m2_q3",
-            "question": "【スーパー】で くだものを かいます。",
+            "question": "【デパート】へ いきます。",
             "options": [
-              "ズーパー",
-              "スーパー",
-              "スーバー",
-              "ズーバー"
+              "デバート",
+              "デパート",
+              "テバート",
+              "テパート"
             ],
             "correctIndex": 1,
-            "explanation": "Supermarket viết là スーパー."
+            "explanation": "Dịch nghĩa: Tôi đi đến bách hóa.\n- 【デパート】 (Cửa hàng bách hóa) viết bằng Katakana chuẩn xác là デパート.\n- Chú ý âm đục của chữ デ (de) và âm thường của chữ パ (pa - có maru)."
           }
         ]
       },
@@ -4168,51 +4168,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_11_15_5_m3_q0",
-            "question": "【　　　】から きましたか。",
+            "question": "えきまで 【　　　】で いきます。",
             "options": [
-              "どこ",
-              "だれ",
-              "いつ",
-              "なん"
+              "ひこうき",
+              "じてんしゃ",
+              "ふね",
+              "しんかんせん"
             ],
-            "correctIndex": 0,
-            "explanation": "Từ đâu đến? (どこ)."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Tôi đi đến ga bằng xe đạp.\n- Trợ từ で chỉ phương tiện. Đi đến ga tàu thông thường và hợp lý nhất là dùng じてんしゃ (xe đạp).\n- Các phương tiện khác không thực tế trong cuộc sống hàng ngày để ra ga: ひこうき (máy bay), ふね (thuyền), しんかんせん (tàu siêu tốc)."
           },
           {
             "id": "m_review_11_15_5_m3_q1",
-            "question": "えきまで 【　　　】で いきます。",
+            "question": "【　　　】から きましたか。",
             "options": [
-              "しんかんせん",
-              "じてんしゃ",
-              "ひこうき",
-              "ふね"
+              "dどこ",
+              "なん",
+              "いつ",
+              "だれ"
             ],
-            "correctIndex": 1,
-            "explanation": "Đi đến nhà ga bằng xe đạp (じてんしゃ)."
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa: Bạn đến từ đâu?\n- Cấu trúc hỏi nguồn gốc, quê quán: どこから きましたか (Đến từ đâu?).\n- Phân tích các đáp án khác: だれ (ai), いつ (khi nào), なん (cái gì)."
           },
           {
             "id": "m_review_11_15_5_m3_q2",
             "question": "いま のどが 【　　　】。",
             "options": [
-              "わるいです",
+              "すきました",
               "いたいです",
-              "かわきました",
-              "すきました"
+              "わるいです",
+              "かわきました"
             ],
-            "correctIndex": 2,
-            "explanation": "Khát nước: のどが かわきました."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Bây giờ tôi đang khát nước.\n- Cụm từ cố định: のどが かわきました (khát nước, nghĩa đen là họng khô rồi).\n- Phân tích các đáp án khác: おなかが すきました (đói bụng), あたまが いたい (đau đầu)."
           },
           {
             "id": "m_review_11_15_5_m3_q3",
             "question": "りんごを みっつ 【　　　】。",
             "options": [
               "に",
-              "ください",
               "で",
-              "を"
+              "を",
+              "ください"
             ],
-            "correctIndex": 1,
-            "explanation": "Cho tôi 3 quả táo: りんごを みっつ ください."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Xin vui lòng cho tôi 3 quả táo.\n- Cấu trúc yêu cầu lịch sự khi mua bán hoặc gọi món: [Danh từ] + [Số lượng] + ください (Xin cho tôi/Vui lòng lấy cho tôi...)."
           }
         ]
       },
@@ -4222,51 +4222,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_11_15_5_b1_q0",
-            "question": "きょうは （　　　） たのしかったです。",
+            "question": "わたしは にほんご（　　　） わかります。",
             "options": [
-              "とても",
-              "すこし",
-              "ぜんぜん",
-              "あまり"
+              "に",
+              "を",
+              "để (dùng sai, o: で)",
+              "が"
             ],
-            "correctIndex": 0,
-            "explanation": "Khẳng định -> とても (Rất)."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Tôi hiểu tiếng Nhật.\n- Động từ わかります (hiểu, biết) là động từ trạng thái, đi kèm đối tượng của sự thấu hiểu bằng trợ từ が (không dùng trợ từ を)."
           },
           {
             "id": "m_review_11_15_5_b1_q1",
-            "question": "わたしは にほんご（　　　） わかります。",
+            "question": "きょうは （　　　） たのしかったです。",
             "options": [
-              "で",
-              "が",
-              "を",
-              "に"
+              "hoàn toàn không",
+              "とても",
+              "すこし",
+              "tự nhiên/không lắm"
             ],
             "correctIndex": 1,
-            "explanation": "Hiểu cái gì dùng trợ từ が."
+            "explanation": "Dịch nghĩa: Hôm nay đã rất vui.\n- Tính từ chia khẳng định quá khứ (たのしかった) đi kèm phó từ mức độ khẳng định là とても (rất).\n- Các đáp án khác dùng với thể phủ định: あまり...ない (không... lắm), ぜんぜん...ない (hoàn toàn không... ở phủ định)."
           },
           {
             "id": "m_review_11_15_5_b1_q2",
-            "question": "A「ちょっと （　　　）ましょうか。」",
+            "question": "ここで しゃしんを （　　　）は いけません。",
             "options": [
-              "やすまない",
-              "やすみ",
-              "やすむ",
-              "やすんで"
+              "とらない",
+              "とる",
+              "とり",
+              "とって"
             ],
-            "correctIndex": 1,
-            "explanation": "Rủ rê -> Động từ bỏ ます + ましょうか -> やすみ."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Không được phép chụp ảnh ở đây.\n- Mẫu câu cấm đoán nhẹ: Vて + は いけません (không được làm gì).\n- Động từ とります (chụp ảnh) chuyển sang thể て là とって."
           },
           {
             "id": "m_review_11_15_5_b1_q3",
-            "question": "ここで しゃしんを （　　　）は いけません。",
+            "question": "A「ちょっと （　　　）ましょうか。」",
             "options": [
-              "とって",
-              "とる",
-              "とり",
-              "とらない"
+              "やすみ",
+              "やすむ",
+              "やすんで",
+              "やすまない"
             ],
             "correctIndex": 0,
-            "explanation": "Cấm đoán: Vて はいけません -> とって."
+            "explanation": "Dịch nghĩa: A: \"Chúng ta cùng nghỉ ngơi một chút nhé?\"\n- Mẫu câu đề nghị/rủ rê lịch sự: Động từ thể ます bỏ ます + ましょうか.\n- Động từ やすみます bỏ ます thành やすみ."
           }
         ]
       },
@@ -4276,27 +4276,27 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_11_15_5_b2_q0",
-            "question": "この　___ ___ _★_ ___　いいですか。",
-            "options": [
-              "は",
-              "を",
-              "つかっても",
-              "ペン"
-            ],
-            "correctIndex": 2,
-            "explanation": "この ペン は つかっても いいですか."
-          },
-          {
-            "id": "m_review_11_15_5_b2_q1",
             "question": "わたしは　___ ___ _★_ ___　いきます。",
             "options": [
               "みに",
-              "を",
+              "に",
               "えいが",
-              "に"
+              "を"
             ],
             "correctIndex": 0,
-            "explanation": "わたしは えいが を みに いきます."
+            "explanation": "Dịch nghĩa: Tôi đi xem phim.\n- Phân tích trật tự từ: わたしは + えいが (1) + を (3) + みに (4) + に (2) + いきます.\n- Cấu trúc chỉ mục đích di chuyển: [Danh từ] + を + [Động từ thể ます bỏ ます] + に + いきます.\n- Vị trí dấu sao nằm ở từ thứ 3 trong cụm sắp xếp, tương ứng với động từ chỉ mục đích みに (4)."
+          },
+          {
+            "id": "m_review_11_15_5_b2_q1",
+            "question": "この　___ ___ _★_ ___　いいですか。",
+            "options": [
+              "を",
+              "は",
+              "ペン",
+              "つかっても"
+            ],
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Tôi dùng chiếc bút này có được không?\n- Phân tích trật tự từ: この + ペン (2) + は (4) + つかっても (3) + いいですか.\n- Cấu trúc xin phép lịch sự: Vて + も いいですか (làm gì có được không?).\n- Vị trí dấu sao nằm ở từ thứ 3 trong cụm sắp xếp, tương ứng với động từ つかっても (3)."
           }
         ]
       },
@@ -4315,12 +4315,12 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "question": "（　１　）に入れるものはどれですか。",
             "options": [
               "に",
-              "へ",
               "で",
+              "へ",
               "を"
             ],
             "correctIndex": 0,
-            "explanation": "Sống ở đâu dùng trợ từ に."
+            "explanation": "Dịch nghĩa đoạn: \"Gia đình tôi có 4 người. Anh trai tôi là sinh viên. Hiện tại anh đang sống ở Tokyo.\"\n- Trợ từ đi với động từ chỉ sự cư trú すんでいます (sống tại) bắt buộc phải dùng trợ từ に."
           },
           {
             "id": "m_review_11_15_5_d1_q1",
@@ -4332,7 +4332,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "いき"
             ],
             "correctIndex": 3,
-            "explanation": "Vます bỏ ます + たい -> いき."
+            "explanation": "Dịch nghĩa đoạn: \"Tôi là học sinh cấp 3. Sang năm tôi muốn đỗ/đi học đại học.\"\n- Cấu trúc mong muốn: Vます bỏ ます + たい (muốn làm gì). Động từ いきます (đi) bỏ ます thành いき đi với đuôi たい -> いき (đáp án 1)."
           }
         ]
       }
@@ -4351,49 +4351,49 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_16_20_1_m1_q0",
             "question": "えいがを 【見】ます。",
             "options": [
-              "し",
-              "よ",
               "き",
+              "よ",
+              "し",
               "み"
             ],
             "correctIndex": 3,
-            "explanation": "見 đọc là み."
+            "explanation": "Dịch nghĩa: Tôi xem phim.\n- Chữ Hán 【見】 (Kiến) có cách đọc trong động từ 見ます (xem, nhìn) là み (mimasu)."
           },
           {
             "id": "m_review_16_20_1_m1_q1",
-            "question": "【午前】 ６時に おきます。",
-            "options": [
-              "ごご",
-              "こうぜん",
-              "ごせん",
-              "ごぜん"
-            ],
-            "correctIndex": 3,
-            "explanation": "午前 đọc là ごぜん (Buổi sáng)."
-          },
-          {
-            "id": "m_review_16_20_1_m1_q2",
             "question": "あした 【雨】が ふります。",
             "options": [
               "くも",
-              "あめ",
+              "はれ",
               "ゆき",
-              "はれ"
+              "あめ"
             ],
-            "correctIndex": 1,
-            "explanation": "雨 đọc là あめ (Mưa)."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Ngày mai trời sẽ mưa.\n- Chữ Hán 【雨】 (Vũ) đọc là あめ (ame) nghĩa là mưa.\n- Phân tích các đáp án khác: ゆき (tuyết), はれ (nắng ráo), くも (mây)."
+          },
+          {
+            "id": "m_review_16_20_1_m1_q2",
+            "question": "【午後】の じゅぎょうは ありません。",
+            "options": [
+              "ko-go",
+              "go-ko",
+              "ごご",
+              "ごぜん"
+            ],
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Không có giờ học buổi chiều.\n- Chữ Hán 【午後】 (Ngọ Hậu) đọc tương ứng là ごご (gogo) nghĩa là buổi chiều (PM).\n- Phân tích đáp án khác: ごぜん (gozen: buổi sáng - AM)."
           },
           {
             "id": "m_review_16_20_1_m1_q3",
-            "question": "【午後】の じゅぎょうは ありません。",
+            "question": "【午前】 ６시에 おきます。",
             "options": [
               "ごご",
-              "ごこう",
-              "こうご",
-              "ごぜん"
+              "ごぜん",
+              "go-sen",
+              "khác/sai"
             ],
-            "correctIndex": 0,
-            "explanation": "午後 đọc là ごご (Buổi chiều)."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Tôi thức dậy lúc 6 giờ sáng.\n- Chữ Hán 【午前】 (Ngọ Tiền) đọc là ごぜん (gozen) nghĩa là buổi sáng (AM)."
           }
         ]
       },
@@ -4405,49 +4405,49 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_16_20_1_m2_q0",
             "question": "【よる】ねます。",
             "options": [
-              "昼",
-              "夜",
               "朝",
-              "夕"
+              "夕",
+              "夜",
+              "昼"
             ],
-            "correctIndex": 1,
-            "explanation": "よる (Buổi tối) viết là 夜."
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Tôi đi ngủ vào buổi tối.\n- 【よる】 (buổi tối/đêm) viết bằng chữ Kanji là 夜 (Dạ)."
           },
           {
             "id": "m_review_16_20_1_m2_q1",
-            "question": "【みぎ】へ まがります。",
-            "options": [
-              "右",
-              "前",
-              "後",
-              "左"
-            ],
-            "correctIndex": 0,
-            "explanation": "みぎ (Bên phải) viết là 右."
-          },
-          {
-            "id": "m_review_16_20_1_m2_q2",
             "question": "【しゃしん】を とります。",
             "options": [
               "真字",
               "写真",
-              "字真",
+              "khác/sai",
               "真写"
             ],
             "correctIndex": 1,
-            "explanation": "しゃしん viết là 写真."
+            "explanation": "Dịch nghĩa: Tôi chụp ảnh.\n- 【しゃしん】 (bức ảnh) viết bằng chữ Kanji là 写真 (Tả Chân)."
+          },
+          {
+            "id": "m_review_16_20_1_m2_q2",
+            "question": "【ひる】ごはんを たべます。",
+            "options": [
+              "晩",
+              "昼",
+              "夜",
+              "朝"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Tôi ăn cơm trưa.\n- 【ひる】 (buổi trưa) viết bằng chữ Kanji là 昼 (Trú).\n- Phân tích các đáp án khác: 朝 (buổi sáng), 夜 (buổi tối), 晩 (buổi tối)."
           },
           {
             "id": "m_review_16_20_1_m2_q3",
-            "question": "【ひる】ごはんを たべます。",
+            "question": "【みぎ】へ まがります。",
             "options": [
-              "朝",
-              "晩",
-              "昼",
-              "夜"
+              "後",
+              "左",
+              "右",
+              "前"
             ],
             "correctIndex": 2,
-            "explanation": "ひる (Buổi trưa) viết là 昼."
+            "explanation": "Dịch nghĩa: Rẽ sang bên phải.\n- 【みぎ】 (bên phải) viết bằng chữ Kanji là 右 (Hữu).\n- Phân tích các chữ khác: 左 (Tả - bên trái), 前 (Tiền - phía trước), 後 (Hậu - phía sau)."
           }
         ]
       },
@@ -4457,51 +4457,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_16_20_1_m3_q0",
-            "question": "かぜを ひきましたから、くすりを 【　　　】。",
-            "options": [
-              "のみます",
-              "きます",
-              "たべます",
-              "します"
-            ],
-            "correctIndex": 0,
-            "explanation": "Uống thuốc: くすりを のみます."
-          },
-          {
-            "id": "m_review_16_20_1_m3_q1",
-            "question": "あしたは 【　　　】から、どこも いきません。",
-            "options": [
-              "くも",
-              "ゆき",
-              "はれ",
-              "あめ"
-            ],
-            "correctIndex": 3,
-            "explanation": "Trời mưa nên không đi đâu cả (あめ)."
-          },
-          {
-            "id": "m_review_16_20_1_m3_q2",
-            "question": "パスポートを 【　　　】。",
-            "options": [
-              "みせないで ください",
-              "みせても いいです",
-              "みせなくちゃ いいです",
-              "みせなければ なりません"
-            ],
-            "correctIndex": 3,
-            "explanation": "Phải cho xem hộ chiếu: みせなければ なりません."
-          },
-          {
-            "id": "m_review_16_20_1_m3_q3",
             "question": "ここに くるまを 【　　　】。",
             "options": [
               "とめないで ください",
+              "とめて ください",
               "とまらないで ください",
-              "とまる ください",
-              "とめて ください"
+              "とまる ください"
             ],
             "correctIndex": 0,
-            "explanation": "Xin đừng đỗ xe ở đây: とめないで ください."
+            "explanation": "Dịch nghĩa: Vui lòng không đỗ xe ở đây.\n- Cấu trúc yêu cầu lịch sự \"xin đừng\": Vない bỏ い + で ください.\n- Động từ đỗ xe とめます (tha động từ) chuyển sang thể phủ định là とめない -> とめないで ください.\n- Chú ý: とまります là tự động từ (dừng lại), không dùng ở đây."
+          },
+          {
+            "id": "m_review_16_20_1_m3_q1",
+            "question": "パスポートを 【　　　】。",
+            "options": [
+              "みせなければ なりません",
+              "みせないで ください",
+              "みせなくちゃ いいis",
+              "みせても いいです"
+            ],
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa: Bạn phải xuất trình hộ chiếu.\n- Cấu trúc bắt buộc: Vなければ なりません (phải làm gì đó).\n- Động từ みせます (cho xem, xuất trình) chia sang thể phủ định giả định là みせなければ -> みせなければ なりません."
+          },
+          {
+            "id": "m_review_16_20_1_m3_q2",
+            "question": "あしたは 【　　　】から、どこも いきません。",
+            "options": [
+              "くも",
+              "はれ",
+              "あめ",
+              "ゆき"
+            ],
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Vì ngày mai trời mưa nên tôi không đi đâu cả.\n- Danh từ chỉ thời tiết kết hợp cùng trợ từ chỉ lý do から (vì...) hợp lý nhất là あめ (mưa)."
+          },
+          {
+            "id": "m_review_16_20_1_m3_q3",
+            "question": "かぜを ひきましたから、くusりを 【　　　】。",
+            "options": [
+              "たべます",
+              "nomiます",
+              "します",
+              "きます"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Vì bị cảm nên tôi sẽ uống thuốc.\n- Trong tiếng Nhật, việc uống thuốc dùng động từ のみます (uống) chứ tuyệt đối không dùng động từ たべます (ăn) như tiếng Việt."
           }
         ]
       },
@@ -4511,51 +4511,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_16_20_1_b1_q0",
-            "question": "わたしは ピアノを （　　　）が できます。",
+            "question": "うまに （　　　）ことが ありますか。",
             "options": [
-              "ひく",
-              "ひいて",
-              "ひき",
-              "ひくこと"
+              "のらない",
+              "のって",
+              "のる",
+              "のった"
             ],
             "correctIndex": 3,
-            "explanation": "Vる こと が できます (Có thể làm gì)."
+            "explanation": "Dịch nghĩa: Bạn đã từng cưỡi ngựa bao giờ chưa?\n- Cấu trúc nói về kinh nghiệm trong quá khứ: Vた + ことが あります (Đã từng làm gì...).\n- Động từ のります (lên xe/cưỡi) chia thể quá khứ là のった."
           },
           {
             "id": "m_review_16_20_1_b1_q1",
-            "question": "うまに （　　　）ことが ありますか。",
+            "question": "わたしは ピアノを （　　　）が できます。",
             "options": [
-              "のって",
-              "のった",
-              "のる",
-              "のらない"
+              "ひき",
+              "ひく",
+              "ひくこと",
+              "ひいて"
             ],
-            "correctIndex": 1,
-            "explanation": "Vた ことが あります (Đã từng...)."
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Tôi có thể chơi đàn piano.\n- Cấu trúc thể hiện khả năng: [Động từ thể từ điển (Vる)] + こと が できます.\n- Động từ ひきます (chơi đàn) thể từ điển là ひく -> ひくこと."
           },
           {
             "id": "m_review_16_20_1_b1_q2",
-            "question": "にほんへ （　　　） まえに、べんきょうしました。",
+            "question": "この りんごは おいしい（　　　）、やすいです。",
             "options": [
-              "いって",
-              "いかない",
-              "いく",
-              "いった"
+              "が",
+              "し",
+              "から",
+              "て"
             ],
-            "correctIndex": 2,
-            "explanation": "Vる まえに (Trước khi...)."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Quả táo này vừa ngon lại vừa rẻ.\n- Cấu trúc liệt kê các lý do hoặc tính chất tương đồng: [Tính từ đuôi い] + し -> おいしいし (vừa ngon, lại còn...)."
           },
           {
             "id": "m_review_16_20_1_b1_q3",
-            "question": "この りんごは おいしい（　　　）、やすいです。",
+            "question": "にほんへ （　　　） まえに、べんきょうしました。",
             "options": [
-              "て",
-              "が",
-              "し",
-              "から"
+              "いかない",
+              "いった",
+              "いって",
+              "いく"
             ],
-            "correctIndex": 2,
-            "explanation": "Vừa ngon lại vừa rẻ: おいしいし、やすいです."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Trước khi đi Nhật, tôi đã học tiếng Nhật.\n- Cấu trúc: Vる + まえに (Trước khi làm hành động gì...). Động từ đi trước まえに luôn ở thể từ điển (Vる) -> いく まえに."
           }
         ]
       },
@@ -4565,27 +4565,27 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_16_20_1_b2_q0",
-            "question": "わたしの　___ ___ _★_ ___　です。",
+            "question": "ここで　___ ___ _★_ ___　ください。",
             "options": [
-              "かくこと",
-              "えを",
-              "しゅみ",
-              "は"
+              "は",
+              "を",
+              "とらないde",
+              "しゃしん"
             ],
-            "correctIndex": 1,
-            "explanation": "わたしの しゅみ は えを かくこと です."
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Xin vui lòng không chụp ảnh ở đây.\n- Phân tích trật tự từ: ở đây + しゃしん (2) + を (1) + とらないで (3) + ください.\n- Cấu trúc yêu cầu lịch sự thể phủ định: Vない bỏ い + で ください.\n- Vị trí dấu sao nằm ở từ thứ 3 trong cụm sắp xếp, tương ứng với động từ とらないで (3)."
           },
           {
             "id": "m_review_16_20_1_b2_q1",
-            "question": "ここで　___ ___ _★_ ___　ください。",
+            "question": "わたしの　___ ___ _★_ ___　です。",
             "options": [
-              "しゃしん",
+              "しゅみ",
+              "えを",
               "は",
-              "を",
-              "とらないで"
+              "かくこと"
             ],
-            "correctIndex": 3,
-            "explanation": "ここで しゃしん は/を とらないで ください."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Sở thích của tôi là vẽ tranh.\n- Phân tích trật tự từ: わたしの + しゅみ (2) + は (3) + えを (1) + かくこと (4) + です.\n- Cấu trúc: [Sở thích] は [Động từ thể từ điển Vる] + こと です (Sở thích là việc làm gì đó).\n- Vị trí dấu sao nằm ở vị trí thứ 3, tương ứng với cụm từ えを (1)."
           }
         ]
       },
@@ -4596,32 +4596,32 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
           "わたしは まいあさ ６じに おきます。",
           "あさごはんを （　１　）まえに、ジョギングを します。",
           "ジョギングは しゅみです。",
-          "そして、シャワーを あびてから、ごはんを たべます。"
+          "그리고, シャワーを あびてから、ごはんを たべます。"
         ],
         "questions": [
           {
             "id": "m_review_16_20_1_d1_q0",
             "question": "（　１　）に入れるものはどれですか。",
             "options": [
-              "たべた",
               "たべる",
               "たべない",
+              "たべた",
               "たべて"
             ],
-            "correctIndex": 1,
-            "explanation": "まえに đi với Vる (たべる まえに)."
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa đoạn: \"Tôi thức dậy lúc 6 giờ mỗi sáng. Trước khi ăn sáng, tôi chạy bộ.\"\n- Quy tắc ngữ pháp: Đứng trước まえに luôn là động từ thể từ điển (Vる) -> たべる (ăn)."
           },
           {
             "id": "m_review_16_20_1_d1_q1",
             "question": "ジョギングの あとで、なにを しますか。",
             "options": [
+              "おきます",
               "シャワーを あびます",
-              "かいしゃへ いきます",
               "あさごはんを たべます",
-              "おきます"
+              "かいしゃへ いきます"
             ],
-            "correctIndex": 0,
-            "explanation": "ジョギング xong thì シャワーを あびます."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa đoạn: \"Tôi chạy bộ. Và sau khi tắm vòi hoa sen, tôi ăn cơm.\"\n- Sau khi chạy bộ (ジョギング), hành động tiếp theo được nhắc tới là tắm vòi hoa sen (シャワーを あびます)."
           }
         ]
       }
@@ -4638,51 +4638,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_16_20_2_m1_q0",
-            "question": "あした 【雨】が ふります。",
+            "question": "えいがを 【見】ます。",
             "options": [
-              "くも",
-              "ゆき",
-              "はれ",
-              "あめ"
+              "き",
+              "し",
+              "よ",
+              "み"
             ],
             "correctIndex": 3,
-            "explanation": "雨 đọc là あめ (Mưa)."
+            "explanation": "Dịch nghĩa: Tôi xem phim.\n- Chữ Hán 【見】 (Kiến) có cách đọc trong động từ 見ます (xem, nhìn) là み (mimasu)."
           },
           {
             "id": "m_review_16_20_2_m1_q1",
-            "question": "【午後】の じゅぎょうは ありません。",
+            "question": "あした 【雨】が ふります。",
             "options": [
-              "こうご",
-              "ごこう",
-              "ごぜん",
-              "ごご"
+              "あめ",
+              "ゆき",
+              "くも",
+              "はれ"
             ],
-            "correctIndex": 3,
-            "explanation": "午後 đọc là ごご (Buổi chiều)."
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa: Ngày mai trời sẽ mưa.\n- Chữ Hán 【雨】 (Vũ) đọc là あめ (ame) nghĩa là mưa.\n- Phân tích các đáp án khác: ゆき (tuyết), はれ (nắng ráo), くも (mây)."
           },
           {
             "id": "m_review_16_20_2_m1_q2",
-            "question": "えいがを 【見】ます。",
+            "question": "【午前】 ６시에 おきます。",
             "options": [
-              "み",
-              "し",
-              "よ",
-              "き"
+              "ごご",
+              "go-sen",
+              "ごぜん",
+              "khác/sai"
             ],
-            "correctIndex": 0,
-            "explanation": "見 đọc là み."
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Tôi thức dậy lúc 6 giờ sáng.\n- Chữ Hán 【午前】 (Ngọ Tiền) đọc là ごぜん (gozen) nghĩa là buổi sáng (AM)."
           },
           {
             "id": "m_review_16_20_2_m1_q3",
-            "question": "【午前】 ６時に おきます。",
+            "question": "【午後】の じゅぎょうは ありません。",
             "options": [
-              "こうぜん",
-              "ごせん",
               "ごぜん",
+              "go-ko",
+              "ko-go",
               "ごご"
             ],
-            "correctIndex": 2,
-            "explanation": "午前 đọc là ごぜん (Buổi sáng)."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Không có giờ học buổi chiều.\n- Chữ Hán 【午後】 (Ngọ Hậu) đọc tương ứng là ごご (gogo) nghĩa là buổi chiều (PM).\n- Phân tích đáp án khác: ごぜん (gozen: buổi sáng - AM)."
           }
         ]
       },
@@ -4692,51 +4692,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_16_20_2_m2_q0",
-            "question": "【みぎ】へ まがります。",
+            "question": "【ひる】ごはんを たべます。",
             "options": [
-              "前",
-              "右",
-              "後",
-              "左"
+              "昼",
+              "朝",
+              "夜",
+              "晩"
             ],
-            "correctIndex": 1,
-            "explanation": "みぎ (Bên phải) viết là 右."
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa: Tôi ăn cơm trưa.\n- 【ひる】 (buổi trưa) viết bằng chữ Kanji là 昼 (Trú).\n- Phân tích các đáp án khác: 朝 (buổi sáng), 夜 (buổi tối), 晩 (buổi tối)."
           },
           {
             "id": "m_review_16_20_2_m2_q1",
             "question": "【しゃしん】を とります。",
             "options": [
-              "字真",
               "写真",
+              "khác/sai",
               "真字",
               "真写"
             ],
-            "correctIndex": 1,
-            "explanation": "しゃしん viết là 写真."
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa: Tôi chụp ảnh.\n- 【しゃしん】 (bức ảnh) viết bằng chữ Kanji là 写真 (Tả Chân)."
           },
           {
             "id": "m_review_16_20_2_m2_q2",
-            "question": "【ひる】ごはんを たべます。",
+            "question": "【よる】ねます。",
             "options": [
-              "夜",
               "朝",
-              "昼",
-              "晩"
+              "夕",
+              "夜",
+              "昼"
             ],
             "correctIndex": 2,
-            "explanation": "ひる (Buổi trưa) viết là 昼."
+            "explanation": "Dịch nghĩa: Tôi đi ngủ vào buổi tối.\n- 【よる】 (buổi tối/đêm) viết bằng chữ Kanji là 夜 (Dạ)."
           },
           {
             "id": "m_review_16_20_2_m2_q3",
-            "question": "【よる】ねます。",
+            "question": "【みぎ】へ まがります。",
             "options": [
-              "昼",
-              "朝",
-              "夕",
-              "夜"
+              "左",
+              "後",
+              "右",
+              "前"
             ],
-            "correctIndex": 3,
-            "explanation": "よる (Buổi tối) viết là 夜."
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Rẽ sang bên phải.\n- 【みぎ】 (bên phải) viết bằng chữ Kanji là 右 (Hữu).\n- Phân tích các chữ khác: 左 (Tả - bên trái), 前 (Tiền - phía trước), 後 (Hậu - phía sau)."
           }
         ]
       },
@@ -4746,51 +4746,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_16_20_2_m3_q0",
-            "question": "ここに くるまを 【　　　】。",
+            "question": "かぜを ひきましたから、くusりを 【　　　】。",
             "options": [
-              "とまらないで ください",
-              "とめないで ください",
-              "とめて ください",
-              "とまる ください"
+              "します",
+              "たべます",
+              "きます",
+              "nomiます"
             ],
-            "correctIndex": 1,
-            "explanation": "Xin đừng đỗ xe ở đây: とめないで ください."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Vì bị cảm nên tôi sẽ uống thuốc.\n- Trong tiếng Nhật, việc uống thuốc dùng động từ のみます (uống) chứ tuyệt đối không dùng động từ たべます (ăn) như tiếng Việt."
           },
           {
             "id": "m_review_16_20_2_m3_q1",
             "question": "あしたは 【　　　】から、どこも いきません。",
             "options": [
-              "はれ",
-              "くも",
               "ゆき",
-              "あめ"
+              "あめ",
+              "はれ",
+              "くも"
             ],
-            "correctIndex": 3,
-            "explanation": "Trời mưa nên không đi đâu cả (あめ)."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Vì ngày mai trời mưa nên tôi không đi đâu cả.\n- Danh từ chỉ thời tiết kết hợp cùng trợ từ chỉ lý do から (vì...) hợp lý nhất là あめ (mưa)."
           },
           {
             "id": "m_review_16_20_2_m3_q2",
-            "question": "かぜを ひきましたから、くすりを 【　　　】。",
+            "question": "パスポートを 【　　　】。",
             "options": [
-              "します",
-              "のみます",
-              "たべます",
-              "きます"
+              "みせなければ なりません",
+              "みせないで ください",
+              "みせても いいです",
+              "みせなくちゃ いいis"
             ],
-            "correctIndex": 1,
-            "explanation": "Uống thuốc: くすりを のみます."
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa: Bạn phải xuất trình hộ chiếu.\n- Cấu trúc bắt buộc: Vなければ なりません (phải làm gì đó).\n- Động từ みせます (cho xem, xuất trình) chia sang thể phủ định giả định là みせなければ -> みせなければ なりません."
           },
           {
             "id": "m_review_16_20_2_m3_q3",
-            "question": "パスポートを 【　　　】。",
+            "question": "ここに くるまを 【　　　】。",
             "options": [
-              "みせても いいです",
-              "みせなくちゃ いいです",
-              "みせないで ください",
-              "みせなければ なりません"
+              "とめて ください",
+              "とまる ください",
+              "とまらないで ください",
+              "とめないで ください"
             ],
             "correctIndex": 3,
-            "explanation": "Phải cho xem hộ chiếu: みせなければ なりません."
+            "explanation": "Dịch nghĩa: Vui lòng không đỗ xe ở đây.\n- Cấu trúc yêu cầu lịch sự \"xin đừng\": Vない bỏ い + で ください.\n- Động từ đỗ xe とめます (tha động từ) chuyển sang thể phủ định là とめない -> とめないで ください.\n- Chú ý: とまります là tự động từ (dừng lại), không dùng ở đây."
           }
         ]
       },
@@ -4802,49 +4802,49 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_16_20_2_b1_q0",
             "question": "うまに （　　　）ことが ありますか。",
             "options": [
-              "のって",
+              "のった",
               "のらない",
-              "のる",
-              "のった"
+              "のって",
+              "のる"
             ],
-            "correctIndex": 3,
-            "explanation": "Vた ことが あります (Đã từng...)."
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa: Bạn đã từng cưỡi ngựa bao giờ chưa?\n- Cấu trúc nói về kinh nghiệm trong quá khứ: Vた + ことが あります (Đã từng làm gì...).\n- Động từ のります (lên xe/cưỡi) chia thể quá khứ là のった."
           },
           {
             "id": "m_review_16_20_2_b1_q1",
-            "question": "この りんごは おいしい（　　　）、やすいです。",
+            "question": "にほんへ （　　　） まえに、べんきょうしました。",
             "options": [
-              "が",
-              "し",
-              "て",
-              "から"
+              "いった",
+              "いかない",
+              "いく",
+              "いって"
             ],
-            "correctIndex": 1,
-            "explanation": "Vừa ngon lại vừa rẻ: おいしいし、やすいです."
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Trước khi đi Nhật, tôi đã học tiếng Nhật.\n- Cấu trúc: Vる + まえに (Trước khi làm hành động gì...). Động từ đi trước まえに luôn ở thể từ điển (Vる) -> いく まえに."
           },
           {
             "id": "m_review_16_20_2_b1_q2",
-            "question": "わたしは ピアノを （　　　）が できます。",
+            "question": "この りんごは おいしい（　　　）、やすいです。",
             "options": [
-              "ひく",
-              "ひいて",
-              "ひき",
-              "ひくこと"
+              "て",
+              "から",
+              "し",
+              "が"
             ],
-            "correctIndex": 3,
-            "explanation": "Vる こと が できます (Có thể làm gì)."
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Quả táo này vừa ngon lại vừa rẻ.\n- Cấu trúc liệt kê các lý do hoặc tính chất tương đồng: [Tính từ đuôi い] + し -> おいしいし (vừa ngon, lại còn...)."
           },
           {
             "id": "m_review_16_20_2_b1_q3",
-            "question": "にほんへ （　　　） まえに、べんきょうしました。",
+            "question": "わたしは ピアノを （　　　）が できます。",
             "options": [
-              "いって",
-              "いかない",
-              "いった",
-              "いく"
+              "ひくこと",
+              "ひいて",
+              "ひく",
+              "ひき"
             ],
-            "correctIndex": 3,
-            "explanation": "Vる まえに (Trước khi...)."
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa: Tôi có thể chơi đàn piano.\n- Cấu trúc thể hiện khả năng: [Động từ thể từ điển (Vる)] + こと が できます.\n- Động từ ひきます (chơi đàn) thể từ điển là ひく -> ひくこと."
           }
         ]
       },
@@ -4854,27 +4854,27 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_16_20_2_b2_q0",
-            "question": "わたしの　___ ___ _★_ ___　です。",
-            "options": [
-              "かくこと",
-              "えを",
-              "は",
-              "しゅみ"
-            ],
-            "correctIndex": 1,
-            "explanation": "わたしの しゅみ は えを かくこと です."
-          },
-          {
-            "id": "m_review_16_20_2_b2_q1",
             "question": "ここで　___ ___ _★_ ___　ください。",
             "options": [
+              "とらないde",
               "しゃしん",
-              "とらないで",
               "は",
               "を"
             ],
-            "correctIndex": 1,
-            "explanation": "ここで しゃしん は/を とらないで ください."
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa: Xin vui lòng không chụp ảnh ở đây.\n- Phân tích trật tự từ: ở đây + しゃしん (2) + を (1) + とらないで (3) + ください.\n- Cấu trúc yêu cầu lịch sự thể phủ định: Vない bỏ い + で ください.\n- Vị trí dấu sao nằm ở từ thứ 3 trong cụm sắp xếp, tương ứng với động từ とらないで (3)."
+          },
+          {
+            "id": "m_review_16_20_2_b2_q1",
+            "question": "わたしの　___ ___ _★_ ___　です。",
+            "options": [
+              "は",
+              "かくこと",
+              "えを",
+              "しゅみ"
+            ],
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Sở thích của tôi là vẽ tranh.\n- Phân tích trật tự từ: わたしの + しゅみ (2) + は (3) + えを (1) + かくこと (4) + です.\n- Cấu trúc: [Sở thích] は [Động từ thể từ điển Vる] + こと です (Sở thích là việc làm gì đó).\n- Vị trí dấu sao nằm ở vị trí thứ 3, tương ứng với cụm từ えを (1)."
           }
         ]
       },
@@ -4885,32 +4885,32 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
           "わたしは まいあさ ６じに おきます。",
           "あさごはんを （　１　）まえに、ジョギングを します。",
           "ジョギングは しゅみです。",
-          "そして、シャワーを あびてから、ごはんを たべます。"
+          "그리고, シャワーを あびてから、ごはんを たべます。"
         ],
         "questions": [
           {
             "id": "m_review_16_20_2_d1_q0",
             "question": "（　１　）に入れるものはどれですか。",
             "options": [
+              "たべた",
               "たべない",
-              "たべて",
               "たべる",
-              "たべた"
+              "たべて"
             ],
             "correctIndex": 2,
-            "explanation": "まえに đi với Vる (たべる まえに)."
+            "explanation": "Dịch nghĩa đoạn: \"Tôi thức dậy lúc 6 giờ mỗi sáng. Trước khi ăn sáng, tôi chạy bộ.\"\n- Quy tắc ngữ pháp: Đứng trước まえに luôn là động từ thể từ điển (Vる) -> たべる (ăn)."
           },
           {
             "id": "m_review_16_20_2_d1_q1",
             "question": "ジョギングの あとで、なにを しますか。",
             "options": [
-              "おきます",
-              "かいしゃへ いきます",
               "あさごはんを たべます",
-              "シャワーを あびます"
+              "おきます",
+              "シャワーを あびます",
+              "かいしゃへ いきます"
             ],
-            "correctIndex": 3,
-            "explanation": "ジョギング xong thì シャワーを あびます."
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa đoạn: \"Tôi chạy bộ. Và sau khi tắm vòi hoa sen, tôi ăn cơm.\"\n- Sau khi chạy bộ (ジョギング), hành động tiếp theo được nhắc tới là tắm vòi hoa sen (シャワーを あびます)."
           }
         ]
       }
@@ -4927,51 +4927,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_16_20_3_m1_q0",
-            "question": "えいがを 【見】ます。",
+            "question": "【午後】の じゅぎょうは ありません。",
             "options": [
-              "し",
-              "き",
-              "み",
-              "よ"
+              "ごご",
+              "ごぜん",
+              "ko-go",
+              "go-ko"
             ],
-            "correctIndex": 2,
-            "explanation": "見 đọc là み."
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa: Không có giờ học buổi chiều.\n- Chữ Hán 【午後】 (Ngọ Hậu) đọc tương ứng là ごご (gogo) nghĩa là buổi chiều (PM).\n- Phân tích đáp án khác: ごぜん (gozen: buổi sáng - AM)."
           },
           {
             "id": "m_review_16_20_3_m1_q1",
             "question": "あした 【雨】が ふります。",
             "options": [
               "くも",
-              "あめ",
               "はれ",
+              "あめ",
               "ゆき"
             ],
-            "correctIndex": 1,
-            "explanation": "雨 đọc là あめ (Mưa)."
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Ngày mai trời sẽ mưa.\n- Chữ Hán 【雨】 (Vũ) đọc là あめ (ame) nghĩa là mưa.\n- Phân tích các đáp án khác: ゆき (tuyết), はれ (nắng ráo), くも (mây)."
           },
           {
             "id": "m_review_16_20_3_m1_q2",
-            "question": "【午後】の じゅぎょうは ありません。",
+            "question": "【午前】 ６시에 おきます。",
             "options": [
-              "ごこう",
-              "ごご",
-              "ごぜん",
-              "こうご"
-            ],
-            "correctIndex": 1,
-            "explanation": "午後 đọc là ごご (Buổi chiều)."
-          },
-          {
-            "id": "m_review_16_20_3_m1_q3",
-            "question": "【午前】 ６時に おきます。",
-            "options": [
-              "ごせん",
-              "こうぜん",
+              "khác/sai",
+              "go-sen",
               "ごぜん",
               "ごご"
             ],
             "correctIndex": 2,
-            "explanation": "午前 đọc là ごぜん (Buổi sáng)."
+            "explanation": "Dịch nghĩa: Tôi thức dậy lúc 6 giờ sáng.\n- Chữ Hán 【午前】 (Ngọ Tiền) đọc là ごぜん (gozen) nghĩa là buổi sáng (AM)."
+          },
+          {
+            "id": "m_review_16_20_3_m1_q3",
+            "question": "えいがを 【見】ます。",
+            "options": [
+              "よ",
+              "み",
+              "し",
+              "き"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Tôi xem phim.\n- Chữ Hán 【見】 (Kiến) có cách đọc trong động từ 見ます (xem, nhìn) là み (mimasu)."
           }
         ]
       },
@@ -4981,51 +4981,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_16_20_3_m2_q0",
-            "question": "【よる】ねます。",
-            "options": [
-              "昼",
-              "夜",
-              "夕",
-              "朝"
-            ],
-            "correctIndex": 1,
-            "explanation": "よる (Buổi tối) viết là 夜."
-          },
-          {
-            "id": "m_review_16_20_3_m2_q1",
-            "question": "【ひる】ごはんを たべます。",
-            "options": [
-              "夜",
-              "朝",
-              "昼",
-              "晩"
-            ],
-            "correctIndex": 2,
-            "explanation": "ひる (Buổi trưa) viết là 昼."
-          },
-          {
-            "id": "m_review_16_20_3_m2_q2",
-            "question": "【しゃしん】を とります。",
-            "options": [
-              "字真",
-              "真字",
-              "真写",
-              "写真"
-            ],
-            "correctIndex": 3,
-            "explanation": "しゃしん viết là 写真."
-          },
-          {
-            "id": "m_review_16_20_3_m2_q3",
             "question": "【みぎ】へ まがります。",
             "options": [
               "後",
-              "右",
+              "左",
               "前",
-              "左"
+              "右"
+            ],
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Rẽ sang bên phải.\n- 【みぎ】 (bên phải) viết bằng chữ Kanji là 右 (Hữu).\n- Phân tích các chữ khác: 左 (Tả - bên trái), 前 (Tiền - phía trước), 後 (Hậu - phía sau)."
+          },
+          {
+            "id": "m_review_16_20_3_m2_q1",
+            "question": "【しゃしん】を とります。",
+            "options": [
+              "写真",
+              "真写",
+              "khác/sai",
+              "真字"
+            ],
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa: Tôi chụp ảnh.\n- 【しゃしん】 (bức ảnh) viết bằng chữ Kanji là 写真 (Tả Chân)."
+          },
+          {
+            "id": "m_review_16_20_3_m2_q2",
+            "question": "【よる】ねます。",
+            "options": [
+              "夜",
+              "朝",
+              "夕",
+              "昼"
+            ],
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa: Tôi đi ngủ vào buổi tối.\n- 【よる】 (buổi tối/đêm) viết bằng chữ Kanji là 夜 (Dạ)."
+          },
+          {
+            "id": "m_review_16_20_3_m2_q3",
+            "question": "【ひる】ごはんを たべます。",
+            "options": [
+              "夜",
+              "昼",
+              "朝",
+              "晩"
             ],
             "correctIndex": 1,
-            "explanation": "みぎ (Bên phải) viết là 右."
+            "explanation": "Dịch nghĩa: Tôi ăn cơm trưa.\n- 【ひる】 (buổi trưa) viết bằng chữ Kanji là 昼 (Trú).\n- Phân tích các đáp án khác: 朝 (buổi sáng), 夜 (buổi tối), 晩 (buổi tối)."
           }
         ]
       },
@@ -5035,51 +5035,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_16_20_3_m3_q0",
-            "question": "かぜを ひきましたから、くすりを 【　　　】。",
+            "question": "ここに くるまを 【　　　】。",
             "options": [
-              "きます",
-              "のみます",
-              "たべます",
-              "します"
+              "とまる ください",
+              "とまらないで ください",
+              "とめて ください",
+              "とめないで ください"
             ],
-            "correctIndex": 1,
-            "explanation": "Uống thuốc: くすりを のみます."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Vui lòng không đỗ xe ở đây.\n- Cấu trúc yêu cầu lịch sự \"xin đừng\": Vない bỏ い + で ください.\n- Động từ đỗ xe とめます (tha động từ) chuyển sang thể phủ định là とめない -> とめないで ください.\n- Chú ý: とまります là tự động từ (dừng lại), không dùng ở đây."
           },
           {
             "id": "m_review_16_20_3_m3_q1",
             "question": "パスポートを 【　　　】。",
             "options": [
+              "みせなくちゃ いいis",
               "みせなければ なりません",
-              "みせなくちゃ いいです",
-              "みせないで ください",
-              "みせても いいです"
+              "みせても いいです",
+              "みせないで ください"
             ],
-            "correctIndex": 0,
-            "explanation": "Phải cho xem hộ chiếu: みせなければ なりません."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Bạn phải xuất trình hộ chiếu.\n- Cấu trúc bắt buộc: Vなければ なりません (phải làm gì đó).\n- Động từ みせます (cho xem, xuất trình) chia sang thể phủ định giả định là みせなければ -> みせなければ なりません."
           },
           {
             "id": "m_review_16_20_3_m3_q2",
-            "question": "あしたは 【　　　】から、どこも いきません。",
+            "question": "かぜを ひきましたから、くusりを 【　　　】。",
             "options": [
-              "はれ",
-              "ゆき",
-              "くも",
-              "あめ"
+              "きます",
+              "します",
+              "nomiます",
+              "たべます"
             ],
-            "correctIndex": 3,
-            "explanation": "Trời mưa nên không đi đâu cả (あめ)."
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Vì bị cảm nên tôi sẽ uống thuốc.\n- Trong tiếng Nhật, việc uống thuốc dùng động từ のみます (uống) chứ tuyệt đối không dùng động từ たべます (ăn) như tiếng Việt."
           },
           {
             "id": "m_review_16_20_3_m3_q3",
-            "question": "ここに くるまを 【　　　】。",
+            "question": "あしたは 【　　　】から、どこも いきません。",
             "options": [
-              "とまらないで ください",
-              "とめて ください",
-              "とめないで ください",
-              "とまる ください"
+              "ゆき",
+              "はれ",
+              "あめ",
+              "くも"
             ],
             "correctIndex": 2,
-            "explanation": "Xin đừng đỗ xe ở đây: とめないで ください."
+            "explanation": "Dịch nghĩa: Vì ngày mai trời mưa nên tôi không đi đâu cả.\n- Danh từ chỉ thời tiết kết hợp cùng trợ từ chỉ lý do から (vì...) hợp lý nhất là あめ (mưa)."
           }
         ]
       },
@@ -5089,51 +5089,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_16_20_3_b1_q0",
-            "question": "わたしは ピアノを （　　　）が できます。",
+            "question": "この りんごは おいしい（　　　）、やすいです。",
             "options": [
-              "ひき",
-              "ひくこと",
-              "ひく",
-              "ひいて"
+              "から",
+              "が",
+              "し",
+              "て"
             ],
-            "correctIndex": 1,
-            "explanation": "Vる こと が できます (Có thể làm gì)."
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Quả táo này vừa ngon lại vừa rẻ.\n- Cấu trúc liệt kê các lý do hoặc tính chất tương đồng: [Tính từ đuôi い] + し -> おいしいし (vừa ngon, lại còn...)."
           },
           {
             "id": "m_review_16_20_3_b1_q1",
-            "question": "にほんへ （　　　） まえに、べんきょうしました。",
+            "question": "うまに （　　　）ことが ありますか。",
             "options": [
-              "いく",
-              "いって",
-              "いった",
-              "いかない"
+              "のって",
+              "のる",
+              "のった",
+              "のらない"
             ],
-            "correctIndex": 0,
-            "explanation": "Vる まえに (Trước khi...)."
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Bạn đã từng cưỡi ngựa bao giờ chưa?\n- Cấu trúc nói về kinh nghiệm trong quá khứ: Vた + ことが あります (Đã từng làm gì...).\n- Động từ のります (lên xe/cưỡi) chia thể quá khứ là のった."
           },
           {
             "id": "m_review_16_20_3_b1_q2",
-            "question": "うまに （　　　）ことが ありますか。",
+            "question": "にほんへ （　　　） まえに、べんきょうしました。",
             "options": [
-              "のった",
-              "のって",
-              "のらない",
-              "のる"
+              "いかない",
+              "いった",
+              "いって",
+              "いく"
             ],
-            "correctIndex": 0,
-            "explanation": "Vた ことが あります (Đã từng...)."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Trước khi đi Nhật, tôi đã học tiếng Nhật.\n- Cấu trúc: Vる + まえに (Trước khi làm hành động gì...). Động từ đi trước まえに luôn ở thể từ điển (Vる) -> いく まえに."
           },
           {
             "id": "m_review_16_20_3_b1_q3",
-            "question": "この りんごは おいしい（　　　）、やすいです。",
+            "question": "わたしは ピアノを （　　　）が できます。",
             "options": [
-              "し",
-              "から",
-              "が",
-              "て"
+              "ひく",
+              "ひくこと",
+              "ひき",
+              "ひいて"
             ],
-            "correctIndex": 0,
-            "explanation": "Vừa ngon lại vừa rẻ: おいしいし、やすいです."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Tôi có thể chơi đàn piano.\n- Cấu trúc thể hiện khả năng: [Động từ thể từ điển (Vる)] + こと が できます.\n- Động từ ひきます (chơi đàn) thể từ điển là ひく -> ひくこと."
           }
         ]
       },
@@ -5143,27 +5143,27 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_16_20_3_b2_q0",
-            "question": "わたしの　___ ___ _★_ ___　です。",
+            "question": "ここで　___ ___ _★_ ___　ください。",
             "options": [
-              "かくこと",
-              "えを",
-              "しゅみ",
-              "は"
+              "は",
+              "とらないde",
+              "しゃしん",
+              "を"
             ],
             "correctIndex": 1,
-            "explanation": "わたしの しゅみ は えを かくこと です."
+            "explanation": "Dịch nghĩa: Xin vui lòng không chụp ảnh ở đây.\n- Phân tích trật tự từ: ở đây + しゃしん (2) + を (1) + とらないで (3) + ください.\n- Cấu trúc yêu cầu lịch sự thể phủ định: Vない bỏ い + で ください.\n- Vị trí dấu sao nằm ở từ thứ 3 trong cụm sắp xếp, tương ứng với động từ とらないで (3)."
           },
           {
             "id": "m_review_16_20_3_b2_q1",
-            "question": "ここで　___ ___ _★_ ___　ください。",
+            "question": "わたしの　___ ___ _★_ ___　です。",
             "options": [
-              "を",
-              "とらないで",
-              "しゃしん",
+              "しゅみ",
+              "かくこと",
+              "えを",
               "は"
             ],
-            "correctIndex": 1,
-            "explanation": "ここで しゃしん は/を とらないで ください."
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Sở thích của tôi là vẽ tranh.\n- Phân tích trật tự từ: わたしの + しゅみ (2) + は (3) + えを (1) + かくこと (4) + です.\n- Cấu trúc: [Sở thích] は [Động từ thể từ điển Vる] + こと です (Sở thích là việc làm gì đó).\n- Vị trí dấu sao nằm ở vị trí thứ 3, tương ứng với cụm từ えを (1)."
           }
         ]
       },
@@ -5174,32 +5174,32 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
           "わたしは まいあさ ６じに おきます。",
           "あさごはんを （　１　）まえに、ジョギングを します。",
           "ジョギングは しゅみです。",
-          "そして、シャワーを あびてから、ごはんを たべます。"
+          "그리고, シャワーを あびてから、ごはんを たべます。"
         ],
         "questions": [
           {
             "id": "m_review_16_20_3_d1_q0",
             "question": "（　１　）に入れるものはどれですか。",
             "options": [
-              "たべた",
               "たべない",
               "たべる",
+              "たべた",
               "たべて"
             ],
-            "correctIndex": 2,
-            "explanation": "まえに đi với Vる (たべる まえに)."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa đoạn: \"Tôi thức dậy lúc 6 giờ mỗi sáng. Trước khi ăn sáng, tôi chạy bộ.\"\n- Quy tắc ngữ pháp: Đứng trước まえに luôn là động từ thể từ điển (Vる) -> たべる (ăn)."
           },
           {
             "id": "m_review_16_20_3_d1_q1",
             "question": "ジョギングの あとで、なにを しますか。",
             "options": [
               "かいしゃへ いきます",
-              "あさごはんを たべます",
               "シャワーを あびます",
-              "おきます"
+              "おきます",
+              "あさごはんを たべます"
             ],
-            "correctIndex": 2,
-            "explanation": "ジョギング xong thì シャワーを あびます."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa đoạn: \"Tôi chạy bộ. Và sau khi tắm vòi hoa sen, tôi ăn cơm.\"\n- Sau khi chạy bộ (ジョギング), hành động tiếp theo được nhắc tới là tắm vòi hoa sen (シャワーを あびます)."
           }
         ]
       }
@@ -5216,51 +5216,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_16_20_4_m1_q0",
-            "question": "【午後】の じゅぎょうは ありません。",
+            "question": "【午前】 ６시에 おきます。",
             "options": [
-              "ごぜん",
-              "ごこう",
               "ごご",
-              "こうご"
+              "go-sen",
+              "ごぜん",
+              "khác/sai"
             ],
             "correctIndex": 2,
-            "explanation": "午後 đọc là ごご (Buổi chiều)."
+            "explanation": "Dịch nghĩa: Tôi thức dậy lúc 6 giờ sáng.\n- Chữ Hán 【午前】 (Ngọ Tiền) đọc là ごぜん (gozen) nghĩa là buổi sáng (AM)."
           },
           {
             "id": "m_review_16_20_4_m1_q1",
             "question": "えいがを 【見】ます。",
             "options": [
-              "よ",
-              "み",
+              "し",
               "き",
-              "し"
+              "よ",
+              "み"
             ],
-            "correctIndex": 1,
-            "explanation": "見 đọc là み."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Tôi xem phim.\n- Chữ Hán 【見】 (Kiến) có cách đọc trong động từ 見ます (xem, nhìn) là み (mimasu)."
           },
           {
             "id": "m_review_16_20_4_m1_q2",
-            "question": "【午前】 ６時に おきます。",
-            "options": [
-              "ごご",
-              "ごせん",
-              "こうぜん",
-              "ごぜん"
-            ],
-            "correctIndex": 3,
-            "explanation": "午前 đọc là ごぜん (Buổi sáng)."
-          },
-          {
-            "id": "m_review_16_20_4_m1_q3",
             "question": "あした 【雨】が ふります。",
             "options": [
               "はれ",
-              "くも",
               "あめ",
+              "くも",
               "ゆき"
             ],
-            "correctIndex": 2,
-            "explanation": "雨 đọc là あめ (Mưa)."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Ngày mai trời sẽ mưa.\n- Chữ Hán 【雨】 (Vũ) đọc là あめ (ame) nghĩa là mưa.\n- Phân tích các đáp án khác: ゆき (tuyết), はれ (nắng ráo), くも (mây)."
+          },
+          {
+            "id": "m_review_16_20_4_m1_q3",
+            "question": "【午後】の じゅぎょうは ありません。",
+            "options": [
+              "ko-go",
+              "ごご",
+              "go-ko",
+              "ごぜん"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Không có giờ học buổi chiều.\n- Chữ Hán 【午後】 (Ngọ Hậu) đọc tương ứng là ごご (gogo) nghĩa là buổi chiều (PM).\n- Phân tích đáp án khác: ごぜん (gozen: buổi sáng - AM)."
           }
         ]
       },
@@ -5270,51 +5270,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_16_20_4_m2_q0",
-            "question": "【みぎ】へ まがります。",
-            "options": [
-              "左",
-              "右",
-              "後",
-              "前"
-            ],
-            "correctIndex": 1,
-            "explanation": "みぎ (Bên phải) viết là 右."
-          },
-          {
-            "id": "m_review_16_20_4_m2_q1",
             "question": "【しゃしん】を とります。",
             "options": [
-              "字真",
               "真字",
+              "khác/sai",
               "真写",
               "写真"
             ],
             "correctIndex": 3,
-            "explanation": "しゃしん viết là 写真."
+            "explanation": "Dịch nghĩa: Tôi chụp ảnh.\n- 【しゃしん】 (bức ảnh) viết bằng chữ Kanji là 写真 (Tả Chân)."
+          },
+          {
+            "id": "m_review_16_20_4_m2_q1",
+            "question": "【みぎ】へ まがります。",
+            "options": [
+              "後",
+              "前",
+              "左",
+              "右"
+            ],
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Rẽ sang bên phải.\n- 【みぎ】 (bên phải) viết bằng chữ Kanji là 右 (Hữu).\n- Phân tích các chữ khác: 左 (Tả - bên trái), 前 (Tiền - phía trước), 後 (Hậu - phía sau)."
           },
           {
             "id": "m_review_16_20_4_m2_q2",
-            "question": "【ひる】ごはんを たべます。",
-            "options": [
-              "晩",
-              "昼",
-              "朝",
-              "夜"
-            ],
-            "correctIndex": 1,
-            "explanation": "ひる (Buổi trưa) viết là 昼."
-          },
-          {
-            "id": "m_review_16_20_4_m2_q3",
             "question": "【よる】ねます。",
             "options": [
-              "昼",
               "朝",
+              "昼",
               "夕",
               "夜"
             ],
             "correctIndex": 3,
-            "explanation": "よる (Buổi tối) viết là 夜."
+            "explanation": "Dịch nghĩa: Tôi đi ngủ vào buổi tối.\n- 【よる】 (buổi tối/đêm) viết bằng chữ Kanji là 夜 (Dạ)."
+          },
+          {
+            "id": "m_review_16_20_4_m2_q3",
+            "question": "【ひる】ごはんを たべます。",
+            "options": [
+              "夜",
+              "昼",
+              "朝",
+              "晩"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Tôi ăn cơm trưa.\n- 【ひる】 (buổi trưa) viết bằng chữ Kanji là 昼 (Trú).\n- Phân tích các đáp án khác: 朝 (buổi sáng), 夜 (buổi tối), 晩 (buổi tối)."
           }
         ]
       },
@@ -5326,49 +5326,49 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_16_20_4_m3_q0",
             "question": "ここに くるまを 【　　　】。",
             "options": [
-              "とめて ください",
-              "とまらないで ください",
+              "とまる ください",
               "とめないで ください",
-              "とまる ください"
+              "とめて ください",
+              "とまらないで ください"
             ],
-            "correctIndex": 2,
-            "explanation": "Xin đừng đỗ xe ở đây: とめないで ください."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Vui lòng không đỗ xe ở đây.\n- Cấu trúc yêu cầu lịch sự \"xin đừng\": Vない bỏ い + で ください.\n- Động từ đỗ xe とめます (tha động từ) chuyển sang thể phủ định là とめない -> とめないで ください.\n- Chú ý: とまります là tự động từ (dừng lại), không dùng ở đây."
           },
           {
             "id": "m_review_16_20_4_m3_q1",
-            "question": "あしたは 【　　　】から、どこも いきません。",
+            "question": "パスポートを 【　　　】。",
             "options": [
-              "あめ",
-              "はれ",
-              "ゆき",
-              "くも"
+              "みせなければ なりません",
+              "みせなくちゃ いいis",
+              "みせても いいです",
+              "みせないで ください"
             ],
             "correctIndex": 0,
-            "explanation": "Trời mưa nên không đi đâu cả (あめ)."
+            "explanation": "Dịch nghĩa: Bạn phải xuất trình hộ chiếu.\n- Cấu trúc bắt buộc: Vなければ なりません (phải làm gì đó).\n- Động từ みせます (cho xem, xuất trình) chia sang thể phủ định giả định là みせなければ -> みせなければ なりません."
           },
           {
             "id": "m_review_16_20_4_m3_q2",
-            "question": "かぜを ひきましたから、くすりを 【　　　】。",
+            "question": "かぜを ひきましたから、くusりを 【　　　】。",
             "options": [
               "たべます",
-              "のみます",
+              "します",
               "きます",
-              "します"
+              "nomiます"
             ],
-            "correctIndex": 1,
-            "explanation": "Uống thuốc: くすりを のみます."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Vì bị cảm nên tôi sẽ uống thuốc.\n- Trong tiếng Nhật, việc uống thuốc dùng động từ のみます (uống) chứ tuyệt đối không dùng động từ たべます (ăn) như tiếng Việt."
           },
           {
             "id": "m_review_16_20_4_m3_q3",
-            "question": "パスポートを 【　　　】。",
+            "question": "あしたは 【　　　】から、どこも いきません。",
             "options": [
-              "みせても いいです",
-              "みせないで ください",
-              "みせなくちゃ いいです",
-              "みせなければ なりません"
+              "はれ",
+              "くも",
+              "あめ",
+              "ゆき"
             ],
-            "correctIndex": 3,
-            "explanation": "Phải cho xem hộ chiếu: みせなければ なりません."
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Vì ngày mai trời mưa nên tôi không đi đâu cả.\n- Danh từ chỉ thời tiết kết hợp cùng trợ từ chỉ lý do から (vì...) hợp lý nhất là あめ (mưa)."
           }
         ]
       },
@@ -5378,51 +5378,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_16_20_4_b1_q0",
-            "question": "この りんごは おいしい（　　　）、やすいです。",
+            "question": "うまに （　　　）ことが ありますか。",
             "options": [
-              "て",
-              "から",
-              "し",
-              "が"
+              "のる",
+              "のった",
+              "のらない",
+              "のって"
             ],
-            "correctIndex": 2,
-            "explanation": "Vừa ngon lại vừa rẻ: おいしいし、やすいです."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Bạn đã từng cưỡi ngựa bao giờ chưa?\n- Cấu trúc nói về kinh nghiệm trong quá khứ: Vた + ことが あります (Đã từng làm gì...).\n- Động từ のります (lên xe/cưỡi) chia thể quá khứ là のった."
           },
           {
             "id": "m_review_16_20_4_b1_q1",
-            "question": "うまに （　　　）ことが ありますか。",
+            "question": "にほんへ （　　　） まえに、べんきょうしました。",
             "options": [
-              "のった",
-              "のらない",
-              "のる",
-              "のって"
+              "いって",
+              "いく",
+              "いった",
+              "いかない"
             ],
-            "correctIndex": 0,
-            "explanation": "Vた ことが あります (Đã từng...)."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Trước khi đi Nhật, tôi đã học tiếng Nhật.\n- Cấu trúc: Vる + まえに (Trước khi làm hành động gì...). Động từ đi trước まえに luôn ở thể từ điển (Vる) -> いく まえに."
           },
           {
             "id": "m_review_16_20_4_b1_q2",
-            "question": "にほんへ （　　　） まえに、べんきょうしました。",
-            "options": [
-              "いかない",
-              "いって",
-              "いった",
-              "いく"
-            ],
-            "correctIndex": 3,
-            "explanation": "Vる まえに (Trước khi...)."
-          },
-          {
-            "id": "m_review_16_20_4_b1_q3",
             "question": "わたしは ピアノを （　　　）が できます。",
             "options": [
+              "ひく",
               "ひいて",
               "ひき",
-              "ひく",
               "ひくこと"
             ],
             "correctIndex": 3,
-            "explanation": "Vる こと が できます (Có thể làm gì)."
+            "explanation": "Dịch nghĩa: Tôi có thể chơi đàn piano.\n- Cấu trúc thể hiện khả năng: [Động từ thể từ điển (Vる)] + こと が できます.\n- Động từ ひきます (chơi đàn) thể từ điển là ひく -> ひくこと."
+          },
+          {
+            "id": "m_review_16_20_4_b1_q3",
+            "question": "この りんごは おいしい（　　　）、やすいです。",
+            "options": [
+              "から",
+              "が",
+              "て",
+              "し"
+            ],
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Quả táo này vừa ngon lại vừa rẻ.\n- Cấu trúc liệt kê các lý do hoặc tính chất tương đồng: [Tính từ đuôi い] + し -> おいしいし (vừa ngon, lại còn...)."
           }
         ]
       },
@@ -5434,25 +5434,25 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_16_20_4_b2_q0",
             "question": "わたしの　___ ___ _★_ ___　です。",
             "options": [
-              "しゅみ",
               "かくこと",
+              "は",
               "えを",
-              "は"
+              "しゅみ"
             ],
             "correctIndex": 2,
-            "explanation": "わたしの しゅみ は えを かくこと です."
+            "explanation": "Dịch nghĩa: Sở thích của tôi là vẽ tranh.\n- Phân tích trật tự từ: わたしの + しゅみ (2) + は (3) + えを (1) + かくこと (4) + です.\n- Cấu trúc: [Sở thích] は [Động từ thể từ điển Vる] + こと です (Sở thích là việc làm gì đó).\n- Vị trí dấu sao nằm ở vị trí thứ 3, tương ứng với cụm từ えを (1)."
           },
           {
             "id": "m_review_16_20_4_b2_q1",
             "question": "ここで　___ ___ _★_ ___　ください。",
             "options": [
-              "は",
+              "とらないde",
               "しゃしん",
-              "とらないで",
+              "は",
               "を"
             ],
-            "correctIndex": 2,
-            "explanation": "ここで しゃしん は/を とらないで ください."
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa: Xin vui lòng không chụp ảnh ở đây.\n- Phân tích trật tự từ: ở đây + しゃしん (2) + を (1) + とらないで (3) + ください.\n- Cấu trúc yêu cầu lịch sự thể phủ định: Vない bỏ い + で ください.\n- Vị trí dấu sao nằm ở từ thứ 3 trong cụm sắp xếp, tương ứng với động từ とらないで (3)."
           }
         ]
       },
@@ -5463,32 +5463,32 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
           "わたしは まいあさ ６じに おきます。",
           "あさごはんを （　１　）まえに、ジョギングを します。",
           "ジョギングは しゅみです。",
-          "そして、シャワーを あびてから、ごはんを たべます。"
+          "그리고, シャワーを あびてから、ごはんを たべます。"
         ],
         "questions": [
           {
             "id": "m_review_16_20_4_d1_q0",
             "question": "（　１　）に入れるものはどれですか。",
             "options": [
-              "たべない",
               "たべて",
               "たべる",
+              "たべない",
               "たべた"
             ],
-            "correctIndex": 2,
-            "explanation": "まえに đi với Vる (たべる まえに)."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa đoạn: \"Tôi thức dậy lúc 6 giờ mỗi sáng. Trước khi ăn sáng, tôi chạy bộ.\"\n- Quy tắc ngữ pháp: Đứng trước まえに luôn là động từ thể từ điển (Vる) -> たべる (ăn)."
           },
           {
             "id": "m_review_16_20_4_d1_q1",
             "question": "ジョギングの あとで、なにを しますか。",
             "options": [
               "あさごはんを たべます",
+              "シャワーを あびます",
               "おきます",
-              "かいしゃへ いきます",
-              "シャワーを あびます"
+              "かいしゃへ いきます"
             ],
-            "correctIndex": 3,
-            "explanation": "ジョギング xong thì シャワーを あびます."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa đoạn: \"Tôi chạy bộ. Và sau khi tắm vòi hoa sen, tôi ăn cơm.\"\n- Sau khi chạy bộ (ジョギング), hành động tiếp theo được nhắc tới là tắm vòi hoa sen (シャワーを あびます)."
           }
         ]
       }
@@ -5505,51 +5505,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_16_20_5_m1_q0",
-            "question": "【午前】 ６時に おきます。",
+            "question": "【午後】の じゅぎょうは ありません。",
             "options": [
-              "ごご",
-              "ごせん",
+              "ko-go",
+              "go-ko",
               "ごぜん",
-              "こうぜん"
+              "ごご"
             ],
-            "correctIndex": 2,
-            "explanation": "午前 đọc là ごぜん (Buổi sáng)."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Không có giờ học buổi chiều.\n- Chữ Hán 【午後】 (Ngọ Hậu) đọc tương ứng là ごご (gogo) nghĩa là buổi chiều (PM).\n- Phân tích đáp án khác: ごぜん (gozen: buổi sáng - AM)."
           },
           {
             "id": "m_review_16_20_5_m1_q1",
-            "question": "【午後】の じゅぎょうは ありません。",
+            "question": "あした 【雨】が ふります。",
             "options": [
-              "ごご",
-              "ごぜん",
-              "ごこう",
-              "こうご"
+              "ゆき",
+              "くも",
+              "はれ",
+              "あめ"
             ],
-            "correctIndex": 0,
-            "explanation": "午後 đọc là ごご (Buổi chiều)."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Ngày mai trời sẽ mưa.\n- Chữ Hán 【雨】 (Vũ) đọc là あめ (ame) nghĩa là mưa.\n- Phân tích các đáp án khác: ゆき (tuyết), はれ (nắng ráo), くも (mây)."
           },
           {
             "id": "m_review_16_20_5_m1_q2",
-            "question": "あした 【雨】が ふります。",
+            "question": "えいがを 【見】ます。",
             "options": [
-              "あめ",
-              "くも",
-              "ゆき",
-              "はれ"
+              "し",
+              "き",
+              "み",
+              "よ"
             ],
-            "correctIndex": 0,
-            "explanation": "雨 đọc là あめ (Mưa)."
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Tôi xem phim.\n- Chữ Hán 【見】 (Kiến) có cách đọc trong động từ 見ます (xem, nhìn) là み (mimasu)."
           },
           {
             "id": "m_review_16_20_5_m1_q3",
-            "question": "えいがを 【見】ます。",
+            "question": "【午前】 ６시에 おきます。",
             "options": [
-              "き",
-              "し",
-              "よ",
-              "み"
+              "khác/sai",
+              "go-sen",
+              "ごぜん",
+              "ごご"
             ],
-            "correctIndex": 3,
-            "explanation": "見 đọc là み."
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Tôi thức dậy lúc 6 giờ sáng.\n- Chữ Hán 【午前】 (Ngọ Tiền) đọc là ごぜん (gozen) nghĩa là buổi sáng (AM)."
           }
         ]
       },
@@ -5561,49 +5561,49 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_16_20_5_m2_q0",
             "question": "【みぎ】へ まがります。",
             "options": [
-              "右",
-              "左",
               "後",
-              "前"
+              "前",
+              "左",
+              "右"
             ],
-            "correctIndex": 0,
-            "explanation": "みぎ (Bên phải) viết là 右."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Rẽ sang bên phải.\n- 【みぎ】 (bên phải) viết bằng chữ Kanji là 右 (Hữu).\n- Phân tích các chữ khác: 左 (Tả - bên trái), 前 (Tiền - phía trước), 後 (Hậu - phía sau)."
           },
           {
             "id": "m_review_16_20_5_m2_q1",
-            "question": "【しゃしん】を とります。",
-            "options": [
-              "真字",
-              "写真",
-              "字真",
-              "真写"
-            ],
-            "correctIndex": 1,
-            "explanation": "しゃしん viết là 写真."
-          },
-          {
-            "id": "m_review_16_20_5_m2_q2",
-            "question": "【ひる】ごはんを たべます。",
+            "question": "【よる】ねます。",
             "options": [
               "朝",
               "昼",
-              "晩",
+              "夕",
               "夜"
             ],
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Tôi đi ngủ vào buổi tối.\n- 【よる】 (buổi tối/đêm) viết bằng chữ Kanji là 夜 (Dạ)."
+          },
+          {
+            "id": "m_review_16_20_5_m2_q2",
+            "question": "【しゃしん】を とります。",
+            "options": [
+              "khác/sai",
+              "写真",
+              "真写",
+              "真字"
+            ],
             "correctIndex": 1,
-            "explanation": "ひる (Buổi trưa) viết là 昼."
+            "explanation": "Dịch nghĩa: Tôi chụp ảnh.\n- 【しゃしん】 (bức ảnh) viết bằng chữ Kanji là 写真 (Tả Chân)."
           },
           {
             "id": "m_review_16_20_5_m2_q3",
-            "question": "【よる】ねます。",
+            "question": "【ひる】ごはんを たべます。",
             "options": [
-              "昼",
-              "夕",
               "夜",
-              "朝"
+              "昼",
+              "朝",
+              "晩"
             ],
-            "correctIndex": 2,
-            "explanation": "よる (Buổi tối) viết là 夜."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Tôi ăn cơm trưa.\n- 【ひる】 (buổi trưa) viết bằng chữ Kanji là 昼 (Trú).\n- Phân tích các đáp án khác: 朝 (buổi sáng), 夜 (buổi tối), 晩 (buổi tối)."
           }
         ]
       },
@@ -5613,51 +5613,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_16_20_5_m3_q0",
-            "question": "ここに くるまを 【　　　】。",
+            "question": "かぜを ひきましたから、くusりを 【　　　】。",
             "options": [
-              "とまらないで ください",
-              "とめて ください",
-              "とめないで ください",
-              "とまる ください"
+              "たべます",
+              "nomiます",
+              "きます",
+              "します"
             ],
-            "correctIndex": 2,
-            "explanation": "Xin đừng đỗ xe ở đây: とめないで ください."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Vì bị cảm nên tôi sẽ uống thuốc.\n- Trong tiếng Nhật, việc uống thuốc dùng động từ のみます (uống) chứ tuyệt đối không dùng động từ たべます (ăn) như tiếng Việt."
           },
           {
             "id": "m_review_16_20_5_m3_q1",
-            "question": "パスポートを 【　　　】。",
+            "question": "あしたは 【　　　】から、どこも いきません。",
             "options": [
-              "みせなくちゃ いいです",
-              "みせなければ なりません",
-              "みせないで ください",
-              "みせても いいです"
+              "あめ",
+              "ゆき",
+              "はれ",
+              "くも"
             ],
-            "correctIndex": 1,
-            "explanation": "Phải cho xem hộ chiếu: みせなければ なりません."
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa: Vì ngày mai trời mưa nên tôi không đi đâu cả.\n- Danh từ chỉ thời tiết kết hợp cùng trợ từ chỉ lý do から (vì...) hợp lý nhất là あめ (mưa)."
           },
           {
             "id": "m_review_16_20_5_m3_q2",
-            "question": "かぜを ひきましたから、くすりを 【　　　】。",
+            "question": "パスポートを 【　　　】。",
             "options": [
-              "きます",
-              "たべます",
-              "のみます",
-              "します"
+              "みせなくちゃ いいis",
+              "みせなければ なりません",
+              "みせても いいです",
+              "みせないで ください"
             ],
-            "correctIndex": 2,
-            "explanation": "Uống thuốc: くすりを のみます."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Bạn phải xuất trình hộ chiếu.\n- Cấu trúc bắt buộc: Vなければ なりません (phải làm gì đó).\n- Động từ みせます (cho xem, xuất trình) chia sang thể phủ định giả định là みせなければ -> みせなければ なりません."
           },
           {
             "id": "m_review_16_20_5_m3_q3",
-            "question": "あしたは 【　　　】から、どこも いきません。",
+            "question": "ここに くるまを 【　　　】。",
             "options": [
-              "くも",
-              "はれ",
-              "ゆき",
-              "あめ"
+              "とめて ください",
+              "とめないで ください",
+              "とまらないで ください",
+              "とまる ください"
             ],
-            "correctIndex": 3,
-            "explanation": "Trời mưa nên không đi đâu cả (あめ)."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Vui lòng không đỗ xe ở đây.\n- Cấu trúc yêu cầu lịch sự \"xin đừng\": Vない bỏ い + で ください.\n- Động từ đỗ xe とめます (tha động từ) chuyển sang thể phủ định là とめない -> とめないで ください.\n- Chú ý: とまります là tự động từ (dừng lại), không dùng ở đây."
           }
         ]
       },
@@ -5669,49 +5669,49 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_16_20_5_b1_q0",
             "question": "わたしは ピアノを （　　　）が できます。",
             "options": [
-              "ひき",
-              "ひいて",
               "ひく",
-              "ひくこと"
+              "ひくこと",
+              "ひき",
+              "ひいて"
             ],
-            "correctIndex": 3,
-            "explanation": "Vる こと が できます (Có thể làm gì)."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Tôi có thể chơi đàn piano.\n- Cấu trúc thể hiện khả năng: [Động từ thể từ điển (Vる)] + こと が できます.\n- Động từ ひきます (chơi đàn) thể từ điển là ひく -> ひくこと."
           },
           {
             "id": "m_review_16_20_5_b1_q1",
             "question": "にほんへ （　　　） まえに、べんきょうしました。",
             "options": [
               "いかない",
-              "いって",
               "いく",
-              "いった"
+              "いった",
+              "いって"
             ],
-            "correctIndex": 2,
-            "explanation": "Vる まえに (Trước khi...)."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Trước khi đi Nhật, tôi đã học tiếng Nhật.\n- Cấu trúc: Vる + まえに (Trước khi làm hành động gì...). Động từ đi trước まえに luôn ở thể từ điển (Vる) -> いく まえに."
           },
           {
             "id": "m_review_16_20_5_b1_q2",
             "question": "うまに （　　　）ことが ありますか。",
             "options": [
-              "のった",
               "のらない",
-              "のって",
-              "のる"
+              "のった",
+              "のる",
+              "のって"
             ],
-            "correctIndex": 0,
-            "explanation": "Vた ことが あります (Đã từng...)."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Bạn đã từng cưỡi ngựa bao giờ chưa?\n- Cấu trúc nói về kinh nghiệm trong quá khứ: Vた + ことが あります (Đã từng làm gì...).\n- Động từ のります (lên xe/cưỡi) chia thể quá khứ là のった."
           },
           {
             "id": "m_review_16_20_5_b1_q3",
             "question": "この りんごは おいしい（　　　）、やすいです。",
             "options": [
-              "から",
               "て",
               "が",
-              "し"
+              "し",
+              "から"
             ],
-            "correctIndex": 3,
-            "explanation": "Vừa ngon lại vừa rẻ: おいしいし、やすいです."
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Quả táo này vừa ngon lại vừa rẻ.\n- Cấu trúc liệt kê các lý do hoặc tính chất tương đồng: [Tính từ đuôi い] + し -> おいしいし (vừa ngon, lại còn...)."
           }
         ]
       },
@@ -5724,24 +5724,24 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "question": "ここで　___ ___ _★_ ___　ください。",
             "options": [
               "を",
-              "は",
-              "とらないで",
-              "しゃしん"
+              "とらないde",
+              "しゃしん",
+              "は"
             ],
-            "correctIndex": 2,
-            "explanation": "ここで しゃしん は/を とらないで ください."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Xin vui lòng không chụp ảnh ở đây.\n- Phân tích trật tự từ: ở đây + しゃしん (2) + を (1) + とらないで (3) + ください.\n- Cấu trúc yêu cầu lịch sự thể phủ định: Vない bỏ い + で ください.\n- Vị trí dấu sao nằm ở từ thứ 3 trong cụm sắp xếp, tương ứng với động từ とらないで (3)."
           },
           {
             "id": "m_review_16_20_5_b2_q1",
             "question": "わたしの　___ ___ _★_ ___　です。",
             "options": [
-              "かくこと",
               "は",
-              "えを",
-              "しゅみ"
+              "かくこと",
+              "しゅみ",
+              "えを"
             ],
-            "correctIndex": 2,
-            "explanation": "わたしの しゅみ は えを かくこと です."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Sở thích của tôi là vẽ tranh.\n- Phân tích trật tự từ: わたしの + しゅみ (2) + は (3) + えを (1) + かくこと (4) + です.\n- Cấu trúc: [Sở thích] は [Động từ thể từ điển Vる] + こと です (Sở thích là việc làm gì đó).\n- Vị trí dấu sao nằm ở vị trí thứ 3, tương ứng với cụm từ えを (1)."
           }
         ]
       },
@@ -5752,7 +5752,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
           "わたしは まいあさ ６じに おきます。",
           "あさごはんを （　１　）まえに、ジョギングを します。",
           "ジョギングは しゅみです。",
-          "そして、シャワーを あびてから、ごはんを たべます。"
+          "그리고, シャワーを あびてから、ごはんを たべます。"
         ],
         "questions": [
           {
@@ -5760,24 +5760,24 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "question": "（　１　）に入れるものはどれですか。",
             "options": [
               "たべた",
+              "たべる",
               "たべない",
-              "たべて",
-              "たべる"
+              "たべて"
             ],
-            "correctIndex": 3,
-            "explanation": "まえに đi với Vる (たべる まえに)."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa đoạn: \"Tôi thức dậy lúc 6 giờ mỗi sáng. Trước khi ăn sáng, tôi chạy bộ.\"\n- Quy tắc ngữ pháp: Đứng trước まえに luôn là động từ thể từ điển (Vる) -> たべる (ăn)."
           },
           {
             "id": "m_review_16_20_5_d1_q1",
             "question": "ジョギングの あとで、なにを しますか。",
             "options": [
+              "あさごはんを たべます",
               "シャワーを あびます",
               "かいしゃへ いきます",
-              "あさごはんを たべます",
               "おきます"
             ],
-            "correctIndex": 0,
-            "explanation": "ジョギング xong thì シャワーを あびます."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa đoạn: \"Tôi chạy bộ. Và sau khi tắm vòi hoa sen, tôi ăn cơm.\"\n- Sau khi chạy bộ (ジョギング), hành động tiếp theo được nhắc tới là tắm vòi hoa sen (シャワーを あびます)."
           }
         ]
       }
@@ -5794,51 +5794,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_21_25_1_m1_q0",
-            "question": "【去年】 にほんへ きました。",
+            "question": "【道】を まっすぐ いきます。",
             "options": [
-              "きょうねん",
-              "こんねん",
-              "きょねん",
-              "こねん"
+              "まち",
+              "みち",
+              "くに",
+              "むら"
             ],
-            "correctIndex": 2,
-            "explanation": "去年 đọc là きょねん (Năm ngoái)."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Đi thẳng theo con đường.\n- Chữ Hán 【道】 (Đạo) đọc tương ứng là みち (michi) nghĩa là con đường.\n- Phân tích các đáp án khác: まち (con phố), むら (ngôi làng), くに (đất nước)."
           },
           {
             "id": "m_review_21_25_1_m1_q1",
-            "question": "【今年】は ２０２３ねんです。",
+            "question": "【電気】を つけます。",
             "options": [
-              "ことし",
-              "こんねん",
-              "きょとし",
-              "こんとし"
+              "てんぎ",
+              "でんき",
+              "でんぎ",
+              "てんき"
             ],
-            "correctIndex": 0,
-            "explanation": "今年 đọc là ことし (Năm nay)."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Tôi bật điện.\n- Chữ Hán 【電気】 (Điện Khí) đọc tương ứng là でんき (denki) nghĩa là điện, đèn điện.\n- Phân tích đáp án khác: てんき (thời tiết - 天気)."
           },
           {
             "id": "m_review_21_25_1_m1_q2",
-            "question": "【道】を まっすぐ いきます。",
+            "question": "【去年】 にほんへ きました。",
             "options": [
-              "くに",
-              "むら",
-              "まち",
-              "みち"
+              "こねん",
+              "きょねん",
+              "こんねん",
+              "きょうねん"
             ],
-            "correctIndex": 3,
-            "explanation": "道 đọc là みち (Đường)."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Năm ngoái tôi đã đến Nhật Bản.\n- Chữ Hán 【去年】 (Khứ Niên) đọc tương ứng là きょねん (kyonen) nghĩa là năm ngoái."
           },
           {
             "id": "m_review_21_25_1_m1_q3",
-            "question": "【電気】を つけます。",
+            "question": "【今年】は ２０２３ねんです。",
             "options": [
-              "でんき",
-              "てんぎ",
-              "てんき",
-              "でんぎ"
+              "こんねん",
+              "こんとし",
+              "きょとし",
+              "ことし"
             ],
-            "correctIndex": 0,
-            "explanation": "電気 đọc là でんき (Điện)."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Năm nay là năm 2023.\n- Chữ Hán 【今年】 (Kim Niên) đọc tương ứng là ことし (kotoshi) nghĩa là năm nay."
           }
         ]
       },
@@ -5848,51 +5848,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_21_25_1_m2_q0",
-            "question": "【おとうと】が います。",
+            "question": "【まいにち】 べんきょうします。",
             "options": [
-              "姉",
-              "妹",
-              "弟",
-              "兄"
+              "毎月",
+              "毎週",
+              "毎日",
+              "毎年"
             ],
             "correctIndex": 2,
-            "explanation": "弟 là Em trai."
+            "explanation": "Dịch nghĩa: Tôi học bài mỗi ngày.\n- 【まいにち】 (mỗi ngày) viết Kanji là 毎日 (Mỗi Nhật)."
           },
           {
             "id": "m_review_21_25_1_m2_q1",
-            "question": "あめが 【ふって】 います。",
+            "question": "【らいねん】は なにを しますか。",
             "options": [
-              "降って",
-              "落ちて",
-              "流って",
-              "下って"
+              "今年",
+              "来年",
+              "毎年",
+              "去年"
             ],
-            "correctIndex": 0,
-            "explanation": "降って là Rơi (mưa)."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Sang năm bạn sẽ làm gì?\n- 【らいねん】 (năm sau) viết Kanji là 来年 (Lai Niên).\n- Phân tích chữ khác: 去年 (năm ngoái), 今年 (năm nay), 毎年 (mỗi năm)."
           },
           {
             "id": "m_review_21_25_1_m2_q2",
-            "question": "【らいねん】は なにを しますか。",
+            "question": "あめが 【ふって】 います。",
             "options": [
-              "来年",
-              "去年",
-              "今年",
-              "毎年"
+              "流って",
+              "下って",
+              "落ちて",
+              "降って"
             ],
-            "correctIndex": 0,
-            "explanation": "らいねん (Năm sau) viết là 来年."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Trời đang mưa.\n- Động từ 【ふって】 (rơi - dùng cho thời tiết mưa/tuyết) viết Kanji là 降って (Hàng).\n- Phân tích chữ khác: 落ちて (rơi rụng - vật lý), 下って (đi xuống)."
           },
           {
             "id": "m_review_21_25_1_m2_q3",
-            "question": "【まいにち】 べんきょうします。",
+            "question": "【おとうと】が います。",
             "options": [
-              "毎日",
-              "毎年",
-              "毎週",
-              "毎月"
+              "姉",
+              "弟",
+              "兄",
+              "妹"
             ],
-            "correctIndex": 0,
-            "explanation": "まいにち (Mỗi ngày) viết là 毎日."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Tôi có em trai.\n- 【おとうと】 (em trai) viết bằng chữ Kanji là 弟 (Đệ).\n- Phân tích chữ khác: 兄 (Huynh - anh trai), 妹 (Muội - em gái), 姉 (Tỷ - chị gái)."
           }
         ]
       },
@@ -5902,51 +5902,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_21_25_1_m3_q0",
-            "question": "ねむい 【　　　】、コーヒーを のみます。",
+            "question": "やすみは 【　　　】ですか。",
             "options": [
-              "たら",
-              "とき",
-              "ば",
-              "と"
+              "ai",
+              "gì",
+              "いつ",
+              "dđâu"
             ],
-            "correctIndex": 1,
-            "explanation": "Khi buồn ngủ (ねむい とき)."
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Khi nào bạn được nghỉ?\n- Từ hỏi mốc thời gian phù hợp nhất là いつ (Khi nào?)."
           },
           {
             "id": "m_review_21_25_1_m3_q1",
-            "question": "きのうは とても 【　　　】です。",
+            "question": "ねむい 【　　　】、コーヒーを のみます。",
             "options": [
-              "いそがしい",
-              "ひま",
-              "いそがしかった",
-              "ひまだった"
+              "ba",
+              "とき",
+              "たら",
+              "と"
             ],
-            "correctIndex": 2,
-            "explanation": "Hôm qua đã rất bận (いそがしかった)."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Khi buồn ngủ, tôi uống cà phê.\n- Cấu trúc chỉ thời điểm: [Tính từ đuôi い] + とき (khi/lúc...). Do đó điền とき."
           },
           {
             "id": "m_review_21_25_1_m3_q2",
             "question": "あめが ふっても、いきます。",
             "options": [
-              "あめが ふりますが、いきます。",
               "あめが ふったら いきません。",
+              "あめが ふったら いきます。",
               "あめが ふらないと いきます。",
-              "あめが ふったら いきます。"
+              "あめが ふりますが、いきます。"
             ],
-            "correctIndex": 0,
-            "explanation": "Dù trời mưa tôi vẫn đi (Cho dù = ても)."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Cho dù trời mưa, tôi vẫn đi.\n- Cấu trúc Vても mang ý nghĩa nhượng bộ giả định (Dù... đi chăng nữa).\n- Ý nghĩa câu này tương đồng nhất với câu dùng trợ từ nghịch lý が: あめが ふりますが、いきます (Trời mưa nhưng tôi vẫn đi)."
           },
           {
             "id": "m_review_21_25_1_m3_q3",
-            "question": "やすみは 【　　　】ですか。",
+            "question": "きのうは とても 【　　　】です。",
             "options": [
-              "だれ",
-              "なん",
-              "どこ",
-              "いつ"
+              "ひまだった",
+              "いそがしかった",
+              "いそがしい",
+              "ひま"
             ],
-            "correctIndex": 3,
-            "explanation": "Khi nào được nghỉ? (いつ)."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Hôm qua tôi đã rất bận.\n- Diễn tả hoàn cảnh trong quá khứ (きのう).\n- Tính từ đuôi い (いそがしい) chia quá khứ lịch sự là bỏ い thêm かったです -> いそgがしかった (ở đây đứng trước です nên chọn いそがしかった)."
           }
         ]
       },
@@ -5956,51 +5956,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_21_25_1_b1_q0",
-            "question": "じかんが なかった（　　　）、ほんを よみません。",
+            "question": "わたしは にほんごが はなせる（　　　） に なりました。",
             "options": [
-              "たら",
-              "ば",
-              "から",
-              "と"
+              "こと",
+              "ところ",
+              "もの",
+              "よう"
             ],
-            "correctIndex": 0,
-            "explanation": "Nếu không có thời gian -> なかったら."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Tôi đã có thể nói được tiếng Nhật.\n- Cấu trúc diễn tả sự biến đổi năng lực: [Động từ thể khả năng] + よう に なります (trở nên có thể làm gì).\n- Điền trực tiếp chữ よう."
           },
           {
             "id": "m_review_21_25_1_b1_q1",
-            "question": "これは わたしが （　　　） かばんです。",
+            "question": "じかんが なかった（　　　）、ほんを よみません。",
             "options": [
-              "かい",
-              "かって",
-              "かう",
-              "かった"
+              "ba",
+              "と",
+              "たら",
+              "から"
             ],
-            "correctIndex": 3,
-            "explanation": "Mệnh đề bổ nghĩa cho danh từ: かった かばん."
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Nếu không có thời gian, tôi sẽ không đọc sách.\n- Cấu trúc điều kiện giả định: Vたら (Nếu... thì...).\n- Thể phủ định quá khứ なかった kết hợp với đuôi ら thành なかったら (nếu không có)."
           },
           {
             "id": "m_review_21_25_1_b1_q2",
-            "question": "あしたは あめが ふる（　　　） おもいます。",
+            "question": "これは わたしが （　　　） かばんです。",
             "options": [
-              "に",
-              "で",
-              "を",
-              "と"
+              "かって",
+              "かった",
+              "かう",
+              "かい"
             ],
-            "correctIndex": 3,
-            "explanation": "Mẫu câu ～と おもいます (Tôi nghĩ là...)."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Đây là chiếc túi xách mà tôi đã mua.\n- Mệnh đề định ngữ bổ nghĩa cho danh từ かばん: [Động từ chia thể quá khứ Vた] + かばん (chiếc túi đã mua).\n- Động từ かいます chia thể quá khứ là かった."
           },
           {
             "id": "m_review_21_25_1_b1_q3",
-            "question": "わたしは にほんごが はなせる（　　　） に なりました。",
+            "question": "あしたは あめが ふる（　　　） おもいます。",
             "options": [
-              "よう",
-              "ところ",
-              "もの",
-              "こと"
+              "で",
+              "に",
+              "と",
+              "を"
             ],
-            "correctIndex": 0,
-            "explanation": "Đã có thể nói tiếng Nhật (～ようになる)."
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Tôi nghĩ ngày mai trời sẽ mưa.\n- Cấu trúc biểu thị suy nghĩ, phán đoán: [Thể thông thường] + と おもいます (Tôi nghĩ rằng...).\n- Trợ từ dùng để trích dẫn suy nghĩ bắt buộc là と."
           }
         ]
       },
@@ -6010,27 +6010,27 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_21_25_1_b2_q0",
-            "question": "あの　___ ___ _★_ ___　は だれですか。",
-            "options": [
-              "ひと",
-              "を",
-              "メガネ",
-              "かけている"
-            ],
-            "correctIndex": 3,
-            "explanation": "あの メガネ を かけている ひと は だれですか."
-          },
-          {
-            "id": "m_review_21_25_1_b2_q1",
             "question": "たのしく　___ ___ _★_ ___　と おもいます。",
             "options": [
               "ない",
-              "あしたの",
-              "パーティー",
-              "は"
+              "pパーティー",
+              "は",
+              "あしたの"
             ],
             "correctIndex": 0,
-            "explanation": "あしたの パーティー は たのしく ない と おもいます."
+            "explanation": "Dịch nghĩa: Tôi nghĩ bữa tiệc ngày mai sẽ không vui đâu.\n- Phân tích trật tự từ: あしたの (1) + パーティー (3) + は (2) + たのしくない (tính từ gốc たのしく ghép với ない (4)) + と おもいます.\n- Vị trí dấu sao nằm ở từ thứ 3 trong cụm sắp xếp, tương ứng với tính từ phủ định ない (4)."
+          },
+          {
+            "id": "m_review_21_25_1_b2_q1",
+            "question": "あの　___ ___ _★_ ___　は だれですか。",
+            "options": [
+              "を",
+              "メガネ",
+              "ひと",
+              "かけている"
+            ],
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Người đang đeo kính kia là ai thế?\n- Phân tích trật tự từ: あの + メガネ (3) + を (1) + かけている (4) + ひと (2) + はだれですか.\n- Mệnh đề định ngữ bổ sung cho người (ひと): メガネをかけている (đang đeo kính).\n- Vị trí dấu sao nằm ở từ thứ 3 trong cụm sắp xếp, tương ứng với động từ かけている (4)."
           }
         ]
       },
@@ -6048,25 +6048,25 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_21_25_1_d1_q0",
             "question": "（　１　）に入れるものはどれですか。",
             "options": [
-              "くれました",
               "あげました",
-              "もらいました",
-              "しました"
+              "くれました",
+              "しました",
+              "もらいました"
             ],
-            "correctIndex": 0,
-            "explanation": "Bạn bè làm (cho mình) -> つくって くれました."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa đoạn: \"Hôm qua tôi đi đến nhà bạn chơi. Bạn tôi đã làm cho tôi một chiếc bánh kem ngon.\"\n- Cấu trúc ai đó thực hiện hành động giúp đỡ/cho mình: Vて くれました (hành động từ bạn hướng về tôi)."
           },
           {
             "id": "m_review_21_25_1_d1_q1",
             "question": "（　２　）に入れるものはどれですか。",
             "options": [
               "たべて",
+              "たべたい",
               "たべた",
-              "たべる",
-              "たべたい"
+              "たべる"
             ],
-            "correctIndex": 3,
-            "explanation": "Tôi nghĩ tôi MONG MUỐN ăn lại -> たべたい."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa đoạn: \"Nó rất ngon. Tôi nghĩ tôi muốn ăn bánh kem đó một lần nữa.\"\n- Cấu trúc nói về mong muốn bản thân: Vたい + と おもいます (Tôi nghĩ tôi muốn làm gì đó) -> たべたい."
           }
         ]
       }
@@ -6083,51 +6083,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_21_25_2_m1_q0",
-            "question": "【電気】を つけます。",
+            "question": "【今年】は ２０２３ねんです。",
             "options": [
-              "てんき",
-              "でんき",
-              "でんぎ",
-              "てんぎ"
+              "きょとし",
+              "ことし",
+              "こんねん",
+              "こんとし"
             ],
             "correctIndex": 1,
-            "explanation": "電気 đọc là でんき (Điện)."
+            "explanation": "Dịch nghĩa: Năm nay là năm 2023.\n- Chữ Hán 【今年】 (Kim Niên) đọc tương ứng là ことし (kotoshi) nghĩa là năm nay."
           },
           {
             "id": "m_review_21_25_2_m1_q1",
-            "question": "【道】を まっすぐ いきます。",
-            "options": [
-              "くに",
-              "むら",
-              "みち",
-              "まち"
-            ],
-            "correctIndex": 2,
-            "explanation": "道 đọc là みち (Đường)."
-          },
-          {
-            "id": "m_review_21_25_2_m1_q2",
             "question": "【去年】 にほんへ きました。",
             "options": [
-              "きょうねん",
-              "こんねん",
               "こねん",
+              "こんねん",
+              "きょうねん",
               "きょねん"
             ],
             "correctIndex": 3,
-            "explanation": "去年 đọc là きょねん (Năm ngoái)."
+            "explanation": "Dịch nghĩa: Năm ngoái tôi đã đến Nhật Bản.\n- Chữ Hán 【去年】 (Khứ Niên) đọc tương ứng là きょねん (kyonen) nghĩa là năm ngoái."
+          },
+          {
+            "id": "m_review_21_25_2_m1_q2",
+            "question": "【電気】を つけます。",
+            "options": [
+              "でんき",
+              "でんぎ",
+              "てんぎ",
+              "てんき"
+            ],
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa: Tôi bật điện.\n- Chữ Hán 【電気】 (Điện Khí) đọc tương ứng là でんき (denki) nghĩa là điện, đèn điện.\n- Phân tích đáp án khác: てんき (thời tiết - 天気)."
           },
           {
             "id": "m_review_21_25_2_m1_q3",
-            "question": "【今年】は ２０２３ねんです。",
+            "question": "【道】を まっすぐ いきます。",
             "options": [
-              "こんとし",
-              "ことし",
-              "こんねん",
-              "きょとし"
+              "みち",
+              "まち",
+              "むら",
+              "くに"
             ],
-            "correctIndex": 1,
-            "explanation": "今年 đọc là ことし (Năm nay)."
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa: Đi thẳng theo con đường.\n- Chữ Hán 【道】 (Đạo) đọc tương ứng là みち (michi) nghĩa là con đường.\n- Phân tích các đáp án khác: まち (con phố), むら (ngôi làng), くに (đất nước)."
           }
         ]
       },
@@ -6137,51 +6137,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_21_25_2_m2_q0",
-            "question": "【おとうと】が います。",
+            "question": "あめが 【ふって】 います。",
             "options": [
-              "姉",
-              "妹",
-              "兄",
-              "弟"
+              "下って",
+              "落ちて",
+              "降って",
+              "流って"
             ],
-            "correctIndex": 3,
-            "explanation": "弟 là Em trai."
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Trời đang mưa.\n- Động từ 【ふって】 (rơi - dùng cho thời tiết mưa/tuyết) viết Kanji là 降って (Hàng).\n- Phân tích chữ khác: 落ちて (rơi rụng - vật lý), 下って (đi xuống)."
           },
           {
             "id": "m_review_21_25_2_m2_q1",
-            "question": "あめが 【ふって】 います。",
-            "options": [
-              "流って",
-              "落ちて",
-              "下って",
-              "降って"
-            ],
-            "correctIndex": 3,
-            "explanation": "降って là Rơi (mưa)."
-          },
-          {
-            "id": "m_review_21_25_2_m2_q2",
             "question": "【らいねん】は なにを しますか。",
             "options": [
               "来年",
-              "今年",
+              "毎年",
               "去年",
-              "毎年"
+              "今年"
             ],
             "correctIndex": 0,
-            "explanation": "らいねん (Năm sau) viết là 来年."
+            "explanation": "Dịch nghĩa: Sang năm bạn sẽ làm gì?\n- 【らいねん】 (năm sau) viết Kanji là 来年 (Lai Niên).\n- Phân tích chữ khác: 去年 (năm ngoái), 今年 (năm nay), 毎年 (mỗi năm)."
           },
           {
-            "id": "m_review_21_25_2_m2_q3",
+            "id": "m_review_21_25_2_m2_q2",
             "question": "【まいにち】 べんきょうします。",
             "options": [
-              "毎日",
               "毎週",
+              "毎日",
               "毎月",
               "毎年"
             ],
-            "correctIndex": 0,
-            "explanation": "まいにち (Mỗi ngày) viết là 毎日."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Tôi học bài mỗi ngày.\n- 【まいにち】 (mỗi ngày) viết Kanji là 毎日 (Mỗi Nhật)."
+          },
+          {
+            "id": "m_review_21_25_2_m2_q3",
+            "question": "【おとうと】が います。",
+            "options": [
+              "姉",
+              "兄",
+              "弟",
+              "妹"
+            ],
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Tôi có em trai.\n- 【おとうと】 (em trai) viết bằng chữ Kanji là 弟 (Đệ).\n- Phân tích chữ khác: 兄 (Huynh - anh trai), 妹 (Muội - em gái), 姉 (Tỷ - chị gái)."
           }
         ]
       },
@@ -6191,51 +6191,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_21_25_2_m3_q0",
-            "question": "あめが ふっても、いきます。",
+            "question": "やすみは 【　　　】ですか。",
             "options": [
-              "あめが ふったら いきます。",
-              "あめが ふりますが、いきます。",
-              "あめが ふったら いきません。",
-              "あめが ふらないと いきます。"
+              "ai",
+              "いつ",
+              "dđâu",
+              "gì"
             ],
             "correctIndex": 1,
-            "explanation": "Dù trời mưa tôi vẫn đi (Cho dù = ても)."
+            "explanation": "Dịch nghĩa: Khi nào bạn được nghỉ?\n- Từ hỏi mốc thời gian phù hợp nhất là いつ (Khi nào?)."
           },
           {
             "id": "m_review_21_25_2_m3_q1",
             "question": "ねむい 【　　　】、コーヒーを のみます。",
             "options": [
               "とき",
-              "と",
-              "ば",
-              "たら"
+              "ba",
+              "たら",
+              "と"
             ],
             "correctIndex": 0,
-            "explanation": "Khi buồn ngủ (ねむい とき)."
+            "explanation": "Dịch nghĩa: Khi buồn ngủ, tôi uống cà phê.\n- Cấu trúc chỉ thời điểm: [Tính từ đuôi い] + とき (khi/lúc...). Do đó điền とき."
           },
           {
             "id": "m_review_21_25_2_m3_q2",
-            "question": "やすみは 【　　　】ですか。",
+            "question": "あめが ふっても、いきます。",
             "options": [
-              "だれ",
-              "いつ",
-              "どこ",
-              "なん"
+              "あめが ふらないと いきます。",
+              "あめが ふりますが、いきます。",
+              "あめが ふったら いきます。",
+              "あめが ふったら いきません。"
             ],
             "correctIndex": 1,
-            "explanation": "Khi nào được nghỉ? (いつ)."
+            "explanation": "Dịch nghĩa: Cho dù trời mưa, tôi vẫn đi.\n- Cấu trúc Vても mang ý nghĩa nhượng bộ giả định (Dù... đi chăng nữa).\n- Ý nghĩa câu này tương đồng nhất với câu dùng trợ từ nghịch lý が: あめが ふりますが、いきます (Trời mưa nhưng tôi vẫn đi)."
           },
           {
             "id": "m_review_21_25_2_m3_q3",
             "question": "きのうは とても 【　　　】です。",
             "options": [
-              "ひま",
-              "ひまだった",
               "いそがしかった",
-              "いそがしい"
+              "ひま",
+              "いそがしい",
+              "ひまだった"
             ],
-            "correctIndex": 2,
-            "explanation": "Hôm qua đã rất bận (いそがしかった)."
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa: Hôm qua tôi đã rất bận.\n- Diễn tả hoàn cảnh trong quá khứ (きのう).\n- Tính từ đuôi い (いそがしい) chia quá khứ lịch sự là bỏ い thêm かったです -> いそgがしかった (ở đây đứng trước です nên chọn いそがしかった)."
           }
         ]
       },
@@ -6245,51 +6245,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_21_25_2_b1_q0",
-            "question": "わたしは にほんごが はなせる（　　　） に なりました。",
+            "question": "これは わたしが （　　　） かばんです。",
             "options": [
-              "よう",
-              "こと",
-              "ところ",
-              "もの"
+              "かった",
+              "かう",
+              "かって",
+              "かい"
             ],
             "correctIndex": 0,
-            "explanation": "Đã có thể nói tiếng Nhật (～ようになる)."
+            "explanation": "Dịch nghĩa: Đây là chiếc túi xách mà tôi đã mua.\n- Mệnh đề định ngữ bổ nghĩa cho danh từ かばん: [Động từ chia thể quá khứ Vた] + かばん (chiếc túi đã mua).\n- Động từ かいます chia thể quá khứ là かった."
           },
           {
             "id": "m_review_21_25_2_b1_q1",
-            "question": "じかんが なかった（　　　）、ほんを よみません。",
+            "question": "わたしは にほんごが はなせる（　　　） に なりました。",
             "options": [
-              "ば",
-              "たら",
-              "と",
-              "から"
+              "こと",
+              "よう",
+              "もの",
+              "ところ"
             ],
             "correctIndex": 1,
-            "explanation": "Nếu không có thời gian -> なかったら."
+            "explanation": "Dịch nghĩa: Tôi đã có thể nói được tiếng Nhật.\n- Cấu trúc diễn tả sự biến đổi năng lực: [Động từ thể khả năng] + よう に なります (trở nên có thể làm gì).\n- Điền trực tiếp chữ よう."
           },
           {
             "id": "m_review_21_25_2_b1_q2",
-            "question": "これは わたしが （　　　） かばんです。",
+            "question": "じかんが なかった（　　　）、ほんを よみません。",
             "options": [
-              "かって",
-              "かい",
-              "かう",
-              "かった"
+              "たら",
+              "と",
+              "ba",
+              "から"
             ],
-            "correctIndex": 3,
-            "explanation": "Mệnh đề bổ nghĩa cho danh từ: かった かばん."
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa: Nếu không có thời gian, tôi sẽ không đọc sách.\n- Cấu trúc điều kiện giả định: Vたら (Nếu... thì...).\n- Thể phủ định quá khứ なかった kết hợp với đuôi ら thành なかったら (nếu không có)."
           },
           {
             "id": "m_review_21_25_2_b1_q3",
             "question": "あしたは あめが ふる（　　　） おもいます。",
             "options": [
-              "と",
               "を",
               "で",
-              "に"
+              "に",
+              "と"
             ],
-            "correctIndex": 0,
-            "explanation": "Mẫu câu ～と おもいます (Tôi nghĩ là...)."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Tôi nghĩ ngày mai trời sẽ mưa.\n- Cấu trúc biểu thị suy nghĩ, phán đoán: [Thể thông thường] + と おもいます (Tôi nghĩ rằng...).\n- Trợ từ dùng để trích dẫn suy nghĩ bắt buộc là と."
           }
         ]
       },
@@ -6299,27 +6299,27 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_21_25_2_b2_q0",
-            "question": "あの　___ ___ _★_ ___　は だれですか。",
+            "question": "たのしく　___ ___ _★_ ___　と おもいます。",
             "options": [
-              "ひと",
-              "メガネ",
-              "かけている",
-              "を"
+              "は",
+              "あしたの",
+              "ない",
+              "pパーティー"
             ],
             "correctIndex": 2,
-            "explanation": "あの メガネ を かけている ひと は だれですか."
+            "explanation": "Dịch nghĩa: Tôi nghĩ bữa tiệc ngày mai sẽ không vui đâu.\n- Phân tích trật tự từ: あしたの (1) + パーティー (3) + は (2) + たのしくない (tính từ gốc たのしく ghép với ない (4)) + と おもいます.\n- Vị trí dấu sao nằm ở từ thứ 3 trong cụm sắp xếp, tương ứng với tính từ phủ định ない (4)."
           },
           {
             "id": "m_review_21_25_2_b2_q1",
-            "question": "たのしく　___ ___ _★_ ___　と おもいます。",
+            "question": "あの　___ ___ _★_ ___　は だれですか。",
             "options": [
-              "ない",
-              "パーティー",
-              "は",
-              "あしたの"
+              "メガネ",
+              "ひと",
+              "を",
+              "かけている"
             ],
-            "correctIndex": 0,
-            "explanation": "あしたの パーティー は たのしく ない と おもいます."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Người đang đeo kính kia là ai thế?\n- Phân tích trật tự từ: あの + メガネ (3) + を (1) + かけている (4) + ひと (2) + はだれですか.\n- Mệnh đề định ngữ bổ sung cho người (ひと): メガネをかけている (đang đeo kính).\n- Vị trí dấu sao nằm ở từ thứ 3 trong cụm sắp xếp, tương ứng với động từ かけている (4)."
           }
         ]
       },
@@ -6337,25 +6337,25 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_21_25_2_d1_q0",
             "question": "（　１　）に入れるものはどれですか。",
             "options": [
+              "あげました",
               "もらいました",
               "しました",
-              "あげました",
               "くれました"
             ],
             "correctIndex": 3,
-            "explanation": "Bạn bè làm (cho mình) -> つくって くれました."
+            "explanation": "Dịch nghĩa đoạn: \"Hôm qua tôi đi đến nhà bạn chơi. Bạn tôi đã làm cho tôi một chiếc bánh kem ngon.\"\n- Cấu trúc ai đó thực hiện hành động giúp đỡ/cho mình: Vて くれました (hành động từ bạn hướng về tôi)."
           },
           {
             "id": "m_review_21_25_2_d1_q1",
             "question": "（　２　）に入れるものはどれですか。",
             "options": [
-              "たべる",
-              "たべたい",
               "たべた",
-              "たべて"
+              "たべる",
+              "たべて",
+              "たべたい"
             ],
-            "correctIndex": 1,
-            "explanation": "Tôi nghĩ tôi MONG MUỐN ăn lại -> たべたい."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa đoạn: \"Nó rất ngon. Tôi nghĩ tôi muốn ăn bánh kem đó một lần nữa.\"\n- Cấu trúc nói về mong muốn bản thân: Vたい + と おもいます (Tôi nghĩ tôi muốn làm gì đó) -> たべたい."
           }
         ]
       }
@@ -6372,42 +6372,6 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_21_25_3_m1_q0",
-            "question": "【今年】は ２０２３ねんです。",
-            "options": [
-              "ことし",
-              "こんとし",
-              "こんねん",
-              "きょとし"
-            ],
-            "correctIndex": 0,
-            "explanation": "今年 đọc là ことし (Năm nay)."
-          },
-          {
-            "id": "m_review_21_25_3_m1_q1",
-            "question": "【道】を まっすぐ いきます。",
-            "options": [
-              "くに",
-              "むら",
-              "まち",
-              "みち"
-            ],
-            "correctIndex": 3,
-            "explanation": "道 đọc là みち (Đường)."
-          },
-          {
-            "id": "m_review_21_25_3_m1_q2",
-            "question": "【去年】 にほんへ きました。",
-            "options": [
-              "こねん",
-              "きょうねん",
-              "きょねん",
-              "こんねん"
-            ],
-            "correctIndex": 2,
-            "explanation": "去年 đọc là きょねん (Năm ngoái)."
-          },
-          {
-            "id": "m_review_21_25_3_m1_q3",
             "question": "【電気】を つけます。",
             "options": [
               "てんき",
@@ -6416,7 +6380,43 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "てんぎ"
             ],
             "correctIndex": 1,
-            "explanation": "電気 đọc là でんき (Điện)."
+            "explanation": "Dịch nghĩa: Tôi bật điện.\n- Chữ Hán 【電気】 (Điện Khí) đọc tương ứng là でんき (denki) nghĩa là điện, đèn điện.\n- Phân tích đáp án khác: てんき (thời tiết - 天気)."
+          },
+          {
+            "id": "m_review_21_25_3_m1_q1",
+            "question": "【道】を まっすぐ いきます。",
+            "options": [
+              "みち",
+              "むら",
+              "まち",
+              "くに"
+            ],
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa: Đi thẳng theo con đường.\n- Chữ Hán 【道】 (Đạo) đọc tương ứng là みち (michi) nghĩa là con đường.\n- Phân tích các đáp án khác: まち (con phố), むら (ngôi làng), くに (đất nước)."
+          },
+          {
+            "id": "m_review_21_25_3_m1_q2",
+            "question": "【去年】 にほんへ きました。",
+            "options": [
+              "こんねん",
+              "こねん",
+              "きょうねん",
+              "きょねん"
+            ],
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Năm ngoái tôi đã đến Nhật Bản.\n- Chữ Hán 【去年】 (Khứ Niên) đọc tương ứng là きょねん (kyonen) nghĩa là năm ngoái."
+          },
+          {
+            "id": "m_review_21_25_3_m1_q3",
+            "question": "【今年】は ２０２３ねんです。",
+            "options": [
+              "ことし",
+              "こんねん",
+              "こんとし",
+              "きょとし"
+            ],
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa: Năm nay là năm 2023.\n- Chữ Hán 【今年】 (Kim Niên) đọc tương ứng là ことし (kotoshi) nghĩa là năm nay."
           }
         ]
       },
@@ -6428,49 +6428,49 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_21_25_3_m2_q0",
             "question": "【らいねん】は なにを しますか。",
             "options": [
-              "今年",
               "毎年",
               "来年",
-              "去年"
+              "去年",
+              "今年"
             ],
-            "correctIndex": 2,
-            "explanation": "らいねん (Năm sau) viết là 来年."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Sang năm bạn sẽ làm gì?\n- 【らいねん】 (năm sau) viết Kanji là 来年 (Lai Niên).\n- Phân tích chữ khác: 去年 (năm ngoái), 今年 (năm nay), 毎年 (mỗi năm)."
           },
           {
             "id": "m_review_21_25_3_m2_q1",
-            "question": "【まいにち】 べんきょうします。",
+            "question": "あめが 【ふって】 います。",
             "options": [
-              "毎日",
-              "毎週",
-              "毎月",
-              "毎年"
+              "流って",
+              "降って",
+              "落ちて",
+              "下って"
             ],
-            "correctIndex": 0,
-            "explanation": "まいにち (Mỗi ngày) viết là 毎日."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Trời đang mưa.\n- Động từ 【ふって】 (rơi - dùng cho thời tiết mưa/tuyết) viết Kanji là 降って (Hàng).\n- Phân tích chữ khác: 落ちて (rơi rụng - vật lý), 下って (đi xuống)."
           },
           {
             "id": "m_review_21_25_3_m2_q2",
-            "question": "あめが 【ふって】 います。",
+            "question": "【おとうと】が います。",
             "options": [
-              "降って",
-              "落ちて",
-              "下って",
-              "流って"
+              "弟",
+              "妹",
+              "姉",
+              "兄"
             ],
             "correctIndex": 0,
-            "explanation": "降って là Rơi (mưa)."
+            "explanation": "Dịch nghĩa: Tôi có em trai.\n- 【おとうと】 (em trai) viết bằng chữ Kanji là 弟 (Đệ).\n- Phân tích chữ khác: 兄 (Huynh - anh trai), 妹 (Muội - em gái), 姉 (Tỷ - chị gái)."
           },
           {
             "id": "m_review_21_25_3_m2_q3",
-            "question": "【おとうと】が います。",
+            "question": "【まいにち】 べんきょうします。",
             "options": [
-              "姉",
-              "妹",
-              "兄",
-              "弟"
+              "毎週",
+              "毎日",
+              "毎月",
+              "毎年"
             ],
-            "correctIndex": 3,
-            "explanation": "弟 là Em trai."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Tôi học bài mỗi ngày.\n- 【まいにち】 (mỗi ngày) viết Kanji là 毎日 (Mỗi Nhật)."
           }
         ]
       },
@@ -6480,51 +6480,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_21_25_3_m3_q0",
-            "question": "あめが ふっても、いきます。",
+            "question": "やすみは 【　　　】ですか。",
             "options": [
-              "あめが ふりますが、いきます。",
-              "あめが ふったら いきます。",
-              "あめが ふったら いきません。",
-              "あめが ふらないと いきます。"
+              "ai",
+              "dđâu",
+              "いつ",
+              "gì"
             ],
-            "correctIndex": 0,
-            "explanation": "Dù trời mưa tôi vẫn đi (Cho dù = ても)."
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Khi nào bạn được nghỉ?\n- Từ hỏi mốc thời gian phù hợp nhất là いつ (Khi nào?)."
           },
           {
             "id": "m_review_21_25_3_m3_q1",
-            "question": "きのうは とても 【　　　】です。",
-            "options": [
-              "ひまだった",
-              "いそがしい",
-              "いそがしかった",
-              "ひま"
-            ],
-            "correctIndex": 2,
-            "explanation": "Hôm qua đã rất bận (いそがしかった)."
-          },
-          {
-            "id": "m_review_21_25_3_m3_q2",
             "question": "ねむい 【　　　】、コーヒーを のみます。",
             "options": [
               "たら",
               "とき",
-              "ば",
-              "と"
+              "と",
+              "ba"
             ],
             "correctIndex": 1,
-            "explanation": "Khi buồn ngủ (ねむい とき)."
+            "explanation": "Dịch nghĩa: Khi buồn ngủ, tôi uống cà phê.\n- Cấu trúc chỉ thời điểm: [Tính từ đuôi い] + とき (khi/lúc...). Do đó điền とき."
+          },
+          {
+            "id": "m_review_21_25_3_m3_q2",
+            "question": "あめが ふっても、いきます。",
+            "options": [
+              "あめが ふったら いきます。",
+              "あめが ふったら いきません。",
+              "あめが ふりますが、いきます。",
+              "あめが ふらないと いきます。"
+            ],
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Cho dù trời mưa, tôi vẫn đi.\n- Cấu trúc Vても mang ý nghĩa nhượng bộ giả định (Dù... đi chăng nữa).\n- Ý nghĩa câu này tương đồng nhất với câu dùng trợ từ nghịch lý が: あめが ふりますが、いきます (Trời mưa nhưng tôi vẫn đi)."
           },
           {
             "id": "m_review_21_25_3_m3_q3",
-            "question": "やすみは 【　　　】ですか。",
+            "question": "きのうは とても 【　　　】です。",
             "options": [
-              "いつ",
-              "なん",
-              "どこ",
-              "だれ"
+              "ひま",
+              "ひまだった",
+              "いそがしい",
+              "いそがしかった"
             ],
-            "correctIndex": 0,
-            "explanation": "Khi nào được nghỉ? (いつ)."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Hôm qua tôi đã rất bận.\n- Diễn tả hoàn cảnh trong quá khứ (きのう).\n- Tính từ đuôi い (いそがしい) chia quá khứ lịch sự là bỏ い thêm かったです -> いそgがしかった (ở đây đứng trước です nên chọn いそがしかった)."
           }
         ]
       },
@@ -6534,51 +6534,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_21_25_3_b1_q0",
-            "question": "じかんが なかった（　　　）、ほんを よみません。",
+            "question": "あしたは あめが ふる（　　　） おもいます。",
             "options": [
-              "から",
-              "ば",
               "と",
-              "たら"
+              "を",
+              "で",
+              "に"
             ],
-            "correctIndex": 3,
-            "explanation": "Nếu không có thời gian -> なかったら."
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa: Tôi nghĩ ngày mai trời sẽ mưa.\n- Cấu trúc biểu thị suy nghĩ, phán đoán: [Thể thông thường] + と おもいます (Tôi nghĩ rằng...).\n- Trợ từ dùng để trích dẫn suy nghĩ bắt buộc là と."
           },
           {
             "id": "m_review_21_25_3_b1_q1",
             "question": "これは わたしが （　　　） かばんです。",
             "options": [
+              "かい",
               "かった",
               "かって",
-              "かう",
-              "かい"
+              "かう"
             ],
-            "correctIndex": 0,
-            "explanation": "Mệnh đề bổ nghĩa cho danh từ: かった かばん."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Đây là chiếc túi xách mà tôi đã mua.\n- Mệnh đề định ngữ bổ nghĩa cho danh từ かばん: [Động từ chia thể quá khứ Vた] + かばん (chiếc túi đã mua).\n- Động từ かいます chia thể quá khứ là かった."
           },
           {
             "id": "m_review_21_25_3_b1_q2",
-            "question": "わたしは にほんごが はなせる（　　　） に なりました。",
+            "question": "じかんが なかった（　　　）、ほんを よみません。",
             "options": [
-              "ところ",
-              "よう",
-              "こと",
-              "もの"
+              "ba",
+              "と",
+              "たら",
+              "から"
             ],
-            "correctIndex": 1,
-            "explanation": "Đã có thể nói tiếng Nhật (～ようになる)."
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Nếu không có thời gian, tôi sẽ không đọc sách.\n- Cấu trúc điều kiện giả định: Vたら (Nếu... thì...).\n- Thể phủ định quá khứ なかった kết hợp với đuôi ら thành なかったら (nếu không có)."
           },
           {
             "id": "m_review_21_25_3_b1_q3",
-            "question": "あしたは あめが ふる（　　　） おもいます。",
+            "question": "わたしは にほんごが はなせる（　　　） に なりました。",
             "options": [
-              "で",
-              "に",
-              "を",
-              "と"
+              "ところ",
+              "こと",
+              "もの",
+              "よう"
             ],
             "correctIndex": 3,
-            "explanation": "Mẫu câu ～と おもいます (Tôi nghĩ là...)."
+            "explanation": "Dịch nghĩa: Tôi đã có thể nói được tiếng Nhật.\n- Cấu trúc diễn tả sự biến đổi năng lực: [Động từ thể khả năng] + よう に なります (trở nên có thể làm gì).\n- Điền trực tiếp chữ よう."
           }
         ]
       },
@@ -6590,25 +6590,25 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_21_25_3_b2_q0",
             "question": "たのしく　___ ___ _★_ ___　と おもいます。",
             "options": [
-              "パーティー",
-              "ない",
+              "あしたの",
               "は",
-              "あしたの"
+              "pパーティー",
+              "ない"
             ],
-            "correctIndex": 1,
-            "explanation": "あしたの パーティー は たのしく ない と おもいます."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Tôi nghĩ bữa tiệc ngày mai sẽ không vui đâu.\n- Phân tích trật tự từ: あしたの (1) + パーティー (3) + は (2) + たのしくない (tính từ gốc たのしく ghép với ない (4)) + と おもいます.\n- Vị trí dấu sao nằm ở từ thứ 3 trong cụm sắp xếp, tương ứng với tính từ phủ định ない (4)."
           },
           {
             "id": "m_review_21_25_3_b2_q1",
             "question": "あの　___ ___ _★_ ___　は だれですか。",
             "options": [
-              "ひと",
-              "を",
               "かけている",
-              "メガネ"
+              "ひと",
+              "メガネ",
+              "を"
             ],
-            "correctIndex": 2,
-            "explanation": "あの メガネ を かけている ひと は だれですか."
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa: Người đang đeo kính kia là ai thế?\n- Phân tích trật tự từ: あの + メガネ (3) + を (1) + かけている (4) + ひと (2) + はだれですか.\n- Mệnh đề định ngữ bổ sung cho người (ひと): メガネをかけている (đang đeo kính).\n- Vị trí dấu sao nằm ở từ thứ 3 trong cụm sắp xếp, tương ứng với động từ かけている (4)."
           }
         ]
       },
@@ -6626,25 +6626,25 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_21_25_3_d1_q0",
             "question": "（　１　）に入れるものはどれですか。",
             "options": [
-              "しました",
               "あげました",
+              "しました",
               "もらいました",
               "くれました"
             ],
             "correctIndex": 3,
-            "explanation": "Bạn bè làm (cho mình) -> つくって くれました."
+            "explanation": "Dịch nghĩa đoạn: \"Hôm qua tôi đi đến nhà bạn chơi. Bạn tôi đã làm cho tôi một chiếc bánh kem ngon.\"\n- Cấu trúc ai đó thực hiện hành động giúp đỡ/cho mình: Vて くれました (hành động từ bạn hướng về tôi)."
           },
           {
             "id": "m_review_21_25_3_d1_q1",
             "question": "（　２　）に入れるものはどれですか。",
             "options": [
-              "たべたい",
-              "たべて",
               "たべる",
-              "たべた"
+              "たべた",
+              "たべて",
+              "たべたい"
             ],
-            "correctIndex": 0,
-            "explanation": "Tôi nghĩ tôi MONG MUỐN ăn lại -> たべたい."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa đoạn: \"Nó rất ngon. Tôi nghĩ tôi muốn ăn bánh kem đó một lần nữa.\"\n- Cấu trúc nói về mong muốn bản thân: Vたい + と おもいます (Tôi nghĩ tôi muốn làm gì đó) -> たべたい."
           }
         ]
       }
@@ -6663,28 +6663,40 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_21_25_4_m1_q0",
             "question": "【今年】は ２０２３ねんです。",
             "options": [
-              "きょとし",
               "こんねん",
-              "ことし",
-              "こんとし"
+              "きょとし",
+              "こんとし",
+              "ことし"
             ],
-            "correctIndex": 2,
-            "explanation": "今年 đọc là ことし (Năm nay)."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Năm nay là năm 2023.\n- Chữ Hán 【今年】 (Kim Niên) đọc tương ứng là ことし (kotoshi) nghĩa là năm nay."
           },
           {
             "id": "m_review_21_25_4_m1_q1",
             "question": "【電気】を つけます。",
             "options": [
-              "てんき",
-              "てんぎ",
               "でんき",
-              "でんぎ"
+              "てんき",
+              "でんぎ",
+              "てんぎ"
             ],
-            "correctIndex": 2,
-            "explanation": "電気 đọc là でんき (Điện)."
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa: Tôi bật điện.\n- Chữ Hán 【電気】 (Điện Khí) đọc tương ứng là でんき (denki) nghĩa là điện, đèn điện.\n- Phân tích đáp án khác: てんき (thời tiết - 天気)."
           },
           {
             "id": "m_review_21_25_4_m1_q2",
+            "question": "【道】を まっすぐ いきます。",
+            "options": [
+              "まち",
+              "みち",
+              "むら",
+              "くに"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Đi thẳng theo con đường.\n- Chữ Hán 【道】 (Đạo) đọc tương ứng là みち (michi) nghĩa là con đường.\n- Phân tích các đáp án khác: まち (con phố), むら (ngôi làng), くに (đất nước)."
+          },
+          {
+            "id": "m_review_21_25_4_m1_q3",
             "question": "【去年】 にほんへ きました。",
             "options": [
               "こんねん",
@@ -6693,19 +6705,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "きょうねん"
             ],
             "correctIndex": 1,
-            "explanation": "去年 đọc là きょねん (Năm ngoái)."
-          },
-          {
-            "id": "m_review_21_25_4_m1_q3",
-            "question": "【道】を まっすぐ いきます。",
-            "options": [
-              "むら",
-              "くに",
-              "みち",
-              "まち"
-            ],
-            "correctIndex": 2,
-            "explanation": "道 đọc là みち (Đường)."
+            "explanation": "Dịch nghĩa: Năm ngoái tôi đã đến Nhật Bản.\n- Chữ Hán 【去年】 (Khứ Niên) đọc tương ứng là きょねん (kyonen) nghĩa là năm ngoái."
           }
         ]
       },
@@ -6715,51 +6715,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_21_25_4_m2_q0",
-            "question": "【らいねん】は なにを しますか。",
+            "question": "【おとうと】が います。",
             "options": [
-              "去年",
-              "来年",
-              "毎年",
-              "今年"
+              "姉",
+              "妹",
+              "弟",
+              "兄"
             ],
-            "correctIndex": 1,
-            "explanation": "らいねん (Năm sau) viết là 来年."
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Tôi có em trai.\n- 【おとうと】 (em trai) viết bằng chữ Kanji là 弟 (Đệ).\n- Phân tích chữ khác: 兄 (Huynh - anh trai), 妹 (Muội - em gái), 姉 (Tỷ - chị gái)."
           },
           {
             "id": "m_review_21_25_4_m2_q1",
             "question": "あめが 【ふって】 います。",
             "options": [
+              "降って",
               "流って",
               "落ちて",
-              "下って",
-              "降って"
+              "下って"
             ],
-            "correctIndex": 3,
-            "explanation": "降って là Rơi (mưa)."
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa: Trời đang mưa.\n- Động từ 【ふって】 (rơi - dùng cho thời tiết mưa/tuyết) viết Kanji là 降って (Hàng).\n- Phân tích chữ khác: 落ちて (rơi rụng - vật lý), 下って (đi xuống)."
           },
           {
             "id": "m_review_21_25_4_m2_q2",
-            "question": "【まいにち】 べんきょうします。",
+            "question": "【らいねん】は なにを しますか。",
             "options": [
+              "去年",
               "毎年",
-              "毎日",
-              "毎週",
-              "毎月"
+              "今年",
+              "来年"
             ],
-            "correctIndex": 1,
-            "explanation": "まいにち (Mỗi ngày) viết là 毎日."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Sang năm bạn sẽ làm gì?\n- 【らいねん】 (năm sau) viết Kanji là 来年 (Lai Niên).\n- Phân tích chữ khác: 去年 (năm ngoái), 今年 (năm nay), 毎年 (mỗi năm)."
           },
           {
             "id": "m_review_21_25_4_m2_q3",
-            "question": "【おとうと】が います。",
+            "question": "【まいにち】 べんきょうします。",
             "options": [
-              "姉",
-              "兄",
-              "妹",
-              "弟"
+              "毎月",
+              "毎日",
+              "毎週",
+              "毎年"
             ],
-            "correctIndex": 3,
-            "explanation": "弟 là Em trai."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Tôi học bài mỗi ngày.\n- 【まいにち】 (mỗi ngày) viết Kanji là 毎日 (Mỗi Nhật)."
           }
         ]
       },
@@ -6769,51 +6769,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_21_25_4_m3_q0",
-            "question": "ねむい 【　　　】、コーヒーを のみます。",
+            "question": "きのうは とても 【　　　】です。",
             "options": [
-              "ば",
-              "たら",
-              "とき",
-              "と"
+              "いそがしかった",
+              "ひま",
+              "いそがしい",
+              "ひまだった"
             ],
-            "correctIndex": 2,
-            "explanation": "Khi buồn ngủ (ねむい とき)."
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa: Hôm qua tôi đã rất bận.\n- Diễn tả hoàn cảnh trong quá khứ (きのう).\n- Tính từ đuôi い (いそがしい) chia quá khứ lịch sự là bỏ い thêm かったです -> いそgがしかった (ở đây đứng trước です nên chọn いそがしかった)."
           },
           {
             "id": "m_review_21_25_4_m3_q1",
             "question": "あめが ふっても、いきます。",
             "options": [
               "あめが ふりますが、いきます。",
-              "あめが ふったら いきます。",
               "あめが ふったら いきません。",
+              "あめが ふったら いきます。",
               "あめが ふらないと いきます。"
             ],
             "correctIndex": 0,
-            "explanation": "Dù trời mưa tôi vẫn đi (Cho dù = ても)."
+            "explanation": "Dịch nghĩa: Cho dù trời mưa, tôi vẫn đi.\n- Cấu trúc Vても mang ý nghĩa nhượng bộ giả định (Dù... đi chăng nữa).\n- Ý nghĩa câu này tương đồng nhất với câu dùng trợ từ nghịch lý が: あめが ふりますが、いきます (Trời mưa nhưng tôi vẫn đi)."
           },
           {
             "id": "m_review_21_25_4_m3_q2",
             "question": "やすみは 【　　　】ですか。",
             "options": [
-              "だれ",
-              "なん",
-              "どこ",
-              "いつ"
+              "ai",
+              "いつ",
+              "gì",
+              "dđâu"
             ],
-            "correctIndex": 3,
-            "explanation": "Khi nào được nghỉ? (いつ)."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Khi nào bạn được nghỉ?\n- Từ hỏi mốc thời gian phù hợp nhất là いつ (Khi nào?)."
           },
           {
             "id": "m_review_21_25_4_m3_q3",
-            "question": "きのうは とても 【　　　】です。",
+            "question": "ねむい 【　　　】、コーヒーを のみます。",
             "options": [
-              "ひまだった",
-              "いそがしかった",
-              "いそがしい",
-              "ひま"
+              "とき",
+              "と",
+              "たら",
+              "ba"
             ],
-            "correctIndex": 1,
-            "explanation": "Hôm qua đã rất bận (いそがしかった)."
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa: Khi buồn ngủ, tôi uống cà phê.\n- Cấu trúc chỉ thời điểm: [Tính từ đuôi い] + とき (khi/lúc...). Do đó điền とき."
           }
         ]
       },
@@ -6823,51 +6823,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_21_25_4_b1_q0",
-            "question": "わたしは にほんごが はなせる（　　　） に なりました。",
-            "options": [
-              "こと",
-              "もの",
-              "よう",
-              "ところ"
-            ],
-            "correctIndex": 2,
-            "explanation": "Đã có thể nói tiếng Nhật (～ようになる)."
-          },
-          {
-            "id": "m_review_21_25_4_b1_q1",
-            "question": "じかんが なかった（　　　）、ほんを よみません。",
-            "options": [
-              "から",
-              "ば",
-              "と",
-              "たら"
-            ],
-            "correctIndex": 3,
-            "explanation": "Nếu không có thời gian -> なかったら."
-          },
-          {
-            "id": "m_review_21_25_4_b1_q2",
-            "question": "これは わたしが （　　　） かばんです。",
-            "options": [
-              "かった",
-              "かう",
-              "かって",
-              "かい"
-            ],
-            "correctIndex": 0,
-            "explanation": "Mệnh đề bổ nghĩa cho danh từ: かった かばん."
-          },
-          {
-            "id": "m_review_21_25_4_b1_q3",
             "question": "あしたは あめが ふる（　　　） おもいます。",
             "options": [
               "を",
-              "と",
               "に",
+              "と",
               "で"
             ],
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Tôi nghĩ ngày mai trời sẽ mưa.\n- Cấu trúc biểu thị suy nghĩ, phán đoán: [Thể thông thường] + と おもいます (Tôi nghĩ rằng...).\n- Trợ từ dùng để trích dẫn suy nghĩ bắt buộc là と."
+          },
+          {
+            "id": "m_review_21_25_4_b1_q1",
+            "question": "これは わたしが （　　　） かばんです。",
+            "options": [
+              "かい",
+              "かった",
+              "かって",
+              "かう"
+            ],
             "correctIndex": 1,
-            "explanation": "Mẫu câu ～と おもいます (Tôi nghĩ là...)."
+            "explanation": "Dịch nghĩa: Đây là chiếc túi xách mà tôi đã mua.\n- Mệnh đề định ngữ bổ nghĩa cho danh từ かばん: [Động từ chia thể quá khứ Vた] + かばん (chiếc túi đã mua).\n- Động từ かいます chia thể quá khứ là かった."
+          },
+          {
+            "id": "m_review_21_25_4_b1_q2",
+            "question": "じかんが なかった（　　　）、ほんを よみません。",
+            "options": [
+              "たら",
+              "と",
+              "ba",
+              "から"
+            ],
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa: Nếu không có thời gian, tôi sẽ không đọc sách.\n- Cấu trúc điều kiện giả định: Vたら (Nếu... thì...).\n- Thể phủ định quá khứ なかった kết hợp với đuôi ら thành なかったら (nếu không có)."
+          },
+          {
+            "id": "m_review_21_25_4_b1_q3",
+            "question": "わたしは にほんごが はなせる（　　　） に なりました。",
+            "options": [
+              "こと",
+              "ところ",
+              "よう",
+              "もの"
+            ],
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Tôi đã có thể nói được tiếng Nhật.\n- Cấu trúc diễn tả sự biến đổi năng lực: [Động từ thể khả năng] + よう に なります (trở nên có thể làm gì).\n- Điền trực tiếp chữ よう."
           }
         ]
       },
@@ -6879,25 +6879,25 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_21_25_4_b2_q0",
             "question": "あの　___ ___ _★_ ___　は だれですか。",
             "options": [
-              "かけている",
               "メガネ",
               "ひと",
-              "を"
+              "を",
+              "かけている"
             ],
-            "correctIndex": 0,
-            "explanation": "あの メガネ を かけている ひと は だれですか."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Người đang đeo kính kia là ai thế?\n- Phân tích trật tự từ: あの + メガネ (3) + を (1) + かけている (4) + ひと (2) + はだれですか.\n- Mệnh đề định ngữ bổ sung cho người (ひと): メガネをかけている (đang đeo kính).\n- Vị trí dấu sao nằm ở từ thứ 3 trong cụm sắp xếp, tương ứng với động từ かけている (4)."
           },
           {
             "id": "m_review_21_25_4_b2_q1",
             "question": "たのしく　___ ___ _★_ ___　と おもいます。",
             "options": [
-              "ない",
-              "パーティー",
               "あしたの",
-              "は"
+              "ない",
+              "は",
+              "pパーティー"
             ],
-            "correctIndex": 0,
-            "explanation": "あしたの パーティー は たのしく ない と おもいます."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Tôi nghĩ bữa tiệc ngày mai sẽ không vui đâu.\n- Phân tích trật tự từ: あしたの (1) + パーティー (3) + は (2) + たのしくない (tính từ gốc たのしく ghép với ない (4)) + と おもいます.\n- Vị trí dấu sao nằm ở từ thứ 3 trong cụm sắp xếp, tương ứng với tính từ phủ định ない (4)."
           }
         ]
       },
@@ -6915,25 +6915,25 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_21_25_4_d1_q0",
             "question": "（　１　）に入れるものはどれですか。",
             "options": [
-              "もらいました",
-              "くれました",
               "あげました",
+              "くれました",
+              "もらいました",
               "しました"
             ],
             "correctIndex": 1,
-            "explanation": "Bạn bè làm (cho mình) -> つくって くれました."
+            "explanation": "Dịch nghĩa đoạn: \"Hôm qua tôi đi đến nhà bạn chơi. Bạn tôi đã làm cho tôi một chiếc bánh kem ngon.\"\n- Cấu trúc ai đó thực hiện hành động giúp đỡ/cho mình: Vて くれました (hành động từ bạn hướng về tôi)."
           },
           {
             "id": "m_review_21_25_4_d1_q1",
             "question": "（　２　）に入れるものはどれですか。",
             "options": [
-              "たべる",
-              "たべて",
+              "たべた",
               "たべたい",
-              "たべた"
+              "たべて",
+              "たべる"
             ],
-            "correctIndex": 2,
-            "explanation": "Tôi nghĩ tôi MONG MUỐN ăn lại -> たべたい."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa đoạn: \"Nó rất ngon. Tôi nghĩ tôi muốn ăn bánh kem đó một lần nữa.\"\n- Cấu trúc nói về mong muốn bản thân: Vたい + と おもいます (Tôi nghĩ tôi muốn làm gì đó) -> たべたい."
           }
         ]
       }
@@ -6950,51 +6950,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_21_25_5_m1_q0",
-            "question": "【道】を まっすぐ いきます。",
+            "question": "【今年】は ２０２３ねんです。",
             "options": [
-              "くに",
-              "むら",
-              "まち",
-              "みち"
+              "きょとし",
+              "こんとし",
+              "こんねん",
+              "ことし"
             ],
             "correctIndex": 3,
-            "explanation": "道 đọc là みち (Đường)."
+            "explanation": "Dịch nghĩa: Năm nay là năm 2023.\n- Chữ Hán 【今年】 (Kim Niên) đọc tương ứng là ことし (kotoshi) nghĩa là năm nay."
           },
           {
             "id": "m_review_21_25_5_m1_q1",
             "question": "【電気】を つけます。",
             "options": [
-              "でんき",
-              "でんぎ",
               "てんぎ",
-              "てんき"
+              "てんき",
+              "でんぎ",
+              "でんき"
             ],
-            "correctIndex": 0,
-            "explanation": "電気 đọc là でんき (Điện)."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Tôi bật điện.\n- Chữ Hán 【電気】 (Điện Khí) đọc tương ứng là でんき (denki) nghĩa là điện, đèn điện.\n- Phân tích đáp án khác: てんき (thời tiết - 天気)."
           },
           {
             "id": "m_review_21_25_5_m1_q2",
             "question": "【去年】 にほんへ きました。",
             "options": [
-              "こねん",
+              "きょねん",
               "きょうねん",
-              "こんねん",
-              "きょねん"
-            ],
-            "correctIndex": 3,
-            "explanation": "去年 đọc là きょねん (Năm ngoái)."
-          },
-          {
-            "id": "m_review_21_25_5_m1_q3",
-            "question": "【今年】は ２０２３ねんです。",
-            "options": [
-              "ことし",
-              "きょとし",
-              "こんとし",
+              "こねん",
               "こんねん"
             ],
             "correctIndex": 0,
-            "explanation": "今年 đọc là ことし (Năm nay)."
+            "explanation": "Dịch nghĩa: Năm ngoái tôi đã đến Nhật Bản.\n- Chữ Hán 【去年】 (Khứ Niên) đọc tương ứng là きょねん (kyonen) nghĩa là năm ngoái."
+          },
+          {
+            "id": "m_review_21_25_5_m1_q3",
+            "question": "【道】を まっすぐ いきます。",
+            "options": [
+              "むら",
+              "みち",
+              "くに",
+              "まち"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Đi thẳng theo con đường.\n- Chữ Hán 【道】 (Đạo) đọc tương ứng là みち (michi) nghĩa là con đường.\n- Phân tích các đáp án khác: まち (con phố), むら (ngôi làng), くに (đất nước)."
           }
         ]
       },
@@ -7004,51 +7004,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_21_25_5_m2_q0",
-            "question": "あめが 【ふって】 います。",
+            "question": "【おとうと】が います。",
             "options": [
-              "落ちて",
-              "流って",
-              "下って",
-              "降って"
+              "妹",
+              "姉",
+              "弟",
+              "兄"
             ],
-            "correctIndex": 3,
-            "explanation": "降って là Rơi (mưa)."
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Tôi có em trai.\n- 【おとうと】 (em trai) viết bằng chữ Kanji là 弟 (Đệ).\n- Phân tích chữ khác: 兄 (Huynh - anh trai), 妹 (Muội - em gái), 姉 (Tỷ - chị gái)."
           },
           {
             "id": "m_review_21_25_5_m2_q1",
-            "question": "【まいにち】 べんきょうします。",
+            "question": "あめが 【ふって】 います。",
             "options": [
-              "毎日",
-              "毎年",
-              "毎週",
-              "毎月"
+              "落ちて",
+              "降って",
+              "下って",
+              "流って"
             ],
-            "correctIndex": 0,
-            "explanation": "まいにち (Mỗi ngày) viết là 毎日."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Trời đang mưa.\n- Động từ 【ふって】 (rơi - dùng cho thời tiết mưa/tuyết) viết Kanji là 降って (Hàng).\n- Phân tích chữ khác: 落ちて (rơi rụng - vật lý), 下って (đi xuống)."
           },
           {
             "id": "m_review_21_25_5_m2_q2",
-            "question": "【おとうと】が います。",
+            "question": "【らいねん】は なにを しますか。",
             "options": [
-              "兄",
-              "姉",
-              "弟",
-              "妹"
+              "今年",
+              "去年",
+              "毎年",
+              "来年"
             ],
-            "correctIndex": 2,
-            "explanation": "弟 là Em trai."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Sang năm bạn sẽ làm gì?\n- 【らいねん】 (năm sau) viết Kanji là 来年 (Lai Niên).\n- Phân tích chữ khác: 去年 (năm ngoái), 今年 (năm nay), 毎年 (mỗi năm)."
           },
           {
             "id": "m_review_21_25_5_m2_q3",
-            "question": "【らいねん】は なにを しますか。",
+            "question": "【まいにち】 べんきょうします。",
             "options": [
+              "毎月",
+              "毎週",
               "毎年",
-              "去年",
-              "来年",
-              "今年"
+              "毎日"
             ],
-            "correctIndex": 2,
-            "explanation": "らいねん (Năm sau) viết là 来年."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Tôi học bài mỗi ngày.\n- 【まいにち】 (mỗi ngày) viết Kanji là 毎日 (Mỗi Nhật)."
           }
         ]
       },
@@ -7058,51 +7058,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_21_25_5_m3_q0",
-            "question": "やすみは 【　　　】ですか。",
+            "question": "ねむい 【　　　】、コーヒーを のみます。",
             "options": [
-              "いつ",
-              "だれ",
-              "どこ",
-              "なん"
+              "たら",
+              "ba",
+              "とき",
+              "と"
             ],
-            "correctIndex": 0,
-            "explanation": "Khi nào được nghỉ? (いつ)."
+            "correctIndex": 2,
+            "explanation": "Dịch nghĩa: Khi buồn ngủ, tôi uống cà phê.\n- Cấu trúc chỉ thời điểm: [Tính từ đuôi い] + とき (khi/lúc...). Do đó điền とき."
           },
           {
             "id": "m_review_21_25_5_m3_q1",
             "question": "あめが ふっても、いきます。",
             "options": [
-              "あめが ふったら いきません。",
               "あめが ふらないと いきます。",
+              "あめが ふったら いきます。",
               "あめが ふりますが、いきます。",
-              "あめが ふったら いきます。"
+              "あめが ふったら いきません。"
             ],
             "correctIndex": 2,
-            "explanation": "Dù trời mưa tôi vẫn đi (Cho dù = ても)."
+            "explanation": "Dịch nghĩa: Cho dù trời mưa, tôi vẫn đi.\n- Cấu trúc Vても mang ý nghĩa nhượng bộ giả định (Dù... đi chăng nữa).\n- Ý nghĩa câu này tương đồng nhất với câu dùng trợ từ nghịch lý が: あめが ふりますが、いきます (Trời mưa nhưng tôi vẫn đi)."
           },
           {
             "id": "m_review_21_25_5_m3_q2",
-            "question": "ねむい 【　　　】、コーヒーを のみます。",
+            "question": "やすみは 【　　　】ですか。",
             "options": [
-              "と",
-              "とき",
-              "たら",
-              "ば"
+              "ai",
+              "gì",
+              "dđâu",
+              "いつ"
             ],
-            "correctIndex": 1,
-            "explanation": "Khi buồn ngủ (ねむい とき)."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Khi nào bạn được nghỉ?\n- Từ hỏi mốc thời gian phù hợp nhất là いつ (Khi nào?)."
           },
           {
             "id": "m_review_21_25_5_m3_q3",
             "question": "きのうは とても 【　　　】です。",
             "options": [
-              "ひまだった",
-              "いそがしかった",
               "ひま",
+              "いそがしかった",
+              "ひまだった",
               "いそがしい"
             ],
             "correctIndex": 1,
-            "explanation": "Hôm qua đã rất bận (いそがしかった)."
+            "explanation": "Dịch nghĩa: Hôm qua tôi đã rất bận.\n- Diễn tả hoàn cảnh trong quá khứ (きのう).\n- Tính từ đuôi い (いそがしい) chia quá khứ lịch sự là bỏ い thêm かったです -> いそgがしかった (ở đây đứng trước です nên chọn いそがしかった)."
           }
         ]
       },
@@ -7112,51 +7112,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_21_25_5_b1_q0",
-            "question": "これは わたしが （　　　） かばんです。",
-            "options": [
-              "かった",
-              "かい",
-              "かって",
-              "かう"
-            ],
-            "correctIndex": 0,
-            "explanation": "Mệnh đề bổ nghĩa cho danh từ: かった かばん."
-          },
-          {
-            "id": "m_review_21_25_5_b1_q1",
-            "question": "あしたは あめが ふる（　　　） おもいます。",
-            "options": [
-              "と",
-              "を",
-              "に",
-              "で"
-            ],
-            "correctIndex": 0,
-            "explanation": "Mẫu câu ～と おもいます (Tôi nghĩ là...)."
-          },
-          {
-            "id": "m_review_21_25_5_b1_q2",
             "question": "じかんが なかった（　　　）、ほんを よみません。",
             "options": [
               "たら",
-              "ば",
+              "と",
               "から",
-              "と"
+              "ba"
             ],
             "correctIndex": 0,
-            "explanation": "Nếu không có thời gian -> なかったら."
+            "explanation": "Dịch nghĩa: Nếu không có thời gian, tôi sẽ không đọc sách.\n- Cấu trúc điều kiện giả định: Vたら (Nếu... thì...).\n- Thể phủ định quá khứ なかった kết hợp với đuôi ら thành なかったら (nếu không có)."
+          },
+          {
+            "id": "m_review_21_25_5_b1_q1",
+            "question": "わたしは にほんごが はなせる（　　　） に なりました。",
+            "options": [
+              "よう",
+              "こと",
+              "もの",
+              "ところ"
+            ],
+            "correctIndex": 0,
+            "explanation": "Dịch nghĩa: Tôi đã có thể nói được tiếng Nhật.\n- Cấu trúc diễn tả sự biến đổi năng lực: [Động từ thể khả năng] + よう に なります (trở nên có thể làm gì).\n- Điền trực tiếp chữ よう."
+          },
+          {
+            "id": "m_review_21_25_5_b1_q2",
+            "question": "あしたは あめが ふる（　　　） おもいます。",
+            "options": [
+              "を",
+              "と",
+              "で",
+              "に"
+            ],
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa: Tôi nghĩ ngày mai trời sẽ mưa.\n- Cấu trúc biểu thị suy nghĩ, phán đoán: [Thể thông thường] + と おもいます (Tôi nghĩ rằng...).\n- Trợ từ dùng để trích dẫn suy nghĩ bắt buộc là と."
           },
           {
             "id": "m_review_21_25_5_b1_q3",
-            "question": "わたしは にほんごが はなせる（　　　） に なりました。",
+            "question": "これは わたしが （　　　） かばんです。",
             "options": [
-              "ところ",
-              "もの",
-              "よう",
-              "こと"
+              "かい",
+              "かう",
+              "かって",
+              "かった"
             ],
-            "correctIndex": 2,
-            "explanation": "Đã có thể nói tiếng Nhật (～ようになる)."
+            "correctIndex": 3,
+            "explanation": "Dịch nghĩa: Đây là chiếc túi xách mà tôi đã mua.\n- Mệnh đề định ngữ bổ nghĩa cho danh từ かばん: [Động từ chia thể quá khứ Vた] + かばん (chiếc túi đã mua).\n- Động từ かいます chia thể quá khứ là かった."
           }
         ]
       },
@@ -7169,24 +7169,24 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "question": "たのしく　___ ___ _★_ ___　と おもいます。",
             "options": [
               "ない",
-              "パーティー",
-              "あしたの",
-              "は"
+              "は",
+              "pパーティー",
+              "あしたの"
             ],
             "correctIndex": 0,
-            "explanation": "あしたの パーティー は たのしく ない と おもいます."
+            "explanation": "Dịch nghĩa: Tôi nghĩ bữa tiệc ngày mai sẽ không vui đâu.\n- Phân tích trật tự từ: あしたの (1) + パーティー (3) + は (2) + たのしくない (tính từ gốc たのしく ghép với ない (4)) + と おもいます.\n- Vị trí dấu sao nằm ở từ thứ 3 trong cụm sắp xếp, tương ứng với tính từ phủ định ない (4)."
           },
           {
             "id": "m_review_21_25_5_b2_q1",
             "question": "あの　___ ___ _★_ ___　は だれですか。",
             "options": [
               "かけている",
-              "メガネ",
               "ひと",
-              "を"
+              "を",
+              "メガネ"
             ],
             "correctIndex": 0,
-            "explanation": "あの メガネ を かけている ひと は だれですか."
+            "explanation": "Dịch nghĩa: Người đang đeo kính kia là ai thế?\n- Phân tích trật tự từ: あの + メガネ (3) + を (1) + かけている (4) + ひと (2) + はだれですか.\n- Mệnh đề định ngữ bổ sung cho người (ひと): メガネをかけている (đang đeo kính).\n- Vị trí dấu sao nằm ở từ thứ 3 trong cụm sắp xếp, tương ứng với động từ かけている (4)."
           }
         ]
       },
@@ -7204,25 +7204,25 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
             "id": "m_review_21_25_5_d1_q0",
             "question": "（　１　）に入れるものはどれですか。",
             "options": [
-              "しました",
               "もらいました",
               "くれました",
-              "あげました"
+              "あげました",
+              "しました"
             ],
-            "correctIndex": 2,
-            "explanation": "Bạn bè làm (cho mình) -> つくって くれました."
+            "correctIndex": 1,
+            "explanation": "Dịch nghĩa đoạn: \"Hôm qua tôi đi đến nhà bạn chơi. Bạn tôi đã làm cho tôi một chiếc bánh kem ngon.\"\n- Cấu trúc ai đó thực hiện hành động giúp đỡ/cho mình: Vて くれました (hành động từ bạn hướng về tôi)."
           },
           {
             "id": "m_review_21_25_5_d1_q1",
             "question": "（　２　）に入れるものはどれですか。",
             "options": [
+              "たべた",
               "たべて",
-              "たべる",
               "たべたい",
-              "たべた"
+              "たべる"
             ],
             "correctIndex": 2,
-            "explanation": "Tôi nghĩ tôi MONG MUỐN ăn lại -> たべたい."
+            "explanation": "Dịch nghĩa đoạn: \"Nó rất ngon. Tôi nghĩ tôi muốn ăn bánh kem đó một lần nữa.\"\n- Cấu trúc nói về mong muốn bản thân: Vたい + と おもいます (Tôi nghĩ tôi muốn làm gì đó) -> たべたい."
           }
         ]
       }
