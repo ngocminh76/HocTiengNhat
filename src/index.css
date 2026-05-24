@@ -1107,3 +1107,24 @@ button{font-family:inherit;cursor:pointer;border:none}
     display: none !important;
   }
 }
+
+/* Glowing Blueish Explanation Card */
+.explanation-card {
+  background: rgba(122, 162, 247, 0.04); /* Soft blue tint using --blue */
+  border: 1px solid rgba(122, 162, 247, 0.15); /* Translucent blue border */
+  border-left: 4px solid var(--blue); /* Highlight bar on the left */
+  border-radius: 12px;
+  padding: 16px;
+  height: 100%;
+  box-sizing: border-box;
+  box-shadow: 0 4px 20px rgba(122, 162, 247, 0.05); /* Subtle blue glow */
+  transition: all 0.25s ease-in-out;
+  overflow: hidden;
+}
+
+.explanation-card:hover {
+  background: rgba(122, 162, 247, 0.07);
+  border-color: rgba(122, 162, 247, 0.3);
+  box-shadow: 0 6px 24px rgba(122, 162, 247, 0.1);
+}
+

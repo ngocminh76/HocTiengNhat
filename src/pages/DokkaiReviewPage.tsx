@@ -239,7 +239,7 @@ export function DokkaiReviewPage({ reviewId, onHome, addXP, onComplete }: Props)
                         {/* Right column: Explanation or Placeholder */}
                         {submitted || revealedExplanations[q.id] ? (
                           <div className="q-col-right">
-                            <div style={{ background: 'rgba(255,255,255,0.02)', border: '1px solid var(--border)', borderRadius: 12, padding: '16px', height: '100%', boxSizing: 'border-box' }}>
+                            <div className="explanation-card">
                               {submitted && (
                                 <div style={{ color: isCorrect ? 'var(--green)' : 'var(--red)', fontSize: 14, fontWeight: 700, marginBottom: 12 }}>
                                   {isCorrect ? '✅ Chính xác!' : '❌ Sai rồi!'}

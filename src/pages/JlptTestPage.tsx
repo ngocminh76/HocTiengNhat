@@ -253,7 +253,7 @@ export function JlptTestPage({ test, onBack, onHome }: Props) {
                 {/* Right column: Explanation or Placeholder */}
                 {submitted || revealedExplanations[q.id] ? (
                   <div className="q-col-right">
-                    <div style={{ marginTop: 0, background: 'rgba(255,255,255,0.02)', border: '1px solid var(--border)', borderRadius: 12, overflow: 'hidden', height: '100%', boxSizing: 'border-box' }}>
+                    <div className="explanation-card">
                       {submitted && (
                         <div style={{ padding: '12px 16px', background: 'rgba(255,255,255,0.02)', borderBottom: '1px solid var(--border)', display: 'flex', alignItems: 'center', gap: 8 }}>
                           <strong style={{ color: answers[q.id] === q.answer ? 'var(--green)' : 'var(--red)' }}>

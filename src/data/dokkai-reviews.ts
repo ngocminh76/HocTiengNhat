@@ -22,7 +22,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "きnようび"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nHôm nay là thứ Tư.\n\n✍️ Phân tích đáp án:\n- すいようび (suiyoubi): Thứ Tư $\\rightarrow$ Chọn.\n- かようび (kayoubi): Thứ Ba $\\rightarrow$ Sai ngày.\n- もくようび (mokuyoubi): Thứ Năm $\\rightarrow$ Sai ngày.\n- きんようび (kinyoubi): Thứ Sáu $\\rightarrow$ Sai ngày.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán 【水曜日】 (Thủy Diệu Nhật) có nghĩa là ngày của nước $\\rightarrow$ thứ Tư.\n- Mẹo học thứ tự các thứ trong tuần theo ngũ hành: Nhật (Chủ nhật), Nguyệt (Thứ hai), Hỏa (Thứ ba), Thủy (Thứ tư), Mộc (Thứ năm), Kim (Thứ sáu), Thổ (Thứ bảy)."
+            "explanation": "📖 Dịch nghĩa:\nHôm nay là thứ Tư.\n\n✍️ Phân tích đáp án:\n- すいようび (suiyoubi): Thứ Tư → Chọn.\n- かようび (kayoubi): Thứ Ba → Sai ngày.\n- もくようび (mokuyoubi): Thứ Năm → Sai ngày.\n- きんようび (kinyoubi): Thứ Sáu → Sai ngày.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán 【水曜日】 (Thủy Diệu Nhật) có nghĩa là ngày của nước → thứ Tư.\n- Mẹo học thứ tự các thứ trong tuần theo ngũ hành: Nhật (Chủ nhật), Nguyệt (Thứ hai), Hỏa (Thứ ba), Thủy (Thứ tư), Mộc (Thứ năm), Kim (Thứ sáu), Thổ (Thứ bảy)."
           },
           {
             "id": "m_review_1_5_1_m1_q1",
@@ -34,7 +34,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "まいしゅう"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nHàng ngày tôi học tiếng Nhật.\n\n✍️ Phân tích đáp án:\n- まいにch (mainichi): Mỗi ngày, hàng ngày $\\rightarrow$ Chọn.\n- まいしゅう (maishuu): Mỗi tuần $\\rightarrow$ Sai tần suất.\n- まいげつ (maigetsu): Mỗi tháng $\\rightarrow$ Sai tần suất.\n- まいとし (maitoshi): Mỗi năm $\\rightarrow$ Sai tần suất.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán 【毎日】 (Mỗi Nhật) có cách đọc tương ứng là まいにち.\n- Trợ từ を (wo) đứng trước động từ chỉ đối tượng tác động (học CÁI GÌ $\\rightarrow$ học tiếng Nhật)."
+            "explanation": "📖 Dịch nghĩa:\nHàng ngày tôi học tiếng Nhật.\n\n✍️ Phân tích đáp án:\n- まいにch (mainichi): Mỗi ngày, hàng ngày → Chọn.\n- まいしゅう (maishuu): Mỗi tuần → Sai tần suất.\n- まいげつ (maigetsu): Mỗi tháng → Sai tần suất.\n- まいとし (maitoshi): Mỗi năm → Sai tần suất.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán 【毎日】 (Mỗi Nhật) có cách đọc tương ứng là まいにち.\n- Trợ từ を (wo) đứng trước động từ chỉ đối tượng tác động (học CÁI GÌ → học tiếng Nhật)."
           },
           {
             "id": "m_review_1_5_1_m1_q2",
@@ -46,7 +46,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "らいげつ"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTháng trước tôi đã đến Nhật Bản.\n\n✍️ Phân tích đáp án:\n- せんげつ (sengetsu): Tháng trước $\\rightarrow$ Chọn.\n- らいげつ (raigetsu): Tháng sau $\\rightarrow$ Sai thời điểm.\n- こんげつ (kongetsu:): Tháng này $\\rightarrow$ Sai thời điểm.\n- まいつき (maitsuki): Mỗi tháng $\\rightarrow$ Sai ngữ cảnh.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán 【先月】 (Tiên Nguyệt - tháng trước). Âm Hán Việt \"Tiên\" (trước) đi với \"Nguyệt\" (tháng).\n- Mẹo ngữ pháp: Động từ ở quá khứ きました (đã đến) bổ trợ cho việc chọn thời gian trong quá khứ là \"Tháng trước\"."
+            "explanation": "📖 Dịch nghĩa:\nTháng trước tôi đã đến Nhật Bản.\n\n✍️ Phân tích đáp án:\n- せんげつ (sengetsu): Tháng trước → Chọn.\n- らいげつ (raigetsu): Tháng sau → Sai thời điểm.\n- こんげつ (kongetsu:): Tháng này → Sai thời điểm.\n- まいつき (maitsuki): Mỗi tháng → Sai ngữ cảnh.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán 【先月】 (Tiên Nguyệt - tháng trước). Âm Hán Việt \"Tiên\" (trước) đi với \"Nguyệt\" (tháng).\n- Mẹo ngữ pháp: Động từ ở quá khứ きました (đã đến) bổ trợ cho việc chọn thời gian trong quá khứ là \"Tháng trước\"."
           },
           {
             "id": "m_review_1_5_1_m1_q3",
@@ -58,7 +58,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "まち"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nĐất nước của tôi là Việt Nam.\n\n✍️ Phân tích đáp án:\n- くに (kuni): Đất nước, quốc gia $\\rightarrow$ Chọn.\n- まち (machi): Phố, thị trấn $\\rightarrow$ Sai nghĩa.\n- うち (uchi): Nhà/gia đình của tôi $\\rightarrow$ Sai nghĩa.\n- いえ (ie): Ngôi nhà vật lý $\\rightarrow$ Sai nghĩa.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán 【国】 (Quốc) trong từ vựng N5 luôn được phát âm là くに (kuni).\n- Mẹo nhớ chữ: Trong nước (国) có ngọc quý (玉) được bao quanh bởi biên giới (囗)."
+            "explanation": "📖 Dịch nghĩa:\nĐất nước của tôi là Việt Nam.\n\n✍️ Phân tích đáp án:\n- くに (kuni): Đất nước, quốc gia → Chọn.\n- まち (machi): Phố, thị trấn → Sai nghĩa.\n- うち (uchi): Nhà/gia đình của tôi → Sai nghĩa.\n- いえ (ie): Ngôi nhà vật lý → Sai nghĩa.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán 【国】 (Quốc) trong từ vựng N5 luôn được phát âm là くに (kuni).\n- Mẹo nhớ chữ: Trong nước (国) có ngọc quý (玉) được bao quanh bởi biên giới (囗)."
           }
         ]
       },
@@ -76,7 +76,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "庫"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTôi đã mua ô tô.\n\n✍️ Phân tích đáp án:\n- 車 (Xa): Xe hơi, ô tô $\\rightarrow$ Chọn.\n- 東 (Đông): Phía đông $\\rightarrow$ Sai mặt chữ.\n- 重 (Trọng): Nặng $\\rightarrow$ Sai mặt chữ.\n- 庫 (Khố): Kho $\\rightarrow$ Sai mặt chữ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán 【車】 vẽ hình cái bánh xe và trục xe nhìn từ trên xuống. Đây là bộ thủ cơ bản đại diện cho các loại xe cộ."
+            "explanation": "📖 Dịch nghĩa:\nTôi đã mua ô tô.\n\n✍️ Phân tích đáp án:\n- 車 (Xa): Xe hơi, ô tô → Chọn.\n- 東 (Đông): Phía đông → Sai mặt chữ.\n- 重 (Trọng): Nặng → Sai mặt chữ.\n- 庫 (Khố): Kho → Sai mặt chữ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán 【車】 vẽ hình cái bánh xe và trục xe nhìn từ trên xuống. Đây là bộ thủ cơ bản đại diện cho các loại xe cộ."
           },
           {
             "id": "m_review_1_5_1_m2_q1",
@@ -88,7 +88,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "電車"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTôi đi làm bằng tàu điện.\n\n✍️ Phân tích đáp án:\n- 電車 (Điện Xa - xe chạy bằng điện): Tàu điện $\\rightarrow$ Chọn.\n- 電気 (Điện Khí): Điện, đèn điện $\\rightarrow$ Sai nghĩa.\n- 電話 (Điện Thoại): Điện thoại $\\rightarrow$ Sai nghĩa.\n- 電波 (Điện Ba): Sóng điện $\\rightarrow$ Sai nghĩa.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Trợ từ で (de) đứng sau phương tiện di chuyển chỉ cách thức di chuyển (bằng tàu điện).\n- Mẹo viết chữ: Chữ 電 (Điện) gồm bộ Vũ (mưa) ở trên và chữ Thần (sấm sét) ở dưới."
+            "explanation": "📖 Dịch nghĩa:\nTôi đi làm bằng tàu điện.\n\n✍️ Phân tích đáp án:\n- 電車 (Điện Xa - xe chạy bằng điện): Tàu điện → Chọn.\n- 電気 (Điện Khí): Điện, đèn điện → Sai nghĩa.\n- 電話 (Điện Thoại): Điện thoại → Sai nghĩa.\n- 電波 (Điện Ba): Sóng điện → Sai nghĩa.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Trợ từ で (de) đứng sau phương tiện di chuyển chỉ cách thức di chuyển (bằng tàu điện).\n- Mẹo viết chữ: Chữ 電 (Điện) gồm bộ Vũ (mưa) ở trên và chữ Thần (sấm sét) ở dưới."
           },
           {
             "id": "m_review_1_5_1_m2_q2",
@@ -100,7 +100,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "レストンラ"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nNhà hàng kia ngon lắm.\n\n✍️ Phân tích đáp án:\n- レストラン (resutoran): Nhà hàng $\\rightarrow$ Chọn.\n- レストンラ: Viết sai vị trí chữ ン và ラ.\n- レストラソ: Viết sai chữ ン (n) thành chữ ソ (so) nét hướng từ trên xuống.\n- レスドラン: Thừa dấu đục (tenten) ở chữ ト thành ド.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Mẹo nhận biết chữ Katakana: Chữ ン (n) nét móc kéo từ dưới lên, chữ ソ (so) nét kéo vuốt từ trên xuống."
+            "explanation": "📖 Dịch nghĩa:\nNhà hàng kia ngon lắm.\n\n✍️ Phân tích đáp án:\n- レストラン (resutoran): Nhà hàng → Chọn.\n- レストンラ: Viết sai vị trí chữ ン và ラ.\n- レストラソ: Viết sai chữ ン (n) thành chữ ソ (so) nét hướng từ trên xuống.\n- レスドラン: Thừa dấu đục (tenten) ở chữ ト thành ド.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Mẹo nhận biết chữ Katakana: Chữ ン (n) nét móc kéo từ dưới lên, chữ ソ (so) nét kéo vuốt từ trên xuống."
           },
           {
             "id": "m_review_1_5_1_m2_q3",
@@ -112,7 +112,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "デパート"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTôi đi đến trung tâm thương mại cùng bạn bè.\n\n✍️ Phân tích đáp án:\n- デパート (depaato): Cửa hàng bách hóa $\\rightarrow$ Chọn.\n- デバート: Viết sai chữ パ (pa) thành バ (ba).\n- テパート: Thiếu dấu đục ở chữ デ (de) thành テ (te).\n- デパード: Viết sai chữ ト (to) thành ド (do).\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Từ bắt nguồn từ tiếng Anh \"Department store\". Có dấu gạch ngang (ー) biểu thị trường âm kéo dài."
+            "explanation": "📖 Dịch nghĩa:\nTôi đi đến trung tâm thương mại cùng bạn bè.\n\n✍️ Phân tích đáp án:\n- デパート (depaato): Cửa hàng bách hóa → Chọn.\n- デバート: Viết sai chữ パ (pa) thành バ (ba).\n- テパート: Thiếu dấu đục ở chữ デ (de) thành テ (te).\n- デパード: Viết sai chữ ト (to) thành ド (do).\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Từ bắt nguồn từ tiếng Anh \"Department store\". Có dấu gạch ngang (ー) biểu thị trường âm kéo dài."
           }
         ]
       },
@@ -130,7 +130,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "ねました"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nHôm nay tôi đã đi ngủ lúc 10 giờ.\n\n✍️ Phân tích đáp án:\n- ねました (nemashita): Đã ngủ $\\rightarrow$ Phù hợp nhất với mốc thời gian 10 giờ đêm (10じ).\n- おきました (okimashita): Đã thức dậy $\\rightarrow$ 10 giờ đêm không phải giờ thức dậy phổ thông.\n- きました (kimashita): Đã đến $\\rightarrow$ Không hợp nghĩa.\n- いきました (ikimashita): Đã đi $\\rightarrow$ Không hợp nghĩa.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Trợ từ に (ni) bắt buộc đi kèm sau mốc thời gian cụ thể (１０じに).\n- Đuôi 〜ました biểu thị hành động đã kết thúc trong quá khứ (ngày hôm qua - きのう)."
+            "explanation": "📖 Dịch nghĩa:\nHôm nay tôi đã đi ngủ lúc 10 giờ.\n\n✍️ Phân tích đáp án:\n- ねました (nemashita): Đã ngủ → Phù hợp nhất với mốc thời gian 10 giờ đêm (10じ).\n- おきました (okimashita): Đã thức dậy → 10 giờ đêm không phải giờ thức dậy phổ thông.\n- きました (kimashita): Đã đến → Không hợp nghĩa.\n- いきました (ikimashita): Đã đi → Không hợp nghĩa.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Trợ từ に (ni) bắt buộc đi kèm sau mốc thời gian cụ thể (１０じに).\n- Đuôi 〜ました biểu thị hành động đã kết thúc trong quá khứ (ngày hôm qua - きのう)."
           },
           {
             "id": "m_review_1_5_1_m3_q1",
@@ -142,7 +142,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "おわります"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nNgày mai là ngày nghỉ. Tôi sẽ nghỉ ngơi thong thả ở nhà.\n\n✍️ Phân tích đáp án:\n- やすみます (yasumimasu): Nghỉ ngơi $\\rightarrow$ Chọn vì khớp với vế \"ngày nghỉ (やすみ)\".\n- おきます (okimasu): Thức dậy $\\rightarrow$ Không phù hợp ngữ cảnh.\n- はたらきます (hatarakimasu): Làm việc $\\rightarrow$ Trái nghĩa với ngày nghỉ.\n- おわります (owarimasu): Kết thúc $\\rightarrow$ Không phù hợp.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Cụm từ đi liền: ゆっくり 休みます (Nghỉ ngơi thong thả, thư giãn).\n- Trợ từ で (de) chỉ địa điểm xảy ra hành động (nghỉ ngơi ở nhà - うちで)."
+            "explanation": "📖 Dịch nghĩa:\nNgày mai là ngày nghỉ. Tôi sẽ nghỉ ngơi thong thả ở nhà.\n\n✍️ Phân tích đáp án:\n- やすみます (yasumimasu): Nghỉ ngơi → Chọn vì khớp với vế \"ngày nghỉ (やすみ)\".\n- おきます (okimasu): Thức dậy → Không phù hợp ngữ cảnh.\n- はたらきます (hatarakimasu): Làm việc → Trái nghĩa với ngày nghỉ.\n- おわります (owarimasu): Kết thúc → Không phù hợp.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Cụm từ đi liền: ゆっくり 休みます (Nghỉ ngơi thong thả, thư giãn).\n- Trợ từ で (de) chỉ địa điểm xảy ra hành động (nghỉ ngơi ở nhà - うちで)."
           },
           {
             "id": "m_review_1_5_1_m3_q2",
@@ -154,7 +154,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "かいます"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTôi mua trái cây ở siêu thị.\n\n✍️ Phân tích đáp án:\n- かいます (kaimasu): Mua $\\rightarrow$ Chọn vì là hành động phổ biến đối với hàng hóa (くだもの) tại siêu thị.\n- あいます (aimasu): Gặp gỡ $\\rightarrow$ Không đi với hoa quả.\n- すいます (suimasu): Hút thuốc $\\rightarrow$ Không đi với hoa quả.\n- のみます (nomimasu): Uống $\\rightarrow$ Hoa quả dạng rắn không dùng động từ uống.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Trợ từ で (de) chỉ địa điểm diễn ra hành động mua bán (ở siêu thị - スーパーで).\n- Trợ từ を (wo) liên kết tân ngữ tác động (trái cây)."
+            "explanation": "📖 Dịch nghĩa:\nTôi mua trái cây ở siêu thị.\n\n✍️ Phân tích đáp án:\n- かいます (kaimasu): Mua → Chọn vì là hành động phổ biến đối với hàng hóa (くだもの) tại siêu thị.\n- あいます (aimasu): Gặp gỡ → Không đi với hoa quả.\n- すいます (suimasu): Hút thuốc → Không đi với hoa quả.\n- のみます (nomimasu): Uống → Hoa quả dạng rắn không dùng động từ uống.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Trợ từ で (de) chỉ địa điểm diễn ra hành động mua bán (ở siêu thị - スーパーで).\n- Trợ từ を (wo) liên kết tân ngữ tác động (trái cây)."
           },
           {
             "id": "m_review_1_5_1_m3_q3",
@@ -166,7 +166,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "みます"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTôi viết thư bằng bút chì.\n\n✍️ Phân tích đáp án:\n- かきます (kakimasu): Viết $\\rightarrow$ Chọn vì đi với danh từ てがみ (thư).\n- よみます (yomimasu): Đọc $\\rightarrow$ Không đi với công cụ bằng bút chì.\n- ききます (kikimasu): Nghe / hỏi $\\rightarrow$ Không đi với viết thư.\n- みます (mimasu): Xem $\\rightarrow$ Không đi với bút chì.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Trợ từ で (de) đóng vai trò chỉ phương tiện/công cụ để thực hiện hành động (viết bằng cái gì $\\rightarrow$ えんぴつで - bằng bút chì)."
+            "explanation": "📖 Dịch nghĩa:\nTôi viết thư bằng bút chì.\n\n✍️ Phân tích đáp án:\n- かきます (kakimasu): Viết → Chọn vì đi với danh từ てがみ (thư).\n- よみます (yomimasu): Đọc → Không đi với công cụ bằng bút chì.\n- ききます (kikimasu): Nghe / hỏi → Không đi với viết thư.\n- みます (mimasu): Xem → Không đi với bút chì.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Trợ từ で (de) đóng vai trò chỉ phương tiện/công cụ để thực hiện hành động (viết bằng cái gì → えんぴつで - bằng bút chì)."
           }
         ]
       },
@@ -184,7 +184,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "gが"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nTôi viết thư bằng bút chì.\n\n✍️ Phân tích đáp án:\n- で (de): Trợ từ chỉ phương tiện, công cụ (bằng...) $\\rightarrow$ Chọn.\n- に (ni): Chỉ điểm thời gian hoặc hướng đi $\\rightarrow$ Không phù hợp.\n- を (wo): Đứng sau tân ngữ trực tiếp (đã có てがみを) $\\rightarrow$ Không phù hợp.\n- が (ga): Chỉ chủ ngữ hoặc đối tượng khả năng $\\rightarrow$ Không phù hợp.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Mẹo làm bài: Khi thấy một danh từ chỉ dụng cụ học tập/phương tiện đi liền trước động từ hành động, hãy nghĩ ngay tới trợ từ công cụ で."
+            "explanation": "📖 Dịch nghĩa:\nTôi viết thư bằng bút chì.\n\n✍️ Phân tích đáp án:\n- で (de): Trợ từ chỉ phương tiện, công cụ (bằng...) → Chọn.\n- に (ni): Chỉ điểm thời gian hoặc hướng đi → Không phù hợp.\n- を (wo): Đứng sau tân ngữ trực tiếp (đã có てがみを) → Không phù hợp.\n- が (ga): Chỉ chủ ngữ hoặc đối tượng khả năng → Không phù hợp.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Mẹo làm bài: Khi thấy một danh từ chỉ dụng cụ học tập/phương tiện đi liền trước động từ hành động, hãy nghĩ ngay tới trợ từ công cụ で."
           },
           {
             "id": "m_review_1_5_1_b1_q1",
@@ -196,7 +196,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "ở/tại"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nHôm nay tôi làm việc đến 5 giờ.\n\n✍️ Phân tích đáp án:\n- まで (made): Đến (chỉ giới hạn thời gian kết thúc) $\\rightarrow$ Chọn.\n- から (kara): Từ (chỉ điểm bắt đầu) $\\rightarrow$ Thường đi kèm động từ bắt đầu từ lúc nào.\n- に (ni): Vào lúc (chỉ mốc thời gian cụ thể của hành động tức thời) $\\rightarrow$ Không đi với động từ kéo dài như はたらきます.\n- で (de): Chỉ địa điểm hoặc phương tiện $\\rightarrow$ Không phù hợp.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Phân biệt: [Thời gian] から [Thời gian] まで (Từ... đến...). Ở đây chỉ nói vế kết thúc nên dùng まで."
+            "explanation": "📖 Dịch nghĩa:\nHôm nay tôi làm việc đến 5 giờ.\n\n✍️ Phân tích đáp án:\n- まで (made): Đến (chỉ giới hạn thời gian kết thúc) → Chọn.\n- から (kara): Từ (chỉ điểm bắt đầu) → Thường đi kèm động từ bắt đầu từ lúc nào.\n- に (ni): Vào lúc (chỉ mốc thời gian cụ thể của hành động tức thời) → Không đi với động từ kéo dài như はたらきます.\n- で (de): Chỉ địa điểm hoặc phương tiện → Không phù hợp.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Phân biệt: [Thời gian] から [Thời gian] まで (Từ... đến...). Ở đây chỉ nói vế kết thúc nên dùng まで."
           },
           {
             "id": "m_review_1_5_1_b1_q2",
@@ -207,7 +207,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "..."
             ],
             "correctIndex": -1,
-            "explanation": "📖 Dịch nghĩa:\nA: \"Đó là cái gì thế?\" - B: \"Là cuốn sách về máy tính.\"\n\n✍️ Phân tích đáp án:\n- なん (nan: Cái gì): Từ để hỏi cơ bản cho sự vật $\\rightarrow$ Chọn để tạo thành \"なんですか\".\n- なんの ほん: Thừa từ \"ほん\" vì câu trả lời đã chứa \"ほん\" rồi.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Khi câu hỏi dùng \"なんですか\" (Cái gì?), câu trả lời có thể đi kèm giải thích chi tiết danh từ bổ nghĩa qua trợ từ の (Sách VỀ máy tính - コンピューターの ほん)."
+            "explanation": "📖 Dịch nghĩa:\nA: \"Đó là cái gì thế?\" - B: \"Là cuốn sách về máy tính.\"\n\n✍️ Phân tích đáp án:\n- なん (nan: Cái gì): Từ để hỏi cơ bản cho sự vật → Chọn để tạo thành \"なんですか\".\n- なんの ほん: Thừa từ \"ほん\" vì câu trả lời đã chứa \"ほん\" rồi.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Khi câu hỏi dùng \"なんですか\" (Cái gì?), câu trả lời có thể đi kèm giải thích chi tiết danh từ bổ nghĩa qua trợ từ の (Sách VỀ máy tính - コンピューターの ほん)."
           },
           {
             "id": "m_review_1_5_1_b1_q3",
@@ -219,7 +219,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "をも"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nNgày mai tôi không đi đâu cả.\n\n✍️ Phân tích đáp án:\n- へも (he mo): Đi kèm từ để hỏi chỉ nơi chốn + động từ phủ định (không đi đâu) $\\rightarrow$ Chọn.\n- をも, がも: Không có cấu trúc kết hợp này cho câu phủ định hoàn toàn.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Ngữ pháp: Từ nghi vấn (どこ, だれ, なに) + Trợ từ phủ định (も / へも) + động từ dạng phủ định (〜ません) dùng để phủ định hoàn toàn sự vật/sự việc."
+            "explanation": "📖 Dịch nghĩa:\nNgày mai tôi không đi đâu cả.\n\n✍️ Phân tích đáp án:\n- へも (he mo): Đi kèm từ để hỏi chỉ nơi chốn + động từ phủ định (không đi đâu) → Chọn.\n- をも, がも: Không có cấu trúc kết hợp này cho câu phủ định hoàn toàn.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Ngữ pháp: Từ nghi vấn (どこ, だれ, なに) + Trợ từ phủ định (も / へも) + động từ dạng phủ định (〜ません) dùng để phủ định hoàn toàn sự vật/sự việc."
           }
         ]
       },
@@ -273,7 +273,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "と"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTôi đi đến nhà hàng cùng với bạn bè.\n\n✍️ Phân tích đáp án:\n- と (to): Trợ từ chỉ đối tượng cùng làm hành động (cùng với...) $\\rightarrow$ Chọn.\n- に, で, へ: Không phù hợp ngữ pháp khi đi kèm danh từ chỉ người và động từ chuyển hành.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Cấu trúc: [Người] と [Địa điểm] へ いきます (Đi đâu cùng ai)."
+            "explanation": "📖 Dịch nghĩa:\nTôi đi đến nhà hàng cùng với bạn bè.\n\n✍️ Phân tích đáp án:\n- と (to): Trợ từ chỉ đối tượng cùng làm hành động (cùng với...) → Chọn.\n- に, で, へ: Không phù hợp ngữ pháp khi đi kèm danh từ chỉ người và động từ chuyển hành.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Cấu trúc: [Người] と [Địa điểm] へ いきます (Đi đâu cùng ai)."
           },
           {
             "id": "m_review_1_5_1_d1_q1",
@@ -285,7 +285,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "みました"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nSau đó, tôi đã xem phim.\n\n✍️ Phân tích đáp án:\n- みました (mimashita): Đã xem $\\rightarrow$ Chọn vì toàn bộ câu chuyện diễn ra vào hôm qua (きのう - quá khứ).\n- みます (mimasu): Xem (thì hiện tại/tương lai) $\\rightarrow$ Sai thì.\n- みません (mimasen): Không xem $\\rightarrow$ Trái nghĩa ngữ cảnh vui vẻ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Nhận biết: Trạng ngữ chỉ thời gian \"Hôm qua (きのう)\" và câu kết \"Rất vui (たのしかったです)\" làm căn cứ chia động từ ở thể quá khứ khẳng định (ました)."
+            "explanation": "📖 Dịch nghĩa:\nSau đó, tôi đã xem phim.\n\n✍️ Phân tích đáp án:\n- みました (mimashita): Đã xem → Chọn vì toàn bộ câu chuyện diễn ra vào hôm qua (きのう - quá khứ).\n- みます (mimasu): Xem (thì hiện tại/tương lai) → Sai thì.\n- みません (mimasen): Không xem → Trái nghĩa ngữ cảnh vui vẻ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Nhận biết: Trạng ngữ chỉ thời gian \"Hôm qua (きのう)\" và câu kết \"Rất vui (たのしかったです)\" làm căn cứ chia động từ ở thể quá khứ khẳng định (ました)."
           }
         ]
       }
@@ -310,7 +310,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "まいとし"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nHàng ngày tôi học tiếng Nhật.\n\n✍️ Phân tích đáp án:\n- まいにch (mainichi): Mỗi ngày, hàng ngày $\\rightarrow$ Chọn.\n- まいしゅう (maishuu): Mỗi tuần $\\rightarrow$ Sai tần suất.\n- まいげつ (maigetsu): Mỗi tháng $\\rightarrow$ Sai tần suất.\n- まいとし (maitoshi): Mỗi năm $\\rightarrow$ Sai tần suất.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán 【毎日】 (Mỗi Nhật) có cách đọc tương ứng là まいにち.\n- Trợ từ を (wo) đứng trước động từ chỉ đối tượng tác động (học CÁI GÌ $\\rightarrow$ học tiếng Nhật)."
+            "explanation": "📖 Dịch nghĩa:\nHàng ngày tôi học tiếng Nhật.\n\n✍️ Phân tích đáp án:\n- まいにch (mainichi): Mỗi ngày, hàng ngày → Chọn.\n- まいしゅう (maishuu): Mỗi tuần → Sai tần suất.\n- まいげつ (maigetsu): Mỗi tháng → Sai tần suất.\n- まいとし (maitoshi): Mỗi năm → Sai tần suất.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán 【毎日】 (Mỗi Nhật) có cách đọc tương ứng là まいにち.\n- Trợ từ を (wo) đứng trước động từ chỉ đối tượng tác động (học CÁI GÌ → học tiếng Nhật)."
           },
           {
             "id": "m_review_1_5_2_m1_q1",
@@ -322,7 +322,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "うち"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nĐất nước của tôi là Việt Nam.\n\n✍️ Phân tích đáp án:\n- くに (kuni): Đất nước, quốc gia $\\rightarrow$ Chọn.\n- まち (machi): Phố, thị trấn $\\rightarrow$ Sai nghĩa.\n- うち (uchi): Nhà/gia đình của tôi $\\rightarrow$ Sai nghĩa.\n- いえ (ie): Ngôi nhà vật lý $\\rightarrow$ Sai nghĩa.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán 【国】 (Quốc) trong từ vựng N5 luôn được phát âm là くに (kuni).\n- Mẹo nhớ chữ: Trong nước (国) có ngọc quý (玉) được bao quanh bởi biên giới (囗)."
+            "explanation": "📖 Dịch nghĩa:\nĐất nước của tôi là Việt Nam.\n\n✍️ Phân tích đáp án:\n- くに (kuni): Đất nước, quốc gia → Chọn.\n- まち (machi): Phố, thị trấn → Sai nghĩa.\n- うち (uchi): Nhà/gia đình của tôi → Sai nghĩa.\n- いえ (ie): Ngôi nhà vật lý → Sai nghĩa.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán 【国】 (Quốc) trong từ vựng N5 luôn được phát âm là くに (kuni).\n- Mẹo nhớ chữ: Trong nước (国) có ngọc quý (玉) được bao quanh bởi biên giới (囗)."
           },
           {
             "id": "m_review_1_5_2_m1_q2",
@@ -334,7 +334,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "せんげつ"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTháng trước tôi đã đến Nhật Bản.\n\n✍️ Phân tích đáp án:\n- せんげつ (sengetsu): Tháng trước $\\rightarrow$ Chọn.\n- らいげつ (raigetsu): Tháng sau $\\rightarrow$ Sai thời điểm.\n- こんげつ (kongetsu:): Tháng này $\\rightarrow$ Sai thời điểm.\n- まいつき (maitsuki): Mỗi tháng $\\rightarrow$ Sai ngữ cảnh.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán 【先月】 (Tiên Nguyệt - tháng trước). Âm Hán Việt \"Tiên\" (trước) đi với \"Nguyệt\" (tháng).\n- Mẹo ngữ pháp: Động từ ở quá khứ きました (đã đến) bổ trợ cho việc chọn thời gian trong quá khứ là \"Tháng trước\"."
+            "explanation": "📖 Dịch nghĩa:\nTháng trước tôi đã đến Nhật Bản.\n\n✍️ Phân tích đáp án:\n- せんげつ (sengetsu): Tháng trước → Chọn.\n- らいげつ (raigetsu): Tháng sau → Sai thời điểm.\n- こんげつ (kongetsu:): Tháng này → Sai thời điểm.\n- まいつき (maitsuki): Mỗi tháng → Sai ngữ cảnh.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán 【先月】 (Tiên Nguyệt - tháng trước). Âm Hán Việt \"Tiên\" (trước) đi với \"Nguyệt\" (tháng).\n- Mẹo ngữ pháp: Động từ ở quá khứ きました (đã đến) bổ trợ cho việc chọn thời gian trong quá khứ là \"Tháng trước\"."
           },
           {
             "id": "m_review_1_5_2_m1_q3",
@@ -346,7 +346,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "すいようび"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nHôm nay là thứ Tư.\n\n✍️ Phân tích đáp án:\n- すいようび (suiyoubi): Thứ Tư $\\rightarrow$ Chọn.\n- かようび (kayoubi): Thứ Ba $\\rightarrow$ Sai ngày.\n- もくようび (mokuyoubi): Thứ Năm $\\rightarrow$ Sai ngày.\n- きんようび (kinyoubi): Thứ Sáu $\\rightarrow$ Sai ngày.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán 【水曜日】 (Thủy Diệu Nhật) có nghĩa là ngày của nước $\\rightarrow$ thứ Tư.\n- Mẹo học thứ tự các thứ trong tuần theo ngũ hành: Nhật (Chủ nhật), Nguyệt (Thứ hai), Hỏa (Thứ ba), Thủy (Thứ tư), Mộc (Thứ năm), Kim (Thứ sáu), Thổ (Thứ bảy)."
+            "explanation": "📖 Dịch nghĩa:\nHôm nay là thứ Tư.\n\n✍️ Phân tích đáp án:\n- すいようび (suiyoubi): Thứ Tư → Chọn.\n- かようび (kayoubi): Thứ Ba → Sai ngày.\n- もくようび (mokuyoubi): Thứ Năm → Sai ngày.\n- きんようび (kinyoubi): Thứ Sáu → Sai ngày.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán 【水曜日】 (Thủy Diệu Nhật) có nghĩa là ngày của nước → thứ Tư.\n- Mẹo học thứ tự các thứ trong tuần theo ngũ hành: Nhật (Chủ nhật), Nguyệt (Thứ hai), Hỏa (Thứ ba), Thủy (Thứ tư), Mộc (Thứ năm), Kim (Thứ sáu), Thổ (Thứ bảy)."
           }
         ]
       },
@@ -364,7 +364,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "電波"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTôi đi làm bằng tàu điện.\n\n✍️ Phân tích đáp án:\n- 電車 (Điện Xa - xe chạy bằng điện): Tàu điện $\\rightarrow$ Chọn.\n- 電気 (Điện Khí): Điện, đèn điện $\\rightarrow$ Sai nghĩa.\n- 電話 (Điện Thoại): Điện thoại $\\rightarrow$ Sai nghĩa.\n- 電波 (Điện Ba): Sóng điện $\\rightarrow$ Sai nghĩa.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Trợ từ で (de) đứng sau phương tiện di chuyển chỉ cách thức di chuyển (bằng tàu điện).\n- Mẹo viết chữ: Chữ 電 (Điện) gồm bộ Vũ (mưa) ở trên và chữ Thần (sấm sét) ở dưới."
+            "explanation": "📖 Dịch nghĩa:\nTôi đi làm bằng tàu điện.\n\n✍️ Phân tích đáp án:\n- 電車 (Điện Xa - xe chạy bằng điện): Tàu điện → Chọn.\n- 電気 (Điện Khí): Điện, đèn điện → Sai nghĩa.\n- 電話 (Điện Thoại): Điện thoại → Sai nghĩa.\n- 電波 (Điện Ba): Sóng điện → Sai nghĩa.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Trợ từ で (de) đứng sau phương tiện di chuyển chỉ cách thức di chuyển (bằng tàu điện).\n- Mẹo viết chữ: Chữ 電 (Điện) gồm bộ Vũ (mưa) ở trên và chữ Thần (sấm sét) ở dưới."
           },
           {
             "id": "m_review_1_5_2_m2_q1",
@@ -376,7 +376,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "車"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTôi đã mua ô tô.\n\n✍️ Phân tích đáp án:\n- 車 (Xa): Xe hơi, ô tô $\\rightarrow$ Chọn.\n- 東 (Đông): Phía đông $\\rightarrow$ Sai mặt chữ.\n- 重 (Trọng): Nặng $\\rightarrow$ Sai mặt chữ.\n- 庫 (Khố): Kho $\\rightarrow$ Sai mặt chữ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán 【車】 vẽ hình cái bánh xe và trục xe nhìn từ trên xuống. Đây là bộ thủ cơ bản đại diện cho các loại xe cộ."
+            "explanation": "📖 Dịch nghĩa:\nTôi đã mua ô tô.\n\n✍️ Phân tích đáp án:\n- 車 (Xa): Xe hơi, ô tô → Chọn.\n- 東 (Đông): Phía đông → Sai mặt chữ.\n- 重 (Trọng): Nặng → Sai mặt chữ.\n- 庫 (Khố): Kho → Sai mặt chữ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán 【車】 vẽ hình cái bánh xe và trục xe nhìn từ trên xuống. Đây là bộ thủ cơ bản đại diện cho các loại xe cộ."
           },
           {
             "id": "m_review_1_5_2_m2_q2",
@@ -388,7 +388,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "デバート"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTôi đi đến trung tâm thương mại cùng bạn bè.\n\n✍️ Phân tích đáp án:\n- デパート (depaato): Cửa hàng bách hóa $\\rightarrow$ Chọn.\n- デバート: Viết sai chữ パ (pa) thành バ (ba).\n- テパート: Thiếu dấu đục ở chữ デ (de) thành テ (te).\n- デパード: Viết sai chữ ト (to) thành ド (do).\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Từ bắt nguồn từ tiếng Anh \"Department store\". Có dấu gạch ngang (ー) biểu thị trường âm kéo dài."
+            "explanation": "📖 Dịch nghĩa:\nTôi đi đến trung tâm thương mại cùng bạn bè.\n\n✍️ Phân tích đáp án:\n- デパート (depaato): Cửa hàng bách hóa → Chọn.\n- デバート: Viết sai chữ パ (pa) thành バ (ba).\n- テパート: Thiếu dấu đục ở chữ デ (de) thành テ (te).\n- デパード: Viết sai chữ ト (to) thành ド (do).\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Từ bắt nguồn từ tiếng Anh \"Department store\". Có dấu gạch ngang (ー) biểu thị trường âm kéo dài."
           },
           {
             "id": "m_review_1_5_2_m2_q3",
@@ -400,7 +400,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "レストラン"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nNhà hàng kia ngon lắm.\n\n✍️ Phân tích đáp án:\n- レストラン (resutoran): Nhà hàng $\\rightarrow$ Chọn.\n- レストンラ: Viết sai vị trí chữ ン và ラ.\n- レストラソ: Viết sai chữ ン (n) thành chữ ソ (so) nét hướng từ trên xuống.\n- レスドラン: Thừa dấu đục (tenten) ở chữ ト thành ド.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Mẹo nhận biết chữ Katakana: Chữ ン (n) nét móc kéo từ dưới lên, chữ ソ (so) nét kéo vuốt từ trên xuống."
+            "explanation": "📖 Dịch nghĩa:\nNhà hàng kia ngon lắm.\n\n✍️ Phân tích đáp án:\n- レストラン (resutoran): Nhà hàng → Chọn.\n- レストンラ: Viết sai vị trí chữ ン và ラ.\n- レストラソ: Viết sai chữ ン (n) thành chữ ソ (so) nét hướng từ trên xuống.\n- レスドラン: Thừa dấu đục (tenten) ở chữ ト thành ド.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Mẹo nhận biết chữ Katakana: Chữ ン (n) nét móc kéo từ dưới lên, chữ ソ (so) nét kéo vuốt từ trên xuống."
           }
         ]
       },
@@ -418,7 +418,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "すいます"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTôi mua trái cây ở siêu thị.\n\n✍️ Phân tích đáp án:\n- かいます (kaimasu): Mua $\\rightarrow$ Chọn vì là hành động phổ biến đối với hàng hóa (くだもの) tại siêu thị.\n- あいます (aimasu): Gặp gỡ $\\rightarrow$ Không đi với hoa quả.\n- すいます (suimasu): Hút thuốc $\\rightarrow$ Không đi với hoa quả.\n- のみます (nomimasu): Uống $\\rightarrow$ Hoa quả dạng rắn không dùng động từ uống.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Trợ từ で (de) chỉ địa điểm diễn ra hành động mua bán (ở siêu thị - スーパーで).\n- Trợ từ を (wo) liên kết tân ngữ tác động (trái cây)."
+            "explanation": "📖 Dịch nghĩa:\nTôi mua trái cây ở siêu thị.\n\n✍️ Phân tích đáp án:\n- かいます (kaimasu): Mua → Chọn vì là hành động phổ biến đối với hàng hóa (くだもの) tại siêu thị.\n- あいます (aimasu): Gặp gỡ → Không đi với hoa quả.\n- すいます (suimasu): Hút thuốc → Không đi với hoa quả.\n- のみます (nomimasu): Uống → Hoa quả dạng rắn không dùng động từ uống.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Trợ từ で (de) chỉ địa điểm diễn ra hành động mua bán (ở siêu thị - スーパーで).\n- Trợ từ を (wo) liên kết tân ngữ tác động (trái cây)."
           },
           {
             "id": "m_review_1_5_2_m3_q1",
@@ -430,7 +430,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "きました"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nHôm nay tôi đã đi ngủ lúc 10 giờ.\n\n✍️ Phân tích đáp án:\n- ねました (nemashita): Đã ngủ $\\rightarrow$ Phù hợp nhất với mốc thời gian 10 giờ đêm (10じ).\n- おきました (okimashita): Đã thức dậy $\\rightarrow$ 10 giờ đêm không phải giờ thức dậy phổ thông.\n- きました (kimashita): Đã đến $\\rightarrow$ Không hợp nghĩa.\n- いきました (ikimashita): Đã đi $\\rightarrow$ Không hợp nghĩa.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Trợ từ に (ni) bắt buộc đi kèm sau mốc thời gian cụ thể (１０じに).\n- Đuôi 〜ました biểu thị hành động đã kết thúc trong quá khứ (ngày hôm qua - きのう)."
+            "explanation": "📖 Dịch nghĩa:\nHôm nay tôi đã đi ngủ lúc 10 giờ.\n\n✍️ Phân tích đáp án:\n- ねました (nemashita): Đã ngủ → Phù hợp nhất với mốc thời gian 10 giờ đêm (10じ).\n- おきました (okimashita): Đã thức dậy → 10 giờ đêm không phải giờ thức dậy phổ thông.\n- きました (kimashita): Đã đến → Không hợp nghĩa.\n- いきました (ikimashita): Đã đi → Không hợp nghĩa.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Trợ từ に (ni) bắt buộc đi kèm sau mốc thời gian cụ thể (１０じに).\n- Đuôi 〜ました biểu thị hành động đã kết thúc trong quá khứ (ngày hôm qua - きのう)."
           },
           {
             "id": "m_review_1_5_2_m3_q2",
@@ -442,7 +442,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "おわります"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nNgày mai là ngày nghỉ. Tôi sẽ nghỉ ngơi thong thả ở nhà.\n\n✍️ Phân tích đáp án:\n- やすみます (yasumimasu): Nghỉ ngơi $\\rightarrow$ Chọn vì khớp với vế \"ngày nghỉ (やすみ)\".\n- おきます (okimasu): Thức dậy $\\rightarrow$ Không phù hợp ngữ cảnh.\n- はたらきます (hatarakimasu): Làm việc $\\rightarrow$ Trái nghĩa với ngày nghỉ.\n- おわります (owarimasu): Kết thúc $\\rightarrow$ Không phù hợp.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Cụm từ đi liền: ゆっくり 休みます (Nghỉ ngơi thong thả, thư giãn).\n- Trợ từ で (de) chỉ địa điểm xảy ra hành động (nghỉ ngơi ở nhà - うちで)."
+            "explanation": "📖 Dịch nghĩa:\nNgày mai là ngày nghỉ. Tôi sẽ nghỉ ngơi thong thả ở nhà.\n\n✍️ Phân tích đáp án:\n- やすみます (yasumimasu): Nghỉ ngơi → Chọn vì khớp với vế \"ngày nghỉ (やすみ)\".\n- おきます (okimasu): Thức dậy → Không phù hợp ngữ cảnh.\n- はたらきます (hatarakimasu): Làm việc → Trái nghĩa với ngày nghỉ.\n- おわります (owarimasu): Kết thúc → Không phù hợp.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Cụm từ đi liền: ゆっくり 休みます (Nghỉ ngơi thong thả, thư giãn).\n- Trợ từ で (de) chỉ địa điểm xảy ra hành động (nghỉ ngơi ở nhà - うちで)."
           },
           {
             "id": "m_review_1_5_2_m3_q3",
@@ -454,7 +454,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "みます"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTôi viết thư bằng bút chì.\n\n✍️ Phân tích đáp án:\n- かきます (kakimasu): Viết $\\rightarrow$ Chọn vì đi với danh từ てがみ (thư).\n- よみます (yomimasu): Đọc $\\rightarrow$ Không đi với công cụ bằng bút chì.\n- ききます (kikimasu): Nghe / hỏi $\\rightarrow$ Không đi với viết thư.\n- みます (mimasu): Xem $\\rightarrow$ Không đi với bút chì.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Trợ từ で (de) đóng vai trò chỉ phương tiện/công cụ để thực hiện hành động (viết bằng cái gì $\\rightarrow$ えんぴつで - bằng bút chì)."
+            "explanation": "📖 Dịch nghĩa:\nTôi viết thư bằng bút chì.\n\n✍️ Phân tích đáp án:\n- かきます (kakimasu): Viết → Chọn vì đi với danh từ てがみ (thư).\n- よみます (yomimasu): Đọc → Không đi với công cụ bằng bút chì.\n- ききます (kikimasu): Nghe / hỏi → Không đi với viết thư.\n- みます (mimasu): Xem → Không đi với bút chì.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Trợ từ で (de) đóng vai trò chỉ phương tiện/công cụ để thực hiện hành động (viết bằng cái gì → えんぴつで - bằng bút chì)."
           }
         ]
       },
@@ -472,7 +472,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "に"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nTôi viết thư bằng bút chì.\n\n✍️ Phân tích đáp án:\n- で (de): Trợ từ chỉ phương tiện, công cụ (bằng...) $\\rightarrow$ Chọn.\n- に (ni): Chỉ điểm thời gian hoặc hướng đi $\\rightarrow$ Không phù hợp.\n- を (wo): Đứng sau tân ngữ trực tiếp (đã có てがみを) $\\rightarrow$ Không phù hợp.\n- が (ga): Chỉ chủ ngữ hoặc đối tượng khả năng $\\rightarrow$ Không phù hợp.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Mẹo làm bài: Khi thấy một danh từ chỉ dụng cụ học tập/phương tiện đi liền trước động từ hành động, hãy nghĩ ngay tới trợ từ công cụ で."
+            "explanation": "📖 Dịch nghĩa:\nTôi viết thư bằng bút chì.\n\n✍️ Phân tích đáp án:\n- で (de): Trợ từ chỉ phương tiện, công cụ (bằng...) → Chọn.\n- に (ni): Chỉ điểm thời gian hoặc hướng đi → Không phù hợp.\n- を (wo): Đứng sau tân ngữ trực tiếp (đã có てがみを) → Không phù hợp.\n- が (ga): Chỉ chủ ngữ hoặc đối tượng khả năng → Không phù hợp.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Mẹo làm bài: Khi thấy một danh từ chỉ dụng cụ học tập/phương tiện đi liền trước động từ hành động, hãy nghĩ ngay tới trợ từ công cụ で."
           },
           {
             "id": "m_review_1_5_2_b1_q1",
@@ -484,7 +484,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "gがも"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nNgày mai tôi không đi đâu cả.\n\n✍️ Phân tích đáp án:\n- へも (he mo): Đi kèm từ để hỏi chỉ nơi chốn + động từ phủ định (không đi đâu) $\\rightarrow$ Chọn.\n- をも, がも: Không có cấu trúc kết hợp này cho câu phủ định hoàn toàn.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Ngữ pháp: Từ nghi vấn (どこ, だれ, なに) + Trợ từ phủ định (も / へも) + động từ dạng phủ định (〜ません) dùng để phủ định hoàn toàn sự vật/sự việc."
+            "explanation": "📖 Dịch nghĩa:\nNgày mai tôi không đi đâu cả.\n\n✍️ Phân tích đáp án:\n- へも (he mo): Đi kèm từ để hỏi chỉ nơi chốn + động từ phủ định (không đi đâu) → Chọn.\n- をも, がも: Không có cấu trúc kết hợp này cho câu phủ định hoàn toàn.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Ngữ pháp: Từ nghi vấn (どこ, だれ, なに) + Trợ từ phủ định (も / へも) + động từ dạng phủ định (〜ません) dùng để phủ định hoàn toàn sự vật/sự việc."
           },
           {
             "id": "m_review_1_5_2_b1_q2",
@@ -496,7 +496,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "từ"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nHôm nay tôi làm việc đến 5 giờ.\n\n✍️ Phân tích đáp án:\n- まで (made): Đến (chỉ giới hạn thời gian kết thúc) $\\rightarrow$ Chọn.\n- から (kara): Từ (chỉ điểm bắt đầu) $\\rightarrow$ Thường đi kèm động từ bắt đầu từ lúc nào.\n- に (ni): Vào lúc (chỉ mốc thời gian cụ thể của hành động tức thời) $\\rightarrow$ Không đi với động từ kéo dài như はたらきます.\n- で (de): Chỉ địa điểm hoặc phương tiện $\\rightarrow$ Không phù hợp.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Phân biệt: [Thời gian] から [Thời gian] まで (Từ... đến...). Ở đây chỉ nói vế kết thúc nên dùng まで."
+            "explanation": "📖 Dịch nghĩa:\nHôm nay tôi làm việc đến 5 giờ.\n\n✍️ Phân tích đáp án:\n- まで (made): Đến (chỉ giới hạn thời gian kết thúc) → Chọn.\n- から (kara): Từ (chỉ điểm bắt đầu) → Thường đi kèm động từ bắt đầu từ lúc nào.\n- に (ni): Vào lúc (chỉ mốc thời gian cụ thể của hành động tức thời) → Không đi với động từ kéo dài như はたらきます.\n- で (de): Chỉ địa điểm hoặc phương tiện → Không phù hợp.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Phân biệt: [Thời gian] から [Thời gian] まで (Từ... đến...). Ở đây chỉ nói vế kết thúc nên dùng まで."
           },
           {
             "id": "m_review_1_5_2_b1_q3",
@@ -507,7 +507,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "なんの ほん"
             ],
             "correctIndex": -1,
-            "explanation": "📖 Dịch nghĩa:\nA: \"Đó là cái gì thế?\" - B: \"Là cuốn sách về máy tính.\"\n\n✍️ Phân tích đáp án:\n- なん (nan: Cái gì): Từ để hỏi cơ bản cho sự vật $\\rightarrow$ Chọn để tạo thành \"なんですか\".\n- なんの ほん: Thừa từ \"ほん\" vì câu trả lời đã chứa \"ほん\" rồi.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Khi câu hỏi dùng \"なんですか\" (Cái gì?), câu trả lời có thể đi kèm giải thích chi tiết danh từ bổ nghĩa qua trợ từ の (Sách VỀ máy tính - コンピューターの ほん)."
+            "explanation": "📖 Dịch nghĩa:\nA: \"Đó là cái gì thế?\" - B: \"Là cuốn sách về máy tính.\"\n\n✍️ Phân tích đáp án:\n- なん (nan: Cái gì): Từ để hỏi cơ bản cho sự vật → Chọn để tạo thành \"なんですか\".\n- なんの ほん: Thừa từ \"ほん\" vì câu trả lời đã chứa \"ほん\" rồi.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Khi câu hỏi dùng \"なんですか\" (Cái gì?), câu trả lời có thể đi kèm giải thích chi tiết danh từ bổ nghĩa qua trợ từ の (Sách VỀ máy tính - コンピューターの ほん)."
           }
         ]
       },
@@ -561,7 +561,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "で"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nTôi đi đến nhà hàng cùng với bạn bè.\n\n✍️ Phân tích đáp án:\n- と (to): Trợ từ chỉ đối tượng cùng làm hành động (cùng với...) $\\rightarrow$ Chọn.\n- に, で, へ: Không phù hợp ngữ pháp khi đi kèm danh từ chỉ người và động từ chuyển hành.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Cấu trúc: [Người] と [Địa điểm] へ いきます (Đi đâu cùng ai)."
+            "explanation": "📖 Dịch nghĩa:\nTôi đi đến nhà hàng cùng với bạn bè.\n\n✍️ Phân tích đáp án:\n- と (to): Trợ từ chỉ đối tượng cùng làm hành động (cùng với...) → Chọn.\n- に, で, へ: Không phù hợp ngữ pháp khi đi kèm danh từ chỉ người và động từ chuyển hành.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Cấu trúc: [Người] と [Địa điểm] へ いきます (Đi đâu cùng ai)."
           },
           {
             "id": "m_review_1_5_2_d1_q1",
@@ -573,7 +573,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "みますか"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nSau đó, tôi đã xem phim.\n\n✍️ Phân tích đáp án:\n- みました (mimashita): Đã xem $\\rightarrow$ Chọn vì toàn bộ câu chuyện diễn ra vào hôm qua (きのう - quá khứ).\n- みます (mimasu): Xem (thì hiện tại/tương lai) $\\rightarrow$ Sai thì.\n- みません (mimasen): Không xem $\\rightarrow$ Trái nghĩa ngữ cảnh vui vẻ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Nhận biết: Trạng ngữ chỉ thời gian \"Hôm qua (きのう)\" và câu kết \"Rất vui (たのしかったです)\" làm căn cứ chia động từ ở thể quá khứ khẳng định (ました)."
+            "explanation": "📖 Dịch nghĩa:\nSau đó, tôi đã xem phim.\n\n✍️ Phân tích đáp án:\n- みました (mimashita): Đã xem → Chọn vì toàn bộ câu chuyện diễn ra vào hôm qua (きのう - quá khứ).\n- みます (mimasu): Xem (thì hiện tại/tương lai) → Sai thì.\n- みません (mimasen): Không xem → Trái nghĩa ngữ cảnh vui vẻ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Nhận biết: Trạng ngữ chỉ thời gian \"Hôm qua (きのう)\" và câu kết \"Rất vui (たのしかったです)\" làm căn cứ chia động từ ở thể quá khứ khẳng định (ました)."
           }
         ]
       }
@@ -598,7 +598,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "うち"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nĐất nước của tôi là Việt Nam.\n\n✍️ Phân tích đáp án:\n- くに (kuni): Đất nước, quốc gia $\\rightarrow$ Chọn.\n- まち (machi): Phố, thị trấn $\\rightarrow$ Sai nghĩa.\n- うち (uchi): Nhà/gia đình của tôi $\\rightarrow$ Sai nghĩa.\n- いえ (ie): Ngôi nhà vật lý $\\rightarrow$ Sai nghĩa.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán 【国】 (Quốc) trong từ vựng N5 luôn được phát âm là くに (kuni).\n- Mẹo nhớ chữ: Trong nước (国) có ngọc quý (玉) được bao quanh bởi biên giới (囗)."
+            "explanation": "📖 Dịch nghĩa:\nĐất nước của tôi là Việt Nam.\n\n✍️ Phân tích đáp án:\n- くに (kuni): Đất nước, quốc gia → Chọn.\n- まち (machi): Phố, thị trấn → Sai nghĩa.\n- うち (uchi): Nhà/gia đình của tôi → Sai nghĩa.\n- いえ (ie): Ngôi nhà vật lý → Sai nghĩa.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán 【国】 (Quốc) trong từ vựng N5 luôn được phát âm là くに (kuni).\n- Mẹo nhớ chữ: Trong nước (国) có ngọc quý (玉) được bao quanh bởi biên giới (囗)."
           },
           {
             "id": "m_review_1_5_3_m1_q1",
@@ -610,7 +610,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "まいつき"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nTháng trước tôi đã đến Nhật Bản.\n\n✍️ Phân tích đáp án:\n- せんげつ (sengetsu): Tháng trước $\\rightarrow$ Chọn.\n- らいげつ (raigetsu): Tháng sau $\\rightarrow$ Sai thời điểm.\n- こんげつ (kongetsu:): Tháng này $\\rightarrow$ Sai thời điểm.\n- まいつき (maitsuki): Mỗi tháng $\\rightarrow$ Sai ngữ cảnh.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán 【先月】 (Tiên Nguyệt - tháng trước). Âm Hán Việt \"Tiên\" (trước) đi với \"Nguyệt\" (tháng).\n- Mẹo ngữ pháp: Động từ ở quá khứ きました (đã đến) bổ trợ cho việc chọn thời gian trong quá khứ là \"Tháng trước\"."
+            "explanation": "📖 Dịch nghĩa:\nTháng trước tôi đã đến Nhật Bản.\n\n✍️ Phân tích đáp án:\n- せんげつ (sengetsu): Tháng trước → Chọn.\n- らいげつ (raigetsu): Tháng sau → Sai thời điểm.\n- こんげつ (kongetsu:): Tháng này → Sai thời điểm.\n- まいつき (maitsuki): Mỗi tháng → Sai ngữ cảnh.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán 【先月】 (Tiên Nguyệt - tháng trước). Âm Hán Việt \"Tiên\" (trước) đi với \"Nguyệt\" (tháng).\n- Mẹo ngữ pháp: Động từ ở quá khứ きました (đã đến) bổ trợ cho việc chọn thời gian trong quá khứ là \"Tháng trước\"."
           },
           {
             "id": "m_review_1_5_3_m1_q2",
@@ -622,7 +622,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "まいとし"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nHàng ngày tôi học tiếng Nhật.\n\n✍️ Phân tích đáp án:\n- まいにch (mainichi): Mỗi ngày, hàng ngày $\\rightarrow$ Chọn.\n- まいしゅう (maishuu): Mỗi tuần $\\rightarrow$ Sai tần suất.\n- まいげつ (maigetsu): Mỗi tháng $\\rightarrow$ Sai tần suất.\n- まいとし (maitoshi): Mỗi năm $\\rightarrow$ Sai tần suất.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán 【毎日】 (Mỗi Nhật) có cách đọc tương ứng là まいにち.\n- Trợ từ を (wo) đứng trước động từ chỉ đối tượng tác động (học CÁI GÌ $\\rightarrow$ học tiếng Nhật)."
+            "explanation": "📖 Dịch nghĩa:\nHàng ngày tôi học tiếng Nhật.\n\n✍️ Phân tích đáp án:\n- まいにch (mainichi): Mỗi ngày, hàng ngày → Chọn.\n- まいしゅう (maishuu): Mỗi tuần → Sai tần suất.\n- まいげつ (maigetsu): Mỗi tháng → Sai tần suất.\n- まいとし (maitoshi): Mỗi năm → Sai tần suất.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán 【毎日】 (Mỗi Nhật) có cách đọc tương ứng là まいにち.\n- Trợ từ を (wo) đứng trước động từ chỉ đối tượng tác động (học CÁI GÌ → học tiếng Nhật)."
           },
           {
             "id": "m_review_1_5_3_m1_q3",
@@ -634,7 +634,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "かようび"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nHôm nay là thứ Tư.\n\n✍️ Phân tích đáp án:\n- すいようび (suiyoubi): Thứ Tư $\\rightarrow$ Chọn.\n- かようび (kayoubi): Thứ Ba $\\rightarrow$ Sai ngày.\n- もくようび (mokuyoubi): Thứ Năm $\\rightarrow$ Sai ngày.\n- きんようび (kinyoubi): Thứ Sáu $\\rightarrow$ Sai ngày.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán 【水曜日】 (Thủy Diệu Nhật) có nghĩa là ngày của nước $\\rightarrow$ thứ Tư.\n- Mẹo học thứ tự các thứ trong tuần theo ngũ hành: Nhật (Chủ nhật), Nguyệt (Thứ hai), Hỏa (Thứ ba), Thủy (Thứ tư), Mộc (Thứ năm), Kim (Thứ sáu), Thổ (Thứ bảy)."
+            "explanation": "📖 Dịch nghĩa:\nHôm nay là thứ Tư.\n\n✍️ Phân tích đáp án:\n- すいようび (suiyoubi): Thứ Tư → Chọn.\n- かようび (kayoubi): Thứ Ba → Sai ngày.\n- もくようび (mokuyoubi): Thứ Năm → Sai ngày.\n- きんようび (kinyoubi): Thứ Sáu → Sai ngày.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán 【水曜日】 (Thủy Diệu Nhật) có nghĩa là ngày của nước → thứ Tư.\n- Mẹo học thứ tự các thứ trong tuần theo ngũ hành: Nhật (Chủ nhật), Nguyệt (Thứ hai), Hỏa (Thứ ba), Thủy (Thứ tư), Mộc (Thứ năm), Kim (Thứ sáu), Thổ (Thứ bảy)."
           }
         ]
       },
@@ -652,7 +652,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "電車"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTôi đi làm bằng tàu điện.\n\n✍️ Phân tích đáp án:\n- 電車 (Điện Xa - xe chạy bằng điện): Tàu điện $\\rightarrow$ Chọn.\n- 電気 (Điện Khí): Điện, đèn điện $\\rightarrow$ Sai nghĩa.\n- 電話 (Điện Thoại): Điện thoại $\\rightarrow$ Sai nghĩa.\n- 電波 (Điện Ba): Sóng điện $\\rightarrow$ Sai nghĩa.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Trợ từ で (de) đứng sau phương tiện di chuyển chỉ cách thức di chuyển (bằng tàu điện).\n- Mẹo viết chữ: Chữ 電 (Điện) gồm bộ Vũ (mưa) ở trên và chữ Thần (sấm sét) ở dưới."
+            "explanation": "📖 Dịch nghĩa:\nTôi đi làm bằng tàu điện.\n\n✍️ Phân tích đáp án:\n- 電車 (Điện Xa - xe chạy bằng điện): Tàu điện → Chọn.\n- 電気 (Điện Khí): Điện, đèn điện → Sai nghĩa.\n- 電話 (Điện Thoại): Điện thoại → Sai nghĩa.\n- 電波 (Điện Ba): Sóng điện → Sai nghĩa.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Trợ từ で (de) đứng sau phương tiện di chuyển chỉ cách thức di chuyển (bằng tàu điện).\n- Mẹo viết chữ: Chữ 電 (Điện) gồm bộ Vũ (mưa) ở trên và chữ Thần (sấm sét) ở dưới."
           },
           {
             "id": "m_review_1_5_3_m2_q1",
@@ -664,7 +664,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "レストラソ"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nNhà hàng kia ngon lắm.\n\n✍️ Phân tích đáp án:\n- レストラン (resutoran): Nhà hàng $\\rightarrow$ Chọn.\n- レストンラ: Viết sai vị trí chữ ン và ラ.\n- レストラソ: Viết sai chữ ン (n) thành chữ ソ (so) nét hướng từ trên xuống.\n- レスドラン: Thừa dấu đục (tenten) ở chữ ト thành ド.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Mẹo nhận biết chữ Katakana: Chữ ン (n) nét móc kéo từ dưới lên, chữ ソ (so) nét kéo vuốt từ trên xuống."
+            "explanation": "📖 Dịch nghĩa:\nNhà hàng kia ngon lắm.\n\n✍️ Phân tích đáp án:\n- レストラン (resutoran): Nhà hàng → Chọn.\n- レストンラ: Viết sai vị trí chữ ン và ラ.\n- レストラソ: Viết sai chữ ン (n) thành chữ ソ (so) nét hướng từ trên xuống.\n- レスドラン: Thừa dấu đục (tenten) ở chữ ト thành ド.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Mẹo nhận biết chữ Katakana: Chữ ン (n) nét móc kéo từ dưới lên, chữ ソ (so) nét kéo vuốt từ trên xuống."
           },
           {
             "id": "m_review_1_5_3_m2_q2",
@@ -676,7 +676,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "デパード"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTôi đi đến trung tâm thương mại cùng bạn bè.\n\n✍️ Phân tích đáp án:\n- デパート (depaato): Cửa hàng bách hóa $\\rightarrow$ Chọn.\n- デバート: Viết sai chữ パ (pa) thành バ (ba).\n- テパート: Thiếu dấu đục ở chữ デ (de) thành テ (te).\n- デパード: Viết sai chữ ト (to) thành ド (do).\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Từ bắt nguồn từ tiếng Anh \"Department store\". Có dấu gạch ngang (ー) biểu thị trường âm kéo dài."
+            "explanation": "📖 Dịch nghĩa:\nTôi đi đến trung tâm thương mại cùng bạn bè.\n\n✍️ Phân tích đáp án:\n- デパート (depaato): Cửa hàng bách hóa → Chọn.\n- デバート: Viết sai chữ パ (pa) thành バ (ba).\n- テパート: Thiếu dấu đục ở chữ デ (de) thành テ (te).\n- デパード: Viết sai chữ ト (to) thành ド (do).\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Từ bắt nguồn từ tiếng Anh \"Department store\". Có dấu gạch ngang (ー) biểu thị trường âm kéo dài."
           },
           {
             "id": "m_review_1_5_3_m2_q3",
@@ -688,7 +688,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "重"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTôi đã mua ô tô.\n\n✍️ Phân tích đáp án:\n- 車 (Xa): Xe hơi, ô tô $\\rightarrow$ Chọn.\n- 東 (Đông): Phía đông $\\rightarrow$ Sai mặt chữ.\n- 重 (Trọng): Nặng $\\rightarrow$ Sai mặt chữ.\n- 庫 (Khố): Kho $\\rightarrow$ Sai mặt chữ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán 【車】 vẽ hình cái bánh xe và trục xe nhìn từ trên xuống. Đây là bộ thủ cơ bản đại diện cho các loại xe cộ."
+            "explanation": "📖 Dịch nghĩa:\nTôi đã mua ô tô.\n\n✍️ Phân tích đáp án:\n- 車 (Xa): Xe hơi, ô tô → Chọn.\n- 東 (Đông): Phía đông → Sai mặt chữ.\n- 重 (Trọng): Nặng → Sai mặt chữ.\n- 庫 (Khố): Kho → Sai mặt chữ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán 【車】 vẽ hình cái bánh xe và trục xe nhìn từ trên xuống. Đây là bộ thủ cơ bản đại diện cho các loại xe cộ."
           }
         ]
       },
@@ -706,7 +706,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "きました"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nHôm nay tôi đã đi ngủ lúc 10 giờ.\n\n✍️ Phân tích đáp án:\n- ねました (nemashita): Đã ngủ $\\rightarrow$ Phù hợp nhất với mốc thời gian 10 giờ đêm (10じ).\n- おきました (okimashita): Đã thức dậy $\\rightarrow$ 10 giờ đêm không phải giờ thức dậy phổ thông.\n- きました (kimashita): Đã đến $\\rightarrow$ Không hợp nghĩa.\n- いきました (ikimashita): Đã đi $\\rightarrow$ Không hợp nghĩa.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Trợ từ に (ni) bắt buộc đi kèm sau mốc thời gian cụ thể (１０じに).\n- Đuôi 〜ました biểu thị hành động đã kết thúc trong quá khứ (ngày hôm qua - きのう)."
+            "explanation": "📖 Dịch nghĩa:\nHôm nay tôi đã đi ngủ lúc 10 giờ.\n\n✍️ Phân tích đáp án:\n- ねました (nemashita): Đã ngủ → Phù hợp nhất với mốc thời gian 10 giờ đêm (10じ).\n- おきました (okimashita): Đã thức dậy → 10 giờ đêm không phải giờ thức dậy phổ thông.\n- きました (kimashita): Đã đến → Không hợp nghĩa.\n- いきました (ikimashita): Đã đi → Không hợp nghĩa.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Trợ từ に (ni) bắt buộc đi kèm sau mốc thời gian cụ thể (１０じに).\n- Đuôi 〜ました biểu thị hành động đã kết thúc trong quá khứ (ngày hôm qua - きのう)."
           },
           {
             "id": "m_review_1_5_3_m3_q1",
@@ -718,7 +718,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "やすみます"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nNgày mai là ngày nghỉ. Tôi sẽ nghỉ ngơi thong thả ở nhà.\n\n✍️ Phân tích đáp án:\n- やすみます (yasumimasu): Nghỉ ngơi $\\rightarrow$ Chọn vì khớp với vế \"ngày nghỉ (やすみ)\".\n- おきます (okimasu): Thức dậy $\\rightarrow$ Không phù hợp ngữ cảnh.\n- はたらきます (hatarakimasu): Làm việc $\\rightarrow$ Trái nghĩa với ngày nghỉ.\n- おわります (owarimasu): Kết thúc $\\rightarrow$ Không phù hợp.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Cụm từ đi liền: ゆっくり 休みます (Nghỉ ngơi thong thả, thư giãn).\n- Trợ từ で (de) chỉ địa điểm xảy ra hành động (nghỉ ngơi ở nhà - うちで)."
+            "explanation": "📖 Dịch nghĩa:\nNgày mai là ngày nghỉ. Tôi sẽ nghỉ ngơi thong thả ở nhà.\n\n✍️ Phân tích đáp án:\n- やすみます (yasumimasu): Nghỉ ngơi → Chọn vì khớp với vế \"ngày nghỉ (やすみ)\".\n- おきます (okimasu): Thức dậy → Không phù hợp ngữ cảnh.\n- はたらきます (hatarakimasu): Làm việc → Trái nghĩa với ngày nghỉ.\n- おわります (owarimasu): Kết thúc → Không phù hợp.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Cụm từ đi liền: ゆっくり 休みます (Nghỉ ngơi thong thả, thư giãn).\n- Trợ từ で (de) chỉ địa điểm xảy ra hành động (nghỉ ngơi ở nhà - うちで)."
           },
           {
             "id": "m_review_1_5_3_m3_q2",
@@ -730,7 +730,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "すいます"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nTôi mua trái cây ở siêu thị.\n\n✍️ Phân tích đáp án:\n- かいます (kaimasu): Mua $\\rightarrow$ Chọn vì là hành động phổ biến đối với hàng hóa (くだもの) tại siêu thị.\n- あいます (aimasu): Gặp gỡ $\\rightarrow$ Không đi với hoa quả.\n- すいます (suimasu): Hút thuốc $\\rightarrow$ Không đi với hoa quả.\n- のみます (nomimasu): Uống $\\rightarrow$ Hoa quả dạng rắn không dùng động từ uống.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Trợ từ で (de) chỉ địa điểm diễn ra hành động mua bán (ở siêu thị - スーパーで).\n- Trợ từ を (wo) liên kết tân ngữ tác động (trái cây)."
+            "explanation": "📖 Dịch nghĩa:\nTôi mua trái cây ở siêu thị.\n\n✍️ Phân tích đáp án:\n- かいます (kaimasu): Mua → Chọn vì là hành động phổ biến đối với hàng hóa (くだもの) tại siêu thị.\n- あいます (aimasu): Gặp gỡ → Không đi với hoa quả.\n- すいます (suimasu): Hút thuốc → Không đi với hoa quả.\n- のみます (nomimasu): Uống → Hoa quả dạng rắn không dùng động từ uống.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Trợ từ で (de) chỉ địa điểm diễn ra hành động mua bán (ở siêu thị - スーパーで).\n- Trợ từ を (wo) liên kết tân ngữ tác động (trái cây)."
           },
           {
             "id": "m_review_1_5_3_m3_q3",
@@ -742,7 +742,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "みます"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTôi viết thư bằng bút chì.\n\n✍️ Phân tích đáp án:\n- かきます (kakimasu): Viết $\\rightarrow$ Chọn vì đi với danh từ てがみ (thư).\n- よみます (yomimasu): Đọc $\\rightarrow$ Không đi với công cụ bằng bút chì.\n- ききます (kikimasu): Nghe / hỏi $\\rightarrow$ Không đi với viết thư.\n- みます (mimasu): Xem $\\rightarrow$ Không đi với bút chì.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Trợ từ で (de) đóng vai trò chỉ phương tiện/công cụ để thực hiện hành động (viết bằng cái gì $\\rightarrow$ えんぴつで - bằng bút chì)."
+            "explanation": "📖 Dịch nghĩa:\nTôi viết thư bằng bút chì.\n\n✍️ Phân tích đáp án:\n- かきます (kakimasu): Viết → Chọn vì đi với danh từ てがみ (thư).\n- よみます (yomimasu): Đọc → Không đi với công cụ bằng bút chì.\n- ききます (kikimasu): Nghe / hỏi → Không đi với viết thư.\n- みます (mimasu): Xem → Không đi với bút chì.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Trợ từ で (de) đóng vai trò chỉ phương tiện/công cụ để thực hiện hành động (viết bằng cái gì → えんぴつで - bằng bút chì)."
           }
         ]
       },
@@ -760,7 +760,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "gが"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nTôi viết thư bằng bút chì.\n\n✍️ Phân tích đáp án:\n- で (de): Trợ từ chỉ phương tiện, công cụ (bằng...) $\\rightarrow$ Chọn.\n- に (ni): Chỉ điểm thời gian hoặc hướng đi $\\rightarrow$ Không phù hợp.\n- を (wo): Đứng sau tân ngữ trực tiếp (đã có てがみを) $\\rightarrow$ Không phù hợp.\n- が (ga): Chỉ chủ ngữ hoặc đối tượng khả năng $\\rightarrow$ Không phù hợp.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Mẹo làm bài: Khi thấy một danh từ chỉ dụng cụ học tập/phương tiện đi liền trước động từ hành động, hãy nghĩ ngay tới trợ từ công cụ で."
+            "explanation": "📖 Dịch nghĩa:\nTôi viết thư bằng bút chì.\n\n✍️ Phân tích đáp án:\n- で (de): Trợ từ chỉ phương tiện, công cụ (bằng...) → Chọn.\n- に (ni): Chỉ điểm thời gian hoặc hướng đi → Không phù hợp.\n- を (wo): Đứng sau tân ngữ trực tiếp (đã có てがみを) → Không phù hợp.\n- が (ga): Chỉ chủ ngữ hoặc đối tượng khả năng → Không phù hợp.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Mẹo làm bài: Khi thấy một danh từ chỉ dụng cụ học tập/phương tiện đi liền trước động từ hành động, hãy nghĩ ngay tới trợ từ công cụ で."
           },
           {
             "id": "m_review_1_5_3_b1_q1",
@@ -772,7 +772,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "gがも"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nNgày mai tôi không đi đâu cả.\n\n✍️ Phân tích đáp án:\n- へも (he mo): Đi kèm từ để hỏi chỉ nơi chốn + động từ phủ định (không đi đâu) $\\rightarrow$ Chọn.\n- をも, がも: Không có cấu trúc kết hợp này cho câu phủ định hoàn toàn.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Ngữ pháp: Từ nghi vấn (どこ, だれ, なに) + Trợ từ phủ định (も / へも) + động từ dạng phủ định (〜ません) dùng để phủ định hoàn toàn sự vật/sự việc."
+            "explanation": "📖 Dịch nghĩa:\nNgày mai tôi không đi đâu cả.\n\n✍️ Phân tích đáp án:\n- へも (he mo): Đi kèm từ để hỏi chỉ nơi chốn + động từ phủ định (không đi đâu) → Chọn.\n- をも, がも: Không có cấu trúc kết hợp này cho câu phủ định hoàn toàn.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Ngữ pháp: Từ nghi vấn (どこ, だれ, なに) + Trợ từ phủ định (も / へも) + động từ dạng phủ định (〜ません) dùng để phủ định hoàn toàn sự vật/sự việc."
           },
           {
             "id": "m_review_1_5_3_b1_q2",
@@ -784,7 +784,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "ở/tại"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nHôm nay tôi làm việc đến 5 giờ.\n\n✍️ Phân tích đáp án:\n- まで (made): Đến (chỉ giới hạn thời gian kết thúc) $\\rightarrow$ Chọn.\n- から (kara): Từ (chỉ điểm bắt đầu) $\\rightarrow$ Thường đi kèm động từ bắt đầu từ lúc nào.\n- に (ni): Vào lúc (chỉ mốc thời gian cụ thể của hành động tức thời) $\\rightarrow$ Không đi với động từ kéo dài như はたらきます.\n- で (de): Chỉ địa điểm hoặc phương tiện $\\rightarrow$ Không phù hợp.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Phân biệt: [Thời gian] から [Thời gian] まで (Từ... đến...). Ở đây chỉ nói vế kết thúc nên dùng まで."
+            "explanation": "📖 Dịch nghĩa:\nHôm nay tôi làm việc đến 5 giờ.\n\n✍️ Phân tích đáp án:\n- まで (made): Đến (chỉ giới hạn thời gian kết thúc) → Chọn.\n- から (kara): Từ (chỉ điểm bắt đầu) → Thường đi kèm động từ bắt đầu từ lúc nào.\n- に (ni): Vào lúc (chỉ mốc thời gian cụ thể của hành động tức thời) → Không đi với động từ kéo dài như はたらきます.\n- で (de): Chỉ địa điểm hoặc phương tiện → Không phù hợp.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Phân biệt: [Thời gian] から [Thời gian] まで (Từ... đến...). Ở đây chỉ nói vế kết thúc nên dùng まで."
           },
           {
             "id": "m_review_1_5_3_b1_q3",
@@ -795,7 +795,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "なんの ほん"
             ],
             "correctIndex": -1,
-            "explanation": "📖 Dịch nghĩa:\nA: \"Đó là cái gì thế?\" - B: \"Là cuốn sách về máy tính.\"\n\n✍️ Phân tích đáp án:\n- なん (nan: Cái gì): Từ để hỏi cơ bản cho sự vật $\\rightarrow$ Chọn để tạo thành \"なんですか\".\n- なんの ほん: Thừa từ \"ほん\" vì câu trả lời đã chứa \"ほん\" rồi.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Khi câu hỏi dùng \"なんですか\" (Cái gì?), câu trả lời có thể đi kèm giải thích chi tiết danh từ bổ nghĩa qua trợ từ の (Sách VỀ máy tính - コンピューターの ほん)."
+            "explanation": "📖 Dịch nghĩa:\nA: \"Đó là cái gì thế?\" - B: \"Là cuốn sách về máy tính.\"\n\n✍️ Phân tích đáp án:\n- なん (nan: Cái gì): Từ để hỏi cơ bản cho sự vật → Chọn để tạo thành \"なんですか\".\n- なんの ほん: Thừa từ \"ほん\" vì câu trả lời đã chứa \"ほん\" rồi.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Khi câu hỏi dùng \"なんですか\" (Cái gì?), câu trả lời có thể đi kèm giải thích chi tiết danh từ bổ nghĩa qua trợ từ の (Sách VỀ máy tính - コンピューターの ほん)."
           }
         ]
       },
@@ -849,7 +849,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "と"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTôi đi đến nhà hàng cùng với bạn bè.\n\n✍️ Phân tích đáp án:\n- と (to): Trợ từ chỉ đối tượng cùng làm hành động (cùng với...) $\\rightarrow$ Chọn.\n- に, で, へ: Không phù hợp ngữ pháp khi đi kèm danh từ chỉ người và động từ chuyển hành.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Cấu trúc: [Người] と [Địa điểm] へ いきます (Đi đâu cùng ai)."
+            "explanation": "📖 Dịch nghĩa:\nTôi đi đến nhà hàng cùng với bạn bè.\n\n✍️ Phân tích đáp án:\n- と (to): Trợ từ chỉ đối tượng cùng làm hành động (cùng với...) → Chọn.\n- に, で, へ: Không phù hợp ngữ pháp khi đi kèm danh từ chỉ người và động từ chuyển hành.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Cấu trúc: [Người] と [Địa điểm] へ いきます (Đi đâu cùng ai)."
           },
           {
             "id": "m_review_1_5_3_d1_q1",
@@ -861,7 +861,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "みますか"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nSau đó, tôi đã xem phim.\n\n✍️ Phân tích đáp án:\n- みました (mimashita): Đã xem $\\rightarrow$ Chọn vì toàn bộ câu chuyện diễn ra vào hôm qua (きのう - quá khứ).\n- みます (mimasu): Xem (thì hiện tại/tương lai) $\\rightarrow$ Sai thì.\n- みません (mimasen): Không xem $\\rightarrow$ Trái nghĩa ngữ cảnh vui vẻ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Nhận biết: Trạng ngữ chỉ thời gian \"Hôm qua (きのう)\" và câu kết \"Rất vui (たのしかったです)\" làm căn cứ chia động từ ở thể quá khứ khẳng định (ました)."
+            "explanation": "📖 Dịch nghĩa:\nSau đó, tôi đã xem phim.\n\n✍️ Phân tích đáp án:\n- みました (mimashita): Đã xem → Chọn vì toàn bộ câu chuyện diễn ra vào hôm qua (きのう - quá khứ).\n- みます (mimasu): Xem (thì hiện tại/tương lai) → Sai thì.\n- みません (mimasen): Không xem → Trái nghĩa ngữ cảnh vui vẻ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Nhận biết: Trạng ngữ chỉ thời gian \"Hôm qua (きのう)\" và câu kết \"Rất vui (たのしかったです)\" làm căn cứ chia động từ ở thể quá khứ khẳng định (ました)."
           }
         ]
       }
@@ -886,7 +886,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "かようび"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nHôm nay là thứ Tư.\n\n✍️ Phân tích đáp án:\n- すいようび (suiyoubi): Thứ Tư $\\rightarrow$ Chọn.\n- かようび (kayoubi): Thứ Ba $\\rightarrow$ Sai ngày.\n- もくようび (mokuyoubi): Thứ Năm $\\rightarrow$ Sai ngày.\n- きんようび (kinyoubi): Thứ Sáu $\\rightarrow$ Sai ngày.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán 【水曜日】 (Thủy Diệu Nhật) có nghĩa là ngày của nước $\\rightarrow$ thứ Tư.\n- Mẹo học thứ tự các thứ trong tuần theo ngũ hành: Nhật (Chủ nhật), Nguyệt (Thứ hai), Hỏa (Thứ ba), Thủy (Thứ tư), Mộc (Thứ năm), Kim (Thứ sáu), Thổ (Thứ bảy)."
+            "explanation": "📖 Dịch nghĩa:\nHôm nay là thứ Tư.\n\n✍️ Phân tích đáp án:\n- すいようび (suiyoubi): Thứ Tư → Chọn.\n- かようび (kayoubi): Thứ Ba → Sai ngày.\n- もくようび (mokuyoubi): Thứ Năm → Sai ngày.\n- きんようび (kinyoubi): Thứ Sáu → Sai ngày.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán 【水曜日】 (Thủy Diệu Nhật) có nghĩa là ngày của nước → thứ Tư.\n- Mẹo học thứ tự các thứ trong tuần theo ngũ hành: Nhật (Chủ nhật), Nguyệt (Thứ hai), Hỏa (Thứ ba), Thủy (Thứ tư), Mộc (Thứ năm), Kim (Thứ sáu), Thổ (Thứ bảy)."
           },
           {
             "id": "m_review_1_5_4_m1_q1",
@@ -898,7 +898,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "まいにち"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nHàng ngày tôi học tiếng Nhật.\n\n✍️ Phân tích đáp án:\n- まいにch (mainichi): Mỗi ngày, hàng ngày $\\rightarrow$ Chọn.\n- まいしゅう (maishuu): Mỗi tuần $\\rightarrow$ Sai tần suất.\n- まいげつ (maigetsu): Mỗi tháng $\\rightarrow$ Sai tần suất.\n- まいとし (maitoshi): Mỗi năm $\\rightarrow$ Sai tần suất.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán 【毎日】 (Mỗi Nhật) có cách đọc tương ứng là まいにち.\n- Trợ từ を (wo) đứng trước động từ chỉ đối tượng tác động (học CÁI GÌ $\\rightarrow$ học tiếng Nhật)."
+            "explanation": "📖 Dịch nghĩa:\nHàng ngày tôi học tiếng Nhật.\n\n✍️ Phân tích đáp án:\n- まいにch (mainichi): Mỗi ngày, hàng ngày → Chọn.\n- まいしゅう (maishuu): Mỗi tuần → Sai tần suất.\n- まいげつ (maigetsu): Mỗi tháng → Sai tần suất.\n- まいとし (maitoshi): Mỗi năm → Sai tần suất.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán 【毎日】 (Mỗi Nhật) có cách đọc tương ứng là まいにち.\n- Trợ từ を (wo) đứng trước động từ chỉ đối tượng tác động (học CÁI GÌ → học tiếng Nhật)."
           },
           {
             "id": "m_review_1_5_4_m1_q2",
@@ -910,7 +910,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "いえ"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nĐất nước của tôi là Việt Nam.\n\n✍️ Phân tích đáp án:\n- くに (kuni): Đất nước, quốc gia $\\rightarrow$ Chọn.\n- まち (machi): Phố, thị trấn $\\rightarrow$ Sai nghĩa.\n- うち (uchi): Nhà/gia đình của tôi $\\rightarrow$ Sai nghĩa.\n- いえ (ie): Ngôi nhà vật lý $\\rightarrow$ Sai nghĩa.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán 【国】 (Quốc) trong từ vựng N5 luôn được phát âm là くに (kuni).\n- Mẹo nhớ chữ: Trong nước (国) có ngọc quý (玉) được bao quanh bởi biên giới (囗)."
+            "explanation": "📖 Dịch nghĩa:\nĐất nước của tôi là Việt Nam.\n\n✍️ Phân tích đáp án:\n- くに (kuni): Đất nước, quốc gia → Chọn.\n- まち (machi): Phố, thị trấn → Sai nghĩa.\n- うち (uchi): Nhà/gia đình của tôi → Sai nghĩa.\n- いえ (ie): Ngôi nhà vật lý → Sai nghĩa.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán 【国】 (Quốc) trong từ vựng N5 luôn được phát âm là くに (kuni).\n- Mẹo nhớ chữ: Trong nước (国) có ngọc quý (玉) được bao quanh bởi biên giới (囗)."
           },
           {
             "id": "m_review_1_5_4_m1_q3",
@@ -922,7 +922,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "せんげつ"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTháng trước tôi đã đến Nhật Bản.\n\n✍️ Phân tích đáp án:\n- せんげつ (sengetsu): Tháng trước $\\rightarrow$ Chọn.\n- らいげつ (raigetsu): Tháng sau $\\rightarrow$ Sai thời điểm.\n- こんげつ (kongetsu:): Tháng này $\\rightarrow$ Sai thời điểm.\n- まいつき (maitsuki): Mỗi tháng $\\rightarrow$ Sai ngữ cảnh.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán 【先月】 (Tiên Nguyệt - tháng trước). Âm Hán Việt \"Tiên\" (trước) đi với \"Nguyệt\" (tháng).\n- Mẹo ngữ pháp: Động từ ở quá khứ きました (đã đến) bổ trợ cho việc chọn thời gian trong quá khứ là \"Tháng trước\"."
+            "explanation": "📖 Dịch nghĩa:\nTháng trước tôi đã đến Nhật Bản.\n\n✍️ Phân tích đáp án:\n- せんげつ (sengetsu): Tháng trước → Chọn.\n- らいげつ (raigetsu): Tháng sau → Sai thời điểm.\n- こんげつ (kongetsu:): Tháng này → Sai thời điểm.\n- まいつき (maitsuki): Mỗi tháng → Sai ngữ cảnh.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán 【先月】 (Tiên Nguyệt - tháng trước). Âm Hán Việt \"Tiên\" (trước) đi với \"Nguyệt\" (tháng).\n- Mẹo ngữ pháp: Động từ ở quá khứ きました (đã đến) bổ trợ cho việc chọn thời gian trong quá khứ là \"Tháng trước\"."
           }
         ]
       },
@@ -940,7 +940,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "レストラソ"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nNhà hàng kia ngon lắm.\n\n✍️ Phân tích đáp án:\n- レストラン (resutoran): Nhà hàng $\\rightarrow$ Chọn.\n- レストンラ: Viết sai vị trí chữ ン và ラ.\n- レストラソ: Viết sai chữ ン (n) thành chữ ソ (so) nét hướng từ trên xuống.\n- レスドラン: Thừa dấu đục (tenten) ở chữ ト thành ド.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Mẹo nhận biết chữ Katakana: Chữ ン (n) nét móc kéo từ dưới lên, chữ ソ (so) nét kéo vuốt từ trên xuống."
+            "explanation": "📖 Dịch nghĩa:\nNhà hàng kia ngon lắm.\n\n✍️ Phân tích đáp án:\n- レストラン (resutoran): Nhà hàng → Chọn.\n- レストンラ: Viết sai vị trí chữ ン và ラ.\n- レストラソ: Viết sai chữ ン (n) thành chữ ソ (so) nét hướng từ trên xuống.\n- レスドラン: Thừa dấu đục (tenten) ở chữ ト thành ド.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Mẹo nhận biết chữ Katakana: Chữ ン (n) nét móc kéo từ dưới lên, chữ ソ (so) nét kéo vuốt từ trên xuống."
           },
           {
             "id": "m_review_1_5_4_m2_q1",
@@ -952,7 +952,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "庫"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTôi đã mua ô tô.\n\n✍️ Phân tích đáp án:\n- 車 (Xa): Xe hơi, ô tô $\\rightarrow$ Chọn.\n- 東 (Đông): Phía đông $\\rightarrow$ Sai mặt chữ.\n- 重 (Trọng): Nặng $\\rightarrow$ Sai mặt chữ.\n- 庫 (Khố): Kho $\\rightarrow$ Sai mặt chữ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán 【車】 vẽ hình cái bánh xe và trục xe nhìn từ trên xuống. Đây là bộ thủ cơ bản đại diện cho các loại xe cộ."
+            "explanation": "📖 Dịch nghĩa:\nTôi đã mua ô tô.\n\n✍️ Phân tích đáp án:\n- 車 (Xa): Xe hơi, ô tô → Chọn.\n- 東 (Đông): Phía đông → Sai mặt chữ.\n- 重 (Trọng): Nặng → Sai mặt chữ.\n- 庫 (Khố): Kho → Sai mặt chữ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán 【車】 vẽ hình cái bánh xe và trục xe nhìn từ trên xuống. Đây là bộ thủ cơ bản đại diện cho các loại xe cộ."
           },
           {
             "id": "m_review_1_5_4_m2_q2",
@@ -964,7 +964,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "電気"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTôi đi làm bằng tàu điện.\n\n✍️ Phân tích đáp án:\n- 電車 (Điện Xa - xe chạy bằng điện): Tàu điện $\\rightarrow$ Chọn.\n- 電気 (Điện Khí): Điện, đèn điện $\\rightarrow$ Sai nghĩa.\n- 電話 (Điện Thoại): Điện thoại $\\rightarrow$ Sai nghĩa.\n- 電波 (Điện Ba): Sóng điện $\\rightarrow$ Sai nghĩa.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Trợ từ で (de) đứng sau phương tiện di chuyển chỉ cách thức di chuyển (bằng tàu điện).\n- Mẹo viết chữ: Chữ 電 (Điện) gồm bộ Vũ (mưa) ở trên và chữ Thần (sấm sét) ở dưới."
+            "explanation": "📖 Dịch nghĩa:\nTôi đi làm bằng tàu điện.\n\n✍️ Phân tích đáp án:\n- 電車 (Điện Xa - xe chạy bằng điện): Tàu điện → Chọn.\n- 電気 (Điện Khí): Điện, đèn điện → Sai nghĩa.\n- 電話 (Điện Thoại): Điện thoại → Sai nghĩa.\n- 電波 (Điện Ba): Sóng điện → Sai nghĩa.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Trợ từ で (de) đứng sau phương tiện di chuyển chỉ cách thức di chuyển (bằng tàu điện).\n- Mẹo viết chữ: Chữ 電 (Điện) gồm bộ Vũ (mưa) ở trên và chữ Thần (sấm sét) ở dưới."
           },
           {
             "id": "m_review_1_5_4_m2_q3",
@@ -976,7 +976,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "テパート"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTôi đi đến trung tâm thương mại cùng bạn bè.\n\n✍️ Phân tích đáp án:\n- デパート (depaato): Cửa hàng bách hóa $\\rightarrow$ Chọn.\n- デバート: Viết sai chữ パ (pa) thành バ (ba).\n- テパート: Thiếu dấu đục ở chữ デ (de) thành テ (te).\n- デパード: Viết sai chữ ト (to) thành ド (do).\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Từ bắt nguồn từ tiếng Anh \"Department store\". Có dấu gạch ngang (ー) biểu thị trường âm kéo dài."
+            "explanation": "📖 Dịch nghĩa:\nTôi đi đến trung tâm thương mại cùng bạn bè.\n\n✍️ Phân tích đáp án:\n- デパート (depaato): Cửa hàng bách hóa → Chọn.\n- デバート: Viết sai chữ パ (pa) thành バ (ba).\n- テパート: Thiếu dấu đục ở chữ デ (de) thành テ (te).\n- デパード: Viết sai chữ ト (to) thành ド (do).\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Từ bắt nguồn từ tiếng Anh \"Department store\". Có dấu gạch ngang (ー) biểu thị trường âm kéo dài."
           }
         ]
       },
@@ -994,7 +994,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "きました"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nHôm nay tôi đã đi ngủ lúc 10 giờ.\n\n✍️ Phân tích đáp án:\n- ねました (nemashita): Đã ngủ $\\rightarrow$ Phù hợp nhất với mốc thời gian 10 giờ đêm (10じ).\n- おきました (okimashita): Đã thức dậy $\\rightarrow$ 10 giờ đêm không phải giờ thức dậy phổ thông.\n- きました (kimashita): Đã đến $\\rightarrow$ Không hợp nghĩa.\n- いきました (ikimashita): Đã đi $\\rightarrow$ Không hợp nghĩa.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Trợ từ に (ni) bắt buộc đi kèm sau mốc thời gian cụ thể (１０じに).\n- Đuôi 〜ました biểu thị hành động đã kết thúc trong quá khứ (ngày hôm qua - きのう)."
+            "explanation": "📖 Dịch nghĩa:\nHôm nay tôi đã đi ngủ lúc 10 giờ.\n\n✍️ Phân tích đáp án:\n- ねました (nemashita): Đã ngủ → Phù hợp nhất với mốc thời gian 10 giờ đêm (10じ).\n- おきました (okimashita): Đã thức dậy → 10 giờ đêm không phải giờ thức dậy phổ thông.\n- きました (kimashita): Đã đến → Không hợp nghĩa.\n- いきました (ikimashita): Đã đi → Không hợp nghĩa.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Trợ từ に (ni) bắt buộc đi kèm sau mốc thời gian cụ thể (１０じに).\n- Đuôi 〜ました biểu thị hành động đã kết thúc trong quá khứ (ngày hôm qua - きのう)."
           },
           {
             "id": "m_review_1_5_4_m3_q1",
@@ -1006,7 +1006,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "すいます"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nTôi mua trái cây ở siêu thị.\n\n✍️ Phân tích đáp án:\n- かいます (kaimasu): Mua $\\rightarrow$ Chọn vì là hành động phổ biến đối với hàng hóa (くだもの) tại siêu thị.\n- あいます (aimasu): Gặp gỡ $\\rightarrow$ Không đi với hoa quả.\n- すいます (suimasu): Hút thuốc $\\rightarrow$ Không đi với hoa quả.\n- のみます (nomimasu): Uống $\\rightarrow$ Hoa quả dạng rắn không dùng động từ uống.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Trợ từ で (de) chỉ địa điểm diễn ra hành động mua bán (ở siêu thị - スーパーで).\n- Trợ từ を (wo) liên kết tân ngữ tác động (trái cây)."
+            "explanation": "📖 Dịch nghĩa:\nTôi mua trái cây ở siêu thị.\n\n✍️ Phân tích đáp án:\n- かいます (kaimasu): Mua → Chọn vì là hành động phổ biến đối với hàng hóa (くだもの) tại siêu thị.\n- あいます (aimasu): Gặp gỡ → Không đi với hoa quả.\n- すいます (suimasu): Hút thuốc → Không đi với hoa quả.\n- のみます (nomimasu): Uống → Hoa quả dạng rắn không dùng động từ uống.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Trợ từ で (de) chỉ địa điểm diễn ra hành động mua bán (ở siêu thị - スーパーで).\n- Trợ từ を (wo) liên kết tân ngữ tác động (trái cây)."
           },
           {
             "id": "m_review_1_5_4_m3_q2",
@@ -1018,7 +1018,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "おわります"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nNgày mai là ngày nghỉ. Tôi sẽ nghỉ ngơi thong thả ở nhà.\n\n✍️ Phân tích đáp án:\n- やすみます (yasumimasu): Nghỉ ngơi $\\rightarrow$ Chọn vì khớp với vế \"ngày nghỉ (やすみ)\".\n- おきます (okimasu): Thức dậy $\\rightarrow$ Không phù hợp ngữ cảnh.\n- はたらきます (hatarakimasu): Làm việc $\\rightarrow$ Trái nghĩa với ngày nghỉ.\n- おわります (owarimasu): Kết thúc $\\rightarrow$ Không phù hợp.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Cụm từ đi liền: ゆっくり 休みます (Nghỉ ngơi thong thả, thư giãn).\n- Trợ từ で (de) chỉ địa điểm xảy ra hành động (nghỉ ngơi ở nhà - うちで)."
+            "explanation": "📖 Dịch nghĩa:\nNgày mai là ngày nghỉ. Tôi sẽ nghỉ ngơi thong thả ở nhà.\n\n✍️ Phân tích đáp án:\n- やすみます (yasumimasu): Nghỉ ngơi → Chọn vì khớp với vế \"ngày nghỉ (やすみ)\".\n- おきます (okimasu): Thức dậy → Không phù hợp ngữ cảnh.\n- はたらきます (hatarakimasu): Làm việc → Trái nghĩa với ngày nghỉ.\n- おわります (owarimasu): Kết thúc → Không phù hợp.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Cụm từ đi liền: ゆっくり 休みます (Nghỉ ngơi thong thả, thư giãn).\n- Trợ từ で (de) chỉ địa điểm xảy ra hành động (nghỉ ngơi ở nhà - うちで)."
           },
           {
             "id": "m_review_1_5_4_m3_q3",
@@ -1030,7 +1030,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "ききます"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTôi viết thư bằng bút chì.\n\n✍️ Phân tích đáp án:\n- かきます (kakimasu): Viết $\\rightarrow$ Chọn vì đi với danh từ てがみ (thư).\n- よみます (yomimasu): Đọc $\\rightarrow$ Không đi với công cụ bằng bút chì.\n- ききます (kikimasu): Nghe / hỏi $\\rightarrow$ Không đi với viết thư.\n- みます (mimasu): Xem $\\rightarrow$ Không đi với bút chì.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Trợ từ で (de) đóng vai trò chỉ phương tiện/công cụ để thực hiện hành động (viết bằng cái gì $\\rightarrow$ えんぴつで - bằng bút chì)."
+            "explanation": "📖 Dịch nghĩa:\nTôi viết thư bằng bút chì.\n\n✍️ Phân tích đáp án:\n- かきます (kakimasu): Viết → Chọn vì đi với danh từ てがみ (thư).\n- よみます (yomimasu): Đọc → Không đi với công cụ bằng bút chì.\n- ききます (kikimasu): Nghe / hỏi → Không đi với viết thư.\n- みます (mimasu): Xem → Không đi với bút chì.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Trợ từ で (de) đóng vai trò chỉ phương tiện/công cụ để thực hiện hành động (viết bằng cái gì → えんぴつで - bằng bút chì)."
           }
         ]
       },
@@ -1048,7 +1048,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "gが"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTôi viết thư bằng bút chì.\n\n✍️ Phân tích đáp án:\n- で (de): Trợ từ chỉ phương tiện, công cụ (bằng...) $\\rightarrow$ Chọn.\n- に (ni): Chỉ điểm thời gian hoặc hướng đi $\\rightarrow$ Không phù hợp.\n- を (wo): Đứng sau tân ngữ trực tiếp (đã có てがみを) $\\rightarrow$ Không phù hợp.\n- が (ga): Chỉ chủ ngữ hoặc đối tượng khả năng $\\rightarrow$ Không phù hợp.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Mẹo làm bài: Khi thấy một danh từ chỉ dụng cụ học tập/phương tiện đi liền trước động từ hành động, hãy nghĩ ngay tới trợ từ công cụ で."
+            "explanation": "📖 Dịch nghĩa:\nTôi viết thư bằng bút chì.\n\n✍️ Phân tích đáp án:\n- で (de): Trợ từ chỉ phương tiện, công cụ (bằng...) → Chọn.\n- に (ni): Chỉ điểm thời gian hoặc hướng đi → Không phù hợp.\n- を (wo): Đứng sau tân ngữ trực tiếp (đã có てがみを) → Không phù hợp.\n- が (ga): Chỉ chủ ngữ hoặc đối tượng khả năng → Không phù hợp.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Mẹo làm bài: Khi thấy một danh từ chỉ dụng cụ học tập/phương tiện đi liền trước động từ hành động, hãy nghĩ ngay tới trợ từ công cụ で."
           },
           {
             "id": "m_review_1_5_4_b1_q1",
@@ -1060,7 +1060,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "gがも"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nNgày mai tôi không đi đâu cả.\n\n✍️ Phân tích đáp án:\n- へも (he mo): Đi kèm từ để hỏi chỉ nơi chốn + động từ phủ định (không đi đâu) $\\rightarrow$ Chọn.\n- をも, がも: Không có cấu trúc kết hợp này cho câu phủ định hoàn toàn.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Ngữ pháp: Từ nghi vấn (どこ, だれ, なに) + Trợ từ phủ định (も / へも) + động từ dạng phủ định (〜ません) dùng để phủ định hoàn toàn sự vật/sự việc."
+            "explanation": "📖 Dịch nghĩa:\nNgày mai tôi không đi đâu cả.\n\n✍️ Phân tích đáp án:\n- へも (he mo): Đi kèm từ để hỏi chỉ nơi chốn + động từ phủ định (không đi đâu) → Chọn.\n- をも, がも: Không có cấu trúc kết hợp này cho câu phủ định hoàn toàn.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Ngữ pháp: Từ nghi vấn (どこ, だれ, なに) + Trợ từ phủ định (も / へも) + động từ dạng phủ định (〜ません) dùng để phủ định hoàn toàn sự vật/sự việc."
           },
           {
             "id": "m_review_1_5_4_b1_q2",
@@ -1071,7 +1071,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "đến/được/như thế nào"
             ],
             "correctIndex": -1,
-            "explanation": "📖 Dịch nghĩa:\nA: \"Đó là cái gì thế?\" - B: \"Là cuốn sách về máy tính.\"\n\n✍️ Phân tích đáp án:\n- なん (nan: Cái gì): Từ để hỏi cơ bản cho sự vật $\\rightarrow$ Chọn để tạo thành \"なんですか\".\n- なんの ほん: Thừa từ \"ほん\" vì câu trả lời đã chứa \"ほん\" rồi.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Khi câu hỏi dùng \"なんですか\" (Cái gì?), câu trả lời có thể đi kèm giải thích chi tiết danh từ bổ nghĩa qua trợ từ の (Sách VỀ máy tính - コンピューターの ほん)."
+            "explanation": "📖 Dịch nghĩa:\nA: \"Đó là cái gì thế?\" - B: \"Là cuốn sách về máy tính.\"\n\n✍️ Phân tích đáp án:\n- なん (nan: Cái gì): Từ để hỏi cơ bản cho sự vật → Chọn để tạo thành \"なんですか\".\n- なんの ほん: Thừa từ \"ほん\" vì câu trả lời đã chứa \"ほん\" rồi.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Khi câu hỏi dùng \"なんですか\" (Cái gì?), câu trả lời có thể đi kèm giải thích chi tiết danh từ bổ nghĩa qua trợ từ の (Sách VỀ máy tính - コンピューターの ほん)."
           },
           {
             "id": "m_review_1_5_4_b1_q3",
@@ -1083,7 +1083,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "lúc/vào"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nHôm nay tôi làm việc đến 5 giờ.\n\n✍️ Phân tích đáp án:\n- まで (made): Đến (chỉ giới hạn thời gian kết thúc) $\\rightarrow$ Chọn.\n- から (kara): Từ (chỉ điểm bắt đầu) $\\rightarrow$ Thường đi kèm động từ bắt đầu từ lúc nào.\n- に (ni): Vào lúc (chỉ mốc thời gian cụ thể của hành động tức thời) $\\rightarrow$ Không đi với động từ kéo dài như はたらきます.\n- で (de): Chỉ địa điểm hoặc phương tiện $\\rightarrow$ Không phù hợp.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Phân biệt: [Thời gian] から [Thời gian] まで (Từ... đến...). Ở đây chỉ nói vế kết thúc nên dùng まで."
+            "explanation": "📖 Dịch nghĩa:\nHôm nay tôi làm việc đến 5 giờ.\n\n✍️ Phân tích đáp án:\n- まで (made): Đến (chỉ giới hạn thời gian kết thúc) → Chọn.\n- から (kara): Từ (chỉ điểm bắt đầu) → Thường đi kèm động từ bắt đầu từ lúc nào.\n- に (ni): Vào lúc (chỉ mốc thời gian cụ thể của hành động tức thời) → Không đi với động từ kéo dài như はたらきます.\n- で (de): Chỉ địa điểm hoặc phương tiện → Không phù hợp.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Phân biệt: [Thời gian] から [Thời gian] まで (Từ... đến...). Ở đây chỉ nói vế kết thúc nên dùng まで."
           }
         ]
       },
@@ -1137,7 +1137,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "に"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nTôi đi đến nhà hàng cùng với bạn bè.\n\n✍️ Phân tích đáp án:\n- と (to): Trợ từ chỉ đối tượng cùng làm hành động (cùng với...) $\\rightarrow$ Chọn.\n- に, で, へ: Không phù hợp ngữ pháp khi đi kèm danh từ chỉ người và động từ chuyển hành.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Cấu trúc: [Người] と [Địa điểm] へ いきます (Đi đâu cùng ai)."
+            "explanation": "📖 Dịch nghĩa:\nTôi đi đến nhà hàng cùng với bạn bè.\n\n✍️ Phân tích đáp án:\n- と (to): Trợ từ chỉ đối tượng cùng làm hành động (cùng với...) → Chọn.\n- に, で, へ: Không phù hợp ngữ pháp khi đi kèm danh từ chỉ người và động từ chuyển hành.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Cấu trúc: [Người] と [Địa điểm] へ いきます (Đi đâu cùng ai)."
           },
           {
             "id": "m_review_1_5_4_d1_q1",
@@ -1149,7 +1149,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "みます"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nSau đó, tôi đã xem phim.\n\n✍️ Phân tích đáp án:\n- みました (mimashita): Đã xem $\\rightarrow$ Chọn vì toàn bộ câu chuyện diễn ra vào hôm qua (きのう - quá khứ).\n- みます (mimasu): Xem (thì hiện tại/tương lai) $\\rightarrow$ Sai thì.\n- みません (mimasen): Không xem $\\rightarrow$ Trái nghĩa ngữ cảnh vui vẻ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Nhận biết: Trạng ngữ chỉ thời gian \"Hôm qua (きのう)\" và câu kết \"Rất vui (たのしかったです)\" làm căn cứ chia động từ ở thể quá khứ khẳng định (ました)."
+            "explanation": "📖 Dịch nghĩa:\nSau đó, tôi đã xem phim.\n\n✍️ Phân tích đáp án:\n- みました (mimashita): Đã xem → Chọn vì toàn bộ câu chuyện diễn ra vào hôm qua (きのう - quá khứ).\n- みます (mimasu): Xem (thì hiện tại/tương lai) → Sai thì.\n- みません (mimasen): Không xem → Trái nghĩa ngữ cảnh vui vẻ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Nhận biết: Trạng ngữ chỉ thời gian \"Hôm qua (きのう)\" và câu kết \"Rất vui (たのしかったです)\" làm căn cứ chia động từ ở thể quá khứ khẳng định (ました)."
           }
         ]
       }
@@ -1174,7 +1174,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "くに"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nĐất nước của tôi là Việt Nam.\n\n✍️ Phân tích đáp án:\n- くに (kuni): Đất nước, quốc gia $\\rightarrow$ Chọn.\n- まち (machi): Phố, thị trấn $\\rightarrow$ Sai nghĩa.\n- うち (uchi): Nhà/gia đình của tôi $\\rightarrow$ Sai nghĩa.\n- いえ (ie): Ngôi nhà vật lý $\\rightarrow$ Sai nghĩa.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán 【国】 (Quốc) trong từ vựng N5 luôn được phát âm là くに (kuni).\n- Mẹo nhớ chữ: Trong nước (国) có ngọc quý (玉) được bao quanh bởi biên giới (囗)."
+            "explanation": "📖 Dịch nghĩa:\nĐất nước của tôi là Việt Nam.\n\n✍️ Phân tích đáp án:\n- くに (kuni): Đất nước, quốc gia → Chọn.\n- まち (machi): Phố, thị trấn → Sai nghĩa.\n- うち (uchi): Nhà/gia đình của tôi → Sai nghĩa.\n- いえ (ie): Ngôi nhà vật lý → Sai nghĩa.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán 【国】 (Quốc) trong từ vựng N5 luôn được phát âm là くに (kuni).\n- Mẹo nhớ chữ: Trong nước (国) có ngọc quý (玉) được bao quanh bởi biên giới (囗)."
           },
           {
             "id": "m_review_1_5_5_m1_q1",
@@ -1186,7 +1186,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "まいつき"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nTháng trước tôi đã đến Nhật Bản.\n\n✍️ Phân tích đáp án:\n- せんげつ (sengetsu): Tháng trước $\\rightarrow$ Chọn.\n- らいげつ (raigetsu): Tháng sau $\\rightarrow$ Sai thời điểm.\n- こんげつ (kongetsu:): Tháng này $\\rightarrow$ Sai thời điểm.\n- まいつき (maitsuki): Mỗi tháng $\\rightarrow$ Sai ngữ cảnh.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán 【先月】 (Tiên Nguyệt - tháng trước). Âm Hán Việt \"Tiên\" (trước) đi với \"Nguyệt\" (tháng).\n- Mẹo ngữ pháp: Động từ ở quá khứ きました (đã đến) bổ trợ cho việc chọn thời gian trong quá khứ là \"Tháng trước\"."
+            "explanation": "📖 Dịch nghĩa:\nTháng trước tôi đã đến Nhật Bản.\n\n✍️ Phân tích đáp án:\n- せんげつ (sengetsu): Tháng trước → Chọn.\n- らいげつ (raigetsu): Tháng sau → Sai thời điểm.\n- こんげつ (kongetsu:): Tháng này → Sai thời điểm.\n- まいつき (maitsuki): Mỗi tháng → Sai ngữ cảnh.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán 【先月】 (Tiên Nguyệt - tháng trước). Âm Hán Việt \"Tiên\" (trước) đi với \"Nguyệt\" (tháng).\n- Mẹo ngữ pháp: Động từ ở quá khứ きました (đã đến) bổ trợ cho việc chọn thời gian trong quá khứ là \"Tháng trước\"."
           },
           {
             "id": "m_review_1_5_5_m1_q2",
@@ -1198,7 +1198,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "まいげつ"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nHàng ngày tôi học tiếng Nhật.\n\n✍️ Phân tích đáp án:\n- まいにch (mainichi): Mỗi ngày, hàng ngày $\\rightarrow$ Chọn.\n- まいしゅう (maishuu): Mỗi tuần $\\rightarrow$ Sai tần suất.\n- まいげつ (maigetsu): Mỗi tháng $\\rightarrow$ Sai tần suất.\n- まいとし (maitoshi): Mỗi năm $\\rightarrow$ Sai tần suất.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán 【毎日】 (Mỗi Nhật) có cách đọc tương ứng là まいにち.\n- Trợ từ を (wo) đứng trước động từ chỉ đối tượng tác động (học CÁI GÌ $\\rightarrow$ học tiếng Nhật)."
+            "explanation": "📖 Dịch nghĩa:\nHàng ngày tôi học tiếng Nhật.\n\n✍️ Phân tích đáp án:\n- まいにch (mainichi): Mỗi ngày, hàng ngày → Chọn.\n- まいしゅう (maishuu): Mỗi tuần → Sai tần suất.\n- まいげつ (maigetsu): Mỗi tháng → Sai tần suất.\n- まいとし (maitoshi): Mỗi năm → Sai tần suất.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán 【毎日】 (Mỗi Nhật) có cách đọc tương ứng là まいにち.\n- Trợ từ を (wo) đứng trước động từ chỉ đối tượng tác động (học CÁI GÌ → học tiếng Nhật)."
           },
           {
             "id": "m_review_1_5_5_m1_q3",
@@ -1210,7 +1210,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "かようび"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nHôm nay là thứ Tư.\n\n✍️ Phân tích đáp án:\n- すいようび (suiyoubi): Thứ Tư $\\rightarrow$ Chọn.\n- かようび (kayoubi): Thứ Ba $\\rightarrow$ Sai ngày.\n- もくようび (mokuyoubi): Thứ Năm $\\rightarrow$ Sai ngày.\n- きんようび (kinyoubi): Thứ Sáu $\\rightarrow$ Sai ngày.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán 【水曜日】 (Thủy Diệu Nhật) có nghĩa là ngày của nước $\\rightarrow$ thứ Tư.\n- Mẹo học thứ tự các thứ trong tuần theo ngũ hành: Nhật (Chủ nhật), Nguyệt (Thứ hai), Hỏa (Thứ ba), Thủy (Thứ tư), Mộc (Thứ năm), Kim (Thứ sáu), Thổ (Thứ bảy)."
+            "explanation": "📖 Dịch nghĩa:\nHôm nay là thứ Tư.\n\n✍️ Phân tích đáp án:\n- すいようび (suiyoubi): Thứ Tư → Chọn.\n- かようび (kayoubi): Thứ Ba → Sai ngày.\n- もくようび (mokuyoubi): Thứ Năm → Sai ngày.\n- きんようび (kinyoubi): Thứ Sáu → Sai ngày.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán 【水曜日】 (Thủy Diệu Nhật) có nghĩa là ngày của nước → thứ Tư.\n- Mẹo học thứ tự các thứ trong tuần theo ngũ hành: Nhật (Chủ nhật), Nguyệt (Thứ hai), Hỏa (Thứ ba), Thủy (Thứ tư), Mộc (Thứ năm), Kim (Thứ sáu), Thổ (Thứ bảy)."
           }
         ]
       },
@@ -1228,7 +1228,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "デバート"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nTôi đi đến trung tâm thương mại cùng bạn bè.\n\n✍️ Phân tích đáp án:\n- デパート (depaato): Cửa hàng bách hóa $\\rightarrow$ Chọn.\n- デバート: Viết sai chữ パ (pa) thành バ (ba).\n- テパート: Thiếu dấu đục ở chữ デ (de) thành テ (te).\n- デパード: Viết sai chữ ト (to) thành ド (do).\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Từ bắt nguồn từ tiếng Anh \"Department store\". Có dấu gạch ngang (ー) biểu thị trường âm kéo dài."
+            "explanation": "📖 Dịch nghĩa:\nTôi đi đến trung tâm thương mại cùng bạn bè.\n\n✍️ Phân tích đáp án:\n- デパート (depaato): Cửa hàng bách hóa → Chọn.\n- デバート: Viết sai chữ パ (pa) thành バ (ba).\n- テパート: Thiếu dấu đục ở chữ デ (de) thành テ (te).\n- デパード: Viết sai chữ ト (to) thành ド (do).\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Từ bắt nguồn từ tiếng Anh \"Department store\". Có dấu gạch ngang (ー) biểu thị trường âm kéo dài."
           },
           {
             "id": "m_review_1_5_5_m2_q1",
@@ -1240,7 +1240,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "レストラン"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nNhà hàng kia ngon lắm.\n\n✍️ Phân tích đáp án:\n- レストラン (resutoran): Nhà hàng $\\rightarrow$ Chọn.\n- レストンラ: Viết sai vị trí chữ ン và ラ.\n- レストラソ: Viết sai chữ ン (n) thành chữ ソ (so) nét hướng từ trên xuống.\n- レスドラン: Thừa dấu đục (tenten) ở chữ ト thành ド.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Mẹo nhận biết chữ Katakana: Chữ ン (n) nét móc kéo từ dưới lên, chữ ソ (so) nét kéo vuốt từ trên xuống."
+            "explanation": "📖 Dịch nghĩa:\nNhà hàng kia ngon lắm.\n\n✍️ Phân tích đáp án:\n- レストラン (resutoran): Nhà hàng → Chọn.\n- レストンラ: Viết sai vị trí chữ ン và ラ.\n- レストラソ: Viết sai chữ ン (n) thành chữ ソ (so) nét hướng từ trên xuống.\n- レスドラン: Thừa dấu đục (tenten) ở chữ ト thành ド.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Mẹo nhận biết chữ Katakana: Chữ ン (n) nét móc kéo từ dưới lên, chữ ソ (so) nét kéo vuốt từ trên xuống."
           },
           {
             "id": "m_review_1_5_5_m2_q2",
@@ -1252,7 +1252,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "庫"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTôi đã mua ô tô.\n\n✍️ Phân tích đáp án:\n- 車 (Xa): Xe hơi, ô tô $\\rightarrow$ Chọn.\n- 東 (Đông): Phía đông $\\rightarrow$ Sai mặt chữ.\n- 重 (Trọng): Nặng $\\rightarrow$ Sai mặt chữ.\n- 庫 (Khố): Kho $\\rightarrow$ Sai mặt chữ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán 【車】 vẽ hình cái bánh xe và trục xe nhìn từ trên xuống. Đây là bộ thủ cơ bản đại diện cho các loại xe cộ."
+            "explanation": "📖 Dịch nghĩa:\nTôi đã mua ô tô.\n\n✍️ Phân tích đáp án:\n- 車 (Xa): Xe hơi, ô tô → Chọn.\n- 東 (Đông): Phía đông → Sai mặt chữ.\n- 重 (Trọng): Nặng → Sai mặt chữ.\n- 庫 (Khố): Kho → Sai mặt chữ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán 【車】 vẽ hình cái bánh xe và trục xe nhìn từ trên xuống. Đây là bộ thủ cơ bản đại diện cho các loại xe cộ."
           },
           {
             "id": "m_review_1_5_5_m2_q3",
@@ -1264,7 +1264,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "電話"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTôi đi làm bằng tàu điện.\n\n✍️ Phân tích đáp án:\n- 電車 (Điện Xa - xe chạy bằng điện): Tàu điện $\\rightarrow$ Chọn.\n- 電気 (Điện Khí): Điện, đèn điện $\\rightarrow$ Sai nghĩa.\n- 電話 (Điện Thoại): Điện thoại $\\rightarrow$ Sai nghĩa.\n- 電波 (Điện Ba): Sóng điện $\\rightarrow$ Sai nghĩa.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Trợ từ で (de) đứng sau phương tiện di chuyển chỉ cách thức di chuyển (bằng tàu điện).\n- Mẹo viết chữ: Chữ 電 (Điện) gồm bộ Vũ (mưa) ở trên và chữ Thần (sấm sét) ở dưới."
+            "explanation": "📖 Dịch nghĩa:\nTôi đi làm bằng tàu điện.\n\n✍️ Phân tích đáp án:\n- 電車 (Điện Xa - xe chạy bằng điện): Tàu điện → Chọn.\n- 電気 (Điện Khí): Điện, đèn điện → Sai nghĩa.\n- 電話 (Điện Thoại): Điện thoại → Sai nghĩa.\n- 電波 (Điện Ba): Sóng điện → Sai nghĩa.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Trợ từ で (de) đứng sau phương tiện di chuyển chỉ cách thức di chuyển (bằng tàu điện).\n- Mẹo viết chữ: Chữ 電 (Điện) gồm bộ Vũ (mưa) ở trên và chữ Thần (sấm sét) ở dưới."
           }
         ]
       },
@@ -1282,7 +1282,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "あいます"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTôi mua trái cây ở siêu thị.\n\n✍️ Phân tích đáp án:\n- かいます (kaimasu): Mua $\\rightarrow$ Chọn vì là hành động phổ biến đối với hàng hóa (くだもの) tại siêu thị.\n- あいます (aimasu): Gặp gỡ $\\rightarrow$ Không đi với hoa quả.\n- すいます (suimasu): Hút thuốc $\\rightarrow$ Không đi với hoa quả.\n- のみます (nomimasu): Uống $\\rightarrow$ Hoa quả dạng rắn không dùng động từ uống.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Trợ từ で (de) chỉ địa điểm diễn ra hành động mua bán (ở siêu thị - スーパーで).\n- Trợ từ を (wo) liên kết tân ngữ tác động (trái cây)."
+            "explanation": "📖 Dịch nghĩa:\nTôi mua trái cây ở siêu thị.\n\n✍️ Phân tích đáp án:\n- かいます (kaimasu): Mua → Chọn vì là hành động phổ biến đối với hàng hóa (くだもの) tại siêu thị.\n- あいます (aimasu): Gặp gỡ → Không đi với hoa quả.\n- すいます (suimasu): Hút thuốc → Không đi với hoa quả.\n- のみます (nomimasu): Uống → Hoa quả dạng rắn không dùng động từ uống.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Trợ từ で (de) chỉ địa điểm diễn ra hành động mua bán (ở siêu thị - スーパーで).\n- Trợ từ を (wo) liên kết tân ngữ tác động (trái cây)."
           },
           {
             "id": "m_review_1_5_5_m3_q1",
@@ -1294,7 +1294,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "ききます"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTôi viết thư bằng bút chì.\n\n✍️ Phân tích đáp án:\n- かきます (kakimasu): Viết $\\rightarrow$ Chọn vì đi với danh từ てがみ (thư).\n- よみます (yomimasu): Đọc $\\rightarrow$ Không đi với công cụ bằng bút chì.\n- ききます (kikimasu): Nghe / hỏi $\\rightarrow$ Không đi với viết thư.\n- みます (mimasu): Xem $\\rightarrow$ Không đi với bút chì.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Trợ từ で (de) đóng vai trò chỉ phương tiện/công cụ để thực hiện hành động (viết bằng cái gì $\\rightarrow$ えんぴつで - bằng bút chì)."
+            "explanation": "📖 Dịch nghĩa:\nTôi viết thư bằng bút chì.\n\n✍️ Phân tích đáp án:\n- かきます (kakimasu): Viết → Chọn vì đi với danh từ てがみ (thư).\n- よみます (yomimasu): Đọc → Không đi với công cụ bằng bút chì.\n- ききます (kikimasu): Nghe / hỏi → Không đi với viết thư.\n- みます (mimasu): Xem → Không đi với bút chì.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Trợ từ で (de) đóng vai trò chỉ phương tiện/công cụ để thực hiện hành động (viết bằng cái gì → えんぴつで - bằng bút chì)."
           },
           {
             "id": "m_review_1_5_5_m3_q2",
@@ -1306,7 +1306,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "おきました"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nHôm nay tôi đã đi ngủ lúc 10 giờ.\n\n✍️ Phân tích đáp án:\n- ねました (nemashita): Đã ngủ $\\rightarrow$ Phù hợp nhất với mốc thời gian 10 giờ đêm (10じ).\n- おきました (okimashita): Đã thức dậy $\\rightarrow$ 10 giờ đêm không phải giờ thức dậy phổ thông.\n- きました (kimashita): Đã đến $\\rightarrow$ Không hợp nghĩa.\n- いきました (ikimashita): Đã đi $\\rightarrow$ Không hợp nghĩa.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Trợ từ に (ni) bắt buộc đi kèm sau mốc thời gian cụ thể (１０じに).\n- Đuôi 〜ました biểu thị hành động đã kết thúc trong quá khứ (ngày hôm qua - きのう)."
+            "explanation": "📖 Dịch nghĩa:\nHôm nay tôi đã đi ngủ lúc 10 giờ.\n\n✍️ Phân tích đáp án:\n- ねました (nemashita): Đã ngủ → Phù hợp nhất với mốc thời gian 10 giờ đêm (10じ).\n- おきました (okimashita): Đã thức dậy → 10 giờ đêm không phải giờ thức dậy phổ thông.\n- きました (kimashita): Đã đến → Không hợp nghĩa.\n- いきました (ikimashita): Đã đi → Không hợp nghĩa.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Trợ từ に (ni) bắt buộc đi kèm sau mốc thời gian cụ thể (１０じに).\n- Đuôi 〜ました biểu thị hành động đã kết thúc trong quá khứ (ngày hôm qua - きのう)."
           },
           {
             "id": "m_review_1_5_5_m3_q3",
@@ -1318,7 +1318,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "やすみます"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nNgày mai là ngày nghỉ. Tôi sẽ nghỉ ngơi thong thả ở nhà.\n\n✍️ Phân tích đáp án:\n- やすみます (yasumimasu): Nghỉ ngơi $\\rightarrow$ Chọn vì khớp với vế \"ngày nghỉ (やすみ)\".\n- おきます (okimasu): Thức dậy $\\rightarrow$ Không phù hợp ngữ cảnh.\n- はたらきます (hatarakimasu): Làm việc $\\rightarrow$ Trái nghĩa với ngày nghỉ.\n- おわります (owarimasu): Kết thúc $\\rightarrow$ Không phù hợp.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Cụm từ đi liền: ゆっくり 休みます (Nghỉ ngơi thong thả, thư giãn).\n- Trợ từ で (de) chỉ địa điểm xảy ra hành động (nghỉ ngơi ở nhà - うちで)."
+            "explanation": "📖 Dịch nghĩa:\nNgày mai là ngày nghỉ. Tôi sẽ nghỉ ngơi thong thả ở nhà.\n\n✍️ Phân tích đáp án:\n- やすみます (yasumimasu): Nghỉ ngơi → Chọn vì khớp với vế \"ngày nghỉ (やすみ)\".\n- おきます (okimasu): Thức dậy → Không phù hợp ngữ cảnh.\n- はたらきます (hatarakimasu): Làm việc → Trái nghĩa với ngày nghỉ.\n- おわります (owarimasu): Kết thúc → Không phù hợp.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Cụm từ đi liền: ゆっくり 休みます (Nghỉ ngơi thong thả, thư giãn).\n- Trợ từ で (de) chỉ địa điểm xảy ra hành động (nghỉ ngơi ở nhà - うちで)."
           }
         ]
       },
@@ -1336,7 +1336,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "で"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTôi viết thư bằng bút chì.\n\n✍️ Phân tích đáp án:\n- で (de): Trợ từ chỉ phương tiện, công cụ (bằng...) $\\rightarrow$ Chọn.\n- に (ni): Chỉ điểm thời gian hoặc hướng đi $\\rightarrow$ Không phù hợp.\n- を (wo): Đứng sau tân ngữ trực tiếp (đã có てがみを) $\\rightarrow$ Không phù hợp.\n- が (ga): Chỉ chủ ngữ hoặc đối tượng khả năng $\\rightarrow$ Không phù hợp.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Mẹo làm bài: Khi thấy một danh từ chỉ dụng cụ học tập/phương tiện đi liền trước động từ hành động, hãy nghĩ ngay tới trợ từ công cụ で."
+            "explanation": "📖 Dịch nghĩa:\nTôi viết thư bằng bút chì.\n\n✍️ Phân tích đáp án:\n- で (de): Trợ từ chỉ phương tiện, công cụ (bằng...) → Chọn.\n- に (ni): Chỉ điểm thời gian hoặc hướng đi → Không phù hợp.\n- を (wo): Đứng sau tân ngữ trực tiếp (đã có てがみを) → Không phù hợp.\n- が (ga): Chỉ chủ ngữ hoặc đối tượng khả năng → Không phù hợp.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Mẹo làm bài: Khi thấy một danh từ chỉ dụng cụ học tập/phương tiện đi liền trước động từ hành động, hãy nghĩ ngay tới trợ từ công cụ で."
           },
           {
             "id": "m_review_1_5_5_b1_q1",
@@ -1348,7 +1348,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "gがも"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nNgày mai tôi không đi đâu cả.\n\n✍️ Phân tích đáp án:\n- へも (he mo): Đi kèm từ để hỏi chỉ nơi chốn + động từ phủ định (không đi đâu) $\\rightarrow$ Chọn.\n- をも, がも: Không có cấu trúc kết hợp này cho câu phủ định hoàn toàn.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Ngữ pháp: Từ nghi vấn (どこ, だれ, なに) + Trợ từ phủ định (も / へも) + động từ dạng phủ định (〜ません) dùng để phủ định hoàn toàn sự vật/sự việc."
+            "explanation": "📖 Dịch nghĩa:\nNgày mai tôi không đi đâu cả.\n\n✍️ Phân tích đáp án:\n- へも (he mo): Đi kèm từ để hỏi chỉ nơi chốn + động từ phủ định (không đi đâu) → Chọn.\n- をも, がも: Không có cấu trúc kết hợp này cho câu phủ định hoàn toàn.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Ngữ pháp: Từ nghi vấn (どこ, だれ, なに) + Trợ từ phủ định (も / へも) + động từ dạng phủ định (〜ません) dùng để phủ định hoàn toàn sự vật/sự việc."
           },
           {
             "id": "m_review_1_5_5_b1_q2",
@@ -1360,7 +1360,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "lúc/vào"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nHôm nay tôi làm việc đến 5 giờ.\n\n✍️ Phân tích đáp án:\n- まで (made): Đến (chỉ giới hạn thời gian kết thúc) $\\rightarrow$ Chọn.\n- から (kara): Từ (chỉ điểm bắt đầu) $\\rightarrow$ Thường đi kèm động từ bắt đầu từ lúc nào.\n- に (ni): Vào lúc (chỉ mốc thời gian cụ thể của hành động tức thời) $\\rightarrow$ Không đi với động từ kéo dài như はたらきます.\n- で (de): Chỉ địa điểm hoặc phương tiện $\\rightarrow$ Không phù hợp.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Phân biệt: [Thời gian] から [Thời gian] まで (Từ... đến...). Ở đây chỉ nói vế kết thúc nên dùng まで."
+            "explanation": "📖 Dịch nghĩa:\nHôm nay tôi làm việc đến 5 giờ.\n\n✍️ Phân tích đáp án:\n- まで (made): Đến (chỉ giới hạn thời gian kết thúc) → Chọn.\n- から (kara): Từ (chỉ điểm bắt đầu) → Thường đi kèm động từ bắt đầu từ lúc nào.\n- に (ni): Vào lúc (chỉ mốc thời gian cụ thể của hành động tức thời) → Không đi với động từ kéo dài như はたらきます.\n- で (de): Chỉ địa điểm hoặc phương tiện → Không phù hợp.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Phân biệt: [Thời gian] から [Thời gian] まで (Từ... đến...). Ở đây chỉ nói vế kết thúc nên dùng まで."
           },
           {
             "id": "m_review_1_5_5_b1_q3",
@@ -1371,7 +1371,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "..."
             ],
             "correctIndex": -1,
-            "explanation": "📖 Dịch nghĩa:\nA: \"Đó là cái gì thế?\" - B: \"Là cuốn sách về máy tính.\"\n\n✍️ Phân tích đáp án:\n- なん (nan: Cái gì): Từ để hỏi cơ bản cho sự vật $\\rightarrow$ Chọn để tạo thành \"なんですか\".\n- なんの ほん: Thừa từ \"ほん\" vì câu trả lời đã chứa \"ほん\" rồi.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Khi câu hỏi dùng \"なんですか\" (Cái gì?), câu trả lời có thể đi kèm giải thích chi tiết danh từ bổ nghĩa qua trợ từ の (Sách VỀ máy tính - コンピューターの ほん)."
+            "explanation": "📖 Dịch nghĩa:\nA: \"Đó là cái gì thế?\" - B: \"Là cuốn sách về máy tính.\"\n\n✍️ Phân tích đáp án:\n- なん (nan: Cái gì): Từ để hỏi cơ bản cho sự vật → Chọn để tạo thành \"なんですか\".\n- なんの ほん: Thừa từ \"ほん\" vì câu trả lời đã chứa \"ほん\" rồi.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Khi câu hỏi dùng \"なんですか\" (Cái gì?), câu trả lời có thể đi kèm giải thích chi tiết danh từ bổ nghĩa qua trợ từ の (Sách VỀ máy tính - コンピューターの ほん)."
           }
         ]
       },
@@ -1425,7 +1425,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "で"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTôi đi đến nhà hàng cùng với bạn bè.\n\n✍️ Phân tích đáp án:\n- と (to): Trợ từ chỉ đối tượng cùng làm hành động (cùng với...) $\\rightarrow$ Chọn.\n- に, で, へ: Không phù hợp ngữ pháp khi đi kèm danh từ chỉ người và động từ chuyển hành.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Cấu trúc: [Người] と [Địa điểm] へ いきます (Đi đâu cùng ai)."
+            "explanation": "📖 Dịch nghĩa:\nTôi đi đến nhà hàng cùng với bạn bè.\n\n✍️ Phân tích đáp án:\n- と (to): Trợ từ chỉ đối tượng cùng làm hành động (cùng với...) → Chọn.\n- に, で, へ: Không phù hợp ngữ pháp khi đi kèm danh từ chỉ người và động từ chuyển hành.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Cấu trúc: [Người] と [Địa điểm] へ いきます (Đi đâu cùng ai)."
           },
           {
             "id": "m_review_1_5_5_d1_q1",
@@ -1437,7 +1437,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "みました"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nSau đó, tôi đã xem phim.\n\n✍️ Phân tích đáp án:\n- みました (mimashita): Đã xem $\\rightarrow$ Chọn vì toàn bộ câu chuyện diễn ra vào hôm qua (きのう - quá khứ).\n- みます (mimasu): Xem (thì hiện tại/tương lai) $\\rightarrow$ Sai thì.\n- みません (mimasen): Không xem $\\rightarrow$ Trái nghĩa ngữ cảnh vui vẻ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Nhận biết: Trạng ngữ chỉ thời gian \"Hôm qua (きのう)\" và câu kết \"Rất vui (たのしかったです)\" làm căn cứ chia động từ ở thể quá khứ khẳng định (ました)."
+            "explanation": "📖 Dịch nghĩa:\nSau đó, tôi đã xem phim.\n\n✍️ Phân tích đáp án:\n- みました (mimashita): Đã xem → Chọn vì toàn bộ câu chuyện diễn ra vào hôm qua (きのう - quá khứ).\n- みます (mimasu): Xem (thì hiện tại/tương lai) → Sai thì.\n- みません (mimasen): Không xem → Trái nghĩa ngữ cảnh vui vẻ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Nhận biết: Trạng ngữ chỉ thời gian \"Hôm qua (きのう)\" và câu kết \"Rất vui (たのしかったです)\" làm căn cứ chia động từ ở thể quá khứ khẳng định (ました)."
           }
         ]
       }
@@ -1462,7 +1462,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "あたらしい"
             ],
             "correctIndex": 3,
-            "explanation": "Dịch nghĩa:\nChiếc xe hơi mới.\n\n✍️ Phân tích đáp án:\n- あたらしい (atarashii): Mới $\\rightarrow$ Chọn.\n- Chú ý phần Okurigana đi kèm sau chữ Hán 新 là しい."
+            "explanation": "Dịch nghĩa:\nChiếc xe hơi mới.\n\n✍️ Phân tích đáp án:\n- あたらしい (atarashii): Mới → Chọn.\n- Chú ý phần Okurigana đi kèm sau chữ Hán 新 là しい."
           },
           {
             "id": "m_review_6_10_1_m1_q1",
@@ -1474,7 +1474,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "英語"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTôi học tiếng Anh.\n\n✍️ Phân tích đáp án:\n- 英語 (Anh Ngữ): Tiếng Anh $\\rightarrow$ Chọn.\n- 英話: Viết sai chữ Hán (chữ 話 - Thoại sai).\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ 語 (Ngữ) cấu tạo gồm bộ Ngôn (nói), chữ Ngũ (năm) và chữ Khẩu (miệng)."
+            "explanation": "📖 Dịch nghĩa:\nTôi học tiếng Anh.\n\n✍️ Phân tích đáp án:\n- 英語 (Anh Ngữ): Tiếng Anh → Chọn.\n- 英話: Viết sai chữ Hán (chữ 話 - Thoại sai).\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ 語 (Ngữ) cấu tạo gồm bộ Ngôn (nói), chữ Ngũ (năm) và chữ Khẩu (miệng)."
           },
           {
             "id": "m_review_6_10_1_m1_q2",
@@ -1486,7 +1486,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "でがみ"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTôi viết thư.\n\n✍️ Phân tích đáp án:\n- てがみ (tegami): Bức thư $\\rightarrow$ Chọn.\n- Các đáp án khác sai âm đục (tenten) hoặc phát âm.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán gồm hai từ ghép: 手 (Thủ - tay) và 紙 (Chỉ - giấy). Giấy viết bằng tay chính là bức thư."
+            "explanation": "📖 Dịch nghĩa:\nTôi viết thư.\n\n✍️ Phân tích đáp án:\n- てがみ (tegami): Bức thư → Chọn.\n- Các đáp án khác sai âm đục (tenten) hoặc phát âm.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán gồm hai từ ghép: 手 (Thủ - tay) và 紙 (Chỉ - giấy). Giấy viết bằng tay chính là bức thư."
           },
           {
             "id": "m_review_6_10_1_m1_q3",
@@ -1498,7 +1498,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nChiếc xe đạp cũ.\n\n✍️ Phân tích đáp án:\n- ふるい (furui): Cũ $\rightarrow$ Chọn.\n- ひろい (hiroi): Rộng $\rightarrow$ Sai nghĩa."
+            "explanation": "📖 Dịch nghĩa:\nChiếc xe đạp cũ.\n\n✍️ Phân tích đáp án:\n- ふるい (furui): Cũ → Chọn.\n- ひろい (hiroi): Rộng → Sai nghĩa."
           }
         ]
       },
@@ -1516,7 +1516,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nTặng quà.\n\n✍️ Phân tích đáp án:\n- プレゼント: Quà tặng $\rightarrow$ Chọn.\n- Chú ý nét viết chữ ゼ (ze) có dấu đục tenten."
+            "explanation": "📖 Dịch nghĩa:\nTặng quà.\n\n✍️ Phân tích đáp án:\n- プレゼント: Quà tặng → Chọn.\n- Chú ý nét viết chữ ゼ (ze) có dấu đục tenten."
           },
           {
             "id": "m_review_6_10_1_m2_q1",
@@ -1528,7 +1528,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nĂn bánh mì.\n\n✍️ Phân tích đáp án:\n- パン: Bánh mì $\rightarrow$ Chọn.\n- Chữ ハ có dấu tròn maru tạo thành âm Pa."
+            "explanation": "📖 Dịch nghĩa:\nĂn bánh mì.\n\n✍️ Phân tích đáp án:\n- パン: Bánh mì → Chọn.\n- Chữ ハ có dấu tròn maru tạo thành âm Pa."
           },
           {
             "id": "m_review_6_10_1_m2_q2",
@@ -1540,7 +1540,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "コーヒー"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nUống cà phê.\n\n✍️ Phân tích đáp án:\n- コーヒー: Cà phê $\rightarrow$ Chọn.\n- Chú ý trường âm (dấu gạch ngang) nằm ở cả hai âm tiết."
+            "explanation": "📖 Dịch nghĩa:\nUống cà phê.\n\n✍️ Phân tích đáp án:\n- コーヒー: Cà phê → Chọn.\n- Chú ý trường âm (dấu gạch ngang) nằm ở cả hai âm tiết."
           },
           {
             "id": "m_review_6_10_1_m2_q3",
@@ -1552,7 +1552,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "シヤツ"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nMua áo sơ mi.\n\n✍️ Phân tích đáp án:\n- シャツ (shatsu): Áo sơ mi $\rightarrow$ Chọn.\n- Tránh nhầm với シヤツ (ya lớn, phát âm là shi-ya-tsu)."
+            "explanation": "📖 Dịch nghĩa:\nMua áo sơ mi.\n\n✍️ Phân tích đáp án:\n- シャツ (shatsu): Áo sơ mi → Chọn.\n- Tránh nhầm với シヤツ (ya lớn, phát âm là shi-ya-tsu)."
           }
         ]
       },
@@ -1570,7 +1570,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "かりまs"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nCắt giấy bằng kéo.\n\n✍️ Phân tích đáp án:\n- きります (kirimasu): Cắt $\rightarrow$ Chọn.\n- かします (kashimasu): Cho mượn.\n- かります (karimasu): Mượn."
+            "explanation": "📖 Dịch nghĩa:\nCắt giấy bằng kéo.\n\n✍️ Phân tích đáp án:\n- きります (kirimasu): Cắt → Chọn.\n- かします (kashimasu): Cho mượn.\n- かります (karimasu): Mượn."
           },
           {
             "id": "m_review_6_10_1_m3_q1",
@@ -1582,7 +1582,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "いそがしい"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nQuả táo này rất ngon.\n\n✍️ Phân tích đáp án:\n- おいしい (oishii): Ngon $\rightarrow$ Chọn.\n- つめたい (tsumetai): Lạnh."
+            "explanation": "📖 Dịch nghĩa:\nQuả táo này rất ngon.\n\n✍️ Phân tích đáp án:\n- おいしい (oishii): Ngon → Chọn.\n- つめたい (tsumetai): Lạnh."
           },
           {
             "id": "m_review_6_10_1_m3_q2",
@@ -1594,7 +1594,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "おしえました"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nNhận sách từ thầy cô giáo.\n\n✍️ Phân tích đáp án:\n- もらいました (moraimashita): Nhận được $\rightarrow$ Chọn (trợ từ から chỉ xuất xứ)."
+            "explanation": "📖 Dịch nghĩa:\nNhận sách từ thầy cô giáo.\n\n✍️ Phân tích đáp án:\n- もらいました (moraimashita): Nhận được → Chọn (trợ từ から chỉ xuất xứ)."
           },
           {
             "id": "m_review_6_10_1_m3_q3",
@@ -1606,7 +1606,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "độc"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nMáy ảnh Nhật Bản thế nào?\n\n✍️ Phân tích đáp án:\n- どう (dou): Như thế nào $\rightarrow$ Chọn.\n- どんな (donna): Như thế nào (phải đi sau là danh từ)."
+            "explanation": "📖 Dịch nghĩa:\nMáy ảnh Nhật Bản thế nào?\n\n✍️ Phân tích đáp án:\n- どう (dou): Như thế nào → Chọn.\n- どんな (donna): Như thế nào (phải đi sau là danh từ)."
           }
         ]
       },
@@ -1648,7 +1648,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "を"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTặng hoa cho chị Kimura.\n\n✍️ Phân tích đáp án:\n- に (ni): Đối tượng tiếp nhận hành động tặng $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nTặng hoa cho chị Kimura.\n\n✍️ Phân tích đáp án:\n- に (ni): Đối tượng tiếp nhận hành động tặng → Chọn."
           },
           {
             "id": "m_review_6_10_1_b1_q3",
@@ -1660,7 +1660,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "gが"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nĂn cơm bằng thìa.\n\n✍️ Phân tích đáp án:\n- で (de): Trợ từ phương tiện/dụng cụ $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nĂn cơm bằng thìa.\n\n✍️ Phân tích đáp án:\n- で (de): Trợ từ phương tiện/dụng cụ → Chọn."
           }
         ]
       },
@@ -1751,7 +1751,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nChiếc xe đạp cũ.\n\n✍️ Phân tích đáp án:\n- ふるい (furui): Cũ $\rightarrow$ Chọn.\n- ひろい (hiroi): Rộng $\rightarrow$ Sai nghĩa."
+            "explanation": "📖 Dịch nghĩa:\nChiếc xe đạp cũ.\n\n✍️ Phân tích đáp án:\n- ふるい (furui): Cũ → Chọn.\n- ひろい (hiroi): Rộng → Sai nghĩa."
           },
           {
             "id": "m_review_6_10_2_m1_q1",
@@ -1763,7 +1763,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTôi học tiếng Anh.\n\n✍️ Phân tích đáp án:\n- 英語 (Anh Ngữ): Tiếng Anh $\\rightarrow$ Chọn.\n- 英話: Viết sai chữ Hán (chữ 話 - Thoại sai).\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ 語 (Ngữ) cấu tạo gồm bộ Ngôn (nói), chữ Ngũ (năm) và chữ Khẩu (miệng)."
+            "explanation": "📖 Dịch nghĩa:\nTôi học tiếng Anh.\n\n✍️ Phân tích đáp án:\n- 英語 (Anh Ngữ): Tiếng Anh → Chọn.\n- 英話: Viết sai chữ Hán (chữ 話 - Thoại sai).\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ 語 (Ngữ) cấu tạo gồm bộ Ngôn (nói), chữ Ngũ (năm) và chữ Khẩu (miệng)."
           },
           {
             "id": "m_review_6_10_2_m1_q2",
@@ -1775,7 +1775,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "てかみ"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTôi viết thư.\n\n✍️ Phân tích đáp án:\n- てがみ (tegami): Bức thư $\\rightarrow$ Chọn.\n- Các đáp án khác sai âm đục (tenten) hoặc phát âm.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán gồm hai từ ghép: 手 (Thủ - tay) và 紙 (Chỉ - giấy). Giấy viết bằng tay chính là bức thư."
+            "explanation": "📖 Dịch nghĩa:\nTôi viết thư.\n\n✍️ Phân tích đáp án:\n- てがみ (tegami): Bức thư → Chọn.\n- Các đáp án khác sai âm đục (tenten) hoặc phát âm.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán gồm hai từ ghép: 手 (Thủ - tay) và 紙 (Chỉ - giấy). Giấy viết bằng tay chính là bức thư."
           },
           {
             "id": "m_review_6_10_2_m1_q3",
@@ -1787,7 +1787,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "あたらし"
             ],
             "correctIndex": 1,
-            "explanation": "Dịch nghĩa:\nChiếc xe hơi mới.\n\n✍️ Phân tích đáp án:\n- あたらしい (atarashii): Mới $\\rightarrow$ Chọn.\n- Chú ý phần Okurigana đi kèm sau chữ Hán 新 là しい."
+            "explanation": "Dịch nghĩa:\nChiếc xe hơi mới.\n\n✍️ Phân tích đáp án:\n- あたらしい (atarashii): Mới → Chọn.\n- Chú ý phần Okurigana đi kèm sau chữ Hán 新 là しい."
           }
         ]
       },
@@ -1805,7 +1805,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nUống cà phê.\n\n✍️ Phân tích đáp án:\n- コーヒー: Cà phê $\rightarrow$ Chọn.\n- Chú ý trường âm (dấu gạch ngang) nằm ở cả hai âm tiết."
+            "explanation": "📖 Dịch nghĩa:\nUống cà phê.\n\n✍️ Phân tích đáp án:\n- コーヒー: Cà phê → Chọn.\n- Chú ý trường âm (dấu gạch ngang) nằm ở cả hai âm tiết."
           },
           {
             "id": "m_review_6_10_2_m2_q1",
@@ -1817,7 +1817,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "シヤツ"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nMua áo sơ mi.\n\n✍️ Phân tích đáp án:\n- シャツ (shatsu): Áo sơ mi $\rightarrow$ Chọn.\n- Tránh nhầm với シヤツ (ya lớn, phát âm là shi-ya-tsu)."
+            "explanation": "📖 Dịch nghĩa:\nMua áo sơ mi.\n\n✍️ Phân tích đáp án:\n- シャツ (shatsu): Áo sơ mi → Chọn.\n- Tránh nhầm với シヤツ (ya lớn, phát âm là shi-ya-tsu)."
           },
           {
             "id": "m_review_6_10_2_m2_q2",
@@ -1829,7 +1829,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nĂn bánh mì.\n\n✍️ Phân tích đáp án:\n- パン: Bánh mì $\rightarrow$ Chọn.\n- Chữ ハ có dấu tròn maru tạo thành âm Pa."
+            "explanation": "📖 Dịch nghĩa:\nĂn bánh mì.\n\n✍️ Phân tích đáp án:\n- パン: Bánh mì → Chọn.\n- Chữ ハ có dấu tròn maru tạo thành âm Pa."
           },
           {
             "id": "m_review_6_10_2_m2_q3",
@@ -1841,7 +1841,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nTặng quà.\n\n✍️ Phân tích đáp án:\n- プレゼント: Quà tặng $\rightarrow$ Chọn.\n- Chú ý nét viết chữ ゼ (ze) có dấu đục tenten."
+            "explanation": "📖 Dịch nghĩa:\nTặng quà.\n\n✍️ Phân tích đáp án:\n- プレゼント: Quà tặng → Chọn.\n- Chú ý nét viết chữ ゼ (ze) có dấu đục tenten."
           }
         ]
       },
@@ -1859,7 +1859,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "độc"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nMáy ảnh Nhật Bản thế nào?\n\n✍️ Phân tích đáp án:\n- どう (dou): Như thế nào $\rightarrow$ Chọn.\n- どんな (donna): Như thế nào (phải đi sau là danh từ)."
+            "explanation": "📖 Dịch nghĩa:\nMáy ảnh Nhật Bản thế nào?\n\n✍️ Phân tích đáp án:\n- どう (dou): Như thế nào → Chọn.\n- どんな (donna): Như thế nào (phải đi sau là danh từ)."
           },
           {
             "id": "m_review_6_10_2_m3_q1",
@@ -1871,7 +1871,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "おしえました"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nNhận sách từ thầy cô giáo.\n\n✍️ Phân tích đáp án:\n- もらいました (moraimashita): Nhận được $\rightarrow$ Chọn (trợ từ から chỉ xuất xứ)."
+            "explanation": "📖 Dịch nghĩa:\nNhận sách từ thầy cô giáo.\n\n✍️ Phân tích đáp án:\n- もらいました (moraimashita): Nhận được → Chọn (trợ từ から chỉ xuất xứ)."
           },
           {
             "id": "m_review_6_10_2_m3_q2",
@@ -1883,7 +1883,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "つめたい"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nQuả táo này rất ngon.\n\n✍️ Phân tích đáp án:\n- おいしい (oishii): Ngon $\rightarrow$ Chọn.\n- つめたい (tsumetai): Lạnh."
+            "explanation": "📖 Dịch nghĩa:\nQuả táo này rất ngon.\n\n✍️ Phân tích đáp án:\n- おいしい (oishii): Ngon → Chọn.\n- つめたい (tsumetai): Lạnh."
           },
           {
             "id": "m_review_6_10_2_m3_q3",
@@ -1895,7 +1895,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "かします"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nCắt giấy bằng kéo.\n\n✍️ Phân tích đáp án:\n- きります (kirimasu): Cắt $\rightarrow$ Chọn.\n- かします (kashimasu): Cho mượn.\n- かります (karimasu): Mượn."
+            "explanation": "📖 Dịch nghĩa:\nCắt giấy bằng kéo.\n\n✍️ Phân tích đáp án:\n- きります (kirimasu): Cắt → Chọn.\n- かします (kashimasu): Cho mượn.\n- かります (karimasu): Mượn."
           }
         ]
       },
@@ -1925,7 +1925,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "に"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nĂn cơm bằng thìa.\n\n✍️ Phân tích đáp án:\n- で (de): Trợ từ phương tiện/dụng cụ $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nĂn cơm bằng thìa.\n\n✍️ Phân tích đáp án:\n- で (de): Trợ từ phương tiện/dụng cụ → Chọn."
           },
           {
             "id": "m_review_6_10_2_b1_q2",
@@ -1937,7 +1937,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "を"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTặng hoa cho chị Kimura.\n\n✍️ Phân tích đáp án:\n- に (ni): Đối tượng tiếp nhận hành động tặng $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nTặng hoa cho chị Kimura.\n\n✍️ Phân tích đáp án:\n- に (ni): Đối tượng tiếp nhận hành động tặng → Chọn."
           },
           {
             "id": "m_review_6_10_2_b1_q3",
@@ -2040,7 +2040,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "英話"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTôi học tiếng Anh.\n\n✍️ Phân tích đáp án:\n- 英語 (Anh Ngữ): Tiếng Anh $\\rightarrow$ Chọn.\n- 英話: Viết sai chữ Hán (chữ 話 - Thoại sai).\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ 語 (Ngữ) cấu tạo gồm bộ Ngôn (nói), chữ Ngũ (năm) và chữ Khẩu (miệng)."
+            "explanation": "📖 Dịch nghĩa:\nTôi học tiếng Anh.\n\n✍️ Phân tích đáp án:\n- 英語 (Anh Ngữ): Tiếng Anh → Chọn.\n- 英話: Viết sai chữ Hán (chữ 話 - Thoại sai).\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ 語 (Ngữ) cấu tạo gồm bộ Ngôn (nói), chữ Ngũ (năm) và chữ Khẩu (miệng)."
           },
           {
             "id": "m_review_6_10_3_m1_q1",
@@ -2052,7 +2052,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nChiếc xe đạp cũ.\n\n✍️ Phân tích đáp án:\n- ふるい (furui): Cũ $\rightarrow$ Chọn.\n- ひろい (hiroi): Rộng $\rightarrow$ Sai nghĩa."
+            "explanation": "📖 Dịch nghĩa:\nChiếc xe đạp cũ.\n\n✍️ Phân tích đáp án:\n- ふるい (furui): Cũ → Chọn.\n- ひろい (hiroi): Rộng → Sai nghĩa."
           },
           {
             "id": "m_review_6_10_3_m1_q2",
@@ -2064,7 +2064,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "でがみ"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTôi viết thư.\n\n✍️ Phân tích đáp án:\n- てがみ (tegami): Bức thư $\\rightarrow$ Chọn.\n- Các đáp án khác sai âm đục (tenten) hoặc phát âm.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán gồm hai từ ghép: 手 (Thủ - tay) và 紙 (Chỉ - giấy). Giấy viết bằng tay chính là bức thư."
+            "explanation": "📖 Dịch nghĩa:\nTôi viết thư.\n\n✍️ Phân tích đáp án:\n- てがみ (tegami): Bức thư → Chọn.\n- Các đáp án khác sai âm đục (tenten) hoặc phát âm.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán gồm hai từ ghép: 手 (Thủ - tay) và 紙 (Chỉ - giấy). Giấy viết bằng tay chính là bức thư."
           },
           {
             "id": "m_review_6_10_3_m1_q3",
@@ -2076,7 +2076,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 1,
-            "explanation": "Dịch nghĩa:\nChiếc xe hơi mới.\n\n✍️ Phân tích đáp án:\n- あたらしい (atarashii): Mới $\\rightarrow$ Chọn.\n- Chú ý phần Okurigana đi kèm sau chữ Hán 新 là しい."
+            "explanation": "Dịch nghĩa:\nChiếc xe hơi mới.\n\n✍️ Phân tích đáp án:\n- あたらしい (atarashii): Mới → Chọn.\n- Chú ý phần Okurigana đi kèm sau chữ Hán 新 là しい."
           }
         ]
       },
@@ -2094,7 +2094,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "プレゼント"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTặng quà.\n\n✍️ Phân tích đáp án:\n- プレゼント: Quà tặng $\rightarrow$ Chọn.\n- Chú ý nét viết chữ ゼ (ze) có dấu đục tenten."
+            "explanation": "📖 Dịch nghĩa:\nTặng quà.\n\n✍️ Phân tích đáp án:\n- プレゼント: Quà tặng → Chọn.\n- Chú ý nét viết chữ ゼ (ze) có dấu đục tenten."
           },
           {
             "id": "m_review_6_10_3_m2_q1",
@@ -2106,7 +2106,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nUống cà phê.\n\n✍️ Phân tích đáp án:\n- コーヒー: Cà phê $\rightarrow$ Chọn.\n- Chú ý trường âm (dấu gạch ngang) nằm ở cả hai âm tiết."
+            "explanation": "📖 Dịch nghĩa:\nUống cà phê.\n\n✍️ Phân tích đáp án:\n- コーヒー: Cà phê → Chọn.\n- Chú ý trường âm (dấu gạch ngang) nằm ở cả hai âm tiết."
           },
           {
             "id": "m_review_6_10_3_m2_q2",
@@ -2118,7 +2118,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "シヤツ"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nMua áo sơ mi.\n\n✍️ Phân tích đáp án:\n- シャツ (shatsu): Áo sơ mi $\rightarrow$ Chọn.\n- Tránh nhầm với シヤツ (ya lớn, phát âm là shi-ya-tsu)."
+            "explanation": "📖 Dịch nghĩa:\nMua áo sơ mi.\n\n✍️ Phân tích đáp án:\n- シャツ (shatsu): Áo sơ mi → Chọn.\n- Tránh nhầm với シヤツ (ya lớn, phát âm là shi-ya-tsu)."
           },
           {
             "id": "m_review_6_10_3_m2_q3",
@@ -2130,7 +2130,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nĂn bánh mì.\n\n✍️ Phân tích đáp án:\n- パン: Bánh mì $\rightarrow$ Chọn.\n- Chữ ハ có dấu tròn maru tạo thành âm Pa."
+            "explanation": "📖 Dịch nghĩa:\nĂn bánh mì.\n\n✍️ Phân tích đáp án:\n- パン: Bánh mì → Chọn.\n- Chữ ハ có dấu tròn maru tạo thành âm Pa."
           }
         ]
       },
@@ -2148,7 +2148,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "độc"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nMáy ảnh Nhật Bản thế nào?\n\n✍️ Phân tích đáp án:\n- どう (dou): Như thế nào $\rightarrow$ Chọn.\n- どんな (donna): Như thế nào (phải đi sau là danh từ)."
+            "explanation": "📖 Dịch nghĩa:\nMáy ảnh Nhật Bản thế nào?\n\n✍️ Phân tích đáp án:\n- どう (dou): Như thế nào → Chọn.\n- どんな (donna): Như thế nào (phải đi sau là danh từ)."
           },
           {
             "id": "m_review_6_10_3_m3_q1",
@@ -2160,7 +2160,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "きります"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nCắt giấy bằng kéo.\n\n✍️ Phân tích đáp án:\n- きります (kirimasu): Cắt $\rightarrow$ Chọn.\n- かします (kashimasu): Cho mượn.\n- かります (karimasu): Mượn."
+            "explanation": "📖 Dịch nghĩa:\nCắt giấy bằng kéo.\n\n✍️ Phân tích đáp án:\n- きります (kirimasu): Cắt → Chọn.\n- かします (kashimasu): Cho mượn.\n- かります (karimasu): Mượn."
           },
           {
             "id": "m_review_6_10_3_m3_q2",
@@ -2172,7 +2172,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "いそがしい"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nQuả táo này rất ngon.\n\n✍️ Phân tích đáp án:\n- おいしい (oishii): Ngon $\rightarrow$ Chọn.\n- つめたい (tsumetai): Lạnh."
+            "explanation": "📖 Dịch nghĩa:\nQuả táo này rất ngon.\n\n✍️ Phân tích đáp án:\n- おいしい (oishii): Ngon → Chọn.\n- つめたい (tsumetai): Lạnh."
           },
           {
             "id": "m_review_6_10_3_m3_q3",
@@ -2184,7 +2184,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "もらいました"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nNhận sách từ thầy cô giáo.\n\n✍️ Phân tích đáp án:\n- もらいました (moraimashita): Nhận được $\rightarrow$ Chọn (trợ từ から chỉ xuất xứ)."
+            "explanation": "📖 Dịch nghĩa:\nNhận sách từ thầy cô giáo.\n\n✍️ Phân tích đáp án:\n- もらいました (moraimashita): Nhận được → Chọn (trợ từ から chỉ xuất xứ)."
           }
         ]
       },
@@ -2202,7 +2202,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "に"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nĂn cơm bằng thìa.\n\n✍️ Phân tích đáp án:\n- で (de): Trợ từ phương tiện/dụng cụ $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nĂn cơm bằng thìa.\n\n✍️ Phân tích đáp án:\n- で (de): Trợ từ phương tiện/dụng cụ → Chọn."
           },
           {
             "id": "m_review_6_10_3_b1_q1",
@@ -2214,7 +2214,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "を"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTặng hoa cho chị Kimura.\n\n✍️ Phân tích đáp án:\n- に (ni): Đối tượng tiếp nhận hành động tặng $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nTặng hoa cho chị Kimura.\n\n✍️ Phân tích đáp án:\n- に (ni): Đối tượng tiếp nhận hành động tặng → Chọn."
           },
           {
             "id": "m_review_6_10_3_b1_q2",
@@ -2329,7 +2329,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nChiếc xe đạp cũ.\n\n✍️ Phân tích đáp án:\n- ふるい (furui): Cũ $\rightarrow$ Chọn.\n- ひろい (hiroi): Rộng $\rightarrow$ Sai nghĩa."
+            "explanation": "📖 Dịch nghĩa:\nChiếc xe đạp cũ.\n\n✍️ Phân tích đáp án:\n- ふるい (furui): Cũ → Chọn.\n- ひろい (hiroi): Rộng → Sai nghĩa."
           },
           {
             "id": "m_review_6_10_4_m1_q1",
@@ -2341,7 +2341,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTôi học tiếng Anh.\n\n✍️ Phân tích đáp án:\n- 英語 (Anh Ngữ): Tiếng Anh $\\rightarrow$ Chọn.\n- 英話: Viết sai chữ Hán (chữ 話 - Thoại sai).\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ 語 (Ngữ) cấu tạo gồm bộ Ngôn (nói), chữ Ngũ (năm) và chữ Khẩu (miệng)."
+            "explanation": "📖 Dịch nghĩa:\nTôi học tiếng Anh.\n\n✍️ Phân tích đáp án:\n- 英語 (Anh Ngữ): Tiếng Anh → Chọn.\n- 英話: Viết sai chữ Hán (chữ 話 - Thoại sai).\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ 語 (Ngữ) cấu tạo gồm bộ Ngôn (nói), chữ Ngũ (năm) và chữ Khẩu (miệng)."
           },
           {
             "id": "m_review_6_10_4_m1_q2",
@@ -2353,7 +2353,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 0,
-            "explanation": "Dịch nghĩa:\nChiếc xe hơi mới.\n\n✍️ Phân tích đáp án:\n- あたらしい (atarashii): Mới $\\rightarrow$ Chọn.\n- Chú ý phần Okurigana đi kèm sau chữ Hán 新 là しい."
+            "explanation": "Dịch nghĩa:\nChiếc xe hơi mới.\n\n✍️ Phân tích đáp án:\n- あたらしい (atarashii): Mới → Chọn.\n- Chú ý phần Okurigana đi kèm sau chữ Hán 新 là しい."
           },
           {
             "id": "m_review_6_10_4_m1_q3",
@@ -2365,7 +2365,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "てかみ"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTôi viết thư.\n\n✍️ Phân tích đáp án:\n- てがみ (tegami): Bức thư $\\rightarrow$ Chọn.\n- Các đáp án khác sai âm đục (tenten) hoặc phát âm.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán gồm hai từ ghép: 手 (Thủ - tay) và 紙 (Chỉ - giấy). Giấy viết bằng tay chính là bức thư."
+            "explanation": "📖 Dịch nghĩa:\nTôi viết thư.\n\n✍️ Phân tích đáp án:\n- てがみ (tegami): Bức thư → Chọn.\n- Các đáp án khác sai âm đục (tenten) hoặc phát âm.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán gồm hai từ ghép: 手 (Thủ - tay) và 紙 (Chỉ - giấy). Giấy viết bằng tay chính là bức thư."
           }
         ]
       },
@@ -2383,7 +2383,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nĂn bánh mì.\n\n✍️ Phân tích đáp án:\n- パン: Bánh mì $\rightarrow$ Chọn.\n- Chữ ハ có dấu tròn maru tạo thành âm Pa."
+            "explanation": "📖 Dịch nghĩa:\nĂn bánh mì.\n\n✍️ Phân tích đáp án:\n- パン: Bánh mì → Chọn.\n- Chữ ハ có dấu tròn maru tạo thành âm Pa."
           },
           {
             "id": "m_review_6_10_4_m2_q1",
@@ -2395,7 +2395,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "シヤツ"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nMua áo sơ mi.\n\n✍️ Phân tích đáp án:\n- シャツ (shatsu): Áo sơ mi $\rightarrow$ Chọn.\n- Tránh nhầm với シヤツ (ya lớn, phát âm là shi-ya-tsu)."
+            "explanation": "📖 Dịch nghĩa:\nMua áo sơ mi.\n\n✍️ Phân tích đáp án:\n- シャツ (shatsu): Áo sơ mi → Chọn.\n- Tránh nhầm với シヤツ (ya lớn, phát âm là shi-ya-tsu)."
           },
           {
             "id": "m_review_6_10_4_m2_q2",
@@ -2407,7 +2407,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nUống cà phê.\n\n✍️ Phân tích đáp án:\n- コーヒー: Cà phê $\rightarrow$ Chọn.\n- Chú ý trường âm (dấu gạch ngang) nằm ở cả hai âm tiết."
+            "explanation": "📖 Dịch nghĩa:\nUống cà phê.\n\n✍️ Phân tích đáp án:\n- コーヒー: Cà phê → Chọn.\n- Chú ý trường âm (dấu gạch ngang) nằm ở cả hai âm tiết."
           },
           {
             "id": "m_review_6_10_4_m2_q3",
@@ -2419,7 +2419,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "プレゼント"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTặng quà.\n\n✍️ Phân tích đáp án:\n- プレゼント: Quà tặng $\rightarrow$ Chọn.\n- Chú ý nét viết chữ ゼ (ze) có dấu đục tenten."
+            "explanation": "📖 Dịch nghĩa:\nTặng quà.\n\n✍️ Phân tích đáp án:\n- プレゼント: Quà tặng → Chọn.\n- Chú ý nét viết chữ ゼ (ze) có dấu đục tenten."
           }
         ]
       },
@@ -2437,7 +2437,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "どう"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nMáy ảnh Nhật Bản thế nào?\n\n✍️ Phân tích đáp án:\n- どう (dou): Như thế nào $\rightarrow$ Chọn.\n- どんな (donna): Như thế nào (phải đi sau là danh từ)."
+            "explanation": "📖 Dịch nghĩa:\nMáy ảnh Nhật Bản thế nào?\n\n✍️ Phân tích đáp án:\n- どう (dou): Như thế nào → Chọn.\n- どんな (donna): Như thế nào (phải đi sau là danh từ)."
           },
           {
             "id": "m_review_6_10_4_m3_q1",
@@ -2449,7 +2449,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "あげました"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nNhận sách từ thầy cô giáo.\n\n✍️ Phân tích đáp án:\n- もらいました (moraimashita): Nhận được $\rightarrow$ Chọn (trợ từ から chỉ xuất xứ)."
+            "explanation": "📖 Dịch nghĩa:\nNhận sách từ thầy cô giáo.\n\n✍️ Phân tích đáp án:\n- もらいました (moraimashita): Nhận được → Chọn (trợ từ から chỉ xuất xứ)."
           },
           {
             "id": "m_review_6_10_4_m3_q2",
@@ -2461,7 +2461,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "いそがしい"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nQuả táo này rất ngon.\n\n✍️ Phân tích đáp án:\n- おいしい (oishii): Ngon $\rightarrow$ Chọn.\n- つめたい (tsumetai): Lạnh."
+            "explanation": "📖 Dịch nghĩa:\nQuả táo này rất ngon.\n\n✍️ Phân tích đáp án:\n- おいしい (oishii): Ngon → Chọn.\n- つめたい (tsumetai): Lạnh."
           },
           {
             "id": "m_review_6_10_4_m3_q3",
@@ -2473,7 +2473,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "もらいます"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nCắt giấy bằng kéo.\n\n✍️ Phân tích đáp án:\n- きります (kirimasu): Cắt $\rightarrow$ Chọn.\n- かします (kashimasu): Cho mượn.\n- かります (karimasu): Mượn."
+            "explanation": "📖 Dịch nghĩa:\nCắt giấy bằng kéo.\n\n✍️ Phân tích đáp án:\n- きります (kirimasu): Cắt → Chọn.\n- かします (kashimasu): Cho mượn.\n- かります (karimasu): Mượn."
           }
         ]
       },
@@ -2491,7 +2491,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "を"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nĂn cơm bằng thìa.\n\n✍️ Phân tích đáp án:\n- で (de): Trợ từ phương tiện/dụng cụ $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nĂn cơm bằng thìa.\n\n✍️ Phân tích đáp án:\n- で (de): Trợ từ phương tiện/dụng cụ → Chọn."
           },
           {
             "id": "m_review_6_10_4_b1_q1",
@@ -2515,7 +2515,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "を"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nTặng hoa cho chị Kimura.\n\n✍️ Phân tích đáp án:\n- に (ni): Đối tượng tiếp nhận hành động tặng $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nTặng hoa cho chị Kimura.\n\n✍️ Phân tích đáp án:\n- に (ni): Đối tượng tiếp nhận hành động tặng → Chọn."
           },
           {
             "id": "m_review_6_10_4_b1_q3",
@@ -2618,7 +2618,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "あたらしい"
             ],
             "correctIndex": 3,
-            "explanation": "Dịch nghĩa:\nChiếc xe hơi mới.\n\n✍️ Phân tích đáp án:\n- あたらしい (atarashii): Mới $\\rightarrow$ Chọn.\n- Chú ý phần Okurigana đi kèm sau chữ Hán 新 là しい."
+            "explanation": "Dịch nghĩa:\nChiếc xe hơi mới.\n\n✍️ Phân tích đáp án:\n- あたらしい (atarashii): Mới → Chọn.\n- Chú ý phần Okurigana đi kèm sau chữ Hán 新 là しい."
           },
           {
             "id": "m_review_6_10_5_m1_q1",
@@ -2630,7 +2630,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTôi học tiếng Anh.\n\n✍️ Phân tích đáp án:\n- 英語 (Anh Ngữ): Tiếng Anh $\\rightarrow$ Chọn.\n- 英話: Viết sai chữ Hán (chữ 話 - Thoại sai).\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ 語 (Ngữ) cấu tạo gồm bộ Ngôn (nói), chữ Ngũ (năm) và chữ Khẩu (miệng)."
+            "explanation": "📖 Dịch nghĩa:\nTôi học tiếng Anh.\n\n✍️ Phân tích đáp án:\n- 英語 (Anh Ngữ): Tiếng Anh → Chọn.\n- 英話: Viết sai chữ Hán (chữ 話 - Thoại sai).\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ 語 (Ngữ) cấu tạo gồm bộ Ngôn (nói), chữ Ngũ (năm) và chữ Khẩu (miệng)."
           },
           {
             "id": "m_review_6_10_5_m1_q2",
@@ -2642,7 +2642,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nChiếc xe đạp cũ.\n\n✍️ Phân tích đáp án:\n- ふるい (furui): Cũ $\rightarrow$ Chọn.\n- ひろい (hiroi): Rộng $\rightarrow$ Sai nghĩa."
+            "explanation": "📖 Dịch nghĩa:\nChiếc xe đạp cũ.\n\n✍️ Phân tích đáp án:\n- ふるい (furui): Cũ → Chọn.\n- ひろい (hiroi): Rộng → Sai nghĩa."
           },
           {
             "id": "m_review_6_10_5_m1_q3",
@@ -2654,7 +2654,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "đọc sai"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nTôi viết thư.\n\n✍️ Phân tích đáp án:\n- てがみ (tegami): Bức thư $\\rightarrow$ Chọn.\n- Các đáp án khác sai âm đục (tenten) hoặc phát âm.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán gồm hai từ ghép: 手 (Thủ - tay) và 紙 (Chỉ - giấy). Giấy viết bằng tay chính là bức thư."
+            "explanation": "📖 Dịch nghĩa:\nTôi viết thư.\n\n✍️ Phân tích đáp án:\n- てがみ (tegami): Bức thư → Chọn.\n- Các đáp án khác sai âm đục (tenten) hoặc phát âm.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán gồm hai từ ghép: 手 (Thủ - tay) và 紙 (Chỉ - giấy). Giấy viết bằng tay chính là bức thư."
           }
         ]
       },
@@ -2672,7 +2672,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nĂn bánh mì.\n\n✍️ Phân tích đáp án:\n- パン: Bánh mì $\rightarrow$ Chọn.\n- Chữ ハ có dấu tròn maru tạo thành âm Pa."
+            "explanation": "📖 Dịch nghĩa:\nĂn bánh mì.\n\n✍️ Phân tích đáp án:\n- パン: Bánh mì → Chọn.\n- Chữ ハ có dấu tròn maru tạo thành âm Pa."
           },
           {
             "id": "m_review_6_10_5_m2_q1",
@@ -2684,7 +2684,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTặng quà.\n\n✍️ Phân tích đáp án:\n- プレゼント: Quà tặng $\rightarrow$ Chọn.\n- Chú ý nét viết chữ ゼ (ze) có dấu đục tenten."
+            "explanation": "📖 Dịch nghĩa:\nTặng quà.\n\n✍️ Phân tích đáp án:\n- プレゼント: Quà tặng → Chọn.\n- Chú ý nét viết chữ ゼ (ze) có dấu đục tenten."
           },
           {
             "id": "m_review_6_10_5_m2_q2",
@@ -2696,7 +2696,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nUống cà phê.\n\n✍️ Phân tích đáp án:\n- コーヒー: Cà phê $\rightarrow$ Chọn.\n- Chú ý trường âm (dấu gạch ngang) nằm ở cả hai âm tiết."
+            "explanation": "📖 Dịch nghĩa:\nUống cà phê.\n\n✍️ Phân tích đáp án:\n- コーヒー: Cà phê → Chọn.\n- Chú ý trường âm (dấu gạch ngang) nằm ở cả hai âm tiết."
           },
           {
             "id": "m_review_6_10_5_m2_q3",
@@ -2708,7 +2708,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nMua áo sơ mi.\n\n✍️ Phân tích đáp án:\n- シャツ (shatsu): Áo sơ mi $\rightarrow$ Chọn.\n- Tránh nhầm với シヤツ (ya lớn, phát âm là shi-ya-tsu)."
+            "explanation": "📖 Dịch nghĩa:\nMua áo sơ mi.\n\n✍️ Phân tích đáp án:\n- シャツ (shatsu): Áo sơ mi → Chọn.\n- Tránh nhầm với シヤツ (ya lớn, phát âm là shi-ya-tsu)."
           }
         ]
       },
@@ -2726,7 +2726,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "どんな"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nMáy ảnh Nhật Bản thế nào?\n\n✍️ Phân tích đáp án:\n- どう (dou): Như thế nào $\rightarrow$ Chọn.\n- どんな (donna): Như thế nào (phải đi sau là danh từ)."
+            "explanation": "📖 Dịch nghĩa:\nMáy ảnh Nhật Bản thế nào?\n\n✍️ Phân tích đáp án:\n- どう (dou): Như thế nào → Chọn.\n- どんな (donna): Như thế nào (phải đi sau là danh từ)."
           },
           {
             "id": "m_review_6_10_5_m3_q1",
@@ -2738,7 +2738,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "かしました"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nNhận sách từ thầy cô giáo.\n\n✍️ Phân tích đáp án:\n- もらいました (moraimashita): Nhận được $\rightarrow$ Chọn (trợ từ から chỉ xuất xứ)."
+            "explanation": "📖 Dịch nghĩa:\nNhận sách từ thầy cô giáo.\n\n✍️ Phân tích đáp án:\n- もらいました (moraimashita): Nhận được → Chọn (trợ từ から chỉ xuất xứ)."
           },
           {
             "id": "m_review_6_10_5_m3_q2",
@@ -2750,7 +2750,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "おもしろい"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nQuả táo này rất ngon.\n\n✍️ Phân tích đáp án:\n- おいしい (oishii): Ngon $\rightarrow$ Chọn.\n- つめたい (tsumetai): Lạnh."
+            "explanation": "📖 Dịch nghĩa:\nQuả táo này rất ngon.\n\n✍️ Phân tích đáp án:\n- おいしい (oishii): Ngon → Chọn.\n- つめたい (tsumetai): Lạnh."
           },
           {
             "id": "m_review_6_10_5_m3_q3",
@@ -2762,7 +2762,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "もらいます"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nCắt giấy bằng kéo.\n\n✍️ Phân tích đáp án:\n- きります (kirimasu): Cắt $\rightarrow$ Chọn.\n- かします (kashimasu): Cho mượn.\n- かります (karimasu): Mượn."
+            "explanation": "📖 Dịch nghĩa:\nCắt giấy bằng kéo.\n\n✍️ Phân tích đáp án:\n- きります (kirimasu): Cắt → Chọn.\n- かします (kashimasu): Cho mượn.\n- かります (karimasu): Mượn."
           }
         ]
       },
@@ -2804,7 +2804,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "へ"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nTặng hoa cho chị Kimura.\n\n✍️ Phân tích đáp án:\n- に (ni): Đối tượng tiếp nhận hành động tặng $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nTặng hoa cho chị Kimura.\n\n✍️ Phân tích đáp án:\n- に (ni): Đối tượng tiếp nhận hành động tặng → Chọn."
           },
           {
             "id": "m_review_6_10_5_b1_q3",
@@ -2816,7 +2816,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "に"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nĂn cơm bằng thìa.\n\n✍️ Phân tích đáp án:\n- で (de): Trợ từ phương tiện/dụng cụ $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nĂn cơm bằng thìa.\n\n✍️ Phân tích đáp án:\n- で (de): Trợ từ phương tiện/dụng cụ → Chọn."
           }
         ]
       },
@@ -2907,7 +2907,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nĐi nước ngoài.\n\n✍️ Phân tích đáp án:\n- がいこく (gaikoku): Nước ngoài $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nĐi nước ngoài.\n\n✍️ Phân tích đáp án:\n- がいこく (gaikoku): Nước ngoài → Chọn."
           },
           {
             "id": "m_review_11_15_1_m1_q1",
@@ -2919,7 +2919,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nThành phố nổi tiếng.\n\n✍️ Phân tích đáp án:\n- ゆうめい (yuumei): Nổi tiếng $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nThành phố nổi tiếng.\n\n✍️ Phân tích đáp án:\n- ゆうめい (yuumei): Nổi tiếng → Chọn."
           },
           {
             "id": "m_review_11_15_1_m1_q2",
@@ -2931,7 +2931,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "いちにち"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nMột ngày uống thuốc 3 lần.\n\n✍️ Phân tích đáp án:\n- いちにち: Thời lượng một ngày $\rightarrow$ Chọn. (ついたち: ngày mùng 1)."
+            "explanation": "📖 Dịch nghĩa:\nMột ngày uống thuốc 3 lần.\n\n✍️ Phân tích đáp án:\n- いちにち: Thời lượng một ngày → Chọn. (ついたち: ngày mùng 1)."
           },
           {
             "id": "m_review_11_15_1_m1_q3",
@@ -2943,7 +2943,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "きっぷ"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nMua tem.\n\n✍️ Phân tích đáp án:\n- きって: Tem $\rightarrow$ Chọn. (きっぷ: vé xe)."
+            "explanation": "📖 Dịch nghĩa:\nMua tem.\n\n✍️ Phân tích đáp án:\n- きって: Tem → Chọn. (きっぷ: vé xe)."
           }
         ]
       },
@@ -2961,7 +2961,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "車"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nMuốn có xe hơi mới.\n\n✍️ Phân tích đáp án:\n- 車 (Xa): Ô tô $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nMuốn có xe hơi mới.\n\n✍️ Phân tích đáp án:\n- 車 (Xa): Ô tô → Chọn."
           },
           {
             "id": "m_review_11_15_1_m2_q1",
@@ -2973,7 +2973,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nMua trái cây ở siêu thị.\n\n✍️ Phân tích đáp án:\n- スーパー: Siêu thị $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nMua trái cây ở siêu thị.\n\n✍️ Phân tích đáp án:\n- スーパー: Siêu thị → Chọn."
           },
           {
             "id": "m_review_11_15_1_m2_q2",
@@ -2985,7 +2985,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "デパート"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nĐi đến bách hóa.\n\n✍️ Phân tích đáp án:\n- デパート: Bách hóa $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nĐi đến bách hóa.\n\n✍️ Phân tích đáp án:\n- デパート: Bách hóa → Chọn."
           },
           {
             "id": "m_review_11_15_1_m2_q3",
@@ -2997,7 +2997,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "カメラ"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nMuốn mua máy ảnh.\n\n✍️ Phân tích đáp án:\n- カメラ: Máy ảnh $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nMuốn mua máy ảnh.\n\n✍️ Phân tích đáp án:\n- カメラ: Máy ảnh → Chọn."
           }
         ]
       },
@@ -3015,7 +3015,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nBạn đến từ đâu?\n\n✍️ Phân tích đáp án:\n- どこ: Ở đâu $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nBạn đến từ đâu?\n\n✍️ Phân tích đáp án:\n- どこ: Ở đâu → Chọn."
           },
           {
             "id": "m_review_11_15_1_m3_q1",
@@ -3027,7 +3027,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nĐi đến ga bằng xe đạp.\n\n✍️ Phân tích đáp án:\n- じてんしゃ (xe đạp): Phương tiện hợp lý nhất $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nĐi đến ga bằng xe đạp.\n\n✍️ Phân tích đáp án:\n- じてんしゃ (xe đạp): Phương tiện hợp lý nhất → Chọn."
           },
           {
             "id": "m_review_11_15_1_m3_q2",
@@ -3039,7 +3039,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nBây giờ tôi khát nước.\n\n✍️ Phân tích đáp án:\n- のどが かわきました: Khát nước $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nBây giờ tôi khát nước.\n\n✍️ Phân tích đáp án:\n- のどが かわきました: Khát nước → Chọn."
           },
           {
             "id": "m_review_11_15_1_m3_q3",
@@ -3051,7 +3051,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "ください"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nXin vui lòng lấy cho tôi 3 quả táo.\n\n✍️ Phân tích đáp án:\n- ください: Xin vui lòng đưa cho $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nXin vui lòng lấy cho tôi 3 quả táo.\n\n✍️ Phân tích đáp án:\n- ください: Xin vui lòng đưa cho → Chọn."
           }
         ]
       },
@@ -3069,7 +3069,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nHôm nay rất vui.\n\n✍️ Phân tích đáp án:\n- とても: Rất $\rightarrow$ Chọn (đi với tính từ khẳng định)."
+            "explanation": "📖 Dịch nghĩa:\nHôm nay rất vui.\n\n✍️ Phân tích đáp án:\n- とても: Rất → Chọn (đi với tính từ khẳng định)."
           },
           {
             "id": "m_review_11_15_1_b1_q1",
@@ -3081,7 +3081,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "とって"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nKhông được chụp ảnh ở đây.\n\n✍️ Phân tích đáp án:\n- とって: Thể て của とります (chụp) $\rightarrow$ Chọn (Vて は いけません)."
+            "explanation": "📖 Dịch nghĩa:\nKhông được chụp ảnh ở đây.\n\n✍️ Phân tích đáp án:\n- とって: Thể て của とります (chụp) → Chọn (Vて は いけません)."
           },
           {
             "id": "m_review_11_15_1_b1_q2",
@@ -3093,7 +3093,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "に"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTôi hiểu tiếng Nhật.\n\n✍️ Phân tích đáp án:\n- が: Trợ từ đi với động từ trạng thái わかります $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nTôi hiểu tiếng Nhật.\n\n✍️ Phân tích đáp án:\n- が: Trợ từ đi với động từ trạng thái わかります → Chọn."
           },
           {
             "id": "m_review_11_15_1_b1_q3",
@@ -3105,7 +3105,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nChúng ta nghỉ một lát nhé?\n\n✍️ Phân tích đáp án:\n- やすみ: Động từ bỏ ます để đi với ましょうか $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nChúng ta nghỉ một lát nhé?\n\n✍️ Phân tích đáp án:\n- やすみ: Động từ bỏ ます để đi với ましょうか → Chọn."
           }
         ]
       },
@@ -3171,7 +3171,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nMuốn đi học đại học.\n- Đứng trước たい là động từ thể ます bỏ ます (いきます $\\rightarrow$ いき)."
+            "explanation": "📖 Dịch nghĩa:\nMuốn đi học đại học.\n- Đứng trước たい là động từ thể ます bỏ ます (いきます → いき)."
           }
         ]
       }
@@ -3196,7 +3196,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nĐi nước ngoài.\n\n✍️ Phân tích đáp án:\n- がいこく (gaikoku): Nước ngoài $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nĐi nước ngoài.\n\n✍️ Phân tích đáp án:\n- がいこく (gaikoku): Nước ngoài → Chọn."
           },
           {
             "id": "m_review_11_15_2_m1_q1",
@@ -3208,7 +3208,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nThành phố nổi tiếng.\n\n✍️ Phân tích đáp án:\n- ゆうめい (yuumei): Nổi tiếng $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nThành phố nổi tiếng.\n\n✍️ Phân tích đáp án:\n- ゆうめい (yuumei): Nổi tiếng → Chọn."
           },
           {
             "id": "m_review_11_15_2_m1_q2",
@@ -3220,7 +3220,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nMua tem.\n\n✍️ Phân tích đáp án:\n- きって: Tem $\rightarrow$ Chọn. (きっぷ: vé xe)."
+            "explanation": "📖 Dịch nghĩa:\nMua tem.\n\n✍️ Phân tích đáp án:\n- きって: Tem → Chọn. (きっぷ: vé xe)."
           },
           {
             "id": "m_review_11_15_2_m1_q3",
@@ -3232,7 +3232,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "いちにち"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nMột ngày uống thuốc 3 lần.\n\n✍️ Phân tích đáp án:\n- いちにち: Thời lượng một ngày $\rightarrow$ Chọn. (ついたち: ngày mùng 1)."
+            "explanation": "📖 Dịch nghĩa:\nMột ngày uống thuốc 3 lần.\n\n✍️ Phân tích đáp án:\n- いちにち: Thời lượng một ngày → Chọn. (ついたち: ngày mùng 1)."
           }
         ]
       },
@@ -3250,7 +3250,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nMua trái cây ở siêu thị.\n\n✍️ Phân tích đáp án:\n- スーパー: Siêu thị $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nMua trái cây ở siêu thị.\n\n✍️ Phân tích đáp án:\n- スーパー: Siêu thị → Chọn."
           },
           {
             "id": "m_review_11_15_2_m2_q1",
@@ -3262,7 +3262,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "デパート"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nĐi đến bách hóa.\n\n✍️ Phân tích đáp án:\n- デパート: Bách hóa $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nĐi đến bách hóa.\n\n✍️ Phân tích đáp án:\n- デパート: Bách hóa → Chọn."
           },
           {
             "id": "m_review_11_15_2_m2_q2",
@@ -3274,7 +3274,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nMuốn có xe hơi mới.\n\n✍️ Phân tích đáp án:\n- 車 (Xa): Ô tô $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nMuốn có xe hơi mới.\n\n✍️ Phân tích đáp án:\n- 車 (Xa): Ô tô → Chọn."
           },
           {
             "id": "m_review_11_15_2_m2_q3",
@@ -3286,7 +3286,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nMuốn mua máy ảnh.\n\n✍️ Phân tích đáp án:\n- カメラ: Máy ảnh $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nMuốn mua máy ảnh.\n\n✍️ Phân tích đáp án:\n- カメラ: Máy ảnh → Chọn."
           }
         ]
       },
@@ -3304,7 +3304,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nBạn đến từ đâu?\n\n✍️ Phân tích đáp án:\n- どこ: Ở đâu $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nBạn đến từ đâu?\n\n✍️ Phân tích đáp án:\n- どこ: Ở đâu → Chọn."
           },
           {
             "id": "m_review_11_15_2_m3_q1",
@@ -3316,7 +3316,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "じてんしゃ"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nĐi đến ga bằng xe đạp.\n\n✍️ Phân tích đáp án:\n- じてんしゃ (xe đạp): Phương tiện hợp lý nhất $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nĐi đến ga bằng xe đạp.\n\n✍️ Phân tích đáp án:\n- じてんしゃ (xe đạp): Phương tiện hợp lý nhất → Chọn."
           },
           {
             "id": "m_review_11_15_2_m3_q2",
@@ -3328,7 +3328,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nBây giờ tôi khát nước.\n\n✍️ Phân tích đáp án:\n- のどが かわきました: Khát nước $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nBây giờ tôi khát nước.\n\n✍️ Phân tích đáp án:\n- のどが かわきました: Khát nước → Chọn."
           },
           {
             "id": "m_review_11_15_2_m3_q3",
@@ -3340,7 +3340,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "ください"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nXin vui lòng lấy cho tôi 3 quả táo.\n\n✍️ Phân tích đáp án:\n- ください: Xin vui lòng đưa cho $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nXin vui lòng lấy cho tôi 3 quả táo.\n\n✍️ Phân tích đáp án:\n- ください: Xin vui lòng đưa cho → Chọn."
           }
         ]
       },
@@ -3358,7 +3358,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nKhông được chụp ảnh ở đây.\n\n✍️ Phân tích đáp án:\n- とって: Thể て của とります (chụp) $\rightarrow$ Chọn (Vて は いけません)."
+            "explanation": "📖 Dịch nghĩa:\nKhông được chụp ảnh ở đây.\n\n✍️ Phân tích đáp án:\n- とって: Thể て của とります (chụp) → Chọn (Vて は いけません)."
           },
           {
             "id": "m_review_11_15_2_b1_q1",
@@ -3370,7 +3370,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nHôm nay rất vui.\n\n✍️ Phân tích đáp án:\n- とても: Rất $\rightarrow$ Chọn (đi với tính từ khẳng định)."
+            "explanation": "📖 Dịch nghĩa:\nHôm nay rất vui.\n\n✍️ Phân tích đáp án:\n- とても: Rất → Chọn (đi với tính từ khẳng định)."
           },
           {
             "id": "m_review_11_15_2_b1_q2",
@@ -3382,7 +3382,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "gが"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTôi hiểu tiếng Nhật.\n\n✍️ Phân tích đáp án:\n- が: Trợ từ đi với động từ trạng thái わかります $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nTôi hiểu tiếng Nhật.\n\n✍️ Phân tích đáp án:\n- が: Trợ từ đi với động từ trạng thái わかります → Chọn."
           },
           {
             "id": "m_review_11_15_2_b1_q3",
@@ -3394,7 +3394,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "やすみ"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nChúng ta nghỉ một lát nhé?\n\n✍️ Phân tích đáp án:\n- やすみ: Động từ bỏ ます để đi với ましょうか $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nChúng ta nghỉ một lát nhé?\n\n✍️ Phân tích đáp án:\n- やすみ: Động từ bỏ ます để đi với ましょうか → Chọn."
           }
         ]
       },
@@ -3460,7 +3460,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "いき"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nMuốn đi học đại học.\n- Đứng trước たい là động từ thể ます bỏ ます (いきます $\\rightarrow$ いき)."
+            "explanation": "📖 Dịch nghĩa:\nMuốn đi học đại học.\n- Đứng trước たい là động từ thể ます bỏ ます (いきます → いき)."
           }
         ]
       }
@@ -3485,7 +3485,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "きっぷ"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nMua tem.\n\n✍️ Phân tích đáp án:\n- きって: Tem $\rightarrow$ Chọn. (きっぷ: vé xe)."
+            "explanation": "📖 Dịch nghĩa:\nMua tem.\n\n✍️ Phân tích đáp án:\n- きって: Tem → Chọn. (きっぷ: vé xe)."
           },
           {
             "id": "m_review_11_15_3_m1_q1",
@@ -3497,7 +3497,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nMột ngày uống thuốc 3 lần.\n\n✍️ Phân tích đáp án:\n- いちにち: Thời lượng một ngày $\rightarrow$ Chọn. (ついたち: ngày mùng 1)."
+            "explanation": "📖 Dịch nghĩa:\nMột ngày uống thuốc 3 lần.\n\n✍️ Phân tích đáp án:\n- いちにち: Thời lượng một ngày → Chọn. (ついたち: ngày mùng 1)."
           },
           {
             "id": "m_review_11_15_3_m1_q2",
@@ -3509,7 +3509,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nThành phố nổi tiếng.\n\n✍️ Phân tích đáp án:\n- ゆうめい (yuumei): Nổi tiếng $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nThành phố nổi tiếng.\n\n✍️ Phân tích đáp án:\n- ゆうめい (yuumei): Nổi tiếng → Chọn."
           },
           {
             "id": "m_review_11_15_3_m1_q3",
@@ -3521,7 +3521,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nĐi nước ngoài.\n\n✍️ Phân tích đáp án:\n- がいこく (gaikoku): Nước ngoài $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nĐi nước ngoài.\n\n✍️ Phân tích đáp án:\n- がいこく (gaikoku): Nước ngoài → Chọn."
           }
         ]
       },
@@ -3539,7 +3539,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nMua trái cây ở siêu thị.\n\n✍️ Phân tích đáp án:\n- スーパー: Siêu thị $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nMua trái cây ở siêu thị.\n\n✍️ Phân tích đáp án:\n- スーパー: Siêu thị → Chọn."
           },
           {
             "id": "m_review_11_15_3_m2_q1",
@@ -3551,7 +3551,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nĐi đến bách hóa.\n\n✍️ Phân tích đáp án:\n- デパート: Bách hóa $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nĐi đến bách hóa.\n\n✍️ Phân tích đáp án:\n- デパート: Bách hóa → Chọn."
           },
           {
             "id": "m_review_11_15_3_m2_q2",
@@ -3563,7 +3563,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "車"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nMuốn có xe hơi mới.\n\n✍️ Phân tích đáp án:\n- 車 (Xa): Ô tô $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nMuốn có xe hơi mới.\n\n✍️ Phân tích đáp án:\n- 車 (Xa): Ô tô → Chọn."
           },
           {
             "id": "m_review_11_15_3_m2_q3",
@@ -3575,7 +3575,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nMuốn mua máy ảnh.\n\n✍️ Phân tích đáp án:\n- カメラ: Máy ảnh $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nMuốn mua máy ảnh.\n\n✍️ Phân tích đáp án:\n- カメラ: Máy ảnh → Chọn."
           }
         ]
       },
@@ -3593,7 +3593,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nĐi đến ga bằng xe đạp.\n\n✍️ Phân tích đáp án:\n- じてんしゃ (xe đạp): Phương tiện hợp lý nhất $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nĐi đến ga bằng xe đạp.\n\n✍️ Phân tích đáp án:\n- じてんしゃ (xe đạp): Phương tiện hợp lý nhất → Chọn."
           },
           {
             "id": "m_review_11_15_3_m3_q1",
@@ -3605,7 +3605,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nBây giờ tôi khát nước.\n\n✍️ Phân tích đáp án:\n- のどが かわきました: Khát nước $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nBây giờ tôi khát nước.\n\n✍️ Phân tích đáp án:\n- のどが かわきました: Khát nước → Chọn."
           },
           {
             "id": "m_review_11_15_3_m3_q2",
@@ -3617,7 +3617,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nXin vui lòng lấy cho tôi 3 quả táo.\n\n✍️ Phân tích đáp án:\n- ください: Xin vui lòng đưa cho $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nXin vui lòng lấy cho tôi 3 quả táo.\n\n✍️ Phân tích đáp án:\n- ください: Xin vui lòng đưa cho → Chọn."
           },
           {
             "id": "m_review_11_15_3_m3_q3",
@@ -3629,7 +3629,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nBạn đến từ đâu?\n\n✍️ Phân tích đáp án:\n- どこ: Ở đâu $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nBạn đến từ đâu?\n\n✍️ Phân tích đáp án:\n- どこ: Ở đâu → Chọn."
           }
         ]
       },
@@ -3647,7 +3647,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "とって"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nKhông được chụp ảnh ở đây.\n\n✍️ Phân tích đáp án:\n- とって: Thể て của とります (chụp) $\rightarrow$ Chọn (Vて は いけません)."
+            "explanation": "📖 Dịch nghĩa:\nKhông được chụp ảnh ở đây.\n\n✍️ Phân tích đáp án:\n- とって: Thể て của とります (chụp) → Chọn (Vて は いけません)."
           },
           {
             "id": "m_review_11_15_3_b1_q1",
@@ -3659,7 +3659,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nHôm nay rất vui.\n\n✍️ Phân tích đáp án:\n- とても: Rất $\rightarrow$ Chọn (đi với tính từ khẳng định)."
+            "explanation": "📖 Dịch nghĩa:\nHôm nay rất vui.\n\n✍️ Phân tích đáp án:\n- とても: Rất → Chọn (đi với tính từ khẳng định)."
           },
           {
             "id": "m_review_11_15_3_b1_q2",
@@ -3671,7 +3671,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTôi hiểu tiếng Nhật.\n\n✍️ Phân tích đáp án:\n- が: Trợ từ đi với động từ trạng thái わかります $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nTôi hiểu tiếng Nhật.\n\n✍️ Phân tích đáp án:\n- が: Trợ từ đi với động từ trạng thái わかります → Chọn."
           },
           {
             "id": "m_review_11_15_3_b1_q3",
@@ -3683,7 +3683,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nChúng ta nghỉ một lát nhé?\n\n✍️ Phân tích đáp án:\n- やすみ: Động từ bỏ ます để đi với ましょうか $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nChúng ta nghỉ một lát nhé?\n\n✍️ Phân tích đáp án:\n- やすみ: Động từ bỏ ます để đi với ましょうか → Chọn."
           }
         ]
       },
@@ -3749,7 +3749,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nMuốn đi học đại học.\n- Đứng trước たい là động từ thể ます bỏ ます (いきます $\\rightarrow$ いき)."
+            "explanation": "📖 Dịch nghĩa:\nMuốn đi học đại học.\n- Đứng trước たい là động từ thể ます bỏ ます (いきます → いき)."
           }
         ]
       }
@@ -3774,7 +3774,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "がいこく"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nĐi nước ngoài.\n\n✍️ Phân tích đáp án:\n- がいこく (gaikoku): Nước ngoài $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nĐi nước ngoài.\n\n✍️ Phân tích đáp án:\n- がいこく (gaikoku): Nước ngoài → Chọn."
           },
           {
             "id": "m_review_11_15_4_m1_q1",
@@ -3786,7 +3786,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "ゆうめい"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nThành phố nổi tiếng.\n\n✍️ Phân tích đáp án:\n- ゆうめい (yuumei): Nổi tiếng $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nThành phố nổi tiếng.\n\n✍️ Phân tích đáp án:\n- ゆうめい (yuumei): Nổi tiếng → Chọn."
           },
           {
             "id": "m_review_11_15_4_m1_q2",
@@ -3798,7 +3798,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nMột ngày uống thuốc 3 lần.\n\n✍️ Phân tích đáp án:\n- いちにち: Thời lượng một ngày $\rightarrow$ Chọn. (ついたち: ngày mùng 1)."
+            "explanation": "📖 Dịch nghĩa:\nMột ngày uống thuốc 3 lần.\n\n✍️ Phân tích đáp án:\n- いちにち: Thời lượng một ngày → Chọn. (ついたち: ngày mùng 1)."
           },
           {
             "id": "m_review_11_15_4_m1_q3",
@@ -3810,7 +3810,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "きって"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nMua tem.\n\n✍️ Phân tích đáp án:\n- きって: Tem $\rightarrow$ Chọn. (きっぷ: vé xe)."
+            "explanation": "📖 Dịch nghĩa:\nMua tem.\n\n✍️ Phân tích đáp án:\n- きって: Tem → Chọn. (きっぷ: vé xe)."
           }
         ]
       },
@@ -3828,7 +3828,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nMua trái cây ở siêu thị.\n\n✍️ Phân tích đáp án:\n- スーパー: Siêu thị $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nMua trái cây ở siêu thị.\n\n✍️ Phân tích đáp án:\n- スーパー: Siêu thị → Chọn."
           },
           {
             "id": "m_review_11_15_4_m2_q1",
@@ -3840,7 +3840,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nMuốn có xe hơi mới.\n\n✍️ Phân tích đáp án:\n- 車 (Xa): Ô tô $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nMuốn có xe hơi mới.\n\n✍️ Phân tích đáp án:\n- 車 (Xa): Ô tô → Chọn."
           },
           {
             "id": "m_review_11_15_4_m2_q2",
@@ -3852,7 +3852,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nMuốn mua máy ảnh.\n\n✍️ Phân tích đáp án:\n- カメラ: Máy ảnh $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nMuốn mua máy ảnh.\n\n✍️ Phân tích đáp án:\n- カメラ: Máy ảnh → Chọn."
           },
           {
             "id": "m_review_11_15_4_m2_q3",
@@ -3864,7 +3864,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nĐi đến bách hóa.\n\n✍️ Phân tích đáp án:\n- デパート: Bách hóa $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nĐi đến bách hóa.\n\n✍️ Phân tích đáp án:\n- デパート: Bách hóa → Chọn."
           }
         ]
       },
@@ -3882,7 +3882,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nĐi đến ga bằng xe đạp.\n\n✍️ Phân tích đáp án:\n- じてんしゃ (xe đạp): Phương tiện hợp lý nhất $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nĐi đến ga bằng xe đạp.\n\n✍️ Phân tích đáp án:\n- じてんしゃ (xe đạp): Phương tiện hợp lý nhất → Chọn."
           },
           {
             "id": "m_review_11_15_4_m3_q1",
@@ -3894,7 +3894,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "dđâu/đó/đây (danh từ)"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nBạn đến từ đâu?\n\n✍️ Phân tích đáp án:\n- どこ: Ở đâu $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nBạn đến từ đâu?\n\n✍️ Phân tích đáp án:\n- どこ: Ở đâu → Chọn."
           },
           {
             "id": "m_review_11_15_4_m3_q2",
@@ -3906,7 +3906,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "かわきました"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nBây giờ tôi khát nước.\n\n✍️ Phân tích đáp án:\n- のどが かわきました: Khát nước $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nBây giờ tôi khát nước.\n\n✍️ Phân tích đáp án:\n- のどが かわきました: Khát nước → Chọn."
           },
           {
             "id": "m_review_11_15_4_m3_q3",
@@ -3918,7 +3918,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nXin vui lòng lấy cho tôi 3 quả táo.\n\n✍️ Phân tích đáp án:\n- ください: Xin vui lòng đưa cho $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nXin vui lòng lấy cho tôi 3 quả táo.\n\n✍️ Phân tích đáp án:\n- ください: Xin vui lòng đưa cho → Chọn."
           }
         ]
       },
@@ -3936,7 +3936,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nHôm nay rất vui.\n\n✍️ Phân tích đáp án:\n- とても: Rất $\rightarrow$ Chọn (đi với tính từ khẳng định)."
+            "explanation": "📖 Dịch nghĩa:\nHôm nay rất vui.\n\n✍️ Phân tích đáp án:\n- とても: Rất → Chọn (đi với tính từ khẳng định)."
           },
           {
             "id": "m_review_11_15_4_b1_q1",
@@ -3948,7 +3948,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nKhông được chụp ảnh ở đây.\n\n✍️ Phân tích đáp án:\n- とって: Thể て của とります (chụp) $\rightarrow$ Chọn (Vて は いけません)."
+            "explanation": "📖 Dịch nghĩa:\nKhông được chụp ảnh ở đây.\n\n✍️ Phân tích đáp án:\n- とって: Thể て của とります (chụp) → Chọn (Vて は いけません)."
           },
           {
             "id": "m_review_11_15_4_b1_q2",
@@ -3960,7 +3960,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nChúng ta nghỉ một lát nhé?\n\n✍️ Phân tích đáp án:\n- やすみ: Động từ bỏ ます để đi với ましょうか $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nChúng ta nghỉ một lát nhé?\n\n✍️ Phân tích đáp án:\n- やすみ: Động từ bỏ ます để đi với ましょうか → Chọn."
           },
           {
             "id": "m_review_11_15_4_b1_q3",
@@ -3972,7 +3972,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "を"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTôi hiểu tiếng Nhật.\n\n✍️ Phân tích đáp án:\n- が: Trợ từ đi với động từ trạng thái わかります $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nTôi hiểu tiếng Nhật.\n\n✍️ Phân tích đáp án:\n- が: Trợ từ đi với động từ trạng thái わかります → Chọn."
           }
         ]
       },
@@ -4038,7 +4038,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nMuốn đi học đại học.\n- Đứng trước たい là động từ thể ます bỏ ます (いきます $\\rightarrow$ いき)."
+            "explanation": "📖 Dịch nghĩa:\nMuốn đi học đại học.\n- Đứng trước たい là động từ thể ます bỏ ます (いきます → いき)."
           }
         ]
       }
@@ -4063,7 +4063,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nThành phố nổi tiếng.\n\n✍️ Phân tích đáp án:\n- ゆうめい (yuumei): Nổi tiếng $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nThành phố nổi tiếng.\n\n✍️ Phân tích đáp án:\n- ゆうめい (yuumei): Nổi tiếng → Chọn."
           },
           {
             "id": "m_review_11_15_5_m1_q1",
@@ -4075,7 +4075,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "がいこく"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nĐi nước ngoài.\n\n✍️ Phân tích đáp án:\n- がいこく (gaikoku): Nước ngoài $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nĐi nước ngoài.\n\n✍️ Phân tích đáp án:\n- がいこく (gaikoku): Nước ngoài → Chọn."
           },
           {
             "id": "m_review_11_15_5_m1_q2",
@@ -4087,7 +4087,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "いちにち"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nMột ngày uống thuốc 3 lần.\n\n✍️ Phân tích đáp án:\n- いちにち: Thời lượng một ngày $\rightarrow$ Chọn. (ついたち: ngày mùng 1)."
+            "explanation": "📖 Dịch nghĩa:\nMột ngày uống thuốc 3 lần.\n\n✍️ Phân tích đáp án:\n- いちにち: Thời lượng một ngày → Chọn. (ついたち: ngày mùng 1)."
           },
           {
             "id": "m_review_11_15_5_m1_q3",
@@ -4099,7 +4099,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "きって"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nMua tem.\n\n✍️ Phân tích đáp án:\n- きって: Tem $\rightarrow$ Chọn. (きっぷ: vé xe)."
+            "explanation": "📖 Dịch nghĩa:\nMua tem.\n\n✍️ Phân tích đáp án:\n- きって: Tem → Chọn. (きっぷ: vé xe)."
           }
         ]
       },
@@ -4117,7 +4117,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "車"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nMuốn có xe hơi mới.\n\n✍️ Phân tích đáp án:\n- 車 (Xa): Ô tô $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nMuốn có xe hơi mới.\n\n✍️ Phân tích đáp án:\n- 車 (Xa): Ô tô → Chọn."
           },
           {
             "id": "m_review_11_15_5_m2_q1",
@@ -4129,7 +4129,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nMuốn mua máy ảnh.\n\n✍️ Phân tích đáp án:\n- カメラ: Máy ảnh $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nMuốn mua máy ảnh.\n\n✍️ Phân tích đáp án:\n- カメラ: Máy ảnh → Chọn."
           },
           {
             "id": "m_review_11_15_5_m2_q2",
@@ -4141,7 +4141,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nĐi đến bách hóa.\n\n✍️ Phân tích đáp án:\n- デパート: Bách hóa $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nĐi đến bách hóa.\n\n✍️ Phân tích đáp án:\n- デパート: Bách hóa → Chọn."
           },
           {
             "id": "m_review_11_15_5_m2_q3",
@@ -4153,7 +4153,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "スーパー"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nMua trái cây ở siêu thị.\n\n✍️ Phân tích đáp án:\n- スーパー: Siêu thị $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nMua trái cây ở siêu thị.\n\n✍️ Phân tích đáp án:\n- スーパー: Siêu thị → Chọn."
           }
         ]
       },
@@ -4171,7 +4171,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nĐi đến ga bằng xe đạp.\n\n✍️ Phân tích đáp án:\n- じてんしゃ (xe đạp): Phương tiện hợp lý nhất $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nĐi đến ga bằng xe đạp.\n\n✍️ Phân tích đáp án:\n- じてんしゃ (xe đạp): Phương tiện hợp lý nhất → Chọn."
           },
           {
             "id": "m_review_11_15_5_m3_q1",
@@ -4183,7 +4183,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nBây giờ tôi khát nước.\n\n✍️ Phân tích đáp án:\n- のどが かわきました: Khát nước $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nBây giờ tôi khát nước.\n\n✍️ Phân tích đáp án:\n- のどが かわきました: Khát nước → Chọn."
           },
           {
             "id": "m_review_11_15_5_m3_q2",
@@ -4195,7 +4195,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nXin vui lòng lấy cho tôi 3 quả táo.\n\n✍️ Phân tích đáp án:\n- ください: Xin vui lòng đưa cho $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nXin vui lòng lấy cho tôi 3 quả táo.\n\n✍️ Phân tích đáp án:\n- ください: Xin vui lòng đưa cho → Chọn."
           },
           {
             "id": "m_review_11_15_5_m3_q3",
@@ -4207,7 +4207,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "dđâu/đó/đây (danh từ)"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nBạn đến từ đâu?\n\n✍️ Phân tích đáp án:\n- どこ: Ở đâu $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nBạn đến từ đâu?\n\n✍️ Phân tích đáp án:\n- どこ: Ở đâu → Chọn."
           }
         ]
       },
@@ -4225,7 +4225,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "やすみ"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nChúng ta nghỉ một lát nhé?\n\n✍️ Phân tích đáp án:\n- やすみ: Động từ bỏ ます để đi với ましょうか $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nChúng ta nghỉ một lát nhé?\n\n✍️ Phân tích đáp án:\n- やすみ: Động từ bỏ ます để đi với ましょうか → Chọn."
           },
           {
             "id": "m_review_11_15_5_b1_q1",
@@ -4237,7 +4237,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "とって"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nKhông được chụp ảnh ở đây.\n\n✍️ Phân tích đáp án:\n- とって: Thể て của とります (chụp) $\rightarrow$ Chọn (Vて は いけません)."
+            "explanation": "📖 Dịch nghĩa:\nKhông được chụp ảnh ở đây.\n\n✍️ Phân tích đáp án:\n- とって: Thể て của とります (chụp) → Chọn (Vて は いけません)."
           },
           {
             "id": "m_review_11_15_5_b1_q2",
@@ -4249,7 +4249,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "gが"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTôi hiểu tiếng Nhật.\n\n✍️ Phân tích đáp án:\n- が: Trợ từ đi với động từ trạng thái わかります $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nTôi hiểu tiếng Nhật.\n\n✍️ Phân tích đáp án:\n- が: Trợ từ đi với động từ trạng thái わかります → Chọn."
           },
           {
             "id": "m_review_11_15_5_b1_q3",
@@ -4261,7 +4261,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "とても"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nHôm nay rất vui.\n\n✍️ Phân tích đáp án:\n- とても: Rất $\rightarrow$ Chọn (đi với tính từ khẳng định)."
+            "explanation": "📖 Dịch nghĩa:\nHôm nay rất vui.\n\n✍️ Phân tích đáp án:\n- とても: Rất → Chọn (đi với tính từ khẳng định)."
           }
         ]
       },
@@ -4327,7 +4327,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nMuốn đi học đại học.\n- Đứng trước たい là động từ thể ます bỏ ます (いきます $\\rightarrow$ いき)."
+            "explanation": "📖 Dịch nghĩa:\nMuốn đi học đại học.\n- Đứng trước たい là động từ thể ます bỏ ます (いきます → いき)."
           }
         ]
       }
@@ -4352,7 +4352,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nThức dậy lúc 6 giờ sáng.\n\n✍️ Phân tích đáp án:\n- ごぜん: Buổi sáng $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nThức dậy lúc 6 giờ sáng.\n\n✍️ Phân tích đáp án:\n- ごぜん: Buổi sáng → Chọn."
           },
           {
             "id": "m_review_16_20_1_m1_q1",
@@ -4364,7 +4364,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nXem phim.\n\n✍️ Phân tích đáp án:\n- み: Cách đọc chữ 見 trong động từ 見ます $\\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nXem phim.\n\n✍️ Phân tích đáp án:\n- み: Cách đọc chữ 見 trong động từ 見ます → Chọn."
           },
           {
             "id": "m_review_16_20_1_m1_q2",
@@ -4376,7 +4376,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nNgày mai trời mưa.\n\n✍️ Phân tích đáp án:\n- あめ (ame): Mưa $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nNgày mai trời mưa.\n\n✍️ Phân tích đáp án:\n- あめ (ame): Mưa → Chọn."
           },
           {
             "id": "m_review_16_20_1_m1_q3",
@@ -4388,7 +4388,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nKhông có giờ học buổi chiều.\n\n✍️ Phân tích đáp án:\n- ごご: Buổi chiều $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nKhông có giờ học buổi chiều.\n\n✍️ Phân tích đáp án:\n- ごご: Buổi chiều → Chọn."
           }
         ]
       },
@@ -4406,7 +4406,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nĂn cơm trưa.\n\n✍️ Phân tích đáp án:\n- 昼 (Trú): Buổi trưa $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nĂn cơm trưa.\n\n✍️ Phân tích đáp án:\n- 昼 (Trú): Buổi trưa → Chọn."
           },
           {
             "id": "m_review_16_20_1_m2_q1",
@@ -4418,7 +4418,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nRẽ phải.\n\n✍️ Phân tích đáp án:\n- 右 (Hữu): Bên phải $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nRẽ phải.\n\n✍️ Phân tích đáp án:\n- 右 (Hữu): Bên phải → Chọn."
           },
           {
             "id": "m_review_16_20_1_m2_q2",
@@ -4430,7 +4430,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nChụp ảnh.\n\n✍️ Phân tích đáp án:\n- 写真 (Tả Chân): Bức ảnh $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nChụp ảnh.\n\n✍️ Phân tích đáp án:\n- 写真 (Tả Chân): Bức ảnh → Chọn."
           },
           {
             "id": "m_review_16_20_1_m2_q3",
@@ -4442,7 +4442,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "夜"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nNgủ buổi tối.\n\n✍️ Phân tích đáp án:\n- 夜 (Dạ): Buổi tối $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nNgủ buổi tối.\n\n✍️ Phân tích đáp án:\n- 夜 (Dạ): Buổi tối → Chọn."
           }
         ]
       },
@@ -4460,7 +4460,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nXin vui lòng không đỗ xe ở đây.\n\n✍️ Phân tích đáp án:\n- とめないで ください: Xin đừng đỗ xe (Vない + で ください) $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nXin vui lòng không đỗ xe ở đây.\n\n✍️ Phân tích đáp án:\n- とめないで ください: Xin đừng đỗ xe (Vない + で ください) → Chọn."
           },
           {
             "id": "m_review_16_20_1_m3_q1",
@@ -4472,7 +4472,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nPhải xuất trình hộ chiếu.\n\n✍️ Phân tích đáp án:\n- みせなければ なりません: Phải cho xem (Vなければ なりません) $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nPhải xuất trình hộ chiếu.\n\n✍️ Phân tích đáp án:\n- みせなければ なりません: Phải cho xem (Vなければ なりません) → Chọn."
           },
           {
             "id": "m_review_16_20_1_m3_q2",
@@ -4484,7 +4484,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "たべます"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nUống thuốc do cảm.\n\n✍️ Phân tích đáp án:\n- のみます: Uống thuốc (dùng のみます chứ không dùng たべます) $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nUống thuốc do cảm.\n\n✍️ Phân tích đáp án:\n- のみます: Uống thuốc (dùng のみます chứ không dùng たべます) → Chọn."
           },
           {
             "id": "m_review_16_20_1_m3_q3",
@@ -4496,7 +4496,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nVì trời mưa nên không đi đâu.\n\n✍️ Phân tích đáp án:\n- あめ (mưa): Thời tiết lý do $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nVì trời mưa nên không đi đâu.\n\n✍️ Phân tích đáp án:\n- あめ (mưa): Thời tiết lý do → Chọn."
           }
         ]
       },
@@ -4514,7 +4514,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTrước khi đi Nhật, tôi đã học bài.\n\n✍️ Phân tích đáp án:\n- いく (đi): Động từ ở thể từ điển Vる đi trước まえに $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nTrước khi đi Nhật, tôi đã học bài.\n\n✍️ Phân tích đáp án:\n- いく (đi): Động từ ở thể từ điển Vる đi trước まえに → Chọn."
           },
           {
             "id": "m_review_16_20_1_b1_q1",
@@ -4526,7 +4526,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nTôi có thể chơi piano.\n\n✍️ Phân tích đáp án:\n- ひくこと: Chơi đàn (đã danh từ hóa qua こと) $\rightarrow$ Chọn (Vる こと が できます)."
+            "explanation": "📖 Dịch nghĩa:\nTôi có thể chơi piano.\n\n✍️ Phân tích đáp án:\n- ひくこと: Chơi đàn (đã danh từ hóa qua こと) → Chọn (Vる こと が できます)."
           },
           {
             "id": "m_review_16_20_1_b1_q2",
@@ -4538,7 +4538,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nBạn từng cưỡi ngựa chưa?\n\n✍️ Phân tích đáp án:\n- のった: Thể quá khứ Vた của のります (cưỡi) $\rightarrow$ Chọn (Vた ことが あります)."
+            "explanation": "📖 Dịch nghĩa:\nBạn từng cưỡi ngựa chưa?\n\n✍️ Phân tích đáp án:\n- のった: Thể quá khứ Vた của のります (cưỡi) → Chọn (Vた ことが あります)."
           },
           {
             "id": "m_review_16_20_1_b1_q3",
@@ -4550,7 +4550,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nTáo vừa ngon vừa rẻ.\n\n✍️ Phân tích đáp án:\n- し: Trợ từ liệt kê song song $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nTáo vừa ngon vừa rẻ.\n\n✍️ Phân tích đáp án:\n- し: Trợ từ liệt kê song song → Chọn."
           }
         ]
       },
@@ -4641,7 +4641,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nXem phim.\n\n✍️ Phân tích đáp án:\n- み: Cách đọc chữ 見 trong động từ 見ます $\\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nXem phim.\n\n✍️ Phân tích đáp án:\n- み: Cách đọc chữ 見 trong động từ 見ます → Chọn."
           },
           {
             "id": "m_review_16_20_2_m1_q1",
@@ -4653,7 +4653,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nNgày mai trời mưa.\n\n✍️ Phân tích đáp án:\n- あめ (ame): Mưa $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nNgày mai trời mưa.\n\n✍️ Phân tích đáp án:\n- あめ (ame): Mưa → Chọn."
           },
           {
             "id": "m_review_16_20_2_m1_q2",
@@ -4665,7 +4665,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nKhông có giờ học buổi chiều.\n\n✍️ Phân tích đáp án:\n- ごご: Buổi chiều $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nKhông có giờ học buổi chiều.\n\n✍️ Phân tích đáp án:\n- ごご: Buổi chiều → Chọn."
           },
           {
             "id": "m_review_16_20_2_m1_q3",
@@ -4677,7 +4677,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nThức dậy lúc 6 giờ sáng.\n\n✍️ Phân tích đáp án:\n- ごぜん: Buổi sáng $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nThức dậy lúc 6 giờ sáng.\n\n✍️ Phân tích đáp án:\n- ごぜん: Buổi sáng → Chọn."
           }
         ]
       },
@@ -4695,7 +4695,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nChụp ảnh.\n\n✍️ Phân tích đáp án:\n- 写真 (Tả Chân): Bức ảnh $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nChụp ảnh.\n\n✍️ Phân tích đáp án:\n- 写真 (Tả Chân): Bức ảnh → Chọn."
           },
           {
             "id": "m_review_16_20_2_m2_q1",
@@ -4707,7 +4707,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "夜"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nNgủ buổi tối.\n\n✍️ Phân tích đáp án:\n- 夜 (Dạ): Buổi tối $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nNgủ buổi tối.\n\n✍️ Phân tích đáp án:\n- 夜 (Dạ): Buổi tối → Chọn."
           },
           {
             "id": "m_review_16_20_2_m2_q2",
@@ -4719,7 +4719,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nRẽ phải.\n\n✍️ Phân tích đáp án:\n- 右 (Hữu): Bên phải $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nRẽ phải.\n\n✍️ Phân tích đáp án:\n- 右 (Hữu): Bên phải → Chọn."
           },
           {
             "id": "m_review_16_20_2_m2_q3",
@@ -4731,7 +4731,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "昼"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nĂn cơm trưa.\n\n✍️ Phân tích đáp án:\n- 昼 (Trú): Buổi trưa $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nĂn cơm trưa.\n\n✍️ Phân tích đáp án:\n- 昼 (Trú): Buổi trưa → Chọn."
           }
         ]
       },
@@ -4749,7 +4749,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nUống thuốc do cảm.\n\n✍️ Phân tích đáp án:\n- のみます: Uống thuốc (dùng のみます chứ không dùng たべます) $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nUống thuốc do cảm.\n\n✍️ Phân tích đáp án:\n- のみます: Uống thuốc (dùng のみます chứ không dùng たべます) → Chọn."
           },
           {
             "id": "m_review_16_20_2_m3_q1",
@@ -4761,7 +4761,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nXin vui lòng không đỗ xe ở đây.\n\n✍️ Phân tích đáp án:\n- とめないで ください: Xin đừng đỗ xe (Vない + で ください) $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nXin vui lòng không đỗ xe ở đây.\n\n✍️ Phân tích đáp án:\n- とめないで ください: Xin đừng đỗ xe (Vない + で ください) → Chọn."
           },
           {
             "id": "m_review_16_20_2_m3_q2",
@@ -4773,7 +4773,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nPhải xuất trình hộ chiếu.\n\n✍️ Phân tích đáp án:\n- みせなければ なりません: Phải cho xem (Vなければ なりません) $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nPhải xuất trình hộ chiếu.\n\n✍️ Phân tích đáp án:\n- みせなければ なりません: Phải cho xem (Vなければ なりません) → Chọn."
           },
           {
             "id": "m_review_16_20_2_m3_q3",
@@ -4785,7 +4785,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nVì trời mưa nên không đi đâu.\n\n✍️ Phân tích đáp án:\n- あめ (mưa): Thời tiết lý do $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nVì trời mưa nên không đi đâu.\n\n✍️ Phân tích đáp án:\n- あめ (mưa): Thời tiết lý do → Chọn."
           }
         ]
       },
@@ -4803,7 +4803,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTrước khi đi Nhật, tôi đã học bài.\n\n✍️ Phân tích đáp án:\n- いく (đi): Động từ ở thể từ điển Vる đi trước まえに $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nTrước khi đi Nhật, tôi đã học bài.\n\n✍️ Phân tích đáp án:\n- いく (đi): Động từ ở thể từ điển Vる đi trước まえに → Chọn."
           },
           {
             "id": "m_review_16_20_2_b1_q1",
@@ -4815,7 +4815,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nBạn từng cưỡi ngựa chưa?\n\n✍️ Phân tích đáp án:\n- のった: Thể quá khứ Vた của のります (cưỡi) $\rightarrow$ Chọn (Vた ことが あります)."
+            "explanation": "📖 Dịch nghĩa:\nBạn từng cưỡi ngựa chưa?\n\n✍️ Phân tích đáp án:\n- のった: Thể quá khứ Vた của のります (cưỡi) → Chọn (Vた ことが あります)."
           },
           {
             "id": "m_review_16_20_2_b1_q2",
@@ -4827,7 +4827,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTáo vừa ngon vừa rẻ.\n\n✍️ Phân tích đáp án:\n- し: Trợ từ liệt kê song song $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nTáo vừa ngon vừa rẻ.\n\n✍️ Phân tích đáp án:\n- し: Trợ từ liệt kê song song → Chọn."
           },
           {
             "id": "m_review_16_20_2_b1_q3",
@@ -4839,7 +4839,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTôi có thể chơi piano.\n\n✍️ Phân tích đáp án:\n- ひくこと: Chơi đàn (đã danh từ hóa qua こと) $\rightarrow$ Chọn (Vる こと が できます)."
+            "explanation": "📖 Dịch nghĩa:\nTôi có thể chơi piano.\n\n✍️ Phân tích đáp án:\n- ひくこと: Chơi đàn (đã danh từ hóa qua こと) → Chọn (Vる こと が できます)."
           }
         ]
       },
@@ -4930,7 +4930,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nKhông có giờ học buổi chiều.\n\n✍️ Phân tích đáp án:\n- ごご: Buổi chiều $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nKhông có giờ học buổi chiều.\n\n✍️ Phân tích đáp án:\n- ごご: Buổi chiều → Chọn."
           },
           {
             "id": "m_review_16_20_3_m1_q1",
@@ -4942,7 +4942,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nThức dậy lúc 6 giờ sáng.\n\n✍️ Phân tích đáp án:\n- ごぜん: Buổi sáng $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nThức dậy lúc 6 giờ sáng.\n\n✍️ Phân tích đáp án:\n- ごぜん: Buổi sáng → Chọn."
           },
           {
             "id": "m_review_16_20_3_m1_q2",
@@ -4954,7 +4954,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nXem phim.\n\n✍️ Phân tích đáp án:\n- み: Cách đọc chữ 見 trong động từ 見ます $\\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nXem phim.\n\n✍️ Phân tích đáp án:\n- み: Cách đọc chữ 見 trong động từ 見ます → Chọn."
           },
           {
             "id": "m_review_16_20_3_m1_q3",
@@ -4966,7 +4966,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nNgày mai trời mưa.\n\n✍️ Phân tích đáp án:\n- あめ (ame): Mưa $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nNgày mai trời mưa.\n\n✍️ Phân tích đáp án:\n- あめ (ame): Mưa → Chọn."
           }
         ]
       },
@@ -4984,7 +4984,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nNgủ buổi tối.\n\n✍️ Phân tích đáp án:\n- 夜 (Dạ): Buổi tối $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nNgủ buổi tối.\n\n✍️ Phân tích đáp án:\n- 夜 (Dạ): Buổi tối → Chọn."
           },
           {
             "id": "m_review_16_20_3_m2_q1",
@@ -4996,7 +4996,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nĂn cơm trưa.\n\n✍️ Phân tích đáp án:\n- 昼 (Trú): Buổi trưa $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nĂn cơm trưa.\n\n✍️ Phân tích đáp án:\n- 昼 (Trú): Buổi trưa → Chọn."
           },
           {
             "id": "m_review_16_20_3_m2_q2",
@@ -5008,7 +5008,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nChụp ảnh.\n\n✍️ Phân tích đáp án:\n- 写真 (Tả Chân): Bức ảnh $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nChụp ảnh.\n\n✍️ Phân tích đáp án:\n- 写真 (Tả Chân): Bức ảnh → Chọn."
           },
           {
             "id": "m_review_16_20_3_m2_q3",
@@ -5020,7 +5020,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nRẽ phải.\n\n✍️ Phân tích đáp án:\n- 右 (Hữu): Bên phải $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nRẽ phải.\n\n✍️ Phân tích đáp án:\n- 右 (Hữu): Bên phải → Chọn."
           }
         ]
       },
@@ -5038,7 +5038,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "みせなければ なりません"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nPhải xuất trình hộ chiếu.\n\n✍️ Phân tích đáp án:\n- みせなければ なりません: Phải cho xem (Vなければ なりません) $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nPhải xuất trình hộ chiếu.\n\n✍️ Phân tích đáp án:\n- みせなければ なりません: Phải cho xem (Vなければ なりません) → Chọn."
           },
           {
             "id": "m_review_16_20_3_m3_q1",
@@ -5050,7 +5050,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nVì trời mưa nên không đi đâu.\n\n✍️ Phân tích đáp án:\n- あめ (mưa): Thời tiết lý do $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nVì trời mưa nên không đi đâu.\n\n✍️ Phân tích đáp án:\n- あめ (mưa): Thời tiết lý do → Chọn."
           },
           {
             "id": "m_review_16_20_3_m3_q2",
@@ -5062,7 +5062,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nUống thuốc do cảm.\n\n✍️ Phân tích đáp án:\n- のみます: Uống thuốc (dùng のみます chứ không dùng たべます) $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nUống thuốc do cảm.\n\n✍️ Phân tích đáp án:\n- のみます: Uống thuốc (dùng のみます chứ không dùng たべます) → Chọn."
           },
           {
             "id": "m_review_16_20_3_m3_q3",
@@ -5074,7 +5074,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nXin vui lòng không đỗ xe ở đây.\n\n✍️ Phân tích đáp án:\n- とめないで ください: Xin đừng đỗ xe (Vない + で ください) $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nXin vui lòng không đỗ xe ở đây.\n\n✍️ Phân tích đáp án:\n- とめないで ください: Xin đừng đỗ xe (Vない + で ください) → Chọn."
           }
         ]
       },
@@ -5092,7 +5092,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nTôi có thể chơi piano.\n\n✍️ Phân tích đáp án:\n- ひくこと: Chơi đàn (đã danh từ hóa qua こと) $\rightarrow$ Chọn (Vる こと が できます)."
+            "explanation": "📖 Dịch nghĩa:\nTôi có thể chơi piano.\n\n✍️ Phân tích đáp án:\n- ひくこと: Chơi đàn (đã danh từ hóa qua こと) → Chọn (Vる こと が できます)."
           },
           {
             "id": "m_review_16_20_3_b1_q1",
@@ -5104,7 +5104,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "し"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTáo vừa ngon vừa rẻ.\n\n✍️ Phân tích đáp án:\n- し: Trợ từ liệt kê song song $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nTáo vừa ngon vừa rẻ.\n\n✍️ Phân tích đáp án:\n- し: Trợ từ liệt kê song song → Chọn."
           },
           {
             "id": "m_review_16_20_3_b1_q2",
@@ -5116,7 +5116,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTrước khi đi Nhật, tôi đã học bài.\n\n✍️ Phân tích đáp án:\n- いく (đi): Động từ ở thể từ điển Vる đi trước まえに $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nTrước khi đi Nhật, tôi đã học bài.\n\n✍️ Phân tích đáp án:\n- いく (đi): Động từ ở thể từ điển Vる đi trước まえに → Chọn."
           },
           {
             "id": "m_review_16_20_3_b1_q3",
@@ -5128,7 +5128,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nBạn từng cưỡi ngựa chưa?\n\n✍️ Phân tích đáp án:\n- のった: Thể quá khứ Vた của のります (cưỡi) $\rightarrow$ Chọn (Vた ことが あります)."
+            "explanation": "📖 Dịch nghĩa:\nBạn từng cưỡi ngựa chưa?\n\n✍️ Phân tích đáp án:\n- のった: Thể quá khứ Vた của のります (cưỡi) → Chọn (Vた ことが あります)."
           }
         ]
       },
@@ -5219,7 +5219,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "ごご"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nKhông có giờ học buổi chiều.\n\n✍️ Phân tích đáp án:\n- ごご: Buổi chiều $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nKhông có giờ học buổi chiều.\n\n✍️ Phân tích đáp án:\n- ごご: Buổi chiều → Chọn."
           },
           {
             "id": "m_review_16_20_4_m1_q1",
@@ -5231,7 +5231,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nNgày mai trời mưa.\n\n✍️ Phân tích đáp án:\n- あめ (ame): Mưa $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nNgày mai trời mưa.\n\n✍️ Phân tích đáp án:\n- あめ (ame): Mưa → Chọn."
           },
           {
             "id": "m_review_16_20_4_m1_q2",
@@ -5243,7 +5243,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nXem phim.\n\n✍️ Phân tích đáp án:\n- み: Cách đọc chữ 見 trong động từ 見ます $\\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nXem phim.\n\n✍️ Phân tích đáp án:\n- み: Cách đọc chữ 見 trong động từ 見ます → Chọn."
           },
           {
             "id": "m_review_16_20_4_m1_q3",
@@ -5255,7 +5255,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nThức dậy lúc 6 giờ sáng.\n\n✍️ Phân tích đáp án:\n- ごぜん: Buổi sáng $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nThức dậy lúc 6 giờ sáng.\n\n✍️ Phân tích đáp án:\n- ごぜん: Buổi sáng → Chọn."
           }
         ]
       },
@@ -5273,7 +5273,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nĂn cơm trưa.\n\n✍️ Phân tích đáp án:\n- 昼 (Trú): Buổi trưa $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nĂn cơm trưa.\n\n✍️ Phân tích đáp án:\n- 昼 (Trú): Buổi trưa → Chọn."
           },
           {
             "id": "m_review_16_20_4_m2_q1",
@@ -5285,7 +5285,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nNgủ buổi tối.\n\n✍️ Phân tích đáp án:\n- 夜 (Dạ): Buổi tối $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nNgủ buổi tối.\n\n✍️ Phân tích đáp án:\n- 夜 (Dạ): Buổi tối → Chọn."
           },
           {
             "id": "m_review_16_20_4_m2_q2",
@@ -5297,7 +5297,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "右"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nRẽ phải.\n\n✍️ Phân tích đáp án:\n- 右 (Hữu): Bên phải $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nRẽ phải.\n\n✍️ Phân tích đáp án:\n- 右 (Hữu): Bên phải → Chọn."
           },
           {
             "id": "m_review_16_20_4_m2_q3",
@@ -5309,7 +5309,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nChụp ảnh.\n\n✍️ Phân tích đáp án:\n- 写真 (Tả Chân): Bức ảnh $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nChụp ảnh.\n\n✍️ Phân tích đáp án:\n- 写真 (Tả Chân): Bức ảnh → Chọn."
           }
         ]
       },
@@ -5327,7 +5327,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "たべます"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nUống thuốc do cảm.\n\n✍️ Phân tích đáp án:\n- のみます: Uống thuốc (dùng のみます chứ không dùng たべます) $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nUống thuốc do cảm.\n\n✍️ Phân tích đáp án:\n- のみます: Uống thuốc (dùng のみます chứ không dùng たべます) → Chọn."
           },
           {
             "id": "m_review_16_20_4_m3_q1",
@@ -5339,7 +5339,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "あめ"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nVì trời mưa nên không đi đâu.\n\n✍️ Phân tích đáp án:\n- あめ (mưa): Thời tiết lý do $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nVì trời mưa nên không đi đâu.\n\n✍️ Phân tích đáp án:\n- あめ (mưa): Thời tiết lý do → Chọn."
           },
           {
             "id": "m_review_16_20_4_m3_q2",
@@ -5351,7 +5351,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nPhải xuất trình hộ chiếu.\n\n✍️ Phân tích đáp án:\n- みせなければ なりません: Phải cho xem (Vなければ なりません) $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nPhải xuất trình hộ chiếu.\n\n✍️ Phân tích đáp án:\n- みせなければ なりません: Phải cho xem (Vなければ なりません) → Chọn."
           },
           {
             "id": "m_review_16_20_4_m3_q3",
@@ -5363,7 +5363,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nXin vui lòng không đỗ xe ở đây.\n\n✍️ Phân tích đáp án:\n- とめないで ください: Xin đừng đỗ xe (Vない + で ください) $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nXin vui lòng không đỗ xe ở đây.\n\n✍️ Phân tích đáp án:\n- とめないで ください: Xin đừng đỗ xe (Vない + で ください) → Chọn."
           }
         ]
       },
@@ -5381,7 +5381,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "し"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTáo vừa ngon vừa rẻ.\n\n✍️ Phân tích đáp án:\n- し: Trợ từ liệt kê song song $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nTáo vừa ngon vừa rẻ.\n\n✍️ Phân tích đáp án:\n- し: Trợ từ liệt kê song song → Chọn."
           },
           {
             "id": "m_review_16_20_4_b1_q1",
@@ -5393,7 +5393,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nBạn từng cưỡi ngựa chưa?\n\n✍️ Phân tích đáp án:\n- のった: Thể quá khứ Vた của のります (cưỡi) $\rightarrow$ Chọn (Vた ことが あります)."
+            "explanation": "📖 Dịch nghĩa:\nBạn từng cưỡi ngựa chưa?\n\n✍️ Phân tích đáp án:\n- のった: Thể quá khứ Vた của のります (cưỡi) → Chọn (Vた ことが あります)."
           },
           {
             "id": "m_review_16_20_4_b1_q2",
@@ -5405,7 +5405,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nTrước khi đi Nhật, tôi đã học bài.\n\n✍️ Phân tích đáp án:\n- いく (đi): Động từ ở thể từ điển Vる đi trước まえに $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nTrước khi đi Nhật, tôi đã học bài.\n\n✍️ Phân tích đáp án:\n- いく (đi): Động từ ở thể từ điển Vる đi trước まえに → Chọn."
           },
           {
             "id": "m_review_16_20_4_b1_q3",
@@ -5417,7 +5417,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTôi có thể chơi piano.\n\n✍️ Phân tích đáp án:\n- ひくこと: Chơi đàn (đã danh từ hóa qua こと) $\rightarrow$ Chọn (Vる こと が できます)."
+            "explanation": "📖 Dịch nghĩa:\nTôi có thể chơi piano.\n\n✍️ Phân tích đáp án:\n- ひくこと: Chơi đàn (đã danh từ hóa qua こと) → Chọn (Vる こと が できます)."
           }
         ]
       },
@@ -5508,7 +5508,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nKhông có giờ học buổi chiều.\n\n✍️ Phân tích đáp án:\n- ごご: Buổi chiều $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nKhông có giờ học buổi chiều.\n\n✍️ Phân tích đáp án:\n- ごご: Buổi chiều → Chọn."
           },
           {
             "id": "m_review_16_20_5_m1_q1",
@@ -5520,7 +5520,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nNgày mai trời mưa.\n\n✍️ Phân tích đáp án:\n- あめ (ame): Mưa $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nNgày mai trời mưa.\n\n✍️ Phân tích đáp án:\n- あめ (ame): Mưa → Chọn."
           },
           {
             "id": "m_review_16_20_5_m1_q2",
@@ -5532,7 +5532,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nXem phim.\n\n✍️ Phân tích đáp án:\n- み: Cách đọc chữ 見 trong động từ 見ます $\\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nXem phim.\n\n✍️ Phân tích đáp án:\n- み: Cách đọc chữ 見 trong động từ 見ます → Chọn."
           },
           {
             "id": "m_review_16_20_5_m1_q3",
@@ -5544,7 +5544,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nThức dậy lúc 6 giờ sáng.\n\n✍️ Phân tích đáp án:\n- ごぜん: Buổi sáng $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nThức dậy lúc 6 giờ sáng.\n\n✍️ Phân tích đáp án:\n- ごぜん: Buổi sáng → Chọn."
           }
         ]
       },
@@ -5562,7 +5562,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nNgủ buổi tối.\n\n✍️ Phân tích đáp án:\n- 夜 (Dạ): Buổi tối $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nNgủ buổi tối.\n\n✍️ Phân tích đáp án:\n- 夜 (Dạ): Buổi tối → Chọn."
           },
           {
             "id": "m_review_16_20_5_m2_q1",
@@ -5574,7 +5574,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nĂn cơm trưa.\n\n✍️ Phân tích đáp án:\n- 昼 (Trú): Buổi trưa $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nĂn cơm trưa.\n\n✍️ Phân tích đáp án:\n- 昼 (Trú): Buổi trưa → Chọn."
           },
           {
             "id": "m_review_16_20_5_m2_q2",
@@ -5586,7 +5586,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nChụp ảnh.\n\n✍️ Phân tích đáp án:\n- 写真 (Tả Chân): Bức ảnh $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nChụp ảnh.\n\n✍️ Phân tích đáp án:\n- 写真 (Tả Chân): Bức ảnh → Chọn."
           },
           {
             "id": "m_review_16_20_5_m2_q3",
@@ -5598,7 +5598,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nRẽ phải.\n\n✍️ Phân tích đáp án:\n- 右 (Hữu): Bên phải $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nRẽ phải.\n\n✍️ Phân tích đáp án:\n- 右 (Hữu): Bên phải → Chọn."
           }
         ]
       },
@@ -5616,7 +5616,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nXin vui lòng không đỗ xe ở đây.\n\n✍️ Phân tích đáp án:\n- とめないで ください: Xin đừng đỗ xe (Vない + で ください) $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nXin vui lòng không đỗ xe ở đây.\n\n✍️ Phân tích đáp án:\n- とめないで ください: Xin đừng đỗ xe (Vない + で ください) → Chọn."
           },
           {
             "id": "m_review_16_20_5_m3_q1",
@@ -5628,7 +5628,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nPhải xuất trình hộ chiếu.\n\n✍️ Phân tích đáp án:\n- みせなければ なりません: Phải cho xem (Vなければ なりません) $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nPhải xuất trình hộ chiếu.\n\n✍️ Phân tích đáp án:\n- みせなければ なりません: Phải cho xem (Vなければ なりません) → Chọn."
           },
           {
             "id": "m_review_16_20_5_m3_q2",
@@ -5640,7 +5640,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nUống thuốc do cảm.\n\n✍️ Phân tích đáp án:\n- のみます: Uống thuốc (dùng のみます chứ không dùng たべます) $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nUống thuốc do cảm.\n\n✍️ Phân tích đáp án:\n- のみます: Uống thuốc (dùng のみます chứ không dùng たべます) → Chọn."
           },
           {
             "id": "m_review_16_20_5_m3_q3",
@@ -5652,7 +5652,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "あめ"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nVì trời mưa nên không đi đâu.\n\n✍️ Phân tích đáp án:\n- あめ (mưa): Thời tiết lý do $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nVì trời mưa nên không đi đâu.\n\n✍️ Phân tích đáp án:\n- あめ (mưa): Thời tiết lý do → Chọn."
           }
         ]
       },
@@ -5670,7 +5670,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nTrước khi đi Nhật, tôi đã học bài.\n\n✍️ Phân tích đáp án:\n- いく (đi): Động từ ở thể từ điển Vる đi trước まえに $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nTrước khi đi Nhật, tôi đã học bài.\n\n✍️ Phân tích đáp án:\n- いく (đi): Động từ ở thể từ điển Vる đi trước まえに → Chọn."
           },
           {
             "id": "m_review_16_20_5_b1_q1",
@@ -5682,7 +5682,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTôi có thể chơi piano.\n\n✍️ Phân tích đáp án:\n- ひくこと: Chơi đàn (đã danh từ hóa qua こと) $\rightarrow$ Chọn (Vる こと が できます)."
+            "explanation": "📖 Dịch nghĩa:\nTôi có thể chơi piano.\n\n✍️ Phân tích đáp án:\n- ひくこと: Chơi đàn (đã danh từ hóa qua こと) → Chọn (Vる こと が できます)."
           },
           {
             "id": "m_review_16_20_5_b1_q2",
@@ -5694,7 +5694,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nTáo vừa ngon vừa rẻ.\n\n✍️ Phân tích đáp án:\n- し: Trợ từ liệt kê song song $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nTáo vừa ngon vừa rẻ.\n\n✍️ Phân tích đáp án:\n- し: Trợ từ liệt kê song song → Chọn."
           },
           {
             "id": "m_review_16_20_5_b1_q3",
@@ -5706,7 +5706,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "nhat"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nBạn từng cưỡi ngựa chưa?\n\n✍️ Phân tích đáp án:\n- のった: Thể quá khứ Vた của のります (cưỡi) $\rightarrow$ Chọn (Vた ことが あります)."
+            "explanation": "📖 Dịch nghĩa:\nBạn từng cưỡi ngựa chưa?\n\n✍️ Phân tích đáp án:\n- のった: Thể quá khứ Vた của のります (cưỡi) → Chọn (Vた ことが あります)."
           }
         ]
       },
@@ -5797,7 +5797,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "みち"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nĐi thẳng con đường.\n\n✍️ Phân tích đáp án:\n- みち (michi): Con đường $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nĐi thẳng con đường.\n\n✍️ Phân tích đáp án:\n- みち (michi): Con đường → Chọn."
           },
           {
             "id": "m_review_21_25_1_m1_q1",
@@ -5809,7 +5809,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nNăm ngoái đã tới Nhật.\n\n✍️ Phân tích đáp án:\n- きょねん: Năm ngoái $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nNăm ngoái đã tới Nhật.\n\n✍️ Phân tích đáp án:\n- きょねん: Năm ngoái → Chọn."
           },
           {
             "id": "m_review_21_25_1_m1_q2",
@@ -5821,7 +5821,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nBật điện.\n\n✍️ Phân tích đáp án:\n- でんき (denki): Điện $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nBật điện.\n\n✍️ Phân tích đáp án:\n- でんき (denki): Điện → Chọn."
           },
           {
             "id": "m_review_21_25_1_m1_q3",
@@ -5833,7 +5833,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nNăm nay là năm 2023.\n\n✍️ Phân tích đáp án:\n- ことし: Năm nay $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nNăm nay là năm 2023.\n\n✍️ Phân tích đáp án:\n- ことし: Năm nay → Chọn."
           }
         ]
       },
@@ -5851,7 +5851,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nMưa đang rơi.\n\n✍️ Phân tích đáp án:\n- 降って: Rơi (mưa) $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nMưa đang rơi.\n\n✍️ Phân tích đáp án:\n- 降って: Rơi (mưa) → Chọn."
           },
           {
             "id": "m_review_21_25_1_m2_q1",
@@ -5863,7 +5863,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nCó em trai.\n\n✍️ Phân tích đáp án:\n- 弟 (Đệ): Em trai $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nCó em trai.\n\n✍️ Phân tích đáp án:\n- 弟 (Đệ): Em trai → Chọn."
           },
           {
             "id": "m_review_21_25_1_m2_q2",
@@ -5875,7 +5875,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nSang năm sẽ làm gì?\n\n✍️ Phân tích đáp án:\n- 来年: Sang năm $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nSang năm sẽ làm gì?\n\n✍️ Phân tích đáp án:\n- 来年: Sang năm → Chọn."
           },
           {
             "id": "m_review_21_25_1_m2_q3",
@@ -5887,7 +5887,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nHọc bài mỗi ngày.\n\n✍️ Phân tích đáp án:\n- 毎日: Mỗi ngày $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nHọc bài mỗi ngày.\n\n✍️ Phân tích đáp án:\n- 毎日: Mỗi ngày → Chọn."
           }
         ]
       },
@@ -5905,7 +5905,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nKhi nào được nghỉ?\n\n✍️ Phân tích đáp án:\n- いつ (Khi nào?): Hỏi thời gian $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nKhi nào được nghỉ?\n\n✍️ Phân tích đáp án:\n- いつ (Khi nào?): Hỏi thời gian → Chọn."
           },
           {
             "id": "m_review_21_25_1_m3_q1",
@@ -5917,7 +5917,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "いそがしかった"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nHôm qua đã rất bận.\n\n✍️ Phân tích đáp án:\n- いそ가しかった: Thể quá khứ của tính từ đuôi い (いそがしい) $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nHôm qua đã rất bận.\n\n✍️ Phân tích đáp án:\n- いそ가しかった: Thể quá khứ của tính từ đuôi い (いそがしい) → Chọn."
           },
           {
             "id": "m_review_21_25_1_m3_q2",
@@ -5929,7 +5929,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nDù trời mưa vẫn đi.\n\n✍️ Phân tích đáp án:\n- Đồng nghĩa với câu dùng trợ từ nghịch lý が (Mưa nhưng tôi vẫn đi) $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nDù trời mưa vẫn đi.\n\n✍️ Phân tích đáp án:\n- Đồng nghĩa với câu dùng trợ từ nghịch lý が (Mưa nhưng tôi vẫn đi) → Chọn."
           },
           {
             "id": "m_review_21_25_1_m3_q3",
@@ -5941,7 +5941,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nKhi buồn ngủ, tôi uống cà phê.\n\n✍️ Phân tích đáp án:\n- とき: Khi/Lúc (dùng sau tính từ đuôi い) $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nKhi buồn ngủ, tôi uống cà phê.\n\n✍️ Phân tích đáp án:\n- とき: Khi/Lúc (dùng sau tính từ đuôi い) → Chọn."
           }
         ]
       },
@@ -5959,7 +5959,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "と"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nNghĩ ngày mai trời mưa.\n\n✍️ Phân tích đáp án:\n- と: Trợ từ dùng để trích dẫn phán đoán (と おもいます) $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nNghĩ ngày mai trời mưa.\n\n✍️ Phân tích đáp án:\n- と: Trợ từ dùng để trích dẫn phán đoán (と おもいます) → Chọn."
           },
           {
             "id": "m_review_21_25_1_b1_q1",
@@ -5971,7 +5971,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nĐây là chiếc túi mà tôi đã mua.\n\n✍️ Phân tích đáp án:\n- かった (đã mua): Động từ ở thể quá khứ Vた bổ nghĩa cho danh từ かばん $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nĐây là chiếc túi mà tôi đã mua.\n\n✍️ Phân tích đáp án:\n- かった (đã mua): Động từ ở thể quá khứ Vた bổ nghĩa cho danh từ かばん → Chọn."
           },
           {
             "id": "m_review_21_25_1_b1_q2",
@@ -5983,7 +5983,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nNếu không có thời gian, tôi không đọc sách.\n\n✍️ Phân tích đáp án:\n- たら: Câu điều kiện giả định (Vたら) $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nNếu không có thời gian, tôi không đọc sách.\n\n✍️ Phân tích đáp án:\n- たら: Câu điều kiện giả định (Vたら) → Chọn."
           },
           {
             "id": "m_review_21_25_1_b1_q3",
@@ -5995,7 +5995,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTôi đã có thể nói tiếng Nhật.\n\n✍️ Phân tích đáp án:\n- よう: Cấu trúc biến đổi năng lực (よう に なります) $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nTôi đã có thể nói tiếng Nhật.\n\n✍️ Phân tích đáp án:\n- よう: Cấu trúc biến đổi năng lực (よう に なります) → Chọn."
           }
         ]
       },
@@ -6086,7 +6086,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nNăm ngoái đã tới Nhật.\n\n✍️ Phân tích đáp án:\n- きょねん: Năm ngoái $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nNăm ngoái đã tới Nhật.\n\n✍️ Phân tích đáp án:\n- きょねん: Năm ngoái → Chọn."
           },
           {
             "id": "m_review_21_25_2_m1_q1",
@@ -6098,7 +6098,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nBật điện.\n\n✍️ Phân tích đáp án:\n- でんき (denki): Điện $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nBật điện.\n\n✍️ Phân tích đáp án:\n- でんき (denki): Điện → Chọn."
           },
           {
             "id": "m_review_21_25_2_m1_q2",
@@ -6110,7 +6110,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "みち"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nĐi thẳng con đường.\n\n✍️ Phân tích đáp án:\n- みち (michi): Con đường $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nĐi thẳng con đường.\n\n✍️ Phân tích đáp án:\n- みち (michi): Con đường → Chọn."
           },
           {
             "id": "m_review_21_25_2_m1_q3",
@@ -6122,7 +6122,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nNăm nay là năm 2023.\n\n✍️ Phân tích đáp án:\n- ことし: Năm nay $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nNăm nay là năm 2023.\n\n✍️ Phân tích đáp án:\n- ことし: Năm nay → Chọn."
           }
         ]
       },
@@ -6140,7 +6140,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nCó em trai.\n\n✍️ Phân tích đáp án:\n- 弟 (Đệ): Em trai $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nCó em trai.\n\n✍️ Phân tích đáp án:\n- 弟 (Đệ): Em trai → Chọn."
           },
           {
             "id": "m_review_21_25_2_m2_q1",
@@ -6152,7 +6152,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "来年"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nSang năm sẽ làm gì?\n\n✍️ Phân tích đáp án:\n- 来年: Sang năm $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nSang năm sẽ làm gì?\n\n✍️ Phân tích đáp án:\n- 来年: Sang năm → Chọn."
           },
           {
             "id": "m_review_21_25_2_m2_q2",
@@ -6164,7 +6164,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nMưa đang rơi.\n\n✍️ Phân tích đáp án:\n- 降って: Rơi (mưa) $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nMưa đang rơi.\n\n✍️ Phân tích đáp án:\n- 降って: Rơi (mưa) → Chọn."
           },
           {
             "id": "m_review_21_25_2_m2_q3",
@@ -6176,7 +6176,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nHọc bài mỗi ngày.\n\n✍️ Phân tích đáp án:\n- 毎日: Mỗi ngày $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nHọc bài mỗi ngày.\n\n✍️ Phân tích đáp án:\n- 毎日: Mỗi ngày → Chọn."
           }
         ]
       },
@@ -6194,7 +6194,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nKhi buồn ngủ, tôi uống cà phê.\n\n✍️ Phân tích đáp án:\n- とき: Khi/Lúc (dùng sau tính từ đuôi い) $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nKhi buồn ngủ, tôi uống cà phê.\n\n✍️ Phân tích đáp án:\n- とき: Khi/Lúc (dùng sau tính từ đuôi い) → Chọn."
           },
           {
             "id": "m_review_21_25_2_m3_q1",
@@ -6206,7 +6206,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nDù trời mưa vẫn đi.\n\n✍️ Phân tích đáp án:\n- Đồng nghĩa với câu dùng trợ từ nghịch lý が (Mưa nhưng tôi vẫn đi) $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nDù trời mưa vẫn đi.\n\n✍️ Phân tích đáp án:\n- Đồng nghĩa với câu dùng trợ từ nghịch lý が (Mưa nhưng tôi vẫn đi) → Chọn."
           },
           {
             "id": "m_review_21_25_2_m3_q2",
@@ -6218,7 +6218,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nHôm qua đã rất bận.\n\n✍️ Phân tích đáp án:\n- いそ가しかった: Thể quá khứ của tính từ đuôi い (いそがしい) $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nHôm qua đã rất bận.\n\n✍️ Phân tích đáp án:\n- いそ가しかった: Thể quá khứ của tính từ đuôi い (いそがしい) → Chọn."
           },
           {
             "id": "m_review_21_25_2_m3_q3",
@@ -6230,7 +6230,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nKhi nào được nghỉ?\n\n✍️ Phân tích đáp án:\n- いつ (Khi nào?): Hỏi thời gian $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nKhi nào được nghỉ?\n\n✍️ Phân tích đáp án:\n- いつ (Khi nào?): Hỏi thời gian → Chọn."
           }
         ]
       },
@@ -6248,7 +6248,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "と"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nNghĩ ngày mai trời mưa.\n\n✍️ Phân tích đáp án:\n- と: Trợ từ dùng để trích dẫn phán đoán (と おもいます) $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nNghĩ ngày mai trời mưa.\n\n✍️ Phân tích đáp án:\n- と: Trợ từ dùng để trích dẫn phán đoán (と おもいます) → Chọn."
           },
           {
             "id": "m_review_21_25_2_b1_q1",
@@ -6260,7 +6260,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nTôi đã có thể nói tiếng Nhật.\n\n✍️ Phân tích đáp án:\n- よう: Cấu trúc biến đổi năng lực (よう に なります) $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nTôi đã có thể nói tiếng Nhật.\n\n✍️ Phân tích đáp án:\n- よう: Cấu trúc biến đổi năng lực (よう に なります) → Chọn."
           },
           {
             "id": "m_review_21_25_2_b1_q2",
@@ -6272,7 +6272,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nĐây là chiếc túi mà tôi đã mua.\n\n✍️ Phân tích đáp án:\n- かった (đã mua): Động từ ở thể quá khứ Vた bổ nghĩa cho danh từ かばん $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nĐây là chiếc túi mà tôi đã mua.\n\n✍️ Phân tích đáp án:\n- かった (đã mua): Động từ ở thể quá khứ Vた bổ nghĩa cho danh từ かばん → Chọn."
           },
           {
             "id": "m_review_21_25_2_b1_q3",
@@ -6284,7 +6284,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nNếu không có thời gian, tôi không đọc sách.\n\n✍️ Phân tích đáp án:\n- たら: Câu điều kiện giả định (Vたら) $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nNếu không có thời gian, tôi không đọc sách.\n\n✍️ Phân tích đáp án:\n- たら: Câu điều kiện giả định (Vたら) → Chọn."
           }
         ]
       },
@@ -6375,7 +6375,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "でんき"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nBật điện.\n\n✍️ Phân tích đáp án:\n- でんき (denki): Điện $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nBật điện.\n\n✍️ Phân tích đáp án:\n- でんき (denki): Điện → Chọn."
           },
           {
             "id": "m_review_21_25_3_m1_q1",
@@ -6387,7 +6387,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nĐi thẳng con đường.\n\n✍️ Phân tích đáp án:\n- みち (michi): Con đường $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nĐi thẳng con đường.\n\n✍️ Phân tích đáp án:\n- みち (michi): Con đường → Chọn."
           },
           {
             "id": "m_review_21_25_3_m1_q2",
@@ -6399,7 +6399,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nNăm ngoái đã tới Nhật.\n\n✍️ Phân tích đáp án:\n- きょねん: Năm ngoái $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nNăm ngoái đã tới Nhật.\n\n✍️ Phân tích đáp án:\n- きょねん: Năm ngoái → Chọn."
           },
           {
             "id": "m_review_21_25_3_m1_q3",
@@ -6411,7 +6411,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nNăm nay là năm 2023.\n\n✍️ Phân tích đáp án:\n- ことし: Năm nay $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nNăm nay là năm 2023.\n\n✍️ Phân tích đáp án:\n- ことし: Năm nay → Chọn."
           }
         ]
       },
@@ -6429,7 +6429,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nCó em trai.\n\n✍️ Phân tích đáp án:\n- 弟 (Đệ): Em trai $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nCó em trai.\n\n✍️ Phân tích đáp án:\n- 弟 (Đệ): Em trai → Chọn."
           },
           {
             "id": "m_review_21_25_3_m2_q1",
@@ -6441,7 +6441,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nMưa đang rơi.\n\n✍️ Phân tích đáp án:\n- 降って: Rơi (mưa) $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nMưa đang rơi.\n\n✍️ Phân tích đáp án:\n- 降って: Rơi (mưa) → Chọn."
           },
           {
             "id": "m_review_21_25_3_m2_q2",
@@ -6453,7 +6453,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nSang năm sẽ làm gì?\n\n✍️ Phân tích đáp án:\n- 来年: Sang năm $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nSang năm sẽ làm gì?\n\n✍️ Phân tích đáp án:\n- 来年: Sang năm → Chọn."
           },
           {
             "id": "m_review_21_25_3_m2_q3",
@@ -6465,7 +6465,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nHọc bài mỗi ngày.\n\n✍️ Phân tích đáp án:\n- 毎日: Mỗi ngày $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nHọc bài mỗi ngày.\n\n✍️ Phân tích đáp án:\n- 毎日: Mỗi ngày → Chọn."
           }
         ]
       },
@@ -6483,7 +6483,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nKhi nào được nghỉ?\n\n✍️ Phân tích đáp án:\n- いつ (Khi nào?): Hỏi thời gian $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nKhi nào được nghỉ?\n\n✍️ Phân tích đáp án:\n- いつ (Khi nào?): Hỏi thời gian → Chọn."
           },
           {
             "id": "m_review_21_25_3_m3_q1",
@@ -6495,7 +6495,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nHôm qua đã rất bận.\n\n✍️ Phân tích đáp án:\n- いそ가しかった: Thể quá khứ của tính từ đuôi い (いそがしい) $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nHôm qua đã rất bận.\n\n✍️ Phân tích đáp án:\n- いそ가しかった: Thể quá khứ của tính từ đuôi い (いそがしい) → Chọn."
           },
           {
             "id": "m_review_21_25_3_m3_q2",
@@ -6507,7 +6507,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nDù trời mưa vẫn đi.\n\n✍️ Phân tích đáp án:\n- Đồng nghĩa với câu dùng trợ từ nghịch lý が (Mưa nhưng tôi vẫn đi) $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nDù trời mưa vẫn đi.\n\n✍️ Phân tích đáp án:\n- Đồng nghĩa với câu dùng trợ từ nghịch lý が (Mưa nhưng tôi vẫn đi) → Chọn."
           },
           {
             "id": "m_review_21_25_3_m3_q3",
@@ -6519,7 +6519,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nKhi buồn ngủ, tôi uống cà phê.\n\n✍️ Phân tích đáp án:\n- とき: Khi/Lúc (dùng sau tính từ đuôi い) $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nKhi buồn ngủ, tôi uống cà phê.\n\n✍️ Phân tích đáp án:\n- とき: Khi/Lúc (dùng sau tính từ đuôi い) → Chọn."
           }
         ]
       },
@@ -6537,7 +6537,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nNếu không có thời gian, tôi không đọc sách.\n\n✍️ Phân tích đáp án:\n- たら: Câu điều kiện giả định (Vたら) $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nNếu không có thời gian, tôi không đọc sách.\n\n✍️ Phân tích đáp án:\n- たら: Câu điều kiện giả định (Vたら) → Chọn."
           },
           {
             "id": "m_review_21_25_3_b1_q1",
@@ -6549,7 +6549,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nĐây là chiếc túi mà tôi đã mua.\n\n✍️ Phân tích đáp án:\n- かった (đã mua): Động từ ở thể quá khứ Vた bổ nghĩa cho danh từ かばん $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nĐây là chiếc túi mà tôi đã mua.\n\n✍️ Phân tích đáp án:\n- かった (đã mua): Động từ ở thể quá khứ Vた bổ nghĩa cho danh từ かばん → Chọn."
           },
           {
             "id": "m_review_21_25_3_b1_q2",
@@ -6561,7 +6561,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nNghĩ ngày mai trời mưa.\n\n✍️ Phân tích đáp án:\n- と: Trợ từ dùng để trích dẫn phán đoán (と おもいます) $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nNghĩ ngày mai trời mưa.\n\n✍️ Phân tích đáp án:\n- と: Trợ từ dùng để trích dẫn phán đoán (と おもいます) → Chọn."
           },
           {
             "id": "m_review_21_25_3_b1_q3",
@@ -6573,7 +6573,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTôi đã có thể nói tiếng Nhật.\n\n✍️ Phân tích đáp án:\n- よう: Cấu trúc biến đổi năng lực (よう に なります) $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nTôi đã có thể nói tiếng Nhật.\n\n✍️ Phân tích đáp án:\n- よう: Cấu trúc biến đổi năng lực (よう に なります) → Chọn."
           }
         ]
       },
@@ -6664,7 +6664,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nNăm ngoái đã tới Nhật.\n\n✍️ Phân tích đáp án:\n- きょねん: Năm ngoái $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nNăm ngoái đã tới Nhật.\n\n✍️ Phân tích đáp án:\n- きょねん: Năm ngoái → Chọn."
           },
           {
             "id": "m_review_21_25_4_m1_q1",
@@ -6676,7 +6676,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nBật điện.\n\n✍️ Phân tích đáp án:\n- でんき (denki): Điện $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nBật điện.\n\n✍️ Phân tích đáp án:\n- でんき (denki): Điện → Chọn."
           },
           {
             "id": "m_review_21_25_4_m1_q2",
@@ -6688,7 +6688,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nĐi thẳng con đường.\n\n✍️ Phân tích đáp án:\n- みち (michi): Con đường $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nĐi thẳng con đường.\n\n✍️ Phân tích đáp án:\n- みち (michi): Con đường → Chọn."
           },
           {
             "id": "m_review_21_25_4_m1_q3",
@@ -6700,7 +6700,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nNăm nay là năm 2023.\n\n✍️ Phân tích đáp án:\n- ことし: Năm nay $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nNăm nay là năm 2023.\n\n✍️ Phân tích đáp án:\n- ことし: Năm nay → Chọn."
           }
         ]
       },
@@ -6718,7 +6718,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nCó em trai.\n\n✍️ Phân tích đáp án:\n- 弟 (Đệ): Em trai $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nCó em trai.\n\n✍️ Phân tích đáp án:\n- 弟 (Đệ): Em trai → Chọn."
           },
           {
             "id": "m_review_21_25_4_m2_q1",
@@ -6730,7 +6730,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nMưa đang rơi.\n\n✍️ Phân tích đáp án:\n- 降って: Rơi (mưa) $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nMưa đang rơi.\n\n✍️ Phân tích đáp án:\n- 降って: Rơi (mưa) → Chọn."
           },
           {
             "id": "m_review_21_25_4_m2_q2",
@@ -6742,7 +6742,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nSang năm sẽ làm gì?\n\n✍️ Phân tích đáp án:\n- 来年: Sang năm $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nSang năm sẽ làm gì?\n\n✍️ Phân tích đáp án:\n- 来年: Sang năm → Chọn."
           },
           {
             "id": "m_review_21_25_4_m2_q3",
@@ -6754,7 +6754,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nHọc bài mỗi ngày.\n\n✍️ Phân tích đáp án:\n- 毎日: Mỗi ngày $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nHọc bài mỗi ngày.\n\n✍️ Phân tích đáp án:\n- 毎日: Mỗi ngày → Chọn."
           }
         ]
       },
@@ -6772,7 +6772,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nKhi nào được nghỉ?\n\n✍️ Phân tích đáp án:\n- いつ (Khi nào?): Hỏi thời gian $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nKhi nào được nghỉ?\n\n✍️ Phân tích đáp án:\n- いつ (Khi nào?): Hỏi thời gian → Chọn."
           },
           {
             "id": "m_review_21_25_4_m3_q1",
@@ -6784,7 +6784,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nDù trời mưa vẫn đi.\n\n✍️ Phân tích đáp án:\n- Đồng nghĩa với câu dùng trợ từ nghịch lý が (Mưa nhưng tôi vẫn đi) $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nDù trời mưa vẫn đi.\n\n✍️ Phân tích đáp án:\n- Đồng nghĩa với câu dùng trợ từ nghịch lý が (Mưa nhưng tôi vẫn đi) → Chọn."
           },
           {
             "id": "m_review_21_25_4_m3_q2",
@@ -6796,7 +6796,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nHôm qua đã rất bận.\n\n✍️ Phân tích đáp án:\n- いそ가しかった: Thể quá khứ của tính từ đuôi い (いそがしい) $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nHôm qua đã rất bận.\n\n✍️ Phân tích đáp án:\n- いそ가しかった: Thể quá khứ của tính từ đuôi い (いそがしい) → Chọn."
           },
           {
             "id": "m_review_21_25_4_m3_q3",
@@ -6808,7 +6808,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nKhi buồn ngủ, tôi uống cà phê.\n\n✍️ Phân tích đáp án:\n- とき: Khi/Lúc (dùng sau tính từ đuôi い) $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nKhi buồn ngủ, tôi uống cà phê.\n\n✍️ Phân tích đáp án:\n- とき: Khi/Lúc (dùng sau tính từ đuôi い) → Chọn."
           }
         ]
       },
@@ -6826,7 +6826,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nTôi đã có thể nói tiếng Nhật.\n\n✍️ Phân tích đáp án:\n- よう: Cấu trúc biến đổi năng lực (よう に なります) $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nTôi đã có thể nói tiếng Nhật.\n\n✍️ Phân tích đáp án:\n- よう: Cấu trúc biến đổi năng lực (よう に なります) → Chọn."
           },
           {
             "id": "m_review_21_25_4_b1_q1",
@@ -6838,7 +6838,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nNếu không có thời gian, tôi không đọc sách.\n\n✍️ Phân tích đáp án:\n- たら: Câu điều kiện giả định (Vたら) $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nNếu không có thời gian, tôi không đọc sách.\n\n✍️ Phân tích đáp án:\n- たら: Câu điều kiện giả định (Vたら) → Chọn."
           },
           {
             "id": "m_review_21_25_4_b1_q2",
@@ -6850,7 +6850,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nNghĩ ngày mai trời mưa.\n\n✍️ Phân tích đáp án:\n- と: Trợ từ dùng để trích dẫn phán đoán (と おもいます) $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nNghĩ ngày mai trời mưa.\n\n✍️ Phân tích đáp án:\n- と: Trợ từ dùng để trích dẫn phán đoán (と おもいます) → Chọn."
           },
           {
             "id": "m_review_21_25_4_b1_q3",
@@ -6862,7 +6862,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nĐây là chiếc túi mà tôi đã mua.\n\n✍️ Phân tích đáp án:\n- かった (đã mua): Động từ ở thể quá khứ Vた bổ nghĩa cho danh từ かばん $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nĐây là chiếc túi mà tôi đã mua.\n\n✍️ Phân tích đáp án:\n- かった (đã mua): Động từ ở thể quá khứ Vた bổ nghĩa cho danh từ かばん → Chọn."
           }
         ]
       },
@@ -6953,7 +6953,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nNăm ngoái đã tới Nhật.\n\n✍️ Phân tích đáp án:\n- きょねん: Năm ngoái $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nNăm ngoái đã tới Nhật.\n\n✍️ Phân tích đáp án:\n- きょねん: Năm ngoái → Chọn."
           },
           {
             "id": "m_review_21_25_5_m1_q1",
@@ -6965,7 +6965,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nNăm nay là năm 2023.\n\n✍️ Phân tích đáp án:\n- ことし: Năm nay $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nNăm nay là năm 2023.\n\n✍️ Phân tích đáp án:\n- ことし: Năm nay → Chọn."
           },
           {
             "id": "m_review_21_25_5_m1_q2",
@@ -6977,7 +6977,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nĐi thẳng con đường.\n\n✍️ Phân tích đáp án:\n- みち (michi): Con đường $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nĐi thẳng con đường.\n\n✍️ Phân tích đáp án:\n- みち (michi): Con đường → Chọn."
           },
           {
             "id": "m_review_21_25_5_m1_q3",
@@ -6989,7 +6989,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nBật điện.\n\n✍️ Phân tích đáp án:\n- でんき (denki): Điện $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nBật điện.\n\n✍️ Phân tích đáp án:\n- でんき (denki): Điện → Chọn."
           }
         ]
       },
@@ -7007,7 +7007,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "弟"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nCó em trai.\n\n✍️ Phân tích đáp án:\n- 弟 (Đệ): Em trai $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nCó em trai.\n\n✍️ Phân tích đáp án:\n- 弟 (Đệ): Em trai → Chọn."
           },
           {
             "id": "m_review_21_25_5_m2_q1",
@@ -7019,7 +7019,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nMưa đang rơi.\n\n✍️ Phân tích đáp án:\n- 降って: Rơi (mưa) $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nMưa đang rơi.\n\n✍️ Phân tích đáp án:\n- 降って: Rơi (mưa) → Chọn."
           },
           {
             "id": "m_review_21_25_5_m2_q2",
@@ -7031,7 +7031,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nSang năm sẽ làm gì?\n\n✍️ Phân tích đáp án:\n- 来年: Sang năm $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nSang năm sẽ làm gì?\n\n✍️ Phân tích đáp án:\n- 来年: Sang năm → Chọn."
           },
           {
             "id": "m_review_21_25_5_m2_q3",
@@ -7043,7 +7043,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nHọc bài mỗi ngày.\n\n✍️ Phân tích đáp án:\n- 毎日: Mỗi ngày $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nHọc bài mỗi ngày.\n\n✍️ Phân tích đáp án:\n- 毎日: Mỗi ngày → Chọn."
           }
         ]
       },
@@ -7061,7 +7061,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nKhi buồn ngủ, tôi uống cà phê.\n\n✍️ Phân tích đáp án:\n- とき: Khi/Lúc (dùng sau tính từ đuôi い) $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nKhi buồn ngủ, tôi uống cà phê.\n\n✍️ Phân tích đáp án:\n- とき: Khi/Lúc (dùng sau tính từ đuôi い) → Chọn."
           },
           {
             "id": "m_review_21_25_5_m3_q1",
@@ -7073,7 +7073,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nDù trời mưa vẫn đi.\n\n✍️ Phân tích đáp án:\n- Đồng nghĩa với câu dùng trợ từ nghịch lý が (Mưa nhưng tôi vẫn đi) $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nDù trời mưa vẫn đi.\n\n✍️ Phân tích đáp án:\n- Đồng nghĩa với câu dùng trợ từ nghịch lý が (Mưa nhưng tôi vẫn đi) → Chọn."
           },
           {
             "id": "m_review_21_25_5_m3_q2",
@@ -7085,7 +7085,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nHôm qua đã rất bận.\n\n✍️ Phân tích đáp án:\n- いそ가しかった: Thể quá khứ của tính từ đuôi い (いそがしい) $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nHôm qua đã rất bận.\n\n✍️ Phân tích đáp án:\n- いそ가しかった: Thể quá khứ của tính từ đuôi い (いそがしい) → Chọn."
           },
           {
             "id": "m_review_21_25_5_m3_q3",
@@ -7097,7 +7097,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nKhi nào được nghỉ?\n\n✍️ Phân tích đáp án:\n- いつ (Khi nào?): Hỏi thời gian $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nKhi nào được nghỉ?\n\n✍️ Phân tích đáp án:\n- いつ (Khi nào?): Hỏi thời gian → Chọn."
           }
         ]
       },
@@ -7115,7 +7115,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nNghĩ ngày mai trời mưa.\n\n✍️ Phân tích đáp án:\n- と: Trợ từ dùng để trích dẫn phán đoán (と おもいます) $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nNghĩ ngày mai trời mưa.\n\n✍️ Phân tích đáp án:\n- と: Trợ từ dùng để trích dẫn phán đoán (と おもいます) → Chọn."
           },
           {
             "id": "m_review_21_25_5_b1_q1",
@@ -7127,7 +7127,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTôi đã có thể nói tiếng Nhật.\n\n✍️ Phân tích đáp án:\n- よう: Cấu trúc biến đổi năng lực (よう に なります) $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nTôi đã có thể nói tiếng Nhật.\n\n✍️ Phân tích đáp án:\n- よう: Cấu trúc biến đổi năng lực (よう に なります) → Chọn."
           },
           {
             "id": "m_review_21_25_5_b1_q2",
@@ -7139,7 +7139,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "かった"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nĐây là chiếc túi mà tôi đã mua.\n\n✍️ Phân tích đáp án:\n- かった (đã mua): Động từ ở thể quá khứ Vた bổ nghĩa cho danh từ かばん $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nĐây là chiếc túi mà tôi đã mua.\n\n✍️ Phân tích đáp án:\n- かった (đã mua): Động từ ở thể quá khứ Vた bổ nghĩa cho danh từ かばん → Chọn."
           },
           {
             "id": "m_review_21_25_5_b1_q3",
@@ -7151,7 +7151,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "khác"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nNếu không có thời gian, tôi không đọc sách.\n\n✍️ Phân tích đáp án:\n- たら: Câu điều kiện giả định (Vたら) $\rightarrow$ Chọn."
+            "explanation": "📖 Dịch nghĩa:\nNếu không có thời gian, tôi không đọc sách.\n\n✍️ Phân tích đáp án:\n- たら: Câu điều kiện giả định (Vたら) → Chọn."
           }
         ]
       },
