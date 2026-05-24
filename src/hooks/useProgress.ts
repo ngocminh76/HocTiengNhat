@@ -165,6 +165,25 @@ export function useProgress() {
     });
   }, []);
 
+  const updateCheckpointMastery = useCallback((reviewId: string, isPassed: boolean, score: number) => {
+    setProgress((prev) => {
+      const cm = prev.checkpointMastery || {};
+      const currentHighest = cm[reviewId]?.score || 0;
+      const next = {
+        ...prev,
+        checkpointMastery: {
+          ...cm,
+          [reviewId]: {
+            isPassed: isPassed || cm[reviewId]?.isPassed || false,
+            score: Math.max(score, currentHighest)
+          }
+        }
+      };
+      save(next);
+      return next;
+    });
+  }, []);
+
   return { progress, addXP, markLearned, markWeak,    clearWeak,
     bumpStreak,
     logSession,
@@ -174,5 +193,6 @@ export function useProgress() {
     markNihongoLessonCompleted,
     updateSentenceMastery,
     incrementLessonReviewCount,
+    updateCheckpointMastery,
   };
 }

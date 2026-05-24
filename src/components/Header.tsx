@@ -1,4 +1,4 @@
-// src/components/Header.tsx
+import { Link } from 'react-router-dom';
 import type { Progress } from '../types';
 
 interface Props { 
@@ -10,7 +10,7 @@ export function Header({ progress, onReset }: Props) {
   const { xp, streak, learnedIds } = progress;
   return (
     <header className="hdr no-print">
-      <div className="hdr-logo">⛩️ <span>Hành Trình Tiếng Nhật</span></div>
+      <Link to="/" className="hdr-logo-hidden">⛩️ Hành Trình Tiếng Nhật</Link>
       <div className="hdr-stats">
         <div className="badge">🔥 {streak} ngày</div>
         <div className="badge">⭐ {xp} XP</div>
