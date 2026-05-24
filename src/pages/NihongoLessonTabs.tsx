@@ -138,11 +138,35 @@ export function VocabTab({ words, mastery, speak, supported }: {
                     return null;
                   })()}
                 </div>
-                <div style={{ display: 'flex', alignItems: 'center', gap: 2 }}>
+                <div style={{ display: 'flex', alignItems: 'center', gap: 4 }}>
                   <span style={{ fontSize: 13 }}>{badge.icon}</span>
                   {supported && (
-                    <button className="btn-icon" style={{ fontSize: 12, padding: '2px 4px' }} onClick={() => speak(w.reading, 0.8)}>🔊</button>
+                    <button className="btn-icon" style={{ fontSize: 12, padding: '2px 4px' }} onClick={() => speak(w.reading, 0.8)} title="Nghe phát âm">🔊</button>
                   )}
+                  <a
+                    href={`https://jisho.org/search/${encodeURIComponent(w.word)}%20%23kanji`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title="Xem nét viết trên Jisho.org"
+                    style={{
+                      fontSize: 12,
+                      padding: '2px 4px',
+                      borderRadius: 4,
+                      background: 'rgba(100,181,246,0.15)',
+                      border: '1px solid rgba(100,181,246,0.4)',
+                      color: '#64b5f6',
+                      textDecoration: 'none',
+                      display: 'inline-flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      cursor: 'pointer',
+                      transition: 'background 0.2s',
+                    }}
+                    onMouseEnter={e => e.currentTarget.style.background = 'rgba(100,181,246,0.25)'}
+                    onMouseLeave={e => e.currentTarget.style.background = 'rgba(100,181,246,0.15)'}
+                  >
+                    ✍️
+                  </a>
                 </div>
               </div>
               {/* Reading / romaji */}
