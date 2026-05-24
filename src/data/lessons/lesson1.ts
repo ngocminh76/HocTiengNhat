@@ -734,11 +734,11 @@ const lesson: NihongoLesson = {
       "explanation": "Trợ từ か (ka) đặt ở cuối câu để tạo thành câu hỏi nghi vấn."
     },
     {
-      "question": "わたしは ぎんこういん [blank]。",
+      "question": "わたしは ぎんこういん [blank]。いしゃです。",
       "options": ["です", "じゃありません", "ですか", "の"],
       "answer": "じゃありません",
-      "vn": "Tôi không phải là nhân viên ngân hàng.",
-      "explanation": "じゃありません (ja arimasen) là thể phủ định của です, nghĩa là 'không phải là'."
+      "vn": "Tôi không phải là nhân viên ngân hàng. Tôi là bác sĩ.",
+      "explanation": "Đằng sau có câu khẳng định 'いしゃです' (Tôi là bác sĩ), nên câu trước phải mang nghĩa phủ định (Tôi không phải là nhân viên ngân hàng) -> Chọnじゃありません."
     },
     {
       "question": "あの方は どなた [blank]。",
