@@ -262,7 +262,7 @@ export function JlptTestPage({ test, onBack, onHome }: Props) {
                           <span style={{ color: 'var(--mute)', fontSize: 13 }}>| Kết quả bài làm</span>
                         </div>
                       )}
-                      <div style={{ padding: 16, fontSize: 14, lineHeight: 1.6, whiteSpace: 'pre-wrap' }}>
+                      <div style={{ padding: 16, fontSize: 14, color: 'var(--text)', lineHeight: 1.6, whiteSpace: 'pre-wrap' }}>
                         {q.translation && (
                           <div style={{ marginBottom: 12 }}>
                             <strong style={{ color: 'var(--gold)' }}>Dịch nghĩa:</strong> {q.translation}
@@ -270,7 +270,7 @@ export function JlptTestPage({ test, onBack, onHome }: Props) {
                         )}
                         {q.explanation && (
                           <div>
-                            <strong style={{ color: 'var(--primary)' }}>Giải thích chi tiết:</strong><br />{q.explanation}
+                            <strong style={{ color: 'var(--blue)' }}>Giải thích chi tiết:</strong><br />{q.explanation}
                           </div>
                         )}
                       </div>

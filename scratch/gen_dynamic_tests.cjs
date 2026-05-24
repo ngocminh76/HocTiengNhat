@@ -21,6 +21,136 @@ function shuffleOptions(options, correctIndex) {
   return { options: newOptions, correctIndex: newCorrectIndex };
 }
 
+// Vocabulary dictionary for automatic extraction
+const N5_DICT = {
+  'ベトナム': 'ベトナム (Betonamu): Việt Nam',
+  '先月': '先月 (せんげつ / sengetsu): Tháng trước',
+  'せんげつ': '先月 (せんげつ / sengetsu): Tháng trước',
+  '毎日': '毎日 (まいにch / mainichi): Hàng ngày, mỗi ngày',
+  'まいにち': '毎日 (まいにch / mainichi): Hàng ngày, mỗi ngày',
+  'にほんご': '日本語 (にほんご / nihongo): Tiếng Nhật',
+  '日本語': '日本語 (にほんご / nihongo): Tiếng Nhật',
+  '水曜日': '水曜日 (すいようび / suiyoubi): Thứ Tư',
+  'すいようび': '水曜日 (すいようび / suiyoubi): Thứ Tư',
+  'でんしゃ': '電車 (でんしゃ / densha): Tàu điện',
+  '電車': '電車 (でんしゃ / densha): Tàu điện',
+  'かいしゃ': '会社 (かいしゃ / kaisha): Công ty',
+  '会社': '会社 (かいしゃ / kaisha): Công ty',
+  'レストラン': 'レストラン (resutoran): Nhà hàng',
+  'ともだち': '友達 (ともだち / tomodachi): Bạn bè',
+  '友達': '友達 (ともだち / tomodachi): Bạn bè',
+  'デパート': 'デパート (depaato): Trung tâm thương mại, bách hóa',
+  'くるま': '車 (くるま / kuruma): Ô tô, xe hơi',
+  '車': '車 (くるま / kuruma): Ô tô, xe hơi',
+  'あした': '明日 (あした / ashita): Ngày mai',
+  'やすみ': '休み (やすみ / yasumi): Ngày nghỉ',
+  'うち': '家 (うち / uchi): Nhà (ở)',
+  'ゆっくり': 'ゆっくり (yukkuri): Thong thả, thong dong',
+  'えんぴつ': '鉛筆 (えんぴつ / enpitsu): Bút chì',
+  'てがみ': '手紙 (てがみ / tegami): Bức thư',
+  '手紙': '手紙 (てがみ / tegami): Bức thư',
+  'スーパー': 'スーパー (suupaa): Siêu thị',
+  'くだもの': '果物 (くだもの / kudamono): Trái cây, hoa quả',
+  'えいご': '英語 (えいご / eigo): Tiếng Anh',
+  '英語': '英語 (えいご / eigo): Tiếng Anh',
+  '新しい': '新しい (あたらしい / atarashii): Mới',
+  '古い': '古い (ふるい / furui): Cũ',
+  'じてんしゃ': '自転車 (じてんしゃ / jitensha): Xe đạp',
+  'プレゼント': 'プレゼント (purezento): Quà tặng',
+  'コーヒー': 'コーヒー (koohii): Cà phê',
+  'シャツ': 'シャツ (shatsu): Áo sơ mi',
+  'パン': 'パン (pan): Bánh mì',
+  'はさみ': 'はさみ (hasami): Cái kéo',
+  'かみ': '紙 (かみ / kami): Giấy / Tóc',
+  '紙': '紙 (かみ / kami): Giấy / Tóc',
+  'りんご': 'りんご (ringo): Quả táo',
+  'せんせい': '先生 (せんせい / sensei): Thầy/cô giáo',
+  '先生': '先生 (せんせい / sensei): Thầy/cô giáo',
+  'ほん': '本 (ほん / hon): Sách',
+  '本': '本 (ほん / hon): Sách',
+  'カメラ': 'カメラ (kamera): Máy ảnh',
+  'スプーン': 'スプーン (supuun): Thìa, muỗng',
+  'ごはん': 'ご飯 (ごはん / gohan): Cơm, bữa ăn',
+  'はna': '花 (はな / hana): Hoa',
+  'はな': '花 (はな / hana): Hoa',
+  '花': '花 (はな / hana): Hoa',
+  'パーティー': 'パーティー (paatii): Bữa tiệc',
+  'へや': '部屋 (へや / heya): Căn phòng',
+  'しずか': '静か (しずか / shizuka): Yên tĩnh',
+  'とけい': '時計 (とけい / tokei): Đồng hồ',
+  '外国': '外国 (がいこく / gaikoku): Nước ngoài',
+  '有名': '有名 (ゆうめい / yuumei): Nổi tiếng',
+  'くすり': '薬 (くすり / kusuri): Thuốc',
+  '薬': '薬 (くすり / kusuri): Thuốc',
+  '切手': '切手 (きって / kitte): Tem thư',
+  'のど': 'のど (nodo): Cổ họng',
+  'えき': '駅 (えき / eki): Nhà ga',
+  '駅': '駅 (えき / eki): Nhà ga',
+  'しゃしん': '写真 (しゃしん / shashin): Bức ảnh',
+  '写真': '写真 (しゃしん / shashin): Bức ảnh',
+  'ひるごはん': '昼ご飯 (ひるごはん / hirugohan): Cơm trưa',
+  'よる': '夜 (よる / yoru): Buổi tối',
+  '夜': '夜 (よる / yoru): Buổi tối',
+  'パスポート': 'パスポート (pasupooto): Hộ chiếu',
+  'あめ': '雨 (あめ / ame): Mưa',
+  '雨': '雨 (あめ / ame): Mưa',
+  'かぜ': '風邪 (かぜ / kaze): Cảm cúm',
+  'ピアノ': 'ピアノ (piano): Đàn piano',
+  'うま': '馬 (うま / uma): Con ngựa',
+  '馬': '馬 (うま / uma): Con ngựa',
+  'しゅみ': '趣味 (しゅみ / shumi): Sở thích',
+  'え': '絵 (え / e): Bức tranh',
+  '絵': '絵 (え / e): Bức tranh',
+  'シャワー': 'シャワー (shawaa): Vòi hoa sen',
+  '道': '道 (みch / michi): Con đường',
+  '今年': '今年 (ことし / kotoshi): Năm nay',
+  '去年': '去年 (きょねん / kyonen): Năm ngoái',
+  'おとうと': '弟 (おとうと / otouto): Em trai',
+  '弟': '弟 (おとうt / otouto): Em trai',
+  '来年': '来年 (らいねん / rainen): Sang năm',
+  'メガネ': '眼鏡 (めがね / megane): Kính mắt',
+  'ケーキ': 'ケーキ (keeki): Bánh ngọt, bánh kem',
+  'かzo': '家族 (かぞく / kazoku): Gia đình',
+  'かぞく': '家族 (かぞく / kazoku): Gia đình',
+  '家族': '家族 (かぞく / kazoku): Gia đình',
+  'あに': '兄 (あに / ani): Anh trai',
+  '兄': '兄 (あに / ani): Anh trai',
+  'こうこうsei': '高校生 (こうこうsei / koukousei): Học sinh cấp 3',
+  'たのしい': '楽しい (たのしい / tanoshii): Vui vẻ',
+  'きれいで': 'きれい (kirei): Đẹp/Sạch sẽ',
+  'にぎやか': 'にぎやか (nigiyaka): Nhộn nhịp, sầm uất',
+  '国': '国 (くに / kuni): Đất nước, quốc gia',
+  '日本': '日本 (にほん / nihon): Nhật Bản'
+};
+
+function appendVocabulary(questionText, explanation) {
+  const cleanQText = questionText.replace(/【|】|___|_★_/g, '');
+  let foundWords = [];
+  const keys = Object.keys(N5_DICT).sort((a, b) => b.length - a.length);
+  
+  let remainingText = cleanQText;
+  for (const key of keys) {
+    if (remainingText.includes(key)) {
+      foundWords.push(N5_DICT[key]);
+      remainingText = remainingText.split(key).join(' ');
+    }
+  }
+  
+  if (foundWords.length > 0) {
+    const uniqueWords = [...new Set(foundWords)];
+    const vocabBlock = `📝 Từ vựng trong câu:\n` + uniqueWords.map(w => `- ${w}`).join('\n');
+    
+    if (explanation.includes('💡 Ngữ pháp & Mẹo nhớ:')) {
+      return explanation.replace('💡 Ngữ pháp & Mẹo nhớ:', `${vocabBlock}\n\n💡 Ngữ pháp & Mẹo nhớ:`);
+    } else {
+      return explanation + `\n\n${vocabBlock}`;
+    }
+  }
+  
+  return explanation;
+}
+
+
 // ==========================================
 // DATA POOLS FOR EACH CHECKPOINT
 // ==========================================
@@ -31,25 +161,25 @@ const pool_1_5 = {
       q: 'わたしの 【国】は ベトナムです。', 
       o: ['くに', 'まち', 'うち', 'いえ'], 
       c: 0, 
-      exp: '📖 Dịch nghĩa:\nĐất nước của tôi là Việt Nam.\n\n✍️ Phân tích đáp án:\n- くに (kuni): Đất nước, quốc gia $→$ Chọn.\n- まち (machi): Phố, thị trấn $→$ Sai nghĩa.\n- うち (uchi): Nhà/gia đình của tôi $→$ Sai nghĩa.\n- いえ (ie): Ngôi nhà vật lý $→$ Sai nghĩa.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán 【国】 (Quốc) trong từ vựng N5 luôn được phát âm là くに (kuni).\n- Mẹo nhớ chữ: Trong nước (国) có ngọc quý (玉) được bao quanh bởi biên giới (囗).' 
+      exp: '📖 Dịch nghĩa:\nĐất nước của tôi là Việt Nam.\n\n✍️ Phân tích đáp án:\n- くに (kuni): Đất nước, quốc gia → Chọn.\n- まち (machi): Phố, thị trấn → Sai nghĩa.\n- うち (uchi): Nhà/gia đình của tôi → Sai nghĩa.\n- いえ (ie): Ngôi nhà vật lý → Sai nghĩa.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán 【国】 (Quốc) trong từ vựng N5 luôn được phát âm là くに (kuni).\n- Mẹo nhớ chữ: Trong nước (国) có ngọc quý (玉) được bao quanh bởi biên giới (囗).' 
     },
     { 
       q: '【先月】、日本へ きました。', 
       o: ['らいげつ', 'こんげつ', 'せんげつ', 'まいつき'], 
       c: 2, 
-      exp: '📖 Dịch nghĩa:\nTháng trước tôi đã đến Nhật Bản.\n\n✍️ Phân tích đáp án:\n- せんげつ (sengetsu): Tháng trước $→$ Chọn.\n- らいげつ (raigetsu): Tháng sau $→$ Sai thời điểm.\n- こんげつ (kongetsu:): Tháng này $→$ Sai thời điểm.\n- まいつき (maitsuki): Mỗi tháng $→$ Sai ngữ cảnh.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán 【先月】 (Tiên Nguyệt - tháng trước). Âm Hán Việt "Tiên" (trước) đi với "Nguyệt" (tháng).\n- Mẹo ngữ pháp: Động từ ở quá khứ きました (đã đến) bổ trợ cho việc chọn thời gian trong quá khứ là "Tháng trước".' 
+      exp: '📖 Dịch nghĩa:\nTháng trước tôi đã đến Nhật Bản.\n\n✍️ Phân tích đáp án:\n- せんげつ (sengetsu): Tháng trước → Chọn.\n- らいげつ (raigetsu): Tháng sau → Sai thời điểm.\n- こんげつ (kongetsu:): Tháng này → Sai thời điểm.\n- まいつき (maitsuki): Mỗi tháng → Sai ngữ cảnh.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán 【先月】 (Tiên Nguyệt - tháng trước). Âm Hán Việt "Tiên" (trước) đi với "Nguyệt" (tháng).\n- Mẹo ngữ pháp: Động từ ở quá khứ きました (đã đến) bổ trợ cho việc chọn thời gian trong quá khứ là "Tháng trước".' 
     },
     { 
       q: '【毎日】 にほんごを べんきょうします。', 
       o: ['まいにち', 'まいしゅう', 'まいげつ', 'まいとし'], 
       c: 0, 
-      exp: '📖 Dịch nghĩa:\nHàng ngày tôi học tiếng Nhật.\n\n✍️ Phân tích đáp án:\n- まいにch (mainichi): Mỗi ngày, hàng ngày $→$ Chọn.\n- まいしゅう (maishuu): Mỗi tuần $→$ Sai tần suất.\n- まいげつ (maigetsu): Mỗi tháng $→$ Sai tần suất.\n- まいとし (maitoshi): Mỗi năm $→$ Sai tần suất.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán 【毎日】 (Mỗi Nhật) có cách đọc tương ứng là まいにち.\n- Trợ từ を (wo) đứng trước động từ chỉ đối tượng tác động (học CÁI GÌ $→$ học tiếng Nhật).' 
+      exp: '📖 Dịch nghĩa:\nHàng ngày tôi học tiếng Nhật.\n\n✍️ Phân tích đáp án:\n- まいにch (mainichi): Mỗi ngày, hàng ngày → Chọn.\n- まいしゅう (maishuu): Mỗi tuần → Sai tần suất.\n- まいげつ (maigetsu): Mỗi tháng → Sai tần suất.\n- まいとし (maitoshi): Mỗi năm → Sai tần suất.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán 【毎日】 (Mỗi Nhật) có cách đọc tương ứng là まいにち.\n- Trợ từ を (wo) đứng trước động từ chỉ đối tượng tác động (học CÁI GÌ → học tiếng Nhật).' 
     },
     { 
       q: 'きょうは 【水曜日】です。', 
       o: ['かようび', 'すいようび', 'もくようび', 'きnようび'], 
       c: 1, 
-      exp: '📖 Dịch nghĩa:\nHôm nay là thứ Tư.\n\n✍️ Phân tích đáp án:\n- すいようび (suiyoubi): Thứ Tư $→$ Chọn.\n- かようび (kayoubi): Thứ Ba $→$ Sai ngày.\n- もくようび (mokuyoubi): Thứ Năm $→$ Sai ngày.\n- きんようび (kinyoubi): Thứ Sáu $→$ Sai ngày.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán 【水曜日】 (Thủy Diệu Nhật) có nghĩa là ngày của nước $→$ thứ Tư.\n- Mẹo học thứ tự các thứ trong tuần theo ngũ hành: Nhật (Chủ nhật), Nguyệt (Thứ hai), Hỏa (Thứ ba), Thủy (Thứ tư), Mộc (Thứ năm), Kim (Thứ sáu), Thổ (Thứ bảy).' 
+      exp: '📖 Dịch nghĩa:\nHôm nay là thứ Tư.\n\n✍️ Phân tích đáp án:\n- すいようび (suiyoubi): Thứ Tư → Chọn.\n- かようび (kayoubi): Thứ Ba → Sai ngày.\n- もくようび (mokuyoubi): Thứ Năm → Sai ngày.\n- きんようび (kinyoubi): Thứ Sáu → Sai ngày.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán 【水曜日】 (Thủy Diệu Nhật) có nghĩa là ngày của nước → thứ Tư.\n- Mẹo học thứ tự các thứ trong tuần theo ngũ hành: Nhật (Chủ nhật), Nguyệt (Thứ hai), Hỏa (Thứ ba), Thủy (Thứ tư), Mộc (Thứ năm), Kim (Thứ sáu), Thổ (Thứ bảy).' 
     }
   ],
   moji2: [
@@ -57,25 +187,25 @@ const pool_1_5 = {
       q: '【でんしゃ】で かいしゃへ いきます。', 
       o: ['電車', '電気', '電話', '電波'], 
       c: 0, 
-      exp: '📖 Dịch nghĩa:\nTôi đi làm bằng tàu điện.\n\n✍️ Phân tích đáp án:\n- 電車 (Điện Xa - xe chạy bằng điện): Tàu điện $→$ Chọn.\n- 電気 (Điện Khí): Điện, đèn điện $→$ Sai nghĩa.\n- 電話 (Điện Thoại): Điện thoại $→$ Sai nghĩa.\n- 電波 (Điện Ba): Sóng điện $→$ Sai nghĩa.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Trợ từ で (de) đứng sau phương tiện di chuyển chỉ cách thức di chuyển (bằng tàu điện).\n- Mẹo viết chữ: Chữ 電 (Điện) gồm bộ Vũ (mưa) ở trên và chữ Thần (sấm sét) ở dưới.' 
+      exp: '📖 Dịch nghĩa:\nTôi đi làm bằng tàu điện.\n\n✍️ Phân tích đáp án:\n- 電車 (Điện Xa - xe chạy bằng điện): Tàu điện → Chọn.\n- 電気 (Điện Khí): Điện, đèn điện → Sai nghĩa.\n- 電話 (Điện Thoại): Điện thoại → Sai nghĩa.\n- 電波 (Điện Ba): Sóng điện → Sai nghĩa.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Trợ từ で (de) đứng sau phương tiện di chuyển chỉ cách thức di chuyển (bằng tàu điện).\n- Mẹo viết chữ: Chữ 電 (Điện) gồm bộ Vũ (mưa) ở trên và chữ Thần (sấm sét) ở dưới.' 
     },
     { 
       q: 'あの 【レストラン】は おいしいです。', 
       o: ['レストンラ', 'レストラン', 'レストラソ', 'レスドラン'], 
       c: 1, 
-      exp: '📖 Dịch nghĩa:\nNhà hàng kia ngon lắm.\n\n✍️ Phân tích đáp án:\n- レストラン (resutoran): Nhà hàng $→$ Chọn.\n- レストンラ: Viết sai vị trí chữ ン và ラ.\n- レストラソ: Viết sai chữ ン (n) thành chữ ソ (so) nét hướng từ trên xuống.\n- レスドラン: Thừa dấu đục (tenten) ở chữ ト thành ド.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Mẹo nhận biết chữ Katakana: Chữ ン (n) nét móc kéo từ dưới lên, chữ ソ (so) nét kéo vuốt từ trên xuống.' 
+      exp: '📖 Dịch nghĩa:\nNhà hàng kia ngon lắm.\n\n✍️ Phân tích đáp án:\n- レストラン (resutoran): Nhà hàng → Chọn.\n- レストンラ: Viết sai vị trí chữ ン và ラ.\n- レストラソ: Viết sai chữ ン (n) thành chữ ソ (so) nét hướng từ trên xuống.\n- レスドラン: Thừa dấu đục (tenten) ở chữ ト thành ド.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Mẹo nhận biết chữ Katakana: Chữ ン (n) nét móc kéo từ dưới lên, chữ ソ (so) nét kéo vuốt từ trên xuống.' 
     },
     { 
       q: 'ともだちと 【デパート】へ いきます。', 
       o: ['デバート', 'テパート', 'デパート', 'デパード'], 
       c: 2, 
-      exp: '📖 Dịch nghĩa:\nTôi đi đến trung tâm thương mại cùng bạn bè.\n\n✍️ Phân tích đáp án:\n- デパート (depaato): Cửa hàng bách hóa $→$ Chọn.\n- デバート: Viết sai chữ パ (pa) thành バ (ba).\n- テパート: Thiếu dấu đục ở chữ デ (de) thành テ (te).\n- デパード: Viết sai chữ ト (to) thành ド (do).\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Từ bắt nguồn từ tiếng Anh "Department store". Có dấu gạch ngang (ー) biểu thị trường âm kéo dài.' 
+      exp: '📖 Dịch nghĩa:\nTôi đi đến trung tâm thương mại cùng bạn bè.\n\n✍️ Phân tích đáp án:\n- デパート (depaato): Cửa hàng bách hóa → Chọn.\n- デバート: Viết sai chữ パ (pa) thành バ (ba).\n- テパート: Thiếu dấu đục ở chữ デ (de) thành テ (te).\n- デパード: Viết sai chữ ト (to) thành ド (do).\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Từ bắt nguồn từ tiếng Anh "Department store". Có dấu gạch ngang (ー) biểu thị trường âm kéo dài.' 
     },
     { 
       q: '【くるま】を かいました。', 
       o: ['車', '東', '重', '庫'], 
       c: 0, 
-      exp: '📖 Dịch nghĩa:\nTôi đã mua ô tô.\n\n✍️ Phân tích đáp án:\n- 車 (Xa): Xe hơi, ô tô $→$ Chọn.\n- 東 (Đông): Phía đông $→$ Sai mặt chữ.\n- 重 (Trọng): Nặng $→$ Sai mặt chữ.\n- 庫 (Khố): Kho $→$ Sai mặt chữ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán 【車】 vẽ hình cái bánh xe và trục xe nhìn từ trên xuống. Đây là bộ thủ cơ bản đại diện cho các loại xe cộ.' 
+      exp: '📖 Dịch nghĩa:\nTôi đã mua ô tô.\n\n✍️ Phân tích đáp án:\n- 車 (Xa): Xe hơi, ô tô → Chọn.\n- 東 (Đông): Phía đông → Sai mặt chữ.\n- 重 (Trọng): Nặng → Sai mặt chữ.\n- 庫 (Khố): Kho → Sai mặt chữ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán 【車】 vẽ hình cái bánh xe và trục xe nhìn từ trên xuống. Đây là bộ thủ cơ bản đại diện cho các loại xe cộ.' 
     }
   ],
   moji3: [
@@ -83,25 +213,25 @@ const pool_1_5 = {
       q: 'あしたは やすみです. うちで ゆっくり 【　　　】。', 
       o: ['おきます', 'はたらきます', 'やすみます', 'おわります'], 
       c: 2, 
-      exp: '📖 Dịch nghĩa:\nNgày mai là ngày nghỉ. Tôi sẽ nghỉ ngơi thong thả ở nhà.\n\n✍️ Phân tích đáp án:\n- やすみます (yasumimasu): Nghỉ ngơi $→$ Chọn vì khớp với vế "ngày nghỉ (やすみ)".\n- おきます (okimasu): Thức dậy $→$ Không phù hợp ngữ cảnh.\n- はたらきます (hatarakimasu): Làm việc $→$ Trái nghĩa với ngày nghỉ.\n- おわります (owarimasu): Kết thúc $→$ Không phù hợp.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Cụm từ đi liền: ゆっくり 休みます (Nghỉ ngơi thong thả, thư giãn).\n- Trợ từ で (de) chỉ địa điểm xảy ra hành động (nghỉ ngơi ở nhà - うちで).' 
+      exp: '📖 Dịch nghĩa:\nNgày mai là ngày nghỉ. Tôi sẽ nghỉ ngơi thong thả ở nhà.\n\n✍️ Phân tích đáp án:\n- やすみます (yasumimasu): Nghỉ ngơi → Chọn vì khớp với vế "ngày nghỉ (やすみ)".\n- おきます (okimasu): Thức dậy → Không phù hợp ngữ cảnh.\n- はたらきます (hatarakimasu): Làm việc → Trái nghĩa với ngày nghỉ.\n- おわります (owarimasu): Kết thúc → Không phù hợp.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Cụm từ đi liền: ゆっくり 休みます (Nghỉ ngơi thong thả, thư giãn).\n- Trợ từ で (de) chỉ địa điểm xảy ra hành động (nghỉ ngơi ở nhà - うちで).' 
     },
     { 
       q: 'きのう １０じに 【　　　】。', 
       o: ['おきました', 'ねました', 'きました', 'いきました'], 
       c: 1, 
-      exp: '📖 Dịch nghĩa:\nHôm nay tôi đã đi ngủ lúc 10 giờ.\n\n✍️ Phân tích đáp án:\n- ねました (nemashita): Đã ngủ $→$ Phù hợp nhất với mốc thời gian 10 giờ đêm (10じ).\n- おきました (okimashita): Đã thức dậy $→$ 10 giờ đêm không phải giờ thức dậy phổ thông.\n- きました (kimashita): Đã đến $→$ Không hợp nghĩa.\n- いきました (ikimashita): Đã đi $→$ Không hợp nghĩa.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Trợ từ に (ni) bắt buộc đi kèm sau mốc thời gian cụ thể (１０じに).\n- Đuôi 〜ました biểu thị hành động đã kết thúc trong quá khứ (ngày hôm qua - きのう).' 
+      exp: '📖 Dịch nghĩa:\nHôm nay tôi đã đi ngủ lúc 10 giờ.\n\n✍️ Phân tích đáp án:\n- ねました (nemashita): Đã ngủ → Phù hợp nhất với mốc thời gian 10 giờ đêm (10じ).\n- おきました (okimashita): Đã thức dậy → 10 giờ đêm không phải giờ thức dậy phổ thông.\n- きました (kimashita): Đã đến → Không hợp nghĩa.\n- いきました (ikimashita): Đã đi → Không hợp nghĩa.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Trợ từ に (ni) bắt buộc đi kèm sau mốc thời gian cụ thể (１０じに).\n- Đuôi 〜ました biểu thị hành động đã kết thúc trong quá khứ (ngày hôm qua - きのう).' 
     },
     { 
       q: 'えんぴつで てがみを 【　　　】。', 
       o: ['よみます', 'かきます', 'ききます', 'みます'], 
       c: 1, 
-      exp: '📖 Dịch nghĩa:\nTôi viết thư bằng bút chì.\n\n✍️ Phân tích đáp án:\n- かきます (kakimasu): Viết $→$ Chọn vì đi với danh từ てがみ (thư).\n- よみます (yomimasu): Đọc $→$ Không đi với công cụ bằng bút chì.\n- ききます (kikimasu): Nghe / hỏi $→$ Không đi với viết thư.\n- みます (mimasu): Xem $→$ Không đi với bút chì.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Trợ từ で (de) đóng vai trò chỉ phương tiện/công cụ để thực hiện hành động (viết bằng cái gì $→$ えんぴつで - bằng bút chì).' 
+      exp: '📖 Dịch nghĩa:\nTôi viết thư bằng bút chì.\n\n✍️ Phân tích đáp án:\n- かきます (kakimasu): Viết → Chọn vì đi với danh từ てがみ (thư).\n- よみます (yomimasu): Đọc → Không đi với công cụ bằng bút chì.\n- ききます (kikimasu): Nghe / hỏi → Không đi với viết thư.\n- みます (mimasu): Xem → Không đi với bút chì.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Trợ từ で (de) đóng vai trò chỉ phương tiện/công cụ để thực hiện hành động (viết bằng cái gì → えんぴつで - bằng bút chì).' 
     },
     { 
       q: 'スーパーで くだものを 【　　　】。', 
       o: ['かいます', 'あいます', 'すいます', 'のみます'], 
       c: 0, 
-      exp: '📖 Dịch nghĩa:\nTôi mua trái cây ở siêu thị.\n\n✍️ Phân tích đáp án:\n- かいます (kaimasu): Mua $→$ Chọn vì là hành động phổ biến đối với hàng hóa (くだもの) tại siêu thị.\n- あいます (aimasu): Gặp gỡ $→$ Không đi với hoa quả.\n- すいます (suimasu): Hút thuốc $→$ Không đi với hoa quả.\n- のみます (nomimasu): Uống $→$ Hoa quả dạng rắn không dùng động từ uống.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Trợ từ で (de) chỉ địa điểm diễn ra hành động mua bán (ở siêu thị - スーパーで).\n- Trợ từ を (wo) liên kết tân ngữ tác động (trái cây).' 
+      exp: '📖 Dịch nghĩa:\nTôi mua trái cây ở siêu thị.\n\n✍️ Phân tích đáp án:\n- かいます (kaimasu): Mua → Chọn vì là hành động phổ biến đối với hàng hóa (くだもの) tại siêu thị.\n- あいます (aimasu): Gặp gỡ → Không đi với hoa quả.\n- すいます (suimasu): Hút thuốc → Không đi với hoa quả.\n- のみます (nomimasu): Uống → Hoa quả dạng rắn không dùng động từ uống.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Trợ từ で (de) chỉ địa điểm diễn ra hành động mua bán (ở siêu thị - スーパーで).\n- Trợ từ を (wo) liên kết tân ngữ tác động (trái cây).' 
     }
   ],
   bunpou1: [
@@ -109,25 +239,25 @@ const pool_1_5 = {
       q: 'わたしは えんぴつ（　　　）てがみを かきます。', 
       o: ['に', 'で', 'を', 'gが'], 
       c: 1, 
-      exp: '📖 Dịch nghĩa:\nTôi viết thư bằng bút chì.\n\n✍️ Phân tích đáp án:\n- で (de): Trợ từ chỉ phương tiện, công cụ (bằng...) $→$ Chọn.\n- に (ni): Chỉ điểm thời gian hoặc hướng đi $→$ Không phù hợp.\n- を (wo): Đứng sau tân ngữ trực tiếp (đã có てがみを) $→$ Không phù hợp.\n- が (ga): Chỉ chủ ngữ hoặc đối tượng khả năng $→$ Không phù hợp.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Mẹo làm bài: Khi thấy một danh từ chỉ dụng cụ học tập/phương tiện đi liền trước động từ hành động, hãy nghĩ ngay tới trợ từ công cụ で.' 
+      exp: '📖 Dịch nghĩa:\nTôi viết thư bằng bút chì.\n\n✍️ Phân tích đáp án:\n- で (de): Trợ từ chỉ phương tiện, công cụ (bằng...) → Chọn.\n- に (ni): Chỉ điểm thời gian hoặc hướng đi → Không phù hợp.\n- を (wo): Đứng sau tân ngữ trực tiếp (đã có てがみを) → Không phù hợp.\n- が (ga): Chỉ chủ ngữ hoặc đối tượng khả năng → Không phù hợp.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Mẹo làm bài: Khi thấy một danh từ chỉ dụng cụ học tập/phương tiện đi liền trước động từ hành động, hãy nghĩ ngay tới trợ từ công cụ で.' 
     },
     { 
       q: 'あした どこ（　　　）いきません. ', 
       o: ['へも', 'をも', 'gがも', 'đo/đây/đó'], 
       c: 0, 
-      exp: '📖 Dịch nghĩa:\nNgày mai tôi không đi đâu cả.\n\n✍️ Phân tích đáp án:\n- へも (he mo): Đi kèm từ để hỏi chỉ nơi chốn + động từ phủ định (không đi đâu) $→$ Chọn.\n- をも, がも: Không có cấu trúc kết hợp này cho câu phủ định hoàn toàn.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Ngữ pháp: Từ nghi vấn (どこ, だれ, なに) + Trợ từ phủ định (も / へも) + động từ dạng phủ định (〜ません) dùng để phủ định hoàn toàn sự vật/sự việc.' 
+      exp: '📖 Dịch nghĩa:\nNgày mai tôi không đi đâu cả.\n\n✍️ Phân tích đáp án:\n- へも (he mo): Đi kèm từ để hỏi chỉ nơi chốn + động từ phủ định (không đi đâu) → Chọn.\n- をも, がも: Không có cấu trúc kết hợp này cho câu phủ định hoàn toàn.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Ngữ pháp: Từ nghi vấn (どこ, だれ, なに) + Trợ từ phủ định (も / へも) + động từ dạng phủ định (〜ません) dùng để phủ định hoàn toàn sự vật/sự việc.' 
     },
     { 
       q: 'きょうは ５じ（　　　）はたらきます。', 
       o: ['까지/đến', 'từ', 'lúc/vào', 'ở/tại'], 
       c: 0, 
-      exp: '📖 Dịch nghĩa:\nHôm nay tôi làm việc đến 5 giờ.\n\n✍️ Phân tích đáp án:\n- まで (made): Đến (chỉ giới hạn thời gian kết thúc) $→$ Chọn.\n- から (kara): Từ (chỉ điểm bắt đầu) $→$ Thường đi kèm động từ bắt đầu từ lúc nào.\n- に (ni): Vào lúc (chỉ mốc thời gian cụ thể của hành động tức thời) $→$ Không đi với động từ kéo dài như はたらきます.\n- で (de): Chỉ địa điểm hoặc phương tiện $→$ Không phù hợp.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Phân biệt: [Thời gian] から [Thời gian] まで (Từ... đến...). Ở đây chỉ nói vế kết thúc nên dùng まで.' 
+      exp: '📖 Dịch nghĩa:\nHôm nay tôi làm việc đến 5 giờ.\n\n✍️ Phân tích đáp án:\n- まで (made): Đến (chỉ giới hạn thời gian kết thúc) → Chọn.\n- から (kara): Từ (chỉ điểm bắt đầu) → Thường đi kèm động từ bắt đầu từ lúc nào.\n- に (ni): Vào lúc (chỉ mốc thời gian cụ thể của hành động tức thời) → Không đi với động từ kéo dài như はたらきます.\n- で (de): Chỉ địa điểm hoặc phương tiện → Không phù hợp.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Phân biệt: [Thời gian] から [Thời gian] まで (Từ... đến...). Ở đây chỉ nói vế kết thúc nên dùng まで.' 
     },
     { 
       q: 'A「それは （　　　）ですか。」 B「コンピューターの ほん です。」', 
       o: ['なんの ほん', 'đến/được/như thế nào', '...'], 
       c: 3, 
-      exp: '📖 Dịch nghĩa:\nA: "Đó là cái gì thế?" - B: "Là cuốn sách về máy tính."\n\n✍️ Phân tích đáp án:\n- なん (nan: Cái gì): Từ để hỏi cơ bản cho sự vật $→$ Chọn để tạo thành "なんですか".\n- なんの ほん: Thừa từ "ほん" vì câu trả lời đã chứa "ほん" rồi.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Khi câu hỏi dùng "なんですか" (Cái gì?), câu trả lời có thể đi kèm giải thích chi tiết danh từ bổ nghĩa qua trợ từ の (Sách VỀ máy tính - コンピューターの ほん).' 
+      exp: '📖 Dịch nghĩa:\nA: "Đó là cái gì thế?" - B: "Là cuốn sách về máy tính."\n\n✍️ Phân tích đáp án:\n- なん (nan: Cái gì): Từ để hỏi cơ bản cho sự vật → Chọn để tạo thành "なんですか".\n- なんの ほん: Thừa từ "ほん" vì câu trả lời đã chứa "ほん" rồi.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Khi câu hỏi dùng "なんですか" (Cái gì?), câu trả lời có thể đi kèm giải thích chi tiết danh từ bổ nghĩa qua trợ từ の (Sách VỀ máy tính - コンピューターの ほん).' 
     }
   ],
   bunpou2: [
@@ -152,13 +282,13 @@ const pool_1_5 = {
           q: '（　１　）に入れるものはどれですか。', 
           o: ['と', 'に', 'で', 'へ'], 
           c: 0, 
-          exp: '📖 Dịch nghĩa:\nTôi đi đến nhà hàng cùng với bạn bè.\n\n✍️ Phân tích đáp án:\n- と (to): Trợ từ chỉ đối tượng cùng làm hành động (cùng với...) $→$ Chọn.\n- に, で, へ: Không phù hợp ngữ pháp khi đi kèm danh từ chỉ người và động từ chuyển hành.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Cấu trúc: [Người] と [Địa điểm] へ いきます (Đi đâu cùng ai).' 
+          exp: '📖 Dịch nghĩa:\nTôi đi đến nhà hàng cùng với bạn bè.\n\n✍️ Phân tích đáp án:\n- と (to): Trợ từ chỉ đối tượng cùng làm hành động (cùng với...) → Chọn.\n- に, で, へ: Không phù hợp ngữ pháp khi đi kèm danh từ chỉ người và động từ chuyển hành.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Cấu trúc: [Người] と [Địa điểm] へ いきます (Đi đâu cùng ai).' 
         },
         { 
           q: '（　２　）に入れるものはđầu/nơi/nào?', 
           o: ['みます', 'みました', 'みますか', 'みません'], 
           c: 1, 
-          exp: '📖 Dịch nghĩa:\nSau đó, tôi đã xem phim.\n\n✍️ Phân tích đáp án:\n- みました (mimashita): Đã xem $→$ Chọn vì toàn bộ câu chuyện diễn ra vào hôm qua (きのう - quá khứ).\n- みます (mimasu): Xem (thì hiện tại/tương lai) $→$ Sai thì.\n- みません (mimasen): Không xem $→$ Trái nghĩa ngữ cảnh vui vẻ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Nhận biết: Trạng ngữ chỉ thời gian "Hôm qua (きのう)" và câu kết "Rất vui (たのしかったです)" làm căn cứ chia động từ ở thể quá khứ khẳng định (ました).' 
+          exp: '📖 Dịch nghĩa:\nSau đó, tôi đã xem phim.\n\n✍️ Phân tích đáp án:\n- みました (mimashita): Đã xem → Chọn vì toàn bộ câu chuyện diễn ra vào hôm qua (きのう - quá khứ).\n- みます (mimasu): Xem (thì hiện tại/tương lai) → Sai thì.\n- みません (mimasen): Không xem → Trái nghĩa ngữ cảnh vui vẻ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Nhận biết: Trạng ngữ chỉ thời gian "Hôm qua (きのう)" và câu kết "Rất vui (たのしかったです)" làm căn cứ chia động từ ở thể quá khứ khẳng định (ました).' 
         }
       ]
     }
@@ -171,19 +301,19 @@ const pool_6_10 = {
       q: '【手紙】を かきます。', 
       o: ['てがみ', 'でがみ', 'てかみ', 'đọc sai'], 
       c: 0, 
-      exp: '📖 Dịch nghĩa:\nTôi viết thư.\n\n✍️ Phân tích đáp án:\n- てがみ (tegami): Bức thư $→$ Chọn.\n- Các đáp án khác sai âm đục (tenten) hoặc phát âm.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán gồm hai từ ghép: 手 (Thủ - tay) và 紙 (Chỉ - giấy). Giấy viết bằng tay chính là bức thư.' 
+      exp: '📖 Dịch nghĩa:\nTôi viết thư.\n\n✍️ Phân tích đáp án:\n- てがみ (tegami): Bức thư → Chọn.\n- Các đáp án khác sai âm đục (tenten) hoặc phát âm.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán gồm hai từ ghép: 手 (Thủ - tay) và 紙 (Chỉ - giấy). Giấy viết bằng tay chính là bức thư.' 
     },
     { 
       q: '【えいご】を べんきょうします。', 
       o: ['英話', '英語', 'khác', 'khác'], 
       c: 1, 
-      exp: '📖 Dịch nghĩa:\nTôi học tiếng Anh.\n\n✍️ Phân tích đáp án:\n- 英語 (Anh Ngữ): Tiếng Anh $→$ Chọn.\n- 英話: Viết sai chữ Hán (chữ 話 - Thoại sai).\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ 語 (Ngữ) cấu tạo gồm bộ Ngôn (nói), chữ Ngũ (năm) và chữ Khẩu (miệng).' 
+      exp: '📖 Dịch nghĩa:\nTôi học tiếng Anh.\n\n✍️ Phân tích đáp án:\n- 英語 (Anh Ngữ): Tiếng Anh → Chọn.\n- 英話: Viết sai chữ Hán (chữ 話 - Thoại sai).\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ 語 (Ngữ) cấu tạo gồm bộ Ngôn (nói), chữ Ngũ (năm) và chữ Khẩu (miệng).' 
     },
     { 
       q: '【新しい】 くるまです。', 
       o: ['あたらし', 'あたらしい', 'khác', 'khác'], 
       c: 1, 
-      exp: 'Dịch nghĩa:\nChiếc xe hơi mới.\n\n✍️ Phân tích đáp án:\n- あたらしい (atarashii): Mới $→$ Chọn.\n- Chú ý phần Okurigana đi kèm sau chữ Hán 新 là しい.' 
+      exp: 'Dịch nghĩa:\nChiếc xe hơi mới.\n\n✍️ Phân tích đáp án:\n- あたらしい (atarashii): Mới → Chọn.\n- Chú ý phần Okurigana đi kèm sau chữ Hán 新 là しい.' 
     },
     { 
       q: '【古い】 じてんしゃです。', 
@@ -438,7 +568,7 @@ const pool_11_15 = {
           q: '（　２　）に入れるものはđầu/nơi/nào?', 
           o: ['いき', 'khác', 'khác', 'khác'], 
           c: 0, 
-          exp: '📖 Dịch nghĩa:\nMuốn đi học đại học.\n- Đứng trước たい là động từ thể ます bỏ ます (いきます $→$ いき).' 
+          exp: '📖 Dịch nghĩa:\nMuốn đi học đại học.\n- Đứng trước たい là động từ thể ます bỏ ます (いきます → いき).' 
         }
       ]
     }
@@ -451,7 +581,7 @@ const pool_16_20 = {
       q: 'えいがを 【見】ます。', 
       o: ['み', 'khác', 'khác', 'khác'], 
       c: 0, 
-      exp: '📖 Dịch nghĩa:\nXem phim.\n\n✍️ Phân tích đáp án:\n- み: Cách đọc chữ 見 trong động từ 見ます $→$ Chọn.' 
+      exp: '📖 Dịch nghĩa:\nXem phim.\n\n✍️ Phân tích đáp án:\n- み: Cách đọc chữ 見 trong động từ 見ます → Chọn.' 
     },
     { 
       q: 'あした 【雨】が ふります。', 
@@ -758,7 +888,7 @@ for (const p of POOLS) {
           question: q.q,
           options: shuffled.options,
           correctIndex: shuffled.correctIndex,
-          explanation: q.exp
+          explanation: appendVocabulary(q.q, q.exp)
         });
       }
       return selected;
@@ -798,7 +928,7 @@ for (const p of POOLS) {
         question: q.q,
         options: shuff.options,
         correctIndex: shuff.correctIndex,
-        explanation: q.exp
+        explanation: appendVocabulary(q.q, q.exp)
       });
     });
     review.passages.push({
