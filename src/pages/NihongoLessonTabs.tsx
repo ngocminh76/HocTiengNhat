@@ -3,7 +3,7 @@ import type { NihongoLesson, LessonWord, LessonReading } from '../data/nihongo-l
 import { KANJI_N5 } from '../data/kanji-n5';
 import * as wanakana from 'wanakana';
 
-import { getWordKanjiLevel } from '../utils/kanji';
+import { getWordKanjiLevel, N5_KANJI_CHARS } from '../utils/kanji';
 
 interface WordMastery { streak: number; total: number; correct: number; }
 type MasteryMap = Record<string, WordMastery>;

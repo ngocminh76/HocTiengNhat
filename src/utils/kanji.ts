@@ -1,6 +1,6 @@
 import { KANJI_N5 } from '../data/kanji-n5';
 
-const N5_KANJI_CHARS = new Set(KANJI_N5.map(k => k.kanji));
+export const N5_KANJI_CHARS = new Set(KANJI_N5.map(k => k.kanji));
 
 export function getWordKanjiLevel(word: string): 'N5' | 'N4+' | 'Kana' {
   const kanjiMatches = word.match(/[\u4e00-\u9faf]/g);
