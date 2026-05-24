@@ -42,13 +42,16 @@ const PASSAGE_TRANSLATIONS: Record<string, string[]> = {
 };
 
 const getPassageTranslation = (reviewId: string) => {
-  if (reviewId.startsWith('review_1_5_')) return PASSAGE_TRANSLATIONS['review_1_5'];
-  if (reviewId.startsWith('review_6_10_')) return PASSAGE_TRANSLATIONS['review_6_10'];
-  if (reviewId.startsWith('review_11_15_')) return PASSAGE_TRANSLATIONS['review_11_15'];
-  if (reviewId.startsWith('review_16_20_')) return PASSAGE_TRANSLATIONS['review_16_20'];
-  if (reviewId.startsWith('review_21_25_')) return PASSAGE_TRANSLATIONS['review_21_25'];
+  if (!reviewId) return null;
+  const normalized = reviewId.toLowerCase();
+  if (normalized.includes('review_1_5')) return PASSAGE_TRANSLATIONS['review_1_5'];
+  if (normalized.includes('review_6_10')) return PASSAGE_TRANSLATIONS['review_6_10'];
+  if (normalized.includes('review_11_15')) return PASSAGE_TRANSLATIONS['review_11_15'];
+  if (normalized.includes('review_16_20')) return PASSAGE_TRANSLATIONS['review_16_20'];
+  if (normalized.includes('review_21_25')) return PASSAGE_TRANSLATIONS['review_21_25'];
   return null;
 };
+
 
 export function DokkaiReviewPage({ reviewId, onHome, addXP, onComplete }: Props) {
   const review = DOKKAI_REVIEWS.find(r => r.id === reviewId);
@@ -193,16 +196,16 @@ export function DokkaiReviewPage({ reviewId, onHome, addXP, onComplete }: Props)
                   {passage.htmlContent ? (
                     <div dangerouslySetInnerHTML={{ __html: passage.htmlContent }} />
                   ) : (() => {
-                    const translation = getPassageTranslation(reviewId);
+                    const translation = getPassageTranslation(review.id);
                     return translation ? (
-                      <div className="passage-row">
-                        <div className="passage-col" style={{ fontSize: 18, lineHeight: 1.8, color: 'var(--text)', background: 'rgba(122, 162, 247, 0.02)', padding: '20px', borderRadius: 12, borderLeft: '4px solid var(--blue)' }}>
+                      <div style={{ display: 'flex', gap: '24px', flexWrap: 'wrap', width: '100%' }}>
+                        <div style={{ flex: '1 1 280px', minWidth: '280px', fontSize: 18, lineHeight: 1.8, color: 'var(--text)', background: 'rgba(122, 162, 247, 0.02)', padding: '20px', borderRadius: 12, borderLeft: '4px solid var(--blue)', boxSizing: 'border-box' }}>
                           <div style={{ fontSize: 13, fontWeight: 800, color: 'var(--blue)', marginBottom: 12, textTransform: 'uppercase', letterSpacing: 0.5 }}>Đoạn văn chính (日本語)</div>
                           {passage.text?.map((para, i) => (
                             <p key={i} style={{ margin: '0 0 12px 0' }}>{para}</p>
                           ))}
                         </div>
-                        <div className="passage-col" style={{ fontSize: 16, lineHeight: 1.8, color: 'var(--text)', background: 'rgba(255, 184, 108, 0.02)', padding: '20px', borderRadius: 12, borderLeft: '4px solid var(--gold)', fontStyle: 'italic' }}>
+                        <div style={{ flex: '1 1 280px', minWidth: '280px', fontSize: 16, lineHeight: 1.8, color: 'var(--text)', background: 'rgba(255, 184, 108, 0.02)', padding: '20px', borderRadius: 12, borderLeft: '4px solid var(--gold)', fontStyle: 'italic', boxSizing: 'border-box' }}>
                           <div style={{ fontSize: 13, fontWeight: 800, color: 'var(--gold)', marginBottom: 12, textTransform: 'uppercase', letterSpacing: 0.5, fontStyle: 'normal' }}>Dịch nghĩa (Tiếng Việt)</div>
                           {translation.map((para, i) => (
                             <p key={i} style={{ margin: '0 0 12px 0' }}>{para}</p>
