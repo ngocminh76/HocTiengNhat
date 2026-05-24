@@ -256,14 +256,14 @@ export function JlptTestPage({ test, onBack, onHome }: Props) {
                       <span style={{ color: 'var(--mute)', fontSize: 13 }}>| Kết quả bài làm</span>
                     </div>
                   )}
-                  <div style={{ padding: 16, fontSize: 14, lineHeight: 1.6 }}>
+                  <div style={{ padding: 16, fontSize: 14, lineHeight: 1.6, whiteSpace: 'pre-wrap' }}>
                     {q.translation && (
                       <div style={{ marginBottom: 12 }}>
                         <strong style={{ color: 'var(--gold)' }}>Dịch nghĩa:</strong> {q.translation}
                       </div>
                     )}
                     <div>
-                      <strong style={{ color: 'var(--primary)' }}>Giải thích:</strong> {q.explanation}
+                      <strong style={{ color: 'var(--primary)' }}>Giải thích:</strong><br />{q.explanation}
                     </div>
                   </div>
                 </div>
