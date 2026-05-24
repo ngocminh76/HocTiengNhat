@@ -132,10 +132,67 @@ export function NihongoLessonPage({ lessons, onHome, onLessonComplete, sentenceM
       : (masteredCount === mergedWords.length || isPracticed)
   );
 
+  const getCategoryForTab = (currentTab: string): string => {
+    if (currentTab === 'vocab' || currentTab === 'grammar') return 'theory';
+    if (['flash', 'listen', 'match', 'typing', 'summary'].includes(currentTab)) return 'vocab_practice';
+    if (['grammar_quiz', 'translate', 'listen_sentence'].includes(currentTab)) return 'sentence_practice';
+    if (currentTab === 'exam' || currentTab.startsWith('read')) return 'reading_exam';
+    if (currentTab === 'stats') return 'summary_stats';
+    return 'theory';
+  };
+
+  const activeCategory = getCategoryForTab(tab);
+
+  const handleCategoryClick = (catId: string) => {
+    if (catId === 'theory') setTab('vocab');
+    else if (catId === 'vocab_practice') setTab('flash');
+    else if (catId === 'sentence_practice') {
+      if (lessons.some(l => l.grammarExercises)) setTab('grammar_quiz');
+      else setTab('translate');
+    }
+    else if (catId === 'reading_exam') {
+      if (mergedReadings.length > 0) setTab('read1');
+      else setTab('exam');
+    }
+    else if (catId === 'summary_stats') setTab('stats');
+  };
+
+  const categories = [
+    { id: 'theory', icon: '📚', label: 'Lý Thuyết' },
+    { id: 'vocab_practice', icon: '🧩', label: 'Luyện Từ' },
+    { id: 'sentence_practice', icon: '✍️', label: 'Luyện Câu' },
+    { id: 'reading_exam', icon: '📑', label: 'Đọc & Thi' },
+    { id: 'summary_stats', icon: '📊', label: 'Tổng Kết' },
+  ];
+
+  const renderSubButton = (id: string, label: string) => {
+    const isActive = tab === id;
+    return (
+      <button
+        key={id}
+        onClick={() => setTab(id)}
+        style={{
+          padding: '8px 16px',
+          borderRadius: 20,
+          fontSize: 12,
+          fontWeight: 700,
+          background: isActive ? 'rgba(255, 196, 0, 0.12)' : 'rgba(255, 255, 255, 0.02)',
+          border: isActive ? '1px solid var(--gold)' : '1px solid var(--border)',
+          color: isActive ? 'var(--gold)' : 'var(--mute)',
+          cursor: 'pointer',
+          transition: 'all 0.15s',
+          whiteSpace: 'nowrap',
+        }}
+      >
+        {label}
+      </button>
+    );
+  };
+
   return (
     <div className="screen" style={{ padding: '16px 0' }}>
       {/* Header */}
-      <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 16, paddingBottom: 12, paddingTop: 16, borderBottom: '1px solid var(--border)', position: 'sticky', top: 50, zIndex: 40, background: 'var(--bg)' }}>
+      <div style={{ display: 'flex', alignItems: 'center', gap: 12, marginBottom: 20, paddingBottom: 12, borderBottom: '1px solid var(--border)', sticky: 'top', background: 'var(--bg)' }}>
         <button className="btn-back no-print" onClick={onHome}>← Danh sách bài</button>
         <div style={{ flex: 1 }}>
           <div style={{ fontSize: 11, color: 'var(--mute)', fontWeight: 700, letterSpacing: 1 }}>{isCombined ? 'Tổng Ôn Luyện' : lessons[0].chapter}</div>
@@ -151,117 +208,93 @@ export function NihongoLessonPage({ lessons, onHome, onLessonComplete, sentenceM
         </div>
       </div>
 
-      {/* 2-col: sidebar + content */}
-      <div style={{ display: 'grid', gap: 16, alignItems: 'start' }} className="print-grid">
-
-        {/* LEFT SIDEBAR */}
-        <div className="no-print" style={{ position: 'sticky', top: 140 }}>
-          <div style={{ background: 'var(--bg-card)', borderRadius: 14, border: '1px solid var(--border)', overflow: 'hidden' }}>
-
-            <div style={{ padding: '8px 12px', fontSize: 10, fontWeight: 800, textTransform: 'uppercase', letterSpacing: 1, color: 'var(--mute)', background: 'rgba(255,255,255,0.02)', borderBottom: '1px solid var(--border)' }}>
-              📚 Học & Luyện Tập
-            </div>
-            {([
-              { id: 'vocab', icon: '📋', label: 'Từ Vựng', sub: `${mergedWords.length} từ` },
-              { id: 'grammar', icon: '📖', label: 'Ngữ Pháp', sub: 'Lý thuyết & Ví dụ', hidden: !lessons.some(l => l.grammar) },
-              { id: 'grammar_quiz', icon: '🧩', label: 'Luyện Ngữ Pháp', sub: 'Trắc nghiệm đục lỗ', hidden: !lessons.some(l => l.grammarExercises) },
-              { id: 'flash', icon: '⚡', label: 'Flash Quiz', sub: '' },
-              { id: 'listen', icon: '🎧', label: 'Nghe & Gõ Từ', sub: '' },
-              { id: 'match', icon: '🔗', label: 'Ghép Từ', sub: 'Hiragana ↔ Kanji' },
-              { id: 'typing', icon: '⌨️', label: 'Gõ Từ Vựng', sub: 'Kanji ↔ Hiragana' },
-              { id: 'summary', icon: '📝', label: 'Điền Từ (Bảng)', sub: 'Việt ↔ Nhật' },
-              { id: 'translate', icon: '✍️', label: 'Dịch Câu', sub: 'Việt → Nhật' },
-              { id: 'listen_sentence', icon: '⌨️', label: 'Nghe Gõ Câu', sub: 'Nghe → Romaji', hidden: !supported },
-              { id: 'exam', icon: '📝', label: 'Thi Thử N5', sub: 'JLPT Mock', locked: !isExamUnlocked },
-            ] as const).filter(t => !t.hidden).map(t => {
-              const isLocked = 'locked' in t ? t.locked : false;
-              return (
-              <button key={t.id} onClick={() => !isLocked && setTab(t.id as Tab)} style={{
-                width: '100%', display: 'flex', alignItems: 'center', gap: 10, padding: '10px 14px',
-                border: 'none', background: tab === t.id ? 'rgba(255,196,0,0.1)' : 'transparent',
-                borderLeft: `3px solid ${tab === t.id ? 'var(--gold)' : 'transparent'}`,
-                cursor: isLocked ? 'not-allowed' : 'pointer', transition: 'all 0.15s', textAlign: 'left',
-                opacity: isLocked ? 0.5 : 1
-              }}>
-                <span style={{ fontSize: 16 }}>{isLocked ? '🔒' : t.icon}</span>
-                <div style={{ flex: 1 }}>
-                  <div style={{ fontSize: 13, fontWeight: tab === t.id ? 800 : 600, color: tab === t.id ? 'var(--gold)' : 'var(--text)' }}>{t.label}</div>
-                  {t.sub && <div style={{ fontSize: 10, color: 'var(--mute)' }}>{t.sub}</div>}
-                </div>
-              </button>
-            )})}
-
-            <div style={{ padding: '8px 12px', fontSize: 10, fontWeight: 800, textTransform: 'uppercase', letterSpacing: 1, color: 'var(--mute)', background: 'rgba(255,255,255,0.02)', borderTop: '1px solid var(--border)', borderBottom: '1px solid var(--border)' }}>
-              📖 Bài Đọc Hiểu
-            </div>
-            {mergedReadings.map((r, i) => {
-              const tabId = `read${i + 1}`;
-              const isReadingTab = tab === tabId;
-              return (
-                <button key={i} onClick={() => setTab(tabId)} style={{
-                  width: '100%', display: 'flex', alignItems: 'center', gap: 10, padding: '10px 14px',
-                  border: 'none', background: isReadingTab ? 'rgba(255,196,0,0.1)' : 'transparent',
-                  borderLeft: `3px solid ${isReadingTab ? 'var(--gold)' : 'transparent'}`,
-                  cursor: 'pointer', transition: 'all 0.15s', textAlign: 'left',
-                }}>
-                  <span style={{ fontSize: 16 }}>📑</span>
-                  <div style={{ flex: 1 }}>
-                    <div style={{ fontSize: 13, fontWeight: isReadingTab ? 800 : 600, color: isReadingTab ? 'var(--gold)' : 'var(--text)' }}>
-                      Bài {i + 1}
-                    </div>
-                  </div>
-                </button>
-              );
-            })}
-
-            <div style={{ borderTop: '1px solid var(--border)' }}>
-              <button onClick={() => setTab('stats')} style={{
-                width: '100%', display: 'flex', alignItems: 'center', gap: 10, padding: '10px 14px',
-                border: 'none', background: tab === 'stats' ? 'rgba(6,214,160,0.1)' : 'transparent',
-                borderLeft: `3px solid ${tab === 'stats' ? 'var(--green)' : 'transparent'}`,
-                cursor: 'pointer', transition: 'all 0.15s', textAlign: 'left',
-              }}>
-                <span style={{ fontSize: 16 }}>📊</span>
-                <div>
-                  <div style={{ fontSize: 13, fontWeight: 600, color: tab === 'stats' ? 'var(--green)' : 'var(--text)' }}>Tổng Kết</div>
-                  <div style={{ fontSize: 10, color: tab === 'stats' ? 'var(--green)' : 'var(--mute)' }}>{masteredCount}/{mergedWords.length} thuộc</div>
-                </div>
-              </button>
-            </div>
-          </div>
-        </div>
-
-        {/* CONTENT */}
-        <div style={{ flex: 1, minWidth: 0, paddingBottom: 100 }}>
-          {tab === 'vocab' && <VocabTab words={mergedWords} mastery={mastery} speak={speak} supported={supported} />}
-          {tab === 'grammar' && lessons.some(l => l.grammar) && <GrammarTab grammar={lessons.flatMap(l => l.grammar || [])} speak={speak} supported={supported} />}
-          {tab === 'grammar_quiz' && lessons.some(l => l.grammarExercises) && <GrammarQuizTab exercises={lessons.flatMap(l => l.grammarExercises || [])} speak={speak} supported={supported} />}
-          {tab === 'flash' && <FlashTab words={mergedWords} mastery={mastery} onUpdate={updateMastery} speak={speak} supported={supported} />}
-          {tab === 'listen' && <ListenTab words={mergedWords} mastery={mastery} onUpdate={updateMastery} speak={speak} supported={supported} />}
-          {tab === 'match' && <MatchTab words={mergedWords} skipCount={masteredCount} />}
-          {tab === 'typing' && <TypingTab words={mergedWords} mastery={mastery} onUpdate={updateMastery} speak={speak} supported={supported} />}
-          {tab === 'summary' && <SummaryTableTab words={mergedWords} speak={speak} supported={supported} />}
-          { tab === 'translate' && <TranslateTab lesson={{ words: mergedWords, readings: mergedReadings } as any} speak={speak} supported={supported} sentenceMastery={sentenceMastery} updateSentenceMastery={updateSentenceMastery} /> }
-          { tab === 'listen_sentence' && <ListenSentenceTab lesson={{ words: mergedWords, readings: mergedReadings } as any} speak={speak} supported={supported} sentenceMastery={sentenceMastery} updateSentenceMastery={updateSentenceMastery} /> }
-          {tab === 'exam' && (
-            <N5ExamTab
-              words={mergedWords}
-              onComplete={isCombined ? undefined : (pct, rank) => {
-                if ((rank === 'A' || rank === 'S') && onLessonComplete) {
-                  onLessonComplete(lessons[0].id);
-                }
+      {/* Categories Horizontal Menu (Row 1) */}
+      <div style={{ display: 'flex', gap: 8, background: 'var(--bg-card)', padding: '8px', borderRadius: 12, border: '1px solid var(--border)', overflowX: 'auto', marginBottom: 14 }} className="no-print">
+        {categories.map(cat => {
+          const isActive = activeCategory === cat.id;
+          return (
+            <button
+              key={cat.id}
+              onClick={() => handleCategoryClick(cat.id)}
+              style={{
+                flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 8,
+                padding: '10px 16px', borderRadius: 8, fontSize: 13, fontWeight: 700,
+                background: isActive ? 'var(--red)' : 'transparent',
+                color: isActive ? '#fff' : 'var(--mute)',
+                transition: 'all 0.15s',
+                whiteSpace: 'nowrap',
+                minWidth: 110,
+                cursor: 'pointer'
               }}
-            />
-          )}
-          {tab.startsWith('read') && (
-            <ReadingTab
-              reading={mergedReadings[parseInt(tab.replace('read', '')) - 1]}
-              speak={speak}
-              supported={supported}
-            />
-          )}
-          {tab === 'stats' && <StatsTab words={mergedWords} mastery={mastery} masteredCount={masteredCount} passMode={passMode} setPassMode={setPassMode} />}
-        </div>
+            >
+              <span style={{ fontSize: 15 }}>{cat.icon}</span>
+              <span>{cat.label}</span>
+            </button>
+          );
+        })}
+      </div>
+
+      {/* Sub Tabs Horizontal Menu (Row 2) */}
+      <div style={{ display: 'flex', gap: 8, padding: '0 4px', marginBottom: 24, overflowX: 'auto' }} className="no-print">
+        {activeCategory === 'theory' && [
+          { id: 'vocab', label: '📋 Bảng Từ Vựng' },
+          { id: 'grammar', label: '📖 Ngữ Pháp Lý Thuyết', hidden: !lessons.some(l => l.grammar) }
+        ].filter(t => !t.hidden).map(sub => renderSubButton(sub.id, sub.label))}
+
+        {activeCategory === 'vocab_practice' && [
+          { id: 'flash', label: '⚡ Flash Quiz' },
+          { id: 'listen', label: '🎧 Nghe & Gõ Từ' },
+          { id: 'match', label: '🔗 Ghép Cặp Từ' },
+          { id: 'typing', label: '⌨️ Gõ Từ Vựng' },
+          { id: 'summary', label: '📝 Điền Từ Bảng' }
+        ].map(sub => renderSubButton(sub.id, sub.label))}
+
+        {activeCategory === 'sentence_practice' && [
+          { id: 'grammar_quiz', label: '🧩 Luyện Ngữ Pháp', hidden: !lessons.some(l => l.grammarExercises) },
+          { id: 'translate', label: '✍️ Dịch Câu Nhật' },
+          { id: 'listen_sentence', label: '⌨️ Nghe Gõ Câu' }
+        ].filter(t => !t.hidden).map(sub => renderSubButton(sub.id, sub.label))}
+
+        {activeCategory === 'reading_exam' && [
+          ...mergedReadings.map((_, i) => ({ id: `read${i + 1}`, label: `📑 Bài Đọc ${i + 1}` })),
+          { id: 'exam', label: '📝 Thi Thử JLPT N5' }
+        ].map(sub => renderSubButton(sub.id, sub.label))}
+
+        {activeCategory === 'summary_stats' && [
+          { id: 'stats', label: '📊 Tổng Kết Độ Thuộc' }
+        ].map(sub => renderSubButton(sub.id, sub.label))}
+      </div>
+
+      {/* Main Content Area (Full Width) */}
+      <div style={{ width: '100%', paddingBottom: 80 }}>
+        {tab === 'vocab' && <VocabTab words={mergedWords} mastery={mastery} speak={speak} supported={supported} />}
+        {tab === 'grammar' && lessons.some(l => l.grammar) && <GrammarTab grammar={lessons.flatMap(l => l.grammar || [])} speak={speak} supported={supported} />}
+        {tab === 'grammar_quiz' && lessons.some(l => l.grammarExercises) && <GrammarQuizTab exercises={lessons.flatMap(l => l.grammarExercises || [])} speak={speak} supported={supported} />}
+        {tab === 'flash' && <FlashTab words={mergedWords} mastery={mastery} onUpdate={updateMastery} speak={speak} supported={supported} />}
+        {tab === 'listen' && <ListenTab words={mergedWords} mastery={mastery} onUpdate={updateMastery} speak={speak} supported={supported} />}
+        {tab === 'match' && <MatchTab words={mergedWords} skipCount={masteredCount} />}
+        {tab === 'typing' && <TypingTab words={mergedWords} mastery={mastery} onUpdate={updateMastery} speak={speak} supported={supported} />}
+        {tab === 'summary' && <SummaryTableTab words={mergedWords} speak={speak} supported={supported} />}
+        {tab === 'translate' && <TranslateTab lesson={{ words: mergedWords, readings: mergedReadings } as any} speak={speak} supported={supported} sentenceMastery={sentenceMastery} updateSentenceMastery={updateSentenceMastery} />}
+        {tab === 'listen_sentence' && <ListenSentenceTab lesson={{ words: mergedWords, readings: mergedReadings } as any} speak={speak} supported={supported} sentenceMastery={sentenceMastery} updateSentenceMastery={updateSentenceMastery} />}
+        {tab === 'exam' && (
+          <N5ExamTab
+            words={mergedWords}
+            onComplete={isCombined ? undefined : (pct, rank) => {
+              if ((rank === 'A' || rank === 'S') && onLessonComplete) {
+                onLessonComplete(lessons[0].id);
+              }
+            }}
+          />
+        )}
+        {tab.startsWith('read') && (
+          <ReadingTab
+            reading={mergedReadings[parseInt(tab.replace('read', '')) - 1]}
+            speak={speak}
+            supported={supported}
+          />
+        )}
+        {tab === 'stats' && <StatsTab words={mergedWords} mastery={mastery} masteredCount={masteredCount} passMode={passMode} setPassMode={setPassMode} />}
       </div>
     </div>
   );
