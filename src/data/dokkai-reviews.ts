@@ -6,7 +6,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
   {
     "id": "review_1_5_1",
     "title": "Đề thi 1: Trạm Ôn Tập JLPT N5 (Bài 1 - 5)",
-    "description": "Bộ đề số 1. Các câu hỏi và bài đọc được thiết kế độc lập 100% để ôn luyện toàn diện.",
+    "description": "Bộ đề số 1. Được xáo trộn ngẫu nhiên để chống học vẹt.",
     "passages": [
       {
         "id": "p_review_1_5_1_moji1",
@@ -14,51 +14,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_1_5_1_m1_q0",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【電気会社】",
+            "question": "きょうは 【水曜日】です。",
             "options": [
-              "たいへんですね",
-              "どうぞよろしく",
-              "でんきかいしゃ",
-              "エレベーター"
+              "きんようび",
+              "すいようび",
+              "もくようび",
+              "かようび"
             ],
-            "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【電気会社】 có nghĩa là: **Công ty điện**.\n\n✍️ Phân tích đáp án:\n- **でんきかいしゃ** (denki gaisha): Cách đọc đúng của chữ Hán 【電気会社】.\n\n📚 Từ vựng bổ trợ:\n- 会社 (かいしゃ / kaisha): Công ty\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **ĐIỆN KHÍ HỘI XÃ**.\n- Mẹo nhớ: Công ty (会社) sản xuất và cung cấp điện khí (電気)."
+            "correctIndex": 1,
+            "explanation": "📖 Dịch nghĩa:\nHôm nay là thứ Tư.\n\n✍️ Phân tích đáp án:\n- すいようび (suiyoubi): Thứ Tư → Chọn.\n- かようび (kayoubi): Thứ Ba → Sai ngày.\n- もくようび (mokuyoubi): Thứ Năm → Sai ngày.\n- きんようび (kinyoubi): Thứ Sáu → Sai ngày.\n\n📝 Từ vựng trong câu:\n- 水曜日 (すいようび / suiyoubi): Thứ Tư\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">きょう</span> (Danh từ thời gian: \"Hôm nay\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chủ đề (Topic): \"thì, là\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">水曜日</span> (Danh từ: \"Thứ Tư\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ địa điểm / phương tiện (công cụ): \"ở tại / bằng\")\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán 【水曜日】 (Thủy Diệu Nhật) có nghĩa là ngày của nước → thứ Tư.\n- Mẹo học thứ tự các thứ trong tuần theo ngũ hành: Nhật (Chủ nhật), Nguyệt (Thứ hai), Hỏa (Thứ ba), Thủy (Thứ tư), Mộc (Thứ năm), Kim (Thứ sáu), Thổ (Thứ bảy)."
           },
           {
             "id": "m_review_1_5_1_m1_q1",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【昼】",
+            "question": "【毎日】 にほんごを べんきょうします。",
             "options": [
-              "ふつか",
-              "けさ",
-              "おくに",
-              "ひる"
+              "まいとし",
+              "まいしゅう",
+              "まいげつ",
+              "まいにち"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【昼】 có nghĩa là: **Buổi trưa**.\n\n✍️ Phân tích đáp án:\n- **ひる** (hiru): Cách đọc đúng của chữ Hán 【昼】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **TRÚ**.\n- Mẹo nhớ: Dùng thước (Xích) đo bóng mặt trời (Đán) để biết đã đến buổi Trưa (Trú)."
+            "explanation": "📖 Dịch nghĩa:\nHàng ngày tôi học tiếng Nhật.\n\n✍️ Phân tích đáp án:\n- まいにch (mainichi): Mỗi ngày, hàng ngày → Chọn.\n- まいしゅう (maishuu): Mỗi tuần → Sai tần suất.\n- まいげつ (maigetsu): Mỗi tháng → Sai tần suất.\n- まいとし (maitoshi): Mỗi năm → Sai tần suất.\n\n📝 Từ vựng trong câu:\n- 日本語 (にほんご / nihongo): Tiếng Nhật\n- 毎日 (まいにち / mainichi): Hàng ngày, mỗi ngày\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">毎日</span> (Danh từ thời gian: \"Hàng ngày\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">にほんご</span> (Danh từ (Tân ngữ - O): \"Tiếng Nhật\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ tân ngữ: \"tác động trực tiếp vào danh từ đứng trước\")\n- <span style=\"color: #ffb86c; font-weight: 800;\">べんきょうします</span> (Động từ (Verb - V): \"Học, nghiên cứu\")\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán 【毎日】 (Mỗi Nhật) có cách đọc tương ứng là まいにち.\n- Trợ từ を (wo) đứng trước động từ chỉ đối tượng tác động (học CÁI GÌ → học tiếng Nhật)."
           },
           {
             "id": "m_review_1_5_1_m1_q2",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【教師】",
+            "question": "【先月】、日本へ きました。",
             "options": [
-              "ネクタイ",
-              "〜から",
-              "きのう",
-              "きょうし"
+              "らいげつ",
+              "まいつき",
+              "せんげつ",
+              "こんげつ"
             ],
-            "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【教師】 có nghĩa là: **Giáo viên (nghề nghiệp)**.\n\n✍️ Phân tích đáp án:\n- **きょうし** (kyoushi): Cách đọc đúng của chữ Hán 【教師】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **GIÁO SƯ**.\n- Mẹo nhớ: Người thầy (Sư) chuyên giảng dạy (Giáo) kiến thức."
+            "correctIndex": 2,
+            "explanation": "📖 Dịch nghĩa:\nTháng trước tôi đã đến Nhật Bản.\n\n✍️ Phân tích đáp án:\n- せんげつ (sengetsu): Tháng trước → Chọn.\n- らいげつ (raigetsu): Tháng sau → Sai thời điểm.\n- こんげつ (kongetsu:): Tháng này → Sai thời điểm.\n- まいつき (maitsuki): Mỗi tháng → Sai ngữ cảnh.\n\n📝 Từ vựng trong câu:\n- 先月 (せんげつ / sengetsu): Tháng trước\n- 日本 (にほん / nihon): Nhật Bản\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">先月</span> (Danh từ thời gian: \"Tháng trước\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">日本</span> (Danh từ chỉ nơi chốn: \"Nhật Bản\")\n- <span style=\"color: #f73859; font-weight: 800;\">へ</span> (Trợ từ chỉ hướng: \"hướng đi đến địa điểm\")\n- <span style=\"color: #ffb86c; font-weight: 800;\">きました</span> (Động từ (quá khứ của きます): \"Đã đến\")\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán 【先月】 (Tiên Nguyệt - tháng trước). Âm Hán Việt \"Tiên\" (trước) đi với \"Nguyệt\" (tháng).\n- Mẹo ngữ pháp: Động từ ở quá khứ きました (đã đến) bổ trợ cho việc chọn thời gian trong quá khứ là \"Tháng trước\"."
           },
           {
             "id": "m_review_1_5_1_m1_q3",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【会議室】",
+            "question": "わたしの 【国】は ベトナムです。",
             "options": [
-              "おてあらい",
-              "すみません",
-              "がっこう",
-              "かいぎしつ"
+              "うち",
+              "いえ",
+              "まち",
+              "くに"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【会議室】 có nghĩa là: **Phòng họp**.\n\n✍️ Phân tích đáp án:\n- **かいぎしつ** (kaigishitsu): Cách đọc đúng của chữ Hán 【会議室】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **HỘI NGHỊ THẤT**.\n- Mẹo nhớ: Căn phòng (Thất) để mọi người gặp gỡ (Hội) và bàn luận (Nghị) là Phòng họp."
+            "explanation": "📖 Dịch nghĩa:\nĐất nước của tôi là Việt Nam.\n\n✍️ Phân tích đáp án:\n- くに (kuni): Đất nước, quốc gia → Chọn.\n- まち (machi): Phố, thị trấn → Sai nghĩa.\n- うち (uchi): Nhà/gia đình của tôi → Sai nghĩa.\n- いえ (ie): Ngôi nhà vật lý → Sai nghĩa.\n\n📝 Từ vựng trong câu:\n- ベトナム (Betonamu): Việt Nam\n- 国 (くに / kuni): Đất nước, quốc gia\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">わたし</span> (Danh từ (Chủ ngữ - S): \"Tôi\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ sở hữu / bổ nghĩa: \"của\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">国</span> (Danh từ: \"Đất nước\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chủ đề (Topic): \"thì, là\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ベトナム</span> (Danh từ (Tân ngữ - O): \"Việt Nam\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ địa điểm / phương tiện (công cụ): \"ở tại / bằng\")\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán 【国】 (Quốc) trong từ vựng N5 luôn được phát âm là くに (kuni).\n- Mẹo nhớ chữ: Trong nước (国) có ngọc quý (玉) được bao quanh bởi biên giới (囗)."
           }
         ]
       },
@@ -68,51 +68,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_1_5_1_m2_q0",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【ばん】",
+            "question": "ともだちと 【デパート】へ いきます。",
             "options": [
-              "電気",
-              "毎晩",
-              "駅",
-              "晩"
+              "デパート",
+              "デパード",
+              "テパート",
+              "デバート"
             ],
-            "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Buổi tối**.\n\n✍️ Phân tích đáp án:\n- **晩** (ばん): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **VÃN**.\n- Cấu tạo: 日 (Nhật - Ngày) + 免 (Miễn - Miễn trừ)"
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nTôi đi đến trung tâm thương mại cùng bạn bè.\n\n✍️ Phân tích đáp án:\n- デパート (depaato): Cửa hàng bách hóa → Chọn.\n- デバート: Viết sai chữ パ (pa) thành バ (ba).\n- テパート: Thiếu dấu đục ở chữ デ (de) thành テ (te).\n- デパード: Viết sai chữ ト (to) thành ド (do).\n\n📝 Từ vựng trong câu:\n- 友達 (ともだち / tomodachi): Bạn bè\n- デパート (depaato): Trung tâm thương mại, bách hóa\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ともだち</span> (Danh từ (Người đồng hành): \"Bạn bè\")\n- <span style=\"color: #f73859; font-weight: 800;\">と</span> (Trợ từ đồng hành: \"cùng với\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">デパート</span> (Danh từ chỉ nơi chốn: \"Bách hóa\")\n- <span style=\"color: #f73859; font-weight: 800;\">へ</span> (Trợ từ chỉ hướng: \"hướng đi đến địa điểm\")\n- <span style=\"color: #ffb86c; font-weight: 800;\">いきます</span> (Động từ (Verb - V): \"Đi\")\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Từ bắt nguồn từ tiếng Anh \"Department store\". Có dấu gạch ngang (ー) biểu thị trường âm kéo dài."
           },
           {
             "id": "m_review_1_5_1_m2_q1",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【がくせい】",
+            "question": "【でんしゃ】で かいしゃへ いきます。",
             "options": [
-              "友達",
-              "学生",
-              "カード",
-              "七日"
+              "電気",
+              "電波",
+              "電話",
+              "電車"
             ],
-            "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Học sinh, sinh viên**.\n\n✍️ Phân tích đáp án:\n- **学生** (がくせい): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **HỌC SINH**.\n- Cấu tạo: 学 (Học - Học tập) + 生 (Sinh - Người/sống)"
+            "correctIndex": 3,
+            "explanation": "📖 Dịch nghĩa:\nTôi đi làm bằng tàu điện.\n\n✍️ Phân tích đáp án:\n- 電車 (Điện Xa - xe chạy bằng điện): Tàu điện → Chọn.\n- 電気 (Điện Khí): Điện, đèn điện → Sai nghĩa.\n- 電話 (Điện Thoại): Điện thoại → Sai nghĩa.\n- 電波 (Điện Ba): Sóng điện → Sai nghĩa.\n\n📝 Từ vựng trong câu:\n- 電車 (でんしゃ / densha): Tàu điện\n- 会社 (かいしゃ / kaisha): Công ty\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">でんしゃ</span> (Danh từ (Phương tiện): \"Tàu điện\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ địa điểm / phương tiện (công cụ): \"ở tại / bằng\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">かいしゃ</span> (Danh từ chỉ nơi chốn: \"Công ty\")\n- <span style=\"color: #f73859; font-weight: 800;\">へ</span> (Trợ từ chỉ hướng: \"hướng đi đến địa điểm\")\n- <span style=\"color: #ffb86c; font-weight: 800;\">いきます</span> (Động từ (Verb - V): \"Đi\")\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Trợ từ で (de) đứng sau phương tiện di chuyển chỉ cách thức di chuyển (bằng tàu điện).\n- Mẹo viết chữ: Chữ 電 (Điện) gồm bộ Vũ (mưa) ở trên và chữ Thần (sấm sét) ở dưới."
           },
           {
             "id": "m_review_1_5_1_m2_q2",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【やすみます】",
+            "question": "【くるま】を かいました。",
             "options": [
-              "ネクタイ",
-              "休みます",
-              "〜から",
-              "私たち"
+              "東",
+              "重",
+              "庫",
+              "車"
             ],
-            "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Nghỉ ngơi**.\n\n✍️ Phân tích đáp án:\n- **休みます** (やすみます): Cách viết chữ Hán đúng của từ.\n\n📚 Từ vựng bổ trợ:\n- 休み (やすみ / yasumi): Ngày nghỉ\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **HƯU**.\n- Cấu tạo: 休 = 亻 (Nhân - Người) + 木 (Mộc - Cây)"
+            "correctIndex": 3,
+            "explanation": "📖 Dịch nghĩa:\nTôi đã mua ô tô.\n\n✍️ Phân tích đáp án:\n- 車 (Xa): Xe hơi, ô tô → Chọn.\n- 東 (Đông): Phía đông → Sai mặt chữ.\n- 重 (Trọng): Nặng → Sai mặt chữ.\n- 庫 (Khố): Kho → Sai mặt chữ.\n\n📝 Từ vựng trong câu:\n- 車 (くるま / kuruma): Ô tô, xe hơi\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">くるま</span> (Danh từ (Tân ngữ - O): \"Ô tô, xe hơi\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ tân ngữ: \"tác động trực tiếp vào danh từ đứng trước\")\n- <span style=\"color: #ffb86c; font-weight: 800;\">かいました</span> (Động từ (quá khứ của かいます): \"Đã mua\")\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán 【車】 vẽ hình cái bánh xe và trục xe nhìn từ trên xuống. Đây là bộ thủ cơ bản đại diện cho các loại xe cộ."
           },
           {
             "id": "m_review_1_5_1_m2_q3",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【なんにち】",
+            "question": "あの 【レストラン】は おいしいです。",
             "options": [
-              "受付",
-              "今",
-              "何日",
-              "いくら"
+              "レスドラン",
+              "レストラン",
+              "レストラソ",
+              "レストンラ"
             ],
-            "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Ngày mấy**.\n\n✍️ Phân tích đáp án:\n- **何日** (なんにち): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **HÀ NHẬT**.\n- Cấu tạo: 何 (Hà - Cái gì) + 日 (Nhật - Ngày)"
+            "correctIndex": 1,
+            "explanation": "📖 Dịch nghĩa:\nNhà hàng kia ngon lắm.\n\n✍️ Phân tích đáp án:\n- レストラン (resutoran): Nhà hàng → Chọn.\n- レストンラ: Viết sai vị trí chữ ン và ラ.\n- レストラソ: Viết sai chữ ン (n) thành chữ ソ (so) nét hướng từ trên xuống.\n- レスドラン: Thừa dấu đục (tenten) ở chữ ト thành ド.\n\n📝 Từ vựng trong câu:\n- レストラン (resutoran): Nhà hàng\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ sở hữu / bổ nghĩa: \"của\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">レストラン</span> (Danh từ chỉ nơi chốn: \"Nhà hàng\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chủ đề (Topic): \"thì, là\")\n- <span style=\"color: #ffb86c; font-weight: 800;\">おいしい</span> (Tính từ (Adjective): \"Ngon\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ địa điểm / phương tiện (công cụ): \"ở tại / bằng\")\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Mẹo nhận biết chữ Katakana: Chữ ン (n) nét móc kéo từ dưới lên, chữ ソ (so) nét kéo vuốt từ trên xuống."
           }
         ]
       },
@@ -122,51 +122,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_1_5_1_m3_q0",
-            "question": "きのうは どこ 【　　　】 行きませんでした。",
+            "question": "あしたは やすみです。うちで ゆっくり 【　　　】。",
             "options": [
-              "へも",
-              "にも",
-              "をも",
-              "がも"
+              "おわります",
+              "おきます",
+              "はたらきます",
+              "やすみます"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nHôm qua tôi đã không đi đâu cả.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **へも**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nCấu trúc phủ định hoàn toàn: Từ để hỏi (どこ) + trợ từ (へ) + も + V(phủ định)."
+            "correctIndex": 3,
+            "explanation": "📖 Dịch nghĩa:\nNgày mai là ngày nghỉ. Tôi sẽ nghỉ ngơi thong thả ở nhà.\n\n✍️ Phân tích đáp án:\n- やすみます (yasumimasu): Nghỉ ngơi → Chọn vì khớp với vế \"ngày nghỉ (やすみ)\".\n- おきます (okimasu): Thức dậy → Không phù hợp ngữ cảnh.\n- はたらきます (hatarakimasu): Làm việc → Trái nghĩa với ngày nghỉ.\n- おわります (owarimasu): Kết thúc → Không phù hợp.\n\n📝 Từ vựng trong câu:\n- ゆっくり (yukkuri): Thong thả, thong dong\n- 明日 (あした / ashita): Ngày mai\n- 休み (やすみ / yasumi): Ngày nghỉ\n- 家 (うち / uchi): Nhà (ở)\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あした</span> (Danh từ thời gian: \"Ngày mai\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chủ đề (Topic): \"thì, là\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">やすみ</span> (Danh từ: \"Ngày nghỉ\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ địa điểm / phương tiện (công cụ): \"ở tại / bằng\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">うち</span> (Danh từ chỉ nơi chốn: \"Nhà (ở)\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ địa điểm / phương tiện (công cụ): \"ở tại / bằng\")\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Cụm từ đi liền: ゆっくり 休みます (Nghỉ ngơi thong thả, thư giãn).\n- Trợ từ で (de) chỉ địa điểm xảy ra hành động (nghỉ ngơi ở nhà - うちで)."
           },
           {
             "id": "m_review_1_5_1_m3_q1",
-            "question": "この カメラは ミラーさんのですか。 ...いいえ、わたし 【　　　】 じゃありません。",
+            "question": "スーパーで くだものを 【　　　】。",
             "options": [
-              "は",
-              "の",
-              "が",
-              "も"
+              "あいます",
+              "かいます",
+              "すいます",
+              "のみます"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nCái máy ảnh này của anh Miller à? ...Không, không phải của tôi.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **の**.\n\n📚 Từ vựng bổ trợ:\n- カメラ (kamera): Máy ảnh\n- 絵 (え / e): Bức tranh\n\n💡 Ngữ pháp & Mẹo nhớ:\nCâu gốc là わたしの(カメラ)じゃありません, danh từ カメラ được lược bỏ đi."
+            "explanation": "📖 Dịch nghĩa:\nTôi mua trái cây ở siêu thị.\n\n✍️ Phân tích đáp án:\n- かいます (kaimasu): Mua → Chọn vì là hành động phổ biến đối với hàng hóa (くだもの) tại siêu thị.\n- あいます (aimasu): Gặp gỡ → Không đi với hoa quả.\n- すいます (suimasu): Hút thuốc → Không đi với hoa quả.\n- のみます (nomimasu): Uống → Hoa quả dạng rắn không dùng động từ uống.\n\n📝 Từ vựng trong câu:\n- スーパー (suupaa): Siêu thị\n- 果物 (くだもの / kudamono): Trái cây, hoa quả\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">スーパー</span> (Danh từ chỉ nơi chốn: \"Siêu thị\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ địa điểm / phương tiện (công cụ): \"ở tại / bằng\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">くだもの</span> (Danh từ (Tân ngữ - O): \"Trái cây, hoa quả\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ tân ngữ: \"tác động trực tiếp vào danh từ đứng trước\")\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Trợ từ で (de) chỉ địa điểm diễn ra hành động mua bán (ở siêu thị - スーパーで).\n- Trợ từ を (wo) liên kết tân ngữ tác động (trái cây)."
           },
           {
             "id": "m_review_1_5_1_m3_q2",
-            "question": "これは 【　　　】 の くるまですか。 ...ドイツの くるまです。",
+            "question": "きのう １０じに 【　　　】。",
             "options": [
-              "だれ",
-              "なん",
-              "どこ",
-              "どれ"
+              "いきました",
+              "おきました",
+              "きました",
+              "ねました"
             ],
-            "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nĐây là ô tô của nước nào? ...Là ô tô của Đức.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **どこ**.\n\n📚 Từ vựng bổ trợ:\n- 車 (くるま / kuruma): Ô tô, xe hơi\n\n💡 Ngữ pháp & Mẹo nhớ:\nHỏi xuất xứ (đồ vật được sản xuất ở đâu), dùng どこの (của nước/công ty nào)."
+            "correctIndex": 3,
+            "explanation": "📖 Dịch nghĩa:\nHôm nay tôi đã đi ngủ lúc 10 giờ.\n\n✍️ Phân tích đáp án:\n- ねました (nemashita): Đã ngủ → Phù hợp nhất với mốc thời gian 10 giờ đêm (10じ).\n- おきました (okimashita): Đã thức dậy → 10 giờ đêm không phải giờ thức dậy phổ thông.\n- きました (kimashita): Đã đến → Không hợp nghĩa.\n- いきました (ikimashita): Đã đi → Không hợp nghĩa.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ sở hữu / bổ nghĩa: \"của\")\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / điểm đến: \"vào lúc / đi đến địa điểm\")\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Trợ từ に (ni) bắt buộc đi kèm sau mốc thời gian cụ thể (１０じに).\n- Đuôi 〜ました biểu thị hành động đã kết thúc trong quá khứ (ngày hôm qua - きのう)."
           },
           {
             "id": "m_review_1_5_1_m3_q3",
-            "question": "わたし 【　　　】 学生です。",
+            "question": "えんぴつで てがみを 【　　　】。",
             "options": [
-              "は",
-              "が",
-              "を",
-              "に"
+              "みます",
+              "かきます",
+              "ききます",
+              "よみます"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTôi là học sinh.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **は**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nTrợ từ は (wa) được dùng để đánh dấu chủ đề của câu."
+            "correctIndex": 1,
+            "explanation": "📖 Dịch nghĩa:\nTôi viết thư bằng bút chì.\n\n✍️ Phân tích đáp án:\n- かきます (kakimasu): Viết → Chọn vì đi với danh từ てがみ (thư).\n- よみます (yomimasu): Đọc → Không đi với công cụ bằng bút chì.\n- ききます (kikimasu): Nghe / hỏi → Không đi với viết thư.\n- みます (mimasu): Xem → Không đi với bút chì.\n\n📝 Từ vựng trong câu:\n- 鉛筆 (えんぴつ / enpitsu): Bút chì\n- 手紙 (てがみ / tegami): Bức thư\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">えんぴつ</span> (Danh từ (Công cụ): \"Bút chì\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ địa điểm / phương tiện (công cụ): \"ở tại / bằng\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">てがみ</span> (Danh từ (Tân ngữ - O): \"Bức thư\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ tân ngữ: \"tác động trực tiếp vào danh từ đứng trước\")\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Trợ từ で (de) đóng vai trò chỉ phương tiện/công cụ để thực hiện hành động (viết bằng cái gì → えんぴつで - bằng bút chì)."
           }
         ]
       },
@@ -176,51 +176,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_1_5_1_b1_q0",
-            "question": "わたしは エンジニア （　　　）。学生です。",
+            "question": "きょうは ５じ（　　　）はたらきます。",
             "options": [
-              "です",
-              "じゃありません",
-              "ですか",
-              "の"
+              "まで",
+              "に",
+              "で",
+              "から"
             ],
-            "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nTôi không phải là kỹ sư. Tôi là học sinh.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **じゃありません**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nVế đầu tiên mang nghĩa phủ định (không phải là kỹ sư), nên dùng じゃありません."
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nHôm nay tôi làm việc đến 5 giờ.\n\n✍️ Phân tích đáp án:\n- まで (made): Đến (chỉ giới hạn thời gian kết thúc) → Chọn.\n- から (kara): Từ (chỉ điểm bắt đầu) → Thường đi kèm động từ bắt đầu từ lúc nào.\n- に (ni): Vào lúc (chỉ mốc thời gian cụ thể của hành động tức thời) → Không đi với động từ kéo dài như はたらきます.\n- で (de): Chỉ địa điểm hoặc phương tiện → Không phù hợp.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">きょう</span> (Danh từ thời gian: \"Hôm nay\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chủ đề (Topic): \"thì, là\")\n- <span style=\"color: #ffb86c; font-weight: 800;\">はたらきます</span> (Động từ (Verb - V): \"Làm việc\")\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Phân biệt: [Thời gian] から [Thời gian] まで (Từ... đến...). Ở đây chỉ nói vế kết thúc nên dùng まで."
           },
           {
             "id": "m_review_1_5_1_b1_q1",
-            "question": "ぎんこうの やすみは どようび （　　　） にちようびです。",
+            "question": "わたしは えんぴつ（　　　）てがみを かきます。",
             "options": [
-              "と",
               "に",
-              "も",
-              "は"
+              "が",
+              "で",
+              "を"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nNgày nghỉ của ngân hàng là thứ Bảy và Chủ nhật.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **と**.\n\n📚 Từ vựng bổ trợ:\n- 休み (やすみ / yasumi): Ngày nghỉ\n\n💡 Ngữ pháp & Mẹo nhớ:\nTrợ từ と dùng để liệt kê nối 2 danh từ với nhau (N1 và N2)."
+            "correctIndex": 2,
+            "explanation": "📖 Dịch nghĩa:\nTôi viết thư bằng bút chì.\n\n✍️ Phân tích đáp án:\n- で (de): Trợ từ chỉ phương tiện, công cụ (bằng...) → Chọn.\n- に (ni): Chỉ điểm thời gian hoặc hướng đi → Không phù hợp.\n- を (wo): Đứng sau tân ngữ trực tiếp (đã có てがみを) → Không phù hợp.\n- が (ga): Chỉ chủ ngữ hoặc đối tượng khả năng → Không phù hợp.\n\n📝 Từ vựng trong câu:\n- 鉛筆 (えんぴつ / enpitsu): Bút chì\n- 手紙 (てがみ / tegami): Bức thư\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">わたし</span> (Danh từ (Chủ ngữ - S): \"Tôi\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chủ đề (Topic): \"thì, là\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">えんぴつ</span> (Danh từ (Công cụ): \"Bút chì\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">てがみ</span> (Danh từ (Tân ngữ - O): \"Bức thư\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ tân ngữ: \"tác động trực tiếp vào danh từ đứng trước\")\n- <span style=\"color: #ffb86c; font-weight: 800;\">かきます</span> (Động từ (Verb - V): \"Viết\")\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Mẹo làm bài: Khi thấy một danh từ chỉ dụng cụ học tập/phương tiện đi liền trước động từ hành động, hãy nghĩ ngay tới trợ từ công cụ で."
           },
           {
             "id": "m_review_1_5_1_b1_q2",
-            "question": "きのう （　　　）。 ...はい、べんきょうしました。",
+            "question": "あした どこ（　　　）いきません。",
             "options": [
-              "べんきょうしましたか",
-              "べんきょうしますか",
-              "べんきょうしました",
-              "べんきょうしません"
+              "がも",
+              "でも",
+              "をも",
+              "へも"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nHôm qua bạn đã học bài chưa? ...Vâng, tôi đã học bài.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **べんきょうしましたか**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nCâu hỏi trong quá khứ nên phải dùng ましたか."
+            "correctIndex": 3,
+            "explanation": "📖 Dịch nghĩa:\nNgày mai tôi không đi đâu cả.\n\n✍️ Phân tích đáp án:\n- へも (he mo): Đi kèm từ để hỏi chỉ nơi chốn + động từ phủ định (không đi đâu) → Chọn.\n- をも, がも: Không có cấu trúc kết hợp này cho câu phủ định hoàn toàn.\n\n📝 Từ vựng trong câu:\n- 明日 (あした / ashita): Ngày mai\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あした</span> (Danh từ thời gian: \"Ngày mai\")\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Ngữ pháp: Từ nghi vấn (どこ, だれ, なに) + Trợ từ phủ định (も / へも) + động từ dạng phủ định (〜ません) dùng để phủ định hoàn toàn sự vật/sự việc."
           },
           {
             "id": "m_review_1_5_1_b1_q3",
-            "question": "ハイさんは いしゃです （　　　）。",
+            "question": "A「それは （　　　）ですか。」 B「コンピューターの ほん です。」",
             "options": [
-              "は",
-              "も",
-              "の",
-              "か"
+              "だれの ほん",
+              "なん",
+              "どこ",
+              "なんの ほん"
             ],
-            "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nAnh Hải là bác sĩ phải không?\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **か**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nTrợ từ か (ka) đặt ở cuối câu để tạo thành câu hỏi nghi vấn."
+            "correctIndex": 1,
+            "explanation": "📖 Dịch nghĩa:\nA: \"Đó là cái gì thế?\" - B: \"Là cuốn sách về máy tính.\"\n\n✍️ Phân tích đáp án:\n- なん (nan: Cái gì): Từ để hỏi cơ bản cho sự vật → Chọn để tạo thành \"なんですか\".\n- なんの ほん: Thừa từ \"ほん\" vì câu trả lời đã chứa \"ほん\" rồi.\n\n📝 Từ vựng trong câu:\n- 本 (ほん / hon): Sách\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chủ đề (Topic): \"thì, là\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ địa điểm / phương tiện (công cụ): \"ở tại / bằng\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ sở hữu / bổ nghĩa: \"của\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ほん</span> (Danh từ: \"Sách\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ địa điểm / phương tiện (công cụ): \"ở tại / bằng\")\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Khi câu hỏi dùng \"なんですか\" (Cái gì?), câu trả lời có thể đi kèm giải thích chi tiết danh từ bổ nghĩa qua trợ từ の (Sách VỀ máy tính - コンピューターの ほん)."
           }
         ]
       },
@@ -230,6 +230,295 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_1_5_1_b2_q0",
+            "question": "ここは　___ ___ _★_ ___　です。",
+            "options": [
+              "だいがく",
+              "とうきょう",
+              "の",
+              "しょくどう"
+            ],
+            "correctIndex": 2,
+            "explanation": "📖 Dịch nghĩa:\nĐây là nhà ăn của trường Đại học Tokyo.\n\n✍️ Phân tích đáp án:\n- Sắp xếp thứ tự: ここは + とうきょう (3) + だいがく (2) + の (1) + しょくどう (4) + です.\n- Trợ từ の liên kết hai danh từ: Đại học Tokyo (とうきょう だいがく) + の + Nhà ăn (しょくどう).\n- Vị trí dấu sao nằm ở vị trí thứ 3 trong cụm sắp xếp, tương ứng với trợ từ の (1).\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chủ đề (Topic): \"thì, là\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ địa điểm / phương tiện (công cụ): \"ở tại / bằng\")\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Trợ từ の luôn nối hai danh từ theo nguyên tắc: Danh từ bổ nghĩa đứng trước, danh từ chính đứng sau (Nhà ăn của trường Đại học)."
+          },
+          {
+            "id": "m_review_1_5_1_b2_q1",
+            "question": "わたしは　___ ___ _★_ ___　いきます。",
+            "options": [
+              "と",
+              "へ",
+              "ともだち",
+              "ぎんこう"
+            ],
+            "correctIndex": 3,
+            "explanation": "📖 Dịch nghĩa:\nTôi đi ngân hàng cùng với bạn bè.\n\n✍️ Phân tích đáp án:\n- Sắp xếp thứ tự: わたしは + ともだち (1) + と (3) + ぎんこう (4) + へ (2) + いきます.\n- Trợ từ と đóng vai trò liên kết đối tượng đồng hành (cùng với ai đó).\n- Trợ từ へ chỉ hướng di chuyển tới địa điểm (Ngân hàng).\n- Vị trí dấu sao nằm ở vị trí thứ 3 trong cụm sắp xếp, tương ứng với danh từ ぎんこう (4).\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">わたし</span> (Danh từ (Chủ ngữ - S): \"Tôi\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chủ đề (Topic): \"thì, là\")\n- <span style=\"color: #ffb86c; font-weight: 800;\">いきます</span> (Động từ (Verb - V): \"Đi\")\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Mẹo làm bài xếp từ: Động từ di chuyển いきます luôn cần trợ từ chỉ hướng へ hoặc に đi liền trước nó (ぎんこうへ いきます)."
+          }
+        ]
+      },
+      {
+        "id": "p_review_1_5_1_dokkai1",
+        "type": "mondai3",
+        "text": [
+          "きのうは わたしの たんじょうびでした。",
+          "わたしは ともだち（　１　）レストランへ いきました。",
+          "レストランで おいしい ごはんを たべました。",
+          "それから、えいがを（　２　）。とても たのしかったです。"
+        ],
+        "questions": [
+          {
+            "id": "m_review_1_5_1_d1_q0",
+            "question": "（　１　）に入れるものはどれですか。",
+            "options": [
+              "に",
+              "で",
+              "へ",
+              "と"
+            ],
+            "correctIndex": 3,
+            "explanation": "📖 Dịch nghĩa:\nTôi đi đến nhà hàng cùng với bạn bè.\n\n✍️ Phân tích đáp án:\n- と (to): Trợ từ chỉ đối tượng cùng làm hành động (cùng với...) → Chọn.\n- に, で, へ: Không phù hợp ngữ pháp khi đi kèm danh từ chỉ người và động từ chuyển hành.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / điểm đến: \"vào lúc / đi đến địa điểm\")\n- <span style=\"color: #f73859; font-weight: 800;\">も</span> (Trợ từ cũng / phủ định hoàn toàn: \"cũng\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ sở hữu / bổ nghĩa: \"của\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chủ đề (Topic): \"thì, là\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ địa điểm / phương tiện (công cụ): \"ở tại / bằng\")\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Cấu trúc: [Người] と [Địa điểm] へ いきます (Đi đâu cùng ai).<br/><br/>\n<strong style=\"color: var(--blue);\">📝 Dịch nghĩa toàn bộ đoạn văn:</strong><br/>\n<span style=\"color: var(--text);\">\n- Hôm qua là sinh nhật của tôi.<br/>\n- Tôi đã đi đến nhà hàng cùng với bạn bè. (1: と)<br/>\n- Chúng tôi đã ăn bữa ăn ngon ở nhà hàng.<br/>\n- Sau đó, chúng tôi đã xem phim. (2: みました) Nó đã rất vui.\n</span>\n<br/><br/>\n<strong style=\"color: var(--gold);\">📚 Từ vựng trong đoạn văn:</strong><br/>\n<span style=\"color: var(--text);\">\n- <strong>きのう</strong> (kinou): Hôm qua<br/>\n- <strong>たんじょうび</strong> (tanjoubi): Sinh nhật<br/>\n- <strong>ともだち</strong> (tomodachi): Bạn bè<br/>\n- <strong>レストラン</strong> (resutoran): Nhà hàng<br/>\n- <strong>おいしい</strong> (oishii): Ngon<br/>\n- <strong>ごはん</strong> (gohan): Cơm, bữa ăn<br/>\n- <strong>それから</strong> (sorekara): Sau đó, tiếp theo<br/>\n- <strong>えいが</strong> (eiga): Bộ phim, điện ảnh<br/>\n- <strong>たのしかった</strong> (tanoshikatta): Đã rất vui (quá khứ của たのしい)\n</span>"
+          },
+          {
+            "id": "m_review_1_5_1_d1_q1",
+            "question": "（　２　）に入れるものはどれですか。",
+            "options": [
+              "みます",
+              "みません",
+              "みますか",
+              "みました"
+            ],
+            "correctIndex": 3,
+            "explanation": "📖 Dịch nghĩa:\nSau đó, chúng tôi đã xem phim.\n\n✍️ Phân tích đáp án:\n- みました (mimashita): Đã xem (chia ở quá khứ khẳng định) → Chọn vì toàn bộ câu chuyện diễn ra vào hôm qua (きのう - quá khứ).\n- みます (mimasu): Xem (thì hiện tại/tương lai) → Sai thì.\n- みません (mimasen): Không xem → Trái nghĩa ngữ cảnh.\n- みますか (mimasuka): Xem không? → Dạng câu hỏi, không phù hợp.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">それから</span> (Trạng từ liên kết: \"Sau đó, tiếp theo\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">えいが</span> (Danh từ: \"Phim, điện ảnh\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ tân ngữ)\n- <span style=\"color: #ffb86c; font-weight: 800;\">みました</span> (Động từ quá khứ: \"Đã xem\")\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Dấu hiệu nhận biết thì quá khứ: Trạng ngữ thời gian \"Hôm qua (きのう)\" ở đầu đoạn văn làm căn cứ chia động từ ở thể quá khứ khẳng định (ました)."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "review_1_5_2",
+    "title": "Đề thi 2: Trạm Ôn Tập JLPT N5 (Bài 1 - 5)",
+    "description": "Bộ đề số 2. Các câu hỏi và bài đọc được thiết kế độc lập 100% để ôn luyện toàn diện.",
+    "passages": [
+      {
+        "id": "p_review_1_5_2_moji1",
+        "type": "moji_mondai1",
+        "questions": [
+          {
+            "id": "m_review_1_5_2_m1_q0",
+            "question": "わたしは 【銀行員】 じゃありません。いしゃです。",
+            "options": [
+              "かいぎしつ",
+              "ぎんこういん",
+              "おてあらい",
+              "やすみます"
+            ],
+            "correctIndex": 1,
+            "explanation": "📖 Dịch nghĩa:\nTôi không phải là nhân viên ngân hàng. Tôi là bác sĩ.\n\n✍️ Phân tích đáp án:\n- **かいぎしつ** (kaigishitsu): Nghĩa là \"Phòng họp\" → Sai.\n- **ぎんこういん** (ginkouin): Cách đọc đúng của chữ Hán 【銀行員】 → Chọn.\n- **おてあらい** (otearai): Nghĩa là \"Nhà vệ sinh (lịch sự)\" → Sai.\n- **やすみます** (yasumimasu): Nghĩa là \"Nghỉ ngơi\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">わたし</span> (Từ vựng - Đại từ: \"Tôi\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">銀行員</span> (Từ vựng - Danh từ: \"Nhân viên ngân hàng\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">じゃ</span> (Từ vựng - Mẫu câu: \"Thế thì, vậy thì\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ありません</span> (Từ vựng - Động từ: \"Có (sở hữu)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">いしゃ</span> (Từ vựng - Danh từ: \"Bác sĩ\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **私 (わたし / watashi)**: Tôi\n- **銀行員 (ぎんこういん / ginkouin)**: Nhân viên ngân hàng\n- **じゃ (ja)**: Thế thì, vậy thì\n- **あります (arimasu)**: Có (sở hữu)\n- **医者 (いしゃ / isha)**: Bác sĩ\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **NGÂN HÀNH VIÊN**.\n- Mẹo nhớ: Người làm việc ở nơi giao dịch tiền bạc (Ngân hành) là nhân viên ngân hàng."
+          },
+          {
+            "id": "m_review_1_5_2_m1_q1",
+            "question": "それは 【番号案内】 です。",
+            "options": [
+              "ばんごうあんない",
+              "シャープペンシル",
+              "でんきかいしゃ",
+              "さくらだいがく"
+            ],
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nCái đó dịch vụ hỏi số điện thoại (116).\n\n✍️ Phân tích đáp án:\n- **ばんごうあんない** (bangouannai): Cách đọc đúng của chữ Hán 【番号案内】 → Chọn.\n- **シャープペンシル** (shaapupenshiru): Nghĩa là \"Bút chì kim\" → Sai.\n- **でんきかいしゃ** (denki gaisha): Nghĩa là \"Công ty điện\" → Sai.\n- **さくらだいがく** (Sakura daigaku): Nghĩa là \"Đại học Sakura\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">それ</span> (Từ vựng - Đại từ: \"Cái đó (gần người nghe)\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">番号案内</span> (Từ vựng - Danh từ: \"Dịch vụ hỏi số điện thoại (116)\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **それ (sore)**: Cái đó (gần người nghe)\n- **番号案内 (ばんごうあんない / bangouannai)**: Dịch vụ hỏi số điện thoại (116)\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **PHIÊN HIỆU ÁN NỘI**.\n- Mẹo nhớ: Dịch vụ hướng dẫn (Án Nội) số điện thoại (Phiên Hiệu)."
+          },
+          {
+            "id": "m_review_1_5_2_m1_q2",
+            "question": "これ 【後ろ】 です。",
+            "options": [
+              "うしろ",
+              "ちかてつ",
+              "おちゃ",
+              "くつ"
+            ],
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nĐây là sau, phía sau.\n\n✍️ Phân tích đáp án:\n- **うしろ** (ushiro): Cách đọc đúng của chữ Hán 【後ろ】 → Chọn.\n- **ちかてつ** (chikatetsu): Nghĩa là \"Tàu điện ngầm\" → Sai.\n- **おちゃ** (ocha): Nghĩa là \"Trà (Nhật)\" → Sai.\n- **くつ** (kutsu): Nghĩa là \"Giày\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">これ</span> (Từ vựng - Đại từ: \"Cái này (gần người nói)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">後ろ</span> (Từ vựng - Danh từ: \"Sau, phía sau\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **これ (kore)**: Cái này (gần người nói)\n- **後ろ (うしろ / ushiro)**: Sau, phía sau\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **HẬU**.\n- Mẹo nhớ: Bước đi (彳) chậm chạp (夊) lùi lại phía SAU, kéo lê sợi dây nhỏ (幺) theo sau lưng."
+          },
+          {
+            "id": "m_review_1_5_2_m1_q3",
+            "question": "それは 【～歳】 です。",
+            "options": [
+              "ひとつ",
+              "とけい",
+              "～さい",
+              "うえ"
+            ],
+            "correctIndex": 2,
+            "explanation": "📖 Dịch nghĩa:\nCái đó ~ tuổi.\n\n✍️ Phân tích đáp án:\n- **ひとつ** (hitotsu): Nghĩa là \"Một cái\" → Sai.\n- **とけい** (tokei): Nghĩa là \"Đồng hồ\" → Sai.\n- **～さい** (~sai): Cách đọc đúng của chữ Hán 【～歳】 → Chọn.\n- **うえ** (ue): Nghĩa là \"Trên, phía trên\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">それ</span> (Từ vựng - Đại từ: \"Cái đó (gần người nghe)\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">～歳</span> (Từ vựng - Hậu tố: \"~ tuổi\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **それ (sore)**: Cái đó (gần người nghe)\n- **～歳 (～さい / ~sai)**: ~ tuổi\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **TUẾ**.\n- Mẹo nhớ: Chỉ tuổi tác của con người."
+          }
+        ]
+      },
+      {
+        "id": "p_review_1_5_2_moji2",
+        "type": "moji_mondai2",
+        "questions": [
+          {
+            "id": "m_review_1_5_2_m2_q0",
+            "question": "いっしょに 【おちゃ】を のみませんか。",
+            "options": [
+              "お茶",
+              "来年",
+              "〜円",
+              "じゃ"
+            ],
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nCùng nhau uống trà không?\n\n✍️ Phân tích đáp án:\n- **お茶** (おちゃ): Cách viết chữ Hán đúng của từ 【おちゃ】 → Chọn.\n- **来年** (らいねん): Nghĩa là \"Năm sau\" → Sai.\n- **〜円** (〜えん): Nghĩa là \"~ Yên (đơn vị tiền Nhật)\" → Sai.\n- **じゃ** (じゃ): Nghĩa là \"Thế thì, vậy thì\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">いっしょに</span> (Từ vựng - Phó từ: \"Cùng nhau\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">おちゃ</span> (Từ vựng - Danh từ: \"Trà (Nhật)\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">のみません</span> (Từ vựng - Động từ: \"Uống\")\n\n📝 Từ vựng trong câu:\n- **いっしょに (isshoni)**: Cùng nhau\n- **お茶 (おちゃ / ocha)**: Trà (Nhật)\n- **飲みます (のみます / nomimasu)**: Uống\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **TRÀ**.\n- Cấu tạo: 艹 (Thảo) + 人 (Nhân) + 木 (Mộc)"
+          },
+          {
+            "id": "m_review_1_5_2_m2_q1",
+            "question": "わたしの 【へや】(へや)は 小(ちい)さいです。そして、古(ふる)いです。",
+            "options": [
+              "本",
+              "部屋",
+              "十四日",
+              "会議室"
+            ],
+            "correctIndex": 1,
+            "explanation": "📖 Dịch nghĩa:\nPhòng của tôi thì nhỏ. Và còn cũ nữa.\n\n✍️ Phân tích đáp án:\n- **本** (ほん): Nghĩa là \"Sách\" → Sai.\n- **部屋** (へや): Cách viết chữ Hán đúng của từ 【へや】 → Chọn.\n- **十四日** (じゅうよっか): Nghĩa là \"Ngày 14\" → Sai.\n- **会議室** (かいぎしつ): Nghĩa là \"Phòng họp\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">わたし</span> (Từ vựng - Đại từ: \"Tôi\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">へや</span> (Từ vựng - Danh từ: \"Căn phòng\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">へや</span> (Từ vựng - Danh từ: \"Căn phòng\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">そして</span> (Từ vựng - Liên từ: \"Và, sau đó\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **私 (わたし / watashi)**: Tôi\n- **部屋 (へや / heya)**: Căn phòng\n- **そして (soshite)**: Và, sau đó\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **BỘ ỐC**.\n- Cấu tạo: 部 (Bộ) + 屋 (Ốc)"
+          },
+          {
+            "id": "m_review_1_5_2_m2_q2",
+            "question": "これ 【おといあわせ】 です。",
+            "options": [
+              "ニューヨーク",
+              "ロサンゼルス",
+              "〜でございます",
+              "お問い合わせ"
+            ],
+            "correctIndex": 3,
+            "explanation": "📖 Dịch nghĩa:\nĐây là số điện thoại cần hỏi, giải đáp thắc mắc.\n\n✍️ Phân tích đáp án:\n- **ニューヨーク** (ニューヨーク): Nghĩa là \"New York\" → Sai.\n- **ロサンゼルス** (ロサンゼルス): Nghĩa là \"Los Angeles\" → Sai.\n- **〜でございます** (〜でございます): Nghĩa là \"(cách nói lịch sự của です)\" → Sai.\n- **お問い合わせ** (おといあわせ): Cách viết chữ Hán đúng của từ 【おといあわせ】 → Chọn.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">これ</span> (Từ vựng - Đại từ: \"Cái này (gần người nói)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">おといあわせ</span> (Từ vựng - Danh từ: \"Số điện thoại cần hỏi, giải đáp thắc mắc\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **これ (kore)**: Cái này (gần người nói)\n- **お問い合わせ (おといあわせ / otoiawase)**: Số điện thoại cần hỏi, giải đáp thắc mắc\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **VẤN HỢP**.\n- Cấu tạo: 問 (Vấn) + 合 (Hợp)"
+          },
+          {
+            "id": "m_review_1_5_2_m2_q3",
+            "question": "ジュース を 【のみます】。",
+            "options": [
+              "全部で",
+              "私たち",
+              "帰ります",
+              "飲みます"
+            ],
+            "correctIndex": 3,
+            "explanation": "📖 Dịch nghĩa:\nTôi uống nước ép trái cây.\n\n✍️ Phân tích đáp án:\n- **全部で** (ぜんぶで): Nghĩa là \"Tất cả là, tổng cộng\" → Sai.\n- **私たち** (わたしたち): Nghĩa là \"Chúng tôi, chúng ta\" → Sai.\n- **帰ります** (かえります): Nghĩa là \"Về\" → Sai.\n- **飲みます** (のみます): Cách viết chữ Hán đúng của từ 【のみます】 → Chọn.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ジュース</span> (Từ vựng - Danh từ: \"Nước ép\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">のみます</span> (Từ vựng - Động từ: \"Uống\")\n\n📝 Từ vựng trong câu:\n- **ジュース (juusu)**: Nước ép\n- **飲みます (のみます / nomimasu)**: Uống\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **ẨM**.\n- Cấu tạo: 飲 = 食 (Thực - Ăn) + 欠 (Khiếm - Thiếu/Há miệng)"
+          }
+        ]
+      },
+      {
+        "id": "p_review_1_5_2_moji3",
+        "type": "moji_mondai3",
+        "questions": [
+          {
+            "id": "m_review_1_5_2_m3_q0",
+            "question": "おととい、やすみましたか。 ...はい、【　　　】。",
+            "options": [
+              "やすみました",
+              "やすみません",
+              "やすみませんでした",
+              "やすみます"
+            ],
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nHôm kia bạn có nghỉ không? ...Vâng, tôi đã nghỉ.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **やすみました**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">おととい</span> (Từ vựng - Danh từ: \"Hôm kia\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">やすみました</span> (Từ vựng - Động từ: \"Nghỉ ngơi\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">はい</span> (Từ vựng - Thán từ: \"Vâng, đúng vậy\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">やすみました</span> (Từ vựng - Động từ: \"Nghỉ ngơi\")\n\n📝 Từ vựng trong câu:\n- **おととい (ototoi)**: Hôm kia\n- **休みます (やすみます / yasumimasu)**: Nghỉ ngơi\n- **はい (hai)**: Vâng, đúng vậy\n\n💡 Ngữ pháp & Mẹo nhớ:\nおととい (Hôm kia) là quá khứ, trả lời はい (khẳng định) nên dùng đuôi ました."
+          },
+          {
+            "id": "m_review_1_5_2_m3_q1",
+            "question": "いま 【　　　】 ですか。 ...5じです。",
+            "options": [
+              "なんじ",
+              "いくら",
+              "どこ",
+              "だれ"
+            ],
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nBây giờ là mấy giờ? ...Là 5 giờ.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **なんじ**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">いま</span> (Từ vựng - Danh từ: \"Bây giờ\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">なんじ</span> (Từ vựng - Từ hỏi: \"Mấy giờ?\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **今 (いま / ima)**: Bây giờ\n- **何時 (なんじ / nanji)**: Mấy giờ?\n\n💡 Ngữ pháp & Mẹo nhớ:\nĐể hỏi thời gian, dùng なんじ (mấy giờ)."
+          },
+          {
+            "id": "m_review_1_5_2_m3_q2",
+            "question": "きのう、彼 【　　　】 勉強しました。",
+            "options": [
+              "と",
+              "で",
+              "に",
+              "へ"
+            ],
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nHôm qua tôi đã học cùng anh ấy.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **と**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">きのう</span> (Từ vựng - Danh từ: \"Hôm qua\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">彼</span> (Từ vựng - Đại từ: \"Anh ấy / Bạn trai\")\n- <span style=\"color: #f73859; font-weight: 800;\">と</span> (Trợ từ chỉ đối tượng đồng hành / liệt kê)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">勉強しました</span> (Từ vựng - Động từ: \"Học tập\")\n\n📝 Từ vựng trong câu:\n- **きのう (kinou)**: Hôm qua\n- **彼 (かれ / kare)**: Anh ấy / Bạn trai\n- **勉強します (べんきょうします / benkyoushimasu)**: Học tập\n\n💡 Ngữ pháp & Mẹo nhớ:\nHọc cùng với ai dùng trợ từ と."
+          },
+          {
+            "id": "m_review_1_5_2_m3_q3",
+            "question": "かいしゃは 【　　　】 ですか。 ...パワーでんきです。",
+            "options": [
+              "なん",
+              "だれ",
+              "どちら",
+              "どの"
+            ],
+            "correctIndex": 2,
+            "explanation": "📖 Dịch nghĩa:\nCông ty của bạn là công ty nào? ...Là công ty điện Power.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **どちら**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">かいしゃ</span> (Từ vựng - Danh từ: \"Công ty\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">どちら</span> (Từ vựng - Đại từ: \"Phía nào, đằng nào, chỗ nào (cách nói lịch sự của どこ)\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">パワーでんき</span> (Từ vựng - Danh từ: \"Công ty Power\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **会社 (かいしゃ / kaisha)**: Công ty\n- **どちら (dochira)**: Phía nào, đằng nào, chỗ nào (cách nói lịch sự của どこ)\n- **パワーでんき (Pawaa denki)**: Công ty Power\n\n💡 Ngữ pháp & Mẹo nhớ:\nĐể hỏi tên công ty, trường học, đất nước, ta dùng どこ hoặc どちら, tuyệt đối KHÔNG dùng なん."
+          }
+        ]
+      },
+      {
+        "id": "p_review_1_5_2_bunpou1",
+        "type": "mondai1",
+        "questions": [
+          {
+            "id": "m_review_1_5_2_b1_q0",
+            "question": "まいあさ 6じ （　　　） おきます。",
+            "options": [
+              "に",
+              "で",
+              "は",
+              "も"
+            ],
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nTôi thức dậy vào lúc 6 giờ mỗi sáng.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **に**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">まいあさ</span> (Từ vựng - Danh từ: \"Mỗi buổi sáng\")\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / địa điểm / đối tượng tiếp nhận)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">おきます</span> (Từ vựng - Động từ: \"Dậy, thức dậy\")\n\n📝 Từ vựng trong câu:\n- **毎朝 (まいあさ / maiasa)**: Mỗi buổi sáng\n- **起きます (おきます / okimasu)**: Dậy, thức dậy\n\n💡 Ngữ pháp & Mẹo nhớ:\nĐứng sau thời gian có số đếm cụ thể (như 6 giờ) phải dùng trợ từ に để chỉ thời điểm."
+          },
+          {
+            "id": "m_review_1_5_2_b1_q1",
+            "question": "あの方は どなた （　　　）。",
+            "options": [
+              "です",
+              "ですか",
+              "は",
+              "の"
+            ],
+            "correctIndex": 1,
+            "explanation": "📖 Dịch nghĩa:\nVị kia là ai vậy?\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **ですか**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あの方</span> (Từ vựng - Đại từ: \"Vị kia (cách nói lịch sự của あの人)\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">どなた</span> (Từ vựng - Từ để hỏi: \"Ai (lịch sự)\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **あの方 (あのかた / ano kata)**: Vị kia (cách nói lịch sự của あの人)\n- **どなた (donata)**: Ai (lịch sự)\n\n💡 Ngữ pháp & Mẹo nhớ:\nKhi hỏi ai đó là ai, ta dùng từ để hỏi 'どなた' kèm với đuôi câu hỏi 'ですか'."
+          },
+          {
+            "id": "m_review_1_5_2_b1_q2",
+            "question": "らいしゅう、くにへ （　　　）。",
+            "options": [
+              "帰ります",
+              "帰りました",
+              "行きます",
+              "行きました"
+            ],
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nTuần sau tôi sẽ về nước.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **帰ります**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / địa điểm / đối tượng tiếp nhận)\n- <span style=\"color: #f73859; font-weight: 800;\">へ</span> (Trợ từ chỉ hướng di chuyển)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">帰ります</span> (Từ vựng - Động từ: \"Về\")\n\n📝 Từ vựng trong câu:\n- **帰ります (かえります / kaerimasu)**: Về\n\n💡 Ngữ pháp & Mẹo nhớ:\nTrở về quê hương/nhà dùng 帰ります. Tuần sau (らいしゅう) là tương lai nên chia thể ます."
+          },
+          {
+            "id": "m_review_1_5_2_b1_q3",
+            "question": "ミラーさんは （　　　） ですか。 ...かいぎしつです。",
+            "options": [
+              "だれ",
+              "どこ",
+              "なん",
+              "いくつ"
+            ],
+            "correctIndex": 1,
+            "explanation": "📖 Dịch nghĩa:\nAnh Miller đang ở đâu? ...Ở phòng họp.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **どこ**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">どこ</span> (Từ vựng - Đại từ: \"Ở đâu?\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">かいぎしつ</span> (Từ vựng - Danh từ: \"Phòng họp\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **どこ (doko)**: Ở đâu?\n- **会議室 (かいぎしつ / kaigishitsu)**: Phòng họp\n\n💡 Ngữ pháp & Mẹo nhớ:\nCâu trả lời là địa điểm (かいぎしつ - phòng họp) nên câu hỏi phải là どこ (ở đâu)."
+          }
+        ]
+      },
+      {
+        "id": "p_review_1_5_2_bunpou2",
+        "type": "mondai2",
+        "questions": [
+          {
+            "id": "m_review_1_5_2_b2_q0",
             "question": "あの方は　___ ___ _★_ ___　ですか。",
             "options": [
               "の",
@@ -238,24 +527,24 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "です"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nVị kia là giáo viên trường đại học Sakura phải không?\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: あの方は [さくらだいがく] [の] [★ せんせい] [です] か。\n- Từ ở vị trí ngôi sao (★) là: **せんせい**.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Cấu trúc: N1 の N2. Đại học Sakura (さくらだいがく) bổ nghĩa cho giáo viên (せんせい)."
+            "explanation": "📖 Dịch nghĩa:\nVị kia là giáo viên trường đại học Sakura phải không?\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: あの方は さくらだいがく の せんせい ですか。\n- Từ ở vị trí ngôi sao (★) là: **せんせい**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あの方</span> (Từ vựng - Đại từ: \"Vị kia (cách nói lịch sự của あの人)\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">さくらだいがく</span> (Từ vựng - Danh từ: \"Đại học Sakura\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">せんせい</span> (Từ vựng - Danh từ: \"Giáo viên, thầy/cô giáo\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **あの方 (あのかた / ano kata)**: Vị kia (cách nói lịch sự của あの人)\n- **さくら大学 (さくらだいがく / Sakura daigaku)**: Đại học Sakura\n- **先生 (せんせい / sensei)**: Giáo viên, thầy/cô giáo\n\n💡 Ngữ pháp & Mẹo nhớ:\nCấu trúc: N1 の N2. Đại học Sakura (さくらだいがく) bổ nghĩa cho giáo viên (せんせい)."
           },
           {
-            "id": "m_review_1_5_1_b2_q1",
-            "question": "わたしは　___ ___ _★_ ___　いきます。",
+            "id": "m_review_1_5_2_b2_q1",
+            "question": "つくえの　___ ___ _★_ ___　あります。",
             "options": [
-              "ともだち",
-              "へ",
               "と",
-              "ぎんこう"
+              "うえに",
+              "ほん",
+              "えんぴつが"
             ],
-            "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTôi đi ngân hàng cùng với bạn.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: わたしは [ともだち] [と] [★ ぎんこう] [へ] いきます。\n- Từ ở vị trí ngôi sao (★) là: **ぎんこう**.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Cấu trúc: [Người] と [Địa điểm] へ いきます (Đi đâu cùng ai). Trợ từ と chỉ đối tượng đồng hành, へ chỉ hướng đi."
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nTrên bàn có sách và bút chì.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: つくえの うえに ほん と えんぴつが あります。\n- Từ ở vị trí ngôi sao (★) là: **と**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">つくえ</span> (Từ vựng - Danh từ: \"Bàn\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">うえ</span> (Từ vựng - Danh từ: \"Trên, phía trên\")\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / địa điểm / đối tượng tiếp nhận)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ほん</span> (Từ vựng - Danh từ: \"Sách\")\n- <span style=\"color: #f73859; font-weight: 800;\">と</span> (Trợ từ chỉ đối tượng đồng hành / liệt kê)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">えんぴつ</span> (Từ vựng - Danh từ: \"Bút chì\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あります</span> (Từ vựng - Động từ: \"Có (sở hữu)\")\n\n📝 Từ vựng trong câu:\n- **机 (つくえ / tsukue)**: Bàn\n- **上 (うえ / ue)**: Trên, phía trên\n- **本 (ほん / hon)**: Sách\n- **鉛筆 (えんぴつ / enpitsu)**: Bút chì\n- **あります (arimasu)**: Có (sở hữu)\n\n💡 Ngữ pháp & Mẹo nhớ:\nCấu trúc: N1 と N2 (N1 và N2). Trợ từ と dùng để nối các danh từ liệt kê hoàn toàn."
           }
         ]
       },
       {
-        "id": "p_review_1_5_1_dokkai1",
+        "id": "p_review_1_5_2_dokkai1",
         "type": "mondai3",
         "text": [
           "わたしは マリア・サントスです。",
@@ -273,10 +562,20 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
           "Người kia là chị Kim Minjoo.",
           "Người Hàn Quốc. Là bác sĩ."
         ],
-        "vocabulary": [],
+        "vocabulary": [
+          "どうぞよろしく (douzo yoroshiku): Rất mong được quen biết",
+          "はじめまして (hajimemashite): Xin chào (lần đầu gặp)",
+          "あの人 (あのひと / ano hito): Người kia",
+          "学生 (がくせい / gakusei): Học sinh, sinh viên",
+          "韓国 (かんこく / kankoku): Hàn Quốc",
+          "ブラジル (burajiru): Brazil",
+          "私 (わたし / watashi): Tôi",
+          "医者 (いしゃ / isha): Bác sĩ",
+          "字 (じ / ji): Chữ"
+        ],
         "questions": [
           {
-            "id": "m_review_1_5_1_d1_q0",
+            "id": "m_review_1_5_2_d1_q0",
             "question": "マリアさんはどこのひとですか？ (Maria là người nước nào?)",
             "options": [
               "ブラジルじん (Brazil)",
@@ -285,10 +584,10 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "フランスじん (Pháp)"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nマリアさんはどこのひとですか？ (Maria là người nước nào?)\n- Đáp án đúng: **ブラジルじん (Brazil)**.\n\n✍️ Phân tích đáp án:\n- Dựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác."
+            "explanation": "📖 Dịch nghĩa:\nマリアさんはどこのひとですか？ (Maria là người nước nào?)\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **ブラジルじん (Brazil)**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">どこ</span> (Từ vựng - Đại từ: \"Ở đâu?\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ひと</span> (Từ vựng - Danh từ: \"Người\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **どこ (doko)**: Ở đâu?\n- **人 (ひと / hito)**: Người\n\n💡 Ngữ pháp & Mẹo nhớ:\nDựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác."
           },
           {
-            "id": "m_review_1_5_1_d1_q1",
+            "id": "m_review_1_5_2_d1_q1",
             "question": "マリアさんのしごとは？ (Maria làm nghề gì?)",
             "options": [
               "いしゃ (Bác sĩ)",
@@ -297,10 +596,10 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "せんせい (Giáo viên)"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nマリアさんのしごとは？ (Maria làm nghề gì?)\n- Đáp án đúng: **がくせい (Sinh viên)**.\n\n✍️ Phân tích đáp án:\n- Dựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác."
+            "explanation": "📖 Dịch nghĩa:\nマリアさんのしごとは？ (Maria làm nghề gì?)\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **がくせい (Sinh viên)**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #f73859; font-weight: 800;\">と</span> (Trợ từ chỉ đối tượng đồng hành / liệt kê)\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n\n💡 Ngữ pháp & Mẹo nhớ:\nDựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác."
           },
           {
-            "id": "m_review_1_5_1_d1_q2",
+            "id": "m_review_1_5_2_d1_q2",
             "question": "キムさんのしごとは？ (Chị Kim làm nghề gì?)",
             "options": [
               "エンジニア (Kỹ sư)",
@@ -309,315 +608,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "きょうし (Giáo viên)"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nキムさんのしごとは？ (Chị Kim làm nghề gì?)\n- Đáp án đúng: **いしゃ (Bác sĩ)**.\n\n✍️ Phân tích đáp án:\n- Dựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "review_1_5_2",
-    "title": "Đề thi 2: Trạm Ôn Tập JLPT N5 (Bài 1 - 5)",
-    "description": "Bộ đề số 2. Các câu hỏi và bài đọc được thiết kế độc lập 100% để ôn luyện toàn diện.",
-    "passages": [
-      {
-        "id": "p_review_1_5_2_moji1",
-        "type": "moji_mondai1",
-        "questions": [
-          {
-            "id": "m_review_1_5_2_m1_q0",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【地下】",
-            "options": [
-              "かさ",
-              "ごご",
-              "バナナ",
-              "ちか"
-            ],
-            "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【地下】 có nghĩa là: **Tầng hầm**.\n\n✍️ Phân tích đáp án:\n- **ちか** (chika): Cách đọc đúng của chữ Hán 【地下】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **ĐỊA HẠ**.\n- Mẹo nhớ: Khu vực nằm bên dưới mặt đất là Tầng hầm."
-          },
-          {
-            "id": "m_review_1_5_2_m1_q1",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【飛行機】",
-            "options": [
-              "ひこうき",
-              "そちら",
-              "はつか",
-              "ブラジル"
-            ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【飛行機】 có nghĩa là: **Máy bay**.\n\n✍️ Phân tích đáp án:\n- **ひこうき** (hikouki): Cách đọc đúng của chữ Hán 【飛行機】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **PHI HÀNH CƠ**.\n- Mẹo nhớ: Cỗ máy có thể đi bằng cách bay trên trời là Máy bay."
-          },
-          {
-            "id": "m_review_1_5_2_m1_q2",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【千】",
-            "options": [
-              "テレビ",
-              "みせ",
-              "せん",
-              "かさ"
-            ],
-            "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【千】 có nghĩa là: **1000**.\n\n✍️ Phân tích đáp án:\n- **せん** (sen): Cách đọc đúng của chữ Hán 【千】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **THIÊN**.\n- Mẹo nhớ: Mười (十) thêm một phết (丿) ở trên là một ngàn (千)."
-          },
-          {
-            "id": "m_review_1_5_2_m1_q3",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【〜階】",
-            "options": [
-              "〜かい",
-              "えいご",
-              "テレビ",
-              "かいだん"
-            ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【〜階】 có nghĩa là: **Tầng ~ (tầng 1, 2...)**.\n\n✍️ Phân tích đáp án:\n- **〜かい** (~kai): Cách đọc đúng của chữ Hán 【〜階】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **GIAI**.\n- Mẹo nhớ: Tầng nhà."
-          }
-        ]
-      },
-      {
-        "id": "p_review_1_5_2_moji2",
-        "type": "moji_mondai2",
-        "questions": [
-          {
-            "id": "m_review_1_5_2_m2_q0",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【ともだち】",
-            "options": [
-              "月曜日",
-              "友達",
-              "あ",
-              "研究者"
-            ],
-            "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Bạn bè**.\n\n✍️ Phân tích đáp án:\n- **友達** (ともだち): Cách viết chữ Hán đúng của từ.\n\n📚 Từ vựng bổ trợ:\n- 友達 (ともだち / tomodachi): Bạn bè\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **HỮU ĐẠT**.\n- Cấu tạo: 友 (Hữu) + 達 (Đạt)"
-          },
-          {
-            "id": "m_review_1_5_2_m2_q1",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【まいばん】",
-            "options": [
-              "～語",
-              "一人で",
-              "インド",
-              "毎晩"
-            ],
-            "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Mỗi buổi tối**.\n\n✍️ Phân tích đáp án:\n- **毎晩** (まいばん): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **MỖI VÃN**.\n- Cấu tạo: 毎 (Mỗi) + 晩 (Vãn - Buổi tối)"
-          },
-          {
-            "id": "m_review_1_5_2_m2_q2",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【とおか】",
-            "options": [
-              "十日",
-              "いいえ",
-              "一人で",
-              "左"
-            ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Ngày mùng 10**.\n\n✍️ Phân tích đáp án:\n- **十日** (とおか): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **THẬP NHẬT**.\n- Cấu tạo: 十 (Thập) + 日 (Nhật)"
-          },
-          {
-            "id": "m_review_1_5_2_m2_q3",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【じゅうよっか】",
-            "options": [
-              "十四日",
-              "いくら",
-              "後ろ",
-              "売ります"
-            ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Ngày 14**.\n\n✍️ Phân tích đáp án:\n- **十四日** (じゅうよっか): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **THẬP TỨ NHẬT**.\n- Cấu tạo: 十 (Thập) + 四 (Tứ) + 日 (Nhật)"
-          }
-        ]
-      },
-      {
-        "id": "p_review_1_5_2_moji3",
-        "type": "moji_mondai3",
-        "questions": [
-          {
-            "id": "m_review_1_5_2_m3_q0",
-            "question": "自転車 【　　　】 スーパーへ 行きます。",
-            "options": [
-              "で",
-              "に",
-              "へ",
-              "と"
-            ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTôi đi xe đạp đến siêu thị.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **で**.\n\n📚 Từ vựng bổ trợ:\n- スーパー (suupaa): Siêu thị\n- 車 (くるま / kuruma): Ô tô, xe hơi\n\n💡 Ngữ pháp & Mẹo nhớ:\nChỉ phương tiện di chuyển (自転車 - xe đạp) dùng trợ từ で."
-          },
-          {
-            "id": "m_review_1_5_2_m3_q1",
-            "question": "ワンさんは 医者 【　　　】。...いいえ、いしゃじゃありません。",
-            "options": [
-              "です",
-              "ですか",
-              "は",
-              "も"
-            ],
-            "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nAnh Wang là bác sĩ phải không? ...Không, không phải là bác sĩ.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **ですか**.\n\n📚 Từ vựng bổ trợ:\n- 絵 (え / e): Bức tranh\n\n💡 Ngữ pháp & Mẹo nhớ:\nPhần đáp lại có 'いいえ' nên câu trước đó chắc chắn phải là một câu hỏi (ですか)."
-          },
-          {
-            "id": "m_review_1_5_2_m3_q2",
-            "question": "たろうくんは 8歳 【　　　】。",
-            "options": [
-              "です",
-              "ですか",
-              "は",
-              "の"
-            ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nBé Tarou 8 tuổi.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **です**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nCâu khẳng định thông báo số tuổi, kết thúc bằng です."
-          },
-          {
-            "id": "m_review_1_5_2_m3_q3",
-            "question": "おくには 【　　　】 ですか。 ...アメリカです。",
-            "options": [
-              "どちら",
-              "だれ",
-              "なん",
-              "の"
-            ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nĐất nước của bạn là nước nào? ...Là nước Mỹ.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **どちら**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nHỏi về quốc gia (おくに), để lịch sự người ta thường dùng どちら."
-          }
-        ]
-      },
-      {
-        "id": "p_review_1_5_2_bunpou1",
-        "type": "mondai1",
-        "questions": [
-          {
-            "id": "m_review_1_5_2_b1_q0",
-            "question": "はじめまして。（　　　）から 来ました。",
-            "options": [
-              "アメリカ",
-              "アメリカ人",
-              "わたし",
-              "あなた"
-            ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nRất vui được gặp bạn. Tôi đến từ Mỹ.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **アメリカ**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nMẫu câu '~kara kimashita' (đến từ đâu) cần một danh từ chỉ địa điểm/quốc gia ở trước, không dùng 'người' (jin)."
-          },
-          {
-            "id": "m_review_1_5_2_b1_q1",
-            "question": "あした はたらきますか。 ...いいえ、（　　　）。",
-            "options": [
-              "はたらきません",
-              "はたらきませんでした",
-              "はたらきました",
-              "はたらきます"
-            ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nNgày mai bạn có làm việc không? ...Không, tôi không làm việc.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **はたらきません**.\n\n📚 Từ vựng bổ trợ:\n- 明日 (あした / ashita): Ngày mai\n- 絵 (え / e): Bức tranh\n\n💡 Ngữ pháp & Mẹo nhớ:\nあした (Ngày mai) là tương lai, trả lời いいえ (phủ định) nên dùng đuôi ません."
-          },
-          {
-            "id": "m_review_1_5_2_b1_q2",
-            "question": "バス （　　　） うち （　　　） 帰ります。",
-            "options": [
-              "で / へ",
-              "に / へ",
-              "へ / で",
-              "で / で"
-            ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTôi đi xe buýt về nhà.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **で / へ**.\n\n📚 Từ vựng bổ trợ:\n- 家 (うち / uchi): Nhà (ở)\n\n💡 Ngữ pháp & Mẹo nhớ:\nPhương tiện (バス) đi với で, địa điểm (うち) đi với へ."
-          },
-          {
-            "id": "m_review_1_5_2_b1_q3",
-            "question": "これは じしょ （　　　）。",
-            "options": [
-              "です",
-              "ですか",
-              "は",
-              "の"
-            ],
-            "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nĐây là quyển từ điển phải không?\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **ですか**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nCâu hỏi cuối câu dùng ですか."
-          }
-        ]
-      },
-      {
-        "id": "p_review_1_5_2_bunpou2",
-        "type": "mondai2",
-        "questions": [
-          {
-            "id": "m_review_1_5_2_b2_q0",
-            "question": "つくえの　___ ___ _★_ ___　あります。",
-            "options": [
-              "と",
-              "うえに",
-              "ほん",
-              "えんぴつが"
-            ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTrên bàn có sách và bút chì.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: つくえの [うえに] [ほん] [★ と] [えんぴつが] あります。\n- Từ ở vị trí ngôi sao (★) là: **と**.\n\n📚 Từ vựng bổ trợ:\n- 絵 (え / e): Bức tranh\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Cấu trúc: N1 と N2 (N1 và N2). Trợ từ と dùng để nối các danh từ liệt kê hoàn toàn."
-          },
-          {
-            "id": "m_review_1_5_2_b2_q1",
-            "question": "このデパートは　___ ___ _★_ ___　ですか。",
-            "options": [
-              "から",
-              "10じ",
-              "まで",
-              "8じ"
-            ],
-            "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTrung tâm thương mại này mở cửa từ 10 giờ đến 8 giờ phải không?\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: このデパートは [10じ] [から] [★ 8じ] [まで] ですか。\n- Từ ở vị trí ngôi sao (★) là: **8じ**.\n\n📚 Từ vựng bổ trợ:\n- デパート (depaato): Trung tâm thương mại, bách hóa\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Cấu trúc: ~ から ~ まで (Từ... đến...). Chỉ khoảng giới hạn thời gian."
-          }
-        ]
-      },
-      {
-        "id": "p_review_1_5_2_dokkai1",
-        "type": "mondai3",
-        "text": [
-          "A：これは なん ですか。",
-          "B：それは じしょ です。",
-          "A：そうですか。だれの じしょ ですか。",
-          "B：ミラーさんの じしょ です。"
-        ],
-        "translation": [
-          "A: Cái này là cái gì?",
-          "B: Cái đó là từ điển.",
-          "A: Vậy à. Từ điển của ai vậy?",
-          "B: Từ điển của anh Miller."
-        ],
-        "vocabulary": [],
-        "questions": [
-          {
-            "id": "m_review_1_5_2_d1_q0",
-            "question": "これはなんですか？ (Cái này là gì?)",
-            "options": [
-              "ほん (Sách)",
-              "じしょ (Từ điển)",
-              "ノート (Vở)",
-              "ざっし (Tạp chí)"
-            ],
-            "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nこれはなんですか？ (Cái này là gì?)\n- Đáp án đúng: **じしょ (Từ điển)**.\n\n✍️ Phân tích đáp án:\n- Dựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác.\n\n📚 Từ vựng bổ trợ:\n- 花 (はな / hana): Hoa"
-          },
-          {
-            "id": "m_review_1_5_2_d1_q1",
-            "question": "じしょはだれのですか？ (Từ điển của ai?)",
-            "options": [
-              "マリアさん",
-              "ミラーさん",
-              "キムさん",
-              "テレサさん"
-            ],
-            "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nじしょはだれのですか？ (Từ điển của ai?)\n- Đáp án đúng: **ミラーさん**.\n\n✍️ Phân tích đáp án:\n- Dựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác."
-          },
-          {
-            "id": "m_review_1_5_2_d1_q2",
-            "question": "BさんはAさんのことばに「___」と言いました。(B trả lời A bằng từ)",
-            "options": [
-              "ちがいます",
-              "そうですか",
-              "そうです",
-              "はじめまして"
-            ],
-            "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nBさんはAさんのことばに「___」と言いました。(B trả lời A bằng từ)\n- Đáp án đúng: **そうですか**.\n\n✍️ Phân tích đáp án:\n- Dựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác."
+            "explanation": "📖 Dịch nghĩa:\nキムさんのしごとは？ (Chị Kim làm nghề gì?)\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **いしゃ (Bác sĩ)**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #f73859; font-weight: 800;\">と</span> (Trợ từ chỉ đối tượng đồng hành / liệt kê)\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n\n💡 Ngữ pháp & Mẹo nhớ:\nDựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác."
           }
         ]
       }
@@ -634,51 +625,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_1_5_3_m1_q0",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【～日】",
+            "question": "すみません、【電話】は どこ ですか。",
             "options": [
-              "みっか",
-              "いま",
-              "〜ふん",
-              "～にち"
+              "でんわ",
+              "うりば",
+              "ペキン",
+              "はい"
             ],
-            "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【～日】 có nghĩa là: **Ngày ~**.\n\n✍️ Phân tích đáp án:\n- **～にち** (~nichi): Cách đọc đúng của chữ Hán 【～日】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **NHẬT**.\n- Mẹo nhớ: Hình ảnh mặt trời, tượng trưng cho Ngày."
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nXin lỗi, điện thoại ở đâu vậy?\n\n✍️ Phân tích đáp án:\n- **でんわ** (denwa): Cách đọc đúng của chữ Hán 【電話】 → Chọn.\n- **うりば** (uriba): Nghĩa là \"Quầy bán hàng\" → Sai.\n- **ペキン** (Pekin): Nghĩa là \"Bắc Kinh\" → Sai.\n- **はい** (hai): Nghĩa là \"Vâng, đúng vậy\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">すみません</span> (Từ vựng - Mẫu câu: \"Xin lỗi (hỏi đường)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">電話</span> (Từ vựng - Danh từ: \"Điện thoại\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">どこ</span> (Từ vựng - Đại từ: \"Ở đâu?\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **すみません (sumimasen)**: Xin lỗi (hỏi đường)\n- **電話 (でんわ / denwa)**: Điện thoại\n- **どこ (doko)**: Ở đâu?\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **ĐIỆN THOẠI**.\n- Mẹo nhớ: Mưa xuống ruộng sinh ra ĐIỆN. Dùng lưỡi nói ra lời là THOẠI. Ghép lại là Điện Thoại."
           },
           {
             "id": "m_review_1_5_3_m1_q1",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【番号】",
+            "question": "【昼休み】は 12じからです。",
             "options": [
-              "かばん",
-              "ばんごう",
-              "ください",
-              "いつか"
+              "ひるやすみ",
+              "としょかん",
+              "エレベーター",
+              "しんかんせん"
             ],
-            "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【番号】 có nghĩa là: **Số (điện thoại/phòng)**.\n\n✍️ Phân tích đáp án:\n- **ばんごう** (bangou): Cách đọc đúng của chữ Hán 【番号】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **PHIÊN HIỆU**.\n- Mẹo nhớ: Ký hiệu đánh dấu theo từng lượt chính là Số hiệu."
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nGiờ nghỉ trưa bắt đầu từ 12 giờ.\n\n✍️ Phân tích đáp án:\n- **ひるやすみ** (hiruyasumi): Cách đọc đúng của chữ Hán 【昼休み】 → Chọn.\n- **としょかん** (toshokan): Nghĩa là \"Thư viện\" → Sai.\n- **エレベーター** (erebeetaa): Nghĩa là \"Thang máy\" → Sai.\n- **しんかんせん** (shinkansen): Nghĩa là \"Tàu Shinkansen\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">昼休み</span> (Từ vựng - Danh từ: \"Giờ nghỉ trưa\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">から</span> (Từ vựng - Trợ từ: \"Từ (thời gian)\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **昼休み (ひるやすみ / hiruyasumi)**: Giờ nghỉ trưa\n- **から (kara)**: Từ (thời gian)\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **TRÚ HƯU**.\n- Mẹo nhớ: Nghỉ ngơi (Hưu) vào giữa ngày (Trú) là giờ nghỉ trưa."
           },
           {
             "id": "m_review_1_5_3_m1_q2",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【八日】",
+            "question": "これ 【～年】 です。",
             "options": [
-              "ください",
-              "おきます",
-              "これ",
-              "ようか"
+              "〜から",
+              "～さい",
+              "ざっし",
+              "～ねん"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【八日】 có nghĩa là: **Ngày mùng 8**.\n\n✍️ Phân tích đáp án:\n- **ようか** (youka): Cách đọc đúng của chữ Hán 【八日】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **BÁT NHẬT**.\n- Mẹo nhớ: Ngày thứ 8 trong tháng."
+            "explanation": "📖 Dịch nghĩa:\nĐây là năm ~.\n\n✍️ Phân tích đáp án:\n- **〜から** (~kara): Nghĩa là \"Từ ~\" → Sai.\n- **～さい** (~sai): Nghĩa là \"~ tuổi\" → Sai.\n- **ざっし** (zasshi): Nghĩa là \"Tạp chí\" → Sai.\n- **～ねん** (~nen): Cách đọc đúng của chữ Hán 【～年】 → Chọn.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">これ</span> (Từ vựng - Đại từ: \"Cái này (gần người nói)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">～年</span> (Từ vựng - Hậu tố: \"Năm ~\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **これ (kore)**: Cái này (gần người nói)\n- **～年 (～ねん / ~nen)**: Năm ~\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **NIÊN**.\n- Mẹo nhớ: Người cõng lúa về nhà sau một Năm thu hoạch."
           },
           {
             "id": "m_review_1_5_3_m1_q3",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【鍵】",
+            "question": "これ 【鍵】 です。",
             "options": [
-              "かぎ",
-              "ペキン",
-              "ねます",
-              "あさ"
+              "なん",
+              "ざっし",
+              "おくに",
+              "かぎ"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【鍵】 có nghĩa là: **Chìa khóa**.\n\n✍️ Phân tích đáp án:\n- **かぎ** (kagi): Cách đọc đúng của chữ Hán 【鍵】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **KIỆN**.\n- Mẹo nhớ: Chìa khóa làm bằng kim loại (Kim) để khóa chặt những công trình vừa xây dựng (Kiến)."
+            "correctIndex": 3,
+            "explanation": "📖 Dịch nghĩa:\nĐây là chìa khóa.\n\n✍️ Phân tích đáp án:\n- **なん** (nan): Nghĩa là \"Cái gì\" → Sai.\n- **ざっし** (zasshi): Nghĩa là \"Tạp chí\" → Sai.\n- **おくに** (okuni): Nghĩa là \"Đất nước\" → Sai.\n- **かぎ** (kagi): Cách đọc đúng của chữ Hán 【鍵】 → Chọn.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">これ</span> (Từ vựng - Đại từ: \"Cái này (gần người nói)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">鍵</span> (Từ vựng - Danh từ: \"Chìa khóa\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **これ (kore)**: Cái này (gần người nói)\n- **鍵 (かぎ / kagi)**: Chìa khóa\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **KIỆN**.\n- Mẹo nhớ: Chìa khóa làm bằng kim loại (Kim) để khóa chặt những công trình vừa xây dựng (Kiến)."
           }
         ]
       },
@@ -688,51 +679,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_1_5_3_m2_q0",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【へや】",
+            "question": "【じてんしゃ】 で スーパーへ 行きます。",
             "options": [
-              "部屋",
-              "日本",
-              "金曜日",
-              "電話"
+              "自転車",
+              "図書館",
+              "デパート",
+              "時計"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Căn phòng**.\n\n✍️ Phân tích đáp án:\n- **部屋** (へや): Cách viết chữ Hán đúng của từ.\n\n📚 Từ vựng bổ trợ:\n- 部屋 (へや / heya): Căn phòng\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **BỘ ỐC**.\n- Cấu tạo: 部 (Bộ) + 屋 (Ốc)"
+            "explanation": "📖 Dịch nghĩa:\nTôi đi xe đạp đến siêu thị.\n\n✍️ Phân tích đáp án:\n- **自転車** (じてんしゃ): Cách viết chữ Hán đúng của từ 【じてんしゃ】 → Chọn.\n- **図書館** (としょかん): Nghĩa là \"Thư viện\" → Sai.\n- **デパート** (デパート): Nghĩa là \"Trung tâm thương mại\" → Sai.\n- **時計** (とけい): Nghĩa là \"Đồng hồ\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">じてんしゃ</span> (Từ vựng - Danh từ: \"Xe đạp\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">スーパー</span> (Từ vựng - Danh từ: \"Siêu thị\")\n- <span style=\"color: #f73859; font-weight: 800;\">へ</span> (Trợ từ chỉ hướng di chuyển)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">行きます</span> (Từ vựng - Động từ: \"Đi\")\n\n📝 Từ vựng trong câu:\n- **自転車 (じてんしゃ / jitensha)**: Xe đạp\n- **スーパー (suupaa)**: Siêu thị\n- **行きます (いきます / ikimasu)**: Đi\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **TỰ CHUYỂN XA**.\n- Cấu tạo: 自 (Tự) + 転 (Chuyển) + 車 (Xa)"
           },
           {
             "id": "m_review_1_5_3_m2_q1",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【なんかい】",
+            "question": "これ 【なんにち】 です。",
             "options": [
-              "何階",
-              "私",
-              "これ",
-              "新幹線"
+              "何日",
+              "左",
+              "だれ",
+              "インド"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Tầng mấy?**.\n\n✍️ Phân tích đáp án:\n- **何階** (なんかい): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **HÀ GIAI**.\n- Cấu tạo: 何 (Hà - Cái gì/Mấy) + 階 (Giai - Tầng)"
+            "explanation": "📖 Dịch nghĩa:\nĐây là ngày mấy.\n\n✍️ Phân tích đáp án:\n- **何日** (なんにち): Cách viết chữ Hán đúng của từ 【なんにち】 → Chọn.\n- **左** (ひだり): Nghĩa là \"Trái, bên trái\" → Sai.\n- **だれ** (だれ): Nghĩa là \"Ai\" → Sai.\n- **インド** (インド): Nghĩa là \"Ấn Độ\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">これ</span> (Từ vựng - Đại từ: \"Cái này (gần người nói)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">なんにち</span> (Từ vựng - Từ hỏi: \"Ngày mấy\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **これ (kore)**: Cái này (gần người nói)\n- **何日 (なんにち / nannichi)**: Ngày mấy\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **HÀ NHẬT**.\n- Cấu tạo: 何 (Hà - Cái gì) + 日 (Nhật - Ngày)"
           },
           {
             "id": "m_review_1_5_3_m2_q2",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【かいます】",
+            "question": "これ 【～えん】 です。",
             "options": [
-              "事務所",
-              "あちら",
-              "買います",
-              "すみません"
+              "から",
+              "～円",
+              "来ます",
+              "明日"
             ],
-            "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Mua**.\n\n✍️ Phân tích đáp án:\n- **買います** (かいます): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **MÃI**.\n- Cấu tạo: 買 = 罒 (Võng - Mắt lưới) + 貝 (Bối - Vỏ sò/Tiền)"
+            "correctIndex": 1,
+            "explanation": "📖 Dịch nghĩa:\nĐây là yên (tiền nhật).\n\n✍️ Phân tích đáp án:\n- **から** (から): Nghĩa là \"Từ (thời gian)\" → Sai.\n- **～円** (～えん): Cách viết chữ Hán đúng của từ 【～えん】 → Chọn.\n- **来ます** (きます): Nghĩa là \"Đến\" → Sai.\n- **明日** (あした): Nghĩa là \"Ngày mai\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">これ</span> (Từ vựng - Đại từ: \"Cái này (gần người nói)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">～えん</span> (Từ vựng - Hậu tố: \"Yên (tiền Nhật)\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **これ (kore)**: Cái này (gần người nói)\n- **～円 (～えん / ~en)**: Yên (tiền Nhật)\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **VIÊN**.\n- Cấu tạo: 円 (Viên)"
           },
           {
             "id": "m_review_1_5_3_m2_q3",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【はん】",
+            "question": "これ 【とおか】 です。",
             "options": [
-              "～歳",
-              "～円",
-              "一日",
-              "半"
+              "昼休み",
+              "十日",
+              "みかん",
+              "大学"
             ],
-            "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Rưỡi (30 phút)**.\n\n✍️ Phân tích đáp án:\n- **半** (はん): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **BÁN**.\n- Cấu tạo: 半 = 丷 (Chia) + 二 (Hai) + 丨 (Sổ)"
+            "correctIndex": 1,
+            "explanation": "📖 Dịch nghĩa:\nĐây là ngày mùng 10.\n\n✍️ Phân tích đáp án:\n- **昼休み** (ひるやすみ): Nghĩa là \"Giờ nghỉ trưa\" → Sai.\n- **十日** (とおか): Cách viết chữ Hán đúng của từ 【とおか】 → Chọn.\n- **みかん** (みかん): Nghĩa là \"Quýt\" → Sai.\n- **大学** (だいがく): Nghĩa là \"Trường đại học\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">これ</span> (Từ vựng - Đại từ: \"Cái này (gần người nói)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">とおか</span> (Từ vựng - Danh từ: \"Ngày mùng 10\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **これ (kore)**: Cái này (gần người nói)\n- **十日 (とおか / tooka)**: Ngày mùng 10\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **THẬP NHẬT**.\n- Cấu tạo: 十 (Thập) + 日 (Nhật)"
           }
         ]
       },
@@ -742,51 +733,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_1_5_3_m3_q0",
-            "question": "ミラーさんは 【　　　】 ですか。 ...かいぎしつです。",
+            "question": "すみません、でんわは どこ 【　　　】。",
             "options": [
-              "だれ",
-              "どこ",
-              "なん",
-              "いくつ"
+              "です",
+              "ですか",
+              "の",
+              "か"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nAnh Miller đang ở đâu? ...Ở phòng họp.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **どこ**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nCâu trả lời là địa điểm (かいぎしつ - phòng họp) nên câu hỏi phải là どこ (ở đâu)."
+            "explanation": "📖 Dịch nghĩa:\nXin lỗi, điện thoại ở đâu vậy?\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **ですか**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">すみません</span> (Từ vựng - Mẫu câu: \"Xin lỗi (hỏi đường)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">でんわ</span> (Từ vựng - Danh từ: \"Điện thoại\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">どこ</span> (Từ vựng - Đại từ: \"Ở đâu?\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **すみません (sumimasen)**: Xin lỗi (hỏi đường)\n- **電話 (でんわ / denwa)**: Điện thoại\n- **どこ (doko)**: Ở đâu?\n\n💡 Ngữ pháp & Mẹo nhớ:\nCâu hỏi cuối câu dùng ですか."
           },
           {
             "id": "m_review_1_5_3_m3_q1",
-            "question": "あした、【　　　】 と 会社へ 行きますか。",
+            "question": "これは イタリア 【　　　】 ワインです。",
             "options": [
-              "だれ",
-              "どこ",
-              "いつ",
-              "なに"
+              "は",
+              "が",
+              "の",
+              "も"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nNgày mai bạn đi đến công ty cùng với ai?\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **だれ**.\n\n📚 Từ vựng bổ trợ:\n- 明日 (あした / ashita): Ngày mai\n- 会社 (かいしゃ / kaisha): Công ty\n\n💡 Ngữ pháp & Mẹo nhớ:\nHỏi người (cùng với ai) dùng だれ."
+            "correctIndex": 2,
+            "explanation": "📖 Dịch nghĩa:\nĐây là rượu vang của Ý.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **の**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">これ</span> (Từ vựng - Đại từ: \"Cái này (gần người nói)\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">イタリア</span> (Từ vựng - Danh từ: \"Ý\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ワイン</span> (Từ vựng - Danh từ: \"Rượu vang\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **これ (kore)**: Cái này (gần người nói)\n- **イタリア (itaria)**: Ý\n- **ワイン (wain)**: Rượu vang\n\n💡 Ngữ pháp & Mẹo nhớ:\nN1 の N2 chỉ xuất xứ sản phẩm (Rượu vang của nước Ý)."
           },
           {
             "id": "m_review_1_5_3_m3_q2",
-            "question": "わたしは 【　　　】 びょういんへ 行きます。",
+            "question": "それは じどうしゃ 【　　　】 雑誌です。",
             "options": [
-              "ひとりで",
-              "わたしで",
-              "かぞくと",
-              "だれと"
+              "は",
+              "が",
+              "の",
+              "も"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTôi đi bệnh viện một mình.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **ひとりで**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nMột mình là ひとりで (đi kèm で, không dùng と)."
+            "correctIndex": 2,
+            "explanation": "📖 Dịch nghĩa:\nĐó là tạp chí về ô tô.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **の**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">それ</span> (Từ vựng - Đại từ: \"Cái đó (gần người nghe)\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">じどうしゃ</span> (Từ vựng - Danh từ: \"Ô tô\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">雑誌</span> (Từ vựng - Danh từ: \"Tạp chí\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **それ (sore)**: Cái đó (gần người nghe)\n- **自動車 (じどうしゃ / jidousha)**: Ô tô\n- **雑誌 (ざっし / zasshi)**: Tạp chí\n\n💡 Ngữ pháp & Mẹo nhớ:\nTrợ từ の dùng để chỉ thể loại, nội dung của danh từ N2 (tạp chí về ô tô)."
           },
           {
             "id": "m_review_1_5_3_m3_q3",
-            "question": "【　　　】は わたしの ノートです。",
+            "question": "あの方は 【　　　】 ですか。 ...なごや大学の 先生です。",
             "options": [
-              "これ",
-              "この",
-              "ここ",
-              "だれ"
+              "だれ",
+              "どなた",
+              "なん",
+              "どれ"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nCái này là quyển vở của tôi.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **これ**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nĐại từ chỉ thị thay thế danh từ đóng vai trò chủ ngữ thì dùng これ/それ/あれ."
+            "correctIndex": 1,
+            "explanation": "📖 Dịch nghĩa:\nVị kia là ai vậy? ...Là giáo viên Đại học Nagoya.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **どなた**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あの方</span> (Từ vựng - Đại từ: \"Vị kia (cách nói lịch sự của あの人)\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">どなた</span> (Từ vựng - Từ để hỏi: \"Ai (lịch sự)\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">大学</span> (Từ vựng - Danh từ: \"Trường đại học\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">先生</span> (Từ vựng - Danh từ: \"Giáo viên, thầy/cô giáo\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **あの方 (あのかた / ano kata)**: Vị kia (cách nói lịch sự của あの人)\n- **どなた (donata)**: Ai (lịch sự)\n- **大学 (だいがく / daigaku)**: Trường đại học\n- **先生 (せんせい / sensei)**: Giáo viên, thầy/cô giáo\n\n💡 Ngữ pháp & Mẹo nhớ:\nDùng どなた để hỏi 'ai' một cách lịch sự, phù hợp với あの方."
           }
         ]
       },
@@ -796,51 +787,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_1_5_3_b1_q0",
-            "question": "いま （　　　） ですか。 ...5じです。",
+            "question": "ミラーさんは アメリカ人 （　　　）。",
             "options": [
-              "なんじ",
-              "いくら",
-              "どこ",
-              "だれ"
+              "です",
+              "じゃありません",
+              "ですか",
+              "も"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nBây giờ là mấy giờ? ...Là 5 giờ.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **なんじ**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nĐể hỏi thời gian, dùng なんじ (mấy giờ)."
+            "explanation": "📖 Dịch nghĩa:\nAnh Miller là người Mỹ.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **です**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">アメリカ</span> (Từ vựng - Danh từ: \"Mỹ (Hoa Kỳ)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">人</span> (Từ vựng - Danh từ: \"Người\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **アメリカ (america)**: Mỹ (Hoa Kỳ)\n- **人 (ひと / hito)**: Người\n\n💡 Ngữ pháp & Mẹo nhớ:\nCâu khẳng định cơ bản, kết thúc bằng です để thể hiện sự lịch sự."
           },
           {
             "id": "m_review_1_5_3_b1_q1",
-            "question": "この ネクタイは （　　　） ですか。 ...1,500えんです。",
+            "question": "きのう （　　　）。 ...はい、べんきょうしました。",
             "options": [
-              "いくら",
-              "いくつ",
-              "どこ",
-              "だれ"
+              "べんきょうしましたか",
+              "べんきょうしますか",
+              "べんきょうしました",
+              "べんきょうしません"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nCái cà vạt này bao nhiêu tiền? ...1,500 yên.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **いくら**.\n\n📚 Từ vựng bổ trợ:\n- 絵 (え / e): Bức tranh\n\n💡 Ngữ pháp & Mẹo nhớ:\nĐể hỏi giá tiền, dùng từ để hỏi いくら (Bao nhiêu tiền)."
+            "explanation": "📖 Dịch nghĩa:\nHôm qua bạn đã học bài chưa? ...Vâng, tôi đã học bài.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **べんきょうしましたか**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">きのう</span> (Từ vựng - Danh từ: \"Hôm qua\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">べんきょうしました</span> (Từ vựng - Động từ: \"Học tập\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">はい</span> (Từ vựng - Thán từ: \"Vâng, đúng vậy\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">べんきょうしました</span> (Từ vựng - Động từ: \"Học tập\")\n\n📝 Từ vựng trong câu:\n- **きのう (kinou)**: Hôm qua\n- **勉強します (べんきょうします / benkyoushimasu)**: Học tập\n- **はい (hai)**: Vâng, đúng vậy\n\n💡 Ngữ pháp & Mẹo nhớ:\nCâu hỏi trong quá khứ nên phải dùng ましたか."
           },
           {
             "id": "m_review_1_5_3_b1_q2",
-            "question": "あの方は （　　　） ですか。 ...なごや大学の 先生です。",
+            "question": "自転車 （　　　） スーパーへ 行きます。",
             "options": [
-              "だれ",
-              "どなた",
-              "なん",
-              "どれ"
+              "で",
+              "に",
+              "へ",
+              "と"
             ],
-            "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nVị kia là ai vậy? ...Là giáo viên Đại học Nagoya.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **どなた**.\n\n📚 Từ vựng bổ trợ:\n- 先生 (せんせい / sensei): Thầy/cô giáo\n\n💡 Ngữ pháp & Mẹo nhớ:\nDùng どなた để hỏi 'ai' một cách lịch sự, phù hợp với あの方."
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nTôi đi xe đạp đến siêu thị.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **で**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">自転車</span> (Từ vựng - Danh từ: \"Xe đạp\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">スーパー</span> (Từ vựng - Danh từ: \"Siêu thị\")\n- <span style=\"color: #f73859; font-weight: 800;\">へ</span> (Trợ từ chỉ hướng di chuyển)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">行きます</span> (Từ vựng - Động từ: \"Đi\")\n\n📝 Từ vựng trong câu:\n- **自転車 (じてんしゃ / jitensha)**: Xe đạp\n- **スーパー (suupaa)**: Siêu thị\n- **行きます (いきます / ikimasu)**: Đi\n\n💡 Ngữ pháp & Mẹo nhớ:\nChỉ phương tiện di chuyển (自転車 - xe đạp) dùng trợ từ で."
           },
           {
             "id": "m_review_1_5_3_b1_q3",
-            "question": "まいあさ 9じから 5じまで べんきょうします。 ...たいへん （　　　）。",
+            "question": "あそこ （　　　） わたしの だいがくです。",
             "options": [
-              "ですね",
-              "ですか",
-              "です",
-              "じゃありません"
+              "は",
+              "が",
+              "の",
+              "も"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nMỗi sáng tôi học từ 9 giờ đến 5 giờ. ...Vất vả quá nhỉ.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **ですね**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nNgười nghe tỏ ý đồng cảm với đối phương, dùng đuôi câu ですね (nhỉ / quá nhỉ)."
+            "explanation": "📖 Dịch nghĩa:\nKia là trường đại học của tôi.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **は**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あそこ</span> (Từ vựng - Đại từ: \"Kia, chỗ kia\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">わたし</span> (Từ vựng - Đại từ: \"Tôi\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">だいがく</span> (Từ vựng - Danh từ: \"Trường đại học\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **あそこ (asoko)**: Kia, chỗ kia\n- **私 (わたし / watashi)**: Tôi\n- **大学 (だいがく / daigaku)**: Trường đại học\n\n💡 Ngữ pháp & Mẹo nhớ:\nあそこ đóng vai trò chủ ngữ trong câu chỉ địa điểm, đi kèm trợ từ は."
           }
         ]
       },
@@ -850,6 +841,18 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_1_5_3_b2_q0",
+            "question": "このデパートは　___ ___ _★_ ___　ですか。",
+            "options": [
+              "から",
+              "10じ",
+              "まで",
+              "8じ"
+            ],
+            "correctIndex": 3,
+            "explanation": "📖 Dịch nghĩa:\nTrung tâm thương mại này mở cửa từ 10 giờ đến 8 giờ phải không?\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: このデパートは 10じ から 8じ まで ですか。\n- Từ ở vị trí ngôi sao (★) là: **8じ**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">この</span> (Từ vựng - Từ chỉ định: \"Cái này ... (+ danh từ)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">デパート</span> (Từ vựng - Danh từ: \"Trung tâm thương mại\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">から</span> (Từ vựng - Trợ từ: \"Từ (thời gian)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">まで</span> (Từ vựng - Trợ từ: \"Đến (thời gian)\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **この (kono)**: Cái này ... (+ danh từ)\n- **デパート (depaato)**: Trung tâm thương mại\n- **から (kara)**: Từ (thời gian)\n- **まで (made)**: Đến (thời gian)\n\n💡 Ngữ pháp & Mẹo nhớ:\nCấu trúc: ~ から ~ まで (Từ... đến...). Chỉ khoảng giới hạn thời gian."
+          },
+          {
+            "id": "m_review_1_5_3_b2_q1",
             "question": "わたしは　___ ___ _★_ ___　おきます。",
             "options": [
               "に",
@@ -858,19 +861,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "はん"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nMỗi sáng tôi thức dậy lúc 6 giờ rưỡi.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: わたしは [まいあさ] [6じ] [★ はん] [に] おきます。\n- Từ ở vị trí ngôi sao (★) là: **はん**.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Mốc thời gian cụ thể đi với trợ từ に. Trạng từ tần suất まいあさ đứng đầu câu làm trạng ngữ."
-          },
-          {
-            "id": "m_review_1_5_3_b2_q1",
-            "question": "ミラーさんの かばんは　___ ___ _★_ ___　あります。",
-            "options": [
-              "の",
-              "つくえ",
-              "うえ",
-              "に"
-            ],
-            "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nCặp sách của anh Miller ở trên bàn.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: ミラーさんの かばんは [つくえ] [の] [★ うえ] [に] あります。\n- Từ ở vị trí ngôi sao (★) là: **うえ**.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Cấu trúc chỉ vị trí: N1 (vị trí) の N2 (trên/dưới/trong/ngoài) に あります. Ở đây là つくえのうえに (trên bàn)."
+            "explanation": "📖 Dịch nghĩa:\nMỗi sáng tôi thức dậy lúc 6 giờ rưỡi.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: わたしは まいあさ 6じ はん に おきます。\n- Từ ở vị trí ngôi sao (★) là: **はん**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">わたし</span> (Từ vựng - Đại từ: \"Tôi\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">まいあさ</span> (Từ vựng - Danh từ: \"Mỗi buổi sáng\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">はん</span> (Từ vựng - Danh từ: \"Rưỡi (30 phút)\")\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / địa điểm / đối tượng tiếp nhận)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">おきます</span> (Từ vựng - Động từ: \"Dậy, thức dậy\")\n\n📝 Từ vựng trong câu:\n- **私 (わたし / watashi)**: Tôi\n- **毎朝 (まいあさ / maiasa)**: Mỗi buổi sáng\n- **半 (はん / han)**: Rưỡi (30 phút)\n- **起きます (おきます / okimasu)**: Dậy, thức dậy\n\n💡 Ngữ pháp & Mẹo nhớ:\nMốc thời gian cụ thể đi với trợ từ に. Trạng từ tần suất まいあさ đứng đầu câu làm trạng ngữ."
           }
         ]
       },
@@ -878,56 +869,61 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "id": "p_review_1_5_3_dokkai1",
         "type": "mondai3",
         "text": [
-          "A：すみません。しょくどうは どこ ですか。",
-          "B：しょくどうは ６かい です。",
-          "A：エレベーターは どこ ですか。",
-          "B：あそこ です。",
-          "A：ありがとうございます。"
+          "A：これは なん ですか。",
+          "B：それは じしょ です。",
+          "A：そうですか。だれの じしょ ですか。",
+          "B：ミラーさんの じしょ です。"
         ],
         "translation": [
-          "A: Xin lỗi, căng-tin ở đâu vậy?",
-          "B: Căng-tin ở tầng 6.",
-          "A: Thang máy ở đâu ạ?",
-          "B: Chỗ kia ạ.",
-          "A: Cảm ơn ạ."
+          "A: Cái này là cái gì?",
+          "B: Cái đó là từ điển.",
+          "A: Vậy à. Từ điển của ai vậy?",
+          "B: Từ điển của anh Miller."
         ],
-        "vocabulary": [],
+        "vocabulary": [
+          "そうですか (sou desu ka): Vậy à? / Thế à?",
+          "辞書 (じしょ / jisho): Từ điển",
+          "だれ (dare): Ai",
+          "これ (kore): Cái này (gần người nói)",
+          "それ (sore): Cái đó (gần người nghe)",
+          "何 (なん / nan): Cái gì"
+        ],
         "questions": [
           {
             "id": "m_review_1_5_3_d1_q0",
-            "question": "食堂はなんかいですか？",
+            "question": "これはなんですか？ (Cái này là gì?)",
             "options": [
-              "3かい",
-              "4かい",
-              "5かい",
-              "6かい"
+              "ほん (Sách)",
+              "じしょ (Từ điển)",
+              "ノート (Vở)",
+              "ざっし (Tạp chí)"
             ],
-            "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\n食堂はなんかいですか？\n- Đáp án đúng: **6かい**.\n\n✍️ Phân tích đáp án:\n- Dựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác.\n\n📚 Từ vựng bổ trợ:\n- 花 (はな / hana): Hoa"
+            "correctIndex": 1,
+            "explanation": "📖 Dịch nghĩa:\nこれはなんですか？ (Cái này là gì?)\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **じしょ (Từ điển)**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">これ</span> (Từ vựng - Đại từ: \"Cái này (gần người nói)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">はな</span> (Từ vựng - Danh từ: \"Hoa\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **これ (kore)**: Cái này (gần người nói)\n- **花 (はな / hana)**: Hoa\n\n💡 Ngữ pháp & Mẹo nhớ:\nDựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác."
           },
           {
             "id": "m_review_1_5_3_d1_q1",
-            "question": "AさんはBさんに何を聞きましたか？ (A hỏi B điều gì?)",
+            "question": "じしょはだれのですか？ (Từ điển của ai?)",
             "options": [
-              "デパートの場所",
-              "食堂とエレベーターの場所",
-              "スーパーの場所",
-              "ぎんこうの場所"
+              "マリアさん",
+              "ミラーさん",
+              "キムさん",
+              "テレサさん"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nAさんはBさんに何を聞きましたか？ (A hỏi B điều gì?)\n- Đáp án đúng: **食堂とエレベーターの場所**.\n\n✍️ Phân tích đáp án:\n- Dựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác."
+            "explanation": "📖 Dịch nghĩa:\nじしょはだれのですか？ (Từ điển của ai?)\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **ミラーさん**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">じしょ</span> (Từ vựng - Danh từ: \"Từ điển\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">だれ</span> (Từ vựng - Từ để hỏi: \"Ai\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **辞書 (じしょ / jisho)**: Từ điển\n- **だれ (dare)**: Ai\n\n💡 Ngữ pháp & Mẹo nhớ:\nDựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác."
           },
           {
             "id": "m_review_1_5_3_d1_q2",
-            "question": "エレベーターはどこですか？",
+            "question": "BさんはAさんのことばに「___」と言いました。(B trả lời A bằng từ)",
             "options": [
-              "ここ",
-              "そこ",
-              "あそこ",
-              "どこか"
+              "ちがいます",
+              "そうですか",
+              "そうです",
+              "はじめまして"
             ],
-            "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nエレベーターはどこですか？\n- Đáp án đúng: **あそこ**.\n\n✍️ Phân tích đáp án:\n- Dựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác."
+            "correctIndex": 1,
+            "explanation": "📖 Dịch nghĩa:\nBさんはAさんのことばに「___」と言いました。(B trả lời A bằng từ)\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **そうですか**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ことば</span> (Từ vựng - Danh từ: \"Từ vựng, ngôn ngữ\")\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / địa điểm / đối tượng tiếp nhận)\n- <span style=\"color: #f73859; font-weight: 800;\">と</span> (Trợ từ chỉ đối tượng đồng hành / liệt kê)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">言いました</span> (Từ vựng - Động từ: \"Nói rằng\")\n\n📝 Từ vựng trong câu:\n- **言葉 (ことば / kotoba)**: Từ vựng, ngôn ngữ\n- **言います (いいます / iimasu)**: Nói rằng\n\n💡 Ngữ pháp & Mẹo nhớ:\nDựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác."
           }
         ]
       }
@@ -944,51 +940,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_1_5_4_m1_q0",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【五日】",
+            "question": "これ 【船】 です。",
             "options": [
-              "いつか",
-              "あさ",
-              "がくせい",
-              "まいばん"
+              "この",
+              "とけい",
+              "〜くん",
+              "ふね"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【五日】 có nghĩa là: **Ngày mùng 5**.\n\n✍️ Phân tích đáp án:\n- **いつか** (itsuka): Cách đọc đúng của chữ Hán 【五日】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **NGŨ NHẬT**.\n- Mẹo nhớ: Ngày thứ 5 trong tháng."
+            "correctIndex": 3,
+            "explanation": "📖 Dịch nghĩa:\nĐây là tàu thủy.\n\n✍️ Phân tích đáp án:\n- **この** (kono): Nghĩa là \"Cái này ... (+ danh từ)\" → Sai.\n- **とけい** (tokei): Nghĩa là \"Đồng hồ\" → Sai.\n- **〜くん** (~kun): Nghĩa là \"(Dùng cho nam trẻ hơn)\" → Sai.\n- **ふね** (fune): Cách đọc đúng của chữ Hán 【船】 → Chọn.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">これ</span> (Từ vựng - Đại từ: \"Cái này (gần người nói)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">船</span> (Từ vựng - Danh từ: \"Tàu thủy\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **これ (kore)**: Cái này (gần người nói)\n- **船 (ふね / fune)**: Tàu thủy\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **THUYỀN**.\n- Mẹo nhớ: Chiếc thuyền chở những người có miệng ăn trên bàn chính là Tàu lớn."
           },
           {
             "id": "m_review_1_5_4_m1_q1",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【彼女】",
+            "question": "B：【午後】3時です。",
             "options": [
-              "ねます",
-              "かのじょ",
-              "うります",
-              "〜じん"
+              "きのう",
+              "うしろ",
+              "ごご",
+              "かぞく"
             ],
-            "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【彼女】 có nghĩa là: **Cô ấy / Bạn gái**.\n\n✍️ Phân tích đáp án:\n- **かのじょ** (kanojo): Cách đọc đúng của chữ Hán 【彼女】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **BỈ NỮ**.\n- Mẹo nhớ: Người phụ nữ đi cùng anh ấy chính là Bạn gái."
+            "correctIndex": 2,
+            "explanation": "📖 Dịch nghĩa:\nB: 3 giờ chiều.\n\n✍️ Phân tích đáp án:\n- **きのう** (kinou): Nghĩa là \"Hôm qua\" → Sai.\n- **うしろ** (ushiro): Nghĩa là \"Sau, phía sau\" → Sai.\n- **ごご** (gogo): Cách đọc đúng của chữ Hán 【午後】 → Chọn.\n- **かぞく** (kazoku): Nghĩa là \"Gia đình\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">午後</span> (Từ vựng - Danh từ: \"Buổi chiều, sau trưa (PM)\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **午後 (ごご / gogo)**: Buổi chiều, sau trưa (PM)\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **NGỌ HẬU**.\n- Mẹo nhớ: Thời gian sau (Hậu) giữa trưa (Ngọ) là buổi chiều."
           },
           {
             "id": "m_review_1_5_4_m1_q2",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【食堂】",
+            "question": "あした 【学校】 へ 行きます。",
             "options": [
-              "らいねん",
-              "じゅうよっか",
-              "しょくどう",
-              "ひとりで"
+              "〜じん",
+              "まいあさ",
+              "がっこう",
+              "〜かい"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【食堂】 có nghĩa là: **Nhà ăn**.\n\n✍️ Phân tích đáp án:\n- **しょくどう** (shokudou): Cách đọc đúng của chữ Hán 【食堂】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **THỰC ĐƯỜNG**.\n- Mẹo nhớ: Căn nhà lớn (Đường) chuyên dùng để tổ chức ăn uống (Thực) là Nhà ăn."
+            "explanation": "📖 Dịch nghĩa:\nNgày mai tôi sẽ đi đến trường.\n\n✍️ Phân tích đáp án:\n- **〜じん** (~jin): Nghĩa là \"Người nước ~\" → Sai.\n- **まいあさ** (maiasa): Nghĩa là \"Mỗi buổi sáng\" → Sai.\n- **がっこう** (gakkou): Cách đọc đúng của chữ Hán 【学校】 → Chọn.\n- **〜かい** (~kai): Nghĩa là \"Tầng ~ (tầng 1, 2...)\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あした</span> (Từ vựng - Danh từ: \"Ngày mai\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">学校</span> (Từ vựng - Danh từ: \"Trường học\")\n- <span style=\"color: #f73859; font-weight: 800;\">へ</span> (Trợ từ chỉ hướng di chuyển)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">行きます</span> (Từ vựng - Động từ: \"Đi\")\n\n📝 Từ vựng trong câu:\n- **明日 (あした / ashita)**: Ngày mai\n- **学校 (がっこう / gakkou)**: Trường học\n- **行きます (いきます / ikimasu)**: Đi\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **HỌC HIỆU**.\n- Mẹo nhớ: Nơi có nhiều cây và tòa nhà để trẻ em học tập là Trường học."
           },
           {
             "id": "m_review_1_5_4_m1_q3",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【〜分】",
+            "question": "これ 【八日】 です。",
             "options": [
-              "〜ふん",
-              "ラジオ",
-              "〜さん",
-              "たばこ"
+              "ひだり",
+              "せんせい",
+              "なんまい",
+              "ようか"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【〜分】 có nghĩa là: **~ phút**.\n\n✍️ Phân tích đáp án:\n- **〜ふん** (~fun/pun): Cách đọc đúng của chữ Hán 【〜分】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **PHÂN**.\n- Mẹo nhớ: Dùng dao (刀) chia cắt (八) thời gian ra thành từng Phút (Phân)."
+            "correctIndex": 3,
+            "explanation": "📖 Dịch nghĩa:\nĐây là ngày mùng 8.\n\n✍️ Phân tích đáp án:\n- **ひだり** (hidari): Nghĩa là \"Trái, bên trái\" → Sai.\n- **せんせい** (sensei): Nghĩa là \"Giáo viên, thầy/cô giáo\" → Sai.\n- **なんまい** (nanmai): Nghĩa là \"Mấy tờ? mấy cái phẳng?\" → Sai.\n- **ようか** (youka): Cách đọc đúng của chữ Hán 【八日】 → Chọn.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">これ</span> (Từ vựng - Đại từ: \"Cái này (gần người nói)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">八日</span> (Từ vựng - Danh từ: \"Ngày mùng 8\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **これ (kore)**: Cái này (gần người nói)\n- **八日 (ようか / youka)**: Ngày mùng 8\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **BÁT NHẬT**.\n- Mẹo nhớ: Ngày thứ 8 trong tháng."
           }
         ]
       },
@@ -998,51 +994,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_1_5_4_m2_q0",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【おといあわせ】",
+            "question": "これ 【かのじょ】 です。",
             "options": [
-              "エンジニア",
-              "ちがいます",
-              "しつれいですが",
-              "お問い合わせ"
+              "何枚",
+              "彼女",
+              "銀行員",
+              "ノート"
             ],
-            "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Số điện thoại cần hỏi, giải đáp thắc mắc**.\n\n✍️ Phân tích đáp án:\n- **お問い合わせ** (おといあわせ): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **VẤN HỢP**.\n- Cấu tạo: 問 (Vấn) + 合 (Hợp)"
+            "correctIndex": 1,
+            "explanation": "📖 Dịch nghĩa:\nĐây là cô ấy / bạn gái.\n\n✍️ Phân tích đáp án:\n- **何枚** (なんまい): Nghĩa là \"Mấy tờ? mấy cái phẳng?\" → Sai.\n- **彼女** (かのじょ): Cách viết chữ Hán đúng của từ 【かのじょ】 → Chọn.\n- **銀行員** (ぎんこういん): Nghĩa là \"Nhân viên ngân hàng\" → Sai.\n- **ノート** (ノート): Nghĩa là \"Vở, sổ tay\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">これ</span> (Từ vựng - Đại từ: \"Cái này (gần người nói)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">かのじょ</span> (Từ vựng - Đại từ: \"Cô ấy / Bạn gái\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **これ (kore)**: Cái này (gần người nói)\n- **彼女 (かのじょ / kanojo)**: Cô ấy / Bạn gái\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **BỈ NỮ**.\n- Cấu tạo: 彼 (Bỉ) + 女 (Nữ)"
           },
           {
             "id": "m_review_1_5_4_m2_q1",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【としょかん】",
+            "question": "その とけいは いくら ですか。 ...2,000【えん】です。",
             "options": [
-              "九日",
-              "図書館",
-              "部屋",
-              "今年"
+              "日曜日",
+              "〜円",
+              "あなた",
+              "新大阪"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Thư viện**.\n\n✍️ Phân tích đáp án:\n- **図書館** (としょかん): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **ĐỒ THƯ QUÁN**.\n- Cấu tạo: 図 (Đồ) + 書 (Thư) + 館 (Quán)"
+            "explanation": "📖 Dịch nghĩa:\nCái đồng hồ đó giá bao nhiêu? ...2,000 Yên.\n\n✍️ Phân tích đáp án:\n- **日曜日** (にちようび): Nghĩa là \"Chủ nhật\" → Sai.\n- **〜円** (〜えん): Cách viết chữ Hán đúng của từ 【〜えん】 → Chọn.\n- **あなた** (あなた): Nghĩa là \"Bạn, anh/chị\" → Sai.\n- **新大阪** (しんおおさか): Nghĩa là \"Tên một nhà ga ở Osaka\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">その</span> (Từ vựng - Từ chỉ định: \"Cái đó ... (+ danh từ)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">とけい</span> (Từ vựng - Danh từ: \"Đồng hồ\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">いくら</span> (Từ vựng - Từ để hỏi: \"Bao nhiêu tiền\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **その (sono)**: Cái đó ... (+ danh từ)\n- **時計 (とけい / tokei)**: Đồng hồ\n- **いくら (ikura)**: Bao nhiêu tiền\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **VIÊN**.\n- Cấu tạo: 円 (Viên)"
           },
           {
             "id": "m_review_1_5_4_m2_q2",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【した】",
+            "question": "のどが（　　）。つめたい 【みず】が のみたいです。",
             "options": [
-              "下",
-              "半",
-              "何番",
-              "八日"
+              "人",
+              "いす",
+              "来年",
+              "水"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Dưới, phía dưới**.\n\n✍️ Phân tích đáp án:\n- **下** (した): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **HẠ**.\n- Cấu tạo: 下 = 一 (Nhất - Mặt đất) + Nét sổ chỉ xuống phía dưới"
+            "correctIndex": 3,
+            "explanation": "📖 Dịch nghĩa:\nKhát nước quá. Tôi muốn uống nước lạnh.\n\n✍️ Phân tích đáp án:\n- **人** (ひと): Nghĩa là \"Người\" → Sai.\n- **いす** (いす): Nghĩa là \"Ghế\" → Sai.\n- **来年** (らいねん): Nghĩa là \"Năm sau\" → Sai.\n- **水** (みず): Cách viết chữ Hán đúng của từ 【みず】 → Chọn.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">のど</span> (Từ vựng - Danh từ: \"Cổ họng\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">つめたい</span> (Từ vựng - Tính từ đuôi i: \"Lạnh, buốt (cảm giác chạm)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">みず</span> (Từ vựng - Danh từ: \"Nước (lọc)\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">のみたいです</span> (Từ vựng - Động từ: \"Uống\")\n\n📝 Từ vựng trong câu:\n- **のど (nodo)**: Cổ họng\n- **冷たい (つめたい / tsumetai)**: Lạnh, buốt (cảm giác chạm)\n- **水 (みず / mizu)**: Nước (lọc)\n- **飲みます (のみます / nomimasu)**: Uống\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **THỦY**.\n- Cấu tạo: 水 (Thủy)"
           },
           {
             "id": "m_review_1_5_4_m2_q3",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【たいへんですね】",
+            "question": "まいあさ 9じから 5じまで 【べんきょうします】。 ...たいへん ですね。",
             "options": [
-              "大変ですね",
-              "ブラジル",
-              "帰ります",
-              "さくら大学"
+              "パワーでんき",
+              "電気会社",
+              "勉強します",
+              "ネクタイ"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Vất vả quá nhỉ**.\n\n✍️ Phân tích đáp án:\n- **大変ですね** (たいへんですね): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **ĐẠI BIẾN**.\n- Cấu tạo: 大 (Đại) + 変 (Biến)"
+            "correctIndex": 2,
+            "explanation": "📖 Dịch nghĩa:\nMỗi sáng tôi học từ 9 giờ đến 5 giờ. ...Vất vả quá nhỉ.\n\n✍️ Phân tích đáp án:\n- **パワーでんき** (パワーでんき): Nghĩa là \"Công ty Power\" → Sai.\n- **電気会社** (でんきかいしゃ): Nghĩa là \"Công ty điện\" → Sai.\n- **勉強します** (べんきょうします): Cách viết chữ Hán đúng của từ 【べんきょうします】 → Chọn.\n- **ネクタイ** (ネクタイ): Nghĩa là \"Cà vạt\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">まいあさ</span> (Từ vựng - Danh từ: \"Mỗi buổi sáng\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">から</span> (Từ vựng - Trợ từ: \"Từ (thời gian)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">まで</span> (Từ vựng - Trợ từ: \"Đến (thời gian)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">べんきょうします</span> (Từ vựng - Động từ: \"Học tập\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">たいへん</span> (Từ vựng - Tính từ na: \"Vất vả\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **毎朝 (まいあさ / maiasa)**: Mỗi buổi sáng\n- **から (kara)**: Từ (thời gian)\n- **まで (made)**: Đến (thời gian)\n- **勉強します (べんきょうします / benkyoushimasu)**: Học tập\n- **大変（な） (たいへん / taihen)**: Vất vả\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **MIỄN CƯỜNG**.\n- Cấu tạo: 勉 (Miễn) + 強 (Cường)"
           }
         ]
       },
@@ -1052,51 +1048,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_1_5_4_m3_q0",
-            "question": "この かばんは わたし 【　　　】。",
+            "question": "ハイさんは いしゃです 【　　　】。",
             "options": [
-              "です",
+              "は",
+              "も",
               "の",
-              "のです",
-              "のか"
+              "か"
             ],
-            "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nCái cặp này là của tôi.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **のです**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nLược bỏ danh từ phía sau trợ từ の khi đã rõ nghĩa: わたしの(かばん)です -> わたしのです."
+            "correctIndex": 3,
+            "explanation": "📖 Dịch nghĩa:\nAnh Hải là bác sĩ phải không?\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **か**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">いしゃ</span> (Từ vựng - Danh từ: \"Bác sĩ\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **医者 (いしゃ / isha)**: Bác sĩ\n\n💡 Ngữ pháp & Mẹo nhớ:\nTrợ từ か (ka) đặt ở cuối câu để tạo thành câu hỏi nghi vấn."
           },
           {
             "id": "m_review_1_5_4_m3_q1",
-            "question": "まいにち 10じに ねます 【　　　】。",
+            "question": "あれは 【　　　】 ですか。 ...かばんです。",
             "options": [
-              "か",
-              "ね",
-              "は",
+              "だれ",
+              "どなた",
+              "なん",
               "の"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nMỗi ngày bạn đi ngủ lúc 10 giờ phải không?\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **か**.\n\n📚 Từ vựng bổ trợ:\n- 毎日 (まいにち / mainichi): Hàng ngày, mỗi ngày\n\n💡 Ngữ pháp & Mẹo nhớ:\nCâu hỏi cuối câu dùng trợ từ か."
+            "correctIndex": 2,
+            "explanation": "📖 Dịch nghĩa:\nKia là cái gì? ...Là cái cặp.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **なん**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あれ</span> (Từ vựng - Đại từ: \"Cái kia (xa cả hai)\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">なん</span> (Từ vựng - Từ để hỏi: \"Cái gì\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">かばん</span> (Từ vựng - Danh từ: \"Túi xách, cặp\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **あれ (are)**: Cái kia (xa cả hai)\n- **何 (なん / nan)**: Cái gì\n- **かばん (kaban)**: Túi xách, cặp\n\n💡 Ngữ pháp & Mẹo nhớ:\nHỏi về đồ vật dùng 何 (なん - nan)."
           },
           {
             "id": "m_review_1_5_4_m3_q2",
-            "question": "その とけいは 【　　　】 ですか。 ...2,000えんです。",
+            "question": "いつ 【　　　】 日本へ 来ましたか。",
             "options": [
-              "いくつ",
-              "いくら",
-              "どこ",
-              "なん"
+              "(không điền)",
+              "に",
+              "で",
+              "は"
             ],
-            "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nCái đồng hồ đó giá bao nhiêu? ...2,000 Yên.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **いくら**.\n\n📚 Từ vựng bổ trợ:\n- 時計 (とけい / tokei): Đồng hồ\n- 絵 (え / e): Bức tranh\n\n💡 Ngữ pháp & Mẹo nhớ:\nHỏi giá tiền ta dùng từ いくら (Bao nhiêu tiền)."
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nBạn đã đến Nhật Bản khi nào?\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **(không điền)**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">いつ</span> (Từ vựng - Từ hỏi: \"Khi nào\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">日本</span> (Từ vựng - Danh từ: \"Nhật Bản\")\n- <span style=\"color: #f73859; font-weight: 800;\">へ</span> (Trợ từ chỉ hướng di chuyển)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">来ました</span> (Từ vựng - Động từ: \"Đến\")\n\n📝 Từ vựng trong câu:\n- **いつ (itsu)**: Khi nào\n- **日本 (にほん / nihon)**: Nhật Bản\n- **来ます (きます / kimasu)**: Đến\n\n💡 Ngữ pháp & Mẹo nhớ:\nĐằng sau từ để hỏi いつ (khi nào) tuyệt đối KHÔNG đi kèm trợ từ に."
           },
           {
             "id": "m_review_1_5_4_m3_q3",
-            "question": "それは シャープペンシルですか、ボールペンですか。 ...【　　　】。",
+            "question": "【　　　】は わたしの ノートです。",
             "options": [
-              "はい",
-              "ボールペンです",
-              "いいえ",
-              "そうです"
+              "これ",
+              "この",
+              "ここ",
+              "だれ"
             ],
-            "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nĐó là bút chì kim hay bút bi? ...Là bút bi.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **ボールペンです**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nCâu hỏi lựa chọn (A hay B) thì trả lời thẳng vào sự lựa chọn, không dùng はい/いいえ."
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nCái này là quyển vở của tôi.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **これ**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">これ</span> (Từ vựng - Đại từ: \"Cái này (gần người nói)\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">わたし</span> (Từ vựng - Đại từ: \"Tôi\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ノート</span> (Từ vựng - Danh từ: \"Vở, sổ tay\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **これ (kore)**: Cái này (gần người nói)\n- **私 (わたし / watashi)**: Tôi\n- **ノート (nooto)**: Vở, sổ tay\n\n💡 Ngữ pháp & Mẹo nhớ:\nĐại từ chỉ thị thay thế danh từ đóng vai trò chủ ngữ thì dùng これ/それ/あれ."
           }
         ]
       },
@@ -1106,51 +1102,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_1_5_4_b1_q0",
-            "question": "けさ、（　　　） はたらきませんでした。",
+            "question": "それは ラジカセですか。 ...いいえ、（　　　）。",
             "options": [
-              "わたしは",
-              "わたしが",
-              "わたしの",
-              "わたしも"
+              "そうです",
+              "ちがいます",
+              "ラジカセです",
+              "なんですか"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nSáng nay, tôi đã không làm việc.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **わたしは**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nわたし (Tôi) là chủ đề của câu, đi kèm trợ từ は."
+            "correctIndex": 1,
+            "explanation": "📖 Dịch nghĩa:\nĐó là đài cassette phải không? ...Không, sai rồi/không phải.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **ちがいます**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">それ</span> (Từ vựng - Đại từ: \"Cái đó (gần người nghe)\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">いいえ</span> (Từ vựng - Thán từ: \"Không (phủ định)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ちがいます</span> (Từ vựng - Động từ: \"Sai / Không phải vậy\")\n\n📝 Từ vựng trong câu:\n- **それ (sore)**: Cái đó (gần người nghe)\n- **いいえ (iie)**: Không (phủ định)\n- **ちがいます (chigaimasu)**: Sai / Không phải vậy\n\n💡 Ngữ pháp & Mẹo nhớ:\nĐể trả lời phủ định ngắn gọn, dùng いいえ、そうじゃありません hoặc いいえ、ちがいます."
           },
           {
             "id": "m_review_1_5_4_b1_q1",
-            "question": "それは じどうしゃ （　　　） 雑誌です。",
+            "question": "あした、（　　　） と 会社へ 行きますか。",
             "options": [
-              "は",
-              "が",
-              "の",
-              "も"
+              "だれ",
+              "どこ",
+              "いつ",
+              "なに"
             ],
-            "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nĐó là tạp chí về ô tô.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **の**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nTrợ từ の dùng để chỉ thể loại, nội dung của danh từ N2 (tạp chí về ô tô)."
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nNgày mai bạn đi đến công ty cùng với ai?\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **だれ**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あした</span> (Từ vựng - Danh từ: \"Ngày mai\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">だれ</span> (Từ vựng - Từ để hỏi: \"Ai\")\n- <span style=\"color: #f73859; font-weight: 800;\">と</span> (Trợ từ chỉ đối tượng đồng hành / liệt kê)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">会社</span> (Từ vựng - Danh từ: \"Công ty\")\n- <span style=\"color: #f73859; font-weight: 800;\">へ</span> (Trợ từ chỉ hướng di chuyển)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">行きます</span> (Từ vựng - Động từ: \"Đi\")\n\n📝 Từ vựng trong câu:\n- **明日 (あした / ashita)**: Ngày mai\n- **だれ (dare)**: Ai\n- **会社 (かいしゃ / kaisha)**: Công ty\n- **行きます (いきます / ikimasu)**: Đi\n\n💡 Ngữ pháp & Mẹo nhớ:\nHỏi người (cùng với ai) dùng だれ."
           },
           {
             "id": "m_review_1_5_4_b1_q2",
-            "question": "あれは （　　　） ですか。 ...かばんです。",
+            "question": "エレベーターは （　　　） ですか。 ...あちらです。",
             "options": [
+              "どこ",
+              "どちら",
               "だれ",
-              "どなた",
-              "なん",
-              "の"
+              "どの"
             ],
-            "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nKia là cái gì? ...Là cái cặp.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **なん**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nHỏi về đồ vật dùng 何 (なん - nan)."
+            "correctIndex": 1,
+            "explanation": "📖 Dịch nghĩa:\nThang máy ở phía nào vậy? ...Ở phía kia.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **どちら**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">エレベーター</span> (Từ vựng - Danh từ: \"Thang máy\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">どちら</span> (Từ vựng - Đại từ: \"Phía nào, đằng nào, chỗ nào (cách nói lịch sự của どこ)\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あちら</span> (Từ vựng - Đại từ: \"Phía kia, đằng kia, chỗ kia (cách nói lịch sự của あそこ)\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **エレベーター (erebeetaa)**: Thang máy\n- **どちら (dochira)**: Phía nào, đằng nào, chỗ nào (cách nói lịch sự của どこ)\n- **あちら (achira)**: Phía kia, đằng kia, chỗ kia (cách nói lịch sự của あそこ)\n\n💡 Ngữ pháp & Mẹo nhớ:\nNgười trả lời dùng あちら (lịch sự, chỉ hướng), nên câu hỏi cũng dùng どちら (phía nào) cho đồng bộ và lịch sự."
           },
           {
             "id": "m_review_1_5_4_b1_q3",
-            "question": "9じから 5じ （　　　） はたらきます。",
+            "question": "（　　　） かばんは わたしのです。",
             "options": [
-              "まで",
-              "に",
-              "は",
-              "か"
+              "それ",
+              "その",
+              "そこ",
+              "そちら"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTôi làm việc từ 9 giờ đến 5 giờ.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **まで**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nMẫu câu から〜まで nghĩa là 'Từ ~ Đến ~'."
+            "correctIndex": 1,
+            "explanation": "📖 Dịch nghĩa:\nCái cặp đó là của tôi.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **その**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">その</span> (Từ vựng - Từ chỉ định: \"Cái đó ... (+ danh từ)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">かばん</span> (Từ vựng - Danh từ: \"Túi xách, cặp\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">わたし</span> (Từ vựng - Đại từ: \"Tôi\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **その (sono)**: Cái đó ... (+ danh từ)\n- **かばん (kaban)**: Túi xách, cặp\n- **私 (わたし / watashi)**: Tôi\n\n💡 Ngữ pháp & Mẹo nhớ:\nĐứng trước danh từ (かばん) phải dùng この/その/あの. Không dùng これ/それ/あれ hoặc đại từ địa điểm."
           }
         ]
       },
@@ -1160,6 +1156,18 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_1_5_4_b2_q0",
+            "question": "ミラーさんの かばんは　___ ___ _★_ ___　あります。",
+            "options": [
+              "の",
+              "つくえ",
+              "うえ",
+              "に"
+            ],
+            "correctIndex": 2,
+            "explanation": "📖 Dịch nghĩa:\nCặp sách của anh Miller ở trên bàn.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: ミラーさんの かばんは つくえ の うえ に あります。\n- Từ ở vị trí ngôi sao (★) là: **うえ**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">かばん</span> (Từ vựng - Danh từ: \"Túi xách, cặp\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">つくえ</span> (Từ vựng - Danh từ: \"Bàn\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">うえ</span> (Từ vựng - Danh từ: \"Trên, phía trên\")\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / địa điểm / đối tượng tiếp nhận)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あります</span> (Từ vựng - Động từ: \"Có (sở hữu)\")\n\n📝 Từ vựng trong câu:\n- **かばん (kaban)**: Túi xách, cặp\n- **机 (つくえ / tsukue)**: Bàn\n- **上 (うえ / ue)**: Trên, phía trên\n- **あります (arimasu)**: Có (sở hữu)\n\n💡 Ngữ pháp & Mẹo nhớ:\nCấu trúc chỉ vị trí: N1 (vị trí) の N2 (trên/dưới/trong/ngoài) に あります. Ở đây là つくえのうえに."
+          },
+          {
+            "id": "m_review_1_5_4_b2_q1",
             "question": "しょくどうは　___ ___ _★_ ___　あります。",
             "options": [
               "の",
@@ -1168,10 +1176,303 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "に"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nNhà ăn nằm ở tầng 6 của bách hóa.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: しょくどうは [デパート] [の] [★ 6かい] [に] あります。\n- Từ ở vị trí ngôi sao (★) là: **6かい**.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Cấu trúc chỉ sự tồn tại: N (địa điểm) に あります. Nối 2 danh từ chỉ địa điểm bằng trợ từ の."
+            "explanation": "📖 Dịch nghĩa:\nNhà ăn nằm ở tầng 6 của bách hóa.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: しょくどうは デパート の 6かい に あります。\n- Từ ở vị trí ngôi sao (★) là: **6かい**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">しょくどう</span> (Từ vựng - Danh từ: \"Nhà ăn\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">デパート</span> (Từ vựng - Danh từ: \"Trung tâm thương mại\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / địa điểm / đối tượng tiếp nhận)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あります</span> (Từ vựng - Động từ: \"Có (sở hữu)\")\n\n📝 Từ vựng trong câu:\n- **食堂 (しょくどう / shokudou)**: Nhà ăn\n- **デパート (depaato)**: Trung tâm thương mại\n- **あります (arimasu)**: Có (sở hữu)\n\n💡 Ngữ pháp & Mẹo nhớ:\nCấu trúc chỉ sự tồn tại: N (địa điểm) に あります. Nối 2 danh từ chỉ địa điểm bằng trợ từ の."
+          }
+        ]
+      },
+      {
+        "id": "p_review_1_5_4_dokkai1",
+        "type": "mondai3",
+        "text": [
+          "A：すみません。しょくどうは どこ ですか。",
+          "B：しょくどうは ６かい です。",
+          "A：エレベーターは どこ ですか。",
+          "B：あそこ です。",
+          "A：ありがとうございます。"
+        ],
+        "translation": [
+          "A: Xin lỗi, căng-tin ở đâu vậy?",
+          "B: Căng-tin ở tầng 6.",
+          "A: Thang máy ở đâu ạ?",
+          "B: Chỗ kia ạ.",
+          "A: Cảm ơn ạ."
+        ],
+        "vocabulary": [
+          "ありがとうございます (arigatou gozaimasu): Cảm ơn (lịch sự)",
+          "エレベーター (erebeetaa): Thang máy",
+          "すみません (sumimasen): Xin lỗi",
+          "食堂 (しょくどう / shokudou): Nhà ăn",
+          "あそこ (asoko): Kia, chỗ kia",
+          "どこ (doko): Ở đâu?"
+        ],
+        "questions": [
+          {
+            "id": "m_review_1_5_4_d1_q0",
+            "question": "食堂はなんかいですか？",
+            "options": [
+              "3かい",
+              "4かい",
+              "5かい",
+              "6かい"
+            ],
+            "correctIndex": 3,
+            "explanation": "📖 Dịch nghĩa:\n食堂はなんかいですか？\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **6かい**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">食堂</span> (Từ vựng - Danh từ: \"Nhà ăn\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">はな</span> (Từ vựng - Danh từ: \"Hoa\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **食堂 (しょくどう / shokudou)**: Nhà ăn\n- **花 (はな / hana)**: Hoa\n\n💡 Ngữ pháp & Mẹo nhớ:\nDựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác."
           },
           {
-            "id": "m_review_1_5_4_b2_q1",
+            "id": "m_review_1_5_4_d1_q1",
+            "question": "AさんはBさんに何を聞きましたか？ (A hỏi B điều gì?)",
+            "options": [
+              "デパートの場所",
+              "食堂とエレベーターの場所",
+              "スーパーの場所",
+              "ぎんこうの場所"
+            ],
+            "correctIndex": 1,
+            "explanation": "📖 Dịch nghĩa:\nAさんはBさんに何を聞きましたか？ (A hỏi B điều gì?)\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **食堂とエレベーターの場所**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / địa điểm / đối tượng tiếp nhận)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">何</span> (Từ vựng - Từ để hỏi: \"Cái gì\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">聞きました</span> (Từ vựng - Động từ: \"Nghe\")\n\n📝 Từ vựng trong câu:\n- **何 (なん / nan)**: Cái gì\n- **聞きます (ききます / kikimasu)**: Nghe\n\n💡 Ngữ pháp & Mẹo nhớ:\nDựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác."
+          },
+          {
+            "id": "m_review_1_5_4_d1_q2",
+            "question": "エレベーターはどこですか？",
+            "options": [
+              "ここ",
+              "そこ",
+              "あそこ",
+              "どこか"
+            ],
+            "correctIndex": 2,
+            "explanation": "📖 Dịch nghĩa:\nエレベーターはどこですか？\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **あそこ**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">エレベーター</span> (Từ vựng - Danh từ: \"Thang máy\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">どこ</span> (Từ vựng - Đại từ: \"Ở đâu?\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **エレベーター (erebeetaa)**: Thang máy\n- **どこ (doko)**: Ở đâu?\n\n💡 Ngữ pháp & Mẹo nhớ:\nDựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "review_1_5_5",
+    "title": "Đề thi 5: Trạm Ôn Tập JLPT N5 (Bài 1 - 5)",
+    "description": "Bộ đề số 5. Các câu hỏi và bài đọc được thiết kế độc lập 100% để ôn luyện toàn diện.",
+    "passages": [
+      {
+        "id": "p_review_1_5_5_moji1",
+        "type": "moji_mondai1",
+        "questions": [
+          {
+            "id": "m_review_1_5_5_m1_q0",
+            "question": "カメラ【売り場】は どこ ですか。 ...5かいです。",
+            "options": [
+              "アメリカ",
+              "きます",
+              "うりば",
+              "ほん"
+            ],
+            "correctIndex": 2,
+            "explanation": "📖 Dịch nghĩa:\nQuầy bán máy ảnh ở đâu? ...Ở tầng 5.\n\n✍️ Phân tích đáp án:\n- **アメリカ** (america): Nghĩa là \"Mỹ (Hoa Kỳ)\" → Sai.\n- **きます** (kimasu): Nghĩa là \"Đến\" → Sai.\n- **うりば** (uriba): Cách đọc đúng của chữ Hán 【売り場】 → Chọn.\n- **ほん** (hon): Nghĩa là \"Sách\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">カメラ</span> (Từ vựng - Danh từ: \"Máy ảnh\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">売り場</span> (Từ vựng - Danh từ: \"Quầy bán hàng\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">どこ</span> (Từ vựng - Đại từ: \"Ở đâu?\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **カメラ (kamera)**: Máy ảnh\n- **売り場 (うりば / uriba)**: Quầy bán hàng\n- **どこ (doko)**: Ở đâu?\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **MẠI TRƯỜNG**.\n- Mẹo nhớ: Địa điểm (Trường) chuyên dùng để bán (Mại) hàng hóa là Quầy bán."
+          },
+          {
+            "id": "m_review_1_5_5_m1_q1",
+            "question": "これ 【自動販売機】 です。",
+            "options": [
+              "しごとをします",
+              "じどうはんばいき",
+              "〜でございます",
+              "でんきかいしゃ"
+            ],
+            "correctIndex": 1,
+            "explanation": "📖 Dịch nghĩa:\nĐây là máy bán hàng tự động.\n\n✍️ Phân tích đáp án:\n- **しごとをします** (shigoto wo shimasu): Nghĩa là \"Làm việc\" → Sai.\n- **じどうはんばいき** (jidouhanbaiki): Cách đọc đúng của chữ Hán 【自動販売機】 → Chọn.\n- **〜でございます** (~de gozaimasu): Nghĩa là \"(cách nói lịch sự của です)\" → Sai.\n- **でんきかいしゃ** (denki gaisha): Nghĩa là \"Công ty điện\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">これ</span> (Từ vựng - Đại từ: \"Cái này (gần người nói)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">自動販売機</span> (Từ vựng - Danh từ: \"Máy bán hàng tự động\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **これ (kore)**: Cái này (gần người nói)\n- **自動販売機 (じどうはんばいき / jidouhanbaiki)**: Máy bán hàng tự động\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **TỰ ĐỘNG PHÁN MẠI CƠ**.\n- Mẹo nhớ: Cỗ máy tự chuyển động để buôn bán là Máy bán hàng tự động."
+          },
+          {
+            "id": "m_review_1_5_5_m1_q2",
+            "question": "さとうさんの 【電話番号】は なんばん ですか。",
+            "options": [
+              "しごとをします",
+              "ゆうびんきょく",
+              "でんわばんごう",
+              "エスカレーター"
+            ],
+            "correctIndex": 2,
+            "explanation": "📖 Dịch nghĩa:\nSố điện thoại của chị Sato là số mấy?\n\n✍️ Phân tích đáp án:\n- **しごとをします** (shigoto wo shimasu): Nghĩa là \"Làm việc\" → Sai.\n- **ゆうびんきょく** (yuubinkyoku): Nghĩa là \"Bưu điện\" → Sai.\n- **でんわばんごう** (denwabangou): Cách đọc đúng của chữ Hán 【電話番号】 → Chọn.\n- **エスカレーター** (esukareetaa): Nghĩa là \"Thang cuốn\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">さとう</span> (Từ vựng - Danh từ: \"Đường\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">電話番号</span> (Từ vựng - Danh từ: \"Số điện thoại\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">なんばん</span> (Từ vựng - Từ để hỏi: \"Số mấy\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **砂糖 (さとう / satou)**: Đường\n- **電話番号 (でんわばんごう / denwabangou)**: Số điện thoại\n- **何番 (なんばん / nanban)**: Số mấy\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **ĐIỆN THOẠI PHIÊN HIỆU**.\n- Mẹo nhớ: Số của máy điện thoại."
+          },
+          {
+            "id": "m_review_1_5_5_m1_q3",
+            "question": "ここ は 【食堂】です。",
+            "options": [
+              "コーヒー",
+              "かえります",
+              "きょうしつ",
+              "しょくどう"
+            ],
+            "correctIndex": 3,
+            "explanation": "📖 Dịch nghĩa:\nỞ đây là nhà ăn.\n\n✍️ Phân tích đáp án:\n- **コーヒー** (koohii): Nghĩa là \"Cà phê\" → Sai.\n- **かえります** (kaerimasu): Nghĩa là \"Về\" → Sai.\n- **きょうしつ** (kyoushitsu): Nghĩa là \"Lớp học, phòng học\" → Sai.\n- **しょくどう** (shokudou): Cách đọc đúng của chữ Hán 【食堂】 → Chọn.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ここ</span> (Từ vựng - Đại từ: \"Đây, chỗ này\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">食堂</span> (Từ vựng - Danh từ: \"Nhà ăn\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **ここ (koko)**: Đây, chỗ này\n- **食堂 (しょくどう / shokudou)**: Nhà ăn\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **THỰC ĐƯỜNG**.\n- Mẹo nhớ: Căn nhà lớn (Đường) chuyên dùng để tổ chức ăn uống (Thực) là Nhà ăn."
+          }
+        ]
+      },
+      {
+        "id": "p_review_1_5_5_moji2",
+        "type": "moji_mondai2",
+        "questions": [
+          {
+            "id": "m_review_1_5_5_m2_q0",
+            "question": "A：すみません。靴売り場は【なんかい】ですか。",
+            "options": [
+              "下",
+              "医者",
+              "土曜日",
+              "何階"
+            ],
+            "correctIndex": 3,
+            "explanation": "📖 Dịch nghĩa:\nA: Xin lỗi, quầy giày ở tầng mấy ạ?\n\n✍️ Phân tích đáp án:\n- **下** (した): Nghĩa là \"Dưới, phía dưới\" → Sai.\n- **医者** (いしゃ): Nghĩa là \"Bác sĩ\" → Sai.\n- **土曜日** (どようび): Nghĩa là \"Thứ Bảy\" → Sai.\n- **何階** (なんかい): Cách viết chữ Hán đúng của từ 【なんかい】 → Chọn.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">すみません</span> (Từ vựng - Mẫu câu: \"Xin lỗi (hỏi đường)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">靴</span> (Từ vựng - Danh từ: \"Giày\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">売り場</span> (Từ vựng - Danh từ: \"Quầy bán hàng\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">なんかい</span> (Từ vựng - Từ hỏi: \"Tầng mấy?\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **すみません (sumimasen)**: Xin lỗi (hỏi đường)\n- **靴 (くつ / kutsu)**: Giày\n- **売り場 (うりば / uriba)**: Quầy bán hàng\n- **何階 (なんかい / nankai)**: Tầng mấy?\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **HÀ GIAI**.\n- Cấu tạo: 何 (Hà - Cái gì/Mấy) + 階 (Giai - Tầng)"
+          },
+          {
+            "id": "m_review_1_5_5_m2_q1",
+            "question": "これ 【じゅうよっか】 です。",
+            "options": [
+              "十四日",
+              "バンコク",
+              "郵便局",
+              "後ろ"
+            ],
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nĐây là ngày 14.\n\n✍️ Phân tích đáp án:\n- **十四日** (じゅうよっか): Cách viết chữ Hán đúng của từ 【じゅうよっか】 → Chọn.\n- **バンコク** (バンコク): Nghĩa là \"Bangkok\" → Sai.\n- **郵便局** (ゆうびんきょく): Nghĩa là \"Bưu điện\" → Sai.\n- **後ろ** (うしろ): Nghĩa là \"Sau, phía sau\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">これ</span> (Từ vựng - Đại từ: \"Cái này (gần người nói)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">じゅうよっか</span> (Từ vựng - Danh từ: \"Ngày 14\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **これ (kore)**: Cái này (gần người nói)\n- **十四日 (じゅうよっか / juuyokka)**: Ngày 14\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **THẬP TỨ NHẬT**.\n- Cấu tạo: 十 (Thập) + 四 (Tứ) + 日 (Nhật)"
+          },
+          {
+            "id": "m_review_1_5_5_m2_q2",
+            "question": "【たいへんですね】。",
+            "options": [
+              "パワーでんき",
+              "大変ですね",
+              "そうです",
+              "インドネシア"
+            ],
+            "correctIndex": 1,
+            "explanation": "📖 Dịch nghĩa:\nVất vả quá nhỉ.\n\n✍️ Phân tích đáp án:\n- **パワーでんき** (パワーでんき): Nghĩa là \"Công ty Power\" → Sai.\n- **大変ですね** (たいへんですね): Cách viết chữ Hán đúng của từ 【たいへんですね】 → Chọn.\n- **そうです** (そうです): Nghĩa là \"Đúng vậy / Đúng rồi\" → Sai.\n- **インドネシア** (インドネシア): Nghĩa là \"Indonesia\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">たいへんですね</span> (Từ vựng - Mẫu câu: \"Vất vả quá nhỉ\")\n\n📝 Từ vựng trong câu:\n- **大変ですね (たいへんですね / taihen desu ne)**: Vất vả quá nhỉ\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **ĐẠI BIẾN**.\n- Cấu tạo: 大 (Đại) + 変 (Biến)"
+          },
+          {
+            "id": "m_review_1_5_5_m2_q3",
+            "question": "店員：【ぜんぶで】450円です。",
+            "options": [
+              "買います",
+              "全部で",
+              "おととい",
+              "何時"
+            ],
+            "correctIndex": 1,
+            "explanation": "📖 Dịch nghĩa:\nNhân viên: Tổng cộng 450 yên.\n\n✍️ Phân tích đáp án:\n- **買います** (かいます): Nghĩa là \"Mua\" → Sai.\n- **全部で** (ぜんぶで): Cách viết chữ Hán đúng của từ 【ぜんぶで】 → Chọn.\n- **おととい** (おととい): Nghĩa là \"Hôm kia\" → Sai.\n- **何時** (なんじ): Nghĩa là \"Mấy giờ?\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">店</span> (Từ vựng - Danh từ: \"Cửa hàng\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ぜんぶで</span> (Từ vựng - Mẫu câu: \"Tất cả là, tổng cộng\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **店 (みせ / mise)**: Cửa hàng\n- **全部で (ぜんぶで / zenbu de)**: Tất cả là, tổng cộng\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **TOÀN BỘ**.\n- Cấu tạo: 全 (Toàn) + 部 (Bộ)"
+          }
+        ]
+      },
+      {
+        "id": "p_review_1_5_5_moji3",
+        "type": "moji_mondai3",
+        "questions": [
+          {
+            "id": "m_review_1_5_5_m3_q0",
+            "question": "あした 学校 【　　　】 行きます。",
+            "options": [
+              "へ",
+              "で",
+              "と",
+              "を"
+            ],
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nNgày mai tôi sẽ đi đến trường.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **へ**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あした</span> (Từ vựng - Danh từ: \"Ngày mai\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">学校</span> (Từ vựng - Danh từ: \"Trường học\")\n- <span style=\"color: #f73859; font-weight: 800;\">へ</span> (Trợ từ chỉ hướng di chuyển)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">行きます</span> (Từ vựng - Động từ: \"Đi\")\n\n📝 Từ vựng trong câu:\n- **明日 (あした / ashita)**: Ngày mai\n- **学校 (がっこう / gakkou)**: Trường học\n- **行きます (いきます / ikimasu)**: Đi\n\n💡 Ngữ pháp & Mẹo nhớ:\nChỉ phương hướng di chuyển tới địa điểm (学校) đi với động từ 行きます phải dùng trợ từ へ."
+          },
+          {
+            "id": "m_review_1_5_5_m3_q1",
+            "question": "これは じしょ 【　　　】。",
+            "options": [
+              "です",
+              "ですか",
+              "は",
+              "の"
+            ],
+            "correctIndex": 1,
+            "explanation": "📖 Dịch nghĩa:\nĐây là quyển từ điển phải không?\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **ですか**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">これ</span> (Từ vựng - Đại từ: \"Cái này (gần người nói)\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">じしょ</span> (Từ vựng - Danh từ: \"Từ điển\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **これ (kore)**: Cái này (gần người nói)\n- **辞書 (じしょ / jisho)**: Từ điển\n\n💡 Ngữ pháp & Mẹo nhớ:\nCâu hỏi cuối câu dùng ですか."
+          },
+          {
+            "id": "m_review_1_5_5_m3_q2",
+            "question": "きのう 【　　　】 来ましたか。 ...タクシーで 来ました。",
+            "options": [
+              "何で",
+              "だれ",
+              "どこ",
+              "いつ"
+            ],
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nHôm qua bạn đến bằng gì? ...Tôi đến bằng Taxi.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **何で**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">きのう</span> (Từ vựng - Danh từ: \"Hôm qua\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">何</span> (Từ vựng - Từ để hỏi: \"Cái gì\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">来ました</span> (Từ vựng - Động từ: \"Đến\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">タクシー</span> (Từ vựng - Danh từ: \"Taxi\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">来ました</span> (Từ vựng - Động từ: \"Đến\")\n\n📝 Từ vựng trong câu:\n- **きのう (kinou)**: Hôm qua\n- **何 (なん / nan)**: Cái gì\n- **来ます (きます / kimasu)**: Đến\n- **タクシー (takushii)**: Taxi\n\n💡 Ngữ pháp & Mẹo nhớ:\nCâu trả lời là phương tiện (タクシーで) nên câu hỏi là 何で (bằng gì)."
+          },
+          {
+            "id": "m_review_1_5_5_m3_q3",
+            "question": "おてあらいは 【　　　】 ですか。 ...あそこです。",
+            "options": [
+              "どこ",
+              "だれ",
+              "なん",
+              "いくら"
+            ],
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nNhà vệ sinh ở đâu vậy? ...Ở đằng kia.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **どこ**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">おてあらい</span> (Từ vựng - Danh từ: \"Nhà vệ sinh (lịch sự)\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">どこ</span> (Từ vựng - Đại từ: \"Ở đâu?\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あそこ</span> (Từ vựng - Đại từ: \"Kia, chỗ kia\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **おてあらい (otearai)**: Nhà vệ sinh (lịch sự)\n- **どこ (doko)**: Ở đâu?\n- **あそこ (asoko)**: Kia, chỗ kia\n\n💡 Ngữ pháp & Mẹo nhớ:\nHỏi địa điểm dùng từ để hỏi どこ (ở đâu)."
+          }
+        ]
+      },
+      {
+        "id": "p_review_1_5_5_bunpou1",
+        "type": "mondai1",
+        "questions": [
+          {
+            "id": "m_review_1_5_5_b1_q0",
+            "question": "（　　　） は しょくどうです。",
+            "options": [
+              "これ",
+              "この",
+              "ここ",
+              "だれ"
+            ],
+            "correctIndex": 2,
+            "explanation": "📖 Dịch nghĩa:\nỞ đây là nhà ăn.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **ここ**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ここ</span> (Từ vựng - Đại từ: \"Đây, chỗ này\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">しょくどう</span> (Từ vựng - Danh từ: \"Nhà ăn\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **ここ (koko)**: Đây, chỗ này\n- **食堂 (しょくどう / shokudou)**: Nhà ăn\n\n💡 Ngữ pháp & Mẹo nhớ:\nしょくどう (nhà ăn) là địa điểm nên phải dùng đại từ chỉ địa điểm (ここ) thay vì chỉ vật (これ)."
+          },
+          {
+            "id": "m_review_1_5_5_b1_q1",
+            "question": "これは （　　　） の かさですか。",
+            "options": [
+              "だれ",
+              "なん",
+              "どなた",
+              "あの"
+            ],
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nĐây là cái ô của ai?\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **だれ**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">これ</span> (Từ vựng - Đại từ: \"Cái này (gần người nói)\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">だれ</span> (Từ vựng - Từ để hỏi: \"Ai\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">かさ</span> (Từ vựng - Danh từ: \"Ô (dù)\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **これ (kore)**: Cái này (gần người nói)\n- **だれ (dare)**: Ai\n- **傘 (かさ / kasa)**: Ô (dù)\n\n💡 Ngữ pháp & Mẹo nhớ:\nHỏi người sở hữu đồ vật dùng だれの (của ai)."
+          },
+          {
+            "id": "m_review_1_5_5_b1_q2",
+            "question": "わたしは ぎんこういん （　　　）。いしゃです。",
+            "options": [
+              "です",
+              "じゃありません",
+              "ですか",
+              "の"
+            ],
+            "correctIndex": 1,
+            "explanation": "📖 Dịch nghĩa:\nTôi không phải là nhân viên ngân hàng. Tôi là bác sĩ.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **じゃありません**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">わたし</span> (Từ vựng - Đại từ: \"Tôi\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ぎんこういん</span> (Từ vựng - Danh từ: \"Nhân viên ngân hàng\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">じゃ</span> (Từ vựng - Mẫu câu: \"Thế thì, vậy thì\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ありません</span> (Từ vựng - Động từ: \"Có (sở hữu)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">いしゃ</span> (Từ vựng - Danh từ: \"Bác sĩ\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **私 (わたし / watashi)**: Tôi\n- **銀行員 (ぎんこういん / ginkouin)**: Nhân viên ngân hàng\n- **じゃ (ja)**: Thế thì, vậy thì\n- **あります (arimasu)**: Có (sở hữu)\n- **医者 (いしゃ / isha)**: Bác sĩ\n\n💡 Ngữ pháp & Mẹo nhớ:\nĐằng sau có câu khẳng định 'いしゃです' (Tôi là bác sĩ), nên câu trước phải mang nghĩa phủ định (Tôi không phải là nhân viên ngân hàng) -> Chọnじゃありません."
+          },
+          {
+            "id": "m_review_1_5_5_b1_q3",
+            "question": "だれ （　　　） 日本へ 来ましたか。 ...家族と 来ました。",
+            "options": [
+              "と",
+              "に",
+              "で",
+              "へ"
+            ],
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nBạn đã đến Nhật Bản cùng với ai? ...Tôi đến cùng gia đình.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **と**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">だれ</span> (Từ vựng - Từ để hỏi: \"Ai\")\n- <span style=\"color: #f73859; font-weight: 800;\">と</span> (Trợ từ chỉ đối tượng đồng hành / liệt kê)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">日本</span> (Từ vựng - Danh từ: \"Nhật Bản\")\n- <span style=\"color: #f73859; font-weight: 800;\">へ</span> (Trợ từ chỉ hướng di chuyển)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">来ました</span> (Từ vựng - Động từ: \"Đến\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">家族</span> (Từ vựng - Danh từ: \"Gia đình\")\n- <span style=\"color: #f73859; font-weight: 800;\">と</span> (Trợ từ chỉ đối tượng đồng hành / liệt kê)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">来ました</span> (Từ vựng - Động từ: \"Đến\")\n\n📝 Từ vựng trong câu:\n- **だれ (dare)**: Ai\n- **日本 (にほん / nihon)**: Nhật Bản\n- **来ます (きます / kimasu)**: Đến\n- **家族 (かぞく / kazoku)**: Gia đình\n\n💡 Ngữ pháp & Mẹo nhớ:\nLàm gì cùng với ai dùng trợ từ と (cùng với)."
+          }
+        ]
+      },
+      {
+        "id": "p_review_1_5_5_bunpou2",
+        "type": "mondai2",
+        "questions": [
+          {
+            "id": "m_review_1_5_5_b2_q0",
             "question": "これは　___ ___ _★_ ___　の じしょ です。",
             "options": [
               "の",
@@ -1180,12 +1481,24 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "じん"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nĐây là cuốn từ điển của người bạn Mỹ.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: これは [アメリカ] [じん] [★ の] [ともだち] の じしょ です。\n- Từ ở vị trí ngôi sao (★) là: **の**.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- アメリカ (Mỹ) + じん (người) -> アメリカじん (người Mỹ). Trợ từ の dùng để chỉ sự sở hữu hoặc quan hệ giữa 2 danh từ."
+            "explanation": "📖 Dịch nghĩa:\nĐây là cuốn từ điển của người bạn Mỹ.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: これは アメリカ じん の ともだち の じしょ です。\n- Từ ở vị trí ngôi sao (★) là: **の**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">これ</span> (Từ vựng - Đại từ: \"Cái này (gần người nói)\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">アメリカ</span> (Từ vựng - Danh từ: \"Mỹ (Hoa Kỳ)\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ともだち</span> (Từ vựng - Danh từ: \"Bạn bè\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">じしょ</span> (Từ vựng - Danh từ: \"Từ điển\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **これ (kore)**: Cái này (gần người nói)\n- **アメリカ (america)**: Mỹ (Hoa Kỳ)\n- **友達 (ともだち / tomodachi)**: Bạn bè\n- **辞書 (じしょ / jisho)**: Từ điển\n\n💡 Ngữ pháp & Mẹo nhớ:\nアメリカ (Mỹ) + じん (người) -> アメリカじん (người Mỹ). Trợ từ の dùng để chỉ sự sở hữu hoặc quan hệ giữa 2 danh từ."
+          },
+          {
+            "id": "m_review_1_5_5_b2_q1",
+            "question": "あしたは　___ ___ _★_ ___。",
+            "options": [
+              "へ",
+              "どこ",
+              "も",
+              "いきません"
+            ],
+            "correctIndex": 2,
+            "explanation": "📖 Dịch nghĩa:\nNgày mai tôi không đi đâu cả.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: あしたは どこ へ も いきません。\n- Từ ở vị trí ngôi sao (★) là: **も**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あした</span> (Từ vựng - Danh từ: \"Ngày mai\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">どこ</span> (Từ vựng - Đại từ: \"Ở đâu?\")\n- <span style=\"color: #f73859; font-weight: 800;\">へ</span> (Trợ từ chỉ hướng di chuyển)\n- <span style=\"color: #f73859; font-weight: 800;\">も</span> (Trợ từ chỉ cũng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">いきません</span> (Từ vựng - Động từ: \"Đi\")\n\n📝 Từ vựng trong câu:\n- **明日 (あした / ashita)**: Ngày mai\n- **どこ (doko)**: Ở đâu?\n- **行きます (いきます / ikimasu)**: Đi\n\n💡 Ngữ pháp & Mẹo nhớ:\nPhủ định hoàn toàn: Từ nghi vấn chỉ nơi chốn (どこ) + へ + も + động từ phủ định (いきません)."
           }
         ]
       },
       {
-        "id": "p_review_1_5_4_dokkai1",
+        "id": "p_review_1_5_5_dokkai1",
         "type": "mondai3",
         "text": [
           "A：すみません、いま なんじ ですか。",
@@ -1204,12 +1517,20 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
           "B: Thứ Năm."
         ],
         "vocabulary": [
-          "デパート (depaato): Trung tâm thương mại, bách hóa",
-          "休み (やすみ / yasumi): Ngày nghỉ"
+          "すみません (sumimasen): Xin lỗi",
+          "何曜日 (なんようび / nan youbi): Thứ mấy?",
+          "木曜日 (もくようび / mokuyoubi): Thứ Năm",
+          "デパート (depaato): Trung tâm thương mại",
+          "何時 (なんじ / nanji): Mấy giờ?",
+          "午前 (ごぜん / gozen): Buổi sáng, trước trưa (AM)",
+          "休み (やすみ / yasumi): Ngày nghỉ, giờ nghỉ",
+          "この (kono): Cái này ... (+ danh từ)",
+          "今 (いま / ima): Bây giờ",
+          "から (kara): Từ (thời gian)"
         ],
         "questions": [
           {
-            "id": "m_review_1_5_4_d1_q0",
+            "id": "m_review_1_5_5_d1_q0",
             "question": "いまなんじですか？",
             "options": [
               "ごぜん8じ",
@@ -1218,10 +1539,10 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "ごご10じ"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nいまなんじですか？\n- Đáp án đúng: **ごぜん10じ**.\n\n✍️ Phân tích đáp án:\n- Dựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác."
+            "explanation": "📖 Dịch nghĩa:\nいまなんじですか？\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **ごぜん10じ**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">いま</span> (Từ vựng - Danh từ: \"Bây giờ\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">なんじ</span> (Từ vựng - Từ hỏi: \"Mấy giờ?\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **今 (いま / ima)**: Bây giờ\n- **何時 (なんじ / nanji)**: Mấy giờ?\n\n💡 Ngữ pháp & Mẹo nhớ:\nDựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác."
           },
           {
-            "id": "m_review_1_5_4_d1_q1",
+            "id": "m_review_1_5_5_d1_q1",
             "question": "デパートはなんじからですか？",
             "options": [
               "8じから",
@@ -1230,10 +1551,10 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "11じから"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nデパートはなんじからですか？\n- Đáp án đúng: **10じから**.\n\n✍️ Phân tích đáp án:\n- Dựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác.\n\n📚 Từ vựng bổ trợ:\n- デパート (depaato): Trung tâm thương mại, bách hóa\n- 花 (はな / hana): Hoa"
+            "explanation": "📖 Dịch nghĩa:\nデパートはなんじからですか？\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **10じから**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">デパート</span> (Từ vựng - Danh từ: \"Trung tâm thương mại\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">はな</span> (Từ vựng - Danh từ: \"Hoa\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">から</span> (Từ vựng - Trợ từ: \"Từ (thời gian)\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **デパート (depaato)**: Trung tâm thương mại\n- **花 (はな / hana)**: Hoa\n- **から (kara)**: Từ (thời gian)\n\n💡 Ngữ pháp & Mẹo nhớ:\nDựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác."
           },
           {
-            "id": "m_review_1_5_4_d1_q2",
+            "id": "m_review_1_5_5_d1_q2",
             "question": "デパートのやすみはなんようびですか？",
             "options": [
               "すいようび",
@@ -1242,320 +1563,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "どようび"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nデパートのやすみはなんようびですか？\n- Đáp án đúng: **もくようび**.\n\n✍️ Phân tích đáp án:\n- Dựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác.\n\n📚 Từ vựng bổ trợ:\n- デパート (depaato): Trung tâm thương mại, bách hóa\n- 休み (やすみ / yasumi): Ngày nghỉ\n- 花 (はな / hana): Hoa"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "review_1_5_5",
-    "title": "Đề thi 5: Trạm Ôn Tập JLPT N5 (Bài 1 - 5)",
-    "description": "Bộ đề số 5. Các câu hỏi và bài đọc được thiết kế độc lập 100% để ôn luyện toàn diện.",
-    "passages": [
-      {
-        "id": "p_review_1_5_5_moji1",
-        "type": "moji_mondai1",
-        "questions": [
-          {
-            "id": "m_review_1_5_5_m1_q0",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【電車】",
-            "options": [
-              "あちら",
-              "やすみます",
-              "でんしゃ",
-              "おわります"
-            ],
-            "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【電車】 có nghĩa là: **Tàu điện**.\n\n✍️ Phân tích đáp án:\n- **でんしゃ** (densha): Cách đọc đúng của chữ Hán 【電車】.\n\n📚 Từ vựng bổ trợ:\n- 電車 (でんしゃ / densha): Tàu điện\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **ĐIỆN XA**.\n- Mẹo nhớ: Chiếc xe chạy bằng năng lượng điện là Tàu điện."
-          },
-          {
-            "id": "m_review_1_5_5_m1_q1",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【大学】",
-            "options": [
-              "げつようび",
-              "ようか",
-              "だいがく",
-              "こちら"
-            ],
-            "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【大学】 có nghĩa là: **Trường đại học**.\n\n✍️ Phân tích đáp án:\n- **だいがく** (daigaku): Cách đọc đúng của chữ Hán 【大学】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **ĐẠI HỌC**.\n- Mẹo nhớ: Nơi có môi trường học (学) tập lớn (大) nhất."
-          },
-          {
-            "id": "m_review_1_5_5_m1_q2",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【何年】",
-            "options": [
-              "つくえ",
-              "〜えん",
-              "きょうしつ",
-              "なんねん"
-            ],
-            "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【何年】 có nghĩa là: **Năm mấy**.\n\n✍️ Phân tích đáp án:\n- **なんねん** (nannen): Cách đọc đúng của chữ Hán 【何年】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **HÀ NIÊN**.\n- Mẹo nhớ: Hỏi xem là Năm (年) nào, mấy (何) năm."
-          },
-          {
-            "id": "m_review_1_5_5_m1_q3",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【番号案内】",
-            "options": [
-              "ばんごうあんない",
-              "にじゅうよっか",
-              "〜でございます",
-              "シャープペンシル"
-            ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【番号案内】 có nghĩa là: **Dịch vụ hỏi số điện thoại (116)**.\n\n✍️ Phân tích đáp án:\n- **ばんごうあんない** (bangouannai): Cách đọc đúng của chữ Hán 【番号案内】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **PHIÊN HIỆU ÁN NỘI**.\n- Mẹo nhớ: Dịch vụ hướng dẫn (Án Nội) số điện thoại (Phiên Hiệu)."
-          }
-        ]
-      },
-      {
-        "id": "p_review_1_5_5_moji2",
-        "type": "moji_mondai2",
-        "questions": [
-          {
-            "id": "m_review_1_5_5_m2_q0",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【ちかてつ】",
-            "options": [
-              "電話番号",
-              "地下",
-              "地下鉄",
-              "毎日"
-            ],
-            "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Tàu điện ngầm**.\n\n✍️ Phân tích đáp án:\n- **地下鉄** (ちかてつ): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **ĐỊA HẠ THIẾT**.\n- Cấu tạo: 地 (Địa) + 下 (Hạ) + 鉄 (Thiết)"
-          },
-          {
-            "id": "m_review_1_5_5_m2_q1",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【わたし】",
-            "options": [
-              "私",
-              "何分",
-              "午後",
-              "どこ"
-            ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Tôi**.\n\n✍️ Phân tích đáp án:\n- **私** (わたし): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **TƯ**.\n- Cấu tạo: 私 = 禾 (Hòa - Cây lúa) + 厶 (Khư - Riêng tư)"
-          },
-          {
-            "id": "m_review_1_5_5_m2_q2",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【みます】",
-            "options": [
-              "二つ",
-              "水曜日",
-              "見ます",
-              "名刺"
-            ],
-            "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Xem, nhìn**.\n\n✍️ Phân tích đáp án:\n- **見ます** (みます): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **KIẾN**.\n- Cấu tạo: 見 = 目 (Mục - Mắt) + 儿 (Nhân đi)"
-          },
-          {
-            "id": "m_review_1_5_5_m2_q3",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【しごとをします】",
-            "options": [
-              "終わります",
-              "仕事をします",
-              "レストラン",
-              "こちらこそ"
-            ],
-            "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Làm việc**.\n\n✍️ Phân tích đáp án:\n- **仕事をします** (しごとをします): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **SĨ SỰ**.\n- Cấu tạo: 仕 (Sĩ - Phụng sự) + 事 (Sự - Sự việc)"
-          }
-        ]
-      },
-      {
-        "id": "p_review_1_5_5_moji3",
-        "type": "moji_mondai3",
-        "questions": [
-          {
-            "id": "m_review_1_5_5_m3_q0",
-            "question": "びじゅつかんは なんじ 【　　　】 なんじまでですか。",
-            "options": [
-              "から",
-              "に",
-              "で",
-              "を"
-            ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nBảo tàng mỹ thuật mở cửa từ mấy giờ đến mấy giờ?\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **から**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nCấu trúc ghép đôi から〜まで (từ 〜 đến 〜)."
-          },
-          {
-            "id": "m_review_1_5_5_m3_q1",
-            "question": "新幹線は はやい 【　　　】。",
-            "options": [
-              "よ",
-              "か",
-              "へ",
-              "を"
-            ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTàu Shinkansen nhanh lắm đấy nhé.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **よ**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nNhấn mạnh thông tin mới cho người nghe biết, dùng trợ từ よ ở cuối câu."
-          },
-          {
-            "id": "m_review_1_5_5_m3_q2",
-            "question": "いつ 【　　　】 日本へ 来ましたか。",
-            "options": [
-              "(không điền)",
-              "に",
-              "で",
-              "は"
-            ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nBạn đã đến Nhật Bản khi nào?\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **(không điền)**.\n\n📚 Từ vựng bổ trợ:\n- 日本 (にほん / nihon): Nhật Bản\n\n💡 Ngữ pháp & Mẹo nhớ:\nĐằng sau từ để hỏi いつ (khi nào) tuyệt đối KHÔNG đi kèm trợ từ に."
-          },
-          {
-            "id": "m_review_1_5_5_m3_q3",
-            "question": "わたしは ぎんこういん 【　　　】。いしゃです。",
-            "options": [
-              "です",
-              "じゃありません",
-              "ですか",
-              "の"
-            ],
-            "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nTôi không phải là nhân viên ngân hàng. Tôi là bác sĩ.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **じゃありません**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nĐằng sau có câu khẳng định 'いしゃです' (Tôi là bác sĩ), nên câu trước phải mang nghĩa phủ định (Tôi không phải là nhân viên ngân hàng) -> Chọnじゃありません."
-          }
-        ]
-      },
-      {
-        "id": "p_review_1_5_5_bunpou1",
-        "type": "mondai1",
-        "questions": [
-          {
-            "id": "m_review_1_5_5_b1_q0",
-            "question": "きょうは （　　　） ですか。 ...かようびです。",
-            "options": [
-              "なんようび",
-              "なんじ",
-              "なんばん",
-              "いつ"
-            ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nHôm nay là thứ mấy? ...Là thứ Ba.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **なんようび**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nĐể hỏi thứ trong tuần, dùng なんようび (thứ mấy)."
-          },
-          {
-            "id": "m_review_1_5_5_b1_q1",
-            "question": "まいあさ 6じ （　　　） おきます。",
-            "options": [
-              "に",
-              "で",
-              "は",
-              "も"
-            ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTôi thức dậy vào lúc 6 giờ mỗi sáng.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **に**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nĐứng sau thời gian có số đếm cụ thể (như 6 giờ) phải dùng trợ từ に để chỉ thời điểm."
-          },
-          {
-            "id": "m_review_1_5_5_b1_q2",
-            "question": "（　　　） かばんは わたしのです。",
-            "options": [
-              "それ",
-              "その",
-              "そこ",
-              "そちら"
-            ],
-            "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nCái cặp đó là của tôi.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **その**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nĐứng trước danh từ (かばん) phải dùng この/その/あの. Không dùng これ/それ/あれ hoặc đại từ địa điểm."
-          },
-          {
-            "id": "m_review_1_5_5_b1_q3",
-            "question": "ミラーさんは アメリカ人 （　　　）。",
-            "options": [
-              "です",
-              "じゃありません",
-              "ですか",
-              "も"
-            ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nAnh Miller là người Mỹ.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **です**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nCâu khẳng định cơ bản, kết thúc bằng です để thể hiện sự lịch sự."
-          }
-        ]
-      },
-      {
-        "id": "p_review_1_5_5_bunpou2",
-        "type": "mondai2",
-        "questions": [
-          {
-            "id": "m_review_1_5_5_b2_q0",
-            "question": "あしたは　___ ___ _★_ ___。",
-            "options": [
-              "へ",
-              "どこ",
-              "も",
-              "いきません"
-            ],
-            "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nNgày mai tôi không đi đâu cả.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: あしたは [どこ] [へ] [★ も] [いきません]。\n- Từ ở vị trí ngôi sao (★) là: **も**.\n\n📚 Từ vựng bổ trợ:\n- 明日 (あした / ashita): Ngày mai\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Phủ định hoàn toàn: Từ nghi vấn chỉ nơi chốn (どこ) + へ + も + động từ phủ định (いきません)."
-          },
-          {
-            "id": "m_review_1_5_5_b2_q1",
-            "question": "りんごを　___ ___ _★_ ___　ください。",
-            "options": [
-              "と",
-              "みっつ",
-              "よっつ",
-              "みかんを"
-            ],
-            "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nVui lòng cho tôi 3 quả táo và 4 quả quýt.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: りんごuを [みっつ] [と] [★ みかんを] [よっつ] ください。\n- Từ ở vị trí ngôi sao (★) là: **みかんを**.\n\n📚 Từ vựng bổ trợ:\n- りんご (ringo): Quả táo\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Cấu trúc: N1 と N2 (N1 và N2). Trợ từ と dùng để nối 2 danh từ chỉ hoa quả."
-          }
-        ]
-      },
-      {
-        "id": "p_review_1_5_5_dokkai1",
-        "type": "mondai3",
-        "text": [
-          "てんいん：いらっしゃいませ。",
-          "きゃく：この りんごは いくら ですか。",
-          "てんいん：1こ 150えん です。",
-          "きゃく：じゃ、みっつ ください。",
-          "てんいん：ぜんぶで 450えん です。"
-        ],
-        "translation": [
-          "Nhân viên: Xin chào quý khách.",
-          "Khách: Táo này bao nhiêu tiền?",
-          "Nhân viên: Một quả 150 yên.",
-          "Khách: Vậy thì cho tôi 3 quả.",
-          "Nhân viên: Tổng cộng 450 yên."
-        ],
-        "vocabulary": [
-          "りんご (ringo): Quả táo",
-          "絵 (え / e): Bức tranh"
-        ],
-        "questions": [
-          {
-            "id": "m_review_1_5_5_d1_q0",
-            "question": "りんごは1こいくらですか？",
-            "options": [
-              "100えん",
-              "150えん",
-              "200えん",
-              "250えん"
-            ],
-            "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nりんごは1こいくらですか？\n- Đáp án đúng: **150えん**.\n\n✍️ Phân tích đáp án:\n- Dựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác.\n\n📚 Từ vựng bổ trợ:\n- りんご (ringo): Quả táo"
-          },
-          {
-            "id": "m_review_1_5_5_d1_q1",
-            "question": "きゃくはりんごをいくつかいましたか？",
-            "options": [
-              "ひとつ",
-              "ふたつ",
-              "みっつ",
-              "よっつ"
-            ],
-            "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nきゃくはりんごをいくつかいましたか？\n- Đáp án đúng: **みっつ**.\n\n✍️ Phân tích đáp án:\n- Dựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác.\n\n📚 Từ vựng bổ trợ:\n- りんご (ringo): Quả táo"
-          },
-          {
-            "id": "m_review_1_5_5_d1_q2",
-            "question": "ぜんぶでいくらですか？",
-            "options": [
-              "300えん",
-              "350えん",
-              "400えん",
-              "450えん"
-            ],
-            "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nぜんぶでいくらですか？\n- Đáp án đúng: **450えん**.\n\n✍️ Phân tích đáp án:\n- Dựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác."
+            "explanation": "📖 Dịch nghĩa:\nデパートのやすみはなんようびですか？\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **もくようび**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">デパート</span> (Từ vựng - Danh từ: \"Trung tâm thương mại\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">やすみ</span> (Từ vựng - Danh từ: \"Ngày nghỉ, giờ nghỉ\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">はな</span> (Từ vựng - Danh từ: \"Hoa\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **デパート (depaato)**: Trung tâm thương mại\n- **休み (やすみ / yasumi)**: Ngày nghỉ, giờ nghỉ\n- **花 (はな / hana)**: Hoa\n\n💡 Ngữ pháp & Mẹo nhớ:\nDựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác."
           }
         ]
       }
@@ -1564,7 +1572,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
   {
     "id": "review_6_10_1",
     "title": "Đề thi 1: Trạm Ôn Tập JLPT N5 (Bài 6 - 10)",
-    "description": "Bộ đề số 1. Các câu hỏi và bài đọc được thiết kế độc lập 100% để ôn luyện toàn diện.",
+    "description": "Bộ đề số 1. Được xáo trộn ngẫu nhiên để chống học vẹt.",
     "passages": [
       {
         "id": "p_review_6_10_1_moji1",
@@ -1572,51 +1580,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_6_10_1_m1_q0",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【何ですか】",
+            "question": "【新しい】 くるまです。",
             "options": [
-              "なんですか",
-              "きっさてん",
-              "コンビニ",
-              "ひるごはん"
+              "あたらしい",
+              "あたらし",
+              "あらたしい",
+              "あだらしい"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【何ですか】 có nghĩa là: **Có gì không ạ? / Vâng?**.\n\n✍️ Phân tích đáp án:\n- **なんですか** (nandesuka): Cách đọc đúng của chữ Hán 【何ですか】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **HÀ**.\n- Mẹo nhớ: Dùng để hỏi cái gì."
+            "explanation": "Dịch nghĩa:\nChiếc xe hơi mới.\n\n✍️ Phân tích đáp án:\n- あたらしい (atarashii): Mới → Chọn.\n- Chú ý phần Okurigana đi kèm sau chữ Hán 新 là しい.\n\n📝 Từ vựng trong câu:\n- 車 (くるま / kuruma): Ô tô, xe hơi\n- 新しい (あたらしい / atarashii): Mới\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">くるま</span> (Danh từ (Tân ngữ - O): \"Ô tô, xe hơi\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ địa điểm / phương tiện (công cụ): \"ở tại / bằng\")\n\n"
           },
           {
             "id": "m_review_6_10_1_m1_q1",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【教えます】",
+            "question": "【古い】 じてんしゃです。",
             "options": [
-              "やくそく",
-              "いちばん",
-              "ちょっと",
-              "おしえます"
+              "ひろい",
+              "ふろい",
+              "ふるい",
+              "ぶるい"
             ],
-            "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【教えます】 có nghĩa là: **Dạy**.\n\n✍️ Phân tích đáp án:\n- **おしえます** (oshiemasu): Cách đọc đúng của chữ Hán 【教えます】.\n\n📚 Từ vựng bổ trợ:\n- 絵 (え / e): Bức tranh\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **GIÁO**.\n- Mẹo nhớ: Cầm roi (攵) dạy dỗ con cái phải biết hiếu thảo (孝)."
+            "correctIndex": 2,
+            "explanation": "📖 Dịch nghĩa:\nChiếc xe đạp cũ.\n\n✍️ Phân tích đáp án:\n- ふるい (furui): Cũ → Chọn.\n- ひろい (hiroi): Rộng → Sai nghĩa.\n\n📝 Từ vựng trong câu:\n- 自転車 (じてんしゃ / jitensha): Xe đạp\n- 古い (ふるい / furui): Cũ\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ địa điểm / phương tiện (công cụ): \"ở tại / bằng\")\n\n"
           },
           {
             "id": "m_review_6_10_1_m1_q2",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【楽しい】",
+            "question": "【えいご】を べんきょうします。",
             "options": [
-              "かぶき",
-              "たのしい",
-              "～から",
-              "おっと"
+              "英話",
+              "英悟",
+              "英語",
+              "英吾"
             ],
-            "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【楽しい】 có nghĩa là: **Vui vẻ**.\n\n✍️ Phân tích đáp án:\n- **たのしい** (tanoshii): Cách đọc đúng của chữ Hán 【楽しい】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **LẠC / NHẠC**.\n- Mẹo nhớ: Chơi nhạc khí bằng gỗ thật là Vui."
+            "correctIndex": 2,
+            "explanation": "📖 Dịch nghĩa:\nTôi học tiếng Anh.\n\n✍️ Phân tích đáp án:\n- 英語 (Anh Ngữ): Tiếng Anh → Chọn.\n- 英話: Viết sai chữ Hán (chữ 話 - Thoại sai).\n\n📝 Từ vựng trong câu:\n- 英語 (えいご / eigo): Tiếng Anh\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">えいご</span> (Danh từ (Tân ngữ - O): \"Tiếng Anh\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ tân ngữ: \"tác động trực tiếp vào danh từ đứng trước\")\n- <span style=\"color: #ffb86c; font-weight: 800;\">べんきょうします</span> (Động từ (Verb - V): \"Học, nghiên cứu\")\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ 語 (Ngữ) cấu tạo gồm bộ Ngôn (nói), chữ Ngũ (năm) và chữ Khẩu (miệng)."
           },
           {
             "id": "m_review_6_10_1_m1_q3",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【中】",
+            "question": "【手紙】を かきます。",
             "options": [
-              "します",
-              "もう",
-              "よく",
-              "なか"
+              "でがみ",
+              "てかみ",
+              "でかみ",
+              "てがみ"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【中】 có nghĩa là: **Trong, bên trong**.\n\n✍️ Phân tích đáp án:\n- **なか** (naka): Cách đọc đúng của chữ Hán 【中】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **TRUNG**.\n- Mẹo nhớ: Một mũi tên bắn xuyên TRÚNG vào chính GIỮA (Trung) cái hồng tâm (口)."
+            "explanation": "📖 Dịch nghĩa:\nTôi viết thư.\n\n✍️ Phân tích đáp án:\n- てがみ (tegami): Bức thư → Chọn.\n- Các đáp án khác sai âm đục (tenten) hoặc phát âm.\n\n📝 Từ vựng trong câu:\n- 手紙 (てがみ / tegami): Bức thư\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">手紙</span> (Danh từ (Tân ngữ - O): \"Bức thư\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ tân ngữ: \"tác động trực tiếp vào danh từ đứng trước\")\n- <span style=\"color: #ffb86c; font-weight: 800;\">かきます</span> (Động từ (Verb - V): \"Viết\")\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Chữ Hán gồm hai từ ghép: 手 (Thủ - tay) và 紙 (Chỉ - giấy). Giấy viết bằng tay chính là bức thư."
           }
         ]
       },
@@ -1626,51 +1634,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_6_10_1_m2_q0",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【くろい】",
+            "question": "【パン】を たべます。",
             "options": [
-              "黒い",
-              "勉強",
-              "パンチ",
-              "漢字"
+              "パン",
+              "ハン",
+              "バン",
+              "ホン"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Màu đen**.\n\n✍️ Phân tích đáp án:\n- **黒い** (くろい): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **HẮC**.\n- Cấu tạo: 黒 (Hắc)"
+            "explanation": "📖 Dịch nghĩa:\nĂn bánh mì.\n\n✍️ Phân tích đáp án:\n- パン: Bánh mì → Chọn.\n- Chữ ハ có dấu tròn maru tạo thành âm Pa.\n\n📝 Từ vựng trong câu:\n- パン (pan): Bánh mì\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ tân ngữ: \"tác động trực tiếp vào danh từ đứng trước\")\n- <span style=\"color: #ffb86c; font-weight: 800;\">たべます</span> (Động từ (Verb - V): \"Ăn\")\n\n"
           },
           {
             "id": "m_review_6_10_1_m2_q1",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【たな】",
+            "question": "【シャツ】を かいました。",
             "options": [
-              "野球",
-              "旅行",
-              "棚",
-              "木"
+              "シヤッ",
+              "サツ",
+              "シヤツ",
+              "シャツ"
             ],
-            "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Giá sách, kệ**.\n\n✍️ Phân tích đáp án:\n- **棚** (たな): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **BẰNG**.\n- Cấu tạo: 木 (Mộc - Gỗ) + 朋 (Bằng - Bạn bè)"
+            "correctIndex": 3,
+            "explanation": "📖 Dịch nghĩa:\nMua áo sơ mi.\n\n✍️ Phân tích đáp án:\n- シャツ (shatsu): Áo sơ mi → Chọn.\n- Tránh nhầm với シヤツ (ya lớn, phát âm là shi-ya-tsu).\n\n📝 Từ vựng trong câu:\n- シャツ (shatsu): Áo sơ mi\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ tân ngữ: \"tác động trực tiếp vào danh từ đứng trước\")\n- <span style=\"color: #ffb86c; font-weight: 800;\">かいました</span> (Động từ (quá khứ của かいます): \"Đã mua\")\n\n"
           },
           {
             "id": "m_review_6_10_1_m2_q2",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【しゃしん】",
+            "question": "【コーヒー】を のみます。",
             "options": [
-              "写真",
-              "料理",
-              "古い",
-              "映画"
+              "コヒ",
+              "コーヒ",
+              "コヒー",
+              "コーヒー"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Bức ảnh**.\n\n✍️ Phân tích đáp án:\n- **写真** (しゃしん): Cách viết chữ Hán đúng của từ.\n\n📚 Từ vựng bổ trợ:\n- 写真 (しゃしん / shashin): Bức ảnh\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **TẢ CHÂN**.\n- Cấu tạo: 写 (Tả - Sao chép) + 真 (Chân - Sự thật)"
+            "correctIndex": 3,
+            "explanation": "📖 Dịch nghĩa:\nUống cà phê.\n\n✍️ Phân tích đáp án:\n- コーヒー: Cà phê → Chọn.\n- Chú ý trường âm (dấu gạch ngang) nằm ở cả hai âm tiết.\n\n📝 Từ vựng trong câu:\n- コーヒー (koohii): Cà phê\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ tân ngữ: \"tác động trực tiếp vào danh từ đứng trước\")\n- <span style=\"color: #ffb86c; font-weight: 800;\">のみます</span> (Động từ (Verb - V): \"Uống\")\n\n"
           },
           {
             "id": "m_review_6_10_1_m2_q3",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【さくら】",
+            "question": "【プレゼント】を あげます。",
             "options": [
-              "ビル",
-              "電池",
-              "黒い",
-              "桜"
+              "プレセント",
+              "プレザント",
+              "プレゼント",
+              "フレゼント"
             ],
-            "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Hoa anh đào**.\n\n✍️ Phân tích đáp án:\n- **桜** (さくら): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **ANH**.\n- Cấu tạo: 桜 = 木 (Mộc - Cây) + ツ + 女 (Nữ)"
+            "correctIndex": 2,
+            "explanation": "📖 Dịch nghĩa:\nTặng quà.\n\n✍️ Phân tích đáp án:\n- プレゼント: Quà tặng → Chọn.\n- Chú ý nét viết chữ ゼ (ze) có dấu đục tenten.\n\n📝 Từ vựng trong câu:\n- プレゼント (purezento): Quà tặng\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ tân ngữ: \"tác động trực tiếp vào danh từ đứng trước\")\n\n"
           }
         ]
       },
@@ -1680,51 +1688,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_6_10_1_m3_q0",
-            "question": "日本語(にほんご)は むずかしいですか。 ...いいえ、むずかし【　　　】。",
+            "question": "せんせいから ほんを 【　　　】。",
             "options": [
-              "くないです",
-              "じゃありません",
-              "くありません",
-              "ないです"
+              "もらいました",
+              "おしえました",
+              "かしました",
+              "あげました"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTiếng Nhật có khó không? ...Không, không khó.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **くないです**.\n\n📚 Từ vựng bổ trợ:\n- 日本語 (にほんご / nihongo): Tiếng Nhật\n- 絵 (え / e): Bức tranh\n\n💡 Ngữ pháp & Mẹo nhớ:\nむずかしい là tính từ đuôi い. Phủ định thì bỏ い thêm くないです."
+            "explanation": "📖 Dịch nghĩa:\nNhận sách từ thầy cô giáo.\n\n✍️ Phân tích đáp án:\n- もらいました (moraimashita): Nhận được → Chọn (trợ từ から chỉ xuất xứ).\n\n📝 Từ vựng trong câu:\n- 先生 (せんせい / sensei): Thầy/cô giáo\n- 本 (ほん / hon): Sách\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">せんせい</span> (Danh từ (Người): \"Thầy/cô giáo\")\n- <span style=\"color: #f73859; font-weight: 800;\">から</span> (Trợ từ xuất phát: \"từ\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ほん</span> (Danh từ: \"Sách\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ tân ngữ: \"tác động trực tiếp vào danh từ đứng trước\")\n\n"
           },
           {
             "id": "m_review_6_10_1_m3_q1",
-            "question": "山田さんは どこに いますか。 ...事務所(じむしょ) 【　　　】。",
+            "question": "はさみで かみを 【　　　】。",
             "options": [
-              "です",
-              "に",
-              "にいますです",
-              "がいます"
+              "もらいます",
+              "かします",
+              "かります",
+              "きります"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nAnh Yamada ở đâu? ...Ở văn phòng.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **です**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nTrong văn nói có thể rút gọn cụm '事務所に います' thành '事務所です'."
+            "correctIndex": 3,
+            "explanation": "📖 Dịch nghĩa:\nCắt giấy bằng kéo.\n\n✍️ Phân tích đáp án:\n- きります (kirimasu): Cắt → Chọn.\n- かします (kashimasu): Cho mượn.\n- かります (karimasu): Mượn.\n\n📝 Từ vựng trong câu:\n- はさみ (hasami): Cái kéo\n- 紙 (かみ / kami): Giấy / Tóc\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">はさみ</span> (Danh từ (Công cụ): \"Cái kéo\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ địa điểm / phương tiện (công cụ): \"ở tại / bằng\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">かみ</span> (Danh từ: \"Giấy / Tóc\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ tân ngữ: \"tác động trực tiếp vào danh từ đứng trước\")\n\n"
           },
           {
             "id": "m_review_6_10_1_m3_q2",
-            "question": "わたしは お金(かね)が 【　　　】 あります。",
+            "question": "日本の カメラは 【　　　】ですか。",
             "options": [
-              "たくさん",
-              "よく",
-              "だいたい",
-              "ぜんぜん"
+              "どれ",
+              "どの",
+              "どんな",
+              "どう"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTôi có nhiều tiền.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **たくさん**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nĐi với số lượng của đồ vật, tiền bạc (あります) mang nghĩa khẳng định dùng たくさん (nhiều)."
+            "correctIndex": 3,
+            "explanation": "📖 Dịch nghĩa:\nMáy ảnh Nhật Bản thế nào?\n\n✍️ Phân tích đáp án:\n- どう (dou): Như thế nào → Chọn.\n- どんな (donna): Như thế nào (phải đi sau là danh từ).\n\n📝 Từ vựng trong câu:\n- カメラ (kamera): Máy ảnh\n- 日本 (にほん / nihon): Nhật Bản\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">日本</span> (Danh từ chỉ nơi chốn: \"Nhật Bản\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ sở hữu / bổ nghĩa: \"của\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">カメラ</span> (Danh từ: \"Máy ảnh\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chủ đề (Topic): \"thì, là\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ địa điểm / phương tiện (công cụ): \"ở tại / bằng\")\n\n"
           },
           {
             "id": "m_review_6_10_1_m3_q3",
-            "question": "「さようなら」は 【　　　】 で 何ですか。 ...「Goodbye」です。",
+            "question": "この りんごは とても 【　　　】です。",
             "options": [
-              "英語(えいご)",
-              "日本語(にほんご)",
-              "ベトナム語(ご)",
-              "だれ"
+              "おいしい",
+              "おもしろい",
+              "いそがしい",
+              "つめたい"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\n'Tạm biệt' trong tiếng Anh là gì? ...Là 'Goodbye'.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **英語(えいご)**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nCâu trả lời là tiếng Anh ('Goodbye') nên ô trống điền 英語 (tiếng Anh)."
+            "explanation": "📖 Dịch nghĩa:\nQuả táo này rất ngon.\n\n✍️ Phân tích đáp án:\n- おいしい (oishii): Ngon → Chọn.\n- つめたい (tsumetai): Lạnh.\n\n📝 Từ vựng trong câu:\n- りんご (ringo): Quả táo\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ sở hữu / bổ nghĩa: \"của\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">りんご</span> (Danh từ: \"Quả táo\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chủ đề (Topic): \"thì, là\")\n- <span style=\"color: #f73859; font-weight: 800;\">と</span> (Trợ từ đồng hành: \"cùng với\")\n- <span style=\"color: #f73859; font-weight: 800;\">も</span> (Trợ từ cũng / phủ định hoàn toàn: \"cũng\")\n\n"
           }
         ]
       },
@@ -1734,51 +1742,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_6_10_1_b1_q0",
-            "question": "日本(にほん)の 食(た)べ物(もの)は おいしいです （　　　）、高(たか)いです。",
+            "question": "わたしは 木村さん（　　　）はなを あげました。",
             "options": [
-              "が",
-              "そして",
-              "から",
-              "で"
+              "を",
+              "へ",
+              "で",
+              "に"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nĐồ ăn Nhật Bản thì ngon nhưng mà đắt.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **が**.\n\n📚 Từ vựng bổ trợ:\n- 本 (ほん / hon): Sách\n- 日本 (にほん / nihon): Nhật Bản\n\n💡 Ngữ pháp & Mẹo nhớ:\nHai vế mang ý nghĩa trái ngược nhau (Ngon - Tích cực >< Đắt - Tiêu cực) nên dùng liên từ が (Nhưng)."
+            "correctIndex": 3,
+            "explanation": "📖 Dịch nghĩa:\nTặng hoa cho chị Kimura.\n\n✍️ Phân tích đáp án:\n- に (ni): Đối tượng tiếp nhận hành động tặng → Chọn.\n\n📝 Từ vựng trong câu:\n- 花 (はna / hana): Hoa\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">わたし</span> (Danh từ (Chủ ngữ - S): \"Tôi\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chủ đề (Topic): \"thì, là\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">はな</span> (Danh từ: \"Hoa\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ tân ngữ: \"tác động trực tiếp vào danh từ đứng trước\")\n\n"
           },
           {
             "id": "m_review_6_10_1_b1_q1",
-            "question": "山田(やまだ)さん （　　　） どこに いますか。 ...事務所(じむしょ)に います。",
+            "question": "この へやは （　　　）ありません。",
             "options": [
-              "は",
-              "が",
-              "に",
-              "を"
+              "しずかくて",
+              "しずかじゃ",
+              "しずか",
+              "しずかに"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nAnh Yamada ở đâu? ...Anh ấy ở văn phòng.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **は**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nĐưa đối tượng (山田さん) lên làm chủ đề để hỏi vị trí thì dùng trợ từ は."
+            "correctIndex": 1,
+            "explanation": "📖 Dịch nghĩa:\nCăn phòng này không yên tĩnh.\n\n✍️ Phân tích đáp án:\n- しずかじゃ ありません: Phủ định của tính từ đuôi な (しずか).\n\n📝 Từ vựng trong câu:\n- 部屋 (へya / heya): Căn phòng\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ sở hữu / bổ nghĩa: \"của\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">へや</span> (Danh từ: \"Căn phòng\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chủ đề (Topic): \"thì, là\")\n\n"
           },
           {
             "id": "m_review_6_10_1_b1_q2",
-            "question": "もう 新幹線(しんかんせん)の 切符(きっぷ)を 買いましたか。 ...はい、（　　　）。",
+            "question": "スプーン（　　　）ごはんを たべます。",
             "options": [
-              "もう 買いました",
-              "まだです",
-              "もう 買いません",
-              "買いましたか"
+              "を",
+              "で",
+              "が",
+              "に"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nBạn đã mua vé tàu Shinkansen chưa? ...Vâng, tôi đã mua rồi.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **もう 買いました**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nTrả lời khẳng định (はい) cho câu hỏi もう Vましたか thì lặp lại là もう Vました."
+            "correctIndex": 1,
+            "explanation": "📖 Dịch nghĩa:\nĂn cơm bằng thìa.\n\n✍️ Phân tích đáp án:\n- で (de): Trợ từ phương tiện/dụng cụ → Chọn.\n\n📝 Từ vựng trong câu:\n- スプーン (supuun): Thìa, muỗng\n- ご飯 (ごはん / gohan): Cơm, bữa ăn\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">スプーン</span> (Danh từ: \"Thìa, muỗng\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ごはん</span> (Danh từ: \"Cơm, bữa ăn\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ tân ngữ: \"tác động trực tiếp vào danh từ đứng trước\")\n- <span style=\"color: #ffb86c; font-weight: 800;\">たべます</span> (Động từ (Verb - V): \"Ăn\")\n\n"
           },
           {
             "id": "m_review_6_10_1_b1_q3",
-            "question": "（　　　） スポーツが 好(す)きですか。 ...サッカーが 好きです。",
+            "question": "きのうの パーティーは （　　　）。",
             "options": [
-              "どんな",
-              "どう",
-              "なに",
-              "だれ"
+              "たのしかったです",
+              "たのしいです",
+              "たのしかった",
+              "たのしいでした"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nBạn thích môn thể thao nào? ...Tôi thích bóng đá.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **どんな**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nHỏi về một loại hình cụ thể trong một nhóm (thể thao) dùng どんな + Danh từ."
+            "explanation": "📖 Dịch nghĩa:\nBữa tiệc hôm qua đã rất vui.\n\n✍️ Phân tích đáp án:\n- たのしかったです: Quá khứ lịch sự của tính từ đuôi い (たのしい).\n\n📝 Từ vựng trong câu:\n- パーティー (paatii): Bữa tiệc\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ sở hữu / bổ nghĩa: \"của\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ sở hữu / bổ nghĩa: \"của\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">パーティー</span> (Danh từ: \"Bữa tiệc\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chủ đề (Topic): \"thì, là\")\n\n"
           }
         ]
       },
@@ -1788,27 +1796,27 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_6_10_1_b2_q0",
-            "question": "わたしは　___ ___ _★_ ___　あげました。",
+            "question": "わたしは　___ ___ _★_ ___　もらいました。",
             "options": [
               "に",
-              "はな",
+              "ともだち",
               "を",
-              "ともだち"
+              "とけい"
             ],
-            "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nTôi đã tặng hoa cho bạn.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: わたしは [ともだち] [に] [★ はな] [を] あげました。\n- Từ ở vị trí ngôi sao (★) là: **はな**.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Cấu trúc: N1 (người nhận) に N2 (vật) を あげます (Tặng cái gì cho ai)."
+            "correctIndex": 2,
+            "explanation": "📖 Dịch nghĩa:\nTôi nhận được chiếc đồng hồ từ bạn.\n\n✍️ Phân tích đáp án:\n- Sắp xếp: ともだち (2) + に (3) + とけい (4) + を (1) + もらいました.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">わたし</span> (Danh từ (Chủ ngữ - S): \"Tôi\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chủ đề (Topic): \"thì, là\")\n- <span style=\"color: #f73859; font-weight: 800;\">も</span> (Trợ từ cũng / phủ định hoàn toàn: \"cũng\")\n\n"
           },
           {
             "id": "m_review_6_10_1_b2_q1",
-            "question": "きのうの　___ ___ _★_ ___　たのしかったです。",
+            "question": "とうきょうは　___ ___ _★_ ___　まちです。",
             "options": [
-              "は",
-              "とても",
-              "パーティー",
-              "にほんの"
+              "て",
+              "きれいで",
+              "にぎやかな",
+              "とても"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nBữa tiệc Nhật Bản hôm qua rất vui.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: きのうの [にほんの] [パーティー] [★ は] [とても] たのしかったです。\n- Từ ở vị trí ngôi sao (★) là: **は**.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Trợ từ は đánh dấu chủ ngữ chính của câu. Tính từ quá khứ たのしかった đi kèm phó từ mức độ とても."
+            "correctIndex": 3,
+            "explanation": "📖 Dịch nghĩa:\nTokyo là một thành phố rất đẹp và nhộn nhịp.\n\n✍️ Phân tích đáp án:\n- Sắp xếp: とても (4) + きれいで (2) + にぎやかな (3) + まchです.\n- Ngôi sao ở vị trí thứ 3 là にぎやかな.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #f73859; font-weight: 800;\">と</span> (Trợ từ đồng hành: \"cùng với\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">きょう</span> (Danh từ thời gian: \"Hôm nay\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chủ đề (Topic): \"thì, là\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ địa điểm / phương tiện (công cụ): \"ở tại / bằng\")\n\n"
           }
         ]
       },
@@ -1816,59 +1824,35 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "id": "p_review_6_10_1_dokkai1",
         "type": "mondai3",
         "text": [
-          "わたしは まいあさ ６じに おきます。",
-          "いつも パンと たまごを たべます。",
-          "そして、ぎゅうにゅうを のみます。",
-          "しんぶんを よみませんか。",
-          "いいえ、よみません。じかんが ありませんから。"
-        ],
-        "translation": [
-          "Mỗi sáng tôi thức dậy lúc 6 giờ.",
-          "Tôi luôn luôn ăn bánh mì và trứng.",
-          "Và, tôi uống sữa bò.",
-          "Bạn không đọc báo à?",
-          "Không, tôi không đọc. Vì tôi không có thời gian."
-        ],
-        "vocabulary": [
-          "パン (pan): Bánh mì",
-          "絵 (え / e): Bức tranh"
+          "きょうは わたしの たんじょうびです。",
+          "あさ ははに プレゼントを もらいました。シャツと ぼうしです。",
+          "シャツは しろいです。ぼうしは くろいです。",
+          "よる かぞくと いっしょに レストランで しょくじを します。"
         ],
         "questions": [
           {
             "id": "m_review_6_10_1_d1_q0",
-            "question": "この人は毎朝なにを食べますか？",
+            "question": "なにを もらいましたか。",
             "options": [
-              "ご飯と魚",
-              "パンと卵",
-              "肉と野菜",
-              "野菜と果物"
+              "くろい シャツと くろい ぼうし",
+              "くろい シャツと しろい ぼうし",
+              "しろい シャツと しろい ぼうし",
+              "しろい シャツと くろい ぼうし"
             ],
-            "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nこの人は毎朝なにを食べますか？\n- Đáp án đúng: **パンと卵**.\n\n✍️ Phân tích đáp án:\n- Dựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác."
+            "correctIndex": 3,
+            "explanation": "📖 Dịch nghĩa:\nNhận được gì?\n- Dựa vào văn bản: Áo sơ mi trắng và mũ đen.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / điểm đến: \"vào lúc / đi đến địa điểm\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ tân ngữ: \"tác động trực tiếp vào danh từ đứng trước\")\n- <span style=\"color: #f73859; font-weight: 800;\">も</span> (Trợ từ cũng / phủ định hoàn toàn: \"cũng\")\n\n<br/><br/>\n<strong style=\"color: var(--blue);\">📝 Dịch nghĩa toàn bộ đoạn văn:</strong><br/>\n<span style=\"color: var(--text);\">\n- Hôm nay là sinh nhật của tôi.<br/>\n- Buổi sáng, tôi đã nhận được quà từ mẹ. Đó là một chiếc áo sơ mi và một chiếc mũ.<br/>\n- Áo sơ mi màu trắng. Mũ màu đen.<br/>\n- Buổi tối, tôi cùng gia đình đi ăn tối tại nhà hàng.\n</span>\n<br/><br/>\n<strong style=\"color: var(--gold);\">📚 Từ vựng trong đoạn văn:</strong><br/>\n<span style=\"color: var(--text);\">\n- <strong>きょう</strong> (kyou): Hôm nay<br/>\n- <strong>あさ</strong> (asa): Buổi sáng<br/>\n- <strong>はは</strong> (haha): Mẹ (của mình)<br/>\n- <strong>プレゼント</strong> (purezento): Quà tặng<br/>\n- <strong>もらいました</strong> (moraimashita): Đã nhận (từ もらいます)<br/>\n- <strong>シャツ</strong> (shatsu): Áo sơ mi<br/>\n- <strong>ぼうし</strong> (boushi): Mũ, nón<br/>\n- <strong>しろい</strong> (shiroi): Màu trắng<br/>\n- <strong>くろい</strong> (kuroi): Màu đen<br/>\n- <strong>よる</strong> (yoru): Buổi tối, ban đêm<br/>\n- <strong>かぞく</strong> (kazoku): Gia đình<br/>\n- <strong>いっしょに</strong> (isshoni): Cùng nhau, cùng với<br/>\n- <strong>しょくじを します</strong> (shokuji wo shimasu): Dùng bữa, ăn uống\n</span>"
           },
           {
             "id": "m_review_6_10_1_d1_q1",
-            "question": "なにを飲みますか？",
+            "question": "よる どこで ごはんを たべますか。",
             "options": [
-              "お茶",
-              "水",
-              "牛乳",
-              "お酒"
+              "がっこう",
+              "レストラン",
+              "うち",
+              "かいしゃ"
             ],
-            "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nなにを飲みますか？\n- Đáp án đúng: **牛乳**.\n\n✍️ Phân tích đáp án:\n- Dựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác."
-          },
-          {
-            "id": "m_review_6_10_1_d1_q2",
-            "question": "どうして新聞を読みませんか？",
-            "options": [
-              "新聞がきらいですから",
-              "漢字がわかりませんから",
-              "時間がありませんから",
-              "新聞がありませんから"
-            ],
-            "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nどうして新聞を読みませんか？\n- Đáp án đúng: **時間がありませんから**.\n\n✍️ Phân tích đáp án:\n- Dựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác."
+            "correctIndex": 1,
+            "explanation": "📖 Dịch nghĩa:\nĂn tối ở đâu?\n- Dựa vào câu cuối: Ăn tại nhà hàng (レストラン).\n\n📝 Từ vựng trong câu:\n- ご飯 (ごはん / gohan): Cơm, bữa ăn\n- 夜 (よる / yoru): Buổi tối\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">よる</span> (Danh từ: \"Buổi tối\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ địa điểm / phương tiện (công cụ): \"ở tại / bằng\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ごはん</span> (Danh từ: \"Cơm, bữa ăn\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ tân ngữ: \"tác động trực tiếp vào danh từ đứng trước\")\n- <span style=\"color: #ffb86c; font-weight: 800;\">たべます</span> (Động từ (Verb - V): \"Ăn\")\n\n<br/><br/>\n<strong style=\"color: var(--blue);\">📝 Dịch nghĩa toàn bộ đoạn văn:</strong><br/>\n<span style=\"color: var(--text);\">\n- Hôm nay là sinh nhật của tôi.<br/>\n- Buổi sáng, tôi đã nhận được quà từ mẹ. Đó là một chiếc áo sơ mi và một chiếc mũ.<br/>\n- Áo sơ mi màu trắng. Mũ màu đen.<br/>\n- Buổi tối, tôi cùng gia đình đi ăn tối tại nhà hàng.\n</span>\n<br/><br/>\n<strong style=\"color: var(--gold);\">📚 Từ vựng trong đoạn văn:</strong><br/>\n<span style=\"color: var(--text);\">\n- <strong>きょう</strong> (kyou): Hôm nay<br/>\n- <strong>あさ</strong> (asa): Buổi sáng<br/>\n- <strong>はは</strong> (haha): Mẹ (của mình)<br/>\n- <strong>プレゼント</strong> (purezento): Quà tặng<br/>\n- <strong>もらいました</strong> (moraimashita): Đã nhận (từ もらいます)<br/>\n- <strong>シャツ</strong> (shatsu): Áo sơ mi<br/>\n- <strong>ぼうし</strong> (boushi): Mũ, nón<br/>\n- <strong>しろい</strong> (shiroi): Màu trắng<br/>\n- <strong>くろい</strong> (kuroi): Màu đen<br/>\n- <strong>よる</strong> (yoru): Buổi tối, ban đêm<br/>\n- <strong>かぞく</strong> (kazoku): Gia đình<br/>\n- <strong>いっしょに</strong> (isshoni): Cùng nhau, cùng với<br/>\n- <strong>しょくじを します</strong> (shokuji wo shimasu): Dùng bữa, ăn uống\n</span>"
           }
         ]
       }
@@ -1885,51 +1869,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_6_10_2_m1_q0",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【送ります】",
+            "question": "もう 【宿題】(しゅくだい)を しましたか。 ...いいえ、まだです。",
             "options": [
-              "おくります",
-              "おとうさん",
-              "ときどき",
-              "あさごはん"
+              "しゅくだい",
+              "かけます",
+              "おおきい",
+              "～や～など"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【送ります】 có nghĩa là: **Gửi**.\n\n✍️ Phân tích đáp án:\n- **おくります** (okurimasu): Cách đọc đúng của chữ Hán 【送ります】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **TỐNG**.\n- Mẹo nhớ: Đi (辶) ra tới cửa quan (关) để tiễn đưa, gửi gắm."
+            "explanation": "📖 Dịch nghĩa:\nBạn đã làm bài tập chưa? ...Chưa, tôi chưa làm.\n\n✍️ Phân tích đáp án:\n- **しゅくだい** (shukudai): Cách đọc đúng của chữ Hán 【宿題】 → Chọn.\n- **かけます** (kakemasu): Nghĩa là \"Gọi (điện thoại)\" → Sai.\n- **おおきい** (ookii): Nghĩa là \"To lớn\" → Sai.\n- **～や～など** (~ya~nado): Nghĩa là \"~ và ~ v.v...\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">もう</span> (Từ vựng - Phó từ: \"Đã ... rồi\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">宿題</span> (Từ vựng - Danh từ: \"Bài tập về nhà\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">しゅくだい</span> (Từ vựng - Danh từ: \"Bài tập về nhà\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">しました</span> (Từ vựng - Động từ: \"Làm, chơi\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">いいえ</span> (Từ vựng - Thán từ: \"Không (phủ định)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">まだ</span> (Từ vựng - Phó từ: \"Chưa\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **もう (mou)**: Đã ... rồi\n- **宿題 (しゅくだい / shukudai)**: Bài tập về nhà\n- **します (shimasu)**: Làm, chơi\n- **いいえ (iie)**: Không (phủ định)\n- **まだ (mada)**: Chưa\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **TÚC ĐỀ**.\n- Mẹo nhớ: Đề bài (題) mang về chỗ trọ/nhà ở (宿) để làm là bài tập về nhà."
           },
           {
             "id": "m_review_6_10_2_m1_q1",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【暇（な）】",
+            "question": "のどが（　　）。つめたい 【水】が のみたいです。",
             "options": [
-              "ひま",
-              "みぎ",
-              "かみ",
-              "どんな"
+              "とても",
+              "りょう",
+              "みず",
+              "ようじ"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【暇（な）】 có nghĩa là: **Rảnh rỗi**.\n\n✍️ Phân tích đáp án:\n- **ひま** (hima): Cách đọc đúng của chữ Hán 【暇（な）】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **HẠ**.\n- Mẹo nhớ: Mượn (叚) một vài ngày (日) nghỉ ngơi để được rảnh rỗi (Hạ)."
+            "correctIndex": 2,
+            "explanation": "📖 Dịch nghĩa:\nKhát nước quá. Tôi muốn uống nước lạnh.\n\n✍️ Phân tích đáp án:\n- **とても** (totemo): Nghĩa là \"Rất\" → Sai.\n- **りょう** (ryou): Nghĩa là \"Ký túc xá\" → Sai.\n- **みず** (mizu): Cách đọc đúng của chữ Hán 【水】 → Chọn.\n- **ようじ** (youji): Nghĩa là \"Việc bận\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">のど</span> (Từ vựng - Danh từ: \"Cổ họng\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">つめたい</span> (Từ vựng - Tính từ đuôi i: \"Lạnh, buốt (cảm giác chạm)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">水</span> (Từ vựng - Danh từ: \"Nước (lọc)\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">のみたいです</span> (Từ vựng - Động từ: \"Uống\")\n\n📝 Từ vựng trong câu:\n- **のど (nodo)**: Cổ họng\n- **冷たい (つめたい / tsumetai)**: Lạnh, buốt (cảm giác chạm)\n- **水 (みず / mizu)**: Nước (lọc)\n- **飲みます (のみます / nomimasu)**: Uống\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **THỦY**.\n- Mẹo nhớ: Hình ảnh dòng suối chảy."
           },
           {
             "id": "m_review_6_10_2_m1_q2",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【時々】",
+            "question": "銀行(ぎんこう)の 【前】(まえ) に 郵便局(ゆうびんきょく)が あります。",
             "options": [
-              "ハンサム",
-              "ジャズ",
-              "すこし",
-              "ときどき"
+              "～から",
+              "やま",
+              "ようじ",
+              "まえ"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【時々】 có nghĩa là: **Thỉnh thoảng**.\n\n✍️ Phân tích đáp án:\n- **ときどき** (tokidoki): Cách đọc đúng của chữ Hán 【時々】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **THỜI**.\n- Mẹo nhớ: Lặp lại thời gian là Thỉnh thoảng."
+            "explanation": "📖 Dịch nghĩa:\nTrước ngân hàng có bưu điện.\n\n✍️ Phân tích đáp án:\n- **～から** (~kara): Nghĩa là \"Vì ~ (chỉ lý do)\" → Sai.\n- **やま** (yama): Nghĩa là \"Núi\" → Sai.\n- **ようじ** (youji): Nghĩa là \"Việc bận\" → Sai.\n- **まえ** (mae): Cách đọc đúng của chữ Hán 【前】 → Chọn.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">銀行</span> (Từ vựng - Danh từ: \"Ngân hàng\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ぎんこう</span> (Từ vựng - Danh từ: \"Ngân hàng\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">前</span> (Từ vựng - Danh từ: \"Trước, phía trước\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">まえ</span> (Từ vựng - Danh từ: \"Trước, phía trước\")\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / địa điểm / đối tượng tiếp nhận)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">郵便局</span> (Từ vựng - Danh từ: \"Bưu điện\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ゆうびんきょく</span> (Từ vựng - Danh từ: \"Bưu điện\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あります</span> (Từ vựng - Động từ: \"Có (sở hữu)\")\n\n📝 Từ vựng trong câu:\n- **銀行 (ぎんこう / ginkou)**: Ngân hàng\n- **前 (まえ / mae)**: Trước, phía trước\n- **郵便局 (ゆうびんきょく / yuubinkyoku)**: Bưu điện\n- **あります (arimasu)**: Có (sở hữu)\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **TIỀN**.\n- Mẹo nhớ: Dùng đao (刂) cắt cỏ (䒑) dưới ánh trăng (月) trước nhà."
           },
           {
             "id": "m_review_6_10_2_m1_q3",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【失礼します】",
+            "question": "日本(にほん)の 食(た)べ【物】(もの)は おいしいです が、高(たか)いです。",
             "options": [
-              "ぎゅうにゅう",
-              "こまかいおかね",
-              "しつれいします",
-              "いただきます"
+              "ミルク",
+              "うしろ",
+              "ふるい",
+              "もの"
             ],
-            "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【失礼します】 có nghĩa là: **Xin thất lễ / Xin phép**.\n\n✍️ Phân tích đáp án:\n- **しつれいします** (shitsureishimasu): Cách đọc đúng của chữ Hán 【失礼します】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **THẤT LỄ**.\n- Mẹo nhớ: Mất đi lễ nghĩa, dùng để xin lỗi, xin phép."
+            "correctIndex": 3,
+            "explanation": "📖 Dịch nghĩa:\nĐồ ăn Nhật Bản thì ngon nhưng mà đắt.\n\n✍️ Phân tích đáp án:\n- **ミルク** (miruku): Nghĩa là \"Sữa\" → Sai.\n- **うしろ** (ushiro): Nghĩa là \"Sau, phía sau\" → Sai.\n- **ふるい** (furui): Nghĩa là \"Cũ\" → Sai.\n- **もの** (mono): Cách đọc đúng của chữ Hán 【物】 → Chọn.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">日本</span> (Từ vựng - Danh từ: \"Nhật Bản\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">にほん</span> (Từ vựng - Danh từ: \"Nhật Bản\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">物</span> (Từ vựng - Danh từ: \"Đồ vật, vật\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">もの</span> (Từ vựng - Danh từ: \"Đồ vật, vật\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">おいしい</span> (Từ vựng - Tính từ đuôi i: \"Ngon\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **日本 (にほん / nihon)**: Nhật Bản\n- **物 (もの / mono)**: Đồ vật, vật\n- **おいしい (oishii)**: Ngon\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **VẬT**.\n- Mẹo nhớ: Con bò (牛) là một loài ĐỘNG VẬT (Vật) không (勿) thể thiếu của nhà nông."
           }
         ]
       },
@@ -1939,51 +1923,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_6_10_2_m2_q0",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【じかん】",
+            "question": "箱(はこ)の 【なか】(なか)に なに が ありますか。 ...手紙(てがみ)が あります。",
             "options": [
-              "ナイフ",
-              "テニス",
-              "赤い",
-              "時間"
+              "荷物",
+              "紙",
+              "中",
+              "物"
             ],
-            "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Thời gian**.\n\n✍️ Phân tích đáp án:\n- **時間** (じかん): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **THỜI GIAN**.\n- Cấu tạo: 時 (Thời - Giờ) + 間 (Gian - Ở giữa/Khoảng)"
+            "correctIndex": 2,
+            "explanation": "📖 Dịch nghĩa:\nTrong hộp có cái gì? ...Có bức thư.\n\n✍️ Phân tích đáp án:\n- **荷物** (にもつ): Nghĩa là \"Hành lý\" → Sai.\n- **紙** (かみ): Nghĩa là \"Giấy\" → Sai.\n- **中** (なか): Cách viết chữ Hán đúng của từ 【なか】 → Chọn.\n- **物** (もの): Nghĩa là \"Đồ vật, vật\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">箱</span> (Từ vựng - Danh từ: \"Cái hộp\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">はこ</span> (Từ vựng - Danh từ: \"Cái hộp\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">なか</span> (Từ vựng - Danh từ: \"Trong, bên trong\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">なか</span> (Từ vựng - Danh từ: \"Trong, bên trong\")\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / địa điểm / đối tượng tiếp nhận)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">なに</span> (Từ vựng - Từ hỏi: \"Cái gì\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あります</span> (Từ vựng - Động từ: \"Có (sở hữu)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">手紙</span> (Từ vựng - Danh từ: \"Bức thư\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">てがみ</span> (Từ vựng - Danh từ: \"Bức thư\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あります</span> (Từ vựng - Động từ: \"Có (sở hữu)\")\n\n📝 Từ vựng trong câu:\n- **箱 (はこ / hako)**: Cái hộp\n- **中 (なか / naka)**: Trong, bên trong\n- **何 (なに / nani)**: Cái gì\n- **あります (arimasu)**: Có (sở hữu)\n- **手紙 (てがみ / tegami)**: Bức thư\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **TRUNG**.\n- Cấu tạo: 中 = 口 (Khẩu - Miệng) + 丨 (Sổ)"
           },
           {
             "id": "m_review_6_10_2_m2_q1",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【わるい】",
+            "question": "毎日、パソコンでメールを【おくります】。",
             "options": [
-              "店",
-              "手紙",
-              "暑い",
-              "悪い"
+              "テニス",
+              "スイッチ",
+              "送ります",
+              "教えます"
             ],
-            "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Xấu**.\n\n✍️ Phân tích đáp án:\n- **悪い** (わるい): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **ÁC**.\n- Cấu tạo: 亜 (Á - Châu Á) + 心 (Tâm - Trái tim)"
+            "correctIndex": 2,
+            "explanation": "📖 Dịch nghĩa:\nMỗi ngày, gửi email bằng máy tính.\n\n✍️ Phân tích đáp án:\n- **テニス** (テニス): Nghĩa là \"Quần vợt, Tennis\" → Sai.\n- **スイッチ** (スイッチ): Nghĩa là \"Công tắc\" → Sai.\n- **送ります** (おくります): Cách viết chữ Hán đúng của từ 【おくります】 → Chọn.\n- **教えます** (おしえます): Nghĩa là \"Dạy\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">毎日</span> (Từ vựng - Danh từ: \"Mỗi ngày, hằng ngày\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">パソコン</span> (Từ vựng - Danh từ: \"Máy tính cá nhân\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">おくります</span> (Từ vựng - Động từ: \"Gửi\")\n\n📝 Từ vựng trong câu:\n- **毎日 (まいにち / mainichi)**: Mỗi ngày, hằng ngày\n- **パソコン (ぱそこん / pasokon)**: Máy tính cá nhân\n- **送ります (おくります / okurimasu)**: Gửi\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **TỐNG**.\n- Cấu tạo: 送 = 辶 (Sước - Đi/Trượt) + 关 (Quan - Cửa quan)"
           },
           {
             "id": "m_review_6_10_2_m2_q2",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【やさい】",
+            "question": "びょういんで 【おさけ】を（　　）はいけません。",
             "options": [
+              "所",
+              "どう",
               "魚",
-              "左",
-              "野菜",
-              "町"
+              "お酒"
             ],
-            "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Rau**.\n\n✍️ Phân tích đáp án:\n- **野菜** (やさい): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **DÃ THÁI**.\n- Cấu tạo: 野 (Dã - Cánh đồng) + 菜 (Thái - Rau)"
+            "correctIndex": 3,
+            "explanation": "📖 Dịch nghĩa:\nKhông được uống rượu trong bệnh viện.\n\n✍️ Phân tích đáp án:\n- **所** (ところ): Nghĩa là \"Nơi chốn\" → Sai.\n- **どう** (どう): Nghĩa là \"Như thế nào?\" → Sai.\n- **魚** (さかな): Nghĩa là \"Cá\" → Sai.\n- **お酒** (おさけ): Cách viết chữ Hán đúng của từ 【おさけ】 → Chọn.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">びょういん</span> (Từ vựng - Danh từ: \"Bệnh viện\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">おさけ</span> (Từ vựng - Danh từ: \"Rượu sake\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">はい</span> (Từ vựng - Thán từ: \"Vâng, đúng vậy\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">せん</span> (Từ vựng - Số đếm: \"Nghìn\")\n\n📝 Từ vựng trong câu:\n- **病院 (びょういん / byouin)**: Bệnh viện\n- **お酒 (おさけ / osake)**: Rượu sake\n- **はい (hai)**: Vâng, đúng vậy\n- **千 (せん / sen)**: Nghìn\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **TỬU**.\n- Cấu tạo: 氵 (Thủy - Nước) + 酉 (Dậu - Bình rượu)"
           },
           {
             "id": "m_review_6_10_2_m2_q3",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【やくそく】",
+            "question": "わたしは 会社(かいしゃ)の人(ひと) から お金を 【かります】。",
             "options": [
-              "まだ",
-              "ATM",
-              "約束",
-              "CD"
+              "借ります",
+              "静か（な）",
+              "チリソース",
+              "上手（な）"
             ],
-            "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Cuộc hẹn, lời hứa**.\n\n✍️ Phân tích đáp án:\n- **約束** (やくそく): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **ƯỚC THÚC**.\n- Cấu tạo: 約 (Ước - Giao ước) + 束 (Thúc - Buộc/Bó)"
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nTôi vay tiền từ người trong công ty.\n\n✍️ Phân tích đáp án:\n- **借ります** (かります): Cách viết chữ Hán đúng của từ 【かります】 → Chọn.\n- **静か（な）** (しずか): Nghĩa là \"Yên tĩnh\" → Sai.\n- **チリソース** (チリソース): Nghĩa là \"Tương ớt (Chili sauce)\" → Sai.\n- **上手（な）** (じょうず): Nghĩa là \"Giỏi, khéo\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">わたし</span> (Từ vựng - Đại từ: \"Tôi\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">会社</span> (Từ vựng - Danh từ: \"Công ty\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">かいしゃ</span> (Từ vựng - Danh từ: \"Công ty\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">人</span> (Từ vựng - Danh từ: \"Người\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ひと</span> (Từ vựng - Danh từ: \"Người\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">から</span> (Từ vựng - Trợ từ: \"Từ (thời gian)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">お金</span> (Từ vựng - Danh từ: \"Tiền\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">かります</span> (Từ vựng - Động từ: \"Mượn, vay\")\n\n📝 Từ vựng trong câu:\n- **私 (わたし / watashi)**: Tôi\n- **会社 (かいしゃ / kaisha)**: Công ty\n- **人 (ひと / hito)**: Người\n- **から (kara)**: Từ (thời gian)\n- **お金 (おかね / okane)**: Tiền\n- **借ります (かります / karimasu)**: Mượn, vay\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **TÁ**.\n- Cấu tạo: 借 = 亻 (Nhân) + 昔 (Tích - Ngày xưa)"
           }
         ]
       },
@@ -1993,51 +1977,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_6_10_2_m3_q0",
-            "question": "箱(はこ)の 中(なか)に 【　　　】 が ありますか。 ...手紙(てがみ)が あります。",
+            "question": "あした 東京へ 行きます。それから、映画を 【　　　】。",
             "options": [
-              "なに",
-              "だれ",
-              "どこ",
-              "いつ"
+              "見ます",
+              "見ました",
+              "見ましょう",
+              "見ません"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTrong hộp có cái gì? ...Có bức thư.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **なに**.\n\n📚 Từ vựng bổ trợ:\n- 手紙 (てがみ / tegami): Bức thư\n\n💡 Ngữ pháp & Mẹo nhớ:\nCâu trả lời là đồ vật (手紙) nên câu hỏi phải dùng なに (Cái gì)."
+            "explanation": "📖 Dịch nghĩa:\nNgày mai tôi đi Tokyo. Sau đó, tôi xem phim.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **見ます**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あした</span> (Từ vựng - Danh từ: \"Ngày mai\")\n- <span style=\"color: #f73859; font-weight: 800;\">へ</span> (Trợ từ chỉ hướng di chuyển)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">行きます</span> (Từ vựng - Động từ: \"Đi\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">それから</span> (Từ vựng - Liên từ: \"Sau đó, tiếp theo\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">映画</span> (Từ vựng - Danh từ: \"Phim, điện ảnh\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">見ます</span> (Từ vựng - Động từ: \"Xem, nhìn\")\n\n📝 Từ vựng trong câu:\n- **明日 (あした / ashita)**: Ngày mai\n- **行きます (いきます / ikimasu)**: Đi\n- **それから (sorekara)**: Sau đó, tiếp theo\n- **映画 (えいが / eiga)**: Phim, điện ảnh\n- **見ます (みます / mimasu)**: Xem, nhìn\n\n💡 Ngữ pháp & Mẹo nhớ:\nHành động nối tiếp xảy ra vào ngày mai (あした) nên dùng thể ます (hiện tại/tương lai)."
           },
           {
             "id": "m_review_6_10_2_m3_q1",
-            "question": "カバンは 机(つくえ) 【　　　】 下(した)に あります。",
+            "question": "わたしは 歌(うた)が 【　　　】 です。ぜんぜん 上手(じょうず)じゃありません。",
             "options": [
-              "の",
-              "に",
-              "が",
-              "は"
+              "下手(へた)",
+              "上手(じょうず)",
+              "好(す)き",
+              "嫌(きら)い"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nCặp sách nằm ở dưới cái bàn.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **の**.\n\n📚 Từ vựng bổ trợ:\n- 絵 (え / e): Bức tranh\n\n💡 Ngữ pháp & Mẹo nhớ:\nDanh từ chỉ mốc (机) nối với danh từ chỉ vị trí (下) bằng trợ từ の (N1 の N2)."
+            "explanation": "📖 Dịch nghĩa:\nTôi hát dở. Hoàn toàn không giỏi chút nào.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **下手(へた)**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">わたし</span> (Từ vựng - Đại từ: \"Tôi\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">歌</span> (Từ vựng - Danh từ: \"Bài hát\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">うた</span> (Từ vựng - Danh từ: \"Bài hát\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">下</span> (Từ vựng - Danh từ: \"Dưới, phía dưới\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">手</span> (Từ vựng - Danh từ: \"Tay\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">へた</span> (Từ vựng - Tính từ đuôi na: \"Kém, dở\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ぜんぜん</span> (Từ vựng - Phó từ: \"Hoàn toàn không (~ phủ định)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">上</span> (Từ vựng - Danh từ: \"Trên, phía trên\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">手</span> (Từ vựng - Danh từ: \"Tay\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">じょうず</span> (Từ vựng - Tính từ đuôi na: \"Giỏi, khéo\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">じゃ</span> (Từ vựng - Mẫu câu: \"Thế thì, vậy thì\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ありません</span> (Từ vựng - Động từ: \"Có (sở hữu)\")\n\n📝 Từ vựng trong câu:\n- **私 (わたし / watashi)**: Tôi\n- **歌 (うた / uta)**: Bài hát\n- **下 (した / shita)**: Dưới, phía dưới\n- **手 (て / te)**: Tay\n- **下手（な） (へた / heta)**: Kém, dở\n- **全然 (ぜんぜん / zenzen)**: Hoàn toàn không (~ phủ định)\n- **上 (うえ / ue)**: Trên, phía trên\n- **上手（な） (じょうず / jouzu)**: Giỏi, khéo\n- **じゃ (ja)**: Thế thì, vậy thì\n- **あります (arimasu)**: Có (sở hữu)\n\n💡 Ngữ pháp & Mẹo nhớ:\nVế sau là 'hoàn toàn không giỏi' (ぜんぜん 上手じゃありません) nên vế trước phải là 'hát dở' (下手)."
           },
           {
             "id": "m_review_6_10_2_m3_q2",
-            "question": "まいあさ なにを 食べますか。 ...【　　　】 食べません。",
+            "question": "もう 昼ごはんを 食べましたか。 ...いいえ、【　　　】。",
             "options": [
-              "なにも",
-              "なにを",
-              "なにが",
-              "なんで"
+              "まだです",
+              "まだ 食べませんでした",
+              "もう 食べません",
+              "もう です"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nMỗi sáng bạn ăn gì? ...Tôi không ăn gì cả.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **なにも**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nPhủ định hoàn toàn: Từ để hỏi (なに) + も + V(phủ định)."
+            "explanation": "📖 Dịch nghĩa:\nBạn đã ăn trưa chưa? ...Chưa, tôi chưa ăn.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **まだです**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">もう</span> (Từ vựng - Phó từ: \"Đã ... rồi\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">昼ごはん</span> (Từ vựng - Danh từ: \"Bữa trưa\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">食べました</span> (Từ vựng - Động từ: \"Ăn\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">いいえ</span> (Từ vựng - Thán từ: \"Không (phủ định)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">まだ</span> (Từ vựng - Phó từ: \"Chưa\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **もう (mou)**: Đã ... rồi\n- **昼ごはん (ひるごはん / hirugohan)**: Bữa trưa\n- **食べます (たべます / tabemasu)**: Ăn\n- **いいえ (iie)**: Không (phủ định)\n- **まだ (mada)**: Chưa\n\n💡 Ngữ pháp & Mẹo nhớ:\nPhủ định cho câu hỏi 'もう Vましたか' luôn là 'いいえ、まだです'. Tuyệt đối không dùng ませんでした."
           },
           {
             "id": "m_review_6_10_2_m3_q3",
-            "question": "銀行(ぎんこう)の 前(まえ) 【　　　】 郵便局(ゆうびんきょく)が あります。",
+            "question": "この 町(まち)は しずか 【　　　】。",
             "options": [
-              "に",
-              "で",
-              "を",
-              "へ"
+              "じゃありません",
+              "ではありません",
+              "くないです",
+              "くありません"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTrước ngân hàng có bưu điện.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **に**.\n\n📚 Từ vựng bổ trợ:\n- 絵 (え / e): Bức tranh\n\n💡 Ngữ pháp & Mẹo nhớ:\nĐịa điểm tồn tại dùng trợ từ に (N に N が あります)."
+            "explanation": "📖 Dịch nghĩa:\nThị trấn này không yên tĩnh.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **じゃありません**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">この</span> (Từ vựng - Từ chỉ định: \"Cái này ... (+ danh từ)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">町</span> (Từ vựng - Danh từ: \"Thị trấn, phố\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">まち</span> (Từ vựng - Danh từ: \"Thị trấn, phố\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">しずか</span> (Từ vựng - Tính từ đuôi na: \"Yên tĩnh\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">じゃ</span> (Từ vựng - Mẫu câu: \"Thế thì, vậy thì\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ありません</span> (Từ vựng - Động từ: \"Có (sở hữu)\")\n\n📝 Từ vựng trong câu:\n- **この (kono)**: Cái này ... (+ danh từ)\n- **町 (まち / machi)**: Thị trấn, phố\n- **静か（な） (しずか / shizuka)**: Yên tĩnh\n- **じゃ (ja)**: Thế thì, vậy thì\n- **あります (arimasu)**: Có (sở hữu)\n\n💡 Ngữ pháp & Mẹo nhớ:\nしずか là tính từ đuôi な. Thể phủ định là bỏ な thêm じゃありません (hoặc ではありません). Ở đây đáp án じゃありません phù hợp nhất với khẩu ngữ."
           }
         ]
       },
@@ -2047,51 +2031,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_6_10_2_b1_q0",
-            "question": "あした 東京へ 行きます。それから、映画を （　　　）。",
+            "question": "いっしょに ビールを （　　　）。",
             "options": [
-              "見ます",
-              "見ました",
-              "見ましょう",
-              "見ません"
+              "飲みませんか",
+              "飲みましょうか",
+              "飲みます",
+              "飲みましたか"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nNgày mai tôi đi Tokyo. Sau đó, tôi xem phim.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **見ます**.\n\n📚 Từ vựng bổ trợ:\n- 明日 (あした / ashita): Ngày mai\n\n💡 Ngữ pháp & Mẹo nhớ:\nHành động nối tiếp xảy ra vào ngày mai (あした) nên dùng thể ます (hiện tại/tương lai)."
+            "explanation": "📖 Dịch nghĩa:\nCùng nhau uống bia nhé?\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **飲みませんか**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">いっしょに</span> (Từ vựng - Phó từ: \"Cùng nhau\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ビール</span> (Từ vựng - Danh từ: \"Bia\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">飲みません</span> (Từ vựng - Động từ: \"Uống\")\n\n📝 Từ vựng trong câu:\n- **いっしょに (isshoni)**: Cùng nhau\n- **ビール (biiru)**: Bia\n- **飲みます (のみます / nomimasu)**: Uống\n\n💡 Ngữ pháp & Mẹo nhớ:\nMời mọc lịch sự dùng mẫu ませんか (Cùng làm nhé)."
           },
           {
             "id": "m_review_6_10_2_b1_q1",
-            "question": "この 町(まち)は しずか （　　　）。",
+            "question": "わたしは 母に 時計を （　　　）。",
             "options": [
-              "じゃありません",
-              "ではありません",
-              "くないです",
-              "くありません"
+              "もらいました",
+              "あげました",
+              "かしました",
+              "おしえました"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nThị trấn này không yên tĩnh.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **じゃありません**.\n\n📚 Từ vựng bổ trợ:\n- 静か (しずか / shizuka): Yên tĩnh\n\n💡 Ngữ pháp & Mẹo nhớ:\nしずか là tính từ đuôi な. Thể phủ định là bỏ な thêm じゃありません (hoặc ではありません). Ở đây đáp án じゃありません phù hợp nhất với khẩu ngữ."
+            "explanation": "📖 Dịch nghĩa:\nTôi đã nhận chiếc đồng hồ từ mẹ.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **もらいました**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">わたし</span> (Từ vựng - Đại từ: \"Tôi\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">母</span> (Từ vựng - Danh từ: \"Mẹ (của mình)\")\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / địa điểm / đối tượng tiếp nhận)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">時計</span> (Từ vựng - Danh từ: \"Đồng hồ\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">もらいました</span> (Từ vựng - Động từ: \"Nhận\")\n\n📝 Từ vựng trong câu:\n- **私 (わたし / watashi)**: Tôi\n- **母 (はは / haha)**: Mẹ (của mình)\n- **時計 (とけい / tokei)**: Đồng hồ\n- **もらいます (moraimasu)**: Nhận\n\n💡 Ngữ pháp & Mẹo nhớ:\nHành động nhận món đồ (đồng hồ) từ ai đó (mẹ) dùng もらいました."
           },
           {
             "id": "m_review_6_10_2_b1_q2",
-            "question": "事務所(じむしょ)に （　　　） が いますか。 ...先生が います。",
+            "question": "「ありがとう」は 英語(えいご) （　　　） 何ですか。",
             "options": [
-              "だれ",
-              "なに",
-              "どこ",
-              "いつ"
+              "で",
+              "に",
+              "は",
+              "を"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nỞ văn phòng có ai? ...Có giáo viên.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **だれ**.\n\n📚 Từ vựng bổ trợ:\n- 先生 (せんせい / sensei): Thầy/cô giáo\n\n💡 Ngữ pháp & Mẹo nhớ:\nCâu trả lời là người (先生) nên câu hỏi phải dùng だれ (Ai)."
+            "explanation": "📖 Dịch nghĩa:\n'Cảm ơn' trong tiếng Anh là gì?\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **で**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #f73859; font-weight: 800;\">と</span> (Trợ từ chỉ đối tượng đồng hành / liệt kê)\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">英語</span> (Từ vựng - Danh từ: \"Tiếng Anh\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">えいご</span> (Từ vựng - Danh từ: \"Tiếng Anh\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">何ですか</span> (Từ vựng - Mẫu câu: \"Có gì không ạ? / Vâng?\")\n\n📝 Từ vựng trong câu:\n- **英語 (えいご / eigo)**: Tiếng Anh\n- **何ですか (なんですか / nandesuka)**: Có gì không ạ? / Vâng?\n\n💡 Ngữ pháp & Mẹo nhớ:\nNgôn ngữ được coi như một phương tiện truyền đạt nên dùng trợ từ で (bằng tiếng Anh)."
           },
           {
             "id": "m_review_6_10_2_b1_q3",
-            "question": "どんな （　　　） が 好(す)きですか。 ...クラシックが 好きです。",
+            "question": "わたしは 山田さんに 花を （　　　）。",
             "options": [
-              "音楽(おんがく)",
-              "スポーツ",
-              "食(た)べ物(もの)",
-              "飲(の)み物(もの)"
+              "あげました",
+              "もらいました",
+              "かしました",
+              "ならいました"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nBạn thích âm nhạc nào? ...Tôi thích nhạc cổ điển.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **音楽(おんがく)**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nCâu trả lời クラシック (nhạc cổ điển) là một loại 音楽 (âm nhạc)."
+            "explanation": "📖 Dịch nghĩa:\nTôi đã tặng hoa cho anh Yamada.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **あげました**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">わたし</span> (Từ vựng - Đại từ: \"Tôi\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">山</span> (Từ vựng - Danh từ: \"Núi\")\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / địa điểm / đối tượng tiếp nhận)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">花</span> (Từ vựng - Danh từ: \"Hoa\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あげました</span> (Từ vựng - Động từ: \"Cho, tặng\")\n\n📝 Từ vựng trong câu:\n- **私 (わたし / watashi)**: Tôi\n- **山 (やま / yama)**: Núi\n- **花 (はな / hana)**: Hoa\n- **あげます (agemasu)**: Cho, tặng\n\n💡 Ngữ pháp & Mẹo nhớ:\nHành động có chủ thể là 'tôi' hướng tới 'anh Yamada' nên dùng あげました (tặng cho). Các từ khác là nhận/mượn/học từ ai đó."
           }
         ]
       },
@@ -2101,27 +2085,27 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_6_10_2_b2_q0",
-            "question": "このへやは　___ ___ _★_ ___　ありません。",
+            "question": "わたしは　___ ___ _★_ ___　あげました。",
             "options": [
-              "あまり",
-              "しずか",
-              "で",
-              "は"
+              "に",
+              "はな",
+              "を",
+              "ともだち"
             ],
-            "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nCăn phòng này không yên tĩnh lắm.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: このへやは [あまり] [しずか] [★ で] [は] ありません。\n- Từ ở vị trí ngôi sao (★) là: **で**.\n\n📚 Từ vựng bổ trợ:\n- 部屋 (へや / heya): Căn phòng\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Phủ định tính từ đuôi な: [Tính từ な] では ありません. Đi kèm phó từ phủ định あまり (không... lắm)."
+            "correctIndex": 1,
+            "explanation": "📖 Dịch nghĩa:\nTôi đã tặng hoa cho bạn.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: わたしは ともだち に はな を あげました。\n- Từ ở vị trí ngôi sao (★) là: **はな**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">わたし</span> (Từ vựng - Đại từ: \"Tôi\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ともだち</span> (Từ vựng - Danh từ: \"Bạn bè\")\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / địa điểm / đối tượng tiếp nhận)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">はな</span> (Từ vựng - Danh từ: \"Hoa\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あげました</span> (Từ vựng - Động từ: \"Cho, tặng\")\n\n📝 Từ vựng trong câu:\n- **私 (わたし / watashi)**: Tôi\n- **友達 (ともだち / tomodachi)**: Bạn bè\n- **花 (はな / hana)**: Hoa\n- **あげます (agemasu)**: Cho, tặng\n\n💡 Ngữ pháp & Mẹo nhớ:\nCấu trúc: N1 (người nhận) に N2 (vật) を あげます (Tặng cái gì cho ai)."
           },
           {
             "id": "m_review_6_10_2_b2_q1",
-            "question": "わたしは　___ ___ _★_ ___　もらいました。",
+            "question": "きのうの　___ ___ _★_ ___　たのしかったです。",
             "options": [
-              "に",
-              "とけい",
-              "を",
-              "せんせい"
+              "は",
+              "とても",
+              "パーティー",
+              "にほんの"
             ],
-            "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nTôi đã nhận chiếc đồng hồ từ thầy giáo.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: わたしは [せんせい] [に] [★ とけい] [を] もらいました。\n- Từ ở vị trí ngôi sao (★) là: **とけい**.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Cấu trúc: N1 (người cho) に N2 (vật) を もらいます (Nhận từ ai cái gì)."
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nBữa tiệc Nhật Bản hôm qua rất vui.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: きのうの にほんの パーティー は とても たのしかったです。\n- Từ ở vị trí ngôi sao (★) là: **は**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">きのう</span> (Từ vựng - Danh từ: \"Hôm qua\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">にほん</span> (Từ vựng - Danh từ: \"Nhật Bản\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">とても</span> (Từ vựng - Phó từ: \"Rất\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">たのしかった</span> (Từ vựng - Tính từ đuôi i: \"Vui vẻ\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **きのう (kinou)**: Hôm qua\n- **日本 (にほん / nihon)**: Nhật Bản\n- **とても (totemo)**: Rất\n- **楽しい (たのしい / tanoshii)**: Vui vẻ\n\n💡 Ngữ pháp & Mẹo nhớ:\nTrợ từ は đánh dấu chủ ngữ chính của câu. Tính từ quá khứ たのしかった đi kèm phó từ mức độ とても."
           }
         ]
       },
@@ -2129,62 +2113,67 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "id": "p_review_6_10_2_dokkai1",
         "type": "mondai3",
         "text": [
-          "わたしは いつも はしで ごはんを たべます。",
-          "そして、パソコンで てがみを かきます。",
-          "きのう、ははに はなと シャツを あげました。",
-          "ちちに とけいを もらいました。",
-          "もう ちちに てがみを おくりました。"
+          "わたしは まいあさ ６じに おきます。",
+          "いつも パンと たまごを たべます。",
+          "そして、ぎゅうにゅうを のみます。",
+          "しんぶんを よみませんか。",
+          "いいえ、よみません。じかんが ありませんから。"
         ],
         "translation": [
-          "Tôi luôn luôn ăn cơm bằng đũa.",
-          "Và, tôi viết thư bằng máy tính.",
-          "Hôm qua, tôi đã tặng hoa và áo sơ mi cho mẹ.",
-          "Tôi đã nhận được đồng hồ từ bố.",
-          "Tôi đã gửi thư cho bố rồi."
+          "Mỗi sáng tôi thức dậy lúc 6 giờ.",
+          "Tôi luôn luôn ăn bánh mì và trứng.",
+          "Và, tôi uống sữa bò.",
+          "Bạn không đọc báo à?",
+          "Không, tôi không đọc. Vì tôi không có thời gian."
         ],
         "vocabulary": [
-          "手紙 (てがみ / tegami): Bức thư",
-          "シャツ (shatsu): Áo sơ mi",
-          "ご飯 (ごはん / gohan): Cơm, bữa ăn",
-          "時計 (とけい / tokei): Đồng hồ",
-          "花 (はな / hana): Hoa"
+          "牛乳 (ぎゅうにゅう / gyuunyuu): Sữa bò",
+          "新聞 (しんぶん / shinbun): Báo (tờ báo)",
+          "毎朝 (まいあさ / maiasa): Mỗi buổi sáng",
+          "置きます (おきます / okimasu): Đặt, để",
+          "食べます (たべます / tabemasu): Ăn",
+          "飲みます (のみます / nomimasu): Uống",
+          "私 (わたし / watashi): Tôi",
+          "いいえ (iie): Không (phủ định)",
+          "卵 (たまご / tamago): Trứng",
+          "いつも (itsumo): Luôn luôn"
         ],
         "questions": [
           {
             "id": "m_review_6_10_2_d1_q0",
-            "question": "この人は なにでご飯を食べますか？",
+            "question": "この人は毎朝なにを食べますか？",
             "options": [
-              "スプーンで",
-              "手で",
-              "はしで",
-              "フォークで"
+              "ご飯と魚",
+              "パンと卵",
+              "肉と野菜",
+              "野菜と果物"
             ],
-            "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nこの人は なにでご飯を食べますか？\n- Đáp án đúng: **はしで**.\n\n✍️ Phân tích đáp án:\n- Dựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác."
+            "correctIndex": 1,
+            "explanation": "📖 Dịch nghĩa:\nこの人は毎朝なにを食べますか？\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **パンと卵**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">この</span> (Từ vựng - Từ chỉ định: \"Cái này ... (+ danh từ)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">人</span> (Từ vựng - Danh từ: \"Người\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">毎朝</span> (Từ vựng - Danh từ: \"Mỗi buổi sáng\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">なに</span> (Từ vựng - Từ hỏi: \"Cái gì\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">食べます</span> (Từ vựng - Động từ: \"Ăn\")\n\n📝 Từ vựng trong câu:\n- **この (kono)**: Cái này ... (+ danh từ)\n- **人 (ひと / hito)**: Người\n- **毎朝 (まいあさ / maiasa)**: Mỗi buổi sáng\n- **何 (なに / nani)**: Cái gì\n- **食べます (たべます / tabemasu)**: Ăn\n\n💡 Ngữ pháp & Mẹo nhớ:\nDựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác."
           },
           {
             "id": "m_review_6_10_2_d1_q1",
-            "question": "母に なにをあげましたか？",
+            "question": "なにを飲みますか？",
             "options": [
-              "時計",
-              "手紙",
-              "パソコン",
-              "花とシャツ"
+              "お茶",
+              "水",
+              "牛乳",
+              "お酒"
             ],
-            "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\n母に なにをあげましたか？\n- Đáp án đúng: **花とシャツ**.\n\n✍️ Phân tích đáp án:\n- Dựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác."
+            "correctIndex": 2,
+            "explanation": "📖 Dịch nghĩa:\nなにを飲みますか？\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **牛乳**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">なに</span> (Từ vựng - Từ hỏi: \"Cái gì\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">飲みます</span> (Từ vựng - Động từ: \"Uống\")\n\n📝 Từ vựng trong câu:\n- **何 (なに / nani)**: Cái gì\n- **飲みます (のみます / nomimasu)**: Uống\n\n💡 Ngữ pháp & Mẹo nhớ:\nDựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác."
           },
           {
             "id": "m_review_6_10_2_d1_q2",
-            "question": "だれに 手紙を送りましたか？",
+            "question": "どうして新聞を読みませんか？",
             "options": [
-              "母に",
-              "父に",
-              "お父さんに",
-              "友達に"
+              "新聞がきらいですから",
+              "漢字がわかりませんから",
+              "時間がありませんから",
+              "新聞がありませんから"
             ],
-            "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nだれに 手紙を送りましたか？\n- Đáp án đúng: **父に**.\n\n✍️ Phân tích đáp án:\n- Dựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác.\n\n📚 Từ vựng bổ trợ:\n- 手紙 (てがみ / tegami): Bức thư"
+            "correctIndex": 2,
+            "explanation": "📖 Dịch nghĩa:\nどうして新聞を読みませんか？\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **時間がありませんから**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">どうして</span> (Từ vựng - Từ hỏi: \"Tại sao\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">新聞</span> (Từ vựng - Danh từ: \"Báo (tờ báo)\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">読みません</span> (Từ vựng - Động từ: \"Đọc\")\n\n📝 Từ vựng trong câu:\n- **どうして (doushite)**: Tại sao\n- **新聞 (しんぶん / shinbun)**: Báo (tờ báo)\n- **読みます (よみます / yomimasu)**: Đọc\n\n💡 Ngữ pháp & Mẹo nhớ:\nDựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác."
           }
         ]
       }
@@ -2201,51 +2190,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_6_10_3_m1_q0",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【赤い】",
+            "question": "のどが（　　）。【冷たい】 水が のみたいです。",
             "options": [
-              "ファクス",
-              "あかい",
-              "うえ",
-              "おちゃ"
+              "ほんや",
+              "ところ",
+              "つめたい",
+              "りょこう"
             ],
-            "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【赤い】 có nghĩa là: **Đỏ**.\n\n✍️ Phân tích đáp án:\n- **あかい** (akai): Cách đọc đúng của chữ Hán 【赤い】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **XÍCH**.\n- Mẹo nhớ: Lửa (灬) thiêu đốt mặt đất (土) cháy rực màu ĐỎ (Xích)."
+            "correctIndex": 2,
+            "explanation": "📖 Dịch nghĩa:\nKhát nước quá. Tôi muốn uống nước lạnh.\n\n✍️ Phân tích đáp án:\n- **ほんや** (honya): Nghĩa là \"Hiệu sách\" → Sai.\n- **ところ** (tokoro): Nghĩa là \"Nơi chốn\" → Sai.\n- **つめたい** (tsumetai): Cách đọc đúng của chữ Hán 【冷たい】 → Chọn.\n- **りょこう** (ryokou): Nghĩa là \"Chuyến du lịch\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">のど</span> (Từ vựng - Danh từ: \"Cổ họng\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">冷たい</span> (Từ vựng - Tính từ đuôi i: \"Lạnh, buốt (cảm giác chạm)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">水</span> (Từ vựng - Danh từ: \"Nước (lọc)\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">のみたいです</span> (Từ vựng - Động từ: \"Uống\")\n\n📝 Từ vựng trong câu:\n- **のど (nodo)**: Cổ họng\n- **冷たい (つめたい / tsumetai)**: Lạnh, buốt (cảm giác chạm)\n- **水 (みず / mizu)**: Nước (lọc)\n- **飲みます (のみます / nomimasu)**: Uống\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **LÃNH**.\n- Mẹo nhớ: Cảm giác lạnh khi chạm vào."
           },
           {
             "id": "m_review_6_10_3_m1_q1",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【高い】",
+            "question": "それは 【悪い】 です。",
             "options": [
-              "かけます",
-              "おしごと",
-              "たかい",
-              "にもつ"
+              "わるい",
+              "かみ",
+              "みぎ",
+              "せいかつ"
             ],
-            "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【高い】 có nghĩa là: **Cao, đắt**.\n\n✍️ Phân tích đáp án:\n- **たかい** (takai): Cách đọc đúng của chữ Hán 【高い】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **CAO**.\n- Mẹo nhớ: Một tòa tháp cao vút được xây dựng từ nhiều lầu gác (Quynh, Khẩu)."
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nCái đó xấu, tồi.\n\n✍️ Phân tích đáp án:\n- **わるい** (warui): Cách đọc đúng của chữ Hán 【悪い】 → Chọn.\n- **かみ** (kami): Nghĩa là \"Giấy\" → Sai.\n- **みぎ** (migi): Nghĩa là \"Phải, bên phải\" → Sai.\n- **せいかつ** (seikatsu): Nghĩa là \"Cuộc sống, sinh hoạt\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">それ</span> (Từ vựng - Đại từ: \"Cái đó (gần người nghe)\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">悪い</span> (Từ vựng - Tính từ đuôi i: \"Xấu, tồi\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **それ (sore)**: Cái đó (gần người nghe)\n- **悪い (わるい / warui)**: Xấu, tồi\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **ÁC**.\n- Mẹo nhớ: Trái tim (心) thâm độc ác bá (Ác)."
           },
           {
             "id": "m_review_6_10_3_m1_q2",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【切ります】",
+            "question": "【暑い】ですね。（　　）のみたいです。",
             "options": [
-              "きります",
-              "なんですか",
-              "ないふ",
-              "テニス"
+              "あつい",
+              "となり",
+              "たな",
+              "けしゴム"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【切ります】 có nghĩa là: **Cắt**.\n\n✍️ Phân tích đáp án:\n- **きります** (kirimasu): Cách đọc đúng của chữ Hán 【切ります】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **THIẾT**.\n- Mẹo nhớ: Dùng dao (刀) cắt đồ vật ra thành bảy (七) phần bằng nhau."
+            "explanation": "📖 Dịch nghĩa:\nNóng quá nhỉ. Tôi muốn uống cái gì đó.\n\n✍️ Phân tích đáp án:\n- **あつい** (atsui): Cách đọc đúng của chữ Hán 【暑い】 → Chọn.\n- **となり** (tonari): Nghĩa là \"Bên cạnh\" → Sai.\n- **たな** (tana): Nghĩa là \"Giá sách, kệ\" → Sai.\n- **けしゴム** (keshigomu): Nghĩa là \"Cục tẩy\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">暑い</span> (Từ vựng - Tính từ đuôi i: \"Nóng (thời tiết)\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">のみたいです</span> (Từ vựng - Động từ: \"Uống\")\n\n📝 Từ vựng trong câu:\n- **暑い (あつい / atsui)**: Nóng (thời tiết)\n- **飲みます (のみます / nomimasu)**: Uống\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **THỬ**.\n- Mẹo nhớ: Người (者) đứng dưới mặt trời (日) thì cảm thấy NÓNG bức."
           },
           {
             "id": "m_review_6_10_3_m1_q3",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【嫌い（な）】",
+            "question": "どこ で 【写真】を 撮りましたか。",
             "options": [
-              "きらい",
-              "わるい",
-              "みず",
-              "とても"
+              "しゃしん",
+              "やくそく",
+              "しずか",
+              "たのしい"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【嫌い（な）】 có nghĩa là: **Ghét**.\n\n✍️ Phân tích đáp án:\n- **きらい** (kirai): Cách đọc đúng của chữ Hán 【嫌い（な）】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **HIỀM**.\n- Mẹo nhớ: Người phụ nữ (女) mà ôm đồm gộp (兼) quá nhiều việc thì thường hay bị GHÉT, hiềm khích."
+            "explanation": "📖 Dịch nghĩa:\nBạn đã chụp ảnh ở đâu vậy?\n\n✍️ Phân tích đáp án:\n- **しゃしん** (shashin): Cách đọc đúng của chữ Hán 【写真】 → Chọn.\n- **やくそく** (yakusoku): Nghĩa là \"Cuộc hẹn, lời hứa\" → Sai.\n- **しずか** (shizuka): Nghĩa là \"Yên tĩnh\" → Sai.\n- **たのしい** (tanoshii): Nghĩa là \"Vui vẻ\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">どこ</span> (Từ vựng - Đại từ: \"Ở đâu?\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">写真</span> (Từ vựng - Danh từ: \"Bức ảnh\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">撮りました</span> (Từ vựng - Động từ: \"Chụp (ảnh)\")\n\n📝 Từ vựng trong câu:\n- **どこ (doko)**: Ở đâu?\n- **写真 (しゃしん / shashin)**: Bức ảnh\n- **撮ります (とります / torimasu)**: Chụp (ảnh)\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **TẢ CHÂN**.\n- Mẹo nhớ: Sao chép (Tả) lại chân dung sự thật (Chân) tạo thành bức ảnh."
           }
         ]
       },
@@ -2255,51 +2244,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_6_10_3_m2_q0",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【おとこのひと】",
+            "question": "【おく】には どちら ですか。 ...アメリカです。",
             "options": [
-              "男の人",
-              "それから",
-              "青い",
-              "宿題"
+              "早く",
+              "母",
+              "外",
+              "奥"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Người đàn ông**.\n\n✍️ Phân tích đáp án:\n- **男の人** (おとこのひと): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **NAM NHÂN**.\n- Cấu tạo: 男 (Nam) + 人 (Nhân)"
+            "correctIndex": 3,
+            "explanation": "📖 Dịch nghĩa:\nĐất nước của bạn là nước nào? ...Là nước Mỹ.\n\n✍️ Phân tích đáp án:\n- **早く** (はやく): Nghĩa là \"Sớm, nhanh\" → Sai.\n- **母** (はは): Nghĩa là \"Mẹ (của mình)\" → Sai.\n- **外** (そと): Nghĩa là \"Ngoài, bên ngoài\" → Sai.\n- **奥** (おく): Cách viết chữ Hán đúng của từ 【おく】 → Chọn.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">おく</span> (Từ vựng - Danh từ: \"Bên trong cùng, phía sâu bên trong\")\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / địa điểm / đối tượng tiếp nhận)\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">どちら</span> (Từ vựng - Đại từ: \"Phía nào, đằng nào, chỗ nào (cách nói lịch sự của どこ)\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">アメリカ</span> (Từ vựng - Danh từ: \"Mỹ (Hoa Kỳ)\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **奥 (おく / oku)**: Bên trong cùng, phía sâu bên trong\n- **どちら (dochira)**: Phía nào, đằng nào, chỗ nào (cách nói lịch sự của どこ)\n- **アメリカ (america)**: Mỹ (Hoa Kỳ)\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **ÁO**.\n- Cấu tạo: 奥 = 冂 (Quynh - Không gian) + 米 (Mễ - Gạo) + 大 (Đại - To lớn)"
           },
           {
             "id": "m_review_6_10_3_m2_q1",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【ひくい】",
+            "question": "もう 【ひるごはん】を 食べましたか。 ...いいえ、まだです。",
             "options": [
-              "お茶",
-              "後ろ",
-              "冷たい",
-              "低い"
+              "あまり",
+              "いいですね",
+              "ジュース",
+              "昼ごはん"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Thấp**.\n\n✍️ Phân tích đáp án:\n- **低い** (ひくい): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **ĐÊ**.\n- Cấu tạo: 低 (Đê)"
+            "explanation": "📖 Dịch nghĩa:\nBạn đã ăn trưa chưa? ...Chưa, tôi chưa ăn.\n\n✍️ Phân tích đáp án:\n- **あまり** (あまり): Nghĩa là \"Không ~ lắm (dùng với thể phủ định)\" → Sai.\n- **いいですね** (いいですね): Nghĩa là \"Được đấy nhỉ, hay quá\" → Sai.\n- **ジュース** (ジュース): Nghĩa là \"Nước ép\" → Sai.\n- **昼ごはん** (ひるごはん): Cách viết chữ Hán đúng của từ 【ひるごはん】 → Chọn.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">もう</span> (Từ vựng - Phó từ: \"Đã ... rồi\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ひるごはん</span> (Từ vựng - Danh từ: \"Bữa trưa\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">食べました</span> (Từ vựng - Động từ: \"Ăn\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">いいえ</span> (Từ vựng - Thán từ: \"Không (phủ định)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">まだ</span> (Từ vựng - Phó từ: \"Chưa\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **もう (mou)**: Đã ... rồi\n- **昼ごはん (ひるごはん / hirugohan)**: Bữa trưa\n- **食べます (たべます / tabemasu)**: Ăn\n- **いいえ (iie)**: Không (phủ định)\n- **まだ (mada)**: Chưa\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **TRÚ**.\n- Cấu tạo: 昼 (Trú - Trưa)"
           },
           {
             "id": "m_review_6_10_3_m2_q2",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【きっさてん】",
+            "question": "これ 【でんち】 です。",
             "options": [
-              "黒い",
-              "スポーツ",
-              "喫茶店",
-              "ジャズ"
+              "電池",
+              "新しい",
+              "まだ",
+              "荷物"
             ],
-            "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Quán giải khát, quán cafe**.\n\n✍️ Phân tích đáp án:\n- **喫茶店** (きっさてん): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **KHIẾT TRÀ ĐIẾM**.\n- Cấu tạo: 喫 (Khiết - Hút/Uống) + 茶 (Trà) + 店 (Điếm)"
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nĐây là pin.\n\n✍️ Phân tích đáp án:\n- **電池** (でんち): Cách viết chữ Hán đúng của từ 【でんち】 → Chọn.\n- **新しい** (あたらしい): Nghĩa là \"Mới\" → Sai.\n- **まだ** (まだ): Nghĩa là \"Chưa\" → Sai.\n- **荷物** (にもつ): Nghĩa là \"Hành lý\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">これ</span> (Từ vựng - Đại từ: \"Cái này (gần người nói)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">でんち</span> (Từ vựng - Danh từ: \"Pin\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **これ (kore)**: Cái này (gần người nói)\n- **電池 (でんち / denchi)**: Pin\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **ĐIỆN TRÌ**.\n- Cấu tạo: 電 (Điện) + 池 (Trì - Cái ao)"
           },
           {
             "id": "m_review_6_10_3_m2_q3",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【りょうり】",
+            "question": "【そと】国人の 先生が １人（　　）います。",
             "options": [
-              "もう",
-              "野球",
-              "料理",
-              "お金"
+              "花",
+              "左",
+              "山",
+              "外"
             ],
-            "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Món ăn, việc nấu ăn**.\n\n✍️ Phân tích đáp án:\n- **料理** (りょうり): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **LIÊU LÝ**.\n- Cấu tạo: 料 (Liêu - Vật liệu) + 理 (Lý - Xử lý/Lý lẽ)"
+            "correctIndex": 3,
+            "explanation": "📖 Dịch nghĩa:\nChỉ có 1 giáo viên người nước ngoài.\n\n✍️ Phân tích đáp án:\n- **花** (はな): Nghĩa là \"Hoa\" → Sai.\n- **左** (ひだり): Nghĩa là \"Trái, bên trái\" → Sai.\n- **山** (やま): Nghĩa là \"Núi\" → Sai.\n- **外** (そと): Cách viết chữ Hán đúng của từ 【そと】 → Chọn.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">そと</span> (Từ vựng - Danh từ: \"Ngoài, bên ngoài\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">人</span> (Từ vựng - Danh từ: \"Người\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">先生</span> (Từ vựng - Danh từ: \"Giáo viên, thầy/cô giáo\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">人</span> (Từ vựng - Danh từ: \"Người\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">います</span> (Từ vựng - Động từ: \"Có (người, động vật)\")\n\n📝 Từ vựng trong câu:\n- **外 (そと / soto)**: Ngoài, bên ngoài\n- **人 (ひと / hito)**: Người\n- **先生 (せんせい / sensei)**: Giáo viên, thầy/cô giáo\n- **います (imasu)**: Có (người, động vật)\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **NGOẠI**.\n- Cấu tạo: 外 = 夕 (Tịch - Buổi chiều) + 卜 (Bốc - Bói toán)"
           }
         ]
       },
@@ -2309,6 +2298,30 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_6_10_3_m3_q0",
+            "question": "北京(ペキン)は 寒(さむ)いですか。 ...はい、【　　　】。",
+            "options": [
+              "寒(さむ)いです",
+              "そうです",
+              "寒(さむ)いじゃありません",
+              "寒(さむ)くないです"
+            ],
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nBắc Kinh có lạnh không? ...Có, lạnh.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **寒(さむ)いです**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ペキン</span> (Từ vựng - Danh từ: \"Bắc Kinh\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">はい</span> (Từ vựng - Thán từ: \"Vâng, đúng vậy\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **ペキン (Pekin)**: Bắc Kinh\n- **はい (hai)**: Vâng, đúng vậy\n\n💡 Ngữ pháp & Mẹo nhớ:\nĐể trả lời câu hỏi tính từ, phải nhắc lại tính từ đó. TUYỆT ĐỐI không dùng 'そうです' như với Danh từ."
+          },
+          {
+            "id": "m_review_6_10_3_m3_q1",
+            "question": "わたしは 日本語(にほんご)が 【　　　】 分(わ)かります。",
+            "options": [
+              "よく",
+              "たくさん",
+              "あまり",
+              "ぜんぜん"
+            ],
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nTôi hiểu tiếng Nhật rất rõ.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **よく**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">わたし</span> (Từ vựng - Đại từ: \"Tôi\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">日本語</span> (Từ vựng - Danh từ: \"Tiếng Nhật\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">にほんご</span> (Từ vựng - Danh từ: \"Tiếng Nhật\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">よく</span> (Từ vựng - Phó từ: \"Rõ, tốt, thường\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">かります</span> (Từ vựng - Động từ: \"Mượn, vay\")\n\n📝 Từ vựng trong câu:\n- **私 (わたし / watashi)**: Tôi\n- **日本語 (にほんご / nihongo)**: Tiếng Nhật\n- **よく (yoku)**: Rõ, tốt, thường\n- **借ります (かります / karimasu)**: Mượn, vay\n\n💡 Ngữ pháp & Mẹo nhớ:\nĐi với mức độ hiểu biết (わかります) và mang nghĩa khẳng định tích cực nhất thì dùng よく (rất, rõ)."
+          },
+          {
+            "id": "m_review_6_10_3_m3_q2",
             "question": "きょうは 早(はや)く 帰(かえ)ります。子(こ)どもの 誕生日(たんじょうび) 【　　　】。",
             "options": [
               "ですから",
@@ -2317,43 +2330,19 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "ですで"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nHôm nay tôi về sớm. Vì là sinh nhật của con tôi.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **ですから**.\n\n📚 Từ vựng bổ trợ:\n- 絵 (え / e): Bức tranh\n\n💡 Ngữ pháp & Mẹo nhớ:\nNêu lý do đi liền với danh từ (誕生日) cần có です + から (ですから - Vì là)."
-          },
-          {
-            "id": "m_review_6_10_3_m3_q1",
-            "question": "パソコン 【　　　】 レポートを 書きます。",
-            "options": [
-              "で",
-              "に",
-              "を",
-              "へ"
-            ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTôi viết báo cáo bằng máy tính.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **で**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nChỉ công cụ (máy tính) dùng để thực hiện hành động (viết báo cáo) đi với trợ từ で."
-          },
-          {
-            "id": "m_review_6_10_3_m3_q2",
-            "question": "教室(きょうしつ)に だれ 【　　　】 いません。",
-            "options": [
-              "も",
-              "か",
-              "が",
-              "は"
-            ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTrong phòng học không có ai cả.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **も**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nTừ để hỏi + も + phủ định: mang nghĩa phủ định hoàn toàn (Không ai cả, không cái gì cả...)."
+            "explanation": "📖 Dịch nghĩa:\nHôm nay tôi về sớm. Vì là sinh nhật của con tôi.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **ですから**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">きょう</span> (Từ vựng - Danh từ: \"Hôm nay\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">もの</span> (Từ vựng - Danh từ: \"Đồ vật, vật\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">日</span> (Từ vựng - Danh từ: \"Ngày\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ですから</span> (Từ vựng - Liên từ: \"Vì thế, do đó\")\n\n📝 Từ vựng trong câu:\n- **今日 (きょう / kyou)**: Hôm nay\n- **物 (もの / mono)**: Đồ vật, vật\n- **日 (ひ / hi)**: Ngày\n- **ですから (desukara)**: Vì thế, do đó\n\n💡 Ngữ pháp & Mẹo nhớ:\nNêu lý do đi liền với danh từ (誕生日) cần có です + から (ですから - Vì là)."
           },
           {
             "id": "m_review_6_10_3_m3_q3",
-            "question": "お金(かね)が 【　　　】 ありません。",
+            "question": "この 部屋(へや)は 【　　　】。",
             "options": [
-              "ぜんぜん",
-              "よく",
-              "たくさん",
-              "だいたい"
+              "きれいじゃありません",
+              "きれいくないです",
+              "きれいなじゃありません",
+              "きれいですじゃありません"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTôi hoàn toàn không có tiền.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **ぜんぜん**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nCâu ở thể phủ định (ありません) chỉ có thể đi với phó từ あまり hoặc ぜんぜん."
+            "explanation": "📖 Dịch nghĩa:\nCăn phòng này không sạch.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **きれいじゃありません**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">この</span> (Từ vựng - Từ chỉ định: \"Cái này ... (+ danh từ)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">部屋</span> (Từ vựng - Danh từ: \"Căn phòng\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">へや</span> (Từ vựng - Danh từ: \"Căn phòng\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">きれい</span> (Từ vựng - Tính từ đuôi na: \"Đẹp, sạch sẽ\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">じゃ</span> (Từ vựng - Mẫu câu: \"Thế thì, vậy thì\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ありません</span> (Từ vựng - Động từ: \"Có (sở hữu)\")\n\n📝 Từ vựng trong câu:\n- **この (kono)**: Cái này ... (+ danh từ)\n- **部屋 (へや / heya)**: Căn phòng\n- **きれい（な） (きれい / kirei)**: Đẹp, sạch sẽ\n- **じゃ (ja)**: Thế thì, vậy thì\n- **あります (arimasu)**: Có (sở hữu)\n\n💡 Ngữ pháp & Mẹo nhớ:\nきれい là tính từ đuôi な. Thể phủ định của nó là bỏ な thêm じゃありません (KHÔNG dùng くないです)."
           }
         ]
       },
@@ -2363,51 +2352,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_6_10_3_b1_q0",
-            "question": "あの 店で コーヒーを （　　　）。",
+            "question": "どんな （　　　） が 好(す)きですか。 ...クラシックが 好きです。",
             "options": [
-              "飲みましょう",
-              "飲みませんか",
-              "飲みません",
-              "飲みました"
+              "音楽(おんがく)",
+              "スポーツ",
+              "食(た)べ物(もの)",
+              "飲(の)み物(もの)"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nCùng uống cà phê ở cửa hàng kia thôi!\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **飲みましょう**.\n\n📚 Từ vựng bổ trợ:\n- コーヒー (koohii): Cà phê\n\n💡 Ngữ pháp & Mẹo nhớ:\nHô hào, rủ rê một cách tích cực dùng mẫu ましょう (Cùng làm thôi)."
+            "explanation": "📖 Dịch nghĩa:\nBạn thích âm nhạc nào? ...Tôi thích nhạc cổ điển.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **音楽(おんがく)**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">どんな</span> (Từ vựng - Từ hỏi: \"...như thế nào? (+ N)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">音楽</span> (Từ vựng - Danh từ: \"Âm nhạc\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">おんがく</span> (Từ vựng - Danh từ: \"Âm nhạc\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">クラシック</span> (Từ vựng - Danh từ: \"Nhạc cổ điển\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **どんな (donna)**: ...như thế nào? (+ N)\n- **音楽 (おんがく / ongaku)**: Âm nhạc\n- **クラシック (kurashikku)**: Nhạc cổ điển\n\n💡 Ngữ pháp & Mẹo nhớ:\nCâu trả lời クラシック (nhạc cổ điển) là một loại 音楽 (âm nhạc)."
           },
           {
             "id": "m_review_6_10_3_b1_q1",
-            "question": "どうして けさ コーヒーを 飲(の)みませんでしたか。 ...時間(じかん)が ありませんでした （　　　）。",
+            "question": "パソコン （　　　） レポートを 書きます。",
             "options": [
-              "から",
-              "が",
               "で",
-              "に"
+              "に",
+              "を",
+              "へ"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTại sao sáng nay bạn không uống cà phê? ...Vì tôi không có thời gian.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **から**.\n\n📚 Từ vựng bổ trợ:\n- コーヒー (koohii): Cà phê\n\n💡 Ngữ pháp & Mẹo nhớ:\nCâu trả lời cho câu hỏi どうして (Tại sao) phải kết thúc bằng từ から."
+            "explanation": "📖 Dịch nghĩa:\nTôi viết báo cáo bằng máy tính.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **で**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">パソコン</span> (Từ vựng - Danh từ: \"Máy tính cá nhân\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">レポート</span> (Từ vựng - Danh từ: \"Báo cáo\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">書きます</span> (Từ vựng - Động từ: \"Viết\")\n\n📝 Từ vựng trong câu:\n- **パソコン (ぱそこん / pasokon)**: Máy tính cá nhân\n- **レポート (repooto)**: Báo cáo\n- **書きます (かきます / kakimasu)**: Viết\n\n💡 Ngữ pháp & Mẹo nhớ:\nChỉ công cụ (máy tính) dùng để thực hiện hành động (viết báo cáo) đi với trợ từ で."
           },
           {
             "id": "m_review_6_10_3_b1_q2",
-            "question": "この 部屋(へや)は （　　　）。",
+            "question": "この パソコンは （　　　）。",
             "options": [
-              "きれいじゃありません",
-              "きれいくないです",
-              "きれいなじゃありません",
-              "きれいですじゃありません"
+              "新(あたら)しいです",
+              "新(あたら)しいだ",
+              "新(あたら)しいな",
+              "新(あたら)しくです"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nCăn phòng này không sạch.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **きれいじゃありません**.\n\n📚 Từ vựng bổ trợ:\n- 部屋 (へや / heya): Căn phòng\n\n💡 Ngữ pháp & Mẹo nhớ:\nきれい là tính từ đuôi な. Thể phủ định của nó là bỏ な thêm じゃありません (KHÔNG dùng くないです)."
+            "explanation": "📖 Dịch nghĩa:\nMáy tính này thì mới.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **新(あたら)しいです**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">この</span> (Từ vựng - Từ chỉ định: \"Cái này ... (+ danh từ)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">パソコン</span> (Từ vựng - Danh từ: \"Máy tính cá nhân\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **この (kono)**: Cái này ... (+ danh từ)\n- **パソコン (ぱそこん / pasokon)**: Máy tính cá nhân\n\n💡 Ngữ pháp & Mẹo nhớ:\n新しい là tính từ đuôi い. Làm vị ngữ cuối câu thì giữ nguyên い thêm です."
           },
           {
             "id": "m_review_6_10_3_b1_q3",
-            "question": "わたしは カリナさん （　　　） CDを 借りました。",
+            "question": "まいあさ なにを 食べますか。 ...（　　　） 食べません。",
             "options": [
-              "に",
-              "で",
-              "を",
-              "は"
+              "なにも",
+              "なにを",
+              "なにが",
+              "なんで"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTôi đã mượn đĩa CD từ bạn Karina.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **に**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nMượn TỪ ai, nhận TỪ ai dùng trợ từ に (hoặc から)."
+            "explanation": "📖 Dịch nghĩa:\nMỗi sáng bạn ăn gì? ...Tôi không ăn gì cả.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **なにも**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">まいあさ</span> (Từ vựng - Danh từ: \"Mỗi buổi sáng\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">なに</span> (Từ vựng - Từ hỏi: \"Cái gì\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">食べます</span> (Từ vựng - Động từ: \"Ăn\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">なに</span> (Từ vựng - Từ hỏi: \"Cái gì\")\n- <span style=\"color: #f73859; font-weight: 800;\">も</span> (Trợ từ chỉ cũng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">食べません</span> (Từ vựng - Động từ: \"Ăn\")\n\n📝 Từ vựng trong câu:\n- **毎朝 (まいあさ / maiasa)**: Mỗi buổi sáng\n- **何 (なに / nani)**: Cái gì\n- **食べます (たべます / tabemasu)**: Ăn\n\n💡 Ngữ pháp & Mẹo nhớ:\nPhủ định hoàn toàn: Từ để hỏi (なに) + も + V(phủ định)."
           }
         ]
       },
@@ -2417,27 +2406,27 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_6_10_3_b2_q0",
+            "question": "このへやは　___ ___ _★_ ___　ありません。",
+            "options": [
+              "あまり",
+              "しずか",
+              "で",
+              "は"
+            ],
+            "correctIndex": 2,
+            "explanation": "📖 Dịch nghĩa:\nCăn phòng này không yên tĩnh lắm.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: このへやは あまり しずか で は ありません。\n- Từ ở vị trí ngôi sao (★) là: **で**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">この</span> (Từ vựng - Từ chỉ định: \"Cái này ... (+ danh từ)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">へや</span> (Từ vựng - Danh từ: \"Căn phòng\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あまり</span> (Từ vựng - Phó từ: \"Không ~ lắm (dùng với thể phủ định)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">しずか</span> (Từ vựng - Tính từ đuôi na: \"Yên tĩnh\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ありません</span> (Từ vựng - Động từ: \"Có (sở hữu)\")\n\n📝 Từ vựng trong câu:\n- **この (kono)**: Cái này ... (+ danh từ)\n- **部屋 (へや / heya)**: Căn phòng\n- **あまり (amari)**: Không ~ lắm (dùng với thể phủ định)\n- **静か（な） (しずか / shizuka)**: Yên tĩnh\n- **あります (arimasu)**: Có (sở hữu)\n\n💡 Ngữ pháp & Mẹo nhớ:\nPhủ định tính từ đuôi な: [Tính từ な] では ありません. Đi kèm phó từ phủ định あまり."
+          },
+          {
+            "id": "m_review_6_10_3_b2_q1",
             "question": "いっしょに　___ ___ _★_ ___　いきませんか。",
             "options": [
-              "で",
+              "de",
               "タクシー",
               "えき",
               "まで"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nChúng ta cùng đi taxi đến ga nhé?\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: いっしょに [タクシー] [de/đối/phương tiện] [★ えき] [まで] いきませんか。\n- Từ ở vị trí ngôi sao (★) là: **えき**.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Trợ từ で chỉ phương tiện di chuyển (bằng taxi). Trợ từ まで chỉ giới hạn điểm đến (đến ga)."
-          },
-          {
-            "id": "m_review_6_10_3_b2_q1",
-            "question": "あの　___ ___ _★_ ___　おいしいです。",
-            "options": [
-              "パン",
-              "みせ",
-              "の",
-              "は"
-            ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nBánh mì của cửa hàng kia ngon lắm.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: あの [みせ] [の] [★ パン] [は] おいしいです。\n- Từ ở vị trí ngôi sao (★) là: **パン**.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Trợ từ の liên kết bổ nghĩa giữa cửa hàng (みせ) và bánh mì (パン)."
+            "explanation": "📖 Dịch nghĩa:\nChúng ta cùng đi taxi đến ga nhé?\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: いっしょに タクシー で えき まで いきませんか。\n- Từ ở vị trí ngôi sao (★) là: **えき**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">いっしょに</span> (Từ vựng - Phó từ: \"Cùng nhau\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">タクシー</span> (Từ vựng - Danh từ: \"Taxi\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">えき</span> (Từ vựng - Danh từ: \"Ga (tàu điện/xe lửa)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">まで</span> (Từ vựng - Trợ từ: \"Đến (thời gian)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">いきません</span> (Từ vựng - Động từ: \"Đi\")\n\n📝 Từ vựng trong câu:\n- **いっしょに (isshoni)**: Cùng nhau\n- **タクシー (takushii)**: Taxi\n- **駅 (えき / eki)**: Ga (tàu điện/xe lửa)\n- **まで (made)**: Đến (thời gian)\n- **行きます (いきます / ikimasu)**: Đi\n\n💡 Ngữ pháp & Mẹo nhớ:\nTrợ từ で chỉ phương tiện di chuyển (bằng taxi). Trợ từ まで chỉ giới hạn điểm đến (đến ga)."
           }
         ]
       },
@@ -2445,47 +2434,67 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "id": "p_review_6_10_3_dokkai1",
         "type": "mondai3",
         "text": [
-          "A：ミラーさん、にほんの せいかつは どう ですか。",
-          "B：まいにち とても たのしいです。",
-          "A：そうですか。おしごとは いそがしい ですか。",
-          "B：ええ、いそがしいですが、おもしろいです。"
+          "わたしは いつも はしで ごはんを たべます。",
+          "そして、パソコンで てがみを かきます。",
+          "きのう、ははに はなと シャツを あげました。",
+          "ちちに とけいを もらいました。",
+          "もう ちちに てがみを おくりました。"
         ],
         "translation": [
-          "A: Anh Miller, cuộc sống ở Nhật thế nào?",
-          "B: Mỗi ngày đều rất vui.",
-          "A: Vậy à. Công việc có bận không?",
-          "B: Vâng, bận nhưng mà thú vị."
+          "Tôi luôn luôn ăn cơm bằng đũa.",
+          "Và, tôi viết thư bằng máy tính.",
+          "Hôm qua, tôi đã tặng hoa và áo sơ mi cho mẹ.",
+          "Tôi đã nhận được đồng hồ từ bố.",
+          "Tôi đã gửi thư cho bố rồi."
         ],
         "vocabulary": [
-          "毎日 (まいにち / mainichi): Hàng ngày, mỗi ngày",
-          "楽しい (たのしい / tanoshii): Vui vẻ",
-          "本 (ほん / hon): Sách",
-          "絵 (え / e): Bức tranh"
+          "食べます (たべます / tabemasu): Ăn",
+          "書きます (かきます / kakimasu): Viết",
+          "パソコン (ぱそこん / pasokon): Máy tính cá nhân",
+          "私 (わたし / watashi): Tôi",
+          "時計 (とけい / tokei): Đồng hồ",
+          "きのう (kinou): Hôm qua",
+          "ごはん (gohan): Cơm, bữa ăn",
+          "手紙 (てがみ / tegami): Bức thư",
+          "いつも (itsumo): Luôn luôn",
+          "シャツ (しゃつ / shatsu): Áo sơ mi"
         ],
         "questions": [
           {
             "id": "m_review_6_10_3_d1_q0",
-            "question": "ミラーさんの毎日はどうですか？",
+            "question": "この人は なにでご飯を食べますか？",
             "options": [
-              "たのしいです",
-              "いそがしくないです",
-              "おもしろくないです",
-              "ひまです"
+              "スプーンで",
+              "手で",
+              "はしで",
+              "フォークで"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nミラーさんの毎日はどうですか？\n- Đáp án đúng: **たのしいです**.\n\n✍️ Phân tích đáp án:\n- Dựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác.\n\n📚 Từ vựng bổ trợ:\n- 毎日 (まいにち / mainichi): Hàng ngày, mỗi ngày"
+            "correctIndex": 2,
+            "explanation": "📖 Dịch nghĩa:\nこの人は なにでご飯を食べますか？\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **はしで**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">この</span> (Từ vựng - Từ chỉ định: \"Cái này ... (+ danh từ)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">人</span> (Từ vựng - Danh từ: \"Người\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">なに</span> (Từ vựng - Từ hỏi: \"Cái gì\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ご飯</span> (Từ vựng - Danh từ: \"Cơm, bữa ăn\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">食べます</span> (Từ vựng - Động từ: \"Ăn\")\n\n📝 Từ vựng trong câu:\n- **この (kono)**: Cái này ... (+ danh từ)\n- **人 (ひと / hito)**: Người\n- **何 (なに / nani)**: Cái gì\n- **ご飯 (ごはん / gohan)**: Cơm, bữa ăn\n- **食べます (たべます / tabemasu)**: Ăn\n\n💡 Ngữ pháp & Mẹo nhớ:\nDựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác."
           },
           {
             "id": "m_review_6_10_3_d1_q1",
-            "question": "仕事はどうですか？",
+            "question": "母に なにをあげましたか？",
             "options": [
-              "ひまですが、おもしろいです",
-              "いそがしいですが、おもしろいです",
-              "いそがしいですが、おもしろくないです",
-              "たのしいですが、いそがしいです"
+              "時計",
+              "手紙",
+              "パソコン",
+              "花とシャツ"
+            ],
+            "correctIndex": 3,
+            "explanation": "📖 Dịch nghĩa:\n母に なにをあげましたか？\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **花とシャツ**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">母</span> (Từ vựng - Danh từ: \"Mẹ (của mình)\")\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / địa điểm / đối tượng tiếp nhận)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">なに</span> (Từ vựng - Từ hỏi: \"Cái gì\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あげました</span> (Từ vựng - Động từ: \"Cho, tặng\")\n\n📝 Từ vựng trong câu:\n- **母 (はは / haha)**: Mẹ (của mình)\n- **何 (なに / nani)**: Cái gì\n- **あげます (agemasu)**: Cho, tặng\n\n💡 Ngữ pháp & Mẹo nhớ:\nDựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác."
+          },
+          {
+            "id": "m_review_6_10_3_d1_q2",
+            "question": "だれに 手紙を送りましたか？",
+            "options": [
+              "母に",
+              "父に",
+              "お父さんに",
+              "友達に"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\n仕事はどうですか？\n- Đáp án đúng: **いそがしいですが、おもしろいです**.\n\n✍️ Phân tích đáp án:\n- Dựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác."
+            "explanation": "📖 Dịch nghĩa:\nだれに 手紙を送りましたか？\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **父に**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">だれ</span> (Từ vựng - Từ để hỏi: \"Ai\")\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / địa điểm / đối tượng tiếp nhận)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">手紙</span> (Từ vựng - Danh từ: \"Bức thư\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">送りました</span> (Từ vựng - Động từ: \"Gửi\")\n\n📝 Từ vựng trong câu:\n- **だれ (dare)**: Ai\n- **手紙 (てがみ / tegami)**: Bức thư\n- **送ります (おくります / okurimasu)**: Gửi\n\n💡 Ngữ pháp & Mẹo nhớ:\nDựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác."
           }
         ]
       }
@@ -2502,51 +2511,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_6_10_4_m1_q0",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【青い】",
+            "question": "これ 【果物】 です。",
             "options": [
-              "します",
-              "あおい",
-              "ききます",
-              "でんち"
+              "くだもの",
+              "おかあさん",
+              "～から",
+              "たかい"
             ],
-            "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【青い】 có nghĩa là: **Xanh da trời**.\n\n✍️ Phân tích đáp án:\n- **あおい** (aoi): Cách đọc đúng của chữ Hán 【青い】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **THANH**.\n- Mẹo nhớ: Sự sống (Sinh) nảy nở dưới mặt trăng (Nguyệt) phát ra màu XANH (Thanh) đầy sức sống."
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nĐây là hoa quả, trái cây.\n\n✍️ Phân tích đáp án:\n- **くだもの** (kudamono): Cách đọc đúng của chữ Hán 【果物】 → Chọn.\n- **おかあさん** (okaasan): Nghĩa là \"Mẹ (của người khác)\" → Sai.\n- **～から** (~kara): Nghĩa là \"Vì ~ (chỉ lý do)\" → Sai.\n- **たかい** (takai): Nghĩa là \"Cao, đắt\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">これ</span> (Từ vựng - Đại từ: \"Cái này (gần người nói)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">果物</span> (Từ vựng - Danh từ: \"Hoa quả, trái cây\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **これ (kore)**: Cái này (gần người nói)\n- **果物 (くだもの / kudamono)**: Hoa quả, trái cây\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **QUẢ VẬT**.\n- Mẹo nhớ: Đồ vật thu hoạch được từ trên cây là Trái cây."
           },
           {
             "id": "m_review_6_10_4_m1_q1",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【飲みます】",
+            "question": "あした、どこ で 友達に 【会います】か。",
             "options": [
-              "ならいます",
-              "～から",
-              "やすい",
-              "のみます"
+              "サッカー",
+              "きっぷ",
+              "レポート",
+              "あいます"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【飲みます】 có nghĩa là: **Uống**.\n\n✍️ Phân tích đáp án:\n- **のみます** (nomimasu): Cách đọc đúng của chữ Hán 【飲みます】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **ẨM**.\n- Mẹo nhớ: Ăn (Thực) xong thấy thiếu thiếu (Khiếm) thì phải Uống nước."
+            "explanation": "📖 Dịch nghĩa:\nNgày mai bạn gặp bạn bè ở đâu?\n\n✍️ Phân tích đáp án:\n- **サッカー** (sakkaa): Nghĩa là \"Bóng đá\" → Sai.\n- **きっぷ** (kippu): Nghĩa là \"Vé\" → Sai.\n- **レポート** (repooto): Nghĩa là \"Báo cáo\" → Sai.\n- **あいます** (aimasu): Cách đọc đúng của chữ Hán 【会います】 → Chọn.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あした</span> (Từ vựng - Danh từ: \"Ngày mai\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">どこ</span> (Từ vựng - Đại từ: \"Ở đâu?\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">友達</span> (Từ vựng - Danh từ: \"Bạn bè\")\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / địa điểm / đối tượng tiếp nhận)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">会います</span> (Từ vựng - Động từ: \"Gặp (bạn)\")\n\n📝 Từ vựng trong câu:\n- **明日 (あした / ashita)**: Ngày mai\n- **どこ (doko)**: Ở đâu?\n- **友達 (ともだち / tomodachi)**: Bạn bè\n- **会います (あいます / aimasu)**: Gặp (bạn)\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **HỘI**.\n- Mẹo nhớ: Hai (二) người hẹn gặp nhau riêng tư (厶) ở hội nhóm (会)."
           },
           {
             "id": "m_review_6_10_4_m1_q2",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【牛乳】",
+            "question": "これ 【女の人】 です。",
             "options": [
-              "こまかいおかね",
-              "わかりました",
-              "ぎゅうにゅう",
-              "エーティーエム"
+              "クリスマス",
+              "おくります",
+              "ぷれぜんと",
+              "おんなのひと"
             ],
-            "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【牛乳】 có nghĩa là: **Sữa bò**.\n\n✍️ Phân tích đáp án:\n- **ぎゅうにゅう** (gyuunyuu): Cách đọc đúng của chữ Hán 【牛乳】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **NGƯU NHŨ**.\n- Mẹo nhớ: Sữa được vắt từ con bò là Sữa bò."
+            "correctIndex": 3,
+            "explanation": "📖 Dịch nghĩa:\nĐây là người phụ nữ.\n\n✍️ Phân tích đáp án:\n- **クリスマス** (kurisumasu): Nghĩa là \"Giáng sinh\" → Sai.\n- **おくります** (okurimasu): Nghĩa là \"Gửi\" → Sai.\n- **ぷれぜんと** (purezento): Nghĩa là \"Quà tặng\" → Sai.\n- **おんなのひと** (onna no hito): Cách đọc đúng của chữ Hán 【女の人】 → Chọn.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">これ</span> (Từ vựng - Đại từ: \"Cái này (gần người nói)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">女の人</span> (Từ vựng - Danh từ: \"Người phụ nữ\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **これ (kore)**: Cái này (gần người nói)\n- **女の人 (おんなのひと / onna no hito)**: Người phụ nữ\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **NỮ NHÂN**.\n- Mẹo nhớ: Hình dáng người phụ nữ (女) đang quỳ gối dang tay."
           },
           {
             "id": "m_review_6_10_4_m1_q3",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【犬】",
+            "question": "これ 【象】 です。",
             "options": [
-              "へた",
-              "ぱん",
-              "いぬ",
-              "はし"
+              "ちかく",
+              "しずか",
+              "ぞう",
+              "りょう"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【犬】 có nghĩa là: **Con chó**.\n\n✍️ Phân tích đáp án:\n- **いぬ** (inu): Cách đọc đúng của chữ Hán 【犬】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **KHUYỂN**.\n- Mẹo nhớ: Con chó (犬) là loài vật to lớn (大) hơn con mèo một chút (丶)."
+            "explanation": "📖 Dịch nghĩa:\nĐây là con voi.\n\n✍️ Phân tích đáp án:\n- **ちかく** (chikaku): Nghĩa là \"Gần\" → Sai.\n- **しずか** (shizuka): Nghĩa là \"Yên tĩnh\" → Sai.\n- **ぞう** (zou): Cách đọc đúng của chữ Hán 【象】 → Chọn.\n- **りょう** (ryou): Nghĩa là \"Ký túc xá\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">これ</span> (Từ vựng - Đại từ: \"Cái này (gần người nói)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">象</span> (Từ vựng - Danh từ: \"Con voi\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **これ (kore)**: Cái này (gần người nói)\n- **象 (ぞう / zou)**: Con voi\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **TƯỢNG**.\n- Mẹo nhớ: Hình tượng con voi với cái vòi dài và cặp ngà."
           }
         ]
       },
@@ -2556,51 +2565,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_6_10_4_m2_q0",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【もの】",
+            "question": "【たな】かさんは 「もう かえります」（　　）いいました。",
             "options": [
-              "物",
-              "安い",
-              "高い",
-              "用事"
+              "映画",
+              "外",
+              "花",
+              "棚"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Đồ vật, vật**.\n\n✍️ Phân tích đáp án:\n- **物** (もの): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **VẬT**.\n- Cấu tạo: 物 = 牛 (Ngưu - Con bò) + 勿 (Vật - Không)"
+            "correctIndex": 3,
+            "explanation": "📖 Dịch nghĩa:\nAnh Tanaka đã nói: 'Tôi về đây'.\n\n✍️ Phân tích đáp án:\n- **映画** (えいが): Nghĩa là \"Phim, điện ảnh\" → Sai.\n- **外** (そと): Nghĩa là \"Ngoài, bên ngoài\" → Sai.\n- **花** (はな): Nghĩa là \"Hoa\" → Sai.\n- **棚** (たな): Cách viết chữ Hán đúng của từ 【たな】 → Chọn.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">たな</span> (Từ vựng - Danh từ: \"Giá sách, kệ\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">かさ</span> (Từ vựng - Danh từ: \"Ô (dù)\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">もう</span> (Từ vựng - Phó từ: \"Đã ... rồi\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">かえります</span> (Từ vựng - Động từ: \"Về\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">いいました</span> (Từ vựng - Động từ: \"Nói rằng\")\n\n📝 Từ vựng trong câu:\n- **棚 (たな / tana)**: Giá sách, kệ\n- **傘 (かさ / kasa)**: Ô (dù)\n- **もう (mou)**: Đã ... rồi\n- **帰ります (かえります / kaerimasu)**: Về\n- **言います (いいます / iimasu)**: Nói rằng\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **BẰNG**.\n- Cấu tạo: 木 (Mộc - Gỗ) + 朋 (Bằng - Bạn bè)"
           },
           {
             "id": "m_review_6_10_4_m2_q1",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【ひくい】",
+            "question": "はじめまして。アメリカから 来ま【した】。",
             "options": [
-              "そして",
-              "もう",
-              "低い",
-              "ナイフ"
+              "山",
+              "歌",
+              "下",
+              "手紙"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Thấp**.\n\n✍️ Phân tích đáp án:\n- **低い** (ひくい): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **ĐÊ**.\n- Cấu tạo: 低 = 亻 (Nhân - Người) + 氏 (Thị - Họ/Nền tảng) + 丶"
+            "explanation": "📖 Dịch nghĩa:\nRất vui được gặp bạn. Tôi đến từ Mỹ.\n\n✍️ Phân tích đáp án:\n- **山** (やま): Nghĩa là \"Núi\" → Sai.\n- **歌** (うた): Nghĩa là \"Bài hát\" → Sai.\n- **下** (した): Cách viết chữ Hán đúng của từ 【した】 → Chọn.\n- **手紙** (てがみ): Nghĩa là \"Bức thư\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">はじめまして</span> (Từ vựng - Thán từ: \"Xin chào (lần đầu gặp)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">アメリカ</span> (Từ vựng - Danh từ: \"Mỹ (Hoa Kỳ)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">から</span> (Từ vựng - Trợ từ: \"Từ (thời gian)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">した</span> (Từ vựng - Danh từ: \"Dưới, phía dưới\")\n\n📝 Từ vựng trong câu:\n- **はじめまして (hajimemashite)**: Xin chào (lần đầu gặp)\n- **アメリカ (america)**: Mỹ (Hoa Kỳ)\n- **から (kara)**: Từ (thời gian)\n- **下 (した / shita)**: Dưới, phía dưới\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **HẠ**.\n- Cấu tạo: 下 = Trực quan"
           },
           {
             "id": "m_review_6_10_4_m2_q2",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【みず】",
+            "question": "あした（　　）【やくそく】が あります。",
             "options": [
-              "写真",
-              "まだ",
-              "窓",
-              "水"
+              "約束",
+              "忙しい",
+              "町",
+              "白い"
             ],
-            "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Nước**.\n\n✍️ Phân tích đáp án:\n- **水** (みず): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **THỦY**.\n- Cấu tạo: 水 (Thủy - Nước)"
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nNgày mai tôi có cuộc hẹn gặp bạn.\n\n✍️ Phân tích đáp án:\n- **約束** (やくそく): Cách viết chữ Hán đúng của từ 【やくそく】 → Chọn.\n- **忙しい** (いそがしい): Nghĩa là \"Bận rộn\" → Sai.\n- **町** (まち): Nghĩa là \"Thị trấn, phố\" → Sai.\n- **白い** (しろい): Nghĩa là \"Trắng\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あした</span> (Từ vựng - Danh từ: \"Ngày mai\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">やくそく</span> (Từ vựng - Danh từ: \"Cuộc hẹn, lời hứa\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あります</span> (Từ vựng - Động từ: \"Có (sở hữu)\")\n\n📝 Từ vựng trong câu:\n- **明日 (あした / ashita)**: Ngày mai\n- **約束 (やくそく / yakusoku)**: Cuộc hẹn, lời hứa\n- **あります (arimasu)**: Có (sở hữu)\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **ƯỚC THÚC**.\n- Cấu tạo: 約 (Ước - Giao ước) + 束 (Thúc - Buộc/Bó)"
           },
           {
             "id": "m_review_6_10_4_m2_q3",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【きっぷ】",
+            "question": "B：男の人と【おんなのこ】がいます。",
             "options": [
-              "ビール",
-              "喫茶店",
-              "お酒",
-              "切符"
+              "女の子",
+              "寒い",
+              "撮ります",
+              "コンビニ"
             ],
-            "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Vé**.\n\n✍️ Phân tích đáp án:\n- **切符** (きっぷ): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **THIẾT PHÙ**.\n- Cấu tạo: 切 (Thiết - Cắt) + 符 (Phù - Vé/Phù hiệu)"
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nB: Có người đàn ông và bé gái.\n\n✍️ Phân tích đáp án:\n- **女の子** (おんなのこ): Cách viết chữ Hán đúng của từ 【おんなのこ】 → Chọn.\n- **寒い** (さむい): Nghĩa là \"Lạnh (thời tiết)\" → Sai.\n- **撮ります** (とります): Nghĩa là \"Chụp (ảnh)\" → Sai.\n- **コンビニ** (コンビニ): Nghĩa là \"Cửa hàng tiện lợi\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">男の人</span> (Từ vựng - Danh từ: \"Người đàn ông\")\n- <span style=\"color: #f73859; font-weight: 800;\">と</span> (Trợ từ chỉ đối tượng đồng hành / liệt kê)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">おんなのこ</span> (Từ vựng - Danh từ: \"Bé gái\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">います</span> (Từ vựng - Động từ: \"Có (người, động vật)\")\n\n📝 Từ vựng trong câu:\n- **男の人 (おとこのひと / otoko no hito)**: Người đàn ông\n- **女の子 (おんなのこ / onna no ko)**: Bé gái\n- **います (imasu)**: Có (người, động vật)\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **NỮ TỬ**.\n- Cấu tạo: 女 (Nữ) + 子 (Tử)"
           }
         ]
       },
@@ -2610,51 +2619,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_6_10_4_m3_q0",
-            "question": "英語(えいご)が 【　　　】 分(わ)かりません。",
+            "question": "お金(かね)が 【　　　】 ありません。",
             "options": [
-              "あまり",
+              "ぜんぜん",
               "よく",
               "たくさん",
-              "すこし"
+              "だいたい"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTôi không hiểu tiếng Anh cho lắm.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **あまり**.\n\n📚 Từ vựng bổ trợ:\n- 英語 (えいご / eigo): Tiếng Anh\n\n💡 Ngữ pháp & Mẹo nhớ:\nCâu có đuôi phủ định (わかりません) nên đi với phó từ あまり (không... lắm) hoặc ぜんぜん (hoàn toàn không)."
+            "explanation": "📖 Dịch nghĩa:\nTôi hoàn toàn không có tiền.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **ぜんぜん**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">お金</span> (Từ vựng - Danh từ: \"Tiền\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ぜんぜん</span> (Từ vựng - Phó từ: \"Hoàn toàn không (~ phủ định)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ありません</span> (Từ vựng - Động từ: \"Có (sở hữu)\")\n\n📝 Từ vựng trong câu:\n- **お金 (おかね / okane)**: Tiền\n- **全然 (ぜんぜん / zenzen)**: Hoàn toàn không (~ phủ định)\n- **あります (arimasu)**: Có (sở hữu)\n\n💡 Ngữ pháp & Mẹo nhớ:\nCâu ở thể phủ định (ありません) chỉ có thể đi với phó từ あまり hoặc ぜんぜん."
           },
           {
             "id": "m_review_6_10_4_m3_q1",
-            "question": "わたしは 会社(かいしゃ)の人(ひと) 【　　　】 お金を 借ります。",
+            "question": "山田さんは どこに いますか。 ...事務所(じむしょ) 【　　　】。",
             "options": [
-              "から",
-              "で",
-              "を",
-              "へ"
+              "です",
+              "に",
+              "にいますです",
+              "がいます"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTôi vay tiền từ người trong công ty.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **から**.\n\n📚 Từ vựng bổ trợ:\n- 会社 (かいしゃ / kaisha): Công ty\n\n💡 Ngữ pháp & Mẹo nhớ:\nMượn/Vay TỪ ai đó có thể dùng に hoặc から. Trong các đáp án chỉ có から là chính xác."
+            "explanation": "📖 Dịch nghĩa:\nAnh Yamada ở đâu? ...Ở văn phòng.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **です**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">山</span> (Từ vựng - Danh từ: \"Núi\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">どこ</span> (Từ vựng - Đại từ: \"Ở đâu?\")\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / địa điểm / đối tượng tiếp nhận)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">います</span> (Từ vựng - Động từ: \"Có (người, động vật)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">事務所</span> (Từ vựng - Danh từ: \"Văn phòng\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">じむしょ</span> (Từ vựng - Danh từ: \"Văn phòng\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **山 (やま / yama)**: Núi\n- **どこ (doko)**: Ở đâu?\n- **います (imasu)**: Có (người, động vật)\n- **事務所 (じむしょ / jimusho)**: Văn phòng\n\n💡 Ngữ pháp & Mẹo nhớ:\nTrong văn nói có thể rút gọn cụm '事務所に います' thành '事務所です'."
           },
           {
             "id": "m_review_6_10_4_m3_q2",
-            "question": "いっしょに ビールを 【　　　】。",
+            "question": "【　　　】 スポーツが 好(す)きですか。 ...サッカーが 好きです。",
             "options": [
-              "飲みませんか",
-              "飲みましょうか",
-              "飲みます",
-              "飲みましたか"
+              "どんな",
+              "どう",
+              "なに",
+              "だれ"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nCùng nhau uống bia nhé?\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **飲みませんか**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nMời mọc lịch sự dùng mẫu ませんか (Cùng làm nhé)."
+            "explanation": "📖 Dịch nghĩa:\nBạn thích môn thể thao nào? ...Tôi thích bóng đá.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **どんな**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">どんな</span> (Từ vựng - Từ hỏi: \"...như thế nào? (+ N)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">スポーツ</span> (Từ vựng - Danh từ: \"Thể thao\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">サッカー</span> (Từ vựng - Danh từ: \"Bóng đá\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **どんな (donna)**: ...như thế nào? (+ N)\n- **スポーツ (supootsu)**: Thể thao\n- **サッカー (sakkaa)**: Bóng đá\n\n💡 Ngữ pháp & Mẹo nhớ:\nHỏi về một loại hình cụ thể trong một nhóm (thể thao) dùng どんな + Danh từ."
           },
           {
             "id": "m_review_6_10_4_m3_q3",
-            "question": "山田(やまだ)さんの 傘(かさ)は 【　　　】 ですか。 ...あの 青(あお)い 傘です。",
+            "question": "きのうの ばん、手紙を 【　　　】。",
             "options": [
-              "どれ",
-              "どんな",
-              "どう",
-              "なん"
+              "書きました",
+              "書きます",
+              "書きましょう",
+              "書きませんでしたか"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nÔ của anh Yamada là cái nào? ...Là cái ô màu xanh kia.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **どれ**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nHỏi để lựa chọn 1 cái trong từ 3 cái trở lên dùng どれ (Cái nào)."
+            "explanation": "📖 Dịch nghĩa:\nTối hôm qua, tôi đã viết thư.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **書きました**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">きのう</span> (Từ vựng - Danh từ: \"Hôm qua\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ばん</span> (Từ vựng - Danh từ: \"Buổi tối\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">手紙</span> (Từ vựng - Danh từ: \"Bức thư\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">書きました</span> (Từ vựng - Động từ: \"Viết\")\n\n📝 Từ vựng trong câu:\n- **きのう (kinou)**: Hôm qua\n- **晩 (ばん / ban)**: Buổi tối\n- **手紙 (てがみ / tegami)**: Bức thư\n- **書きます (かきます / kakimasu)**: Viết\n\n💡 Ngữ pháp & Mẹo nhớ:\nCó thời gian trong quá khứ (きのうの ばん) nên động từ chia về ました."
           }
         ]
       },
@@ -2664,51 +2673,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_6_10_4_b1_q0",
-            "question": "わたしは 母に 時計を （　　　）。",
+            "question": "部屋(へや)に 机(つくえ)が （　　　）。",
             "options": [
-              "もらいました",
-              "あげました",
-              "かしました",
-              "おしえました"
+              "あります",
+              "います",
+              "します",
+              "きます"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTôi đã nhận chiếc đồng hồ từ mẹ.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **もらいました**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nHành động nhận món đồ (đồng hồ) từ ai đó (mẹ) dùng もらいました."
+            "explanation": "📖 Dịch nghĩa:\nTrong phòng có cái bàn.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **あります**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">部屋</span> (Từ vựng - Danh từ: \"Căn phòng\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">へや</span> (Từ vựng - Danh từ: \"Căn phòng\")\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / địa điểm / đối tượng tiếp nhận)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">机</span> (Từ vựng - Danh từ: \"Bàn\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">つくえ</span> (Từ vựng - Danh từ: \"Bàn\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あります</span> (Từ vựng - Động từ: \"Có (sở hữu)\")\n\n📝 Từ vựng trong câu:\n- **部屋 (へや / heya)**: Căn phòng\n- **机 (つくえ / tsukue)**: Bàn\n- **あります (arimasu)**: Có (sở hữu)\n\n💡 Ngữ pháp & Mẹo nhớ:\n机 (cái bàn) là đồ vật vô tri vô giác, phải dùng あります."
           },
           {
             "id": "m_review_6_10_4_b1_q1",
-            "question": "ワンさんは （　　　）。",
+            "question": "さくら大学(だいがく)は ゆうめい （　　　） 大学です。",
             "options": [
-              "きれいです",
-              "きれいなです",
-              "きれいいです",
-              "きれいくないです"
+              "な",
+              "い",
+              "の",
+              "(không điền)"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nBạn Wang thì đẹp.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **きれいです**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nきれい là tính từ đuôi な. Khi đứng làm vị ngữ (cuối câu) thì bỏ な thêm です."
+            "explanation": "📖 Dịch nghĩa:\nĐại học Sakura là một trường đại học nổi tiếng.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **な**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">さくら大学</span> (Từ vựng - Danh từ: \"Đại học Sakura\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">だいがく</span> (Từ vựng - Danh từ: \"Trường đại học\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ゆうめい</span> (Từ vựng - Tính từ đuôi na: \"Nổi tiếng\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">大学</span> (Từ vựng - Danh từ: \"Trường đại học\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **さくら大学 (さくらだいがく / Sakura daigaku)**: Đại học Sakura\n- **大学 (だいがく / daigaku)**: Trường đại học\n- **有名（な） (ゆうめい / yuumei)**: Nổi tiếng\n\n💡 Ngữ pháp & Mẹo nhớ:\nゆうめい là tính từ đuôi な đặc biệt (kết thúc bằng い). Khi bổ nghĩa cho danh từ phía sau (大学) phải giữ nguyên な."
           },
           {
             "id": "m_review_6_10_4_b1_q2",
-            "question": "もう 昼ごはんを 食べましたか。 ...いいえ、（　　　）。",
+            "question": "（　　　） 昨日(きのう) 早(はや)く 帰(かえ)りましたか。 ...用事(ようじ)が ありましたから。",
             "options": [
-              "まだです",
-              "まだ 食べませんでした",
-              "もう 食べません",
-              "もう です"
+              "どうして",
+              "どんな",
+              "どう",
+              "だれ"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nBạn đã ăn trưa chưa? ...Chưa, tôi chưa ăn.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **まだです**.\n\n📚 Từ vựng bổ trợ:\n- ご飯 (ごはん / gohan): Cơm, bữa ăn\n- 絵 (え / e): Bức tranh\n\n💡 Ngữ pháp & Mẹo nhớ:\nPhủ định cho câu hỏi 'もう Vましたか' luôn là 'いいえ、まだです'. Tuyệt đối không dùng ませんでした."
+            "explanation": "📖 Dịch nghĩa:\nTại sao hôm qua bạn về sớm? ...Vì tôi có việc bận.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **どうして**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">どうして</span> (Từ vựng - Từ hỏi: \"Tại sao\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">日</span> (Từ vựng - Danh từ: \"Ngày\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">きのう</span> (Từ vựng - Danh từ: \"Hôm qua\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">した</span> (Từ vựng - Danh từ: \"Dưới, phía dưới\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">用事</span> (Từ vựng - Danh từ: \"Việc bận\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ようじ</span> (Từ vựng - Danh từ: \"Việc bận\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ありました</span> (Từ vựng - Động từ: \"Có (sở hữu)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">から</span> (Từ vựng - Trợ từ: \"Từ (thời gian)\")\n\n📝 Từ vựng trong câu:\n- **どうして (doushite)**: Tại sao\n- **日 (ひ / hi)**: Ngày\n- **きのう (kinou)**: Hôm qua\n- **下 (した / shita)**: Dưới, phía dưới\n- **用事 (ようじ / youji)**: Việc bận\n- **あります (arimasu)**: Có (sở hữu)\n- **から (kara)**: Từ (thời gian)\n\n💡 Ngữ pháp & Mẹo nhớ:\nCâu trả lời kết thúc bằng ～から (Vì) nên câu hỏi là どうして (Tại sao)."
           },
           {
             "id": "m_review_6_10_4_b1_q3",
-            "question": "あの 映画(えいが)は （　　　） おもしろくないです。",
+            "question": "これ （　　　） なんですか。 ...それは パソコンです。",
             "options": [
-              "ぜんぜん",
-              "とても",
-              "たくさん",
-              "よく"
+              "は",
+              "を",
+              "で",
+              "も"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nBộ phim đó hoàn toàn không thú vị.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **ぜんぜん**.\n\n📚 Từ vựng bổ trợ:\n- 絵 (え / e): Bức tranh\n\n💡 Ngữ pháp & Mẹo nhớ:\nĐuôi câu là phủ định (おもしろくないです - Không thú vị) nên phải đi với ぜんぜん (Hoàn toàn không)."
+            "explanation": "📖 Dịch nghĩa:\nCái này là cái gì? ...Đó là máy tính cá nhân.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **は**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">これ</span> (Từ vựng - Đại từ: \"Cái này (gần người nói)\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">なんですか</span> (Từ vựng - Mẫu câu: \"Có gì không ạ? / Vâng?\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">それ</span> (Từ vựng - Đại từ: \"Cái đó (gần người nghe)\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">パソコン</span> (Từ vựng - Danh từ: \"Máy tính cá nhân\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **これ (kore)**: Cái này (gần người nói)\n- **何ですか (なんですか / nandesuka)**: Có gì không ạ? / Vâng?\n- **それ (sore)**: Cái đó (gần người nghe)\n- **パソコン (ぱそこん / pasokon)**: Máy tính cá nhân\n\n💡 Ngữ pháp & Mẹo nhớ:\nこれ làm chủ ngữ của câu nên đi với trợ từ は."
           }
         ]
       },
@@ -2718,6 +2727,18 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_6_10_4_b2_q0",
+            "question": "あの　___ ___ _★_ ___　おいしいです。",
+            "options": [
+              "パン",
+              "みせ",
+              "の",
+              "は"
+            ],
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nBánh mì của cửa hàng kia ngon lắm.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: あの みせ の パン は おいしいです。\n- Từ ở vị trí ngôi sao (★) là: **パン**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あの</span> (Từ vựng - Từ chỉ định: \"Cái kia ... (+ danh từ)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">みせ</span> (Từ vựng - Danh từ: \"Cửa hàng\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">パン</span> (Từ vựng - Danh từ: \"Bánh mì\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">おいしい</span> (Từ vựng - Tính từ đuôi i: \"Ngon\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **あの (ano)**: Cái kia ... (+ danh từ)\n- **店 (みせ / mise)**: Cửa hàng\n- **パン (ぱん / pan)**: Bánh mì\n- **おいしい (oishii)**: Ngon\n\n💡 Ngữ pháp & Mẹo nhớ:\nTrợ từ の liên kết bổ nghĩa giữa cửa hàng (みせ) và bánh mì (パン)."
+          },
+          {
+            "id": "m_review_6_10_4_b2_q1",
             "question": "きのう　___ ___ _★_ ___　かきました。",
             "options": [
               "で",
@@ -2726,19 +2747,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "を"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nHôm qua tôi viết thư bằng bút chì.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: きのう [えんぴつ] [で] [★ てがみ] [を] かきました。\n- Từ ở vị trí ngôi sao (★) là: **てがみ**.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Trợ từ で chỉ công cụ (bằng bút chì). Trợ từ を chỉ tân ngữ của động từ viết."
-          },
-          {
-            "id": "m_review_6_10_4_b2_q1",
-            "question": "コーヒーを　___ ___ _★_ ___　ましょう。",
-            "options": [
-              "に",
-              "いっしょ",
-              "みせで",
-              "のみ"
-            ],
-            "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nChúng ta cùng uống ở quán nhé.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: いっしょ [に] [★ みせで] [のみ] ましょう。\n- Từ ở vị trí ngôi sao (★) là: **みせで**.\n\n📚 Từ vựng bổ trợ:\n- コーヒー (koohii): Cà phê\n\n💡 Ngữ pháp & Mẹo nhớ:\n- いっしょに (cùng nhau) + [Địa điểm] で + động từ bỏ ます + ましょう (đề nghị cùng làm gì)."
+            "explanation": "📖 Dịch nghĩa:\nHôm qua tôi viết thư bằng bút chì.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: きのu [えんぴつ] [で] [★ てがみ] [を] かきました。\n- Từ ở vị trí ngôi sao (★) là: **てがみ**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">えんぴつ</span> (Từ vựng - Danh từ: \"Bút chì\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">てがみ</span> (Từ vựng - Danh từ: \"Bức thư\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">かきました</span> (Từ vựng - Động từ: \"Viết\")\n\n📝 Từ vựng trong câu:\n- **鉛筆 (えんぴつ / enpitsu)**: Bút chì\n- **手紙 (てがみ / tegami)**: Bức thư\n- **書きます (かきます / kakimasu)**: Viết\n\n💡 Ngữ pháp & Mẹo nhớ:\nTrợ từ で chỉ công cụ (bằng bút chì). Trợ từ を chỉ tân ngữ của động từ viết."
           }
         ]
       },
@@ -2746,40 +2755,53 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "id": "p_review_6_10_4_dokkai1",
         "type": "mondai3",
         "text": [
-          "A：マリアさん、スポーツが すき ですか。",
-          "B：はい、だいすき です。",
-          "A：どんな スポーツが すき ですか。",
-          "B：ダンスが すき です。"
+          "A：ミラーさん、にほんの せいかつは どう ですか。",
+          "B：まいにち とても たのしいです。",
+          "A：そうですか。おしごとは いそがしい ですか。",
+          "B：ええ、いそがしいですが、おもしろいです。"
         ],
         "translation": [
-          "A: Maria, bạn có thích thể thao không?",
-          "B: Vâng, tôi rất thích.",
-          "A: Bạn thích môn thể thao nào?",
-          "B: Tôi thích khiêu vũ."
+          "A: Anh Miller, cuộc sống ở Nhật thế nào?",
+          "B: Mỗi ngày đều rất vui.",
+          "A: Vậy à. Công việc có bận không?",
+          "B: Vâng, bận nhưng mà thú vị."
         ],
-        "vocabulary": [],
+        "vocabulary": [
+          "そうですか (sou desu ka): Vậy à? / Thế à?",
+          "おもしろい (omoshiroi): Thú vị",
+          "忙しい (いそがしい / isogashii): Bận rộn",
+          "毎日 (まいにち / mainichi): Mỗi ngày, hằng ngày",
+          "楽しい (たのしい / tanoshii): Vui vẻ",
+          "生活 (せいかつ / seikatsu): Cuộc sống, sinh hoạt",
+          "お仕事 (おしごと / oshigoto): Công việc (thêm お để tôn kính)",
+          "日本 (にほん / nihon): Nhật Bản",
+          "とても (totemo): Rất",
+          "ええ (ee): Vâng, được (cách nói thân mật của はい)"
+        ],
         "questions": [
           {
             "id": "m_review_6_10_4_d1_q0",
-            "question": "マリアさんはスポーツが好きですか？",
+            "question": "ミラーさんの毎日はどうですか？",
             "options": [
-              "はい",
-              "いいえ"
+              "たのしいです",
+              "いそがしくないです",
+              "おもしろくないです",
+              "ひまです"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nマリアさんはスポーツが好きですか？\n- Đáp án đúng: **はい**.\n\n✍️ Phân tích đáp án:\n- Dựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác."
+            "explanation": "📖 Dịch nghĩa:\nミラーさんの毎日はどうですか？\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **たのしいです**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">毎日</span> (Từ vựng - Danh từ: \"Mỗi ngày, hằng ngày\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">どう</span> (Từ vựng - Từ hỏi: \"Như thế nào?\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **毎日 (まいにち / mainichi)**: Mỗi ngày, hằng ngày\n- **どう (dou)**: Như thế nào?\n\n💡 Ngữ pháp & Mẹo nhớ:\nDựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác."
           },
           {
             "id": "m_review_6_10_4_d1_q1",
-            "question": "マリアさんはどんなスポーツが好きですか？",
+            "question": "仕事はどうですか？",
             "options": [
-              "やきゅう",
-              "ダンス",
-              "サッカー",
-              "テニス"
+              "ひまですが、おもしろいです",
+              "いそがしいですが、おもしろいです",
+              "いそがしいですが、おもしろくないです",
+              "たのしいですが、いそがしいです"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nマリアさんはどんなスポーツが好きですか？\n- Đáp án đúng: **ダンス**.\n\n✍️ Phân tích đáp án:\n- Dựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác."
+            "explanation": "📖 Dịch nghĩa:\n仕事はどうですか？\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **いそがしいですが、おもしろいです**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">どう</span> (Từ vựng - Từ hỏi: \"Như thế nào?\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **どう (dou)**: Như thế nào?\n\n💡 Ngữ pháp & Mẹo nhớ:\nDựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác."
           }
         ]
       }
@@ -2796,51 +2818,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_6_10_5_m1_q0",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【分かります】",
+            "question": "※ コーヒーか 【紅茶】が つきます。",
             "options": [
-              "しゅくだい",
-              "わかります",
-              "ジュース",
-              "りょこう"
+              "りょこう",
+              "おかあさん",
+              "こうちゃ",
+              "たくさん"
             ],
-            "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【分かります】 có nghĩa là: **Hiểu, nắm được**.\n\n✍️ Phân tích đáp án:\n- **わかります** (wakarimasu): Cách đọc đúng của chữ Hán 【分かります】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **PHÂN**.\n- Mẹo nhớ: Dùng dao chia thành 8 phần rành mạch (Hiểu)."
+            "correctIndex": 2,
+            "explanation": "📖 Dịch nghĩa:\n※ Có kèm theo cà phê hoặc hồng trà.\n\n✍️ Phân tích đáp án:\n- **りょこう** (ryokou): Nghĩa là \"Chuyến du lịch\" → Sai.\n- **おかあさん** (okaasan): Nghĩa là \"Mẹ (của người khác)\" → Sai.\n- **こうちゃ** (koucha): Cách đọc đúng của chữ Hán 【紅茶】 → Chọn.\n- **たくさん** (takusan): Nghĩa là \"Nhiều\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">コーヒー</span> (Từ vựng - Danh từ: \"Cà phê\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">紅茶</span> (Từ vựng - Danh từ: \"Hồng trà\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">つきます</span> (Từ vựng - Động từ: \"Đến (ga, nơi chốn)\")\n\n📝 Từ vựng trong câu:\n- **コーヒー (koohii)**: Cà phê\n- **紅茶 (こうちゃ / koucha)**: Hồng trà\n- **着きます (つきます / tsukimasu)**: Đến (ga, nơi chốn)\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **HỒNG TRÀ**.\n- Mẹo nhớ: Trà có màu đỏ là Hồng trà."
           },
           {
             "id": "m_review_6_10_5_m1_q1",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【残念です】",
+            "question": "とても【楽しい】です。",
             "options": [
-              "あさごはん",
-              "～すてきですね",
-              "エーティーエム",
-              "ざんねんです"
+              "しんせつ",
+              "おかあさん",
+              "サッカー",
+              "たのしい"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【残念です】 có nghĩa là: **Thật đáng tiếc nhỉ**.\n\n✍️ Phân tích đáp án:\n- **ざんねんです** (zannen desu): Cách đọc đúng của chữ Hán 【残念です】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **TÀN NIỆM**.\n- Mẹo nhớ: Ý niệm (Niệm) tiếc nuối vẫn còn sót lại (Tàn)."
+            "explanation": "📖 Dịch nghĩa:\nRất là vui.\n\n✍️ Phân tích đáp án:\n- **しんせつ** (shinsetsu): Nghĩa là \"Tốt bụng, tử tế\" → Sai.\n- **おかあさん** (okaasan): Nghĩa là \"Mẹ (của người khác)\" → Sai.\n- **サッカー** (sakkaa): Nghĩa là \"Bóng đá\" → Sai.\n- **たのしい** (tanoshii): Cách đọc đúng của chữ Hán 【楽しい】 → Chọn.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">とても</span> (Từ vựng - Phó từ: \"Rất\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">楽しい</span> (Từ vựng - Tính từ đuôi i: \"Vui vẻ\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **とても (totemo)**: Rất\n- **楽しい (たのしい / tanoshii)**: Vui vẻ\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **LẠC / NHẠC**.\n- Mẹo nhớ: Chơi nhạc khí bằng gỗ thật là Vui."
           },
           {
             "id": "m_review_6_10_5_m1_q2",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【お花見】",
+            "question": "そして、【牛乳】を飲みます。",
             "options": [
-              "おはなみ",
-              "ききます",
-              "くろい",
-              "りょこう"
+              "あたらしい",
+              "しつれいします",
+              "いそがしい",
+              "ぎゅうにゅう"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【お花見】 có nghĩa là: **Việc ngắm hoa anh đào**.\n\n✍️ Phân tích đáp án:\n- **おはなみ** (ohanami): Cách đọc đúng của chữ Hán 【お花見】.\n\n📚 Từ vựng bổ trợ:\n- 花 (はな / hana): Hoa\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **HOA KIẾN**.\n- Mẹo nhớ: Đi xem hoa anh đào nở."
+            "correctIndex": 3,
+            "explanation": "📖 Dịch nghĩa:\nVà, tôi uống sữa bò.\n\n✍️ Phân tích đáp án:\n- **あたらしい** (atarashii): Nghĩa là \"Mới\" → Sai.\n- **しつれいします** (shitsureishimasu): Nghĩa là \"Xin thất lễ / Xin phép\" → Sai.\n- **いそがしい** (isogashii): Nghĩa là \"Bận rộn\" → Sai.\n- **ぎゅうにゅう** (gyuunyuu): Cách đọc đúng của chữ Hán 【牛乳】 → Chọn.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">そして</span> (Từ vựng - Liên từ: \"Và, sau đó\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">牛乳</span> (Từ vựng - Danh từ: \"Sữa bò\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">飲みます</span> (Từ vựng - Động từ: \"Uống\")\n\n📝 Từ vựng trong câu:\n- **そして (soshite)**: Và, sau đó\n- **牛乳 (ぎゅうにゅう / gyuunyuu)**: Sữa bò\n- **飲みます (のみます / nomimasu)**: Uống\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **NGƯU NHŨ**.\n- Mẹo nhớ: Sữa được vắt từ con bò là Sữa bò."
           },
           {
             "id": "m_review_6_10_5_m1_q3",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【易しい】",
+            "question": "わたしは イタリア【寮】りが すきです。",
             "options": [
-              "おとこのこ",
-              "やさしい",
-              "ハンサム",
-              "さむい"
+              "りょう",
+              "ひくい",
+              "します",
+              "ひらがな"
             ],
-            "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【易しい】 có nghĩa là: **Dễ**.\n\n✍️ Phân tích đáp án:\n- **やさしい** (yasashii): Cách đọc đúng của chữ Hán 【易しい】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **DỊ**.\n- Mẹo nhớ: Việc mặt trời (日) chiếu sáng vạn vật (勿) là quy luật DỄ DÀNG hiển nhiên."
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nTôi thích món ăn Ý.\n\n✍️ Phân tích đáp án:\n- **りょう** (ryou): Cách đọc đúng của chữ Hán 【寮】 → Chọn.\n- **ひくい** (hikui): Nghĩa là \"Thấp\" → Sai.\n- **します** (shimasu): Nghĩa là \"Làm, chơi\" → Sai.\n- **ひらがな** (hiragana): Nghĩa là \"Chữ Hiragana\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">わたし</span> (Từ vựng - Đại từ: \"Tôi\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">イタリア</span> (Từ vựng - Danh từ: \"Ý\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">寮</span> (Từ vựng - Danh từ: \"Ký túc xá\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">すき</span> (Từ vựng - Tính từ đuôi na: \"Thích\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **私 (わたし / watashi)**: Tôi\n- **イタリア (itaria)**: Ý\n- **寮 (りょう / ryou)**: Ký túc xá\n- **好き（な） (すき / suki)**: Thích\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **LIÊU**.\n- Mẹo nhớ: Dưới mái nhà (宀), có rất nhiều (Đại, Tiểu) ánh sáng (Nhật) — đó là KÝ TÚC XÁ sáng sủa."
           }
         ]
       },
@@ -2850,51 +2872,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_6_10_5_m2_q0",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【つま】",
+            "question": "A：にほんご（　　）できますか。 ...B：はい、【すこし】 わかります。",
             "options": [
-              "ビル",
-              "旅行",
-              "妻",
-              "犬"
+              "白い",
+              "猫",
+              "少し",
+              "魚"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Vợ (của mình)**.\n\n✍️ Phân tích đáp án:\n- **妻** (つま): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **THÊ**.\n- Cấu tạo: 妻 (Thê - Vợ)"
+            "explanation": "📖 Dịch nghĩa:\nA: Bạn có thể (nói) tiếng Nhật không? ...B: Vâng, tôi hiểu một chút.\n\n✍️ Phân tích đáp án:\n- **白い** (しろい): Nghĩa là \"Trắng\" → Sai.\n- **猫** (ねこ): Nghĩa là \"Con mèo\" → Sai.\n- **少し** (すこし): Cách viết chữ Hán đúng của từ 【すこし】 → Chọn.\n- **魚** (さかな): Nghĩa là \"Cá\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">にほんご</span> (Từ vựng - Danh từ: \"Tiếng Nhật\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">できます</span> (Từ vựng - Động từ: \"Có thể\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">はい</span> (Từ vựng - Thán từ: \"Vâng, đúng vậy\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">すこし</span> (Từ vựng - Phó từ: \"Một chút, ít\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">わかります</span> (Từ vựng - Động từ: \"Hiểu, nắm được\")\n\n📝 Từ vựng trong câu:\n- **日本語 (にほんご / nihongo)**: Tiếng Nhật\n- **できます (dekimasu)**: Có thể\n- **はい (hai)**: Vâng, đúng vậy\n- **少し (すこし / sukoshi)**: Một chút, ít\n- **分かります (わかります / wakarimasu)**: Hiểu, nắm được\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **THIỂU**.\n- Cấu tạo: 少 (Thiểu - Ít)"
           },
           {
             "id": "m_review_6_10_5_m2_q1",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【こまかいおかね】",
+            "question": "事務【ところ】(じむしょ)に だれ が いますか。 ...先生が います。",
             "options": [
-              "細かいお金",
-              "～や～など",
-              "好き（な）",
-              "会います"
+              "高い",
+              "所",
+              "安い",
+              "宿題"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Tiền lẻ**.\n\n✍️ Phân tích đáp án:\n- **細かいお金** (こまかいおかね): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **TẾ KIM**.\n- Cấu tạo: 細 (Tế - Nhỏ/Chi tiết) + お金 (Tiền)"
+            "correctIndex": 1,
+            "explanation": "📖 Dịch nghĩa:\nỞ văn phòng có ai? ...Có giáo viên.\n\n✍️ Phân tích đáp án:\n- **高い** (たかい): Nghĩa là \"Cao, đắt\" → Sai.\n- **所** (ところ): Cách viết chữ Hán đúng của từ 【ところ】 → Chọn.\n- **安い** (やすい): Nghĩa là \"Rẻ\" → Sai.\n- **宿題** (しゅくだい): Nghĩa là \"Bài tập về nhà\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ところ</span> (Từ vựng - Danh từ: \"Nơi chốn\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">じむしょ</span> (Từ vựng - Danh từ: \"Văn phòng\")\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / địa điểm / đối tượng tiếp nhận)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">だれ</span> (Từ vựng - Từ để hỏi: \"Ai\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">います</span> (Từ vựng - Động từ: \"Có (người, động vật)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">先生</span> (Từ vựng - Danh từ: \"Giáo viên, thầy/cô giáo\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">います</span> (Từ vựng - Động từ: \"Có (người, động vật)\")\n\n📝 Từ vựng trong câu:\n- **所 (ところ / tokoro)**: Nơi chốn\n- **事務所 (じむしょ / jimusho)**: Văn phòng\n- **だれ (dare)**: Ai\n- **います (imasu)**: Có (người, động vật)\n- **先生 (せんせい / sensei)**: Giáo viên, thầy/cô giáo\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **SỞ**.\n- Cấu tạo: 所 = 戸 (Hộ - Cánh cửa) + 斤 (Cân - Cây rìu)"
           },
           {
             "id": "m_review_6_10_5_m2_q2",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【べんり】",
+            "question": "これ 【こまかいおかね】 です。",
             "options": [
-              "～が、～",
-              "便利（な）",
-              "何ですか",
-              "～や～など"
+              "細かいお金",
+              "おいしい",
+              "消しゴム",
+              "レストラン"
             ],
-            "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Tiện lợi**.\n\n✍️ Phân tích đáp án:\n- **便利（な）** (べんり): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **TIỆN LỢI**.\n- Cấu tạo: 便 (Tiện - Tiện lợi) + 利 (Lợi - Ích lợi)"
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nĐây là tiền lẻ.\n\n✍️ Phân tích đáp án:\n- **細かいお金** (こまかいおかね): Cách viết chữ Hán đúng của từ 【こまかいおかね】 → Chọn.\n- **おいしい** (おいしい): Nghĩa là \"Ngon\" → Sai.\n- **消しゴム** (けしゴム): Nghĩa là \"Cục tẩy\" → Sai.\n- **レストラン** (レストラン): Nghĩa là \"Nhà hàng\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">これ</span> (Từ vựng - Đại từ: \"Cái này (gần người nói)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">こまかいおかね</span> (Từ vựng - Danh từ: \"Tiền lẻ\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **これ (kore)**: Cái này (gần người nói)\n- **細かいお金 (こまかいおかね / komakai okane)**: Tiền lẻ\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **TẾ KIM**.\n- Cấu tạo: 細 (Tế - Nhỏ/Chi tiết) + お金 (Tiền)"
           },
           {
             "id": "m_review_6_10_5_m2_q3",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【まえ】",
+            "question": "わたしは 歌(うた)が 下手(【へた】) です。ぜんぜん 上手(じょうず)じゃありません。",
             "options": [
-              "お茶",
-              "前",
-              "高い",
-              "お酒"
+              "～が、～",
+              "静か（な）",
+              "いいですね",
+              "下手（な）"
             ],
-            "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Trước, phía trước**.\n\n✍️ Phân tích đáp án:\n- **前** (まえ): Cách viết chữ Hán đúng của từ.\n\n📚 Từ vựng bổ trợ:\n- 絵 (え / e): Bức tranh\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **TIỀN**.\n- Cấu tạo: 前 = 䒑 (Thảo) + 月 (Nguyệt) + 刂 (Đao)"
+            "correctIndex": 3,
+            "explanation": "📖 Dịch nghĩa:\nTôi hát dở. Hoàn toàn không giỏi chút nào.\n\n✍️ Phân tích đáp án:\n- **～が、～** (～が、～): Nghĩa là \"~ nhưng ~\" → Sai.\n- **静か（な）** (しずか): Nghĩa là \"Yên tĩnh\" → Sai.\n- **いいですね** (いいですね): Nghĩa là \"Được đấy nhỉ, hay quá\" → Sai.\n- **下手（な）** (へた): Cách viết chữ Hán đúng của từ 【へた】 → Chọn.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">わたし</span> (Từ vựng - Đại từ: \"Tôi\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">歌</span> (Từ vựng - Danh từ: \"Bài hát\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">うた</span> (Từ vựng - Danh từ: \"Bài hát\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">下</span> (Từ vựng - Danh từ: \"Dưới, phía dưới\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">手</span> (Từ vựng - Danh từ: \"Tay\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">へた</span> (Từ vựng - Tính từ đuôi na: \"Kém, dở\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ぜんぜん</span> (Từ vựng - Phó từ: \"Hoàn toàn không (~ phủ định)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">上</span> (Từ vựng - Danh từ: \"Trên, phía trên\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">手</span> (Từ vựng - Danh từ: \"Tay\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">じょうず</span> (Từ vựng - Tính từ đuôi na: \"Giỏi, khéo\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">じゃ</span> (Từ vựng - Mẫu câu: \"Thế thì, vậy thì\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ありません</span> (Từ vựng - Động từ: \"Có (sở hữu)\")\n\n📝 Từ vựng trong câu:\n- **私 (わたし / watashi)**: Tôi\n- **歌 (うた / uta)**: Bài hát\n- **下 (した / shita)**: Dưới, phía dưới\n- **手 (て / te)**: Tay\n- **下手（な） (へた / heta)**: Kém, dở\n- **全然 (ぜんぜん / zenzen)**: Hoàn toàn không (~ phủ định)\n- **上 (うえ / ue)**: Trên, phía trên\n- **上手（な） (じょうず / jouzu)**: Giỏi, khéo\n- **じゃ (ja)**: Thế thì, vậy thì\n- **あります (arimasu)**: Có (sở hữu)\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **HẠ THỦ**.\n- Cấu tạo: 下 (Hạ - Dưới) + 手 (Thủ - Tay)"
           }
         ]
       },
@@ -2904,6 +2926,18 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_6_10_5_m3_q0",
+            "question": "わたしは カリナさん 【　　　】 CDを 借りました。",
+            "options": [
+              "に",
+              "で",
+              "を",
+              "は"
+            ],
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nTôi đã mượn đĩa CD từ bạn Karina.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **に**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">わたし</span> (Từ vựng - Đại từ: \"Tôi\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / địa điểm / đối tượng tiếp nhận)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">CD</span> (Từ vựng - Danh từ: \"Đĩa CD\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">借りました</span> (Từ vựng - Động từ: \"Mượn, vay\")\n\n📝 Từ vựng trong câu:\n- **私 (わたし / watashi)**: Tôi\n- **CD (シーディー / shiidii)**: Đĩa CD\n- **借ります (かります / karimasu)**: Mượn, vay\n\n💡 Ngữ pháp & Mẹo nhớ:\nMượn TỪ ai, nhận TỪ ai dùng trợ từ に (hoặc から)."
+          },
+          {
+            "id": "m_review_6_10_5_m3_q1",
             "question": "【　　　】 の 本ですか。 ...カメラの 本です。",
             "options": [
               "なん",
@@ -2912,43 +2946,31 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "どこ"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nSách về cái gì vậy? ...Sách về máy ảnh.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **なん**.\n\n📚 Từ vựng bổ trợ:\n- カメラ (kamera): Máy ảnh\n- 本 (ほん / hon): Sách\n\n💡 Ngữ pháp & Mẹo nhớ:\nKhi đứng trước の, 'Cái gì' phải đọc là なん (なんの)."
-          },
-          {
-            "id": "m_review_6_10_5_m3_q1",
-            "question": "庭(にわ)に 犬(いぬ)が 【　　　】。",
-            "options": [
-              "います",
-              "あります",
-              "します",
-              "きます"
-            ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nNgoài sân có con chó.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **います**.\n\n💡 Ngữ pháp & Mẹo nhớ:\n犬 (con chó) là động vật có thể tự chuyển động, phải dùng います."
+            "explanation": "📖 Dịch nghĩa:\nSách về cái gì vậy? ...Sách về máy ảnh.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **なん**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">なん</span> (Từ vựng - Từ để hỏi: \"Cái gì\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">本</span> (Từ vựng - Danh từ: \"Sách\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">カメラ</span> (Từ vựng - Danh từ: \"Máy ảnh\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">本</span> (Từ vựng - Danh từ: \"Sách\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **何 (なん / nan)**: Cái gì\n- **本 (ほん / hon)**: Sách\n- **カメラ (kamera)**: Máy ảnh\n\n💡 Ngữ pháp & Mẹo nhớ:\nKhi đứng trước の, 'Cái gì' phải đọc là なん (なんの)."
           },
           {
             "id": "m_review_6_10_5_m3_q2",
-            "question": "部屋(へや)に 机(つくえ)が 【　　　】。",
+            "question": "ワンさんは 【　　　】。",
             "options": [
-              "あります",
-              "います",
-              "します",
-              "きます"
+              "きれいです",
+              "きれいなです",
+              "きれいいです",
+              "きれいくないです"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTrong phòng có cái bàn.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **あります**.\n\n📚 Từ vựng bổ trợ:\n- 部屋 (へや / heya): Căn phòng\n- 絵 (え / e): Bức tranh\n\n💡 Ngữ pháp & Mẹo nhớ:\n机 (cái bàn) là đồ vật vô tri vô giác, phải dùng あります."
+            "explanation": "📖 Dịch nghĩa:\nBạn Wang thì đẹp.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **きれいです**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">きれい</span> (Từ vựng - Tính từ đuôi na: \"Đẹp, sạch sẽ\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **きれい（な） (きれい / kirei)**: Đẹp, sạch sẽ\n\n💡 Ngữ pháp & Mẹo nhớ:\nきれい là tính từ đuôi な. Khi đứng làm vị ngữ (cuối câu) thì bỏ な thêm です."
           },
           {
             "id": "m_review_6_10_5_m3_q3",
-            "question": "わたしは はし 【　　　】 ごはんを 食べます。",
+            "question": "やまださんは ピアノ 【　　　】 上手(じょうず)です。",
             "options": [
-              "で",
-              "に",
+              "が",
               "を",
-              "へ"
+              "の",
+              "に"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTôi ăn cơm bằng đũa.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **で**.\n\n📚 Từ vựng bổ trợ:\n- ご飯 (ごはん / gohan): Cơm, bữa ăn\n\n💡 Ngữ pháp & Mẹo nhớ:\nChỉ công cụ, phương tiện thực hiện hành động (đũa - はし) dùng trợ từ で."
+            "explanation": "📖 Dịch nghĩa:\nAnh Yamada giỏi piano.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **が**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">やま</span> (Từ vựng - Danh từ: \"Núi\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ピアノ</span> (Từ vựng - Danh từ: \"Đàn Piano\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">上</span> (Từ vựng - Danh từ: \"Trên, phía trên\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">手</span> (Từ vựng - Danh từ: \"Tay\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">じょうず</span> (Từ vựng - Tính từ đuôi na: \"Giỏi, khéo\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **山 (やま / yama)**: Núi\n- **ピアノ (piano)**: Đàn Piano\n- **上 (うえ / ue)**: Trên, phía trên\n- **手 (て / te)**: Tay\n- **上手（な） (じょうず / jouzu)**: Giỏi, khéo\n\n💡 Ngữ pháp & Mẹo nhớ:\nTính từ chỉ năng lực (じょうず - giỏi, へた - kém) dùng trợ từ が."
           }
         ]
       },
@@ -2958,51 +2980,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_6_10_5_b1_q0",
-            "question": "いっしょに 京都へ 行きませんか。 ...（　　　）。行きましょう。",
+            "question": "カバンは 机(つくえ) （　　　） 下(した)に あります。",
             "options": [
-              "ええ、いいですね",
-              "いいえ、いきません",
-              "はい、そうです",
-              "いいえ、ちがいます"
+              "の",
+              "に",
+              "が",
+              "は"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nCùng đi Kyoto không? ...Vâng, tuyệt quá. Cùng đi nào.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **ええ、いいですね**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nĐáp lại lời mời mọc một cách đồng ý dùng câu ええ、いいですね (Vâng, tuyệt quá nhỉ)."
+            "explanation": "📖 Dịch nghĩa:\nCặp sách nằm ở dưới cái bàn.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **の**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">机</span> (Từ vựng - Danh từ: \"Bàn\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">つくえ</span> (Từ vựng - Danh từ: \"Bàn\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">下</span> (Từ vựng - Danh từ: \"Dưới, phía dưới\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">した</span> (Từ vựng - Danh từ: \"Dưới, phía dưới\")\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / địa điểm / đối tượng tiếp nhận)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あります</span> (Từ vựng - Động từ: \"Có (sở hữu)\")\n\n📝 Từ vựng trong câu:\n- **机 (つくえ / tsukue)**: Bàn\n- **下 (した / shita)**: Dưới, phía dưới\n- **あります (arimasu)**: Có (sở hữu)\n\n💡 Ngữ pháp & Mẹo nhớ:\nDanh từ chỉ mốc (机) nối với danh từ chỉ vị trí (下) bằng trợ từ の (N1 の N2)."
           },
           {
             "id": "m_review_6_10_5_b1_q1",
-            "question": "きのう、（　　　） を しましたか。",
-            "options": [
-              "なに",
-              "なん",
-              "だれ",
-              "いつ"
-            ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nHôm qua bạn đã làm gì?\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **なに**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nHỏi 'Làm cái gì' dùng từ để hỏi なに đi kèm trợ từ を."
-          },
-          {
-            "id": "m_review_6_10_5_b1_q2",
-            "question": "わたしは 歌(うた)が （　　　） です。ぜんぜん 上手(じょうず)じゃありません。",
-            "options": [
-              "下手(へた)",
-              "上手(じょうず)",
-              "好(す)き",
-              "嫌(きら)い"
-            ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTôi hát dở. Hoàn toàn không giỏi chút nào.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **下手(へた)**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nVế sau là 'hoàn toàn không giỏi' (ぜんぜん 上手じゃありません) nên vế trước phải là 'hát dở' (下手)."
-          },
-          {
-            "id": "m_review_6_10_5_b1_q3",
-            "question": "きょうしつ （　　　） 日本語を 勉強します。",
+            "question": "わたしは はし （　　　） ごはんを 食べます。",
             "options": [
               "で",
               "に",
-              "へ",
-              "を"
+              "を",
+              "へ"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTôi học tiếng Nhật ở phòng học.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **で**.\n\n📚 Từ vựng bổ trợ:\n- 日本語 (にほんご / nihongo): Tiếng Nhật\n\n💡 Ngữ pháp & Mẹo nhớ:\nNơi diễn ra hành động học (きょうしつ - phòng học) dùng trợ từ で."
+            "explanation": "📖 Dịch nghĩa:\nTôi ăn cơm bằng đũa.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **で**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">わたし</span> (Từ vựng - Đại từ: \"Tôi\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">はし</span> (Từ vựng - Danh từ: \"Đũa\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ごはん</span> (Từ vựng - Danh từ: \"Cơm, bữa ăn\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">食べます</span> (Từ vựng - Động từ: \"Ăn\")\n\n📝 Từ vựng trong câu:\n- **私 (わたし / watashi)**: Tôi\n- **はし (hashi)**: Đũa\n- **ご飯 (ごはん / gohan)**: Cơm, bữa ăn\n- **食べます (たべます / tabemasu)**: Ăn\n\n💡 Ngữ pháp & Mẹo nhớ:\nChỉ công cụ, phương tiện thực hiện hành động (đũa - はし) dùng trợ từ で."
+          },
+          {
+            "id": "m_review_6_10_5_b1_q2",
+            "question": "庭(にわ)に 犬(いぬ)が （　　　）。",
+            "options": [
+              "います",
+              "あります",
+              "します",
+              "きます"
+            ],
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nNgoài sân có con chó.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **います**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">庭</span> (Từ vựng - Danh từ: \"Sân, vườn\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">にわ</span> (Từ vựng - Danh từ: \"Sân, vườn\")\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / địa điểm / đối tượng tiếp nhận)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">犬</span> (Từ vựng - Danh từ: \"Con chó\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">いぬ</span> (Từ vựng - Danh từ: \"Con chó\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">います</span> (Từ vựng - Động từ: \"Có (người, động vật)\")\n\n📝 Từ vựng trong câu:\n- **庭 (にわ / niwa)**: Sân, vườn\n- **犬 (いぬ / inu)**: Con chó\n- **います (imasu)**: Có (người, động vật)\n\n💡 Ngữ pháp & Mẹo nhớ:\n犬 (con chó) là động vật có thể tự chuyển động, phải dùng います."
+          },
+          {
+            "id": "m_review_6_10_5_b1_q3",
+            "question": "あの 映画(えいが)は （　　　） おもしろくないです。",
+            "options": [
+              "ぜんぜん",
+              "とても",
+              "たくさん",
+              "よく"
+            ],
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nBộ phim đó hoàn toàn không thú vị.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **ぜんぜん**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あの</span> (Từ vựng - Từ chỉ định: \"Cái kia ... (+ danh từ)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">映画</span> (Từ vựng - Danh từ: \"Phim, điện ảnh\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">えいが</span> (Từ vựng - Danh từ: \"Phim, điện ảnh\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ぜんぜん</span> (Từ vựng - Phó từ: \"Hoàn toàn không (~ phủ định)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">おもしろくない</span> (Từ vựng - Tính từ đuôi i: \"Thú vị\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **あの (ano)**: Cái kia ... (+ danh từ)\n- **映画 (えいが / eiga)**: Phim, điện ảnh\n- **全然 (ぜんぜん / zenzen)**: Hoàn toàn không (~ phủ định)\n- **おもしろい (omoshiroi)**: Thú vị\n\n💡 Ngữ pháp & Mẹo nhớ:\nĐuôi câu là phủ định (おもしろくないです - Không thú vị) nên phải đi với ぜんぜん (Hoàn toàn không)."
           }
         ]
       },
@@ -3012,6 +3034,18 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_6_10_5_b2_q0",
+            "question": "コーヒーを　___ ___ _★_ ___　ましょう。",
+            "options": [
+              "に",
+              "いっしょ",
+              "みせで",
+              "のみ"
+            ],
+            "correctIndex": 2,
+            "explanation": "📖 Dịch nghĩa:\nChúng ta cùng uống ở quán nhé.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: いっしょ に みせで のみ ましょう。\n- Từ ở vị trí ngôi sao (★) là: **みせで**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / địa điểm / đối tượng tiếp nhận)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">みせ</span> (Từ vựng - Danh từ: \"Cửa hàng\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ましょう</span> (Từ vựng - Động từ: \"Làm, chơi\")\n\n📝 Từ vựng trong câu:\n- **店 (みせ / mise)**: Cửa hàng\n- **します (shimasu)**: Làm, chơi\n\n💡 Ngữ pháp & Mẹo nhớ:\nいっしょに (cùng nhau) + [Địa điểm] で + động từ bỏ ます + ましょう."
+          },
+          {
+            "id": "m_review_6_10_5_b2_q1",
             "question": "この　___ ___ _★_ ___　ですか。",
             "options": [
               "は",
@@ -3020,19 +3054,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "の"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nCái máy ảnh này là của ai?\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: この [カメラ] [は] [★ だれ] [の] ですか。\n- Từ ở vị trí ngôi sao (★) là: **だれ**.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Từ để hỏi sở hữu: だれ の (của ai)."
-          },
-          {
-            "id": "m_review_6_10_5_b2_q1",
-            "question": "あした　___ ___ _★_ ___　しませんか。",
-            "options": [
-              "テニス",
-              "と",
-              "を",
-              "ともだち"
-            ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nNgày mai chơi tennis cùng bạn không?\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: あした [tomoｄachi] [と] [★ テニス] [を] しませんか。\n- Từ ở vị trí ngôi sao (★) là: **テニス**.\n\n📚 Từ vựng bổ trợ:\n- 明日 (あした / ashita): Ngày mai\n\n💡 Ngữ pháp & Mẹo nhớ:\n- [Người] と (cùng ai) + N を します (chơi môn thể thao)."
+            "explanation": "📖 Dịch nghĩa:\nCái máy ảnh này là của ai?\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: この カメラ は だれ の ですか。\n- Từ ở vị trí ngôi sao (★) là: **đâu**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">この</span> (Từ vựng - Từ chỉ định: \"Cái này ... (+ danh từ)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">カメラ</span> (Từ vựng - Danh từ: \"Máy ảnh\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">だれ</span> (Từ vựng - Từ để hỏi: \"Ai\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **この (kono)**: Cái này ... (+ danh từ)\n- **カメラ (kamera)**: Máy ảnh\n- **だれ (dare)**: Ai\n\n💡 Ngữ pháp & Mẹo nhớ:\nTừ để hỏi sở hữu: だれ の (của ai)."
           }
         ]
       },
@@ -3040,47 +3062,48 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "id": "p_review_6_10_5_dokkai1",
         "type": "mondai3",
         "text": [
-          "A：へやに なにが ありますか。",
-          "B：ベッドと たなが あります。",
-          "A：つくえの うえに なにが ありますか。",
-          "B：とけいや ほんなどが あります。"
+          "A：マリアさん、スポーツが すき ですか。",
+          "B：はい、だいすき です。",
+          "A：どんな スポーツが すき ですか。",
+          "B：ダンスが すき です。"
         ],
         "translation": [
-          "A: Trong phòng có những gì?",
-          "B: Có cái giường và cái kệ.",
-          "A: Trên bàn có gì vậy?",
-          "B: Có đồng hồ và sách, v.v..."
+          "A: Maria, bạn có thích thể thao không?",
+          "B: Vâng, tôi rất thích.",
+          "A: Bạn thích môn thể thao nào?",
+          "B: Tôi thích khiêu vũ."
         ],
         "vocabulary": [
-          "時計 (とけい / tokei): Đồng hồ",
-          "本 (ほん / hon): Sách",
-          "部屋 (へや / heya): Căn phòng",
-          "絵 (え / e): Bức tranh"
+          "スポーツ (supootsu): Thể thao",
+          "どんな (donna): ...như thế nào? (+ N)",
+          "ダンス (dansu): Khiêu vũ, nhảy",
+          "はい (hai): Vâng, đúng vậy",
+          "いす (isu): Ghế",
+          "好き（な） (すき / suki): Thích",
+          "木 (き / ki): Cây, gỗ"
         ],
         "questions": [
           {
             "id": "m_review_6_10_5_d1_q0",
-            "question": "部屋に何がありますか？",
+            "question": "マリアさんはスポーツが好きですか？",
             "options": [
-              "ベッドとたな",
-              "つくえととけい",
-              "つくえとほん",
-              "とけいとほん"
+              "はい",
+              "いいえ"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\n部屋に何がありますか？\n- Đáp án đúng: **ベッドとたな**.\n\n✍️ Phân tích đáp án:\n- Dựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác."
+            "explanation": "📖 Dịch nghĩa:\nマリアさんはスポーツが好きですか？\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **はい**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">スポーツ</span> (Từ vựng - Danh từ: \"Thể thao\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **スポーツ (supootsu)**: Thể thao\n\n💡 Ngữ pháp & Mẹo nhớ:\nDựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác."
           },
           {
             "id": "m_review_6_10_5_d1_q1",
-            "question": "つくえの上に何がありますか？",
+            "question": "マリアさんはどんなスポーツが好きですか？",
             "options": [
-              "ベッド",
-              "たな",
-              "とけいやほんなど",
-              "なにもありません"
+              "やきゅう",
+              "ダンス",
+              "サッカー",
+              "テニス"
             ],
-            "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nつくえの上に何がありますか？\n- Đáp án đúng: **とけいやほんなど**.\n\n✍️ Phân tích đáp án:\n- Dựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác.\n\n📚 Từ vựng bổ trợ:\n- 絵 (え / e): Bức tranh"
+            "correctIndex": 1,
+            "explanation": "📖 Dịch nghĩa:\nマリアさんはどんなスポーツが好きですか？\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **ダンス**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">どんな</span> (Từ vựng - Từ hỏi: \"...như thế nào? (+ N)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">スポーツ</span> (Từ vựng - Danh từ: \"Thể thao\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **どんな (donna)**: ...như thế nào? (+ N)\n- **スポーツ (supootsu)**: Thể thao\n\n💡 Ngữ pháp & Mẹo nhớ:\nDựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác."
           }
         ]
       }
@@ -3089,7 +3112,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
   {
     "id": "review_11_15_1",
     "title": "Đề thi 1: Trạm Ôn Tập JLPT N5 (Bài 11 - 15)",
-    "description": "Bộ đề số 1. Các câu hỏi và bài đọc được thiết kế độc lập 100% để ôn luyện toàn diện.",
+    "description": "Bộ đề số 1. Được xáo trộn ngẫu nhiên để chống học vẹt.",
     "passages": [
       {
         "id": "p_review_11_15_1_moji1",
@@ -3097,51 +3120,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_11_15_1_m1_q0",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【温かい・暖かい】",
+            "question": "【一日】に ３かい くすりを のみます。",
             "options": [
-              "あたたかい",
-              "まちます",
-              "じこくひょう",
-              "りょうしん"
+              "いっか",
+              "いつか",
+              "ついたち",
+              "いちにち"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【温かい・暖かい】 có nghĩa là: **Ấm áp**.\n\n✍️ Phân tích đáp án:\n- **あたたかい** (atatakai): Cách đọc đúng của chữ Hán 【温かい・暖かい】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **ÔN/NOÃN**.\n- Mẹo nhớ: Ấm áp."
+            "correctIndex": 3,
+            "explanation": "📖 Dịch nghĩa:\nMột ngày uống thuốc 3 lần.\n\n✍️ Phân tích đáp án:\n- いちにち: Thời lượng một ngày → Chọn. (ついたち: ngày mùng 1).\n\n📝 Từ vựng trong câu:\n- 薬 (くすり / kusuri): Thuốc\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / điểm đến: \"vào lúc / đi đến địa điểm\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">くすり</span> (Danh từ: \"Thuốc\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ tân ngữ: \"tác động trực tiếp vào danh từ đứng trước\")\n- <span style=\"color: #ffb86c; font-weight: 800;\">のみます</span> (Động từ (Verb - V): \"Uống\")\n\n"
           },
           {
             "id": "m_review_11_15_1_m1_q1",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【売ります】",
+            "question": "【切手】を かいました。",
             "options": [
-              "うります",
-              "あたたかい",
-              "あれ？",
-              "べつべつに"
+              "きって",
+              "きっぷ",
+              "きくて",
+              "きっぶ"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【売ります】 có nghĩa là: **Bán**.\n\n✍️ Phân tích đáp án:\n- **うります** (urimasu): Cách đọc đúng của chữ Hán 【売ります】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **MẠI**.\n- Mẹo nhớ: Kẻ sĩ (Sĩ) trùm khăn (Mịch) đi bộ (Nhân đi) để Bán hàng giấu mặt."
+            "explanation": "📖 Dịch nghĩa:\nMua tem.\n\n✍️ Phân tích đáp án:\n- きって: Tem → Chọn. (きっぷ: vé xe).\n\n📝 Từ vựng trong câu:\n- 切手 (きette / kitte): Tem thư\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">切手</span> (Danh từ: \"Tem thư\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ tân ngữ: \"tác động trực tiếp vào danh từ đứng trước\")\n- <span style=\"color: #ffb86c; font-weight: 800;\">かいました</span> (Động từ (quá khứ của かいます): \"Đã mua\")\n\n"
           },
           {
             "id": "m_review_11_15_1_m1_q2",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【遠い】",
+            "question": "【外国】へ いきました。",
             "options": [
-              "きって",
-              "かんたん",
-              "とおい",
-              "つけます"
+              "がいこく",
+              "がいごく",
+              "かいごく",
+              "かいこく"
             ],
-            "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【遠い】 có nghĩa là: **Xa**.\n\n✍️ Phân tích đáp án:\n- **とおい** (tooi): Cách đọc đúng của chữ Hán 【遠い】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **VIỄN**.\n- Mẹo nhớ: Mặc áo dài (Viên) di chuyển (Sước) một quãng đường Xa xôi."
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nĐi nước ngoài.\n\n✍️ Phân tích đáp án:\n- がいこく (gaikoku): Nước ngoài → Chọn.\n\n📝 Từ vựng trong câu:\n- 外国 (がいこく / gaikoku): Nước ngoài\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">外国</span> (Danh từ: \"Nước ngoài\")\n- <span style=\"color: #f73859; font-weight: 800;\">へ</span> (Trợ từ chỉ hướng: \"hướng đi đến địa điểm\")\n- <span style=\"color: #ffb86c; font-weight: 800;\">いきました</span> (Động từ (quá khứ của いきます): \"Đã đi\")\n\n"
           },
           {
             "id": "m_review_11_15_1_m1_q3",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【辛い】",
+            "question": "ここは 【有名】な まちです。",
             "options": [
-              "すくない",
-              "ごかぞく",
-              "もんだい",
-              "からい"
+              "ゆめい",
+              "ゆうめい",
+              "ゆうめ",
+              "ゆめ"
             ],
-            "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【辛い】 có nghĩa là: **Cay**.\n\n✍️ Phân tích đáp án:\n- **からい** (karai): Cách đọc đúng của chữ Hán 【辛い】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **TÂN**.\n- Mẹo nhớ: Vị cay."
+            "correctIndex": 1,
+            "explanation": "📖 Dịch nghĩa:\nThành phố nổi tiếng.\n\n✍️ Phân tích đáp án:\n- ゆうめい (yuumei): Nổi tiếng → Chọn.\n\n📝 Từ vựng trong câu:\n- 有名 (ゆうめい / yuumei): Nổi tiếng\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chủ đề (Topic): \"thì, là\")\n- <span style=\"color: #ffb86c; font-weight: 800;\">有名</span> (Tính từ đuôi な (Adjective): \"Nổi tiếng\")\n\n"
           }
         ]
       },
@@ -3151,51 +3174,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_11_15_1_m2_q0",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【せんもん】",
+            "question": "【デパート】へ いきます。",
             "options": [
-              "出ます",
-              "広い",
-              "専門",
-              "カレー"
+              "テパート",
+              "テバート",
+              "デパート",
+              "デバート"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Chuyên môn**.\n\n✍️ Phân tích đáp án:\n- **専門** (せんもん): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **CHUYÊN MÔN**.\n- Cấu tạo: 専 (Chuyên - Chuyên tâm) + 門 (Môn - Cánh cửa)"
+            "explanation": "📖 Dịch nghĩa:\nĐi đến bách hóa.\n\n✍️ Phân tích đáp án:\n- デパート: Bách hóa → Chọn.\n\n📝 Từ vựng trong câu:\n- デパート (depaato): Trung tâm thương mại, bách hóa\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">デパート</span> (Danh từ chỉ nơi chốn: \"Bách hóa\")\n- <span style=\"color: #f73859; font-weight: 800;\">へ</span> (Trợ từ chỉ hướng: \"hướng đi đến địa điểm\")\n- <span style=\"color: #ffb86c; font-weight: 800;\">いきます</span> (Động từ (Verb - V): \"Đi\")\n\n"
           },
           {
             "id": "m_review_11_15_1_m2_q1",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【すみます】",
+            "question": "あたらし 【くるま】が ほしいです。",
             "options": [
-              "カレー",
-              "もう少し",
-              "クラス",
-              "住みます"
+              "庫",
+              "連",
+              "車",
+              "軍"
             ],
-            "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Sống**.\n\n✍️ Phân tích đáp án:\n- **住みます** (すみます): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **TRÚ**.\n- Cấu tạo: 亻 (Nhân - Người) + 主 (Chủ - Ông chủ)"
+            "correctIndex": 2,
+            "explanation": "📖 Dịch nghĩa:\nMuốn có xe hơi mới.\n\n✍️ Phân tích đáp án:\n- 車 (Xa): Ô tô → Chọn.\n\n📝 Từ vựng trong câu:\n- 車 (くるま / kuruma): Ô tô, xe hơi\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">くるま</span> (Danh từ (Tân ngữ - O): \"Ô tô, xe hơi\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chủ ngữ/đối tượng: \"chỉ chủ thể hoặc đối tượng của động từ trạng thái\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ địa điểm / phương tiện (công cụ): \"ở tại / bằng\")\n\n"
           },
           {
             "id": "m_review_11_15_1_m2_q2",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【とこや】",
+            "question": "【スーパー】で くだものを かいます。",
             "options": [
-              "床屋",
-              "はがき",
-              "重い",
-              "辛い"
+              "スーバー",
+              "スーパー",
+              "ズーパー",
+              "ズーバー"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Hiệu cắt tóc**.\n\n✍️ Phân tích đáp án:\n- **床屋** (とこや): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **SÀNG ỐC**.\n- Cấu tạo: 床 (Sàng - Giường/Sàn) + 屋 (Ốc - Cửa hàng)"
+            "correctIndex": 1,
+            "explanation": "📖 Dịch nghĩa:\nMua trái cây ở siêu thị.\n\n✍️ Phân tích đáp án:\n- スーパー: Siêu thị → Chọn.\n\n📝 Từ vựng trong câu:\n- スーパー (suupaa): Siêu thị\n- 果物 (くだもの / kudamono): Trái cây, hoa quả\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">スーパー</span> (Danh từ chỉ nơi chốn: \"Siêu thị\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ địa điểm / phương tiện (công cụ): \"ở tại / bằng\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">くだもの</span> (Danh từ (Tân ngữ - O): \"Trái cây, hoa quả\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ tân ngữ: \"tác động trực tiếp vào danh từ đứng trước\")\n- <span style=\"color: #ffb86c; font-weight: 800;\">かいます</span> (Động từ (Verb - V): \"Mua\")\n\n"
           },
           {
             "id": "m_review_11_15_1_m2_q3",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【ほしい】",
+            "question": "【カメラ】を かいたいです。",
             "options": [
-              "全部で",
-              "欲しい",
-              "少ない",
-              "入ります"
+              "カメラ",
+              "ガメラ",
+              "カメテ",
+              "カヌラ"
             ],
-            "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Muốn có**.\n\n✍️ Phân tích đáp án:\n- **欲しい** (ほしい): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **DỤC**.\n- Cấu tạo: 谷 (Cốc - Thung lũng) + 欠 (Khiếm - Thiếu)"
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nMuốn mua máy ảnh.\n\n✍️ Phân tích đáp án:\n- カメラ: Máy ảnh → Chọn.\n\n📝 Từ vựng trong câu:\n- カメラ (kamera): Máy ảnh\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">カメラ</span> (Danh từ: \"Máy ảnh\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ tân ngữ: \"tác động trực tiếp vào danh từ đứng trước\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ địa điểm / phương tiện (công cụ): \"ở tại / bằng\")\n\n"
           }
         ]
       },
@@ -3205,51 +3228,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_11_15_1_m3_q0",
-            "question": "A：えあこんを つけましょうか。 ...B：ええ、（　　）。",
+            "question": "【　　　】から きましたか。",
             "options": [
-              "おねがいします",
-              "けっこうです",
-              "そうしましょう",
-              "わかりました"
+              "いつ",
+              "どこ",
+              "なん",
+              "だれ"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nA: Để tôi bật điều hòa nhé? ...B: Vâng, nhờ anh.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **おねがいします**.\n\n📚 Từ vựng bổ trợ:\n- 絵 (え / e): Bức tranh\n\n💡 Ngữ pháp & Mẹo nhớ:\nKhi đồng ý lời đề nghị giúp đỡ, dùng ええ、お願いします."
+            "correctIndex": 1,
+            "explanation": "📖 Dịch nghĩa:\nBạn đến từ đâu?\n\n✍️ Phân tích đáp án:\n- どこ: Ở đâu → Chọn.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #f73859; font-weight: 800;\">から</span> (Trợ từ xuất phát: \"từ\")\n- <span style=\"color: #ffb86c; font-weight: 800;\">きました</span> (Động từ (quá khứ của きます): \"Đã đến\")\n\n"
           },
           {
             "id": "m_review_11_15_1_m3_q1",
-            "question": "A：この ほんを（　　）も いいですか。 ...B：ええ、どうぞ。",
+            "question": "えきまで 【　　　】で いきます。",
             "options": [
-              "かりて",
-              "かり",
-              "かりる",
-              "かって"
+              "しんかんせん",
+              "ふね",
+              "じてんしゃ",
+              "ひこうき"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nA: Tôi mượn quyển sách này có được không? ...B: Vâng, xin mời.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **かりて**.\n\n📚 Từ vựng bổ trợ:\n- 本 (ほん / hon): Sách\n- 絵 (え / e): Bức tranh\n\n💡 Ngữ pháp & Mẹo nhớ:\nXin phép làm gì: Vて + もいいですか. 借ります -> 借りて."
+            "correctIndex": 2,
+            "explanation": "📖 Dịch nghĩa:\nĐi đến ga bằng xe đạp.\n\n✍️ Phân tích đáp án:\n- じてんしゃ (xe đạp): Phương tiện hợp lý nhất → Chọn.\n\n📝 Từ vựng trong câu:\n- 駅 (えき / eki): Nhà ga\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">えき</span> (Danh từ: \"Nhà ga\")\n- <span style=\"color: #f73859; font-weight: 800;\">まで</span> (Trợ từ kết thúc: \"đến\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ địa điểm / phương tiện (công cụ): \"ở tại / bằng\")\n- <span style=\"color: #ffb86c; font-weight: 800;\">いきます</span> (Động từ (Verb - V): \"Đi\")\n\n"
           },
           {
             "id": "m_review_11_15_1_m3_q2",
-            "question": "いま、あめが（　　）います。",
+            "question": "いま のどが 【　　　】。",
             "options": [
-              "ふって",
-              "ふり",
-              "ふる",
-              "ふらない"
+              "わるいです",
+              "いたいです",
+              "すきました",
+              "かわきました"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nBây giờ trời đang mưa.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **ふって**.\n\n📚 Từ vựng bổ trợ:\n- 雨 (あめ / ame): Mưa\n\n💡 Ngữ pháp & Mẹo nhớ:\nĐang làm gì: Vて + います. 降ります (rơi) nhóm 1 -> 降って."
+            "correctIndex": 3,
+            "explanation": "📖 Dịch nghĩa:\nBây giờ tôi khát nước.\n\n✍️ Phân tích đáp án:\n- のどが かわきました: Khát nước → Chọn.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">のど</span> (Danh từ: \"Cổ họng\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chủ ngữ/đối tượng: \"chỉ chủ thể hoặc đối tượng của động từ trạng thái\")\n\n"
           },
           {
             "id": "m_review_11_15_1_m3_q3",
-            "question": "わたしは きょうとへ さくらを （　　）に 行きます。",
+            "question": "りんごを みっつ 【　　　】。",
             "options": [
-              "み",
-              "みる",
-              "みます",
-              "みて"
+              "を",
+              "で",
+              "ください",
+              "に"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTôi đi Kyoto để ngắm hoa anh đào.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **み**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nMục đích: 見ます -> 見 + に行きます."
+            "correctIndex": 2,
+            "explanation": "📖 Dịch nghĩa:\nXin vui lòng lấy cho tôi 3 quả táo.\n\n✍️ Phân tích đáp án:\n- ください: Xin vui lòng đưa cho → Chọn.\n\n📝 Từ vựng trong câu:\n- りんご (ringo): Quả táo\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">りんご</span> (Danh từ: \"Quả táo\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ tân ngữ: \"tác động trực tiếp vào danh từ đứng trước\")\n\n"
           }
         ]
       },
@@ -3259,51 +3282,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_11_15_1_b1_q0",
-            "question": "あねは けっこん（　　）。",
+            "question": "ここで しゃしんを （　　　）は いけません。",
             "options": [
-              "しています",
-              "します",
-              "しました",
-              "してあります"
+              "とり",
+              "とって",
+              "とる",
+              "とらない"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nChị gái tôi đã kết hôn (hiện đang có gia đình).\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **しています**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nTình trạng hôn nhân luôn dùng thể Vています -> 結婚しています."
+            "correctIndex": 1,
+            "explanation": "📖 Dịch nghĩa:\nKhông được chụp ảnh ở đây.\n\n✍️ Phân tích đáp án:\n- とって: Thể て của とります (chụp) → Chọn (Vて は いけません).\n\n📝 Từ vựng trong câu:\n- 写真 (しゃしん / shashin): Bức ảnh\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ địa điểm / phương tiện (công cụ): \"ở tại / bằng\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">しゃしん</span> (Danh từ (Tân ngữ - O): \"Bức ảnh\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ tân ngữ: \"tác động trực tiếp vào danh từ đứng trước\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chủ đề (Topic): \"thì, là\")\n\n"
           },
           {
             "id": "m_review_11_15_1_b1_q1",
-            "question": "日曜日 デパートへ（　　）に 行きます。",
+            "question": "わたしは にほんご（　　　） わかります。",
             "options": [
-              "かいもの",
-              "かいものし",
-              "かいものします",
-              "かいものを"
+              "で",
+              "を",
+              "が",
+              "に"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nChủ nhật tôi đi siêu thị để mua sắm.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **かいもの**.\n\n📚 Từ vựng bổ trợ:\n- デパート (depaato): Trung tâm thương mại, bách hóa\n\n💡 Ngữ pháp & Mẹo nhớ:\nVới danh từ động từ nhóm 3 (買い物します), ta bỏ します ghép trực tiếp với に (買い物に)."
+            "correctIndex": 2,
+            "explanation": "📖 Dịch nghĩa:\nTôi hiểu tiếng Nhật.\n\n✍️ Phân tích đáp án:\n- が: Trợ từ đi với động từ trạng thái わかります → Chọn.\n\n📝 Từ vựng trong câu:\n- 日本語 (にほんご / nihongo): Tiếng Nhật\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">わたし</span> (Danh từ (Chủ ngữ - S): \"Tôi\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chủ đề (Topic): \"thì, là\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">にほんご</span> (Danh từ (Tân ngữ - O): \"Tiếng Nhật\")\n- <span style=\"color: #ffb86c; font-weight: 800;\">わかります</span> (Động từ (Verb - V): \"Hiểu\")\n\n"
           },
           {
             "id": "m_review_11_15_1_b1_q2",
-            "question": "A：何を 食べたいですか。 ...B：（　　）食べたくないです。",
+            "question": "きょうは （　　　） たのしかったです。",
             "options": [
-              "なにも",
-              "なにか",
-              "どこも",
-              "だれも"
+              "すこし",
+              "あまり",
+              "とても",
+              "ぜんぜん"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nA: Bạn muốn ăn gì? ...B: Không muốn ăn gì cả.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **なにも**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nHỏi 何 (Cái gì), trả lời phủ định hoàn toàn dùng 何も (なにも)."
+            "correctIndex": 2,
+            "explanation": "📖 Dịch nghĩa:\nHôm nay rất vui.\n\n✍️ Phân tích đáp án:\n- とても: Rất → Chọn (đi với tính từ khẳng định).\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">きょう</span> (Danh từ thời gian: \"Hôm nay\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chủ đề (Topic): \"thì, là\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ sở hữu / bổ nghĩa: \"của\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ địa điểm / phương tiện (công cụ): \"ở tại / bằng\")\n\n"
           },
           {
             "id": "m_review_11_15_1_b1_q3",
-            "question": "わたしは とうきょうに（　　）います。",
+            "question": "A「ちょっと （　　　）ましょうか。」",
             "options": [
-              "すんで",
-              "すみて",
-              "すいて",
-              "すって"
+              "やすむ",
+              "やすみ",
+              "やすんで",
+              "やすまない"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTôi đang sống ở Tokyo.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **すんで**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nSống ở đâu dùng trợ từ に + 住んでいます (すみます -> すんで)."
+            "correctIndex": 1,
+            "explanation": "📖 Dịch nghĩa:\nChúng ta nghỉ một lát nhé?\n\n✍️ Phân tích đáp án:\n- やすみ: Động từ bỏ ます để đi với ましょうか → Chọn.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #f73859; font-weight: 800;\">と</span> (Trợ từ đồng hành: \"cùng với\")\n\n"
           }
         ]
       },
@@ -3313,6 +3336,295 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_11_15_1_b2_q0",
+            "question": "この　___ ___ _★_ ___　いいですか。",
+            "options": [
+              "を",
+              "は",
+              "つかっても",
+              "ペン"
+            ],
+            "correctIndex": 2,
+            "explanation": "📖 Dịch nghĩa:\nTôi dùng chiếc bút này có được không?\n\n✍️ Phân tích đáp án:\n- Sắp xếp: ペン (2) + は (4) + つかっても (3) + いいですか.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ sở hữu / bổ nghĩa: \"của\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ địa điểm / phương tiện (công cụ): \"ở tại / bằng\")\n\n"
+          },
+          {
+            "id": "m_review_11_15_1_b2_q1",
+            "question": "わたしは　___ ___ _★_ ___　いきます。",
+            "options": [
+              "みに",
+              "えいが",
+              "に",
+              "を"
+            ],
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nTôi đi xem phim.\n\n✍️ Phân tích đáp án:\n- Sắp xếp: えいが (1) + を (3) + みに (4) + に (2) + いきます.\n- Ngôi sao ở vị trí thứ 3 là みに (4).\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">わたし</span> (Danh từ (Chủ ngữ - S): \"Tôi\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chủ đề (Topic): \"thì, là\")\n- <span style=\"color: #ffb86c; font-weight: 800;\">いきます</span> (Động từ (Verb - V): \"Đi\")\n\n"
+          }
+        ]
+      },
+      {
+        "id": "p_review_11_15_1_dokkai1",
+        "type": "mondai3",
+        "text": [
+          "わたしの かぞくは ４にんです。",
+          "あには だいがくせいです。いま とうきょう（　１　）すんでいます。",
+          "わたしは こうこうせいです。",
+          "らいねん だいがくへ （　２　）たいです。"
+        ],
+        "questions": [
+          {
+            "id": "m_review_11_15_1_d1_q0",
+            "question": "（　１　）に入れるものはどれですか。",
+            "options": [
+              "に",
+              "を",
+              "で",
+              "へ"
+            ],
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nSống tại Tokyo.\n- Trợ từ đi với động từ cư trú すんでいます luôn là に.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / điểm đến: \"vào lúc / đi đến địa điểm\")\n- <span style=\"color: #f73859; font-weight: 800;\">も</span> (Trợ từ cũng / phủ định hoàn toàn: \"cũng\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ sở hữu / bổ nghĩa: \"của\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chủ đề (Topic): \"thì, là\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ địa điểm / phương tiện (công cụ): \"ở tại / bằng\")\n\n<br/><br/>\n<strong style=\"color: var(--blue);\">📝 Dịch nghĩa toàn bộ đoạn văn:</strong><br/>\n<span style=\"color: var(--text);\">\n- Gia đình của tôi có 4 người.<br/>\n- Anh trai tôi là sinh viên đại học. Hiện tại đang sống ở Tokyo. (1: に)<br/>\n- Tôi là học sinh cấp ba (trung học phổ thông).<br/>\n- Sang năm tôi muốn vào đại học. (2: いき)\n</span>\n<br/><br/>\n<strong style=\"color: var(--gold);\">📚 Từ vựng trong đoạn văn:</strong><br/>\n<span style=\"color: var(--text);\">\n- <strong>かぞく</strong> (kazoku): Gia đình<br/>\n- <strong>４にん</strong> (yonin): 4 người<br/>\n- <strong>あに</strong> (ani): Anh trai<br/>\n- <strong>だいがくせい</strong> (daigakusei): Sinh viên đại học<br/>\n- <strong>とうきょう</strong> (toukyou): Tokyo<br/>\n- <strong>すんでいます</strong> (sundeimasu): Đang sống (từ すみます)<br/>\n- <strong>こうこうせい</strong> (koukousei): Học sinh cấp ba<br/>\n- <strong>らいねん</strong> (rainen): Sang năm\n</span>"
+          },
+          {
+            "id": "m_review_11_15_1_d1_q1",
+            "question": "（　２　）に入れるものはどれですか。",
+            "options": [
+              "いって",
+              "いき",
+              "いきたい",
+              "いく"
+            ],
+            "correctIndex": 1,
+            "explanation": "📖 Dịch nghĩa:\nSang năm tôi muốn vào đại học.\n\n✍️ Phân tích đáp án:\n- いき (iki): Thể liên dụng (thể ます bỏ ます) của động từ いきます → Chọn để kết hợp với đuôi ~たいです thành \"いきたいes\" -> \"いきたいです\" (muốn đi).\n- いって (itte): Thể て → Không đi trực tiếp với たいです.\n- いく (iku): Thể từ điển (thể từ điển + たいes là sai ngữ pháp) -> \"たいes\" -> \"たいです\".\n- いきたい (ikitai): Bản thân đã có đuôi たい, nếu chọn sẽ thành \"いきたい たい\" → Sai ngữ pháp.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">らいねん</span> (Danh từ thời gian: \"Sang năm\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">だいがく</span> (Danh từ: \"Trường đại học\")\n- <span style=\"color: #f73859; font-weight: 800;\">へ</span> (Trợ từ chỉ hướng)\n- <span style=\"color: #ffb86c; font-weight: 800;\">いきたいです</span> (Động từ chỉ mong muốn: \"Muốn đi/Muốn vào\")\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Cấu trúc diễn tả mong muốn: Động từ thể ます (bỏ ます) + たいです (Muốn làm gì). Ví dụ: いきます → いき + たいです."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "review_11_15_2",
+    "title": "Đề thi 2: Trạm Ôn Tập JLPT N5 (Bài 11 - 15)",
+    "description": "Bộ đề số 2. Các câu hỏi và bài đọc được thiết kế độc lập 100% để ôn luyện toàn diện.",
+    "passages": [
+      {
+        "id": "p_review_11_15_2_moji1",
+        "type": "moji_mondai1",
+        "questions": [
+          {
+            "id": "m_review_11_15_2_m1_q0",
+            "question": "あした 【食事します】。",
+            "options": [
+              "しょくじします",
+              "サンドイッチ",
+              "コピーします",
+              "いもうとさん"
+            ],
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nNgày mai tôi sẽ ăn cơm.\n\n✍️ Phân tích đáp án:\n- **しょくじします** (shokujishimasu): Cách đọc đúng của chữ Hán 【食事します】 → Chọn.\n- **サンドイッチ** (sandoitchi): Nghĩa là \"Bánh sandwich\" → Sai.\n- **コピーします** (kopiishimasu): Nghĩa là \"Copy\" → Sai.\n- **いもうとさん** (imoutosan): Nghĩa là \"Em gái (của người khác)\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あした</span> (Từ vựng - Danh từ: \"Ngày mai\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">食事します</span> (Từ vựng - Động từ: \"Ăn cơm\")\n\n📝 Từ vựng trong câu:\n- **明日 (あした / ashita)**: Ngày mai\n- **食事します (しょくじします / shokujishimasu)**: Ăn cơm\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **THỰC SỰ**.\n- Mẹo nhớ: Việc (Sự) ăn uống (Thực)."
+          },
+          {
+            "id": "m_review_11_15_2_m1_q1",
+            "question": "あした 【研究します】。",
+            "options": [
+              "ごちゅうもんは？",
+              "かいものします",
+              "おまちください",
+              "けんきゅうします"
+            ],
+            "correctIndex": 3,
+            "explanation": "📖 Dịch nghĩa:\nNgày mai tôi sẽ nghiên cứu.\n\n✍️ Phân tích đáp án:\n- **ごちゅうもんは？** (gochuumon wa?): Nghĩa là \"Quý khách gọi món gì?\" → Sai.\n- **かいものします** (kaimonoshimasu): Nghĩa là \"Mua sắm\" → Sai.\n- **おまちください** (omachi kudasai): Nghĩa là \"Xin vui lòng đợi\" → Sai.\n- **けんきゅうします** (kenkyuushimasu): Cách đọc đúng của chữ Hán 【研究します】 → Chọn.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あした</span> (Từ vựng - Danh từ: \"Ngày mai\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">研究します</span> (Từ vựng - Động từ: \"Nghiên cứu\")\n\n📝 Từ vựng trong câu:\n- **明日 (あした / ashita)**: Ngày mai\n- **研究します (けんきゅうします / kenkyuushimasu)**: Nghiên cứu\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **NGHIÊN CỨU**.\n- Mẹo nhớ: Mài gọt (Nghiên) và tìm tòi (Cứu) sâu sắc là Nghiên cứu."
+          },
+          {
+            "id": "m_review_11_15_2_m1_q2",
+            "question": "いま、なにが 【一番】 ほしいですか。",
+            "options": [
+              "いちばん",
+              "かるい",
+              "きょうだい",
+              "いそぎます"
+            ],
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nBây giờ bạn muốn cái gì nhất?\n\n✍️ Phân tích đáp án:\n- **いちばん** (ichiban): Cách đọc đúng của chữ Hán 【一番】 → Chọn.\n- **かるい** (karui): Nghĩa là \"Nhẹ\" → Sai.\n- **きょうだい** (kyoudai): Nghĩa là \"Anh em\" → Sai.\n- **いそぎます** (isogimasu): Nghĩa là \"Vội, gấp\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">いま</span> (Từ vựng - Danh từ: \"Bây giờ\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">なに</span> (Từ vựng - Từ hỏi: \"Cái gì\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">一番</span> (Từ vựng - Phó từ: \"Nhất\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ほしい</span> (Từ vựng - Tính từ i: \"Muốn có\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **今 (いま / ima)**: Bây giờ\n- **何 (なに / nani)**: Cái gì\n- **一番 (いちばん / ichiban)**: Nhất\n- **欲しい (ほしい / hoshii)**: Muốn có\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **NHẤT PHIÊN**.\n- Mẹo nhớ: Số 1/Nhất."
+          },
+          {
+            "id": "m_review_11_15_2_m1_q3",
+            "question": "【美術】かんは なんじ から なんじまでですか。",
+            "options": [
+              "りょうしん",
+              "こたえ",
+              "びじゅつ",
+              "たちます"
+            ],
+            "correctIndex": 2,
+            "explanation": "📖 Dịch nghĩa:\nBảo tàng mỹ thuật mở cửa từ mấy giờ đến mấy giờ?\n\n✍️ Phân tích đáp án:\n- **りょうしん** (ryoushin): Nghĩa là \"Bố mẹ\" → Sai.\n- **こたえ** (kotae): Nghĩa là \"Câu trả lời\" → Sai.\n- **びじゅつ** (bijutsu): Cách đọc đúng của chữ Hán 【美術】 → Chọn.\n- **たちます** (tachimasu): Nghĩa là \"Đứng\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">美術</span> (Từ vựng - Danh từ: \"Mỹ thuật\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">なんじ</span> (Từ vựng - Từ hỏi: \"Mấy giờ?\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">から</span> (Từ vựng - Trợ từ: \"Từ (thời gian)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">なんじ</span> (Từ vựng - Từ hỏi: \"Mấy giờ?\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">まで</span> (Từ vựng - Trợ từ: \"Đến (thời gian)\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **美術 (びじゅつ / bijutsu)**: Mỹ thuật\n- **何時 (なんじ / nanji)**: Mấy giờ?\n- **から (kara)**: Từ (thời gian)\n- **まで (made)**: Đến (thời gian)\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **MỸ THUẬT**.\n- Mẹo nhớ: Kỹ thuật (Thuật) tạo ra cái Đẹp (Mỹ)."
+          }
+        ]
+      },
+      {
+        "id": "p_review_11_15_2_moji2",
+        "type": "moji_mondai2",
+        "questions": [
+          {
+            "id": "m_review_11_15_2_m2_q0",
+            "question": "あした 【おもいだします】。",
+            "options": [
+              "思い出します",
+              "温かい、暖かい",
+              "手伝います",
+              "散歩します"
+            ],
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nNgày mai tôi sẽ nhớ lại.\n\n✍️ Phân tích đáp án:\n- **思い出します** (おもいだします): Cách viết chữ Hán đúng của từ 【おもいだします】 → Chọn.\n- **温かい、暖かい** (あたたかい): Nghĩa là \"Ấm\" → Sai.\n- **手伝います** (てつだいます): Nghĩa là \"Giúp đỡ\" → Sai.\n- **散歩します** (さんぽします): Nghĩa là \"Đi dạo\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あした</span> (Từ vựng - Danh từ: \"Ngày mai\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">おもいだします</span> (Từ vựng - Động từ: \"Nhớ lại\")\n\n📝 Từ vựng trong câu:\n- **明日 (あした / ashita)**: Ngày mai\n- **思い出します (おもいだします / omoidashimasu)**: Nhớ lại\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **TƯ XUẤT**.\n- Cấu tạo: 思 (Tư - Suy nghĩ) + 出 (Xuất - Ra)"
+          },
+          {
+            "id": "m_review_11_15_2_m2_q1",
+            "question": "【こども】（　　）とき、よく かわで およぎました。",
+            "options": [
+              "美術",
+              "子ども",
+              "カタログ",
+              "教えます"
+            ],
+            "correctIndex": 1,
+            "explanation": "📖 Dịch nghĩa:\nKhi còn nhỏ, tôi thường bơi ở sông.\n\n✍️ Phân tích đáp án:\n- **美術** (びじゅつ): Nghĩa là \"Mỹ thuật\" → Sai.\n- **子ども** (こども): Cách viết chữ Hán đúng của từ 【こども】 → Chọn.\n- **カタログ** (カタログ): Nghĩa là \"Catalog\" → Sai.\n- **教えます** (おしえます): Nghĩa là \"Dạy\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">こども</span> (Từ vựng - Danh từ: \"Trẻ con, con cái\")\n- <span style=\"color: #f73859; font-weight: 800;\">と</span> (Trợ từ chỉ đối tượng đồng hành / liệt kê)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">よく</span> (Từ vựng - Phó từ: \"Rõ, tốt, thường\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">かわ</span> (Từ vựng - Danh từ: \"Sông\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">およぎました</span> (Từ vựng - Động từ: \"Bơi\")\n\n📝 Từ vựng trong câu:\n- **子ども (こども / kodomo)**: Trẻ con, con cái\n- **よく (yoku)**: Rõ, tốt, thường\n- **川 (かわ / kawa)**: Sông\n- **泳ぎます (およぎます / oyogimasu)**: Bơi\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **TỬ**.\n- Cấu tạo: 子 (Tử - Đứa trẻ)"
+          },
+          {
+            "id": "m_review_11_15_2_m2_q2",
+            "question": "これ 【くもり】 です。",
+            "options": [
+              "一番",
+              "曇り",
+              "登録",
+              "皆"
+            ],
+            "correctIndex": 1,
+            "explanation": "📖 Dịch nghĩa:\nĐây là trời nhiều mây.\n\n✍️ Phân tích đáp án:\n- **一番** (いちばん): Nghĩa là \"Nhất\" → Sai.\n- **曇り** (くもり): Cách viết chữ Hán đúng của từ 【くもり】 → Chọn.\n- **登録** (とうろく): Nghĩa là \"Đăng ký\" → Sai.\n- **皆** (みな): Nghĩa là \"Mọi người\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">これ</span> (Từ vựng - Đại từ: \"Cái này (gần người nói)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">くもり</span> (Từ vựng - Danh từ: \"Trời nhiều mây\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **これ (kore)**: Cái này (gần người nói)\n- **曇り (くもり / kumori)**: Trời nhiều mây\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **ĐÁM**.\n- Cấu tạo: 日 (Nhật) + 雲 (Vân - Mây)"
+          },
+          {
+            "id": "m_review_11_15_2_m2_q3",
+            "question": "A：道が【せまい】ですから、少し難しいですね。",
+            "options": [
+              "はがき",
+              "さあ",
+              "狭い",
+              "登録"
+            ],
+            "correctIndex": 2,
+            "explanation": "📖 Dịch nghĩa:\nA: Vì đường hẹp nên hơi khó một chút.\n\n✍️ Phân tích đáp án:\n- **はがき** (はがき): Nghĩa là \"Bưu thiếp\" → Sai.\n- **さあ** (さあ): Nghĩa là \"Nào, thôi nào\" → Sai.\n- **狭い** (せまい): Cách viết chữ Hán đúng của từ 【せまい】 → Chọn.\n- **登録** (とうろく): Nghĩa là \"Đăng ký\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">道</span> (Từ vựng - Danh từ: \"Đường đi\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">せまい</span> (Từ vựng - Tính từ i: \"Hẹp\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ですから</span> (Từ vựng - Liên từ: \"Vì thế, do đó\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">少し</span> (Từ vựng - Phó từ: \"Một chút, ít\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">難しい</span> (Từ vựng - Tính từ đuôi i: \"Khó\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **道 (みち / michi)**: Đường đi\n- **狭い (せまい / semai)**: Hẹp\n- **ですから (desukara)**: Vì thế, do đó\n- **少し (すこし / sukoshi)**: Một chút, ít\n- **難しい (むずかしい / muzukashii)**: Khó\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **HIỆP**.\n- Cấu tạo: 犭(Khuyển - Chó) + 夾 (Hiệp - Kẹp giữa)"
+          }
+        ]
+      },
+      {
+        "id": "p_review_11_15_2_moji3",
+        "type": "moji_mondai3",
+        "questions": [
+          {
+            "id": "m_review_11_15_2_m3_q0",
+            "question": "毎日 ８（　　）働きます。",
+            "options": [
+              "じ",
+              "じかん",
+              "ふん",
+              "かい"
+            ],
+            "correctIndex": 1,
+            "explanation": "📖 Dịch nghĩa:\nMỗi ngày tôi làm việc 8 tiếng.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **じかん**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">毎日</span> (Từ vựng - Danh từ: \"Mỗi ngày, hằng ngày\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">働きます</span> (Từ vựng - Động từ: \"Làm việc\")\n\n📝 Từ vựng trong câu:\n- **毎日 (まいにち / mainichi)**: Mỗi ngày, hằng ngày\n- **働きます (はたらきます / hatarakimasu)**: Làm việc\n\n💡 Ngữ pháp & Mẹo nhớ:\nChỉ khoảng thời gian (lượng thời gian kéo dài) phải dùng 時間 (じかん). ８じ (8 giờ) là mốc thời gian."
+          },
+          {
+            "id": "m_review_11_15_2_m3_q1",
+            "question": "しゅうまつは やまへ（　　）に 行きます。",
+            "options": [
+              "あそび",
+              "あそぶ",
+              "あそんで",
+              "あそぼう"
+            ],
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nCuối tuần tôi đi núi để chơi.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **あそび**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">しゅうまつ</span> (Từ vựng - Danh từ: \"Cuối tuần\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">やま</span> (Từ vựng - Danh từ: \"Núi\")\n- <span style=\"color: #f73859; font-weight: 800;\">へ</span> (Trợ từ chỉ hướng di chuyển)\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / địa điểm / đối tượng tiếp nhận)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">行きます</span> (Từ vựng - Động từ: \"Đi\")\n\n📝 Từ vựng trong câu:\n- **週末 (しゅうまつ / shuumatsu)**: Cuối tuần\n- **山 (やま / yama)**: Núi\n- **行きます (いきます / ikimasu)**: Đi\n\n💡 Ngữ pháp & Mẹo nhớ:\nĐi đâu để làm gì: V(bỏ ます) + に行きます. 遊びます -> 遊び."
+          },
+          {
+            "id": "m_review_11_15_2_m3_q2",
+            "question": "はがきは １枚 ５０円ですから、（　　）２５０円です。",
+            "options": [
+              "みんなで",
+              "ぜんぶで",
+              "いつも",
+              "たくさん"
+            ],
+            "correctIndex": 1,
+            "explanation": "📖 Dịch nghĩa:\nBưu thiếp 1 tấm 50 Yên nên tổng cộng là 250 Yên.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **ぜんぶで**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">はがき</span> (Từ vựng - Danh từ: \"Bưu thiếp\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ですから</span> (Từ vựng - Liên từ: \"Vì thế, do đó\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **はがき (hagaki)**: Bưu thiếp\n- **ですから (desukara)**: Vì thế, do đó\n\n💡 Ngữ pháp & Mẹo nhớ:\nChỉ tổng số lượng tiền bạc, đồ vật dùng 全部で (ぜんぶで)."
+          },
+          {
+            "id": "m_review_11_15_2_m3_q3",
+            "question": "今、お金が（　　）。ですから、働きに 行きます。",
+            "options": [
+              "ほしいです",
+              "ほしくないです",
+              "たいです",
+              "たくないです"
+            ],
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nBây giờ tôi muốn có tiền. Vì vậy tôi sẽ đi làm.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **ほしいです**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">今</span> (Từ vựng - Danh từ: \"Bây giờ\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">お金</span> (Từ vựng - Danh từ: \"Tiền\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ですから</span> (Từ vựng - Liên từ: \"Vì thế, do đó\")\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / địa điểm / đối tượng tiếp nhận)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">行きます</span> (Từ vựng - Động từ: \"Đi\")\n\n📝 Từ vựng trong câu:\n- **今 (いま / ima)**: Bây giờ\n- **お金 (おかね / okane)**: Tiền\n- **ですから (desukara)**: Vì thế, do đó\n- **行きます (いきます / ikimasu)**: Đi\n\n💡 Ngữ pháp & Mẹo nhớ:\nMuốn CÓ một đồ vật/thứ gì đó (tiền) dùng ほしいです. Phía sau nói đi làm nên phía trước phải là 'muốn có tiền'."
+          }
+        ]
+      },
+      {
+        "id": "p_review_11_15_2_bunpou1",
+        "type": "mondai1",
+        "questions": [
+          {
+            "id": "m_review_11_15_2_b1_q0",
+            "question": "「いそぎます」の て形は なにですか。",
+            "options": [
+              "いそいで",
+              "いそいて",
+              "いそんで",
+              "いそって"
+            ],
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nThể Te của \"Isogimasu\" là gì?\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **いそいで**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">いそぎます</span> (Từ vựng - Động từ: \"Vội, gấp\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">なに</span> (Từ vựng - Từ hỏi: \"Cái gì\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **急ぎます (いそぎます / isogimasu)**: Vội, gấp\n- **何 (なに / nani)**: Cái gì\n\n💡 Ngữ pháp & Mẹo nhớ:\nNhóm 1 đuôi ぎ -> いで. 急ぎます -> 急いで."
+          },
+          {
+            "id": "m_review_11_15_2_b1_q1",
+            "question": "「のみます」の て形は なにですか。",
+            "options": [
+              "のんで",
+              "のって",
+              "のいで",
+              "のして"
+            ],
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nThể Te của \"Nomimasu\" là gì?\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **のんで**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">のみます</span> (Từ vựng - Động từ: \"Uống\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">なに</span> (Từ vựng - Từ hỏi: \"Cái gì\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **飲みます (のみます / nomimasu)**: Uống\n- **何 (なに / nani)**: Cái gì\n\n💡 Ngữ pháp & Mẹo nhớ:\nNhóm 1 đuôi み, び, に -> んで. 飲みます -> 飲んで."
+          },
+          {
+            "id": "m_review_11_15_2_b1_q2",
+            "question": "A：すずきさんの でんわばんごうを しっていますか。 ...B：いいえ、（　　）。",
+            "options": [
+              "しりません",
+              "しっていません",
+              "しらないです",
+              "しりませんでした"
+            ],
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nA: Bạn có biết số điện thoại của anh Suzuki không? ...B: Không, tôi không biết.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **しりません**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">でんわばんごう</span> (Từ vựng - Danh từ: \"Số điện thoại\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ています</span> (Từ vựng - Động từ: \"Làm, chơi\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">いいえ</span> (Từ vựng - Thán từ: \"Không (phủ định)\")\n\n📝 Từ vựng trong câu:\n- **電話番号 (でんわばんごう / denwabangou)**: Số điện thoại\n- **します (shimasu)**: Làm, chơi\n- **いいえ (iie)**: Không (phủ định)\n\n💡 Ngữ pháp & Mẹo nhớ:\nCâu hỏi là 知っていますか, nhưng phủ định đặc biệt của từ này luôn là 知りません (しりません)."
+          },
+          {
+            "id": "m_review_11_15_2_b1_q3",
+            "question": "A：ペンで こたえを かいても いいですか。 ...B：いいえ、（　　）。",
+            "options": [
+              "いけません",
+              "いいです",
+              "かいてください",
+              "わかりました"
+            ],
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nA: Viết câu trả lời bằng bút mực được không? ...B: Không, không được.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **いけません**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">こたえ</span> (Từ vựng - Danh từ: \"Câu trả lời\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">かいて</span> (Từ vựng - Động từ: \"Mua\")\n- <span style=\"color: #f73859; font-weight: 800;\">も</span> (Trợ từ chỉ cũng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">いい</span> (Từ vựng - Tính từ đuôi i: \"Tốt\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">いいえ</span> (Từ vựng - Thán từ: \"Không (phủ định)\")\n\n📝 Từ vựng trong câu:\n- **答え (こたえ / kotae)**: Câu trả lời\n- **買います (かいます / kaimasu)**: Mua\n- **いい (ii (yoi))**: Tốt\n- **いいえ (iie)**: Không (phủ định)\n\n💡 Ngữ pháp & Mẹo nhớ:\nTrả lời phủ định của Vてもいいですか là いいえ、いけません (hoặc いいえ、Vてはいけません)."
+          }
+        ]
+      },
+      {
+        "id": "p_review_11_15_2_bunpou2",
+        "type": "mondai2",
+        "questions": [
+          {
+            "id": "m_review_11_15_2_b2_q0",
             "question": "わたしは　___ ___ _★_ ___　すんでいます。",
             "options": [
               "に",
@@ -3321,10 +3633,10 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "とうきょう"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTôi đang sống ở nhà tại Tokyo.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: わたしは [とうきょう] [の] [★ うち] [に] すんでいます。\n- Từ ở vị trí ngôi sao (★) là: **うち**.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Trợ từ に đi kèm động từ cư trú すんでいます (sống ở đâu)."
+            "explanation": "📖 Dịch nghĩa:\nTôi đang sống ở nhà tại Tokyo.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: わたしは とうきょう の うち に すんでいます。\n- Từ ở vị trí ngôi sao (★) là: **うち**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">わたし</span> (Từ vựng - Đại từ: \"Tôi\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #f73859; font-weight: 800;\">と</span> (Trợ từ chỉ đối tượng đồng hành / liệt kê)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">きょう</span> (Từ vựng - Danh từ: \"Hôm nay\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">うち</span> (Từ vựng - Danh từ: \"Nhà\")\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / địa điểm / đối tượng tiếp nhận)\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">います</span> (Từ vựng - Động từ: \"Có (người, động vật)\")\n\n📝 Từ vựng trong câu:\n- **私 (わたし / watashi)**: Tôi\n- **今日 (きょう / kyou)**: Hôm nay\n- **うち (uchi)**: Nhà\n- **います (imasu)**: Có (người, động vật)\n\n💡 Ngữ pháp & Mẹo nhớ:\nTrợ từ に đi kèm động từ cư trú すんでいます (sống ở đâu)."
           },
           {
-            "id": "m_review_11_15_1_b2_q1",
+            "id": "m_review_11_15_2_b2_q1",
             "question": "テーブルの　___ ___ _★_ ___　あります。",
             "options": [
               "が",
@@ -3333,12 +3645,12 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "に"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nTrên bàn có quả quýt.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: テーブルの [うえ] [に] [★ みかん] [gが] あります。\n- Từ ở vị trí ngôi sao (★) là: **みかん**.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Cấu trúc chỉ sự tồn tại của vật: N (vị trí) に N (vật) が あります."
+            "explanation": "📖 Dịch nghĩa:\nTrên bàn có quả quýt.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: テーブルの うえ に みかん が あります。\n- Từ ở vị trí ngôi sao (★) là: **みかん**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">テーブル</span> (Từ vựng - Danh từ: \"Cái bàn\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">うえ</span> (Từ vựng - Danh từ: \"Trên, phía trên\")\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / địa điểm / đối tượng tiếp nhận)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">みかん</span> (Từ vựng - Danh từ: \"Quýt\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あります</span> (Từ vựng - Động từ: \"Có (sở hữu)\")\n\n📝 Từ vựng trong câu:\n- **テーブル (teeburu)**: Cái bàn\n- **上 (うえ / ue)**: Trên, phía trên\n- **みかん (mikan)**: Quýt\n- **あります (arimasu)**: Có (sở hữu)\n\n💡 Ngữ pháp & Mẹo nhớ:\nCấu trúc chỉ sự tồn tại của vật: N (vị trí) に N (vật) が あります."
           }
         ]
       },
       {
-        "id": "p_review_11_15_1_dokkai1",
+        "id": "p_review_11_15_2_dokkai1",
         "type": "mondai3",
         "text": [
           "いらっしゃいませ。",
@@ -3358,278 +3670,16 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
           "Mất khoảng bao lâu ạ?",
           "Mất khoảng 4 ngày."
         ],
-        "vocabulary": [],
-        "questions": []
-      }
-    ]
-  },
-  {
-    "id": "review_11_15_2",
-    "title": "Đề thi 2: Trạm Ôn Tập JLPT N5 (Bài 11 - 15)",
-    "description": "Bộ đề số 2. Các câu hỏi và bài đọc được thiết kế độc lập 100% để ôn luyện toàn diện.",
-    "passages": [
-      {
-        "id": "p_review_11_15_2_moji1",
-        "type": "moji_mondai1",
-        "questions": [
-          {
-            "id": "m_review_11_15_2_m1_q0",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【別々に】",
-            "options": [
-              "はなします",
-              "がいこく",
-              "べつべつに",
-              "ここのつ"
-            ],
-            "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【別々に】 có nghĩa là: **Tính riêng ra**.\n\n✍️ Phân tích đáp án:\n- **べつべつに** (betsubetsuni): Cách đọc đúng của chữ Hán 【別々に】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **BIỆT**.\n- Mẹo nhớ: Riêng ra."
-          },
-          {
-            "id": "m_review_11_15_2_m1_q1",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【留学生】",
-            "options": [
-              "りゅうがくせい",
-              "ごちゅうもんは？",
-              "コピーします",
-              "おとうとさん"
-            ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【留学生】 có nghĩa là: **Lưu học sinh**.\n\n✍️ Phân tích đáp án:\n- **りゅうがくせい** (ryuugakusei): Cách đọc đúng của chữ Hán 【留学生】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **LƯU HỌC SINH**.\n- Mẹo nhớ: Học sinh ở lại nước ngoài học."
-          },
-          {
-            "id": "m_review_11_15_2_m1_q2",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【切手】",
-            "options": [
-              "おきます",
-              "きって",
-              "けします",
-              "つり"
-            ],
-            "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【切手】 có nghĩa là: **Tem**.\n\n✍️ Phân tích đáp án:\n- **きって** (kitte): Cách đọc đúng của chữ Hán 【切手】.\n\n📚 Từ vựng bổ trợ:\n- 切手 (きって / kitte): Tem thư\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **THIẾT THỦ**.\n- Mẹo nhớ: Cái tem nhỏ bằng ngón tay (Thủ) được cắt (Thiết) ra từ tờ lớn."
-          },
-          {
-            "id": "m_review_11_15_2_m1_q3",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【閉めます】",
-            "options": [
-              "しめます",
-              "よみかた",
-              "かるい",
-              "あとで"
-            ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【閉めます】 có nghĩa là: **Đóng (cửa)**.\n\n✍️ Phân tích đáp án:\n- **しめます** (shimemasu): Cách đọc đúng của chữ Hán 【閉めます】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **BẾ**.\n- Mẹo nhớ: Dùng tài năng (Tài) đóng chặt cửa (Môn) lại."
-          }
-        ]
-      },
-      {
-        "id": "p_review_11_15_2_moji2",
-        "type": "moji_mondai2",
-        "questions": [
-          {
-            "id": "m_review_11_15_2_m2_q0",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【よみかた】",
-            "options": [
-              "待ちます",
-              "お姉さん",
-              "読み方",
-              "床屋"
-            ],
-            "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Cách đọc**.\n\n✍️ Phân tích đáp án:\n- **読み方** (よみかた): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **ĐỘC PHƯƠNG**.\n- Cấu tạo: 読 (Độc - Đọc) + 方 (Phương - Phương hướng/Cách thức)"
-          },
-          {
-            "id": "m_review_11_15_2_m2_q1",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【せまい】",
-            "options": [
-              "春",
-              "皆さん",
-              "狭い",
-              "九つ"
-            ],
-            "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Hẹp**.\n\n✍️ Phân tích đáp án:\n- **狭い** (せまい): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **HIỆP**.\n- Cấu tạo: 犭(Khuyển - Chó) + 夾 (Hiệp - Kẹp giữa)"
-          },
-          {
-            "id": "m_review_11_15_2_m2_q2",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【おもい】",
-            "options": [
-              "時刻表",
-              "～枚",
-              "重い",
-              "涼しい"
-            ],
-            "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Nặng**.\n\n✍️ Phân tích đáp án:\n- **重い** (おもい): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **TRỌNG**.\n- Cấu tạo: 重 (Trọng - Nặng)"
-          },
-          {
-            "id": "m_review_11_15_2_m2_q3",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【ちず】",
-            "options": [
-              "皆さん",
-              "～時間",
-              "地図",
-              "二人"
-            ],
-            "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Bản đồ**.\n\n✍️ Phân tích đáp án:\n- **地図** (ちず): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **ĐỊA ĐỒ**.\n- Cấu tạo: 地 (Địa - Đất) + 図 (Đồ - Bản đồ)"
-          }
-        ]
-      },
-      {
-        "id": "p_review_11_15_2_moji3",
-        "type": "moji_mondai3",
-        "questions": [
-          {
-            "id": "m_review_11_15_2_m3_q0",
-            "question": "クラスに がくせいが ２０（　　）います。",
-            "options": [
-              "つ",
-              "だい",
-              "にん",
-              "まい"
-            ],
-            "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTrong lớp có 20 học sinh.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **にん**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nĐếm người dùng đơn vị đếm là 人 (にん)."
-          },
-          {
-            "id": "m_review_11_15_2_m3_q1",
-            "question": "A：すずきさんの でんわばんごうを しっていますか。 ...B：いいえ、（　　）。",
-            "options": [
-              "しりません",
-              "しっていません",
-              "しらないです",
-              "しりませんでした"
-            ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nA: Bạn có biết số điện thoại của anh Suzuki không? ...B: Không, tôi không biết.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **しりません**.\n\n📚 Từ vựng bổ trợ:\n- 絵 (え / e): Bức tranh\n\n💡 Ngữ pháp & Mẹo nhớ:\nCâu hỏi là 知っていますか, nhưng phủ định đặc biệt của từ này luôn là 知りません (しりません)."
-          },
-          {
-            "id": "m_review_11_15_2_m3_q2",
-            "question": "うちへ （　　）に 帰ります。",
-            "options": [
-              "ばんごはんを たべ",
-              "ばんごはんを たべる",
-              "ばんごはんが たべ",
-              "ばんごはんの たべる"
-            ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTôi về nhà để ăn tối.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **ばんごはんを たべ**.\n\n📚 Từ vựng bổ trợ:\n- 家 (うち / uchi): Nhà (ở)\n\n💡 Ngữ pháp & Mẹo nhớ:\nMục đích là ăn tối: ばんごはんを たべます -> bỏ ます thành たべ + に."
-          },
-          {
-            "id": "m_review_11_15_2_m3_q3",
-            "question": "はがきは １枚 ５０円ですから、（　　）２５０円です。",
-            "options": [
-              "みんなで",
-              "ぜんぶで",
-              "いつも",
-              "たくさん"
-            ],
-            "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nBưu thiếp 1 tấm 50 Yên nên tổng cộng là 250 Yên.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **ぜんぶで**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nChỉ tổng số lượng tiền bạc, đồ vật dùng 全部で (ぜんぶで)."
-          }
-        ]
-      },
-      {
-        "id": "p_review_11_15_2_bunpou1",
-        "type": "mondai1",
-        "questions": [
-          {
-            "id": "m_review_11_15_2_b1_q0",
-            "question": "きのうは どこへも（　　）。",
-            "options": [
-              "いきませんでした",
-              "いきたくないです",
-              "いきません",
-              "いきたいです"
-            ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nHôm qua tôi đã không đi đâu cả.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **いきませんでした**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nきのう (hôm qua) -> thì quá khứ. Phủ định hoàn toàn với từ để hỏi + も -> いきませんでした."
-          },
-          {
-            "id": "m_review_11_15_2_b1_q1",
-            "question": "おなかが すきました。わたしは（　　）が たべたいです。",
-            "options": [
-              "ごはん",
-              "ほん",
-              "テレビ",
-              "コーヒー"
-            ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTôi đói rồi. Tôi muốn ăn cơm.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **ごはん**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nĐói thì phải ăn cơm (ごはん). コーヒー là uống, ほん là đọc."
-          },
-          {
-            "id": "m_review_11_15_2_b1_q2",
-            "question": "今、お金が（　　）。ですから、働きに 行きます。",
-            "options": [
-              "ほしいです",
-              "ほしくないです",
-              "たいです",
-              "たくないです"
-            ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nBây giờ tôi muốn có tiền. Vì vậy tôi sẽ đi làm.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **ほしいです**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nMuốn CÓ một đồ vật/thứ gì đó (tiền) dùng ほしいです. Phía sau nói đi làm nên phía trước phải là 'muốn có tiền'."
-          },
-          {
-            "id": "m_review_11_15_2_b1_q3",
-            "question": "外国人の 先生が １人（　　）います。",
-            "options": [
-              "から",
-              "まで",
-              "だけ",
-              "しか"
-            ],
-            "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nChỉ có 1 giáo viên người nước ngoài.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **だけ**.\n\n📚 Từ vựng bổ trợ:\n- 先生 (せんせい / sensei): Thầy/cô giáo\n- 外国 (がいこく / gaikoku): Nước ngoài\n\n💡 Ngữ pháp & Mẹo nhớ:\nだけ mang nghĩa 'chỉ', đi với câu khẳng định. Ở đây 'Chỉ có 1 người'."
-          }
-        ]
-      },
-      {
-        "id": "p_review_11_15_2_bunpou2",
-        "type": "mondai2",
-        "questions": [
-          {
-            "id": "m_review_11_15_2_b2_q0",
-            "question": "１しゅうかんに ２かい　___ ___ _★_ ___　いきます。",
-            "options": [
-              "へ",
-              "およぎ",
-              "プール",
-              "に"
-            ],
-            "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nTôi đi bơi ở bể bơi 2 lần 1 tuần.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: １しゅうかんに ２かい [プール] [へ] [★ およぎ] [に] いきます。\n- Từ ở vị trí ngôi sao (★) là: **およぎ**.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Cấu trúc chỉ mục đích di chuyển: V ます (bỏ ます) + に いきます. Ở đây bơi là およぎます -> およぎ に いきます."
-          },
-          {
-            "id": "m_review_11_15_2_b2_q1",
-            "question": "___ ___ _★_ ___　が ほしいです。",
-            "options": [
-              "の",
-              "じしょ",
-              "にほんご",
-              "あたらしい"
-            ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTôi muốn cuốn từ điển tiếng Nhật mới.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: [あたらしい] [にほんご] [★ の] [じしょ] が ほしいです。\n- Từ ở vị trí ngôi sao (★) là: **の**.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Cấu trúc mong muốn sở hữu: N が ほしいです. Tính từ あtatarashii bổ nghĩa cho cả cụm danh từ phía sau."
-          }
-        ]
-      },
-      {
-        "id": "p_review_11_15_2_dokkai1",
-        "type": "mondai3",
-        "text": [
-          "祇園祭は どうでしたか。",
-          "とても おもしろかったです。",
-          "でも、疲れました。",
-          "人も 多かったです。"
+        "vocabulary": [
+          "いらっしゃいませ (irasshaimase): Xin chào quý khách (kính ngữ cửa hàng)",
+          "どのくらい (dono kurai): Bao lâu",
+          "かかります (kakarimasu): Mất (thời gian, tiền bạc)",
+          "いくら（〜ても） (いくら / ikura): Cho dù (~ đi nữa)",
+          "します（ネクタイを〜） (します / shimasu): Đeo (cà vạt)",
+          "はい (hai): Vâng, đúng vậy",
+          "これ (kore): Cái này (gần người nói)",
+          "日 (ひ / hi): Ngày"
         ],
-        "translation": [
-          "Lễ hội Gion thế nào?",
-          "Rất thú vị.",
-          "Nhưng mà mệt.",
-          "Người cũng rất đông."
-        ],
-        "vocabulary": [],
         "questions": []
       }
     ]
@@ -3645,51 +3695,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_11_15_3_m1_q0",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【～台】",
+            "question": "きょうは こうえんで しゃしんを 【取ります】。",
             "options": [
-              "しりょう",
-              "～だい",
-              "みなさん",
-              "さあ"
+              "すわります",
+              "ていしょく",
+              "はいります",
+              "とります"
             ],
-            "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【～台】 có nghĩa là: **～chiếc (máy móc, xe)**.\n\n✍️ Phân tích đáp án:\n- **～だい** (~dai): Cách đọc đúng của chữ Hán 【～台】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **ĐÀI**.\n- Mẹo nhớ: Chiếc (máy móc/xe cộ)."
+            "correctIndex": 3,
+            "explanation": "📖 Dịch nghĩa:\nHôm nay tôi sẽ chụp ảnh ở công viên.\n\n✍️ Phân tích đáp án:\n- **すわります** (suwarimasu): Nghĩa là \"Ngồi\" → Sai.\n- **ていしょく** (teishoku): Nghĩa là \"Suất ăn, set ăn\" → Sai.\n- **はいります** (hairimasu): Nghĩa là \"Vào\" → Sai.\n- **とります** (torimasu): Cách đọc đúng của chữ Hán 【取ります】 → Chọn.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">きょう</span> (Từ vựng - Danh từ: \"Hôm nay\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">こうえん</span> (Từ vựng - Danh từ: \"Công viên\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">しゃしん</span> (Từ vựng - Danh từ: \"Bức ảnh\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">取ります</span> (Từ vựng - Động từ: \"Lấy\")\n\n📝 Từ vựng trong câu:\n- **今日 (きょう / kyou)**: Hôm nay\n- **公園 (こうえん / kouen)**: Công viên\n- **写真 (しゃしん / shashin)**: Bức ảnh\n- **取ります (とります / torimasu)**: Lấy\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **THỦ**.\n- Mẹo nhớ: Dùng tay (Hựu) nắm lấy tai (Nhĩ) để Lấy đi."
           },
           {
             "id": "m_review_11_15_3_m1_q1",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【お姉さん】",
+            "question": "それは 【兄弟】 です。",
             "options": [
-              "おきます",
-              "エアコン",
-              "ここのつ",
-              "おねえさん"
+              "きょうだい",
+              "よびます",
+              "ふります",
+              "いそぎます"
             ],
-            "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【お姉さん】 có nghĩa là: **Chị gái (của người khác)**.\n\n✍️ Phân tích đáp án:\n- **おねえさん** (oneesan): Cách đọc đúng của chữ Hán 【お姉さん】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **TỶ**.\n- Mẹo nhớ: Người chị gái trong gia đình."
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nCái đó anh em.\n\n✍️ Phân tích đáp án:\n- **きょうだい** (kyoudai): Cách đọc đúng của chữ Hán 【兄弟】 → Chọn.\n- **よびます** (yobimasu): Nghĩa là \"Gọi\" → Sai.\n- **ふります** (furimasu): Nghĩa là \"Rơi (mưa, tuyết)\" → Sai.\n- **いそぎます** (isogimasu): Nghĩa là \"Vội, gấp\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">それ</span> (Từ vựng - Đại từ: \"Cái đó (gần người nghe)\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">兄弟</span> (Từ vựng - Danh từ: \"Anh em\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **それ (sore)**: Cái đó (gần người nghe)\n- **兄弟 (きょうだい / kyoudai)**: Anh em\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **HUYNH ĐỆ**.\n- Mẹo nhớ: Anh em trong nhà."
           },
           {
             "id": "m_review_11_15_3_m1_q2",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【見せます】",
+            "question": "これ 【読み方】 です。",
             "options": [
-              "みせます",
-              "ぎゅうどん",
-              "ひろい",
-              "はいしゃ"
+              "てんき",
+              "よみかた",
+              "エアコン",
+              "いちばん"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【見せます】 có nghĩa là: **Cho xem**.\n\n✍️ Phân tích đáp án:\n- **みせます** (misemasu): Cách đọc đúng của chữ Hán 【見せます】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **KIẾN**.\n- Mẹo nhớ: Làm cho ai đó xem là Cho xem."
+            "correctIndex": 1,
+            "explanation": "📖 Dịch nghĩa:\nĐây là cách đọc.\n\n✍️ Phân tích đáp án:\n- **てんき** (tenki): Nghĩa là \"Thời tiết\" → Sai.\n- **よみかた** (yomikata): Cách đọc đúng của chữ Hán 【読み方】 → Chọn.\n- **エアコン** (eakon): Nghĩa là \"Máy điều hòa\" → Sai.\n- **いちばん** (ichiban): Nghĩa là \"~ nhất (ví dụ: trên cùng, dưới cùng)\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">これ</span> (Từ vựng - Đại từ: \"Cái này (gần người nói)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">読み方</span> (Từ vựng - Danh từ: \"Cách đọc\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **これ (kore)**: Cái này (gần người nói)\n- **読み方 (よみかた / yomikata)**: Cách đọc\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **ĐỘC PHƯƠNG**.\n- Mẹo nhớ: Cách thức (Phương) để đọc (Độc) chữ là Cách đọc."
           },
           {
             "id": "m_review_11_15_3_m1_q3",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【兄弟】",
+            "question": "これ 【封筒】 です。",
             "options": [
-              "はいしゃ",
-              "サンドイッチ",
-              "きょうだい",
-              "びじゅつ"
+              "ふうとう",
+              "きせつ",
+              "からい",
+              "ふたり"
             ],
-            "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【兄弟】 có nghĩa là: **Anh em**.\n\n✍️ Phân tích đáp án:\n- **きょうだい** (kyoudai): Cách đọc đúng của chữ Hán 【兄弟】.\n\n📚 Từ vựng bổ trợ:\n- 弟 (おとうと / otouto): Em trai\n- 兄 (あに / ani): Anh trai\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **HUYNH ĐỆ**.\n- Mẹo nhớ: Anh em trong nhà."
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nĐây là phong bì.\n\n✍️ Phân tích đáp án:\n- **ふうとう** (fuutou): Cách đọc đúng của chữ Hán 【封筒】 → Chọn.\n- **きせつ** (kisetsu): Nghĩa là \"Mùa\" → Sai.\n- **からい** (karai): Nghĩa là \"Cay\" → Sai.\n- **ふたり** (futari): Nghĩa là \"Hai người\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">これ</span> (Từ vựng - Đại từ: \"Cái này (gần người nói)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">封筒</span> (Từ vựng - Danh từ: \"Phong bì\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **これ (kore)**: Cái này (gần người nói)\n- **封筒 (ふうとう / fuutou)**: Phong bì\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **PHONG ĐỒNG**.\n- Mẹo nhớ: Cái bao (Đồng) để phong bì (Phong) thư lại."
           }
         ]
       },
@@ -3699,51 +3749,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_11_15_3_m2_q0",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【ふうとう】",
+            "question": "それは 【ひろい】 です。",
             "options": [
-              "プール",
-              "一つ",
-              "封筒",
-              "別々に"
+              "～回",
+              "重い",
+              "広い",
+              "歯医者"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Phong bì**.\n\n✍️ Phân tích đáp án:\n- **封筒** (ふうとう): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **PHONG ĐỒNG**.\n- Cấu tạo: 封 (Phong - Phong bì) + 筒 (Đồng - Ống/Thùng)"
+            "explanation": "📖 Dịch nghĩa:\nCái đó rộng.\n\n✍️ Phân tích đáp án:\n- **～回** (～かい): Nghĩa là \"～lần\" → Sai.\n- **重い** (おもい): Nghĩa là \"Nặng\" → Sai.\n- **広い** (ひろい): Cách viết chữ Hán đúng của từ 【ひろい】 → Chọn.\n- **歯医者** (はいしゃ): Nghĩa là \"Nha sĩ\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">それ</span> (Từ vựng - Đại từ: \"Cái đó (gần người nghe)\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ひろい</span> (Từ vựng - Tính từ i: \"Rộng\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **それ (sore)**: Cái đó (gần người nghe)\n- **広い (ひろい / hiroi)**: Rộng\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **QUẢNG**.\n- Cấu tạo: 广 (Nghiễm - Mái nhà) + ム (Khư)"
           },
           {
             "id": "m_review_11_15_3_m2_q1",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【きせつ】",
+            "question": "あした 【しります】。",
             "options": [
-              "季節",
-              "弟",
-              "～回",
-              "夏"
+              "速い・早い",
+              "読み方",
+              "どのくらい",
+              "知ります"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Mùa**.\n\n✍️ Phân tích đáp án:\n- **季節** (きせつ): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **QUÝ TIẾT**.\n- Cấu tạo: 季 (Quý - Mùa) + 節 (Tiết - Khớp/Đốt)"
+            "correctIndex": 3,
+            "explanation": "📖 Dịch nghĩa:\nNgày mai tôi sẽ biết.\n\n✍️ Phân tích đáp án:\n- **速い・早い** (はやい): Nghĩa là \"Nhanh, sớm\" → Sai.\n- **読み方** (よみかた): Nghĩa là \"Cách đọc\" → Sai.\n- **どのくらい** (どのくらい): Nghĩa là \"Bao lâu\" → Sai.\n- **知ります** (しります): Cách viết chữ Hán đúng của từ 【しります】 → Chọn.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あした</span> (Từ vựng - Danh từ: \"Ngày mai\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">しります</span> (Từ vựng - Động từ: \"Biết\")\n\n📝 Từ vựng trong câu:\n- **明日 (あした / ashita)**: Ngày mai\n- **知ります (しります / shirimasu)**: Biết\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **TRI**.\n- Cấu tạo: 矢 (Thỉ - Mũi tên) + 口 (Khẩu - Miệng)"
           },
           {
             "id": "m_review_11_15_3_m2_q2",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【ごかぞく】",
+            "question": "これ 【とうろく】 です。",
             "options": [
-              "閉めます",
-              "欲しい",
-              "まっすぐ",
-              "ご家族"
+              "甘い",
+              "どこか",
+              "登録",
+              "～週間"
             ],
-            "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Gia đình (người khác)**.\n\n✍️ Phân tích đáp án:\n- **ご家族** (ごかぞく): Cách viết chữ Hán đúng của từ.\n\n📚 Từ vựng bổ trợ:\n- 家族 (かぞく / kazoku): Gia đình\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **GIA TỘC**.\n- Cấu tạo: 家 (Gia) + 族 (Tộc)"
+            "correctIndex": 2,
+            "explanation": "📖 Dịch nghĩa:\nĐây là đăng ký.\n\n✍️ Phân tích đáp án:\n- **甘い** (あまい): Nghĩa là \"Ngọt\" → Sai.\n- **どこか** (どこか): Nghĩa là \"Đâu đó\" → Sai.\n- **登録** (とうろく): Cách viết chữ Hán đúng của từ 【とうろく】 → Chọn.\n- **～週間** (～しゅうかん): Nghĩa là \"～tuần\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">これ</span> (Từ vựng - Đại từ: \"Cái này (gần người nói)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">とうろく</span> (Từ vựng - Danh từ: \"Đăng ký\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **これ (kore)**: Cái này (gần người nói)\n- **登録 (とうろく / touroku)**: Đăng ký\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **ĐĂNG LỤC**.\n- Cấu tạo: 登 (Đăng - Leo lên) + 録 (Lục - Ghi chép)"
           },
           {
             "id": "m_review_11_15_3_m2_q3",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【はやい】",
+            "question": "あした 【けっこんします】。",
             "options": [
-              "すきます",
-              "かかります",
-              "速い、早い",
-              "カタログ"
+              "カタログ",
+              "作ります",
+              "結婚します",
+              "見せます"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Nhanh, sớm**.\n\n✍️ Phân tích đáp án:\n- **速い、早い** (はやい): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **TỐC / TẢO**.\n- Cấu tạo: 速 (Tốc - Tốc độ), 早 (Tảo - Sớm)"
+            "explanation": "📖 Dịch nghĩa:\nNgày mai tôi sẽ kết hôn.\n\n✍️ Phân tích đáp án:\n- **カタログ** (カタログ): Nghĩa là \"Catalog\" → Sai.\n- **作ります** (つかります): Nghĩa là \"Làm, chế tạo\" → Sai.\n- **結婚します** (けっこんします): Cách viết chữ Hán đúng của từ 【けっこんします】 → Chọn.\n- **見せます** (みせます): Nghĩa là \"Cho xem\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あした</span> (Từ vựng - Danh từ: \"Ngày mai\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">けっこんします</span> (Từ vựng - Động từ: \"Kết hôn\")\n\n📝 Từ vựng trong câu:\n- **明日 (あした / ashita)**: Ngày mai\n- **結婚します (けっこんします / kekkonshimasu)**: Kết hôn\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **KẾT HÔN**.\n- Cấu tạo: 結 (Kết - Buộc/Nối) + 婚 (Hôn - Kết hôn)"
           }
         ]
       },
@@ -3753,51 +3803,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_11_15_3_m3_q0",
-            "question": "うちから 会社まで 車で（　　）かかりますか。",
+            "question": "日本に ３（　　）いました。",
             "options": [
-              "いくつ",
-              "なんにん",
-              "どのくらい",
-              "どれ"
+              "ねん",
+              "ねんかん",
+              "かい",
+              "つ"
             ],
-            "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTừ nhà đến công ty đi ô tô mất khoảng bao lâu?\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **どのくらい**.\n\n📚 Từ vựng bổ trợ:\n- 会社 (かいしゃ / kaisha): Công ty\n- 家 (うち / uchi): Nhà (ở)\n- 車 (くるま / kuruma): Ô tô, xe hơi\n\n💡 Ngữ pháp & Mẹo nhớ:\nHỏi về khoảng thời gian cần thiết dùng どのくらい."
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nTôi đã ở Nhật Bản 3 năm.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **ねん**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">日本</span> (Từ vựng - Danh từ: \"Nhật Bản\")\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / địa điểm / đối tượng tiếp nhận)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">いました</span> (Từ vựng - Động từ: \"Có (người, động vật)\")\n\n📝 Từ vựng trong câu:\n- **日本 (にほん / nihon)**: Nhật Bản\n- **います (imasu)**: Có (người, động vật)\n\n💡 Ngữ pháp & Mẹo nhớ:\nĐếm số năm dùng 年 (ねん), không cần thêm 間 (かん)."
           },
           {
             "id": "m_review_11_15_3_m3_q1",
-            "question": "すみません、この漢字の（　　）を おしえて ください。",
+            "question": "わたしの 会社に 外国人が ５人（　　）います。",
             "options": [
-              "よみかた",
-              "よみ",
-              "よむかた",
-              "よんでかた"
+              "を",
+              "が",
+              "で",
+              "Ｘ（không điền gì）"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nXin lỗi, hãy chỉ cho tôi cách đọc của chữ Hán này.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **よみかた**.\n\n📚 Từ vựng bổ trợ:\n- 絵 (え / e): Bức tranh\n\n💡 Ngữ pháp & Mẹo nhớ:\nCách làm gì đó: V(bỏ ます) + 方 (かた). 読みます -> 読み方."
+            "correctIndex": 3,
+            "explanation": "📖 Dịch nghĩa:\nỞ công ty tôi có 5 người nước ngoài.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **Ｘ（không điền gì）**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">わたし</span> (Từ vựng - Đại từ: \"Tôi\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">会社</span> (Từ vựng - Danh từ: \"Công ty\")\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / địa điểm / đối tượng tiếp nhận)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">外国</span> (Từ vựng - Danh từ: \"Nước ngoài\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">人</span> (Từ vựng - Danh từ: \"Người\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">人</span> (Từ vựng - Danh từ: \"Người\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">います</span> (Từ vựng - Động từ: \"Có (người, động vật)\")\n\n📝 Từ vựng trong câu:\n- **私 (わたし / watashi)**: Tôi\n- **会社 (かいしゃ / kaisha)**: Công ty\n- **外国 (がいこく / gaikoku)**: Nước ngoài\n- **人 (ひと / hito)**: Người\n- **います (imasu)**: Có (người, động vật)\n\n💡 Ngữ pháp & Mẹo nhớ:\nLượng từ (５人) có thể đứng ngay trước động từ mà KHÔNG cần trợ từ đi kèm phía sau."
           },
           {
             "id": "m_review_11_15_3_m3_q2",
-            "question": "スーパーで パソコンの ソフトを（　　）います。",
+            "question": "A：机の 上に 写真が （　　）ありますか。 ...B：５枚 あります。",
             "options": [
-              "うって",
-              "うりて",
-              "うんで",
-              "ういて"
+              "なんまい",
+              "なんだい",
+              "いくつ",
+              "なんにん"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nỞ siêu thị có bán phần mềm máy tính.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **うって**.\n\n📚 Từ vựng bổ trợ:\n- スーパー (suupaa): Siêu thị\n\n💡 Ngữ pháp & Mẹo nhớ:\nViệc bán hàng (duy trì) dùng 売っています (売ります -> 売って)."
+            "explanation": "📖 Dịch nghĩa:\nA: Trên bàn có mấy tấm ảnh? ...B: Có 5 tấm.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **なんまい**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">机</span> (Từ vựng - Danh từ: \"Bàn\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">上</span> (Từ vựng - Danh từ: \"Trên, phía trên\")\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / địa điểm / đối tượng tiếp nhận)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">写真</span> (Từ vựng - Danh từ: \"Bức ảnh\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あります</span> (Từ vựng - Động từ: \"Có (sở hữu)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あります</span> (Từ vựng - Động từ: \"Có (sở hữu)\")\n\n📝 Từ vựng trong câu:\n- **机 (つくえ / tsukue)**: Bàn\n- **上 (うえ / ue)**: Trên, phía trên\n- **写真 (しゃしん / shashin)**: Bức ảnh\n- **あります (arimasu)**: Có (sở hữu)\n\n💡 Ngữ pháp & Mẹo nhớ:\nĐếm ảnh (vật mỏng) dùng 枚 (まい), câu hỏi là 何枚 (なんまい)."
           },
           {
             "id": "m_review_11_15_3_m3_q3",
-            "question": "山田さんは 今 電話を（　　）います。",
+            "question": "きのう、あたらしい くるまを（　　）。",
             "options": [
-              "かけて",
-              "かけり",
-              "かんで",
-              "かして"
+              "かいました",
+              "かっています",
+              "かって",
+              "かいます"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nAnh Yamada bây giờ đang gọi điện thoại.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **かけて**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nかけます (nhóm 2) -> かけて. Đang gọi điện: かけています."
+            "explanation": "📖 Dịch nghĩa:\nHôm qua, tôi đã mua một chiếc ô tô mới.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **かいました**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">きのう</span> (Từ vựng - Danh từ: \"Hôm qua\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あたらしい</span> (Từ vựng - Tính từ đuôi i: \"Mới\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n\n📝 Từ vựng trong câu:\n- **きのう (kinou)**: Hôm qua\n- **新しい (あたらしい / atarashii)**: Mới\n\n💡 Ngữ pháp & Mẹo nhớ:\nきのう (hôm qua) -> Quá khứ, nên dùng 買いました. Không dùng 買っています vì đây là một hành động đã hoàn tất trong quá khứ, không phải trạng thái sở hữu (nếu sở hữu là 持っています)."
           }
         ]
       },
@@ -3807,51 +3857,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_11_15_3_b1_q0",
-            "question": "A：家族は （　　）ですか。 ...B：４人です。",
+            "question": "山田さんは 今 電話を（　　）います。",
             "options": [
-              "いくつ",
-              "なんにん",
-              "だれ",
-              "どのくらい"
+              "かけて",
+              "かけり",
+              "かんで",
+              "かして"
             ],
-            "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nA: Gia đình bạn có mấy người? ...B: 4 người.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **なんにん**.\n\n📚 Từ vựng bổ trợ:\n- 家族 (かぞく / kazoku): Gia đình\n\n💡 Ngữ pháp & Mẹo nhớ:\nHỏi số lượng người dùng 何人 (なんにん)."
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nAnh Yamada bây giờ đang gọi điện thoại.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **かけて**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">山</span> (Từ vựng - Danh từ: \"Núi\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">今</span> (Từ vựng - Danh từ: \"Bây giờ\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">電話</span> (Từ vựng - Danh từ: \"Điện thoại\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">います</span> (Từ vựng - Động từ: \"Có (người, động vật)\")\n\n📝 Từ vựng trong câu:\n- **山 (やま / yama)**: Núi\n- **今 (いま / ima)**: Bây giờ\n- **電話 (でんわ / denwa)**: Điện thoại\n- **います (imasu)**: Có (người, động vật)\n\n💡 Ngữ pháp & Mẹo nhớ:\nかけます (nhóm 2) -> かけて. Đang gọi điện: かけています."
           },
           {
             "id": "m_review_11_15_3_b1_q1",
-            "question": "A：テレビを（　　）もいいですか。 ...B：すみません、ちょっと...",
+            "question": "あそこで たばこを（　　）は いけません。",
             "options": [
-              "つけて",
-              "つけり",
-              "つかって",
-              "つかて"
+              "すって",
+              "すいて",
+              "すんで",
+              "すってて"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nA: Tôi bật tivi được không? ...B: Xin lỗi, hơi bất tiện... (từ chối khéo).\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **つけて**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nBật (máy móc) là つけます (nhóm 2) -> つけて."
+            "explanation": "📖 Dịch nghĩa:\nKhông được hút thuốc ở đằng kia.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **すって**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あそこ</span> (Từ vựng - Đại từ: \"Kia, chỗ kia\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">たばこ</span> (Từ vựng - Danh từ: \"Thuốc lá\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">せん</span> (Từ vựng - Số đếm: \"Nghìn\")\n\n📝 Từ vựng trong câu:\n- **あそこ (asoko)**: Kia, chỗ kia\n- **たばこ (tabako)**: Thuốc lá\n- **千 (せん / sen)**: Nghìn\n\n💡 Ngữ pháp & Mẹo nhớ:\n吸います (nhóm 1, đuôi い) -> 吸って + はいけません."
           },
           {
             "id": "m_review_11_15_3_b1_q2",
-            "question": "あの しんごうを みぎへ（　　）ください。",
+            "question": "うちへ （　　）に 帰ります。",
             "options": [
-              "まがって",
-              "まがりて",
-              "まがんで",
-              "まがいで"
+              "ばんごはんを たべ",
+              "ばんごはんを たべる",
+              "ばんごはんが たべ",
+              "ばんごはんの たべる"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nXin hãy rẽ phải ở đèn tín hiệu kia.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **まがって**.\n\n💡 Ngữ pháp & Mẹo nhớ:\n曲がります (nhóm 1 đuôi り) -> って. -> 曲がって."
+            "explanation": "📖 Dịch nghĩa:\nTôi về nhà để ăn tối.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **ばんごはんを たべ**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">うち</span> (Từ vựng - Danh từ: \"Nhà\")\n- <span style=\"color: #f73859; font-weight: 800;\">へ</span> (Trợ từ chỉ hướng di chuyển)\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / địa điểm / đối tượng tiếp nhận)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">帰ります</span> (Từ vựng - Động từ: \"Về\")\n\n📝 Từ vựng trong câu:\n- **うち (uchi)**: Nhà\n- **帰ります (かえります / kaerimasu)**: Về\n\n💡 Ngữ pháp & Mẹo nhớ:\nMục đích là ăn tối: ばんごはんを たべます -> bỏ ます thành たべ + に."
           },
           {
             "id": "m_review_11_15_3_b1_q3",
-            "question": "あした 京都へ （　　）に 行きます。",
+            "question": "あねは けっこん（　　）。",
             "options": [
-              "おまつり",
-              "おまつりし",
-              "おまつりする",
-              "おまつりを"
+              "しています",
+              "します",
+              "しました",
+              "してあります"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nNgày mai tôi đi Kyoto để tham gia lễ hội.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **おまつり**.\n\n📚 Từ vựng bổ trợ:\n- 明日 (あした / ashita): Ngày mai\n\n💡 Ngữ pháp & Mẹo nhớ:\nお祭り (lễ hội) là một danh từ sự kiện. Khi dùng với mục đích, ghép trực tiếp: Danh từ + に."
+            "explanation": "📖 Dịch nghĩa:\nChị gái tôi đã kết hôn (hiện đang có gia đình).\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **しています**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あね</span> (Từ vựng - Danh từ: \"Chị gái (của mình)\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n\n📝 Từ vựng trong câu:\n- **姉 (あね / ane)**: Chị gái (của mình)\n\n💡 Ngữ pháp & Mẹo nhớ:\nTình trạng hôn nhân luôn dùng thể Vています -> 結婚しています."
           }
         ]
       },
@@ -3861,6 +3911,284 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_11_15_3_b2_q0",
+            "question": "１しゅうかんに ２かい　___ ___ _★_ ___　いきます。",
+            "options": [
+              "へ",
+              "およぎ",
+              "プール",
+              "に"
+            ],
+            "correctIndex": 1,
+            "explanation": "📖 Dịch nghĩa:\nTôi đi bơi ở bể bơi 2 lần 1 tuần.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: １しゅうかんに ２かい プール へ およぎ に いきます。\n- Từ ở vị trí ngôi sao (★) là: **およぎ**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / địa điểm / đối tượng tiếp nhận)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">プール</span> (Từ vựng - Danh từ: \"Bể bơi\")\n- <span style=\"color: #f73859; font-weight: 800;\">へ</span> (Trợ từ chỉ hướng di chuyển)\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / địa điểm / đối tượng tiếp nhận)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">いきます</span> (Từ vựng - Động từ: \"Đi\")\n\n📝 Từ vựng trong câu:\n- **プール (puuru)**: Bể bơi\n- **行きます (いきます / ikimasu)**: Đi\n\n💡 Ngữ pháp & Mẹo nhớ:\nCấu trúc chỉ mục đích di chuyển: V ます (bỏ ます) + に いきます. Ở đây bơi là およぎます."
+          },
+          {
+            "id": "m_review_11_15_3_b2_q1",
+            "question": "___ ___ _★_ ___　が ほしいです。",
+            "options": [
+              "の",
+              "じしょ",
+              "にほんご",
+              "あたらしい"
+            ],
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nTôi muốn cuốn từ điển tiếng Nhật mới.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: あたらしい にほんご の じしょ が ほしいです。\n- Từ ở vị trí ngôi sao (★) là: **の**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あたらしい</span> (Từ vựng - Tính từ đuôi i: \"Mới\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">にほんご</span> (Từ vựng - Danh từ: \"Tiếng Nhật\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">じしょ</span> (Từ vựng - Danh từ: \"Từ điển\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ほしい</span> (Từ vựng - Tính từ i: \"Muốn có\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **新しい (あたらしい / atarashii)**: Mới\n- **日本語 (にほんご / nihongo)**: Tiếng Nhật\n- **辞書 (じしょ / jisho)**: Từ điển\n- **欲しい (ほしい / hoshii)**: Muốn có\n\n💡 Ngữ pháp & Mẹo nhớ:\nCấu trúc mong muốn sở hữu: N が ほしいです. Tính từ あたらしい bổ nghĩa cho cả cụm danh từ phía sau."
+          }
+        ]
+      },
+      {
+        "id": "p_review_11_15_3_dokkai1",
+        "type": "mondai3",
+        "text": [
+          "祇園祭は どうでしたか。",
+          "とても おもしろかったです。",
+          "でも、疲れました。",
+          "人も 多かったです。"
+        ],
+        "translation": [
+          "Lễ hội Gion thế nào?",
+          "Rất thú vị.",
+          "Nhưng mà mệt.",
+          "Người cũng rất đông."
+        ],
+        "vocabulary": [
+          "とても (totemo): Rất",
+          "下 (した / shita): Dưới, bên dưới",
+          "どう (dou): Như thế nào?",
+          "もし（〜たら） (もし / moshi): Nếu (~ thì)",
+          "も (mo): Cũng (thêm vào)",
+          "人 (ひと / hito): Người"
+        ],
+        "questions": []
+      }
+    ]
+  },
+  {
+    "id": "review_11_15_4",
+    "title": "Đề thi 4: Trạm Ôn Tập JLPT N5 (Bài 11 - 15)",
+    "description": "Bộ đề số 4. Các câu hỏi và bài đọc được thiết kế độc lập 100% để ôn luyện toàn diện.",
+    "passages": [
+      {
+        "id": "p_review_11_15_4_moji1",
+        "type": "moji_mondai1",
+        "questions": [
+          {
+            "id": "m_review_11_15_4_m1_q0",
+            "question": "２階：【服】",
+            "options": [
+              "はる",
+              "ふく",
+              "ななつ",
+              "とお"
+            ],
+            "correctIndex": 1,
+            "explanation": "📖 Dịch nghĩa:\nTầng 2: Quần áo\n\n✍️ Phân tích đáp án:\n- **はる** (haru): Nghĩa là \"Mùa xuân\" → Sai.\n- **ふく** (fuku): Cách đọc đúng của chữ Hán 【服】 → Chọn.\n- **ななつ** (nanatsu): Nghĩa là \"7 cái\" → Sai.\n- **とお** (too): Nghĩa là \"10 cái\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">服</span> (Từ vựng - Danh từ: \"Quần áo\")\n\n📝 Từ vựng trong câu:\n- **服 (ふく / fuku)**: Quần áo\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **PHỤC**.\n- Mẹo nhớ: Lại (Hựu) quấn thêm lên cơ thể (Nhục) những bộ trang Phục."
+          },
+          {
+            "id": "m_review_11_15_4_m1_q1",
+            "question": "【週末】は やまへ（　　）に 行きます。",
+            "options": [
+              "しゅうまつ",
+              "はなします",
+              "てつだいます",
+              "おしえます"
+            ],
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nCuối tuần tôi đi núi để chơi.\n\n✍️ Phân tích đáp án:\n- **しゅうまつ** (shuumatsu): Cách đọc đúng của chữ Hán 【週末】 → Chọn.\n- **はなします** (hanashimasu): Nghĩa là \"Nói chuyện\" → Sai.\n- **てつだいます** (tetsudaimasu): Nghĩa là \"Giúp đỡ\" → Sai.\n- **おしえます** (oshiemasu): Nghĩa là \"Dạy\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">週末</span> (Từ vựng - Danh từ: \"Cuối tuần\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">やま</span> (Từ vựng - Danh từ: \"Núi\")\n- <span style=\"color: #f73859; font-weight: 800;\">へ</span> (Trợ từ chỉ hướng di chuyển)\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / địa điểm / đối tượng tiếp nhận)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">行きます</span> (Từ vựng - Động từ: \"Đi\")\n\n📝 Từ vựng trong câu:\n- **週末 (しゅうまつ / shuumatsu)**: Cuối tuần\n- **山 (やま / yama)**: Núi\n- **行きます (いきます / ikimasu)**: Đi\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **CHU MẠT**.\n- Mẹo nhớ: Phần cuối cùng (Mạt) của một tuần (Chu) là Cuối tuần."
+          },
+          {
+            "id": "m_review_11_15_4_m1_q2",
+            "question": "これ 【特に】 です。",
+            "options": [
+              "どくしん",
+              "とくに",
+              "～かい",
+              "つり"
+            ],
+            "correctIndex": 1,
+            "explanation": "📖 Dịch nghĩa:\nĐây là đặc biệt.\n\n✍️ Phân tích đáp án:\n- **どくしん** (dokushin): Nghĩa là \"Độc thân\" → Sai.\n- **とくに** (tokuni): Cách đọc đúng của chữ Hán 【特に】 → Chọn.\n- **～かい** (~kai): Nghĩa là \"～lần\" → Sai.\n- **つり** (tsuri): Nghĩa là \"Câu cá\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">これ</span> (Từ vựng - Đại từ: \"Cái này (gần người nói)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">特に</span> (Từ vựng - Phó từ: \"Đặc biệt\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **これ (kore)**: Cái này (gần người nói)\n- **特に (とくに / tokuni)**: Đặc biệt\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **ĐẶC**.\n- Mẹo nhớ: Con bò (Ngưu) sống trong chùa (Tự) là rất Đặc biệt."
+          },
+          {
+            "id": "m_review_11_15_4_m1_q3",
+            "question": "あした 【見せます】。",
+            "options": [
+              "みせます",
+              "おしえます",
+              "ソフト",
+              "てんき"
+            ],
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nNgày mai tôi sẽ cho xem.\n\n✍️ Phân tích đáp án:\n- **みせます** (misemasu): Cách đọc đúng của chữ Hán 【見せます】 → Chọn.\n- **おしえます** (oshiemasu): Nghĩa là \"Dạy\" → Sai.\n- **ソフト** (sofuto): Nghĩa là \"Phần mềm\" → Sai.\n- **てんき** (tenki): Nghĩa là \"Thời tiết\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あした</span> (Từ vựng - Danh từ: \"Ngày mai\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">見せます</span> (Từ vựng - Động từ: \"Cho xem\")\n\n📝 Từ vựng trong câu:\n- **明日 (あした / ashita)**: Ngày mai\n- **見せます (みせます / misemasu)**: Cho xem\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **KIẾN**.\n- Mẹo nhớ: Làm cho ai đó xem là Cho xem."
+          }
+        ]
+      },
+      {
+        "id": "p_review_11_15_4_moji2",
+        "type": "moji_mondai2",
+        "questions": [
+          {
+            "id": "m_review_11_15_4_m2_q0",
+            "question": "それは 【けいざい】 です。",
+            "options": [
+              "ソフト",
+              "冬",
+              "経済",
+              "広い"
+            ],
+            "correctIndex": 2,
+            "explanation": "📖 Dịch nghĩa:\nCái đó kinh tế.\n\n✍️ Phân tích đáp án:\n- **ソフト** (ソフト): Nghĩa là \"Phần mềm\" → Sai.\n- **冬** (ふゆ): Nghĩa là \"Mùa đông\" → Sai.\n- **経済** (けいざい): Cách viết chữ Hán đúng của từ 【けいざい】 → Chọn.\n- **広い** (ひろい): Nghĩa là \"Rộng\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">それ</span> (Từ vựng - Đại từ: \"Cái đó (gần người nghe)\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">けいざい</span> (Từ vựng - Danh từ: \"Kinh tế\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **それ (sore)**: Cái đó (gần người nghe)\n- **経済 (けいざい / keizai)**: Kinh tế\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **KINH TẾ**.\n- Cấu tạo: 経 (Kinh - Kinh tuyến/Trải qua) + 済 (Tế - Cứu tế/Xong)"
+          },
+          {
+            "id": "m_review_11_15_4_m2_q1",
+            "question": "さとうさんは ２２さい（　　）、【どくしん】です。",
+            "options": [
+              "すぐ",
+              "独身",
+              "秋",
+              "簡単"
+            ],
+            "correctIndex": 1,
+            "explanation": "📖 Dịch nghĩa:\nAnh Sato 22 tuổi và đang độc thân.\n\n✍️ Phân tích đáp án:\n- **すぐ** (すぐ): Nghĩa là \"Ngay lập tức\" → Sai.\n- **独身** (どくしん): Cách viết chữ Hán đúng của từ 【どくしん】 → Chọn.\n- **秋** (あき): Nghĩa là \"Mùa thu\" → Sai.\n- **簡単** (かんたん): Nghĩa là \"Đơn giản, dễ\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">さとう</span> (Từ vựng - Danh từ: \"Đường\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">どくしん</span> (Từ vựng - Danh từ: \"Độc thân\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **砂糖 (さとう / satou)**: Đường\n- **独身 (どくしん / dokushin)**: Độc thân\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **ĐỘC THÂN**.\n- Cấu tạo: 独 (Độc - Đơn độc) + 身 (Thân - Thân thể)"
+          },
+          {
+            "id": "m_review_11_15_4_m2_q2",
+            "question": "【なにか】 たべたいです。",
+            "options": [
+              "切手",
+              "何か",
+              "甘い",
+              "～時間"
+            ],
+            "correctIndex": 1,
+            "explanation": "📖 Dịch nghĩa:\nTôi muốn ăn cái gì đó.\n\n✍️ Phân tích đáp án:\n- **切手** (きって): Nghĩa là \"Tem\" → Sai.\n- **何か** (なにか): Cách viết chữ Hán đúng của từ 【なにか】 → Chọn.\n- **甘い** (あまい): Nghĩa là \"Ngọt\" → Sai.\n- **～時間** (～じかん): Nghĩa là \"～tiếng (đồng hồ)\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">なにか</span> (Từ vựng - Đại từ: \"Cái gì đó\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">たべたいです</span> (Từ vựng - Động từ: \"Ăn\")\n\n📝 Từ vựng trong câu:\n- **何か (なにか / nanika)**: Cái gì đó\n- **食べます (たべます / tabemasu)**: Ăn\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **HÀ**.\n- Cấu tạo: 何 (Hà) + か (Trợ từ nghi vấn)"
+          },
+          {
+            "id": "m_review_11_15_4_m2_q3",
+            "question": "こども（　　）とき、よく 【かわ】で およぎました。",
+            "options": [
+              "～台",
+              "季節",
+              "川",
+              "広い"
+            ],
+            "correctIndex": 2,
+            "explanation": "📖 Dịch nghĩa:\nKhi còn nhỏ, tôi thường bơi ở sông.\n\n✍️ Phân tích đáp án:\n- **～台** (～だい): Nghĩa là \"～chiếc (máy móc, xe)\" → Sai.\n- **季節** (きせつ): Nghĩa là \"Mùa\" → Sai.\n- **川** (かわ): Cách viết chữ Hán đúng của từ 【かわ】 → Chọn.\n- **広い** (ひろい): Nghĩa là \"Rộng\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">こども</span> (Từ vựng - Danh từ: \"Trẻ con, con cái\")\n- <span style=\"color: #f73859; font-weight: 800;\">と</span> (Trợ từ chỉ đối tượng đồng hành / liệt kê)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">よく</span> (Từ vựng - Phó từ: \"Rõ, tốt, thường\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">かわ</span> (Từ vựng - Danh từ: \"Sông\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">およぎました</span> (Từ vựng - Động từ: \"Bơi\")\n\n📝 Từ vựng trong câu:\n- **子ども (こども / kodomo)**: Trẻ con, con cái\n- **よく (yoku)**: Rõ, tốt, thường\n- **川 (かわ / kawa)**: Sông\n- **泳ぎます (およぎます / oyogimasu)**: Bơi\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **XUYÊN**.\n- Cấu tạo: 川 (Xuyên - Sông)"
+          }
+        ]
+      },
+      {
+        "id": "p_review_11_15_4_moji3",
+        "type": "moji_mondai3",
+        "questions": [
+          {
+            "id": "m_review_11_15_4_m3_q0",
+            "question": "のどが（　　）。つめたい 水が のみたいです。",
+            "options": [
+              "かわきました",
+              "すきました",
+              "つかれました",
+              "いたいです"
+            ],
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nKhát nước quá. Tôi muốn uống nước lạnh.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **かわきました**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">のど</span> (Từ vựng - Danh từ: \"Cổ họng\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">つめたい</span> (Từ vựng - Tính từ đuôi i: \"Lạnh, buốt (cảm giác chạm)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">水</span> (Từ vựng - Danh từ: \"Nước (lọc)\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">のみたいです</span> (Từ vựng - Động từ: \"Uống\")\n\n📝 Từ vựng trong câu:\n- **のど (nodo)**: Cổ họng\n- **冷たい (つめたい / tsumetai)**: Lạnh, buốt (cảm giác chạm)\n- **水 (みず / mizu)**: Nước (lọc)\n- **飲みます (のみます / nomimasu)**: Uống\n\n💡 Ngữ pháp & Mẹo nhớ:\nKhát nước là のどがかわきました."
+          },
+          {
+            "id": "m_review_11_15_4_m3_q1",
+            "question": "あの 喫茶店に （　　）ましょう。",
+            "options": [
+              "はいり",
+              "はいって",
+              "はいる",
+              "はいります"
+            ],
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nHãy cùng vào quán nước kia đi.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **はいり**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あの</span> (Từ vựng - Từ chỉ định: \"Cái kia ... (+ danh từ)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">喫茶店</span> (Từ vựng - Danh từ: \"Quán giải khát, quán cafe\")\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / địa điểm / đối tượng tiếp nhận)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ましょう</span> (Từ vựng - Động từ: \"Làm, chơi\")\n\n📝 Từ vựng trong câu:\n- **あの (ano)**: Cái kia ... (+ danh từ)\n- **喫茶店 (きっさてん / kissaten)**: Quán giải khát, quán cafe\n- **します (shimasu)**: Làm, chơi\n\n💡 Ngữ pháp & Mẹo nhớ:\nV(bỏ ます) + ましょう (Cùng làm gì đó)."
+          },
+          {
+            "id": "m_review_11_15_4_m3_q2",
+            "question": "「きます」(Đến) の て形は なにですか。",
+            "options": [
+              "きて",
+              "きって",
+              "きんで",
+              "きして"
+            ],
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nThể Te của \"Kimasu\" (Đến) là gì?\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **きて**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">きます</span> (Từ vựng - Động từ: \"Đến\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">なに</span> (Từ vựng - Từ hỏi: \"Cái gì\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **来ます (きます / kimasu)**: Đến\n- **何 (なに / nani)**: Cái gì\n\n💡 Ngữ pháp & Mẹo nhớ:\nきます (Đến) là động từ nhóm 3. Thể Te của nó là きて."
+          },
+          {
+            "id": "m_review_11_15_4_m3_q3",
+            "question": "８０円の 切手(きって)を ５（　　）買いました。",
+            "options": [
+              "つ",
+              "まい",
+              "だい",
+              "にん"
+            ],
+            "correctIndex": 1,
+            "explanation": "📖 Dịch nghĩa:\nTôi đã mua 5 cái tem 80 Yên.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **まい**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">切手</span> (Từ vựng - Danh từ: \"Tem\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">きって</span> (Từ vựng - Danh từ: \"Tem\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">買いました</span> (Từ vựng - Động từ: \"Mua\")\n\n📝 Từ vựng trong câu:\n- **切手 (きって / kitte)**: Tem\n- **買います (かいます / kaimasu)**: Mua\n\n💡 Ngữ pháp & Mẹo nhớ:\nĐếm vật mỏng (như tem, áo sơ mi, giấy) dùng 枚 (まい)."
+          }
+        ]
+      },
+      {
+        "id": "p_review_11_15_4_bunpou1",
+        "type": "mondai1",
+        "questions": [
+          {
+            "id": "m_review_11_15_4_b1_q0",
+            "question": "すみません、この漢字の（　　）を おしえて ください。",
+            "options": [
+              "よみかた",
+              "よみ",
+              "よむかた",
+              "よんでかた"
+            ],
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nXin lỗi, hãy chỉ cho tôi cách đọc của chữ Hán này.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **よみかた**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">すみません</span> (Từ vựng - Mẫu câu: \"Xin lỗi (hỏi đường)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">この</span> (Từ vựng - Từ chỉ định: \"Cái này ... (+ danh từ)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">漢字</span> (Từ vựng - Danh từ: \"Chữ Hán\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">おしえて</span> (Từ vựng - Động từ: \"Dạy\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ください</span> (Từ vựng - Mẫu câu: \"Cho tôi ~ / Làm ơn cho\")\n\n📝 Từ vựng trong câu:\n- **すみません (sumimasen)**: Xin lỗi (hỏi đường)\n- **この (kono)**: Cái này ... (+ danh từ)\n- **漢字 (かんじ / kanji)**: Chữ Hán\n- **教えます (おしえます / oshiemasu)**: Dạy\n- **ください (kudasai)**: Cho tôi ~ / Làm ơn cho\n\n💡 Ngữ pháp & Mẹo nhớ:\nCách làm gì đó: V(bỏ ます) + 方 (かた). 読みます -> 読み方."
+          },
+          {
+            "id": "m_review_11_15_4_b1_q1",
+            "question": "A：この カタログを もらっても いいですか。 ...B：ええ、（　　）。",
+            "options": [
+              "いいですよ",
+              "いけません",
+              "だめです",
+              "わかりました"
+            ],
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nA: Tôi nhận cuốn catalog này có được không? ...B: Vâng, được đấy.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **いいですよ**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">この</span> (Từ vựng - Từ chỉ định: \"Cái này ... (+ danh từ)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">カタログ</span> (Từ vựng - Danh từ: \"Catalog\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #f73859; font-weight: 800;\">も</span> (Trợ từ chỉ cũng)\n- <span style=\"color: #f73859; font-weight: 800;\">も</span> (Trợ từ chỉ cũng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">いい</span> (Từ vựng - Tính từ đuôi i: \"Tốt\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ええ</span> (Từ vựng - Từ cảm thán: \"Vâng, được (cách nói thân mật của はい)\")\n\n📝 Từ vựng trong câu:\n- **この (kono)**: Cái này ... (+ danh từ)\n- **カタログ (katarogu)**: Catalog\n- **いい (ii (yoi))**: Tốt\n- **ええ (ee)**: Vâng, được (cách nói thân mật của はい)\n\n💡 Ngữ pháp & Mẹo nhớ:\nCho phép, đồng ý với lời xin phép dùng ええ、いいですよ hoặc ええ、どうぞ."
+          },
+          {
+            "id": "m_review_11_15_4_b1_q2",
+            "question": "つかれましたから、なにも（　　）。",
+            "options": [
+              "したいです",
+              "したくないです",
+              "しません",
+              "します"
+            ],
+            "correctIndex": 1,
+            "explanation": "📖 Dịch nghĩa:\nVì mệt nên tôi không muốn làm gì cả.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **したくないです**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">つかれました</span> (Từ vựng - Động từ: \"Mệt mỏi\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">から</span> (Từ vựng - Trợ từ: \"Từ (thời gian)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">なに</span> (Từ vựng - Từ hỏi: \"Cái gì\")\n- <span style=\"color: #f73859; font-weight: 800;\">も</span> (Trợ từ chỉ cũng)\n\n📝 Từ vựng trong câu:\n- **疲れます (つかれます / tsukaremasu)**: Mệt mỏi\n- **から (kara)**: Từ (thời gian)\n- **何 (なに / nani)**: Cái gì\n\n💡 Ngữ pháp & Mẹo nhớ:\nPhía trước có なにも (không cái gì cả) đi kèm với phủ định của ý muốn (したくないです)."
+          },
+          {
+            "id": "m_review_11_15_4_b1_q3",
+            "question": "りんごを ３つ（　　）みかんを ２つ 食べました。",
+            "options": [
+              "と",
+              "や",
+              "が",
+              "を"
+            ],
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nTôi đã ăn 3 quả táo và 2 quả quýt.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **と**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">りんご</span> (Từ vựng - Danh từ: \"Táo\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">みかん</span> (Từ vựng - Danh từ: \"Quýt\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">食べました</span> (Từ vựng - Động từ: \"Ăn\")\n\n📝 Từ vựng trong câu:\n- **りんご (ringo)**: Táo\n- **みかん (mikan)**: Quýt\n- **食べます (たべます / tabemasu)**: Ăn\n\n💡 Ngữ pháp & Mẹo nhớ:\nLiệt kê toàn bộ các đồ vật (táo và quýt) dùng trợ từ と."
+          }
+        ]
+      },
+      {
+        "id": "p_review_11_15_4_bunpou2",
+        "type": "mondai2",
+        "questions": [
+          {
+            "id": "m_review_11_15_4_b2_q0",
             "question": "へやに　___ ___ _★_ ___　あります。",
             "options": [
               "が",
@@ -3869,10 +4197,10 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "も"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTrong phòng có tới tận 2 cái máy tính.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: へやに [パソコン] [が] [★ ２だい] [も] あります。\n- Từ ở vị trí ngôi sao (★) là: **２だい**.\n\n📚 Từ vựng bổ trợ:\n- 部屋 (へや / heya): Căn phòng\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Trợ từ も sau số lượng từ chỉ mức độ ngạc nhiên, nhiều (tới tận 2 cái)."
+            "explanation": "📖 Dịch nghĩa:\nTrong phòng có tới tận 2 cái máy tính.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: へyaに パソコン が ２だい も あります。\n- Từ ở vị trí ngôi sao (★) là: **２だい**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #f73859; font-weight: 800;\">へ</span> (Trợ từ chỉ hướng di chuyển)\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / địa điểm / đối tượng tiếp nhận)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">パソコン</span> (Từ vựng - Danh từ: \"Máy tính cá nhân\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #f73859; font-weight: 800;\">も</span> (Trợ từ chỉ cũng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あります</span> (Từ vựng - Động từ: \"Có (sở hữu)\")\n\n📝 Từ vựng trong câu:\n- **パソコン (ぱそこん / pasokon)**: Máy tính cá nhân\n- **あります (arimasu)**: Có (sở hữu)\n\n💡 Ngữ pháp & Mẹo nhớ:\nTrợ từ も sau số lượng từ chỉ mức độ ngạc nhiên, nhiều."
           },
           {
-            "id": "m_review_11_15_3_b2_q1",
+            "id": "m_review_11_15_4_b2_q1",
             "question": "にほんと　___ ___ _★_ ___　あたたかいですか。",
             "options": [
               "どちら",
@@ -3881,12 +4209,12 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "が"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nNhật Bản và Việt Nam thì nơi nào ấm áp hơn?\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: にほんと [ベトナム] [と] [★ どちら] [が] あたたかいですか。\n- Từ ở vị trí ngôi sao (★) là: **どちら**.\n\n📚 Từ vựng bổ trợ:\n- 本 (ほん / hon): Sách\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Cấu trúc so sánh hơn giữa 2 danh từ: N1 と N2 と どちらが [Tính từ] ですか."
+            "explanation": "📖 Dịch nghĩa:\nNhật Bản và Việt Nam thì nơi nào ấm áp hơn?\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: にほんと ベトナム と どちら が あたたかいですか。\n- Từ ở vị trí ngôi sao (★) là: **どちら**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">にほん</span> (Từ vựng - Danh từ: \"Nhật Bản\")\n- <span style=\"color: #f73859; font-weight: 800;\">と</span> (Trợ từ chỉ đối tượng đồng hành / liệt kê)\n- <span style=\"color: #f73859; font-weight: 800;\">と</span> (Trợ từ chỉ đối tượng đồng hành / liệt kê)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">どちら</span> (Từ vựng - Đại từ: \"Phía nào, đằng nào, chỗ nào (cách nói lịch sự của どこ)\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あたたかい</span> (Từ vựng - Tính từ い: \"Ấm áp\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **日本 (にほん / nihon)**: Nhật Bản\n- **どちら (dochira)**: Phía nào, đằng nào, chỗ nào (cách nói lịch sự của どこ)\n- **温かい・暖かい (あたたかい / atatakai)**: Ấm áp\n\n💡 Ngữ pháp & Mẹo nhớ:\nCấu trúc so sánh hơn giữa 2 danh từ: N1 と N2 と どちらが [Tính từ] ですか."
           }
         ]
       },
       {
-        "id": "p_review_11_15_3_dokkai1",
+        "id": "p_review_11_15_4_dokkai1",
         "type": "mondai3",
         "text": [
           "わたしは いま、くるまが ほしいです。",
@@ -3903,14 +4231,20 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
           "Rất đắt nhưng tôi muốn mua."
         ],
         "vocabulary": [
-          "毎日 (まいにち / mainichi): Hàng ngày, mỗi ngày",
-          "電車 (でんしゃ / densha): Tàu điện",
+          "疲れます (つかれます / tsukaremasu): Mệt mỏi",
           "会社 (かいしゃ / kaisha): Công ty",
-          "車 (くるま / kuruma): Ô tô, xe hơi"
+          "毎日 (まいにち / mainichi): Mỗi ngày, hằng ngày",
+          "行きます (いきます / ikimasu): Đi",
+          "電車 (でんしゃ / densha): Tàu điện",
+          "スポーツ (supootsu): Thể thao",
+          "私 (わたし / watashi): Tôi",
+          "高い (たかい / takai): Cao, đắt",
+          "赤い (あかい / akai): Màu đỏ",
+          "とても (totemo): Rất"
         ],
         "questions": [
           {
-            "id": "m_review_11_15_3_d1_q0",
+            "id": "m_review_11_15_4_d1_q0",
             "question": "このひとは いま なにが ほしいですか？ (Người này bây giờ muốn cái gì?)",
             "options": [
               "くるま (Xe ô tô)",
@@ -3919,10 +4253,10 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "うち (Nhà)"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nこのひとは いま なにが ほしいですか？ (Người này bây giờ muốn cái gì?)\n- Đáp án đúng: **くるま (Xe ô tô)**.\n\n✍️ Phân tích đáp án:\n- Dựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác."
+            "explanation": "📖 Dịch nghĩa:\nこのひとは いま なにが ほしいですか？ (Người này bây giờ muốn cái gì?)\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **くるま (Xe ô tô)**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">この</span> (Từ vựng - Từ chỉ định: \"Cái này ... (+ danh từ)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ひと</span> (Từ vựng - Danh từ: \"Người\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">いま</span> (Từ vựng - Danh từ: \"Bây giờ\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">なに</span> (Từ vựng - Từ hỏi: \"Cái gì\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ほしい</span> (Từ vựng - Tính từ i: \"Muốn có\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **この (kono)**: Cái này ... (+ danh từ)\n- **人 (ひと / hito)**: Người\n- **今 (いま / ima)**: Bây giờ\n- **何 (なに / nani)**: Cái gì\n- **欲しい (ほしい / hoshii)**: Muốn có\n\n💡 Ngữ pháp & Mẹo nhớ:\nDựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác."
           },
           {
-            "id": "m_review_11_15_3_d1_q1",
+            "id": "m_review_11_15_4_d1_q1",
             "question": "どうして くるまが ほしいですか？ (Tại sao lại muốn ô tô?)",
             "options": [
               "でんしゃは つかれますから (Vì đi tàu điện mệt mỏi)",
@@ -3931,307 +4265,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "お金が ありますから (Vì có tiền)"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nどうして くるまが ほしいですか？ (Tại sao lại muốn ô tô?)\n- Đáp án đúng: **でんしゃは つかれますから (Vì đi tàu điện mệt mỏi)**.\n\n✍️ Phân tích đáp án:\n- Dựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác.\n\n📚 Từ vựng bổ trợ:\n- 車 (くるま / kuruma): Ô tô, xe hơi"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "review_11_15_4",
-    "title": "Đề thi 4: Trạm Ôn Tập JLPT N5 (Bài 11 - 15)",
-    "description": "Bộ đề số 4. Các câu hỏi và bài đọc được thiết kế độc lập 100% để ôn luyện toàn diện.",
-    "passages": [
-      {
-        "id": "p_review_11_15_4_moji1",
-        "type": "moji_mondai1",
-        "questions": [
-          {
-            "id": "m_review_11_15_4_m1_q0",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【天気】",
-            "options": [
-              "すずしい",
-              "たいへん",
-              "けいざい",
-              "てんき"
-            ],
-            "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【天気】 có nghĩa là: **Thời tiết**.\n\n✍️ Phân tích đáp án:\n- **てんき** (tenki): Cách đọc đúng của chữ Hán 【天気】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **THIÊN KHÍ**.\n- Mẹo nhớ: Thời tiết."
-          },
-          {
-            "id": "m_review_11_15_4_m1_q1",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【皆】",
-            "options": [
-              "おおい",
-              "～かい",
-              "みな",
-              "とおい"
-            ],
-            "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【皆】 có nghĩa là: **Mọi người**.\n\n✍️ Phân tích đáp án:\n- **みな** (mina): Cách đọc đúng của chữ Hán 【皆】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **GIAI**.\n- Mẹo nhớ: Mọi người (Giai) đều so sánh (Tỷ) để nói lên điều rõ ràng (Bạch)."
-          },
-          {
-            "id": "m_review_11_15_4_m1_q2",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【～か月】",
-            "options": [
-              "～にん",
-              "～かげつ",
-              "もんだい",
-              "カレー"
-            ],
-            "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【～か月】 có nghĩa là: **～tháng**.\n\n✍️ Phân tích đáp án:\n- **～かげつ** (~kagetsu): Cách đọc đúng của chữ Hán 【～か月】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **NGUYỆT**.\n- Mẹo nhớ: Tháng."
-          },
-          {
-            "id": "m_review_11_15_4_m1_q3",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【六つ】",
-            "options": [
-              "ソフト",
-              "とります",
-              "むっつ",
-              "みんな"
-            ],
-            "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【六つ】 có nghĩa là: **6 cái**.\n\n✍️ Phân tích đáp án:\n- **むっつ** (muttsu): Cách đọc đúng của chữ Hán 【六つ】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **LỤC**.\n- Mẹo nhớ: Sáu cái."
-          }
-        ]
-      },
-      {
-        "id": "p_review_11_15_4_moji2",
-        "type": "moji_mondai2",
-        "questions": [
-          {
-            "id": "m_review_11_15_4_m2_q0",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【とります】",
-            "options": [
-              "住みます",
-              "速い、早い",
-              "取ります",
-              "疲れます"
-            ],
-            "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Lấy**.\n\n✍️ Phân tích đáp án:\n- **取ります** (とります): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **THỦ**.\n- Cấu tạo: 耳 (Nhĩ - Tai) + 又 (Hựu - Bàn tay)"
-          },
-          {
-            "id": "m_review_11_15_4_m2_q1",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【あき】",
-            "options": [
-              "～年",
-              "秋",
-              "会議",
-              "一人"
-            ],
-            "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Mùa thu**.\n\n✍️ Phân tích đáp án:\n- **秋** (あき): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **THU**.\n- Cấu tạo: 禾 (Hòa - Cây lúa) + 火 (Hỏa - Lửa)"
-          },
-          {
-            "id": "m_review_11_15_4_m2_q2",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【おもいだします】",
-            "options": [
-              "思い出します",
-              "かかります",
-              "結婚します",
-              "簡単（な）"
-            ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Nhớ lại**.\n\n✍️ Phân tích đáp án:\n- **思い出します** (おもいだします): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **TƯ XUẤT**.\n- Cấu tạo: 思 (Tư - Suy nghĩ) + 出 (Xuất - Ra)"
-          },
-          {
-            "id": "m_review_11_15_4_m2_q3",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【けします】",
-            "options": [
-              "売ります",
-              "渇きます",
-              "消します",
-              "入ります"
-            ],
-            "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Tắt (điện, máy)**.\n\n✍️ Phân tích đáp án:\n- **消します** (けします): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **TIÊU**.\n- Cấu tạo: 氵 (Thủy - Nước) + 肖 (Tiếu - Giống hệt)"
-          }
-        ]
-      },
-      {
-        "id": "p_review_11_15_4_moji3",
-        "type": "moji_mondai3",
-        "questions": [
-          {
-            "id": "m_review_11_15_4_m3_q0",
-            "question": "ここに なまえを（　　）ください。",
-            "options": [
-              "かいて",
-              "かき",
-              "かって",
-              "かして"
-            ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nXin hãy viết tên vào đây.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **かいて**.\n\n📚 Từ vựng bổ trợ:\n- 絵 (え / e): Bức tranh\n\n💡 Ngữ pháp & Mẹo nhớ:\nYêu cầu ai làm gì: Vて + ください. 書きます (nhóm 1, đuôi き) -> 書いて."
-          },
-          {
-            "id": "m_review_11_15_4_m3_q1",
-            "question": "「いそぎます」の て形は なにですか。",
-            "options": [
-              "いそいで",
-              "いそいて",
-              "いそんで",
-              "いそって"
-            ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nThể Te của \"Isogimasu\" là gì?\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **いそいで**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nNhóm 1 đuôi ぎ -> いで. 急ぎます -> 急いで."
-          },
-          {
-            "id": "m_review_11_15_4_m3_q2",
-            "question": "A：この カタログを もらっても いいですか。 ...B：ええ、（　　）。",
-            "options": [
-              "いいですよ",
-              "いけません",
-              "だめです",
-              "わかりました"
-            ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nA: Tôi nhận cuốn catalog này có được không? ...B: Vâng, được đấy.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **いいですよ**.\n\n📚 Từ vựng bổ trợ:\n- 絵 (え / e): Bức tranh\n\n💡 Ngữ pháp & Mẹo nhớ:\nCho phép, đồng ý với lời xin phép dùng ええ、いいですよ hoặc ええ、どうぞ."
-          },
-          {
-            "id": "m_review_11_15_4_m3_q3",
-            "question": "A：にもつが おおいですね。（　　）ましょうか。",
-            "options": [
-              "もち",
-              "もって",
-              "もつ",
-              "もたない"
-            ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nA: Hành lý nhiều quá nhỉ. Để tôi cầm giúp nhé.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **もち**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nĐề nghị giúp đỡ Vましょうか thì V phải bỏ ます. 持ちます -> 持ちましょうか."
-          }
-        ]
-      },
-      {
-        "id": "p_review_11_15_4_bunpou1",
-        "type": "mondai1",
-        "questions": [
-          {
-            "id": "m_review_11_15_4_b1_q0",
-            "question": "A：ドアを しめましょうか。 ...B：いいえ、（　　）。",
-            "options": [
-              "けっこうです",
-              "おねがいします",
-              "しめてください",
-              "しめていません"
-            ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nA: Để tôi đóng cửa nhé? ...B: Không, đủ rồi (không cần đâu).\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **けっこうです**.\n\n📚 Từ vựng bổ trợ:\n- 絵 (え / e): Bức tranh\n\n💡 Ngữ pháp & Mẹo nhớ:\nTừ chối khéo lời đề nghị giúp đỡ dùng いいえ、けっこうです (Không, tôi ổn / đủ rồi)."
-          },
-          {
-            "id": "m_review_11_15_4_b1_q1",
-            "question": "「いきます」(Đi) の て形は なにですか。",
-            "options": [
-              "いって",
-              "いいて",
-              "いんで",
-              "いきて"
-            ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nThể Te của \"Ikimasu\" (Đi) là gì?\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **いって**.\n\n💡 Ngữ pháp & Mẹo nhớ:\n行きます là động từ nhóm 1 đặc biệt. Chia thể Te là 行って (không phải いいて)."
-          },
-          {
-            "id": "m_review_11_15_4_b1_q2",
-            "question": "１週間（　　）３回 日本語を 勉強します。",
-            "options": [
-              "に",
-              "で",
-              "を",
-              "が"
-            ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTôi học tiếng Nhật 3 lần 1 tuần.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **に**.\n\n📚 Từ vựng bổ trợ:\n- 日本語 (にほんご / nihongo): Tiếng Nhật\n\n💡 Ngữ pháp & Mẹo nhớ:\nBiểu thị tần suất làm việc gì đó trong một khoảng thời gian dùng trợ từ に (khoảng thời gian + に + tần suất)."
-          },
-          {
-            "id": "m_review_11_15_4_b1_q3",
-            "question": "やまださんは ホンダで（　　）います。",
-            "options": [
-              "はたらいて",
-              "はたらき",
-              "はたらって",
-              "はたらんで"
-            ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nAnh Yamada đang làm việc ở Honda.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **はたらいて**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nNói về nơi làm việc dùng 働いています (はたらきます -> はたらいて)."
-          }
-        ]
-      },
-      {
-        "id": "p_review_11_15_4_bunpou2",
-        "type": "mondai2",
-        "questions": [
-          {
-            "id": "m_review_11_15_4_b2_q0",
-            "question": "スポーツの なかで　___ ___ _★_ ___　ですか。",
-            "options": [
-              "が",
-              "いちばん",
-              "サッカー",
-              "すき"
-            ],
-            "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nTrong các môn thể thao thì bạn thích nhất môn bóng đá phải không?\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: スポーツの なかで [サッカー] [が] [★ いちばん] [すき] ですか。\n- Từ ở vị trí ngôi sao (★) là: **いちばん**.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Cấu trúc so sánh nhất: [Phạm vi] のなかde N が いちばん [Tính từ/Thích] です."
-          },
-          {
-            "id": "m_review_11_15_4_b2_q1",
-            "question": "こうべへ　___ ___ _★_ ___　いきます。",
-            "options": [
-              "を",
-              "えいが",
-              "インドの",
-              "みに"
-            ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTôi đi Kobe để xem phim Ấn Độ.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: こうべへ [インドの] [えいが] [★ を] [みに] いきます。\n- Từ ở vị trí ngôi sao (★) là: **を**.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Cấu trúc mục đích chuyển động: [Tân ngữ] を V(ます) + に いきます."
-          }
-        ]
-      },
-      {
-        "id": "p_review_11_15_4_dokkai1",
-        "type": "mondai3",
-        "text": [
-          "A：すみません、あの しんごうを みぎへ まがって ください。",
-          "B：はい、みぎですね。",
-          "A：まっすぐ いって ください。",
-          "B：はい。あ、ゆうびんきょくが ありますよ。",
-          "A：その まえで とめて ください。"
-        ],
-        "translation": [
-          "A: Xin lỗi, xin hãy rẽ phải ở đèn giao thông kia.",
-          "B: Vâng, rẽ phải nhé.",
-          "A: Xin hãy đi thẳng.",
-          "B: Vâng. A, có cái bưu điện kìa.",
-          "A: Xin hãy dừng lại ở trước đó."
-        ],
-        "vocabulary": [
-          "絵 (え / e): Bức tranh"
-        ],
-        "questions": [
-          {
-            "id": "m_review_11_15_4_d1_q0",
-            "question": "Aさんは どこで まがりますか？ (Người A rẽ ở đâu?)",
-            "options": [
-              "しんごう (Đèn giao thông)",
-              "ゆうびんきょく (Bưu điện)",
-              "えき (Nhà ga)",
-              "スーパー (Siêu thị)"
-            ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nAさんは どこで まがりますか？ (Người A rẽ ở đâu?)\n- Đáp án đúng: **しんごう (Đèn giao thông)**.\n\n✍️ Phân tích đáp án:\n- Dựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác."
-          },
-          {
-            "id": "m_review_11_15_4_d1_q1",
-            "question": "タクシーは どこで とまりますか？ (Taxi dừng lại ở đâu?)",
-            "options": [
-              "ゆうびんきょくの まえ (Trước bưu điện)",
-              "ゆうびんきょくの うしろ (Sau bưu điện)",
-              "しんごうの まえ (Trước đèn giao thông)",
-              "えきの まえ (Trước nhà ga)"
-            ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nタクシーは どこで とまりますか？ (Taxi dừng lại ở đâu?)\n- Đáp án đúng: **ゆうびんきょくの まえ (Trước bưu điện)**.\n\n✍️ Phân tích đáp án:\n- Dựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác."
+            "explanation": "📖 Dịch nghĩa:\nどうして くるまが ほしいですか？ (Tại sao lại muốn ô tô?)\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **でんしゃは つかれますから (Vì đi tàu điện mệt mỏi)**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">どうして</span> (Từ vựng - Từ hỏi: \"Tại sao\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ほしい</span> (Từ vựng - Tính từ i: \"Muốn có\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **どうして (doushite)**: Tại sao\n- **欲しい (ほしい / hoshii)**: Muốn có\n\n💡 Ngữ pháp & Mẹo nhớ:\nDựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác."
           }
         ]
       }
@@ -4248,51 +4282,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_11_15_5_m1_q0",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【知ります】",
+            "question": "たなかさんは 「あした 【休みます】」と いいました。",
             "options": [
-              "おそい",
-              "かわきます",
-              "こども",
-              "しります"
+              "やすみます",
+              "いちばん",
+              "すくない",
+              "つけます"
             ],
-            "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【知ります】 có nghĩa là: **Biết**.\n\n✍️ Phân tích đáp án:\n- **しります** (shirimasu): Cách đọc đúng của chữ Hán 【知ります】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **TRI**.\n- Mẹo nhớ: Lời nói thốt ra từ miệng (Khẩu) nhanh như mũi tên (Thỉ) khi Biết một điều gì đó."
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nAnh Tanaka đã nói: 'Ngày mai tôi nghỉ'. (Trực tiếp)\n\n✍️ Phân tích đáp án:\n- **やすみます** (yasumimasu): Cách đọc đúng của chữ Hán 【休みます】 → Chọn.\n- **いちばん** (ichiban): Nghĩa là \"~ nhất (ví dụ: trên cùng, dưới cùng)\" → Sai.\n- **すくない** (sukunai): Nghĩa là \"Ít (người, vật)\" → Sai.\n- **つけます** (tsukemasu): Nghĩa là \"Bật (điện, máy)\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">たな</span> (Từ vựng - Danh từ: \"Giá sách, kệ\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">かさ</span> (Từ vựng - Danh từ: \"Ô (dù)\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あした</span> (Từ vựng - Danh từ: \"Ngày mai\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">休みます</span> (Từ vựng - Động từ: \"Nghỉ ngơi\")\n- <span style=\"color: #f73859; font-weight: 800;\">と</span> (Trợ từ chỉ đối tượng đồng hành / liệt kê)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">いいました</span> (Từ vựng - Động từ: \"Nói rằng\")\n\n📝 Từ vựng trong câu:\n- **棚 (たな / tana)**: Giá sách, kệ\n- **傘 (かさ / kasa)**: Ô (dù)\n- **明日 (あした / ashita)**: Ngày mai\n- **休みます (やすみます / yasumimasu)**: Nghỉ ngơi\n- **言います (いいます / iimasu)**: Nói rằng\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **HƯU**.\n- Mẹo nhớ: Nghỉ ngơi."
           },
           {
             "id": "m_review_11_15_5_m1_q1",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【川】",
+            "question": "いま、【雨】が（　　）います。",
             "options": [
-              "かわ",
-              "だけ",
-              "はがき",
-              "ふたつ"
+              "ソフト",
+              "はる",
+              "ごろ",
+              "あめ"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【川】 có nghĩa là: **Sông**.\n\n✍️ Phân tích đáp án:\n- **かわ** (kawa): Cách đọc đúng của chữ Hán 【川】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **XUYÊN**.\n- Mẹo nhớ: Hình ảnh dòng sông chảy xuôi."
+            "correctIndex": 3,
+            "explanation": "📖 Dịch nghĩa:\nBây giờ trời đang mưa.\n\n✍️ Phân tích đáp án:\n- **ソフト** (sofuto): Nghĩa là \"Phần mềm\" → Sai.\n- **はる** (haru): Nghĩa là \"Mùa xuân\" → Sai.\n- **ごろ** (goro): Nghĩa là \"Khoảng ~ (thời gian)\" → Sai.\n- **あめ** (ame): Cách đọc đúng của chữ Hán 【雨】 → Chọn.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">いま</span> (Từ vựng - Danh từ: \"Bây giờ\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">雨</span> (Từ vựng - Danh từ: \"Mưa\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">います</span> (Từ vựng - Động từ: \"Có (người, động vật)\")\n\n📝 Từ vựng trong câu:\n- **今 (いま / ima)**: Bây giờ\n- **雨 (あめ / ame)**: Mưa\n- **います (imasu)**: Có (người, động vật)\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **VŨ**.\n- Mẹo nhớ: Mưa."
           },
           {
             "id": "m_review_11_15_5_m1_q2",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【四つ】",
+            "question": "これ 【高校】 です。",
             "options": [
-              "もちます",
-              "ひとつ",
-              "よっつ",
-              "あれ？"
+              "どくしん",
+              "～じかん",
+              "てんき",
+              "こうこう"
             ],
-            "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【四つ】 có nghĩa là: **4 cái**.\n\n✍️ Phân tích đáp án:\n- **よっつ** (yottsu): Cách đọc đúng của chữ Hán 【四つ】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **TỨ**.\n- Mẹo nhớ: Bốn cái."
+            "correctIndex": 3,
+            "explanation": "📖 Dịch nghĩa:\nĐây là trường cấp 3.\n\n✍️ Phân tích đáp án:\n- **どくしん** (dokushin): Nghĩa là \"Độc thân\" → Sai.\n- **～じかん** (~jikan): Nghĩa là \"～tiếng (đồng hồ)\" → Sai.\n- **てんき** (tenki): Nghĩa là \"Thời tiết\" → Sai.\n- **こうこう** (koukou): Cách đọc đúng của chữ Hán 【高校】 → Chọn.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">これ</span> (Từ vựng - Đại từ: \"Cái này (gần người nói)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">高校</span> (Từ vựng - Danh từ: \"Trường cấp 3\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **これ (kore)**: Cái này (gần người nói)\n- **高校 (こうこう / koukou)**: Trường cấp 3\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **CAO HIỆU**.\n- Mẹo nhớ: Trường học (Hiệu) cấp cao (Cao) là Trường cấp 3."
           },
           {
             "id": "m_review_11_15_5_m1_q3",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【会議】",
+            "question": "【夏】やすみに（　　）、くにへ かえります。",
             "options": [
-              "せまい",
-              "います",
-              "ほしい",
-              "かいぎ"
+              "ちず",
+              "からい",
+              "なつ",
+              "くもり"
             ],
-            "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【会議】 có nghĩa là: **Cuộc họp**.\n\n✍️ Phân tích đáp án:\n- **かいぎ** (kaigi): Cách đọc đúng của chữ Hán 【会議】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **HỘI NGHỊ**.\n- Mẹo nhớ: Gặp gỡ (Hội) để bàn luận (Nghị) trong Cuộc họp."
+            "correctIndex": 2,
+            "explanation": "📖 Dịch nghĩa:\nSau khi đến kỳ nghỉ hè, tôi sẽ về nước.\n\n✍️ Phân tích đáp án:\n- **ちず** (chizu): Nghĩa là \"Bản đồ\" → Sai.\n- **からい** (karai): Nghĩa là \"Cay\" → Sai.\n- **なつ** (natsu): Cách đọc đúng của chữ Hán 【夏】 → Chọn.\n- **くもり** (kumori): Nghĩa là \"Trời nhiều mây\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">夏</span> (Từ vựng - Danh từ: \"Mùa hè\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">やすみ</span> (Từ vựng - Danh từ: \"Ngày nghỉ, giờ nghỉ\")\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / địa điểm / đối tượng tiếp nhận)\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / địa điểm / đối tượng tiếp nhận)\n- <span style=\"color: #f73859; font-weight: 800;\">へ</span> (Trợ từ chỉ hướng di chuyển)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">かえります</span> (Từ vựng - Động từ: \"Về\")\n\n📝 Từ vựng trong câu:\n- **夏 (なつ / natsu)**: Mùa hè\n- **休み (やすみ / yasumi)**: Ngày nghỉ, giờ nghỉ\n- **帰ります (かえります / kaerimasu)**: Về\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **HẠ**.\n- Mẹo nhớ: Mùa hè vất vả."
           }
         ]
       },
@@ -4302,51 +4336,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_11_15_5_m2_q0",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【がいこく】",
+            "question": "わたしは 【ひとり】で びょういんへ 行きます。",
             "options": [
-              "天気",
-              "外国",
-              "二人",
-              "別々に"
+              "一人",
+              "釣り",
+              "会議",
+              "います"
             ],
-            "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Nước ngoài**.\n\n✍️ Phân tích đáp án:\n- **外国** (がいこく): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **NGOẠI QUỐC**.\n- Cấu tạo: 外 (Ngoại - Bên ngoài) + 国 (Quốc - Đất nước)"
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nTôi đi bệnh viện một mình.\n\n✍️ Phân tích đáp án:\n- **一人** (ひとり): Cách viết chữ Hán đúng của từ 【ひとり】 → Chọn.\n- **釣り** (つり): Nghĩa là \"Câu cá\" → Sai.\n- **会議** (かいぎ): Nghĩa là \"Cuộc họp\" → Sai.\n- **います** (います): Nghĩa là \"Có (người, động vật)\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">わたし</span> (Từ vựng - Đại từ: \"Tôi\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ひとり</span> (Từ vựng - Số đếm: \"Một người\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">びょういん</span> (Từ vựng - Danh từ: \"Bệnh viện\")\n- <span style=\"color: #f73859; font-weight: 800;\">へ</span> (Trợ từ chỉ hướng di chuyển)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">行きます</span> (Từ vựng - Động từ: \"Đi\")\n\n📝 Từ vựng trong câu:\n- **私 (わたし / watashi)**: Tôi\n- **一人 (ひとり / hitori)**: Một người\n- **病院 (びょういん / byouin)**: Bệnh viện\n- **行きます (いきます / ikimasu)**: Đi\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **NHẤT NHÂN**.\n- Cấu tạo: 一 + 人"
           },
           {
             "id": "m_review_11_15_5_m2_q1",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【じこくひょう】",
+            "question": "これ 【～ねん】 です。",
             "options": [
-              "プール",
-              "時刻表",
-              "渇きます",
-              "～回"
+              "季節",
+              "兄弟",
+              "～回",
+              "～年"
             ],
-            "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Bảng giờ tàu**.\n\n✍️ Phân tích đáp án:\n- **時刻表** (じこくひょう): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **THỜI KHẮC BIỂU**.\n- Cấu tạo: 時 (Thời) + 刻 (Khắc) + 表 (Biểu)"
+            "correctIndex": 3,
+            "explanation": "📖 Dịch nghĩa:\nĐây là ～năm.\n\n✍️ Phân tích đáp án:\n- **季節** (きせつ): Nghĩa là \"Mùa\" → Sai.\n- **兄弟** (きょうだい): Nghĩa là \"Anh em\" → Sai.\n- **～回** (～かい): Nghĩa là \"～lần\" → Sai.\n- **～年** (～ねん): Cách viết chữ Hán đúng của từ 【～ねん】 → Chọn.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">これ</span> (Từ vựng - Đại từ: \"Cái này (gần người nói)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">～ねん</span> (Từ vựng - Hậu tố: \"Năm ~\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **これ (kore)**: Cái này (gần người nói)\n- **～年 (～ねん / ~nen)**: Năm ~\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **NIÊN**.\n- Cấu tạo: 年 (Niên)"
           },
           {
             "id": "m_review_11_15_5_m2_q2",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【ひとり】",
+            "question": "これ 【ここのつ】 です。",
             "options": [
-              "ごろ",
-              "～枚",
-              "一番",
-              "一人"
+              "妹",
+              "九つ",
+              "どちら",
+              "何か"
             ],
-            "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Một người**.\n\n✍️ Phân tích đáp án:\n- **一人** (ひとり): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **NHẤT NHÂN**.\n- Cấu tạo: 一 + 人"
+            "correctIndex": 1,
+            "explanation": "📖 Dịch nghĩa:\nĐây là 9 cái.\n\n✍️ Phân tích đáp án:\n- **妹** (いもうと): Nghĩa là \"Em gái (của mình)\" → Sai.\n- **九つ** (ここのつ): Cách viết chữ Hán đúng của từ 【ここのつ】 → Chọn.\n- **どちら** (どちら): Nghĩa là \"Phía nào, đằng nào, chỗ nào (cách nói lịch sự của どこ)\" → Sai.\n- **何か** (なにか): Nghĩa là \"Cái gì đó\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">これ</span> (Từ vựng - Đại từ: \"Cái này (gần người nói)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ここのつ</span> (Từ vựng - Số đếm: \"9 cái\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **これ (kore)**: Cái này (gần người nói)\n- **九つ (ここのつ / kokonotsu)**: 9 cái\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **CỬU**.\n- Cấu tạo: 九 (Cửu)"
           },
           {
             "id": "m_review_11_15_5_m2_q3",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【あめ】",
+            "question": "あした 【つかります】。",
             "options": [
-              "二人",
-              "軽い",
-              "とお",
-              "雨"
+              "簡単（な）",
+              "お兄さん",
+              "遊びます",
+              "作ります"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Mưa**.\n\n✍️ Phân tích đáp án:\n- **雨** (あめ): Cách viết chữ Hán đúng của từ.\n\n📚 Từ vựng bổ trợ:\n- 雨 (あめ / ame): Mưa\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **VŨ**.\n- Cấu tạo: 雨 (Vũ)"
+            "explanation": "📖 Dịch nghĩa:\nNgày mai tôi sẽ làm, chế tạo.\n\n✍️ Phân tích đáp án:\n- **簡単（な）** (かんたん): Nghĩa là \"Đơn giản, dễ\" → Sai.\n- **お兄さん** (おにいさん): Nghĩa là \"Anh trai (của người khác)\" → Sai.\n- **遊びます** (あそびます): Nghĩa là \"Chơi\" → Sai.\n- **作ります** (つかります): Cách viết chữ Hán đúng của từ 【つかります】 → Chọn.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あした</span> (Từ vựng - Danh từ: \"Ngày mai\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">つかります</span> (Từ vựng - Động từ: \"Làm, chế tạo\")\n\n📝 Từ vựng trong câu:\n- **明日 (あした / ashita)**: Ngày mai\n- **作ります (つかります / tsukurimasu)**: Làm, chế tạo\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **TÁC**.\n- Cấu tạo: 亻 (Nhân - Người) + 乍 (Sạ - Chợt)"
           }
         ]
       },
@@ -4356,51 +4390,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_11_15_5_m3_q0",
-            "question": "きのう、あたらしい くるまを（　　）。",
+            "question": "A：家族は （　　）ですか。 ...B：４人です。",
             "options": [
-              "かいました",
-              "かっています",
-              "かって",
-              "かいます"
+              "いくつ",
+              "なんにん",
+              "だれ",
+              "どのくらい"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nHôm qua, tôi đã mua một chiếc ô tô mới.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **かいました**.\n\n📚 Từ vựng bổ trợ:\n- 車 (くるま / kuruma): Ô tô, xe hơi\n\n💡 Ngữ pháp & Mẹo nhớ:\nきのう (hôm qua) -> Quá khứ, nên dùng 買いました. Không dùng 買っています vì đây là một hành động đã hoàn tất trong quá khứ, không phải trạng thái sở hữu (nếu sở hữu là 持っています)."
+            "correctIndex": 1,
+            "explanation": "📖 Dịch nghĩa:\nA: Gia đình bạn có mấy người? ...B: 4 người.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **なんにん**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">家族</span> (Từ vựng - Danh từ: \"Gia đình\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">人</span> (Từ vựng - Danh từ: \"Người\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **家族 (かぞく / kazoku)**: Gia đình\n- **人 (ひと / hito)**: Người\n\n💡 Ngữ pháp & Mẹo nhớ:\nHỏi số lượng người dùng 何人 (なんにん)."
           },
           {
             "id": "m_review_11_15_5_m3_q1",
-            "question": "くるまを（　　）いますか。 ...はい、もっています。",
+            "question": "きのうは どこへも（　　）。",
             "options": [
-              "もって",
-              "もち",
-              "もつて",
-              "もんで"
+              "いきませんでした",
+              "いきたくないです",
+              "いきません",
+              "いきたいです"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nBạn có ô tô không? ...Vâng, tôi có.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **もって**.\n\n📚 Từ vựng bổ trợ:\n- 車 (くるま / kuruma): Ô tô, xe hơi\n\n💡 Ngữ pháp & Mẹo nhớ:\nSở hữu đồ vật gì đó cũng dùng trạng thái Vています -> 持っています (持ちます -> 持って)."
+            "explanation": "📖 Dịch nghĩa:\nHôm qua tôi đã không đi đâu cả.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **いきませんでした**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">きのう</span> (Từ vựng - Danh từ: \"Hôm qua\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">どこ</span> (Từ vựng - Đại từ: \"Ở đâu?\")\n- <span style=\"color: #f73859; font-weight: 800;\">へ</span> (Trợ từ chỉ hướng di chuyển)\n- <span style=\"color: #f73859; font-weight: 800;\">も</span> (Trợ từ chỉ cũng)\n\n📝 Từ vựng trong câu:\n- **きのう (kinou)**: Hôm qua\n- **どこ (doko)**: Ở đâu?\n\n💡 Ngữ pháp & Mẹo nhớ:\nきのう (hôm qua) -> thì quá khứ. Phủ định hoàn toàn với từ để hỏi + も -> いきませんでした."
           },
           {
             "id": "m_review_11_15_5_m3_q2",
-            "question": "あついですね。（　　）のみたいです。",
+            "question": "おなかが すきました。わたしは（　　）が たべたいです。",
             "options": [
-              "なにか",
-              "なにも",
-              "どこか",
-              "だれか"
+              "ごはん",
+              "ほん",
+              "テレビ",
+              "コーヒー"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nNóng quá nhỉ. Tôi muốn uống cái gì đó.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **なにか**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nCâu khẳng định dùng 何か (なにか - cái gì đó)."
+            "explanation": "📖 Dịch nghĩa:\nTôi đói rồi. Tôi muốn ăn cơm.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **ごはん**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">なか</span> (Từ vựng - Danh từ: \"Trong, bên trong\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">すきました</span> (Từ vựng - Động từ: \"Đói\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">わたし</span> (Từ vựng - Đại từ: \"Tôi\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">たべたいです</span> (Từ vựng - Động từ: \"Ăn\")\n\n📝 Từ vựng trong câu:\n- **中 (なか / naka)**: Trong, bên trong\n- **すきます (sukimasu)**: Đói\n- **私 (わたし / watashi)**: Tôi\n- **食べます (たべます / tabemasu)**: Ăn\n\n💡 Ngữ pháp & Mẹo nhớ:\nĐói thì phải ăn cơm (ごはん). コーヒー là uống, ほん là đọc."
           },
           {
             "id": "m_review_11_15_5_m3_q3",
-            "question": "テレビを ２（　　）買いました。",
+            "question": "「いきます」(Đi) の て形は なにですか。",
             "options": [
-              "まい",
-              "だい",
-              "にん",
-              "つ"
+              "いって",
+              "いいて",
+              "いんで",
+              "いきて"
             ],
-            "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nTôi đã mua 2 cái ti vi.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **だい**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nĐếm máy móc, xe cộ (đồ vật lớn, phức tạp) dùng 台 (だい)."
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nThể Te của \"Ikimasu\" (Đi) là gì?\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **いって**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">いきます</span> (Từ vựng - Động từ: \"Đi\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">なに</span> (Từ vựng - Từ hỏi: \"Cái gì\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **行きます (いきます / ikimasu)**: Đi\n- **何 (なに / nani)**: Cái gì\n\n💡 Ngữ pháp & Mẹo nhớ:\n行きます là động từ nhóm 1 đặc biệt. Chia thể Te là 行って (không phải いいて)."
           }
         ]
       },
@@ -4410,51 +4444,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_11_15_5_b1_q0",
-            "question": "「のみます」の て形は なにですか。",
+            "question": "A：にもつが おおいですね。（　　）ましょうか。",
             "options": [
-              "のんで",
-              "のって",
-              "のいで",
-              "のして"
+              "もち",
+              "もって",
+              "もつ",
+              "もたない"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nThể Te của \"Nomimasu\" là gì?\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **のんで**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nNhóm 1 đuôi み, び, に -> んで. 飲みます -> 飲んで."
+            "explanation": "📖 Dịch nghĩa:\nA: Hành lý nhiều quá nhỉ. Để tôi cầm giúp nhé.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **もち**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">にもつ</span> (Từ vựng - Danh từ: \"Hành lý\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">おおい</span> (Từ vựng - Tính từ い: \"Nhiều (người, vật)\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ましょうか</span> (Từ vựng - Động từ: \"Làm, chơi\")\n\n📝 Từ vựng trong câu:\n- **荷物 (にもつ / nimotsu)**: Hành lý\n- **多い (おおい / ooi)**: Nhiều (người, vật)\n- **します (shimasu)**: Làm, chơi\n\n💡 Ngữ pháp & Mẹo nhớ:\nĐề nghị giúp đỡ Vましょうか thì V phải bỏ ます. 持ちます -> 持ちましょうか."
           },
           {
             "id": "m_review_11_15_5_b1_q1",
-            "question": "日本に ３（　　）いました。",
+            "question": "くるまを（　　）いますか。 ...はい、もっています。",
             "options": [
-              "ねん",
-              "ねんかん",
-              "かい",
-              "つ"
+              "もって",
+              "もち",
+              "もつて",
+              "もんで"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTôi đã ở Nhật Bản 3 năm.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **ねん**.\n\n📚 Từ vựng bổ trợ:\n- 日本 (にほん / nihon): Nhật Bản\n\n💡 Ngữ pháp & Mẹo nhớ:\nĐếm số năm dùng 年 (ねん), không cần thêm 間 (かん)."
+            "explanation": "📖 Dịch nghĩa:\nBạn có ô tô không? ...Vâng, tôi có.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **もって**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">います</span> (Từ vựng - Động từ: \"Có (người, động vật)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">はい</span> (Từ vựng - Thán từ: \"Vâng, đúng vậy\")\n- <span style=\"color: #f73859; font-weight: 800;\">も</span> (Trợ từ chỉ cũng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ています</span> (Từ vựng - Động từ: \"Làm, chơi\")\n\n📝 Từ vựng trong câu:\n- **います (imasu)**: Có (người, động vật)\n- **はい (hai)**: Vâng, đúng vậy\n- **します (shimasu)**: Làm, chơi\n\n💡 Ngữ pháp & Mẹo nhớ:\nSở hữu đồ vật gì đó cũng dùng trạng thái Vています -> 持っています (持ちます -> 持って)."
           },
           {
             "id": "m_review_11_15_5_b1_q2",
-            "question": "しゅうまつは やまへ（　　）に 行きます。",
+            "question": "あの しんごうを みぎへ（　　）ください。",
             "options": [
-              "あそび",
-              "あそぶ",
-              "あそんで",
-              "あそぼう"
+              "まがって",
+              "まがりて",
+              "まがんで",
+              "まがいで"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nCuối tuần tôi đi núi để chơi.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **あそび**.\n\n📚 Từ vựng bổ trợ:\n- 馬 (うま / uma): Con ngựa\n\n💡 Ngữ pháp & Mẹo nhớ:\nĐi đâu để làm gì: V(bỏ ます) + に行きます. 遊びます -> 遊び."
+            "explanation": "📖 Dịch nghĩa:\nXin hãy rẽ phải ở đèn tín hiệu kia.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **まがって**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あの</span> (Từ vựng - Từ chỉ định: \"Cái kia ... (+ danh từ)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">しんごう</span> (Từ vựng - Danh từ: \"Đèn giao thông\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">みぎ</span> (Từ vựng - Danh từ: \"Phải, bên phải\")\n- <span style=\"color: #f73859; font-weight: 800;\">へ</span> (Trợ từ chỉ hướng di chuyển)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ください</span> (Từ vựng - Mẫu câu: \"Cho tôi ~ / Làm ơn cho\")\n\n📝 Từ vựng trong câu:\n- **あの (ano)**: Cái kia ... (+ danh từ)\n- **信号 (しんごう / shingou)**: Đèn giao thông\n- **右 (みぎ / migi)**: Phải, bên phải\n- **ください (kudasai)**: Cho tôi ~ / Làm ơn cho\n\n💡 Ngữ pháp & Mẹo nhớ:\n曲がります (nhóm 1 đuôi り) -> って. -> 曲がって."
           },
           {
             "id": "m_review_11_15_5_b1_q3",
-            "question": "あの 喫茶店に （　　）ましょう。",
+            "question": "ハノイから ホーチミンまで 飛行機で ２時間（　　）かかります。",
             "options": [
-              "はいり",
-              "はいって",
-              "はいる",
-              "はいります"
+              "ぐらい",
+              "ごろ",
+              "だけ",
+              "しか"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nHãy cùng vào quán nước kia đi.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **はいり**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nV(bỏ ます) + ましょう (Cùng làm gì đó)."
+            "explanation": "📖 Dịch nghĩa:\nTừ Hà Nội đến Hồ Chí Minh đi máy bay mất khoảng 2 tiếng.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **ぐらい**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">から</span> (Từ vựng - Trợ từ: \"Từ (thời gian)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">まで</span> (Từ vựng - Trợ từ: \"Đến (thời gian)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">飛行機</span> (Từ vựng - Danh từ: \"Máy bay\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">時間</span> (Từ vựng - Danh từ: \"Thời gian\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">かかります</span> (Từ vựng - Động từ: \"Mất (thời gian, tiền bạc)\")\n\n📝 Từ vựng trong câu:\n- **から (kara)**: Từ (thời gian)\n- **まで (made)**: Đến (thời gian)\n- **飛行機 (ひこうき / hikouki)**: Máy bay\n- **時間 (じかん / jikan)**: Thời gian\n- **かかります (kakarimasu)**: Mất (thời gian, tiền bạc)\n\n💡 Ngữ pháp & Mẹo nhớ:\nĐi sau lượng từ (chỉ số lượng thời gian, số đếm) mang nghĩa 'khoảng' dùng ぐらい. ごろ dùng cho mốc thời gian."
           }
         ]
       },
@@ -4464,27 +4498,27 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_11_15_5_b2_q0",
-            "question": "きょうha　___ ___ _★_ ___　ないです。",
+            "question": "スポーツの なかで　___ ___ _★_ ___　ですか。",
             "options": [
-              "は",
-              "なにも",
-              "よる",
-              "たべたく"
+              "が",
+              "いちばん",
+              "サッカー",
+              "すき"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nTối nay tôi không muốn ăn gì cả.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: きょうは [よる] [は] [★ なにも] [たべたく] ないです。\n- Từ ở vị trí ngôi sao (★) là: **なにも**.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Cấu trúc muốn làm gì phủ định: V (ます) + たくない (Không muốn làm). Đi kèm なにも (không... gì cả) ở thể phủ định."
+            "explanation": "📖 Dịch nghĩa:\nTrong các môn thể thao thì bạn thích nhất môn bóng đá phải không?\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: スポーツの なかで サッカー が いchiban すき ですか。\n- Từ ở vị trí ngôi sao (★) là: **いちばん**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">スポーツ</span> (Từ vựng - Danh từ: \"Thể thao\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">なか</span> (Từ vựng - Danh từ: \"Trong, bên trong\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">サッカー</span> (Từ vựng - Danh từ: \"Bóng đá\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">すき</span> (Từ vựng - Tính từ đuôi na: \"Thích\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **スポーツ (supootsu)**: Thể thao\n- **中 (なか / naka)**: Trong, bên trong\n- **サッカー (sakkaa)**: Bóng đá\n- **好き（な） (すき / suki)**: Thích\n\n💡 Ngữ pháp & Mẹo nhớ:\nCấu trúc so sánh nhất: [Phạm vi] のなかで N が いchiban [Tính từ/Thích] です."
           },
           {
             "id": "m_review_11_15_5_b2_q1",
-            "question": "こうえんに　___ ___ _★_ ___　います。",
+            "question": "こうべへ　___ ___ _★_ ___　いきます。",
             "options": [
-              "が",
-              "おとこのこ",
-              "女の子",
-              "と"
+              "を",
+              "えいが",
+              "インドの",
+              "みに"
             ],
-            "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTrong công viên có bé trai và bé gái.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: こうえんに [おとこのこ] [と] [★ 女の子] [が] います。\n- Từ ở vị trí ngôi sao (★) là: **女の子**.\n\n📚 Từ vựng bổ trợ:\n- 絵 (え / e): Bức tranh\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Trợ từ と nối 2 danh từ chỉ người. Trợ từ が đi với động từ chỉ sự tồn tại của người います."
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nTôi đi Kobe để xem phim Ấn Độ.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: こうべへ インドの えいが を みに いきます。\n- Từ ở vị trí ngôi sao (★) là: **を**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #f73859; font-weight: 800;\">へ</span> (Trợ từ chỉ hướng di chuyển)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">インド</span> (Từ vựng - Danh từ: \"Ấn Độ\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">えいが</span> (Từ vựng - Danh từ: \"Phim, điện ảnh\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / địa điểm / đối tượng tiếp nhận)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">いきます</span> (Từ vựng - Động từ: \"Đi\")\n\n📝 Từ vựng trong câu:\n- **インド (Indo)**: Ấn Độ\n- **映画 (えいが / eiga)**: Phim, điện ảnh\n- **行きます (いきます / ikimasu)**: Đi\n\n💡 Ngữ pháp & Mẹo nhớ:\nCấu trúc mục đích chuyển động: [Tân ngữ] を V(ます) + に いきます."
           }
         ]
       },
@@ -4492,47 +4526,55 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "id": "p_review_11_15_5_dokkai1",
         "type": "mondai3",
         "text": [
-          "A：すみません、ここで しゃしんを とっても いいですか。",
-          "B：いいえ、ここでは しゃしんを とっては いけません。",
-          "A：そうですか。すみません。",
-          "B：そとで とっても いいですよ。",
-          "A：はい、わかりました。"
+          "A：すみません、あの しんごうを みぎへ まがって ください。",
+          "B：はい、みぎですね。",
+          "A：まっすぐ いって ください。",
+          "B：はい。あ、ゆうびんきょくが ありますよ。",
+          "A：その まえで とめて ください。"
         ],
         "translation": [
-          "A: Xin lỗi, chụp ảnh ở đây có được không?",
-          "B: Không, ở đây không được chụp ảnh.",
-          "A: Vậy à. Xin lỗi.",
-          "B: Chụp ở bên ngoài thì được đấy.",
-          "A: Vâng, tôi hiểu rồi."
+          "A: Xin lỗi, xin hãy rẽ phải ở đèn giao thông kia.",
+          "B: Vâng, rẽ phải nhé.",
+          "A: Xin hãy đi thẳng.",
+          "B: Vâng. A, có cái bưu điện kìa.",
+          "A: Xin hãy dừng lại ở trước đó."
         ],
         "vocabulary": [
-          "写真 (しゃしん / shashin): Bức ảnh",
-          "絵 (え / e): Bức tranh"
+          "郵便局 (ゆうびんきょく / yuubinkyoku): Bưu điện",
+          "すみません (sumimasen): Xin lỗi",
+          "ください (kudasai): Cho tôi ~ / Làm ơn cho",
+          "あります[お祭りが〜] (あります / arimasu): Được tổ chức (lễ hội)",
+          "まっすぐ (massugu): Đi thẳng",
+          "信号 (しんごう / shingou): Đèn giao thông",
+          "はい (hai): Vâng, đúng vậy",
+          "その (sono): Cái đó ... (+ danh từ)",
+          "あの (ano): Cái kia ... (+ danh từ)",
+          "右 (みぎ / migi): Phải, bên phải"
         ],
         "questions": [
           {
             "id": "m_review_11_15_5_d1_q0",
-            "question": "Aさんは ここで しゃしんを とっても いいですか？ (Người A chụp ảnh ở đây có được không?)",
+            "question": "Aさんは どこで まがりますか？ (Người A rẽ ở đâu?)",
             "options": [
-              "いいえ、いけません (Không, không được)",
-              "はい、いいです (Vâng, được)",
-              "わかりません (Không biết)",
-              "はい、とっています (Vâng, đang chụp)"
+              "しんごう (Đèn giao thông)",
+              "ゆうびんきょく (Bưu điện)",
+              "えき (Nhà ga)",
+              "スーパー (Siêu thị)"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nAさんは ここで しゃしんを とっても いいですか？ (Người A chụp ảnh ở đây có được không?)\n- Đáp án đúng: **いいえ、いけません (Không, không được)**.\n\n✍️ Phân tích đáp án:\n- Dựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác.\n\n📚 Từ vựng bổ trợ:\n- 写真 (しゃしん / shashin): Bức ảnh"
+            "explanation": "📖 Dịch nghĩa:\nAさんは どこで まがりますか？ (Người A rẽ ở đâu?)\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **しんごう (Đèn giao thông)**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">どこ</span> (Từ vựng - Đại từ: \"Ở đâu?\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n\n📝 Từ vựng trong câu:\n- **どこ (doko)**: Ở đâu?\n\n💡 Ngữ pháp & Mẹo nhớ:\nDựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác."
           },
           {
             "id": "m_review_11_15_5_d1_q1",
-            "question": "どこで しゃしんを とっても いいですか？ (Chụp ảnh ở đâu thì được?)",
+            "question": "タクシーは どこで とまりますか？ (Taxi dừng lại ở đâu?)",
             "options": [
-              "そと (Bên ngoài)",
-              "なか (Bên trong)",
-              "ここ (Ở đây)",
-              "うち (Nhà)"
+              "ゆうびんきょくの まえ (Trước bưu điện)",
+              "ゆうびんきょくの うしろ (Sau bưu điện)",
+              "しんごうの まえ (Trước đèn giao thông)",
+              "えきの まえ (Trước nhà ga)"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nどこで しゃしんを とっても いいですか？ (Chụp ảnh ở đâu thì được?)\n- Đáp án đúng: **そと (Bên ngoài)**.\n\n✍️ Phân tích đáp án:\n- Dựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác.\n\n📚 Từ vựng bổ trợ:\n- 写真 (しゃしん / shashin): Bức ảnh"
+            "explanation": "📖 Dịch nghĩa:\nタクシーは どこで とまりますか？ (Taxi dừng lại ở đâu?)\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **ゆうびんきょくの まえ (Trước bưu điện)**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">タクシー</span> (Từ vựng - Danh từ: \"Taxi\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">どこ</span> (Từ vựng - Đại từ: \"Ở đâu?\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">とまります</span> (Từ vựng - Động từ: \"Trọ lại\")\n\n📝 Từ vựng trong câu:\n- **タクシー (takushii)**: Taxi\n- **どこ (doko)**: Ở đâu?\n- **泊まります (とまります / tomarimasu)**: Trọ lại\n\n💡 Ngữ pháp & Mẹo nhớ:\nDựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác."
           }
         ]
       }
@@ -4541,7 +4583,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
   {
     "id": "review_16_20_1",
     "title": "Đề thi 1: Trạm Ôn Tập JLPT N5 (Bài 16 - 20)",
-    "description": "Bộ đề số 1. Các câu hỏi và bài đọc được thiết kế độc lập 100% để ôn luyện toàn diện.",
+    "description": "Bộ đề số 1. Được xáo trộn ngẫu nhiên để chống học vẹt.",
     "passages": [
       {
         "id": "p_review_16_20_1_moji1",
@@ -4549,51 +4591,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_16_20_1_m1_q0",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【心配します】",
+            "question": "えいがを 【見】ます。",
             "options": [
-              "しんぱいします",
-              "りゅうがくせい",
-              "ビザがいります",
-              "せんたくします"
+              "し",
+              "よ",
+              "き",
+              "み"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【心配します】 có nghĩa là: **Lo lắng**.\n\n✍️ Phân tích đáp án:\n- **しんぱいします** (shinpaishimasu): Cách đọc đúng của chữ Hán 【心配します】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **TÂM PHỐI**.\n- Mẹo nhớ: Trái tim (Tâm) bị phân phát (Phối) đi nhiều nơi nên Lo lắng."
+            "correctIndex": 3,
+            "explanation": "📖 Dịch nghĩa:\nXem phim.\n\n✍️ Phân tích đáp án:\n- み: Cách đọc chữ 見 trong động từ 見ます → Chọn.\n\n📝 Từ vựng trong câu:\n- 絵 (え / e): Bức tranh\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">え</span> (Danh từ: \"Bức tranh\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chủ ngữ/đối tượng: \"chỉ chủ thể hoặc đối tượng của động từ trạng thái\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ tân ngữ: \"tác động trực tiếp vào danh từ đứng trước\")\n\n"
           },
           {
             "id": "m_review_16_20_1_m1_q1",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【髪】",
+            "question": "【午前】 ６時に おきます。",
             "options": [
-              "すもう",
-              "うん",
-              "かみ",
-              "わかい"
+              "ごご",
+              "こうぜん",
+              "ごせん",
+              "ごぜん"
             ],
-            "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【髪】 có nghĩa là: **Tóc**.\n\n✍️ Phân tích đáp án:\n- **かみ** (kami): Cách đọc đúng của chữ Hán 【髪】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **PHÁT**.\n- Mẹo nhớ: Bạn bè (Hữu) thường có mái tóc (Tiêu) dài."
+            "correctIndex": 3,
+            "explanation": "📖 Dịch nghĩa:\nThức dậy lúc 6 giờ sáng.\n\n✍️ Phân tích đáp án:\n- ごぜん: Buổi sáng → Chọn.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">午前</span> (Danh từ thời gian: \"Buổi sáng\")\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / điểm đến: \"vào lúc / đi đến địa điểm\")\n- <span style=\"color: #ffb86c; font-weight: 800;\">きます</span> (Động từ (Verb - V): \"Đến\")\n\n"
           },
           {
             "id": "m_review_16_20_1_m1_q2",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【部長】",
+            "question": "あした 【雨】が ふります。",
             "options": [
-              "ぶちょう",
-              "おぼえます",
-              "できます",
-              "しかし"
+              "くも",
+              "あめ",
+              "ゆき",
+              "はれ"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【部長】 có nghĩa là: **Trưởng phòng**.\n\n✍️ Phân tích đáp án:\n- **ぶちょう** (buchou): Cách đọc đúng của chữ Hán 【部長】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **BỘ TRƯỜNG**.\n- Mẹo nhớ: Người đứng đầu bộ phận (Trưởng phòng)."
+            "correctIndex": 1,
+            "explanation": "📖 Dịch nghĩa:\nNgày mai trời mưa.\n\n✍️ Phân tích đáp án:\n- あめ (ame): Mưa → Chọn.\n\n📝 Từ vựng trong câu:\n- 明日 (あした / ashita): Ngày mai\n- 雨 (あめ / ame): Mưa\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あした</span> (Danh từ thời gian: \"Ngày mai\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">雨</span> (Danh từ (Chủ ngữ - S): \"Mưa\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chủ ngữ/đối tượng: \"chỉ chủ thể hoặc đối tượng của động từ trạng thái\")\n- <span style=\"color: #ffb86c; font-weight: 800;\">ふります</span> (Động từ (Verb - V): \"Rơi (mưa, tuyết)\")\n\n"
           },
           {
             "id": "m_review_16_20_1_m1_q3",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【本当ですか】",
+            "question": "【午後】の じゅぎょうは ありません。",
             "options": [
-              "ほんとうですか",
-              "もっていきます",
-              "ちょうしがわるい",
-              "まだまだです"
+              "ごご",
+              "ごこう",
+              "こうご",
+              "ごぜん"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【本当ですか】 có nghĩa là: **Thật không?**.\n\n✍️ Phân tích đáp án:\n- **ほんとうですか** (hontou desu ka): Cách đọc đúng của chữ Hán 【本当ですか】.\n\n📚 Từ vựng bổ trợ:\n- 本 (ほん / hon): Sách\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **BẢN ĐƯƠNG**.\n- Mẹo nhớ: Thật sự đương nhiên là vậy sao?"
+            "explanation": "📖 Dịch nghĩa:\nKhông có giờ học buổi chiều.\n\n✍️ Phân tích đáp án:\n- ごご: Buổi chiều → Chọn.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">午後</span> (Danh từ thời gian: \"Buổi chiều\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ sở hữu / bổ nghĩa: \"của\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chủ đề (Topic): \"thì, là\")\n\n"
           }
         ]
       },
@@ -4603,51 +4645,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_16_20_1_m2_q0",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【げんきん】",
+            "question": "【よる】ねます。",
             "options": [
-              "現金",
-              "長い",
-              "まず",
-              "若い"
+              "昼",
+              "夜",
+              "朝",
+              "夕"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Tiền mặt**.\n\n✍️ Phân tích đáp án:\n- **現金** (げんきん): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **HIỆN KIM**.\n- Cấu tạo: 現 (Hiện) + 金 (Kim)"
+            "correctIndex": 1,
+            "explanation": "📖 Dịch nghĩa:\nNgủ buổi tối.\n\n✍️ Phân tích đáp án:\n- 夜 (Dạ): Buổi tối → Chọn.\n\n📝 Từ vựng trong câu:\n- 夜 (よる / yoru): Buổi tối\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">よる</span> (Danh từ: \"Buổi tối\")\n\n"
           },
           {
             "id": "m_review_16_20_1_m2_q1",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【でかけます】",
+            "question": "【みぎ】へ まがります。",
             "options": [
-              "心配します",
-              "なかなか",
-              "大丈夫（な）",
-              "出かけます"
+              "右",
+              "前",
+              "後",
+              "左"
             ],
-            "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Ra ngoài**.\n\n✍️ Phân tích đáp án:\n- **出かけます** (でかけます): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **XUẤT**.\n- Cấu tạo: 出 (Xuất) + かけます"
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nRẽ phải.\n\n✍️ Phân tích đáp án:\n- 右 (Hữu): Bên phải → Chọn.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #f73859; font-weight: 800;\">へ</span> (Trợ từ chỉ hướng: \"hướng đi đến địa điểm\")\n- <span style=\"color: #ffb86c; font-weight: 800;\">まがります</span> (Động từ (Verb - V): \"Rẽ, quẹo\")\n\n"
           },
           {
             "id": "m_review_16_20_1_m2_q2",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【おちゃ】",
+            "question": "【しゃしん】を とります。",
             "options": [
-              "社長",
-              "お茶",
-              "一度",
-              "頭"
+              "真字",
+              "写真",
+              "字真",
+              "真写"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Trà đạo**.\n\n✍️ Phân tích đáp án:\n- **お茶** (おちゃ): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **TRÀ**.\n- Cấu tạo: 茶 (Trà)"
+            "explanation": "📖 Dịch nghĩa:\nChụp ảnh.\n\n✍️ Phân tích đáp án:\n- 写真 (Tả Chân): Bức ảnh → Chọn.\n\n📝 Từ vựng trong câu:\n- 写真 (しゃしん / shashin): Bức ảnh\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">しゃしん</span> (Danh từ (Tân ngữ - O): \"Bức ảnh\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ tân ngữ: \"tác động trực tiếp vào danh từ đứng trước\")\n- <span style=\"color: #ffb86c; font-weight: 800;\">とります</span> (Động từ (Verb - V): \"Chụp (ảnh)\")\n\n"
           },
           {
             "id": "m_review_16_20_1_m2_q3",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【いちども】",
+            "question": "【ひる】ごはんを たべます。",
             "options": [
-              "相撲",
-              "あっち",
-              "神社",
-              "一度も"
+              "朝",
+              "晩",
+              "昼",
+              "夜"
             ],
-            "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Chưa một lần**.\n\n✍️ Phân tích đáp án:\n- **一度も** (いちども): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **NHẤT ĐỘ**.\n- Cấu tạo: 一 (Nhất) + 度 (Độ)"
+            "correctIndex": 2,
+            "explanation": "📖 Dịch nghĩa:\nĂn cơm trưa.\n\n✍️ Phân tích đáp án:\n- 昼 (Trú): Buổi trưa → Chọn.\n\n📝 Từ vựng trong câu:\n- 昼ご飯 (ひるごはん / hirugohan): Cơm trưa\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ひるごはん</span> (Danh từ (Tân ngữ - O): \"Cơm trưa\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ tân ngữ: \"tác động trực tiếp vào danh từ đứng trước\")\n- <span style=\"color: #ffb86c; font-weight: 800;\">たべます</span> (Động từ (Verb - V): \"Ăn\")\n\n"
           }
         ]
       },
@@ -4657,51 +4699,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_16_20_1_m3_q0",
-            "question": "きのう スーパーへ（　　）、かいものしました。",
+            "question": "かぜを ひきましたから、くすりを 【　　　】。",
             "options": [
-              "いって",
-              "いきて",
-              "いんで",
-              "いきます"
+              "のみます",
+              "きます",
+              "たべます",
+              "します"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nHôm qua tôi đi siêu thị rồi mua sắm.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **いって**.\n\n📚 Từ vựng bổ trợ:\n- スーパー (suupaa): Siêu thị\n\n💡 Ngữ pháp & Mẹo nhớ:\nNối hành động theo trình tự dùng thể Te. 行きます (nhóm 1 đặc biệt) -> 行って."
+            "explanation": "📖 Dịch nghĩa:\nUống thuốc do cảm.\n\n✍️ Phân tích đáp án:\n- のみます: Uống thuốc (dùng のみます chứ không dùng たべます) → Chọn.\n\n📝 Từ vựng trong câu:\n- 薬 (くすり / kusuri): Thuốc\n- 風邪 (かぜ / kaze): Cảm cúm\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">かぜ</span> (Danh từ: \"Cảm cúm\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ tân ngữ: \"tác động trực tiếp vào danh từ đứng trước\")\n- <span style=\"color: #ffb86c; font-weight: 800;\">きました</span> (Động từ (quá khứ của きます): \"Đã đến\")\n- <span style=\"color: #f73859; font-weight: 800;\">から</span> (Trợ từ xuất phát: \"từ\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">くすり</span> (Danh từ: \"Thuốc\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ tân ngữ: \"tác động trực tiếp vào danh từ đứng trước\")\n\n"
           },
           {
             "id": "m_review_16_20_1_m3_q1",
-            "question": "なまえは ボールペンで かいて ください。えんぴつで（　　）で ください。",
+            "question": "あしたは 【　　　】から、どこも いきません。",
             "options": [
-              "かかない",
-              "かわない",
-              "かかって",
-              "かくて"
+              "くも",
+              "ゆき",
+              "はれ",
+              "あめ"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nXin hãy viết tên bằng bút bi. Xin đừng viết bằng bút chì.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **かかない**.\n\n📚 Từ vựng bổ trợ:\n- 鉛筆 (えんぴつ / enpitsu): Bút chì\n- 絵 (え / e): Bức tranh\n\n💡 Ngữ pháp & Mẹo nhớ:\n書きます -> 書かない (Đừng viết)."
+            "correctIndex": 3,
+            "explanation": "📖 Dịch nghĩa:\nVì trời mưa nên không đi đâu.\n\n✍️ Phân tích đáp án:\n- あめ (mưa): Thời tiết lý do → Chọn.\n\n📝 Từ vựng trong câu:\n- 明日 (あした / ashita): Ngày mai\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あした</span> (Danh từ thời gian: \"Ngày mai\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chủ đề (Topic): \"thì, là\")\n- <span style=\"color: #f73859; font-weight: 800;\">から</span> (Trợ từ xuất phát: \"từ\")\n\n"
           },
           {
             "id": "m_review_16_20_1_m3_q2",
-            "question": "さとうさんは ２２さい（　　）、どくしんです。",
+            "question": "パスポートを 【　　　】。",
             "options": [
-              "で",
-              "くて",
-              "に",
-              "と"
+              "みせないで ください",
+              "みせても いいです",
+              "みせなくちゃ いいです",
+              "みせなければ なりません"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nAnh Sato 22 tuổi và đang độc thân.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **で**.\n\n💡 Ngữ pháp & Mẹo nhớ:\n２２歳 (Danh từ) nối câu bằng で."
+            "correctIndex": 3,
+            "explanation": "📖 Dịch nghĩa:\nPhải xuất trình hộ chiếu.\n\n✍️ Phân tích đáp án:\n- みせなければ なりません: Phải cho xem (Vなければ なりません) → Chọn.\n\n📝 Từ vựng trong câu:\n- パスポート (pasupooto): Hộ chiếu\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">パスポート</span> (Danh từ: \"Hộ chiếu\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ tân ngữ: \"tác động trực tiếp vào danh từ đứng trước\")\n\n"
           },
           {
             "id": "m_review_16_20_1_m3_q3",
-            "question": "「たべます」の 辞書形(じしょけい) は なにですか。",
+            "question": "ここに くるまを 【　　　】。",
             "options": [
-              "たべる",
-              "たべう",
-              "たぶ",
-              "たべいる"
+              "とめないで ください",
+              "とまらないで ください",
+              "とまる ください",
+              "とめて ください"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nThể từ điển của \"Tabemasu\" là gì?\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **たべる**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nNhóm 2: Bỏ ます thêm る. 食べます -> 食べる."
+            "explanation": "📖 Dịch nghĩa:\nXin vui lòng không đỗ xe ở đây.\n\n✍️ Phân tích đáp án:\n- とめないで ください: Xin đừng đỗ xe (Vない + で ください) → Chọn.\n\n📝 Từ vựng trong câu:\n- 車 (くるま / kuruma): Ô tô, xe hơi\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / điểm đến: \"vào lúc / đi đến địa điểm\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">くるま</span> (Danh từ (Tân ngữ - O): \"Ô tô, xe hơi\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ tân ngữ: \"tác động trực tiếp vào danh từ đứng trước\")\n\n"
           }
         ]
       },
@@ -4711,51 +4753,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_16_20_1_b1_q0",
-            "question": "「あそびます」(Chơi) の た形 は なにですか。",
+            "question": "わたしは ピアノを （　　　）が できます。",
             "options": [
-              "あそんだ",
-              "あそんた",
-              "あそった",
-              "あそいた"
+              "ひく",
+              "ひいて",
+              "ひき",
+              "ひくこと"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nThể た của \"Asobimasu\" là gì?\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **あそんだ**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nNhóm 1: Đuôi び -> んだ. 遊びます -> 遊んだ."
+            "correctIndex": 3,
+            "explanation": "📖 Dịch nghĩa:\nTôi có thể chơi piano.\n\n✍️ Phân tích đáp án:\n- ひくこと: Chơi đàn (đã danh từ hóa qua こと) → Chọn (Vる こと が できます).\n\n📝 Từ vựng trong câu:\n- ピアノ (piano): Đàn piano\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">わたし</span> (Danh từ (Chủ ngữ - S): \"Tôi\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chủ đề (Topic): \"thì, là\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ピアノ</span> (Danh từ: \"Đàn piano\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ tân ngữ: \"tác động trực tiếp vào danh từ đứng trước\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chủ ngữ/đối tượng: \"chỉ chủ thể hoặc đối tượng của động từ trạng thái\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ địa điểm / phương tiện (công cụ): \"ở tại / bằng\")\n- <span style=\"color: #ffb86c; font-weight: 800;\">きます</span> (Động từ (Verb - V): \"Đến\")\n\n"
           },
           {
             "id": "m_review_16_20_1_b1_q1",
-            "question": "あの へやに（　　）で ください。",
+            "question": "うまに （　　　）ことが ありますか。",
             "options": [
-              "はいらない",
-              "はいって",
-              "はいらな",
-              "はいれな"
+              "のって",
+              "のった",
+              "のる",
+              "のらない"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nXin đừng vào căn phòng đó.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **はいらない**.\n\n📚 Từ vựng bổ trợ:\n- 部屋 (へや / heya): Căn phòng\n\n💡 Ngữ pháp & Mẹo nhớ:\n入ります (vào) tuy kết thúc bằng い/り nhưng là Nhóm 1 đặc biệt -> 入らない."
+            "correctIndex": 1,
+            "explanation": "📖 Dịch nghĩa:\nBạn từng cưỡi ngựa chưa?\n\n✍️ Phân tích đáp án:\n- のった: Thể quá khứ Vた của のります (cưỡi) → Chọn (Vた ことが あります).\n\n📝 Từ vựng trong câu:\n- 馬 (うま / uma): Con ngựa\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">うま</span> (Danh từ: \"Con ngựa\")\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / điểm đến: \"vào lúc / đi đến địa điểm\")\n- <span style=\"color: #f73859; font-weight: 800;\">と</span> (Trợ từ đồng hành: \"cùng với\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chủ ngữ/đối tượng: \"chỉ chủ thể hoặc đối tượng của động từ trạng thái\")\n\n"
           },
           {
             "id": "m_review_16_20_1_b1_q2",
-            "question": "「きます」(Đến) の ない形は なにですか。",
+            "question": "にほんへ （　　　） まえに、べんきょうしました。",
             "options": [
-              "こない",
-              "きない",
-              "かない",
-              "くない"
+              "いって",
+              "いかない",
+              "いく",
+              "いった"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nThể Nai của \"Kimasu\" (Đến) là gì?\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **こない**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nきます (Đến) thuộc nhóm 3, thể Nai đặc biệt là こない."
+            "correctIndex": 2,
+            "explanation": "📖 Dịch nghĩa:\nTrước khi đi Nhật, tôi đã học bài.\n\n✍️ Phân tích đáp án:\n- いく (đi): Động từ ở thể từ điển Vる đi trước まえに → Chọn.\n\n📝 Từ vựng trong câu:\n- 絵 (え / e): Bức tranh\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #f73859; font-weight: 800;\">へ</span> (Trợ từ chỉ hướng: \"hướng đi đến địa điểm\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">え</span> (Danh từ: \"Bức tranh\")\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / điểm đến: \"vào lúc / đi đến địa điểm\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">きょう</span> (Danh từ thời gian: \"Hôm nay\")\n\n"
           },
           {
             "id": "m_review_16_20_1_b1_q3",
-            "question": "きのうの ばん、てがみを（　　）たり、おんがくを きいたり しました。",
+            "question": "この りんごは おいしい（　　　）、やすいです。",
             "options": [
-              "かい",
-              "かく",
-              "かいて",
-              "かいた"
+              "て",
+              "が",
+              "し",
+              "から"
             ],
-            "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTối qua tôi viết thư, nghe nhạc...\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **かいた**.\n\n📚 Từ vựng bổ trợ:\n- 手紙 (てがみ / tegami): Bức thư\n\n💡 Ngữ pháp & Mẹo nhớ:\nCấu trúc Vたり、Vたり します yêu cầu động từ ở Thể た. 書きます -> 書いた -> 書いたり."
+            "correctIndex": 2,
+            "explanation": "📖 Dịch nghĩa:\nTáo vừa ngon vừa rẻ.\n\n✍️ Phân tích đáp án:\n- し: Trợ từ liệt kê song song → Chọn.\n\n📝 Từ vựng trong câu:\n- りんご (ringo): Quả táo\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ sở hữu / bổ nghĩa: \"của\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">りんご</span> (Danh từ: \"Quả táo\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chủ đề (Topic): \"thì, là\")\n- <span style=\"color: #ffb86c; font-weight: 800;\">おいしい</span> (Tính từ (Adjective): \"Ngon\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ địa điểm / phương tiện (công cụ): \"ở tại / bằng\")\n\n"
           }
         ]
       },
@@ -4765,27 +4807,27 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_16_20_1_b2_q0",
-            "question": "あぶないですから、　___ ___ _★_ ___　ください。",
+            "question": "わたしの　___ ___ _★_ ___　です。",
             "options": [
-              "はいら",
-              "ここに",
-              "ないで",
+              "かくこと",
+              "えを",
+              "しゅみ",
               "は"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nVì nguy hiểm nên xin đừng đi vào đây.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: あぶないですから、[ここに] [は] [★ はいら] [ないde] ください。\n- Từ ở vị trí ngôi sao (★) là: **はいら**.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Yêu cầu lịch sự phủ định: V ない + で ください (Xin đừng làm gì). はいります -> はいら (thể ない)."
+            "correctIndex": 1,
+            "explanation": "📖 Dịch nghĩa:\nSở thích của tôi là vẽ tranh.\n\n✍️ Phân tích đáp án:\n- Sắp xếp: しゅみ (2) + は (3) + えを (1) + かくこと (4) + です.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">わたし</span> (Danh từ (Chủ ngữ - S): \"Tôi\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ sở hữu / bổ nghĩa: \"của\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ địa điểm / phương tiện (công cụ): \"ở tại / bằng\")\n\n"
           },
           {
             "id": "m_review_16_20_1_b2_q1",
-            "question": "しゅくだいを　___ ___ _★_ ___　なりません。",
+            "question": "ここで　___ ___ _★_ ___　ください。",
             "options": [
-              "ださなければ",
-              "せんせいに",
-              "あした",
-              "まで"
+              "しゃしん",
+              "は",
+              "を",
+              "とらないで"
             ],
-            "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nTôi phải nộp bài tập cho thầy giáo trước ngày mai.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: しゅくだいを [あした] [まで] [★ せんせいに] [ださなければ] なりません。\n- Từ ở vị trí ngôi sao (★) là: **せんせいに**.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Nghĩa vụ bắt buộc: V なければ なりません (Phải làm gì). だします -> ださなければ."
+            "correctIndex": 3,
+            "explanation": "📖 Dịch nghĩa:\nXin vui lòng không chụp ảnh ở đây.\n\n✍️ Phân tích đáp án:\n- Sắp xếp: しゃしん (2) + を (1) + とらないで (3) + ください.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ địa điểm / phương tiện (công cụ): \"ở tại / bằng\")\n\n"
           }
         ]
       },
@@ -4793,49 +4835,35 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "id": "p_review_16_20_1_dokkai1",
         "type": "mondai3",
         "text": [
-          "わたしは まいあさ ろくじに おきて、シャワーを あびます。",
-          "あさごはんを たべてから、かいしゃへ いきます。",
-          "かいしゃは おおさかに あります。",
-          "えきから かいしゃまで あるいて じっぷんです。",
-          "しごとは いそがしいですが、おもしろいです。"
-        ],
-        "translation": [
-          "Mỗi sáng tôi thức dậy lúc 6 giờ, rồi tắm vòi sen.",
-          "Sau khi ăn sáng, tôi đi đến công ty.",
-          "Công ty nằm ở Osaka.",
-          "Từ nhà ga đi bộ đến công ty mất 10 phút.",
-          "Công việc tuy bận rộn nhưng thú vị."
-        ],
-        "vocabulary": [
-          "会社 (かいしゃ / kaisha): Công ty",
-          "シャワー (shawaa): Vòi hoa sen",
-          "ご飯 (ごはん / gohan): Cơm, bữa ăn",
-          "駅 (えき / eki): Nhà ga"
+          "わたしは まいあさ ６じに おきます。",
+          "あさごはんを （　１　）まえに、ジョギングを します。",
+          "ジョギングは しゅみです。",
+          "そして、シャワーを あびてから、ごはんを たべます。"
         ],
         "questions": [
           {
             "id": "m_review_16_20_1_d1_q0",
-            "question": "おきてから、まず なにを しますか？ (Sau khi thức dậy, việc đầu tiên làm gì?)",
+            "question": "（　１　）に入れるものはどれですか。",
             "options": [
-              "シャワーを あびます (Tắm vòi sen)",
-              "あさごはんを たべます (Ăn sáng)",
-              "かいしゃへ いきます (Đi công ty)",
-              "えきまで あるきます (Đi bộ ra ga)"
+              "たべた",
+              "たべる",
+              "たべない",
+              "たべて"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nおきてから、まず なにを しますか？ (Sau khi thức dậy, việc đầu tiên làm gì?)\n- Đáp án đúng: **シャワーを あびます (Tắm vòi sen)**.\n\n✍️ Phân tích đáp án:\n- Dựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác."
+            "correctIndex": 1,
+            "explanation": "📖 Dịch nghĩa:\nTrước khi ăn sáng.\n- Động từ thể từ điển đứng trước まえに (たべる まえに).\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / điểm đến: \"vào lúc / đi đến địa điểm\")\n- <span style=\"color: #f73859; font-weight: 800;\">も</span> (Trợ từ cũng / phủ định hoàn toàn: \"cũng\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ sở hữu / bổ nghĩa: \"của\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chủ đề (Topic): \"thì, là\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ địa điểm / phương tiện (công cụ): \"ở tại / bằng\")\n\n<br/><br/>\n<strong style=\"color: var(--blue);\">📝 Dịch nghĩa toàn bộ đoạn văn:</strong><br/>\n<span style=\"color: var(--text);\">\n- Tôi thức dậy lúc 6 giờ mỗi sáng.<br/>\n- Trước khi ăn sáng, tôi chạy bộ. (1: たべる)<br/>\n- Chạy bộ là sở thích của tôi.<br/>\n- Và sau khi tắm vòi hoa sen, tôi ăn cơm.\n</span>\n<br/><br/>\n<strong style=\"color: var(--gold);\">📚 Từ vựng trong đoạn văn:</strong><br/>\n<span style=\"color: var(--text);\">\n- <strong>まいあさ</strong> (maiasa): Mỗi sáng, hàng sáng<br/>\n- <strong>おきます</strong> (okimasu): Thức dậy<br/>\n- <strong>あさごはん</strong> (asagohan): Bữa sáng, cơm sáng<br/>\n- <strong>まえに</strong> (maeni): Trước khi<br/>\n- <strong>ジョギング</strong> (jogingu): Chạy bộ<br/>\n- <strong>しゅみ</strong> (shumi): Sở thích<br/>\n- <strong>シャワーを あびます</strong> (shawaa wo abimasu): Tắm vòi hoa sen<br/>\n- <strong>あびてから</strong> (abitekara): Sau khi tắm (Vて + から)\n</span>"
           },
           {
             "id": "m_review_16_20_1_d1_q1",
-            "question": "いつ かいしゃへ いきますか？ (Khi nào đi đến công ty?)",
+            "question": "ジョギングの あとで、なにを しますか。",
             "options": [
-              "あさごはんを たべてから (Sau khi ăn sáng)",
-              "シャワーを あびてから (Sau khi tắm)",
-              "しごとを してから (Sau khi làm việc)",
-              "おきてから すぐ (Ngay sau khi dậy)"
+              "シャワーを あびます",
+              "かいしゃへ いきます",
+              "あさごはんを たべます",
+              "おきます"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nいつ かいしゃへ いきますか？ (Khi nào đi đến công ty?)\n- Đáp án đúng: **あさごはんを たべてから (Sau khi ăn sáng)**.\n\n✍️ Phân tích đáp án:\n- Dựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác.\n\n📚 Từ vựng bổ trợ:\n- 会社 (かいしゃ / kaisha): Công ty"
+            "explanation": "📖 Dịch nghĩa:\nHành động sau chạy bộ.\n- Sau chạy bộ (ジョギング), tắm rồi mới ăn cơm (シャワーをあびます).\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ sở hữu / bổ nghĩa: \"của\")\n- <span style=\"color: #f73859; font-weight: 800;\">と</span> (Trợ từ đồng hành: \"cùng với\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ địa điểm / phương tiện (công cụ): \"ở tại / bằng\")\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / điểm đến: \"vào lúc / đi đến địa điểm\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ tân ngữ: \"tác động trực tiếp vào danh từ đứng trước\")\n\n<br/><br/>\n<strong style=\"color: var(--blue);\">📝 Dịch nghĩa toàn bộ đoạn văn:</strong><br/>\n<span style=\"color: var(--text);\">\n- Tôi thức dậy lúc 6 giờ mỗi sáng.<br/>\n- Trước khi ăn sáng, tôi chạy bộ. (1: たべる)<br/>\n- Chạy bộ là sở thích của tôi.<br/>\n- Và sau khi tắm vòi hoa sen, tôi ăn cơm.\n</span>\n<br/><br/>\n<strong style=\"color: var(--gold);\">📚 Từ vựng trong đoạn văn:</strong><br/>\n<span style=\"color: var(--text);\">\n- <strong>まいあさ</strong> (maiasa): Mỗi sáng, hàng sáng<br/>\n- <strong>おきます</strong> (okimasu): Thức dậy<br/>\n- <strong>あさごはん</strong> (asagohan): Bữa sáng, cơm sáng<br/>\n- <strong>まえに</strong> (maeni): Trước khi<br/>\n- <strong>ジョギング</strong> (jogingu): Chạy bộ<br/>\n- <strong>しゅみ</strong> (shumi): Sở thích<br/>\n- <strong>シャワーを あびます</strong> (shawaa wo abimasu): Tắm vòi hoa sen<br/>\n- <strong>あびてから</strong> (abitekara): Sau khi tắm (Vて + から)\n</span>"
           }
         ]
       }
@@ -4852,51 +4880,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_16_20_2_m1_q0",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【押します】",
+            "question": "あした 【修理します】。",
             "options": [
-              "ゴルフ",
-              "おします",
-              "とくに",
-              "そっち"
+              "しゅうりします",
+              "サラリーマン",
+              "しんぱいします",
+              "ちょうしがわるい"
             ],
-            "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【押します】 có nghĩa là: **Bấm, ấn**.\n\n✍️ Phân tích đáp án:\n- **おします** (oshimasu): Cách đọc đúng của chữ Hán 【押します】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **ÁP**.\n- Mẹo nhớ: Dùng tay ấn vào cái vỏ giáp."
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nNgày mai tôi sẽ sửa chữa (máy móc).\n\n✍️ Phân tích đáp án:\n- **しゅうりします** (shuurishimasu): Cách đọc đúng của chữ Hán 【修理します】 → Chọn.\n- **サラリーマン** (sarariiman): Nghĩa là \"Nhân viên làm lương\" → Sai.\n- **しんぱいします** (shinpaishimasu): Nghĩa là \"Lo lắng\" → Sai.\n- **ちょうしがわるい** (choushi ga warui): Nghĩa là \"Tình trạng xấu\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あした</span> (Từ vựng - Danh từ: \"Ngày mai\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">修理します</span> (Từ vựng - Động từ: \"Sửa chữa (máy móc)\")\n\n📝 Từ vựng trong câu:\n- **明日 (あした / ashita)**: Ngày mai\n- **修理します (しゅうりします / shuurishimasu)**: Sửa chữa (máy móc)\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **TU LÝ**.\n- Mẹo nhớ: Sửa chữa lại cho hợp lý."
           },
           {
             "id": "m_review_16_20_2_m1_q1",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【課長】",
+            "question": "B：次に、【暗証番号】を押してください。",
             "options": [
-              "なくします",
-              "おぼえます",
-              "はじめ",
-              "かちょう"
+              "ざんぎょうします",
+              "あんしょうばんごう",
+              "ちょうしがわるい",
+              "けんこうほけんしょう"
             ],
-            "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【課長】 có nghĩa là: **Tổ trưởng**.\n\n✍️ Phân tích đáp án:\n- **かちょう** (kachou): Cách đọc đúng của chữ Hán 【課長】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **KHÓA TRƯỜNG**.\n- Mẹo nhớ: Người đứng đầu phòng ban (Tổ trưởng)."
+            "correctIndex": 1,
+            "explanation": "📖 Dịch nghĩa:\nB: Tiếp theo, hãy bấm mã số bí mật.\n\n✍️ Phân tích đáp án:\n- **ざんぎょうします** (zangyoushimasu): Nghĩa là \"Làm thêm giờ\" → Sai.\n- **あんしょうばんごう** (anshou bangou): Cách đọc đúng của chữ Hán 【暗証番号】 → Chọn.\n- **ちょうしがわるい** (choushi ga warui): Nghĩa là \"Tình trạng xấu\" → Sai.\n- **けんこうほけんしょう** (kenkou hokenshou): Nghĩa là \"Thẻ bảo hiểm y tế\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / địa điểm / đối tượng tiếp nhận)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">暗証番号</span> (Từ vựng - Danh từ: \"Mã PIN\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">てください</span> (Từ vựng - Động từ: \"Làm, chơi\")\n\n📝 Từ vựng trong câu:\n- **暗証番号 (あんしょうばんごう / anshou bangou)**: Mã PIN\n- **します (shimasu)**: Làm, chơi\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **ÁM CHỨNG PHIÊN HIỆU**.\n- Mẹo nhớ: Mã số bí mật (Ám) dùng để chứng minh (Chứng)."
           },
           {
             "id": "m_review_16_20_2_m1_q2",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【出します】",
+            "question": "あした 【泊まります】。",
             "options": [
-              "だします",
-              "おぼえます",
-              "できます",
-              "おちゃ"
+              "いろいろ",
+              "とまります",
+              "シャワー",
+              "まだまだです"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【出します】 có nghĩa là: **Lấy ra**.\n\n✍️ Phân tích đáp án:\n- **だします** (dashimasu): Cách đọc đúng của chữ Hán 【出します】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **XUẤT**.\n- Mẹo nhớ: Lấy ra."
+            "correctIndex": 1,
+            "explanation": "📖 Dịch nghĩa:\nNgày mai tôi sẽ trọ lại.\n\n✍️ Phân tích đáp án:\n- **いろいろ** (iroiro): Nghĩa là \"Nhiều, đa dạng\" → Sai.\n- **とまります** (tomarimasu): Cách đọc đúng của chữ Hán 【泊まります】 → Chọn.\n- **シャワー** (shawaa): Nghĩa là \"Vòi hoa sen\" → Sai.\n- **まだまだです** (mada mada desu): Nghĩa là \"Vẫn còn kém lắm (khiêm nhường)\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あした</span> (Từ vựng - Danh từ: \"Ngày mai\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">泊まります</span> (Từ vựng - Động từ: \"Trọ lại\")\n\n📝 Từ vựng trong câu:\n- **明日 (あした / ashita)**: Ngày mai\n- **泊まります (とまります / tomarimasu)**: Trọ lại\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **BẠC**.\n- Mẹo nhớ: Thuyền trắng đậu lại bến nước là Trọ lại."
           },
           {
             "id": "m_review_16_20_2_m1_q3",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【状態】",
+            "question": "にほんの 【物価】は たかい（　　）おもいます。",
             "options": [
-              "じょうたい",
-              "でかけます",
-              "いれます",
-              "かえします"
+              "げんきん",
+              "ぶっか",
+              "はじめ",
+              "ですから"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【状態】 có nghĩa là: **Trạng thái**.\n\n✍️ Phân tích đáp án:\n- **じょうたい** (joutai): Cách đọc đúng của chữ Hán 【状態】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **TRẠNG THÁI**.\n- Mẹo nhớ: Trạng thái cơ thể."
+            "correctIndex": 1,
+            "explanation": "📖 Dịch nghĩa:\nTôi nghĩ vật giá ở Nhật cao.\n\n✍️ Phân tích đáp án:\n- **げんきん** (genkin): Nghĩa là \"Tiền mặt\" → Sai.\n- **ぶっか** (bukka): Cách đọc đúng của chữ Hán 【物価】 → Chọn.\n- **はじめ** (hajime): Nghĩa là \"Ban đầu\" → Sai.\n- **ですから** (desukara): Nghĩa là \"Vì thế, do đó\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">にほん</span> (Từ vựng - Danh từ: \"Nhật Bản\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">物価</span> (Từ vựng - Danh từ: \"Vật giá\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">たかい</span> (Từ vựng - Tính từ đuôi i: \"Cao, đắt\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">おもいます</span> (Từ vựng - Động từ: \"Nghĩ rằng\")\n\n📝 Từ vựng trong câu:\n- **日本 (にほん / nihon)**: Nhật Bản\n- **物価 (ぶっか / bukka)**: Vật giá\n- **高い (たかい / takai)**: Cao, đắt\n- **思います (おもいます / omoimasu)**: Nghĩ rằng\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **VẬT GIÁ**.\n- Mẹo nhớ: Giá trị của vật chất."
           }
         ]
       },
@@ -4906,51 +4934,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_16_20_2_m2_q0",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【おわり】",
+            "question": "これ 【なんかいも】 です。",
             "options": [
-              "終わり",
-              "直します",
-              "やめます",
-              "降ります"
+              "何回も",
+              "けど",
+              "留学生",
+              "どれ"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Kết thúc**.\n\n✍️ Phân tích đáp án:\n- **終わり** (おわり): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **CHUNG**.\n- Cấu tạo: 終 (Chung)"
+            "explanation": "📖 Dịch nghĩa:\nĐây là nhiều lần.\n\n✍️ Phân tích đáp án:\n- **何回も** (なんかいも): Cách viết chữ Hán đúng của từ 【なんかいも】 → Chọn.\n- **けど** (けど): Nghĩa là \"Nhưng (cách nói thân mật của が)\" → Sai.\n- **留学生** (りゅうがくせい): Nghĩa là \"Lưu học sinh\" → Sai.\n- **どれ** (どれ): Nghĩa là \"Cái nào?\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">これ</span> (Từ vựng - Đại từ: \"Cái này (gần người nói)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">なんかいも</span> (Từ vựng - Phó từ: \"Nhiều lần\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **これ (kore)**: Cái này (gần người nói)\n- **何回も (なんかいも / nankaimo)**: Nhiều lần\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **HÀ HỒI**.\n- Cấu tạo: 何 (Hà) + 回 (Hồi)"
           },
           {
             "id": "m_review_16_20_2_m2_q1",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【たいせつ】",
+            "question": "これ 【おだいじに】 です。",
             "options": [
-              "出張します",
-              "大切（な）",
-              "弾きます",
-              "泊まります"
+              "修理します",
+              "運転します",
+              "お大事に",
+              "乗ります"
             ],
-            "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Quan trọng**.\n\n✍️ Phân tích đáp án:\n- **大切（な）** (たいせつ): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **ĐẠI THIẾT**.\n- Cấu tạo: 大 (Đại) + 切 (Thiết - Cắt)"
+            "correctIndex": 2,
+            "explanation": "📖 Dịch nghĩa:\nĐây là chúc mau khỏe nhé.\n\n✍️ Phân tích đáp án:\n- **修理します** (しゅうりします): Nghĩa là \"Sửa chữa (máy móc)\" → Sai.\n- **運転します** (うんてんします): Nghĩa là \"Lái xe\" → Sai.\n- **お大事に** (おだいじに): Cách viết chữ Hán đúng của từ 【おだいじに】 → Chọn.\n- **乗ります** (のります): Nghĩa là \"Lên (tàu, xe)\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">これ</span> (Từ vựng - Đại từ: \"Cái này (gần người nói)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">おだいじに</span> (Từ vựng - Mẫu câu: \"Chúc mau khỏe nhé\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **これ (kore)**: Cái này (gần người nói)\n- **お大事に (おだいじに / odaiji ni)**: Chúc mau khỏe nhé\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **ĐẠI SỰ**.\n- Cấu tạo: 大 (Đại) + 事 (Sự)"
           },
           {
             "id": "m_review_16_20_2_m2_q2",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【わすれます】",
+            "question": "あした 【かえます】。",
             "options": [
-              "留学生",
-              "忘れます",
-              "どっち",
-              "なかなか"
+              "換えます",
+              "やめます",
+              "〜までに",
+              "危ない"
             ],
-            "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Quên**.\n\n✍️ Phân tích đáp án:\n- **忘れます** (わすれます): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **VONG**.\n- Cấu tạo: 亡 (Vong - Mất) + 心 (Tâm - Trái tim)"
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nNgày mai tôi sẽ đổi.\n\n✍️ Phân tích đáp án:\n- **換えます** (かえます): Cách viết chữ Hán đúng của từ 【かえます】 → Chọn.\n- **やめます** (やめます): Nghĩa là \"Bỏ, từ bỏ\" → Sai.\n- **〜までに** (〜までに): Nghĩa là \"Trước ~ (thời hạn)\" → Sai.\n- **危ない** (あぶない): Nghĩa là \"Nguy hiểm\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あした</span> (Từ vựng - Danh từ: \"Ngày mai\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">かえます</span> (Từ vựng - Động từ: \"Đổi\")\n\n📝 Từ vựng trong câu:\n- **明日 (あした / ashita)**: Ngày mai\n- **換えます (かえます / kaemasu)**: Đổi\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **HOÁN**.\n- Cấu tạo: 扌 (Thủ) + 奐 (Hoán)"
           },
           {
             "id": "m_review_16_20_2_m2_q3",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【ほけんしょう】",
+            "question": "これ 【かちょう】 です。",
             "options": [
-              "留学生",
-              "保険証",
-              "物価",
-              "お大事に"
+              "金額",
+              "ボタン",
+              "課長",
+              "言葉"
             ],
-            "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Thẻ bảo hiểm**.\n\n✍️ Phân tích đáp án:\n- **保険証** (ほけんしょう): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **BẢO HIỂM CHỨNG**.\n- Cấu tạo: 保 (Bảo) + 険 (Hiểm) + 証 (Chứng)"
+            "correctIndex": 2,
+            "explanation": "📖 Dịch nghĩa:\nĐây là tổ trưởng.\n\n✍️ Phân tích đáp án:\n- **金額** (きんがく): Nghĩa là \"Số tiền\" → Sai.\n- **ボタン** (ボタン): Nghĩa là \"Nút bấm\" → Sai.\n- **課長** (かちょう): Cách viết chữ Hán đúng của từ 【かちょう】 → Chọn.\n- **言葉** (ことば): Nghĩa là \"Từ vựng, ngôn ngữ\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">これ</span> (Từ vựng - Đại từ: \"Cái này (gần người nói)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">かちょう</span> (Từ vựng - Danh từ: \"Tổ trưởng\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **これ (kore)**: Cái này (gần người nói)\n- **課長 (かちょう / kachou)**: Tổ trưởng\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **KHÓA TRƯỜNG**.\n- Cấu tạo: 課 (Khóa) + 長 (Trường)"
           }
         ]
       },
@@ -4960,51 +4988,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_16_20_2_m3_q0",
-            "question": "A：にほんご（　　）できますか。 ...B：はい、すこし わかります。",
+            "question": "びょうきですから、くすりを（　　）。",
             "options": [
-              "が",
-              "を",
-              "は",
-              "で"
+              "のまなければ なりません",
+              "のまなくても いいです",
+              "のまないでください",
+              "のんでください"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nA: Bạn có thể (nói) tiếng Nhật không? ...B: Vâng, tôi hiểu một chút.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **が**.\n\n📚 Từ vựng bổ trợ:\n- 日本語 (にほんご / nihongo): Tiếng Nhật\n\n💡 Ngữ pháp & Mẹo nhớ:\nCó thể làm gì: Danh từ + が + できます. 日本語ができます."
+            "explanation": "📖 Dịch nghĩa:\nVì bị ốm nên phải uống thuốc.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **のまなければ なりません**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">びょうき</span> (Từ vựng - Danh từ: \"Ốm, bệnh\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ですから</span> (Từ vựng - Liên từ: \"Vì thế, do đó\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">くすり</span> (Từ vựng - Danh từ: \"Thuốc\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n\n📝 Từ vựng trong câu:\n- **病気 (びょうき / byouki)**: Ốm, bệnh\n- **ですから (desukara)**: Vì thế, do đó\n- **薬 (くすり / kusuri)**: Thuốc\n\n💡 Ngữ pháp & Mẹo nhớ:\nNghĩa vụ, phải làm việc gì đó (uống thuốc khi ốm) -> なければなりません."
           },
           {
             "id": "m_review_16_20_2_m3_q1",
-            "question": "「きます」(Đến) の 辞書形(じしょけい) は なにですか。",
+            "question": "「あめでした」の 普通体 は なにですか。",
             "options": [
-              "くる",
-              "きる",
-              "こる",
-              "くう"
+              "あめだった",
+              "あめだ",
+              "あめじゃない",
+              "あめじゃなかった"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nThể từ điển của \"Kimasu\" (Đến) là gì?\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **くる**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nNhóm 3 đặc biệt: 来ます (kimasu) -> 来る (kuru)."
+            "explanation": "📖 Dịch nghĩa:\nThể thông thường của \"Ame deshita\" (Đã mưa) là gì?\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **あめだった**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あめ</span> (Từ vựng - Danh từ: \"Mưa\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">した</span> (Từ vựng - Danh từ: \"Dưới, phía dưới\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">普通</span> (Từ vựng - Danh từ: \"Tàu thường, bình thường\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">体</span> (Từ vựng - Danh từ: \"Cơ thể\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">なに</span> (Từ vựng - Từ hỏi: \"Cái gì\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **雨 (あめ / ame)**: Mưa\n- **下 (した / shita)**: Dưới, phía dưới\n- **普通 (ふつう / futsuu)**: Tàu thường, bình thường\n- **体 (からだ / karada)**: Cơ thể\n- **何 (なに / nani)**: Cái gì\n\n💡 Ngữ pháp & Mẹo nhớ:\nDanh từ thời quá khứ. でした -> だった. 雨でした -> 雨だった."
           },
           {
             "id": "m_review_16_20_2_m3_q2",
-            "question": "「のみます」の 普通体(ふつうたい) は なにですか。",
+            "question": "「いきます」(Đi) の た形 は なにですか。",
             "options": [
-              "のむ",
-              "のまない",
-              "のんだ",
-              "のまなかった"
+              "いった",
+              "いだ",
+              "いた",
+              "いって"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nThể thông thường của \"Nomimasu\" (Hiện tại khẳng định) là gì?\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **のむ**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nのみます -> のむ (Thể từ điển)."
+            "explanation": "📖 Dịch nghĩa:\nThể た của \"Ikimasu\" là gì?\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **いった**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">いきます</span> (Từ vựng - Động từ: \"Đi\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">なに</span> (Từ vựng - Từ hỏi: \"Cái gì\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **行きます (いきます / ikimasu)**: Đi\n- **何 (なに / nani)**: Cái gì\n\n💡 Ngữ pháp & Mẹo nhớ:\nĐi là động từ nhóm 1 bất quy tắc: 行きます -> 行った."
           },
           {
             "id": "m_review_16_20_2_m3_q3",
-            "question": "「ひまじゃありません」の 普通体 は なにですか。",
+            "question": "パスポートを（　　）で ください。",
             "options": [
-              "ひまじゃない",
-              "ひまだ",
-              "ひまだった",
-              "ひまじゃなかった"
+              "なくさない",
+              "なくして",
+              "なくさ",
+              "なくす"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nThể thông thường của \"Hima ja arimasen\" là gì?\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **ひまじゃない**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nTính từ đuôi な phủ định. じゃありません -> じゃない. 暇じゃありません -> 暇じゃない."
+            "explanation": "📖 Dịch nghĩa:\nXin đừng làm mất hộ chiếu.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **なくさない**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">パスポート</span> (Từ vựng - Danh từ: \"Hộ chiếu\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ください</span> (Từ vựng - Mẫu câu: \"Cho tôi ~ / Làm ơn cho\")\n\n📝 Từ vựng trong câu:\n- **パスポート (pasupooto)**: Hộ chiếu\n- **ください (kudasai)**: Cho tôi ~ / Làm ơn cho\n\n💡 Ngữ pháp & Mẹo nhớ:\nVないでください. なくします (làm mất) -> なくさない."
           }
         ]
       },
@@ -5014,51 +5042,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_16_20_2_b1_q0",
-            "question": "（　　）まえに、にほんへ きました。",
+            "question": "きのうの ばん、テレビを（　　）たり、ほんを よんだり（　　）。",
             "options": [
-              "５ねん",
-              "５ねんの",
-              "５ねんが",
-              "５ねんで"
+              "み/します",
+              "みた/します",
+              "みて/しました",
+              "みた/しました"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTôi đã đến Nhật Bản 5 năm trước.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **５ねん**.\n\n📚 Từ vựng bổ trợ:\n- 本 (ほん / hon): Sách\n- 絵 (え / e): Bức tranh\n\n💡 Ngữ pháp & Mẹo nhớ:\nDanh từ chỉ thời lượng + まえに (KHÔNG CÓ の). ５ねんまえに."
+            "correctIndex": 3,
+            "explanation": "📖 Dịch nghĩa:\nTối qua tôi xem tivi, đọc sách...\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **みた/しました**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">きのう</span> (Từ vựng - Danh từ: \"Hôm qua\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ばん</span> (Từ vựng - Danh từ: \"Buổi tối\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">テレビ</span> (Từ vựng - Danh từ: \"Tivi\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ほん</span> (Từ vựng - Danh từ: \"Sách\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n\n📝 Từ vựng trong câu:\n- **きのう (kinou)**: Hôm qua\n- **晩 (ばん / ban)**: Buổi tối\n- **テレビ (terebi)**: Tivi\n- **本 (ほん / hon)**: Sách\n\n💡 Ngữ pháp & Mẹo nhớ:\nMẫu câu Vたり、Vたり します. Quá khứ (きのう) nên します chuyển thành しました. 見ます -> 見た."
           },
           {
             "id": "m_review_16_20_2_b1_q1",
-            "question": "ねる（　　）、にっきを かきます。",
+            "question": "「あそびます」(Chơi) の た形 は なにですか。",
             "options": [
-              "まえに",
-              "あとで",
-              "から",
-              "て"
+              "あそんだ",
+              "あそんた",
+              "あそった",
+              "あそいた"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTrước khi ngủ, tôi viết nhật ký.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **まえに**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nTrước khi làm V: V(từ điển) + まえに."
+            "explanation": "📖 Dịch nghĩa:\nThể た của \"Asobimasu\" là gì?\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **あそんだ**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あそびます</span> (Từ vựng - Động từ: \"Chơi\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">なに</span> (Từ vựng - Từ hỏi: \"Cái gì\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **遊びます (あそびます / asobimasu)**: Chơi\n- **何 (なに / nani)**: Cái gì\n\n💡 Ngữ pháp & Mẹo nhớ:\nNhóm 1: Đuôi び -> んだ. 遊びます -> 遊んだ."
           },
           {
             "id": "m_review_16_20_2_b1_q2",
-            "question": "「さむくなかったです」の 普通体 は なにですか。",
+            "question": "あの へやに（　　）で ください。",
             "options": [
-              "さむくなかった",
-              "さむくない",
-              "さむかった",
-              "さむくないだった"
+              "はいらない",
+              "はいって",
+              "はいらな",
+              "はいれな"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nThể thông thường của \"Samukunakatta desu\" là gì?\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **さむくなかった**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nTính từ đuôi い chỉ cần bỏ です. さむくなかったです -> さむくなかった."
+            "explanation": "📖 Dịch nghĩa:\nXin đừng vào căn phòng đó.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **はいらない**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あの</span> (Từ vựng - Từ chỉ định: \"Cái kia ... (+ danh từ)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">へや</span> (Từ vựng - Danh từ: \"Căn phòng\")\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / địa điểm / đối tượng tiếp nhận)\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ください</span> (Từ vựng - Mẫu câu: \"Cho tôi ~ / Làm ơn cho\")\n\n📝 Từ vựng trong câu:\n- **あの (ano)**: Cái kia ... (+ danh từ)\n- **部屋 (へや / heya)**: Căn phòng\n- **ください (kudasai)**: Cho tôi ~ / Làm ơn cho\n\n💡 Ngữ pháp & Mẹo nhớ:\n入ります (vào) tuy kết thúc bằng い/り nhưng là Nhóm 1 đặc biệt -> 入らない."
           },
           {
             "id": "m_review_16_20_2_b1_q3",
-            "question": "カメラが やす（　　）なりました。",
+            "question": "バスが（　　）きません。",
             "options": [
-              "く",
-              "に",
-              "で",
-              "な"
+              "なかなか",
+              "ぜんぜん",
+              "あまり",
+              "とても"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nMáy ảnh đã trở nên rẻ hơn.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **く**.\n\n📚 Từ vựng bổ trợ:\n- カメラ (kamera): Máy ảnh\n\n💡 Ngữ pháp & Mẹo nhớ:\n安い (Rẻ - Tính từ i) -> 安く なりました."
+            "explanation": "📖 Dịch nghĩa:\nXe buýt mãi mà không đến.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **なかなか**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">バス</span> (Từ vựng - Danh từ: \"Xe buýt\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">きません</span> (Từ vựng - Động từ: \"Đến\")\n\n📝 Từ vựng trong câu:\n- **バス (basu)**: Xe buýt\n- **来ます (きます / kimasu)**: Đến\n\n💡 Ngữ pháp & Mẹo nhớ:\nなかなか + Phủ định: Mãi mà không (xảy ra điều gì đó)."
           }
         ]
       },
@@ -5068,27 +5096,27 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_16_20_2_b2_q0",
-            "question": "わたしは　___ ___ _★_ ___　できます。",
+            "question": "あぶないですから、　___ ___ _★_ ___　ください。",
             "options": [
-              "こと",
-              "ひく",
-              "ピアノを",
-              "が"
+              "はいら",
+              "ここに",
+              "ないで",
+              "は"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTôi có thể chơi đàn piano.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: わたしは [ピアノを] [ひく] [★ こと] [が] できます Cliff.\n- Từ ở vị trí ngôi sao (★) là: **こと**.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Cấu trúc khả năng: V る こと が できます (Có thể làm gì)."
+            "explanation": "📖 Dịch nghĩa:\nVì nguy hiểm nên xin đừng đi vào đây.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: あぶないですから、ここに は はいら ないで ください。\n- Từ ở vị trí ngôi sao (★) là: **はいら**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あぶない</span> (Từ vựng - Tính từ i: \"Nguy hiểm\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ですから</span> (Từ vựng - Liên từ: \"Vì thế, do đó\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ここ</span> (Từ vựng - Đại từ: \"Đây, chỗ này\")\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / địa điểm / đối tượng tiếp nhận)\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">はい</span> (Từ vựng - Thán từ: \"Vâng, đúng vậy\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ください</span> (Từ vựng - Mẫu câu: \"Cho tôi ~ / Làm ơn cho\")\n\n📝 Từ vựng trong câu:\n- **危ない (あぶない / abunai)**: Nguy hiểm\n- **ですから (desukara)**: Vì thế, do đó\n- **ここ (koko)**: Đây, chỗ này\n- **はい (hai)**: Vâng, đúng vậy\n- **ください (kudasai)**: Cho tôi ~ / Làm ơn cho\n\n💡 Ngữ pháp & Mẹo nhớ:\nYêu cầu lịch sự phủ định: V ない + で ください (Xin đừng làm gì)."
           },
           {
             "id": "m_review_16_20_2_b2_q1",
-            "question": "おくすりを　___ ___ _★_ ___　ください。",
+            "question": "しゅくだいを　___ ___ _★_ ___　なりません。",
             "options": [
-              "おふろに",
-              "あとで",
-              "のんだ",
-              "はいって"
+              "ださなければ",
+              "せんせいに",
+              "あした",
+              "まで"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nSau khi uống thuốc thì hãy tắm bồn nhé.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: おくすりを [のんだ] [あとで] [★ おふろに] [はいって] ください。\n- Từ ở vị trí ngôi sao (★) là: **おふろに**.\n\n📚 Từ vựng bổ trợ:\n- 薬 (くすり / kusuri): Thuốc\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Cấu trúc thứ tự hành động: V1 た あとで, V2 (Sau khi làm V1 thì làm V2)."
+            "correctIndex": 1,
+            "explanation": "📖 Dịch nghĩa:\nTôi phải nộp bài tập cho thầy giáo trước ngày mai.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: しゅくだいを あした まで せんせいに ださなければ なりません。\n- Từ ở vị trí ngôi sao (★) là: **せんせいに**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">しゅくだい</span> (Từ vựng - Danh từ: \"Bài tập về nhà\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あした</span> (Từ vựng - Danh từ: \"Ngày mai\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">まで</span> (Từ vựng - Trợ từ: \"Đến (thời gian)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">せんせい</span> (Từ vựng - Danh từ: \"Giáo viên, thầy/cô giáo\")\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / địa điểm / đối tượng tiếp nhận)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">なりません</span> (Từ vựng - Động từ: \"Trở thành, trở nên\")\n\n📝 Từ vựng trong câu:\n- **宿題 (しゅくだい / shukudai)**: Bài tập về nhà\n- **明日 (あした / ashita)**: Ngày mai\n- **まで (made)**: Đến (thời gian)\n- **先生 (せんせい / sensei)**: Giáo viên, thầy/cô giáo\n- **なります (narimasu)**: Trở thành, trở nên\n\n💡 Ngữ pháp & Mẹo nhớ:\nNghĩa vụ bắt buộc: V なければ なりません (Phải làm gì)."
           }
         ]
       },
@@ -5096,48 +5124,55 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "id": "p_review_16_20_2_dokkai1",
         "type": "mondai3",
         "text": [
-          "【 としょかんの つかいかた 】",
-          "・なかで たべたり、のんだり しないで ください。",
-          "・おおきい こえで はなさないで ください。",
-          "・ほんは にしゅうかんまでに かえさなければ なりません。",
-          "・じしょは かりることが できません。"
+          "わたしは まいあさ ろくじに おきて、シャワーを あびます。",
+          "あさごはんを たべてから、かいしゃへ いきます。",
+          "かいしゃは おおさかに あります。",
+          "えきから かいしゃまで あるいて じっぷんです。",
+          "しごとは いそがしいですが、おもしろいです。"
         ],
         "translation": [
-          "[ Cách sử dụng thư viện ]",
-          "- Xin đừng ăn uống ở bên trong.",
-          "- Xin đừng nói chuyện lớn tiếng.",
-          "- Sách thì phải trả lại trong vòng 2 tuần.",
-          "- Từ điển thì không được mượn mang về."
+          "Mỗi sáng tôi thức dậy lúc 6 giờ, rồi tắm vòi sen.",
+          "Sau khi ăn sáng, tôi đi đến công ty.",
+          "Công ty nằm ở Osaka.",
+          "Từ nhà ga đi bộ đến công ty mất 10 phút.",
+          "Công việc tuy bận rộn nhưng thú vị."
         ],
         "vocabulary": [
-          "本 (ほん / hon): Sách",
-          "花 (はな / hana): Hoa",
-          "絵 (え / e): Bức tranh"
+          "朝ごはん (あさごはん / asagohan): Bữa sáng",
+          "おもしろい (omoshiroi): Thú vị",
+          "忙しい (いそがしい / isogashii): Bận rộn",
+          "会社 (かいしゃ / kaisha): Công ty",
+          "毎朝 (まいあさ / maiasa): Mỗi buổi sáng",
+          "行きます (いきます / ikimasu): Đi",
+          "歩いて (あるいて / aruite): Đi bộ",
+          "あります[お祭りが〜] (あります / arimasu): Được tổ chức (lễ hội)",
+          "浴びます (あびます / abimasu): Tắm",
+          "シャワー (shawaa): Vòi hoa sen"
         ],
         "questions": [
           {
             "id": "m_review_16_20_2_d1_q0",
-            "question": "としょかんで なにを しても いいですか？ (Ở thư viện được làm gì?)",
+            "question": "おきてから、まず なにを しますか？ (Sau khi thức dậy, việc đầu tiên làm gì?)",
             "options": [
-              "ほんを よみます (Đọc sách)",
-              "コーヒーを のみます (Uống cafe)",
-              "おおきいこえで はなします (Nói lớn tiếng)",
-              "じしょを かえります (Mượn từ điển về)"
+              "シャワーを あびます (Tắm vòi sen)",
+              "あさごはんを たべます (Ăn sáng)",
+              "かいしゃへ いきます (Đi công ty)",
+              "えきまで あるきます (Đi bộ ra ga)"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nとしょかんで なにを しても いいですか？ (Ở thư viện được làm gì?)\n- Đáp án đúng: **ほんを よみます (Đọc sách)**.\n\n✍️ Phân tích đáp án:\n- Dựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác."
+            "explanation": "📖 Dịch nghĩa:\nおきてから、まず なにを しますか？ (Sau khi thức dậy, việc đầu tiên làm gì?)\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **シャワーを あびます (Tắm vòi sen)**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">おきて</span> (Từ vựng - Động từ: \"Dậy, thức dậy\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">から</span> (Từ vựng - Trợ từ: \"Từ (thời gian)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">まず</span> (Từ vựng - Phó từ: \"Trước tiên\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">なに</span> (Từ vựng - Từ hỏi: \"Cái gì\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">します</span> (Từ vựng - Động từ: \"Làm, chơi\")\n\n📝 Từ vựng trong câu:\n- **起きます (おきます / okimasu)**: Dậy, thức dậy\n- **から (kara)**: Từ (thời gian)\n- **まず (mazu)**: Trước tiên\n- **何 (なに / nani)**: Cái gì\n- **します (shimasu)**: Làm, chơi\n\n💡 Ngữ pháp & Mẹo nhớ:\nDựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác."
           },
           {
             "id": "m_review_16_20_2_d1_q1",
-            "question": "ほんは いつまでに かえさなければなりませんか？ (Phải trả sách trước khi nào?)",
+            "question": "いつ かいしゃへ いきますか？ (Khi nào đi đến công ty?)",
             "options": [
-              "2しゅうかんまでに (Trong vòng 2 tuần)",
-              "1しゅうかんまでに (Trong vòng 1 tuần)",
-              "1かげつまでに (Trong vòng 1 tháng)",
-              "いつでもいいです (Bao giờ cũng được)"
+              "あさごはんを たべてから (Sau khi ăn sáng)",
+              "シャワーを あびてから (Sau khi tắm)",
+              "しごとを してから (Sau khi làm việc)",
+              "おきてから すぐ (Ngay sau khi dậy)"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nほんは いつまでに かえさなければなりませんか？ (Phải trả sách trước khi nào?)\n- Đáp án đúng: **2しゅうかんまでに (Trong vòng 2 tuần)**.\n\n✍️ Phân tích đáp án:\n- Dựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác.\n\n📚 Từ vựng bổ trợ:\n- 本 (ほん / hon): Sách\n- 絵 (え / e): Bức tranh"
+            "explanation": "📖 Dịch nghĩa:\nいつ かいしゃへ いきますか？ (Khi nào đi đến công ty?)\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **あさごはんを たべてから (Sau khi ăn sáng)**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">いつ</span> (Từ vựng - Từ hỏi: \"Khi nào\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">かいしゃ</span> (Từ vựng - Danh từ: \"Công ty\")\n- <span style=\"color: #f73859; font-weight: 800;\">へ</span> (Trợ từ chỉ hướng di chuyển)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">いきます</span> (Từ vựng - Động từ: \"Đi\")\n\n📝 Từ vựng trong câu:\n- **いつ (itsu)**: Khi nào\n- **会社 (かいしゃ / kaisha)**: Công ty\n- **行きます (いきます / ikimasu)**: Đi\n\n💡 Ngữ pháp & Mẹo nhớ:\nDựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác."
           }
         ]
       }
@@ -5154,51 +5189,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_16_20_3_m1_q0",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【何回も】",
+            "question": "あした 【乗ります】。",
             "options": [
-              "パチンコ",
+              "なくします",
+              "のります",
               "あかるい",
-              "なんかいも",
-              "きんえん"
+              "かえします"
             ],
-            "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【何回も】 có nghĩa là: **Nhiều lần**.\n\n✍️ Phân tích đáp án:\n- **なんかいも** (nankaimo): Cách đọc đúng của chữ Hán 【何回も】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **HÀ HỒI**.\n- Mẹo nhớ: Nhiều lần lặp lại."
+            "correctIndex": 1,
+            "explanation": "📖 Dịch nghĩa:\nNgày mai tôi sẽ lên (tàu, xe).\n\n✍️ Phân tích đáp án:\n- **なくします** (nakushimasu): Nghĩa là \"Làm mất\" → Sai.\n- **のります** (norimasu): Cách đọc đúng của chữ Hán 【乗ります】 → Chọn.\n- **あかるい** (akarui): Nghĩa là \"Sáng sủa\" → Sai.\n- **かえします** (kaeshimasu): Nghĩa là \"Trả lại\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あした</span> (Từ vựng - Danh từ: \"Ngày mai\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">乗ります</span> (Từ vựng - Động từ: \"Lên (tàu, xe)\")\n\n📝 Từ vựng trong câu:\n- **明日 (あした / ashita)**: Ngày mai\n- **乗ります (のります / norimasu)**: Lên (tàu, xe)\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **THỪA**.\n- Mẹo nhớ: Một nghìn người đi về phía Bắc để lên Tàu."
           },
           {
             "id": "m_review_16_20_3_m1_q1",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【動物】",
+            "question": "それは 【調子がいい】 です。",
             "options": [
-              "とまります",
-              "はらいます",
-              "おふろ",
-              "どうぶつ"
+              "もっていきます",
+              "しゅうりします",
+              "ざんぎょうします",
+              "ちょうしがいい"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【動物】 có nghĩa là: **Động vật**.\n\n✍️ Phân tích đáp án:\n- **どうぶつ** (doubutsu): Cách đọc đúng của chữ Hán 【動物】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **ĐỘNG VẬT**.\n- Mẹo nhớ: Vật có thể chuyển động."
+            "explanation": "📖 Dịch nghĩa:\nCái đó tình trạng tốt.\n\n✍️ Phân tích đáp án:\n- **もっていきます** (motte ikimasu): Nghĩa là \"Mang đi\" → Sai.\n- **しゅうりします** (shuurishimasu): Nghĩa là \"Sửa chữa (máy móc)\" → Sai.\n- **ざんぎょうします** (zangyoushimasu): Nghĩa là \"Làm thêm giờ\" → Sai.\n- **ちょうしがいい** (choushi ga ii): Cách đọc đúng của chữ Hán 【調子がいい】 → Chọn.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">それ</span> (Từ vựng - Đại từ: \"Cái đó (gần người nghe)\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">調子がいい</span> (Từ vựng - Cụm từ: \"Tình trạng tốt\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **それ (sore)**: Cái đó (gần người nghe)\n- **調子がいい (ちょうしがいい / choushi ga ii)**: Tình trạng tốt\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **ĐIỀU TỬ**.\n- Mẹo nhớ: Tình trạng tốt."
           },
           {
             "id": "m_review_16_20_3_m1_q2",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【２、３日】",
+            "question": "B：いいえ、【一度】もありません。",
             "options": [
-              "に、さんにち",
-              "けんがくします",
-              "なんかいも",
-              "なくします"
+              "どの〜",
+              "いちども",
+              "ゴルフ",
+              "いちど"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【２、３日】 có nghĩa là: **2, 3 ngày**.\n\n✍️ Phân tích đáp án:\n- **に、さんにち** (ni, san nichi): Cách đọc đúng của chữ Hán 【２、３日】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **NHẬT**.\n- Mẹo nhớ: 2, 3 ngày."
+            "correctIndex": 3,
+            "explanation": "📖 Dịch nghĩa:\nB: Chưa, chưa từng ăn một lần nào.\n\n✍️ Phân tích đáp án:\n- **どの〜** (dono~): Nghĩa là \"~ nào\" → Sai.\n- **いちども** (ichidomo): Nghĩa là \"Chưa một lần\" → Sai.\n- **ゴルフ** (gorufu): Nghĩa là \"Golf\" → Sai.\n- **いちど** (ichido): Cách đọc đúng của chữ Hán 【一度】 → Chọn.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">いいえ</span> (Từ vựng - Thán từ: \"Không (phủ định)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">一度</span> (Từ vựng - Phó từ: \"Một lần\")\n- <span style=\"color: #f73859; font-weight: 800;\">も</span> (Trợ từ chỉ cũng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ありません</span> (Từ vựng - Động từ: \"Có (sở hữu)\")\n\n📝 Từ vựng trong câu:\n- **いいえ (iie)**: Không (phủ định)\n- **一度 (いちど / ichido)**: Một lần\n- **あります (arimasu)**: Có (sở hữu)\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **NHẤT ĐỘ**.\n- Mẹo nhớ: Một lần."
           },
           {
             "id": "m_review_16_20_3_m1_q3",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【社長】",
+            "question": "これ 【神社】 です。",
             "options": [
-              "おい祈り",
-              "はいります",
-              "しゃちょう",
-              "はらいます"
+              "のります",
+              "なかなか",
+              "しかし",
+              "じんじゃ"
             ],
-            "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【社長】 có nghĩa là: **Giám đốc**.\n\n✍️ Phân tích đáp án:\n- **しゃちょう** (shachou): Cách đọc đúng của chữ Hán 【社長】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **XÃ TRƯỜNG**.\n- Mẹo nhớ: Người đứng đầu công ty (Giám đốc)."
+            "correctIndex": 3,
+            "explanation": "📖 Dịch nghĩa:\nĐây là đền thần đạo.\n\n✍️ Phân tích đáp án:\n- **のります** (norimasu): Nghĩa là \"Lên (tàu, xe)\" → Sai.\n- **なかなか** (nakanaka): Nghĩa là \"Mãi mà không (đi với phủ định)\" → Sai.\n- **しかし** (shikashi): Nghĩa là \"Nhưng, tuy nhiên\" → Sai.\n- **じんじゃ** (jinja): Cách đọc đúng của chữ Hán 【神社】 → Chọn.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">これ</span> (Từ vựng - Đại từ: \"Cái này (gần người nói)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">神社</span> (Từ vựng - Danh từ: \"Đền Thần đạo\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **これ (kore)**: Cái này (gần người nói)\n- **神社 (じんじゃ / jinja)**: Đền Thần đạo\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **THẦN XÃ**.\n- Mẹo nhớ: Đền thờ của Thần đạo."
           }
         ]
       },
@@ -5208,51 +5243,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_16_20_3_m2_q0",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【うんてんします】",
+            "question": "これ 【かお】 です。",
             "options": [
-              "調子が悪い",
-              "よかったら",
-              "覚えます",
-              "運転します"
+              "弱い",
+              "君",
+              "ぜひ",
+              "顔"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Lái xe**.\n\n✍️ Phân tích đáp án:\n- **運転します** (うんてんします): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **VẬN CHUYỂN**.\n- Cấu tạo: 運 (Vận) + 転 (Chuyển)"
+            "explanation": "📖 Dịch nghĩa:\nĐây là khuôn mặt.\n\n✍️ Phân tích đáp án:\n- **弱い** (よわい): Nghĩa là \"Yếu\" → Sai.\n- **君** (きみ): Nghĩa là \"Bạn (nam giới gọi nữ/nam bằng tuổi)\" → Sai.\n- **ぜひ** (ぜひ): Nghĩa là \"Nhất định\" → Sai.\n- **顔** (かお): Cách viết chữ Hán đúng của từ 【かお】 → Chọn.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">これ</span> (Từ vựng - Đại từ: \"Cái này (gần người nói)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">かお</span> (Từ vựng - Danh từ: \"Khuôn mặt\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **これ (kore)**: Cái này (gần người nói)\n- **顔 (かお / kao)**: Khuôn mặt\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **NHAN**.\n- Cấu tạo: 彦 (Ngạn) + 頁 (Hiệt)"
           },
           {
             "id": "m_review_16_20_3_m2_q1",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【あつめます】",
+            "question": "あした 【しらべます】。",
             "options": [
-              "どの〜",
-              "２、３日",
-              "ううん",
-              "集めます"
+              "調べます",
+              "登ります",
+              "何回も",
+              "降ります"
             ],
-            "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Sưu tầm, tập hợp**.\n\n✍️ Phân tích đáp án:\n- **集めます** (あつめます): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **TẬP**.\n- Cấu tạo: 隹 (Truy - Chim nhỏ) + 木 (Mộc - Cây)"
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nNgày mai tôi sẽ tìm hiểu, điều tra.\n\n✍️ Phân tích đáp án:\n- **調べます** (しらべます): Cách viết chữ Hán đúng của từ 【しらべます】 → Chọn.\n- **登ります** (のぼります): Nghĩa là \"Leo (núi)\" → Sai.\n- **何回も** (なんかいも): Nghĩa là \"Nhiều lần\" → Sai.\n- **降ります** (ふります): Nghĩa là \"Rơi (mưa, tuyết)\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あした</span> (Từ vựng - Danh từ: \"Ngày mai\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">しらべます</span> (Từ vựng - Động từ: \"Tìm hiểu, điều tra\")\n\n📝 Từ vựng trong câu:\n- **明日 (あした / ashita)**: Ngày mai\n- **調べます (しらべます / shirabemasu)**: Tìm hiểu, điều tra\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **ĐIỀU**.\n- Cấu tạo: 言 (Ngôn) + 周 (Chu)"
           },
           {
             "id": "m_review_16_20_3_m2_q2",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【うわぎ】",
+            "question": "これ 【げんきん】 です。",
             "options": [
-              "強い",
-              "熱",
-              "部長",
-              "上着"
+              "現金",
+              "状態",
+              "髪",
+              "金額"
             ],
-            "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Áo khoác**.\n\n✍️ Phân tích đáp án:\n- **上着** (うわぎ): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **THƯỢNG TRƯỚC**.\n- Cấu tạo: 上 (Thượng) + 着 (Trước - Mặc)"
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nĐây là tiền mặt.\n\n✍️ Phân tích đáp án:\n- **現金** (げんきん): Cách viết chữ Hán đúng của từ 【げんきん】 → Chọn.\n- **状態** (じょうたい): Nghĩa là \"Trạng thái\" → Sai.\n- **髪** (かみ): Nghĩa là \"Tóc\" → Sai.\n- **金額** (きんがく): Nghĩa là \"Số tiền\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">これ</span> (Từ vựng - Đại từ: \"Cái này (gần người nói)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">げんきん</span> (Từ vựng - Danh từ: \"Tiền mặt\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **これ (kore)**: Cái này (gần người nói)\n- **現金 (げんきん / genkin)**: Tiền mặt\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **HIỆN KIM**.\n- Cấu tạo: 現 (Hiện) + 金 (Kim)"
           },
           {
             "id": "m_review_16_20_3_m2_q3",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【ひ】",
+            "question": "【びょうき】ですから、くすりを（　　）。",
             "options": [
-              "物価",
-              "緑",
-              "特に",
-              "日"
+              "確認",
+              "ううん",
+              "病気",
+              "お寺"
             ],
-            "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Ngày**.\n\n✍️ Phân tích đáp án:\n- **日** (ひ): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **NHẬT**.\n- Cấu tạo: 日 (Nhật)"
+            "correctIndex": 2,
+            "explanation": "📖 Dịch nghĩa:\nVì bị ốm nên phải uống thuốc.\n\n✍️ Phân tích đáp án:\n- **確認** (かくにん): Nghĩa là \"Xác nhận\" → Sai.\n- **ううん** (ううん): Nghĩa là \"Không (thông thường)\" → Sai.\n- **病気** (びょうき): Cách viết chữ Hán đúng của từ 【びょうき】 → Chọn.\n- **お寺** (おてら): Nghĩa là \"Chùa\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">びょうき</span> (Từ vựng - Danh từ: \"Ốm, bệnh\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ですから</span> (Từ vựng - Liên từ: \"Vì thế, do đó\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">くすり</span> (Từ vựng - Danh từ: \"Thuốc\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n\n📝 Từ vựng trong câu:\n- **病気 (びょうき / byouki)**: Ốm, bệnh\n- **ですから (desukara)**: Vì thế, do đó\n- **薬 (くすり / kusuri)**: Thuốc\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **BỆNH KHÍ**.\n- Cấu tạo: 病 (Bệnh) + 気 (Khí)"
           }
         ]
       },
@@ -5262,51 +5297,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_16_20_3_m3_q0",
-            "question": "わたしの へやは（　　）、あかるいです。",
+            "question": "この パソコンは あたらし（　　）、いいです。",
             "options": [
-              "きれいで",
-              "きれいくて",
-              "きれいなで",
-              "きれいに"
+              "くて",
+              "で",
+              "くては",
+              "く"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nPhòng của tôi sạch đẹp và sáng sủa.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **きれいで**.\n\n📚 Từ vựng bổ trợ:\n- 部屋 (へや / heya): Căn phòng\n\n💡 Ngữ pháp & Mẹo nhớ:\nきれい là tính từ đuôi な đặc biệt (kết thúc bằng い nhưng thuộc nhóm な). Nối câu dùng で -> きれいで."
+            "explanation": "📖 Dịch nghĩa:\nCái máy tính này mới và tốt.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **くて**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">この</span> (Từ vựng - Từ chỉ định: \"Cái này ... (+ danh từ)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">パソコン</span> (Từ vựng - Danh từ: \"Máy tính cá nhân\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">いい</span> (Từ vựng - Tính từ đuôi i: \"Tốt\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **この (kono)**: Cái này ... (+ danh từ)\n- **パソコン (ぱそこん / pasokon)**: Máy tính cá nhân\n- **いい (ii (yoi))**: Tốt\n\n💡 Ngữ pháp & Mẹo nhớ:\nTính từ đuôi い (新しい) nối câu bằng cách bỏ い thêm くて -> 新しくて."
           },
           {
             "id": "m_review_16_20_3_m3_q1",
-            "question": "まいにち にほんごを（　　）ければ なりません。",
+            "question": "「きます」(Đến) の た形 は なにですか。",
             "options": [
-              "べんきょうしな",
-              "べんきょうして",
-              "べんきょうする",
-              "べんきょうし"
+              "きた",
+              "きった",
+              "きだ",
+              "くる"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nMỗi ngày phải học tiếng Nhật.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **べんきょうしな**.\n\n📚 Từ vựng bổ trợ:\n- 毎日 (まいにち / mainichi): Hàng ngày, mỗi ngày\n- 日本語 (にほんご / nihongo): Tiếng Nhật\n\n💡 Ngữ pháp & Mẹo nhớ:\nPhải làm gì: Vない (bỏ ない) + なければなりません. 勉強します -> 勉強しない -> 勉強しなければ."
+            "explanation": "📖 Dịch nghĩa:\nThể た của \"Kimasu\" là gì?\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **きた**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">きます</span> (Từ vựng - Động từ: \"Đến\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">なに</span> (Từ vựng - Từ hỏi: \"Cái gì\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **来ます (きます / kimasu)**: Đến\n- **何 (なに / nani)**: Cái gì\n\n💡 Ngữ pháp & Mẹo nhớ:\nNhóm 3 đặc biệt: 来ます (Kimasu) -> 来た (Kita)."
           },
           {
             "id": "m_review_16_20_3_m3_q2",
-            "question": "A：きのう なにを しましたか。 ...B：としょかんへ いって、ほんを（　　）。",
+            "question": "A：きのう、えいがを（　　）？ ...B：うん、（　　）。",
             "options": [
-              "かりました",
-              "かかりました",
-              "かりて",
-              "かりる"
+              "みた/みた",
+              "みる/みる",
+              "みた/みない",
+              "みて/みる"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nA: Hôm qua bạn đã làm gì? ...B: Tôi đi thư viện rồi mượn sách.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **かりました**.\n\n📚 Từ vựng bổ trợ:\n- 本 (ほん / hon): Sách\n\n💡 Ngữ pháp & Mẹo nhớ:\nHỏi quá khứ (きのう なにを しましたか) nên động từ cuối câu trả lời phải chia ở thì quá khứ -> 借りました."
+            "explanation": "📖 Dịch nghĩa:\nA: Hôm qua có xem phim không? ...B: Có, đã xem.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **みた/みた**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">きのう</span> (Từ vựng - Danh từ: \"Hôm qua\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">えいが</span> (Từ vựng - Danh từ: \"Phim, điện ảnh\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">うん</span> (Từ vựng - Từ cảm thán: \"Có (vâng - thông thường)\")\n\n📝 Từ vựng trong câu:\n- **きのう (kinou)**: Hôm qua\n- **映画 (えいが / eiga)**: Phim, điện ảnh\n- **うん (un)**: Có (vâng - thông thường)\n\n💡 Ngữ pháp & Mẹo nhớ:\nHỏi về quá khứ (きのう) dùng Vた. 見ましたか -> 見た？. Trả lời: 見ました -> 見た."
           },
           {
             "id": "m_review_16_20_3_m3_q3",
-            "question": "まちが きれい（　　）なりました。",
+            "question": "しごとが おわって（　　）、のみに いきます。",
             "options": [
-              "に",
-              "く",
+              "から",
+              "まで",
               "で",
-              "な"
+              "に"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nThành phố đã trở nên sạch đẹp.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **に**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nきれい là Tính từ đuôi な. Thêm に + なります -> きれいに なりました."
+            "explanation": "📖 Dịch nghĩa:\nSau khi công việc kết thúc, tôi đi uống rượu.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **から**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #f73859; font-weight: 800;\">と</span> (Trợ từ chỉ đối tượng đồng hành / liệt kê)\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / địa điểm / đối tượng tiếp nhận)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">いきます</span> (Từ vựng - Động từ: \"Đi\")\n\n📝 Từ vựng trong câu:\n- **行きます (いきます / ikimasu)**: Đi\n\n💡 Ngữ pháp & Mẹo nhớ:\nNhấn mạnh sau khi xong việc này mới làm việc kia dùng Vてから."
           }
         ]
       },
@@ -5316,51 +5351,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_16_20_3_b1_q0",
-            "question": "にほんは べんり（　　）、きれいです。",
+            "question": "A：ここで じしょを つかっても いいですか。 ...B：いいえ、（　　）。",
             "options": [
-              "で",
-              "くて",
-              "な",
-              "に"
+              "つかわないで ください",
+              "つかわなくてもいいです",
+              "つかってもいいです",
+              "つかってください"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nNhật Bản thì tiện lợi và sạch đẹp.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **で**.\n\n📚 Từ vựng bổ trợ:\n- きれい (kirei): Đẹp/Sạch sẽ\n- 本 (ほん / hon): Sách\n\n💡 Ngữ pháp & Mẹo nhớ:\n便利 (tiện lợi) là tính từ đuôi な, nối câu bằng で."
+            "explanation": "📖 Dịch nghĩa:\nA: Dùng từ điển ở đây có được không? ...B: Không, xin đừng dùng.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **つかわないで ください**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ここ</span> (Từ vựng - Đại từ: \"Đây, chỗ này\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">じしょ</span> (Từ vựng - Danh từ: \"Từ điển\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #f73859; font-weight: 800;\">も</span> (Trợ từ chỉ cũng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">いい</span> (Từ vựng - Tính từ đuôi i: \"Tốt\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">いいえ</span> (Từ vựng - Thán từ: \"Không (phủ định)\")\n\n📝 Từ vựng trong câu:\n- **ここ (koko)**: Đây, chỗ này\n- **辞書 (じしょ / jisho)**: Từ điển\n- **いい (ii (yoi))**: Tốt\n- **いいえ (iie)**: Không (phủ định)\n\n💡 Ngữ pháp & Mẹo nhớ:\nTừ chối dùng ないでください hoặc てはいけません. Nhóm 1: 使います -> 使わない."
           },
           {
             "id": "m_review_16_20_3_b1_q1",
-            "question": "しょくじ（　　）まえに、てを あらいます。",
+            "question": "まちが きれい（　　）なりました。",
             "options": [
-              "の",
-              "が",
-              "を",
-              "に"
+              "に",
+              "く",
+              "で",
+              "な"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTrước bữa ăn, tôi rửa tay.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **の**.\n\n📚 Từ vựng bổ trợ:\n- 絵 (え / e): Bức tranh\n\n💡 Ngữ pháp & Mẹo nhớ:\nDanh từ + の + まえに. 食事 (bữa ăn) là danh từ -> 食事のまえに."
+            "explanation": "📖 Dịch nghĩa:\nThành phố đã trở nên sạch đẹp.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **に**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">まち</span> (Từ vựng - Danh từ: \"Thị trấn, phố\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">きれい</span> (Từ vựng - Tính từ đuôi na: \"Đẹp, sạch sẽ\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">なりました</span> (Từ vựng - Động từ: \"Trở thành, trở nên\")\n\n📝 Từ vựng trong câu:\n- **町 (まち / machi)**: Thị trấn, phố\n- **きれい（な） (きれい / kirei)**: Đẹp, sạch sẽ\n- **なります (narimasu)**: Trở thành, trở nên\n\n💡 Ngữ pháp & Mẹo nhớ:\nきれい là Tính từ đuôi な. Thêm に + なります -> きれいに なりました."
           },
           {
             "id": "m_review_16_20_3_b1_q2",
-            "question": "にほんへ くる まえに、にほんごを（　　）。",
+            "question": "「おいしいです」の 普通体 は なにですか。",
             "options": [
-              "べんきょうしました",
-              "べんきょうします",
-              "べんきょうする",
-              "べんきょうして"
+              "おいしい",
+              "おいしいだ",
+              "おいしかった",
+              "おいしくない"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTrước khi đến Nhật Bản, tôi đã học tiếng Nhật.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **べんきょうしました**.\n\n📚 Từ vựng bổ trợ:\n- 日本語 (にほんご / nihongo): Tiếng Nhật\n- 本 (ほん / hon): Sách\n- 絵 (え / e): Bức tranh\n\n💡 Ngữ pháp & Mẹo nhớ:\nĐộng từ đứng trước まえに luôn ở Thể từ điển (くる), nhưng thì của cả câu được quyết định bởi động từ ở cuối câu. Việc học đã xảy ra trong quá khứ nên dùng 勉強しました."
+            "explanation": "📖 Dịch nghĩa:\nThể thông thường của \"Oishii desu\" là gì?\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **おいしい**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">おいしい</span> (Từ vựng - Tính từ đuôi i: \"Ngon\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">普通</span> (Từ vựng - Danh từ: \"Tàu thường, bình thường\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">体</span> (Từ vựng - Danh từ: \"Cơ thể\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">なに</span> (Từ vựng - Từ hỏi: \"Cái gì\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **おいしい (oishii)**: Ngon\n- **普通 (ふつう / futsuu)**: Tàu thường, bình thường\n- **体 (からだ / karada)**: Cơ thể\n- **何 (なに / nani)**: Cái gì\n\n💡 Ngữ pháp & Mẹo nhớ:\nTính từ đuôi い chỉ cần bỏ です. おいしいです -> おいしい."
           },
           {
             "id": "m_review_16_20_3_b1_q3",
-            "question": "「かいます」の ない形は なにですか。",
+            "question": "「まちます」の ない形は なにですか。",
             "options": [
-              "かわない",
-              "かかない",
-              "かあない",
-              "かまない"
+              "またない",
+              "またないで",
+              "まわない",
+              "まちない"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nThể Nai của \"Kaimasu\" (Mua) là gì?\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **かわない**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nĐộng từ nhóm 1 tận cùng bằng い sẽ chuyển thành わ + ない. 買います -> 買わない."
+            "explanation": "📖 Dịch nghĩa:\nThể Nai của \"Machimasu\" (Đợi) là gì?\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **またない**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">まちます</span> (Từ vựng - Động từ: \"Đợi\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">なに</span> (Từ vựng - Từ hỏi: \"Cái gì\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **待ちます (まちます / machimasu)**: Đợi\n- **何 (なに / nani)**: Cái gì\n\n💡 Ngữ pháp & Mẹo nhớ:\nNhóm 1 đuôi ち -> た + ない. 待ちます -> 待たない."
           }
         ]
       },
@@ -5370,27 +5405,27 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_16_20_3_b2_q0",
-            "question": "わたしは　___ ___ _★_ ___　ことがあります。",
+            "question": "わたしは　___ ___ _★_ ___　できます。",
             "options": [
-              "に",
-              "のった",
-              "うま",
-              "１かい"
+              "こと",
+              "ひく",
+              "ピアノを",
+              "が"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTôi đã từng cưỡi ngựa một lần.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: わたしは [１かい] [うま] [★ に] [のった] ことがあります。\n- Từ ở vị trí ngôi sao (★) là: **に**.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Cấu trúc kinh nghiệm quá khứ: V た ことが あります (Đã từng làm gì)."
+            "explanation": "📖 Dịch nghĩa:\nTôi có thể chơi đàn piano.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: わたしは ピアノを ひく こと が できます。\n- Từ ở vị trí ngôi sao (★) là: **こと**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">わたし</span> (Từ vựng - Đại từ: \"Tôi\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ピアノ</span> (Từ vựng - Danh từ: \"Đàn Piano\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">こと</span> (Từ vựng - Danh từ: \"Việc\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">できます</span> (Từ vựng - Động từ: \"Có thể\")\n\n📝 Từ vựng trong câu:\n- **私 (わたし / watashi)**: Tôi\n- **ピアノ (piano)**: Đàn Piano\n- **こと (koto)**: Việc\n- **できます (dekimasu)**: Có thể\n\n💡 Ngữ pháp & Mẹo nhớ:\nCấu trúc khả năng: V る こと が できます."
           },
           {
             "id": "m_review_16_20_3_b2_q1",
-            "question": "にちようびは　___ ___ _★_ ___　します。",
+            "question": "おくすりを　___ ___ _★_ ___　ください。",
             "options": [
-              "おんがくを",
-              "きいたり",
-              "ほんを",
-              "よんだり"
+              "おふろに",
+              "あとで",
+              "のんだ",
+              "はいって"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nNgày chủ nhật tôi thường đọc sách, nghe nhạc.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: にちようびは [ほんを] [よんだり] [★ おんがくを] [きいたり] します。\n- Từ ở vị trí ngôi sao (★) là: **おんがくを**.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Liệt kê hành động không theo trình tự thời gian: V1 たり, V2 たり します (Lúc thì làm V1, lúc thì làm V2)."
+            "explanation": "📖 Dịch nghĩa:\nSau khi uống thuốc thì hãy tắm bồn nhé.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: おくすりを のんだ あとで おふろに はいって ください。\n- Từ ở vị trí ngôi sao (★) là: **おふろに**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">おく</span> (Từ vựng - Danh từ: \"Bên trong cùng, phía sâu bên trong\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あとで</span> (Từ vựng - Phó từ: \"Sau, lát nữa\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">おふろ</span> (Từ vựng - Danh từ: \"Bồn tắm\")\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / địa điểm / đối tượng tiếp nhận)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">はい</span> (Từ vựng - Thán từ: \"Vâng, đúng vậy\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ください</span> (Từ vựng - Mẫu câu: \"Cho tôi ~ / Làm ơn cho\")\n\n📝 Từ vựng trong câu:\n- **奥 (おく / oku)**: Bên trong cùng, phía sâu bên trong\n- **あとで (ato de)**: Sau, lát nữa\n- **お風呂 (おふろ / ofuro)**: Bồn tắm\n- **はい (hai)**: Vâng, đúng vậy\n- **ください (kudasai)**: Cho tôi ~ / Làm ơn cho\n\n💡 Ngữ pháp & Mẹo nhớ:\nCấu trúc thứ tự hành động: V1 た あとで, V2."
           }
         ]
       },
@@ -5398,49 +5433,55 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "id": "p_review_16_20_3_dokkai1",
         "type": "mondai3",
         "text": [
-          "わたしの しゅみは しゃしんを とることです。",
-          "やすみの ひ、よく うみや やまへ いきます。",
-          "そして、はなや とりの しゃしんを とります。",
-          "うみを およぐことが できますから、なつが いちばん すきです。",
-          "ことしの なつも たくさん しゃしんを とりたいです。"
+          "【 としょかんの つかいかた 】",
+          "・なかで たべたり、のんだり しないで ください。",
+          "・おおきい こえで はなさないで ください。",
+          "・ほんは にしゅうかんまでに かえさなければ なりません。",
+          "・じしょは かりることが できません。"
         ],
         "translation": [
-          "Sở thích của tôi là chụp ảnh.",
-          "Ngày nghỉ, tôi thường đi biển và núi.",
-          "Và chụp ảnh hoa lá, chim muông.",
-          "Vì có thể bơi ở biển nên tôi thích mùa hè nhất.",
-          "Mùa hè năm nay tôi cũng muốn chụp thật nhiều ảnh."
+          "[ Cách sử dụng thư viện ]",
+          "- Xin đừng ăn uống ở bên trong.",
+          "- Xin đừng nói chuyện lớn tiếng.",
+          "- Sách thì phải trả lại trong vòng 2 tuần.",
+          "- Từ điển thì không được mượn mang về."
         ],
         "vocabulary": [
-          "写真 (しゃしん / shashin): Bức ảnh",
-          "休み (やすみ / yasumi): Ngày nghỉ",
-          "趣味 (しゅみ / shumi): Sở thích",
-          "花 (はな / hana): Hoa"
+          "図書館 (としょかん / toshokan): Thư viện",
+          "ください (kudasai): Cho tôi ~ / Làm ơn cho",
+          "大きい (おおきい / ookii): To lớn",
+          "辞書 (じしょ / jisho): Từ điển",
+          "本 (ほん / hon): Sách",
+          "千 (せん / sen): 1000",
+          "まで (made): Đến (thời gian)",
+          "花 (はな / hana): Hoa",
+          "中 (なか / naka): Trong, bên trong",
+          "こと (koto): Việc"
         ],
         "questions": [
           {
             "id": "m_review_16_20_3_d1_q0",
-            "question": "このひとの しゅみは なんですか？ (Sở thích của người này là gì?)",
+            "question": "としょかんで なにを しても いいですか？ (Ở thư viện được làm gì?)",
             "options": [
-              "しゃしんを とること (Chụp ảnh)",
-              "うみを およぐこと (Bơi ở biển)",
-              "やまへ いくこと (Đi núi)",
-              "えを かくこと (Vẽ tranh)"
+              "ほんを よみます (Đọc sách)",
+              "コーヒーを のみます (Uống cafe)",
+              "おおきいこえで はなします (Nói lớn tiếng)",
+              "じしょを かえります (Mượn từ điển về)"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nこのひとの しゅみは なんですか？ (Sở thích của người này là gì?)\n- Đáp án đúng: **しゃしんを とること (Chụp ảnh)**.\n\n✍️ Phân tích đáp án:\n- Dựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác.\n\n📚 Từ vựng bổ trợ:\n- 趣味 (しゅみ / shumi): Sở thích"
+            "explanation": "📖 Dịch nghĩa:\nとしょかんで なにを しても いいですか？ (Ở thư viện được làm gì?)\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **ほんを よみます (Đọc sách)**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">としょかん</span> (Từ vựng - Danh từ: \"Thư viện\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">なに</span> (Từ vựng - Từ hỏi: \"Cái gì\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #f73859; font-weight: 800;\">も</span> (Trợ từ chỉ cũng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">いい</span> (Từ vựng - Tính từ đuôi i: \"Tốt\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **図書館 (としょかん / toshokan)**: Thư viện\n- **何 (なに / nani)**: Cái gì\n- **いい (ii (yoi))**: Tốt\n\n💡 Ngữ pháp & Mẹo nhớ:\nDựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác."
           },
           {
             "id": "m_review_16_20_3_d1_q1",
-            "question": "どうして なつが いちばん すきですか？ (Tại sao thích mùa hè nhất?)",
+            "question": "ほんは いつまでに かえさなければなりませんか？ (Phải trả sách trước khi nào?)",
             "options": [
-              "うみを およぐことが できますから (Vì có thể bơi ở biển)",
-              "やまへ いくことが できますから (Vì có thể đi núi)",
-              "しゃしんを とることが できますから (Vì có thể chụp ảnh)",
-              "はなが きれいですから (Vì hoa đẹp)"
+              "2しゅうかんまでに (Trong vòng 2 tuần)",
+              "1しゅうかんまでに (Trong vòng 1 tuần)",
+              "1かげつまでに (Trong vòng 1 tháng)",
+              "いつでもいいです (Bao giờ cũng được)"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nどうして なつが いちばん すきですか？ (Tại sao thích mùa hè nhất?)\n- Đáp án đúng: **うみを およぐことが できますから (Vì có thể bơi ở biển)**.\n\n✍️ Phân tích đáp án:\n- Dựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác."
+            "explanation": "📖 Dịch nghĩa:\nほんは いつまでに かえさなければなりませんか？ (Phải trả sách trước khi nào?)\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **2しゅうかんまでに (Trong vòng 2 tuần)**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ほん</span> (Từ vựng - Danh từ: \"Sách\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">いつ</span> (Từ vựng - Từ hỏi: \"Khi nào\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">まで</span> (Từ vựng - Trợ từ: \"Đến (thời gian)\")\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / địa điểm / đối tượng tiếp nhận)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">なければなりません</span> (Từ vựng - Động từ: \"Làm, chơi\")\n\n📝 Từ vựng trong câu:\n- **本 (ほん / hon)**: Sách\n- **いつ (itsu)**: Khi nào\n- **まで (made)**: Đến (thời gian)\n- **します (shimasu)**: Làm, chơi\n\n💡 Ngữ pháp & Mẹo nhớ:\nDựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác."
           }
         ]
       }
@@ -5457,51 +5498,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_16_20_4_m1_q0",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【物価】",
+            "question": "B：はい。【お風呂】に入ってもいいですか。",
             "options": [
-              "ぶっか",
-              "どの〜",
-              "あびます",
-              "すてます"
+              "おふろ",
+              "ケーキ",
+              "できます",
+              "いります"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【物価】 có nghĩa là: **Vật giá**.\n\n✍️ Phân tích đáp án:\n- **ぶっか** (bukka): Cách đọc đúng của chữ Hán 【物価】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **VẬT GIÁ**.\n- Mẹo nhớ: Giá trị của vật chất."
+            "explanation": "📖 Dịch nghĩa:\nB: Vâng. Tôi tắm bồn có được không?\n\n✍️ Phân tích đáp án:\n- **おふろ** (ofuro): Cách đọc đúng của chữ Hán 【お風呂】 → Chọn.\n- **ケーキ** (keeki): Nghĩa là \"Bánh ngọt\" → Sai.\n- **できます** (dekimasu): Nghĩa là \"Có thể\" → Sai.\n- **いります** (irimasu): Nghĩa là \"Cần\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">はい</span> (Từ vựng - Thán từ: \"Vâng, đúng vậy\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">お風呂</span> (Từ vựng - Danh từ: \"Bồn tắm\")\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / địa điểm / đối tượng tiếp nhận)\n- <span style=\"color: #f73859; font-weight: 800;\">も</span> (Trợ từ chỉ cũng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">いい</span> (Từ vựng - Tính từ đuôi i: \"Tốt\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **はい (hai)**: Vâng, đúng vậy\n- **お風呂 (おふろ / ofuro)**: Bồn tắm\n- **いい (ii (yoi))**: Tốt\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **PHONG LỮ**.\n- Mẹo nhớ: Tắm rửa trong bồn tắm."
           },
           {
             "id": "m_review_16_20_4_m1_q1",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【暗証番号】",
+            "question": "あした 【降ります】。",
             "options": [
-              "あんしょうばんごう",
-              "れんしゅうします",
-              "しゅっちょうします",
-              "ちょうしがわるい"
+              "ねむい",
+              "パチンコ",
+              "〜までに",
+              "おります"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【暗証番号】 có nghĩa là: **Mã PIN**.\n\n✍️ Phân tích đáp án:\n- **あんしょうばんごう** (anshou bangou): Cách đọc đúng của chữ Hán 【暗証番号】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **ÁM CHỨNG PHIÊN HIỆU**.\n- Mẹo nhớ: Mã số bí mật (Ám) dùng để chứng minh (Chứng)."
+            "correctIndex": 3,
+            "explanation": "📖 Dịch nghĩa:\nNgày mai tôi sẽ xuống (tàu, xe).\n\n✍️ Phân tích đáp án:\n- **ねむい** (nemui): Nghĩa là \"Buồn ngủ\" → Sai.\n- **パチンコ** (pachinko): Nghĩa là \"Pachinko\" → Sai.\n- **〜までに** (~madeni): Nghĩa là \"Trước ~ (thời hạn)\" → Sai.\n- **おります** (orimasu): Cách đọc đúng của chữ Hán 【降ります】 → Chọn.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あした</span> (Từ vựng - Danh từ: \"Ngày mai\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">降ります</span> (Từ vựng - Động từ: \"Rơi (mưa, tuyết)\")\n\n📝 Từ vựng trong câu:\n- **明日 (あした / ashita)**: Ngày mai\n- **降ります (ふります / furimasu)**: Rơi (mưa, tuyết)\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **GIÁNG**.\n- Mẹo nhớ: Bước chân đi xuống khỏi gò đất."
           },
           {
             "id": "m_review_16_20_4_m1_q2",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【無理（な）】",
+            "question": "あした 【入ります】。",
             "options": [
-              "ことば",
-              "どっち",
-              "きみ",
-              "むり"
+              "もってきます",
+              "よやくします",
+              "まだまだです",
+              "はいります"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【無理（な）】 có nghĩa là: **Không thể, quá sức**.\n\n✍️ Phân tích đáp án:\n- **むり** (muri): Cách đọc đúng của chữ Hán 【無理（な）】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **VÔ LÝ**.\n- Mẹo nhớ: Không có lý (Không thể/Quá sức)."
+            "explanation": "📖 Dịch nghĩa:\nNgày mai tôi sẽ vào (đại học).\n\n✍️ Phân tích đáp án:\n- **もってきます** (motte kimasu): Nghĩa là \"Mang đến\" → Sai.\n- **よやくします** (yoyakushimasu): Nghĩa là \"Đặt chỗ\" → Sai.\n- **まだまだです** (mada mada desu): Nghĩa là \"Vẫn còn kém lắm (khiêm nhường)\" → Sai.\n- **はいります** (hairimasu): Cách đọc đúng của chữ Hán 【入ります】 → Chọn.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あした</span> (Từ vựng - Danh từ: \"Ngày mai\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">入ります</span> (Từ vựng - Động từ: \"Vào\")\n\n📝 Từ vựng trong câu:\n- **明日 (あした / ashita)**: Ngày mai\n- **入ります (はいります / hairimasu)**: Vào\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **NHẬP**.\n- Mẹo nhớ: Đi vào."
           },
           {
             "id": "m_review_16_20_4_m1_q3",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【君】",
+            "question": "あした 【乗り換えます】。",
             "options": [
-              "あっち",
-              "かぜ",
-              "ぜひ",
-              "きみ"
+              "のりかえます",
+              "りゅうがくせい",
+              "ちょうしがいい",
+              "どうやって"
             ],
-            "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【君】 có nghĩa là: **Bạn (nam giới gọi nữ/nam bằng tuổi)**.\n\n✍️ Phân tích đáp án:\n- **きみ** (kimi): Cách đọc đúng của chữ Hán 【君】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **QUÂN**.\n- Mẹo nhớ: Cái miệng của người quân tử (Bạn)."
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nNgày mai tôi sẽ chuyển tàu.\n\n✍️ Phân tích đáp án:\n- **のりかえます** (norikaemasu): Cách đọc đúng của chữ Hán 【乗り換えます】 → Chọn.\n- **りゅうがくせい** (ryuugakusei): Nghĩa là \"Lưu học sinh\" → Sai.\n- **ちょうしがいい** (choushi ga ii): Nghĩa là \"Tình trạng tốt\" → Sai.\n- **どうやって** (douyatte): Nghĩa là \"Làm thế nào\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あした</span> (Từ vựng - Danh từ: \"Ngày mai\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">乗り換えます</span> (Từ vựng - Động từ: \"Chuyển tàu\")\n\n📝 Từ vựng trong câu:\n- **明日 (あした / ashita)**: Ngày mai\n- **乗り換えます (のりかえます / norikaemasu)**: Chuyển tàu\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **THỪA HOÁN**.\n- Mẹo nhớ: Lên (Thừa) một chuyến tàu rồi đổi (Hoán) sang chuyến khác."
           }
         ]
       },
@@ -5511,51 +5552,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_16_20_4_m2_q0",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【ぬぎます】",
+            "question": "あした 【もってきます】。",
             "options": [
-              "乗ります",
-              "換えます",
-              "脱ぎます",
-              "お祈り"
+              "持って来ます",
+              "インターネット",
+              "乗り換えます",
+              "まだまだです"
             ],
-            "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Cởi (quần áo, giày)**.\n\n✍️ Phân tích đáp án:\n- **脱ぎます** (ぬぎます): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **THOÁT**.\n- Cấu tạo: 月 (Nhục - Cơ thể) + 兌 (Đoái - Thay đổi)"
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nNgày mai tôi sẽ mang đến.\n\n✍️ Phân tích đáp án:\n- **持って来ます** (もってきます): Cách viết chữ Hán đúng của từ 【もってきます】 → Chọn.\n- **インターネット** (インターネット): Nghĩa là \"Internet\" → Sai.\n- **乗り換えます** (のりかえます): Nghĩa là \"Chuyển tàu\" → Sai.\n- **まだまだです** (まだまだです): Nghĩa là \"Vẫn còn kém lắm (khiêm nhường)\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あした</span> (Từ vựng - Danh từ: \"Ngày mai\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">もってきます</span> (Từ vựng - Động từ: \"Mang đến\")\n\n📝 Từ vựng trong câu:\n- **明日 (あした / ashita)**: Ngày mai\n- **持って来ます (もってきます / motte kimasu)**: Mang đến\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **TRÌ LAI**.\n- Cấu tạo: 持 (Trì) + 来 (Lai)"
           },
           {
             "id": "m_review_16_20_4_m2_q1",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【はじめ】",
+            "question": "これ 【きんえん】 です。",
             "options": [
-              "初め",
-              "僕",
-              "病気",
-              "頭"
+              "へえ",
+              "日記",
+              "禁煙",
+              "危ない"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Ban đầu**.\n\n✍️ Phân tích đáp án:\n- **初め** (はじめ): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **SƠ**.\n- Cấu tạo: 衤 (Y) + 刀 (Đao)"
+            "correctIndex": 2,
+            "explanation": "📖 Dịch nghĩa:\nĐây là cấm hút thuốc.\n\n✍️ Phân tích đáp án:\n- **へえ** (へえ): Nghĩa là \"Thế à (ngạc nhiên)\" → Sai.\n- **日記** (にっき): Nghĩa là \"Nhật ký\" → Sai.\n- **禁煙** (きんえん): Cách viết chữ Hán đúng của từ 【きんえん】 → Chọn.\n- **危ない** (あぶない): Nghĩa là \"Nguy hiểm\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">これ</span> (Từ vựng - Đại từ: \"Cái này (gần người nói)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">きんえん</span> (Từ vựng - Danh từ: \"Cấm hút thuốc\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **これ (kore)**: Cái này (gần người nói)\n- **禁煙 (きんえん / kinen)**: Cấm hút thuốc\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **CẤM YÊN**.\n- Cấu tạo: 禁 (Cấm) + 煙 (Yên - Khói)"
           },
           {
             "id": "m_review_16_20_4_m2_q2",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【しゅみ】",
+            "question": "あした 【れんしゅうします】。",
             "options": [
-              "あっち",
-              "上着",
-              "お風呂",
-              "趣味"
+              "大切（な）",
+              "パチンコ",
+              "練習します",
+              "パスポート"
             ],
-            "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Sở thích**.\n\n✍️ Phân tích đáp án:\n- **趣味** (しゅみ): Cách viết chữ Hán đúng của từ.\n\n📚 Từ vựng bổ trợ:\n- 趣味 (しゅみ / shumi): Sở thích\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **THÚ VỊ**.\n- Cấu tạo: 趣 (Thú) + 味 (Vị)"
+            "correctIndex": 2,
+            "explanation": "📖 Dịch nghĩa:\nNgày mai tôi sẽ luyện tập.\n\n✍️ Phân tích đáp án:\n- **大切（な）** (たいせつ): Nghĩa là \"Quan trọng\" → Sai.\n- **パチンコ** (パチンコ): Nghĩa là \"Pachinko\" → Sai.\n- **練習します** (れんしゅうします): Cách viết chữ Hán đúng của từ 【れんしゅうします】 → Chọn.\n- **パスポート** (パスポート): Nghĩa là \"Hộ chiếu\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あした</span> (Từ vựng - Danh từ: \"Ngày mai\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">れんしゅうします</span> (Từ vựng - Động từ: \"Luyện tập\")\n\n📝 Từ vựng trong câu:\n- **明日 (あした / ashita)**: Ngày mai\n- **練習します (れんしゅうします / renshuushimasu)**: Luyện tập\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **LUYỆN TẬP**.\n- Cấu tạo: 練 (Luyện) + 習 (Tập)"
           },
           {
             "id": "m_review_16_20_4_m2_q3",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【とまります】",
+            "question": "この ボタンを おすと、おつりが 【でます】。",
             "options": [
-              "泊まります",
-              "払います",
-              "捨てます",
-              "〜までに"
+              "まず",
+              "動物",
+              "出ます",
+              "うん"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Trọ lại**.\n\n✍️ Phân tích đáp án:\n- **泊まります** (とまります): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **BẠC**.\n- Cấu tạo: 氵 (Thủy) + 白 (Bạch)"
+            "correctIndex": 2,
+            "explanation": "📖 Dịch nghĩa:\nHỄ bấm nút này THÌ tiền thừa sẽ chạy ra. (Máy móc)\n\n✍️ Phân tích đáp án:\n- **まず** (まず): Nghĩa là \"Trước tiên\" → Sai.\n- **動物** (どうぶつ): Nghĩa là \"Động vật\" → Sai.\n- **出ます** (でます): Cách viết chữ Hán đúng của từ 【でます】 → Chọn.\n- **うん** (うん): Nghĩa là \"Có (vâng - thông thường)\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">この</span> (Từ vựng - Từ chỉ định: \"Cái này ... (+ danh từ)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ボタン</span> (Từ vựng - Danh từ: \"Nút bấm\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #f73859; font-weight: 800;\">と</span> (Trợ từ chỉ đối tượng đồng hành / liệt kê)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">つり</span> (Từ vựng - Danh từ: \"Câu cá\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">でます</span> (Từ vựng - Động từ: \"Ra\")\n\n📝 Từ vựng trong câu:\n- **この (kono)**: Cái này ... (+ danh từ)\n- **ボタン (botan)**: Nút bấm\n- **釣り (つり / tsuri)**: Câu cá\n- **出ます (でます / demasu)**: Ra\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **XUẤT**.\n- Cấu tạo: 出 (Xuất)"
           }
         ]
       },
@@ -5565,51 +5606,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_16_20_4_m3_q0",
-            "question": "「おいしいです」の 普通体 は なにですか。",
+            "question": "「きます」(Đến) の ない形は なにですか。",
             "options": [
-              "おいしい",
-              "おいしいだ",
-              "おいしかった",
-              "おいしくない"
+              "こない",
+              "きない",
+              "かない",
+              "くない"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nThể thông thường của \"Oishii desu\" là gì?\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **おいしい**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nTính từ đuôi い chỉ cần bỏ です. おいしいです -> おいしい."
+            "explanation": "📖 Dịch nghĩa:\nThể Nai của \"Kimasu\" (Đến) là gì?\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **こない**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">きます</span> (Từ vựng - Động từ: \"Đến\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">なに</span> (Từ vựng - Từ hỏi: \"Cái gì\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **来ます (きます / kimasu)**: Đến\n- **何 (なに / nani)**: Cái gì\n\n💡 Ngữ pháp & Mẹo nhớ:\nきます (Đến) thuộc nhóm 3, thể Nai đặc biệt là こない."
           },
           {
             "id": "m_review_16_20_4_m3_q1",
-            "question": "バスが（　　）きません。",
+            "question": "「たべます」の ない形は なにですか。",
             "options": [
-              "なかなか",
-              "ぜんぜん",
-              "あまり",
-              "とても"
+              "たべない",
+              "たばない",
+              "たばないで",
+              "たべてない"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nXe buýt mãi mà không đến.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **なかなか**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nなかなか + Phủ định: Mãi mà không (xảy ra điều gì đó)."
+            "explanation": "📖 Dịch nghĩa:\nThể Nai của \"Tabemasu\" (Ăn) là gì?\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **たべない**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">たべます</span> (Từ vựng - Động từ: \"Ăn\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">なに</span> (Từ vựng - Từ hỏi: \"Cái gì\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **食べます (たべます / tabemasu)**: Ăn\n- **何 (なに / nani)**: Cái gì\n\n💡 Ngữ pháp & Mẹo nhớ:\nNhóm 2: Bỏ ます thêm ない. 食べます -> 食べない."
           },
           {
             "id": "m_review_16_20_4_m3_q2",
-            "question": "あさ ジョギングを（　　）、シャワーを あびます。",
+            "question": "びょうきが（　　）なりました。",
             "options": [
-              "して",
-              "しって",
-              "しんで",
-              "しりて"
+              "よく",
+              "いいに",
+              "いいく",
+              "よいに"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nBuổi sáng tôi chạy bộ rồi tắm vòi sen.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **して**.\n\n📚 Từ vựng bổ trợ:\n- シャワー (shawaa): Vòi hoa sen\n\n💡 Ngữ pháp & Mẹo nhớ:\nします (nhóm 3) chuyển sang thể Te là して."
+            "explanation": "📖 Dịch nghĩa:\nBệnh tình đã trở nên tốt hơn.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **よく**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">びょうき</span> (Từ vựng - Danh từ: \"Ốm, bệnh\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">なりました</span> (Từ vựng - Động từ: \"Trở thành, trở nên\")\n\n📝 Từ vựng trong câu:\n- **病気 (びょうき / byouki)**: Ốm, bệnh\n- **なります (narimasu)**: Trở thành, trở nên\n\n💡 Ngữ pháp & Mẹo nhớ:\nTính từ いい (Tốt) có cách chia đặc biệt giống よい. Bỏ い thêm く -> よく + なります."
           },
           {
             "id": "m_review_16_20_4_m3_q3",
-            "question": "ここで しゃしんを（　　）で ください。",
+            "question": "「きます」(Đến) の 辞書形(じしょけい) は なにですか。",
             "options": [
-              "とらない",
-              "とら",
-              "とって",
-              "とる"
+              "くる",
+              "きる",
+              "こる",
+              "くう"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nXin đừng chụp ảnh ở đây.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **とらない**.\n\n📚 Từ vựng bổ trợ:\n- 写真 (しゃしん / shashin): Bức ảnh\n\n💡 Ngữ pháp & Mẹo nhớ:\nKhuyên bảo đừng làm gì: Vない + でください. 撮ります -> 撮らない."
+            "explanation": "📖 Dịch nghĩa:\nThể từ điển của \"Kimasu\" (Đến) là gì?\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **くる**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">きます</span> (Từ vựng - Động từ: \"Đến\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">辞書</span> (Từ vựng - Danh từ: \"Từ điển\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">じしょ</span> (Từ vựng - Danh từ: \"Từ điển\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">なに</span> (Từ vựng - Từ hỏi: \"Cái gì\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **来ます (きます / kimasu)**: Đến\n- **辞書 (じしょ / jisho)**: Từ điển\n- **何 (なに / nani)**: Cái gì\n\n💡 Ngữ pháp & Mẹo nhớ:\nNhóm 3 đặc biệt: 来ます (kimasu) -> 来る (kuru)."
           }
         ]
       },
@@ -5619,51 +5660,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_16_20_4_b1_q0",
-            "question": "「のみます」(Uống) の た形 は なにですか。",
+            "question": "あさ ジョギングを（　　）、シャワーを あびます。",
             "options": [
-              "のんだ",
-              "のんた",
-              "のみた",
-              "のった"
+              "して",
+              "しって",
+              "しんで",
+              "しりて"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nThể た của \"Nomimasu\" là gì?\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **のんだ**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nNhóm 1: Đuôi み -> んだ. 飲みます -> 飲んだ."
+            "explanation": "📖 Dịch nghĩa:\nBuổi sáng tôi chạy bộ rồi tắm vòi sen.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **して**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あさ</span> (Từ vựng - Danh từ: \"Buổi sáng\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">シャワー</span> (Từ vựng - Danh từ: \"Vòi hoa sen\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あびます</span> (Từ vựng - Động từ: \"Tắm\")\n\n📝 Từ vựng trong câu:\n- **朝 (あさ / asa)**: Buổi sáng\n- **シャワー (shawaa)**: Vòi hoa sen\n- **浴びます (あびます / abimasu)**: Tắm\n\n💡 Ngữ pháp & Mẹo nhớ:\nします (nhóm 3) chuyển sang thể Te là して."
           },
           {
             "id": "m_review_16_20_4_b1_q1",
-            "question": "「まちます」(Đợi) の 辞書形(じしょけい) は なにですか。",
+            "question": "にほんへ くる まえに、にほんごを（　　）。",
             "options": [
-              "まつ",
-              "まちる",
-              "またう",
-              "まう"
+              "べんきょうしました",
+              "べんきょうします",
+              "べんきょうする",
+              "べんきょうして"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nThể từ điển của \"Machimasu\" là gì?\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **まつ**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nNhóm 1: ち -> つ. 待ちます -> 待つ."
+            "explanation": "📖 Dịch nghĩa:\nTrước khi đến Nhật Bản, tôi đã học tiếng Nhật.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **べんきょうしました**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">にほん</span> (Từ vựng - Danh từ: \"Nhật Bản\")\n- <span style=\"color: #f73859; font-weight: 800;\">へ</span> (Trợ từ chỉ hướng di chuyển)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">まえ</span> (Từ vựng - Danh từ: \"Trước, phía trước\")\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / địa điểm / đối tượng tiếp nhận)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">にほんご</span> (Từ vựng - Danh từ: \"Tiếng Nhật\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n\n📝 Từ vựng trong câu:\n- **日本 (にほん / nihon)**: Nhật Bản\n- **前 (まえ / mae)**: Trước, phía trước\n- **日本語 (にほんご / nihongo)**: Tiếng Nhật\n\n💡 Ngữ pháp & Mẹo nhớ:\nĐộng từ đứng trước まえに luôn ở Thể từ điển (くる), nhưng thì của cả câu được quyết định bởi động từ ở cuối câu. Việc học đã xảy ra trong quá khứ nên dùng 勉強しました."
           },
           {
             "id": "m_review_16_20_4_b1_q2",
-            "question": "わたしは ピアノを（　　）ことが できます。",
+            "question": "「のみます」の 普通体(ふつうたい) は なにですか。",
             "options": [
-              "ひく",
-              "ひき",
-              "ひいて",
-              "ひかない"
+              "のむ",
+              "のまない",
+              "のんだ",
+              "のまなかった"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTôi có thể chơi piano.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **ひく**.\n\n📚 Từ vựng bổ trợ:\n- ピアノ (piano): Đàn piano\n\n💡 Ngữ pháp & Mẹo nhớ:\nCó thể làm V: V(từ điển) + ことができます. 弾きます -> 弾く."
+            "explanation": "📖 Dịch nghĩa:\nThể thông thường của \"Nomimasu\" (Hiện tại khẳng định) là gì?\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **のむ**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">のみます</span> (Từ vựng - Động từ: \"Uống\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">普通</span> (Từ vựng - Danh từ: \"Tàu thường, bình thường\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">体</span> (Từ vựng - Danh từ: \"Cơ thể\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ふつう</span> (Từ vựng - Danh từ: \"Tàu thường, bình thường\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">たい</span> (Từ vựng - Động từ: \"Làm, chơi\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">なに</span> (Từ vựng - Từ hỏi: \"Cái gì\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **飲みます (のみます / nomimasu)**: Uống\n- **普通 (ふつう / futsuu)**: Tàu thường, bình thường\n- **体 (からだ / karada)**: Cơ thể\n- **します (shimasu)**: Làm, chơi\n- **何 (なに / nani)**: Cái gì\n\n💡 Ngữ pháp & Mẹo nhớ:\nのみます -> のむ (Thể từ điển)."
           },
           {
             "id": "m_review_16_20_4_b1_q3",
-            "question": "「あめでした」の 普通体 は なにですか。",
+            "question": "ハノイは フォー（　　）おいしいです。",
             "options": [
-              "あめだった",
-              "あめだ",
-              "あめじゃない",
-              "あめじゃなかった"
+              "が",
+              "は",
+              "を",
+              "で"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nThể thông thường của \"Ame deshita\" (Đã mưa) là gì?\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **あめだった**.\n\n📚 Từ vựng bổ trợ:\n- 雨 (あめ / ame): Mưa\n\n💡 Ngữ pháp & Mẹo nhớ:\nDanh từ thời quá khứ. でした -> だった. 雨でした -> 雨だった."
+            "explanation": "📖 Dịch nghĩa:\nHà Nội thì Phở rất ngon.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **が**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">おいしい</span> (Từ vựng - Tính từ đuôi i: \"Ngon\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **おいしい (oishii)**: Ngon\n\n💡 Ngữ pháp & Mẹo nhớ:\nMẫu câu miêu tả chi tiết thuộc tính N1 は N2 が Tính từ. Hà Nội (N1) は Phở (N2) が ngon."
           }
         ]
       },
@@ -5673,6 +5714,315 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_16_20_4_b2_q0",
+            "question": "わたしは　___ ___ _★_ ___　ことがあります。",
+            "options": [
+              "に",
+              "のった",
+              "うま",
+              "１かい"
+            ],
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nTôi đã từng cưỡi ngựa một lần.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: わたしは １かい うま に のった ことがあります。\n- Từ ở vị trí ngôi sao (★) là: **に**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">わたし</span> (Từ vựng - Đại từ: \"Tôi\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">うま</span> (Từ vựng - Danh từ: \"Con ngựa\")\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / địa điểm / đối tượng tiếp nhận)\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">こと</span> (Từ vựng - Danh từ: \"Việc\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あります</span> (Từ vựng - Động từ: \"Có (sở hữu)\")\n\n📝 Từ vựng trong câu:\n- **私 (わたし / watashi)**: Tôi\n- **馬 (うま / uma)**: Con ngựa\n- **こと (koto)**: Việc\n- **あります (arimasu)**: Có (sở hữu)\n\n💡 Ngữ pháp & Mẹo nhớ:\nCấu trúc kinh nghiệm quá khứ: V た ことが あります."
+          },
+          {
+            "id": "m_review_16_20_4_b2_q1",
+            "question": "にちようびは　___ ___ _★_ ___　します。",
+            "options": [
+              "おんがくを",
+              "きいたり",
+              "ほんを",
+              "よんだり"
+            ],
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nNgày chủ nhật tôi thường đọc sách, nghe nhạc.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: にちようびは ほんを よんだり おんがくを きいたり します。\n- Từ ở vị trí ngôi sao (★) là: **おんがくを**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">にちようび</span> (Từ vựng - Danh từ: \"Chủ nhật\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ほん</span> (Từ vựng - Danh từ: \"Sách\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">おんがく</span> (Từ vựng - Danh từ: \"Âm nhạc\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">いた</span> (Từ vựng - Động từ: \"Có (người, động vật)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">します</span> (Từ vựng - Động từ: \"Làm, chơi\")\n\n📝 Từ vựng trong câu:\n- **日曜日 (にちようび / nichiyoubi)**: Chủ nhật\n- **本 (ほん / hon)**: Sách\n- **音楽 (おんがく / ongaku)**: Âm nhạc\n- **います (imasu)**: Có (người, động vật)\n- **します (shimasu)**: Làm, chơi\n\n💡 Ngữ pháp & Mẹo nhớ:\nLiệt kê hành động không theo trình tự thời gian: V1 たり, V2 たり します."
+          }
+        ]
+      },
+      {
+        "id": "p_review_16_20_4_dokkai1",
+        "type": "mondai3",
+        "text": [
+          "わたしの しゅみは しゃしんを とることです。",
+          "やすみの ひ、よく うみや やまへ いきます。",
+          "そして、はなや とりの しゃしんを とります。",
+          "うみを およぐことが できますから、なつが いちばん すきです。",
+          "ことしの なつも たくさん しゃしんを とりたいです。"
+        ],
+        "translation": [
+          "Sở thích của tôi là chụp ảnh.",
+          "Ngày nghỉ, tôi thường đi biển và núi.",
+          "Và chụp ảnh hoa lá, chim muông.",
+          "Vì có thể bơi ở biển nên tôi thích mùa hè nhất.",
+          "Mùa hè năm nay tôi cũng muốn chụp thật nhiều ảnh."
+        ],
+        "vocabulary": [
+          "行きます (いきます / ikimasu): Đi",
+          "取ります (とります / torimasu): Lấy (tuổi)",
+          "写真 (しゃしん / shashin): Bức ảnh",
+          "たくさん (takusan): Nhiều",
+          "一番 (いちばん / ichiban): Nhất",
+          "できます (dekimasu): Có thể",
+          "私 (わたし / watashi): Tôi",
+          "休み (やすみ / yasumi): Ngày nghỉ, giờ nghỉ",
+          "今年 (ことし / kotoshi): Năm nay",
+          "そして (soshite): Và, sau đó"
+        ],
+        "questions": [
+          {
+            "id": "m_review_16_20_4_d1_q0",
+            "question": "このひとの しゅみは なんですか？ (Sở thích của người này là gì?)",
+            "options": [
+              "しゃしんを とること (Chụp ảnh)",
+              "うみを およぐこと (Bơi ở biển)",
+              "やまへ いくこと (Đi núi)",
+              "えを かくこと (Vẽ tranh)"
+            ],
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nこのひとの しゅみは なんですか？ (Sở thích của người này là gì?)\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **しゃしんを とること (Chụp ảnh)**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">この</span> (Từ vựng - Từ chỉ định: \"Cái này ... (+ danh từ)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ひと</span> (Từ vựng - Danh từ: \"Người\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">しゅみ</span> (Từ vựng - Danh từ: \"Sở thích\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">なんですか</span> (Từ vựng - Mẫu câu: \"Có gì không ạ? / Vâng?\")\n\n📝 Từ vựng trong câu:\n- **この (kono)**: Cái này ... (+ danh từ)\n- **人 (ひと / hito)**: Người\n- **趣味 (しゅみ / shumi)**: Sở thích\n- **何ですか (なんですか / nandesuka)**: Có gì không ạ? / Vâng?\n\n💡 Ngữ pháp & Mẹo nhớ:\nDựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác."
+          },
+          {
+            "id": "m_review_16_20_4_d1_q1",
+            "question": "どうして なつが いちばん すきですか？ (Tại sao thích mùa hè nhất?)",
+            "options": [
+              "うみを およぐことが できますから (Vì có thể bơi ở biển)",
+              "やまへ いくことが できますから (Vì có thể đi núi)",
+              "しゃしんを とることが できますから (Vì có thể chụp ảnh)",
+              "はなが きれいですから (Vì hoa đẹp)"
+            ],
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nどうして なつが いちばん すきですか？ (Tại sao thích mùa hè nhất?)\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **うみを およぐことが できますから (Vì có thể bơi ở biển)**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">どうして</span> (Từ vựng - Từ hỏi: \"Tại sao\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">なつ</span> (Từ vựng - Danh từ: \"Mùa hè\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">いちばん</span> (Từ vựng - Phó từ: \"~ nhất (ví dụ: trên cùng, dưới cùng)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">すき</span> (Từ vựng - Tính từ đuôi na: \"Thích\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **どうして (doushite)**: Tại sao\n- **夏 (なつ / natsu)**: Mùa hè\n- **いちばん (ichiban)**: ~ nhất (ví dụ: trên cùng, dưới cùng)\n- **好き（な） (すき / suki)**: Thích\n\n💡 Ngữ pháp & Mẹo nhớ:\nDựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "review_16_20_5",
+    "title": "Đề thi 5: Trạm Ôn Tập JLPT N5 (Bài 16 - 20)",
+    "description": "Bộ đề số 5. Các câu hỏi và bài đọc được thiết kế độc lập 100% để ôn luyện toàn diện.",
+    "passages": [
+      {
+        "id": "p_review_16_20_5_moji1",
+        "type": "moji_mondai1",
+        "questions": [
+          {
+            "id": "m_review_16_20_5_m1_q0",
+            "question": "あした 【持って行きます】。",
+            "options": [
+              "もっていきます",
+              "インターネット",
+              "ちょうしがいい",
+              "すごいですね"
+            ],
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nNgày mai tôi sẽ mang đi.\n\n✍️ Phân tích đáp án:\n- **もっていきます** (motte ikimasu): Cách đọc đúng của chữ Hán 【持って行きます】 → Chọn.\n- **インターネット** (intaanetto): Nghĩa là \"Internet\" → Sai.\n- **ちょうしがいい** (choushi ga ii): Nghĩa là \"Tình trạng tốt\" → Sai.\n- **すごいですね** (sugoi desu ne): Nghĩa là \"Tuyệt quá nhỉ\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あした</span> (Từ vựng - Danh từ: \"Ngày mai\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">持って行きます</span> (Từ vựng - Động từ: \"Mang đi\")\n\n📝 Từ vựng trong câu:\n- **明日 (あした / ashita)**: Ngày mai\n- **持って行きます (もっていきます / motte ikimasu)**: Mang đi\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **TRÌ HÀNH**.\n- Mẹo nhớ: Cầm và đi (Mang đi)."
+          },
+          {
+            "id": "m_review_16_20_5_m1_q1",
+            "question": "それは 【無理（な）】 です。",
+            "options": [
+              "ぼく",
+              "どれ",
+              "むり",
+              "かお"
+            ],
+            "correctIndex": 2,
+            "explanation": "📖 Dịch nghĩa:\nCái đó không thể, quá sức.\n\n✍️ Phân tích đáp án:\n- **ぼく** (boku): Nghĩa là \"Tôi (nam giới dùng)\" → Sai.\n- **どれ** (dore): Nghĩa là \"Cái nào?\" → Sai.\n- **むり** (muri): Cách đọc đúng của chữ Hán 【無理（な）】 → Chọn.\n- **かお** (kao): Nghĩa là \"Khuôn mặt\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">それ</span> (Từ vựng - Đại từ: \"Cái đó (gần người nghe)\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">無理（な）</span> (Từ vựng - Tính từ na: \"Không thể, quá sức\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **それ (sore)**: Cái đó (gần người nghe)\n- **無理（な） (むり / muri)**: Không thể, quá sức\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **VÔ LÝ**.\n- Mẹo nhớ: Không có lý (Không thể/Quá sức)."
+          },
+          {
+            "id": "m_review_16_20_5_m1_q2",
+            "question": "【頭】が（　　）とき、くすりを のみます。",
+            "options": [
+              "おります",
+              "あたま",
+              "きもの",
+              "げんきん"
+            ],
+            "correctIndex": 1,
+            "explanation": "📖 Dịch nghĩa:\nKhi đau đầu, tôi uống thuốc.\n\n✍️ Phân tích đáp án:\n- **おります** (orimasu): Nghĩa là \"Xuống (tàu, xe)\" → Sai.\n- **あたま** (atama): Cách đọc đúng của chữ Hán 【頭】 → Chọn.\n- **きもの** (kimono): Nghĩa là \"Kimono\" → Sai.\n- **げんきん** (genkin): Nghĩa là \"Tiền mặt\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">頭</span> (Từ vựng - Danh từ: \"Đầu\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #f73859; font-weight: 800;\">と</span> (Trợ từ chỉ đối tượng đồng hành / liệt kê)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">くすり</span> (Từ vựng - Danh từ: \"Thuốc\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">のみます</span> (Từ vựng - Động từ: \"Uống\")\n\n📝 Từ vựng trong câu:\n- **頭 (あたま / atama)**: Đầu\n- **薬 (くすり / kusuri)**: Thuốc\n- **飲みます (のみます / nomimasu)**: Uống\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **ĐẦU**.\n- Mẹo nhớ: Cái đầu (Hiệt) có kích thước bằng hạt đậu (Đậu)."
+          },
+          {
+            "id": "m_review_16_20_5_m1_q3",
+            "question": "それは 【体にいい】 です。",
+            "options": [
+              "もっていきます",
+              "からだにいい",
+              "わすれます",
+              "じょうたい"
+            ],
+            "correctIndex": 1,
+            "explanation": "📖 Dịch nghĩa:\nCái đó tốt cho cơ thể.\n\n✍️ Phân tích đáp án:\n- **もっていきます** (motte ikimasu): Nghĩa là \"Mang đi\" → Sai.\n- **からだにいい** (karada ni ii): Cách đọc đúng của chữ Hán 【体にいい】 → Chọn.\n- **わすれます** (wasuremasu): Nghĩa là \"Quên\" → Sai.\n- **じょうたい** (joutai): Nghĩa là \"Trạng thái\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">それ</span> (Từ vựng - Đại từ: \"Cái đó (gần người nghe)\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">体にいい</span> (Từ vựng - Mẫu câu: \"Tốt cho cơ thể\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **それ (sore)**: Cái đó (gần người nghe)\n- **体にいい (からだにいい / karada ni ii)**: Tốt cho cơ thể\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **THỂ**.\n- Mẹo nhớ: Tốt cho cơ thể."
+          }
+        ]
+      },
+      {
+        "id": "p_review_16_20_5_moji2",
+        "type": "moji_mondai2",
+        "questions": [
+          {
+            "id": "m_review_16_20_5_m2_q0",
+            "question": "あした 【ざんぎょうします】。",
+            "options": [
+              "集めます",
+              "電話します",
+              "払います",
+              "残業します"
+            ],
+            "correctIndex": 3,
+            "explanation": "📖 Dịch nghĩa:\nNgày mai tôi sẽ làm thêm giờ.\n\n✍️ Phân tích đáp án:\n- **集めます** (あつめます): Nghĩa là \"Sưu tầm, tập hợp\" → Sai.\n- **電話します** (でんわします): Nghĩa là \"Gọi điện thoại\" → Sai.\n- **払います** (はらいます): Nghĩa là \"Trả tiền\" → Sai.\n- **残業します** (ざんぎょうします): Cách viết chữ Hán đúng của từ 【ざんぎょうします】 → Chọn.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あした</span> (Từ vựng - Danh từ: \"Ngày mai\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ざんぎょうします</span> (Từ vựng - Động từ: \"Làm thêm giờ\")\n\n📝 Từ vựng trong câu:\n- **明日 (あした / ashita)**: Ngày mai\n- **残業します (ざんぎょうします / zangyoushimasu)**: Làm thêm giờ\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **TÀN NGHIỆP**.\n- Cấu tạo: 残 (Tàn - Còn lại) + 業 (Nghiệp - Công việc)"
+          },
+          {
+            "id": "m_review_16_20_5_m2_q1",
+            "question": "A：はい。いつ【かえします】か。",
+            "options": [
+              "洗います",
+              "どの〜",
+              "集めます",
+              "返します"
+            ],
+            "correctIndex": 3,
+            "explanation": "📖 Dịch nghĩa:\nA: Vâng. Bao giờ thì trả lại?\n\n✍️ Phân tích đáp án:\n- **洗います** (あらいます): Nghĩa là \"Rửa\" → Sai.\n- **どの〜** (どの〜): Nghĩa là \"~ nào\" → Sai.\n- **集めます** (あつめます): Nghĩa là \"Sưu tầm, tập hợp\" → Sai.\n- **返します** (かえします): Cách viết chữ Hán đúng của từ 【かえします】 → Chọn.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">はい</span> (Từ vựng - Thán từ: \"Vâng, đúng vậy\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">いつ</span> (Từ vựng - Từ hỏi: \"Khi nào\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">かえします</span> (Từ vựng - Động từ: \"Trả lại\")\n\n📝 Từ vựng trong câu:\n- **はい (hai)**: Vâng, đúng vậy\n- **いつ (itsu)**: Khi nào\n- **返します (かえします / kaeshimasu)**: Trả lại\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **PHẢN**.\n- Cấu tạo: 辶 (Sước) + 反 (Phản)"
+          },
+          {
+            "id": "m_review_16_20_5_m2_q2",
+            "question": "パスポートは とても 【たいせつ】 ですから。",
+            "options": [
+              "ダイエット",
+              "大切（な）",
+              "本当ですか",
+              "出張します"
+            ],
+            "correctIndex": 1,
+            "explanation": "📖 Dịch nghĩa:\nVì hộ chiếu là thứ rất quan trọng.\n\n✍️ Phân tích đáp án:\n- **ダイエット** (ダイエット): Nghĩa là \"Ăn kiêng\" → Sai.\n- **大切（な）** (たいせつ): Cách viết chữ Hán đúng của từ 【たいせつ】 → Chọn.\n- **本当ですか** (ほんとうですか): Nghĩa là \"Thật không?\" → Sai.\n- **出張します** (しゅっちょうします): Nghĩa là \"Đi công tác\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">パスポート</span> (Từ vựng - Danh từ: \"Hộ chiếu\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">とても</span> (Từ vựng - Phó từ: \"Rất\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">たいせつ</span> (Từ vựng - Tính từ na: \"Quan trọng\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ですから</span> (Từ vựng - Liên từ: \"Vì thế, do đó\")\n\n📝 Từ vựng trong câu:\n- **パスポート (pasupooto)**: Hộ chiếu\n- **とても (totemo)**: Rất\n- **大切（な） (たいせつ / taisetsu)**: Quan trọng\n- **ですから (desukara)**: Vì thế, do đó\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **ĐẠI THIẾT**.\n- Cấu tạo: 大 (Đại) + 切 (Thiết - Cắt)"
+          },
+          {
+            "id": "m_review_16_20_5_m2_q3",
+            "question": "わたしの 【しゅみ】は おんがくを（　　）ことです。",
+            "options": [
+              "趣味",
+              "どれ",
+              "緑",
+              "留学生"
+            ],
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nSở thích của tôi là nghe nhạc.\n\n✍️ Phân tích đáp án:\n- **趣味** (しゅみ): Cách viết chữ Hán đúng của từ 【しゅみ】 → Chọn.\n- **どれ** (どれ): Nghĩa là \"Cái nào?\" → Sai.\n- **緑** (みどり): Nghĩa là \"Màu xanh lá cây\" → Sai.\n- **留学生** (りゅうがくせい): Nghĩa là \"Lưu học sinh\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">わたし</span> (Từ vựng - Đại từ: \"Tôi\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">しゅみ</span> (Từ vựng - Danh từ: \"Sở thích\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">おんがく</span> (Từ vựng - Danh từ: \"Âm nhạc\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">こと</span> (Từ vựng - Danh từ: \"Việc\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **私 (わたし / watashi)**: Tôi\n- **趣味 (しゅみ / shumi)**: Sở thích\n- **音楽 (おんがく / ongaku)**: Âm nhạc\n- **こと (koto)**: Việc\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **THÚ VỊ**.\n- Cấu tạo: 趣 (Thú) + 味 (Vị)"
+          }
+        ]
+      },
+      {
+        "id": "p_review_16_20_5_moji3",
+        "type": "moji_mondai3",
+        "questions": [
+          {
+            "id": "m_review_16_20_5_m3_q0",
+            "question": "ごはんを たべて、ほんを よんで、（　　）。",
+            "options": [
+              "ねました",
+              "ねて",
+              "ねます",
+              "ねる"
+            ],
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nTôi đã ăn cơm, đọc sách rồi đi ngủ.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **ねました**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ごはん</span> (Từ vựng - Danh từ: \"Cơm, bữa ăn\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">たべて</span> (Từ vựng - Động từ: \"Ăn\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ほん</span> (Từ vựng - Danh từ: \"Sách\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **ご飯 (ごはん / gohan)**: Cơm, bữa ăn\n- **食べます (たべます / tabemasu)**: Ăn\n- **本 (ほん / hon)**: Sách\n\n💡 Ngữ pháp & Mẹo nhớ:\nNối chuỗi hành động Vて、Vて、V. Động từ cuối cùng quyết định thì của câu. Có thể là 寝ました (Quá khứ) hoặc 寝ます (Tương lai/Thói quen). Trong các đáp án, nếu nó là việc đã làm thì 寝ました là phù hợp nhất để đóng câu."
+          },
+          {
+            "id": "m_review_16_20_5_m3_q1",
+            "question": "「きませんでした」の 普通体 は なにですか。",
+            "options": [
+              "こなかった",
+              "こない",
+              "きた",
+              "きなかった"
+            ],
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nThể thông thường của \"Kimasen deshita\" (Đã không đến) là gì?\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **こなかった**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">きませんでした</span> (Từ vựng - Động từ: \"Đến\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">普通</span> (Từ vựng - Danh từ: \"Tàu thường, bình thường\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">体</span> (Từ vựng - Danh từ: \"Cơ thể\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">なに</span> (Từ vựng - Từ hỏi: \"Cái gì\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **来ます (きます / kimasu)**: Đến\n- **普通 (ふつう / futsuu)**: Tàu thường, bình thường\n- **体 (からだ / karada)**: Cơ thể\n- **何 (なに / nani)**: Cái gì\n\n💡 Ngữ pháp & Mẹo nhớ:\n来ます (kimasu) -> 来ない (konai) -> 来なかった (konakatta)."
+          },
+          {
+            "id": "m_review_16_20_5_m3_q2",
+            "question": "わたしの しゅみは おんがくを（　　）ことです。",
+            "options": [
+              "きく",
+              "きき",
+              "きいて",
+              "きかない"
+            ],
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nSở thích của tôi là nghe nhạc.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **きく**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">わたし</span> (Từ vựng - Đại từ: \"Tôi\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">しゅみ</span> (Từ vựng - Danh từ: \"Sở thích\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">おんがく</span> (Từ vựng - Danh từ: \"Âm nhạc\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">こと</span> (Từ vựng - Danh từ: \"Việc\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **私 (わたし / watashi)**: Tôi\n- **趣味 (しゅみ / shumi)**: Sở thích\n- **音楽 (おんがく / ongaku)**: Âm nhạc\n- **こと (koto)**: Việc\n\n💡 Ngữ pháp & Mẹo nhớ:\nSở thích: V(từ điển) + ことです. 聞きます -> 聞く."
+          },
+          {
+            "id": "m_review_16_20_5_m3_q3",
+            "question": "「いいです」の 普通体 は なにですか。",
+            "options": [
+              "いい",
+              "いいだ",
+              "よくない",
+              "よかった"
+            ],
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nThể thông thường của \"Ii desu\" (Tốt) là gì?\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **いい**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">いい</span> (Từ vựng - Tính từ đuôi i: \"Tốt\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">普通</span> (Từ vựng - Danh từ: \"Tàu thường, bình thường\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">体</span> (Từ vựng - Danh từ: \"Cơ thể\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">なに</span> (Từ vựng - Từ hỏi: \"Cái gì\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **いい (ii (yoi))**: Tốt\n- **普通 (ふつう / futsuu)**: Tàu thường, bình thường\n- **体 (からだ / karada)**: Cơ thể\n- **何 (なに / nani)**: Cái gì\n\n💡 Ngữ pháp & Mẹo nhớ:\nTính từ đuôi い bỏ です. いいです -> いい."
+          }
+        ]
+      },
+      {
+        "id": "p_review_16_20_5_bunpou1",
+        "type": "mondai1",
+        "questions": [
+          {
+            "id": "m_review_16_20_5_b1_q0",
+            "question": "「かいます」の ない形は なにですか。",
+            "options": [
+              "かわない",
+              "かかない",
+              "かあない",
+              "かまない"
+            ],
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nThể Nai của \"Kaimasu\" (Mua) là gì?\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **かわない**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">かいます</span> (Từ vựng - Động từ: \"Mua\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">なに</span> (Từ vựng - Từ hỏi: \"Cái gì\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **買います (かいます / kaimasu)**: Mua\n- **何 (なに / nani)**: Cái gì\n\n💡 Ngữ pháp & Mẹo nhớ:\nĐộng từ nhóm 1 tận cùng bằng い sẽ chuyển thành わ + ない. 買います -> 買わない."
+          },
+          {
+            "id": "m_review_16_20_5_b1_q1",
+            "question": "ねる（　　）、にっきを かきます。",
+            "options": [
+              "まえに",
+              "あとで",
+              "から",
+              "て"
+            ],
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nTrước khi ngủ, tôi viết nhật ký.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **まえに**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">にっき</span> (Từ vựng - Danh từ: \"Nhật ký\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">かきます</span> (Từ vựng - Động từ: \"Viết\")\n\n📝 Từ vựng trong câu:\n- **日記 (にっき / nikki)**: Nhật ký\n- **書きます (かきます / kakimasu)**: Viết\n\n💡 Ngữ pháp & Mẹo nhớ:\nTrước khi làm V: V(từ điển) + まえに."
+          },
+          {
+            "id": "m_review_16_20_5_b1_q2",
+            "question": "カメラが やす（　　）なりました。",
+            "options": [
+              "く",
+              "に",
+              "で",
+              "な"
+            ],
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nMáy ảnh đã trở nên rẻ hơn.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **く**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">カメラ</span> (Từ vựng - Danh từ: \"Máy ảnh\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">なりました</span> (Từ vựng - Động từ: \"Trở thành, trở nên\")\n\n📝 Từ vựng trong câu:\n- **カメラ (kamera)**: Máy ảnh\n- **なります (narimasu)**: Trở thành, trở nên\n\n💡 Ngữ pháp & Mẹo nhớ:\n安い (Rẻ - Tính từ i) -> 安く なりました."
+          },
+          {
+            "id": "m_review_16_20_5_b1_q3",
+            "question": "「まちます」(Đợi) の 辞書形(じしょけい) は なにですか。",
+            "options": [
+              "まつ",
+              "まちる",
+              "またう",
+              "まう"
+            ],
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nThể từ điển của \"Machimasu\" là gì?\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **まつ**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">まちます</span> (Từ vựng - Động từ: \"Đợi\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">辞書</span> (Từ vựng - Danh từ: \"Từ điển\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">じしょ</span> (Từ vựng - Danh từ: \"Từ điển\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">なに</span> (Từ vựng - Từ hỏi: \"Cái gì\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **待ちます (まちます / machimasu)**: Đợi\n- **辞書 (じしょ / jisho)**: Từ điển\n- **何 (なに / nani)**: Cái gì\n\n💡 Ngữ pháp & Mẹo nhớ:\nNhóm 1: ち -> つ. 待ちます -> 待つ."
+          }
+        ]
+      },
+      {
+        "id": "p_review_16_20_5_bunpou2",
+        "type": "mondai2",
+        "questions": [
+          {
+            "id": "m_review_16_20_5_b2_q0",
             "question": "おくすりは　___ ___ _★_ ___　いいです。",
             "options": [
               "のま",
@@ -5681,24 +6031,24 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "は"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nThuốc thì hôm nay không uống cũng được.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: おくすりは [きょう] [は] [★ のま] [なくても] いいです。\n- Từ ở vị trí ngôi sao (★) là: **のま**.\n\n📚 Từ vựng bổ trợ:\n- 薬 (くすり / kusuri): Thuốc\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Cấu trúc cho phép không cần làm gì: V ない (bỏ い) + くても いいです (Không làm cũng được)."
+            "explanation": "📖 Dịch nghĩa:\nThuốc thì hôm nay không uống cũng được.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: おくすりは きょう は のま なくても いいです。\n- Từ ở vị trí ngôi sao (★) là: **のま**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">おく</span> (Từ vựng - Danh từ: \"Bên trong cùng, phía sâu bên trong\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">きょう</span> (Từ vựng - Danh từ: \"Hôm nay\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">なくて</span> (Từ vựng - Động từ: \"Làm mất\")\n- <span style=\"color: #f73859; font-weight: 800;\">も</span> (Trợ từ chỉ cũng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">いい</span> (Từ vựng - Tính từ đuôi i: \"Tốt\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **奥 (おく / oku)**: Bên trong cùng, phía sâu bên trong\n- **今日 (きょう / kyou)**: Hôm nay\n- **なくします (nakushimasu)**: Làm mất\n- **いい (ii (yoi))**: Tốt\n\n💡 Ngữ pháp & Mẹo nhớ:\nCấu trúc cho phép không cần làm gì: V ない (bỏ い) + くても いいです."
           },
           {
-            "id": "m_review_16_20_4_b2_q1",
-            "question": "ここで　___ ___ _★_ ___　ください。",
+            "id": "m_review_16_20_5_b2_q1",
+            "question": "おなかが　___ ___ _★_ ___　いきました。",
             "options": [
-              "を",
-              "しゃしん",
-              "とらないで",
-              "絶対に"
+              "へ",
+              "いたいですから",
+              "びょういん",
+              "いそいで"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTuyệt đối không chụp ảnh ở đây.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: ここで [絶対に] [しゃしん] [★ を] [とらないで] ください。\n- Từ ở vị trí ngôi sao (★) là: **を**.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Yêu cầu phủ định: V ない + で ください. Trợ từ を đi với động từ とります."
+            "correctIndex": 2,
+            "explanation": "📖 Dịch nghĩa:\nVì đau bụng nên tôi đã vội vàng đi bệnh viện.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: おなかが いたいですから いそいで びょういん へ いきました。\n- Từ ở vị trí ngôi sao (★) là: **びょういん**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">なか</span> (Từ vựng - Danh từ: \"Trong, bên trong\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">いたいです</span> (Từ vựng - Động từ: \"Có (người, động vật)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">から</span> (Từ vựng - Trợ từ: \"Từ (thời gian)\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">びょういん</span> (Từ vựng - Danh từ: \"Bệnh viện\")\n- <span style=\"color: #f73859; font-weight: 800;\">へ</span> (Trợ từ chỉ hướng di chuyển)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">いきました</span> (Từ vựng - Động từ: \"Đi\")\n\n📝 Từ vựng trong câu:\n- **中 (なか / naka)**: Trong, bên trong\n- **います (imasu)**: Có (người, động vật)\n- **から (kara)**: Từ (thời gian)\n- **病院 (びょういん / byouin)**: Bệnh viện\n- **行きます (いきます / ikimasu)**: Đi\n\n💡 Ngữ pháp & Mẹo nhớ:\nCấu trúc chỉ nguyên nhân: ~ から. Trợ từ へ chỉ hướng đi."
           }
         ]
       },
       {
-        "id": "p_review_16_20_4_dokkai1",
+        "id": "p_review_16_20_5_dokkai1",
         "type": "mondai3",
         "text": [
           "A：マリアさん、ふじさんに のぼったことが ありますか。",
@@ -5716,11 +6066,19 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         ],
         "vocabulary": [
           "友達 (ともだち / tomodachi): Bạn bè",
-          "きれい (kirei): Đẹp/Sạch sẽ"
+          "あります[お祭りが〜] (あります / arimasu): Được tổ chức (lễ hội)",
+          "きれい（な） (きれい / kirei): Đẹp, sạch sẽ",
+          "とても (totemo): Rất",
+          "はい (hai): Vâng, đúng vậy",
+          "下 (した / shita): Dưới, bên dưới",
+          "彼 (かれ / kare): Anh ấy / Bạn trai",
+          "どう (dou): Như thế nào?",
+          "こと (koto): Việc",
+          "も (mo): Cũng (thêm vào)"
         ],
         "questions": [
           {
-            "id": "m_review_16_20_4_d1_q0",
+            "id": "m_review_16_20_5_d1_q0",
             "question": "マリアさんは ふじさんに のぼったことが ありますか？ (Maria đã từng leo núi Phú Sĩ chưa?)",
             "options": [
               "はい、あります (Vâng, đã từng)",
@@ -5729,10 +6087,10 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "わかりません (Không biết)"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nマリアさんは ふじさんに のぼったことが ありますか？ (Maria đã từng leo núi Phú Sĩ chưa?)\n- Đáp án đúng: **はい、あります (Vâng, đã từng)**.\n\n✍️ Phân tích đáp án:\n- Dựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác."
+            "explanation": "📖 Dịch nghĩa:\nマリアさんは ふじさんに のぼったことが ありますか？ (Maria đã từng leo núi Phú Sĩ chưa?)\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **はい、あります (Vâng, đã từng)**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / địa điểm / đối tượng tiếp nhận)\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">こと</span> (Từ vựng - Danh từ: \"Việc\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あります</span> (Từ vựng - Động từ: \"Có (sở hữu)\")\n\n📝 Từ vựng trong câu:\n- **こと (koto)**: Việc\n- **あります (arimasu)**: Có (sở hữu)\n\n💡 Ngữ pháp & Mẹo nhớ:\nDựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác."
           },
           {
-            "id": "m_review_16_20_4_d1_q1",
+            "id": "m_review_16_20_5_d1_q1",
             "question": "ふじさんは どうでしたか？ (Núi Phú Sĩ thế nào?)",
             "options": [
               "つかれましたが、きれいでした (Mệt nhưng mà đẹp)",
@@ -5741,308 +6099,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "つかれなくて、きれいじゃありませんでした (Không mệt và không đẹp)"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nふじさんは どうでしたか？ (Núi Phú Sĩ thế nào?)\n- Đáp án đúng: **つかれましたが、きれいでした (Mệt nhưng mà đẹp)**.\n\n✍️ Phân tích đáp án:\n- Dựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác."
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "review_16_20_5",
-    "title": "Đề thi 5: Trạm Ôn Tập JLPT N5 (Bài 16 - 20)",
-    "description": "Bộ đề số 5. Các câu hỏi và bài đọc được thiết kế độc lập 100% để ôn luyện toàn diện.",
-    "passages": [
-      {
-        "id": "p_review_16_20_5_moji1",
-        "type": "moji_mondai1",
-        "questions": [
-          {
-            "id": "m_review_16_20_5_m1_q0",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【入れます】",
-            "options": [
-              "いれます",
-              "かちょう",
-              "ぶちょう",
-              "ことば"
-            ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【入れます】 có nghĩa là: **Cho vào**.\n\n✍️ Phân tích đáp án:\n- **いれます** (iremasu): Cách đọc đúng của chữ Hán 【入れます】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **NHẬP**.\n- Mẹo nhớ: Cho vào."
-          },
-          {
-            "id": "m_review_16_20_5_m1_q1",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【覚えます】",
-            "options": [
-              "ダイエット",
-              "おぼえます",
-              "いれます",
-              "きんえん"
-            ],
-            "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【覚えます】 có nghĩa là: **Nhớ, học thuộc**.\n\n✍️ Phân tích đáp án:\n- **おぼえます** (oboemasu): Cách đọc đúng của chữ Hán 【覚えます】.\n\n📚 Từ vựng bổ trợ:\n- 絵 (え / e): Bức tranh\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **GIÁC**.\n- Mẹo nhớ: Thấy (Kiến) và học hỏi để ghi Nhớ."
-          },
-          {
-            "id": "m_review_16_20_5_m1_q2",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【相撲】",
-            "options": [
-              "いちども",
-              "ビザ",
-              "しゅみ",
-              "すもう"
-            ],
-            "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【相撲】 có nghĩa là: **Sumo**.\n\n✍️ Phân tích đáp án:\n- **すもう** (sumou): Cách đọc đúng của chữ Hán 【相撲】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **TƯƠNG PHỐC**.\n- Mẹo nhớ: Môn võ đấu vật của Nhật."
-          },
-          {
-            "id": "m_review_16_20_5_m1_q3",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【調子が悪い】",
-            "options": [
-              "ちょうしがわるい",
-              "ちょうしがいい",
-              "りゅうがくせい",
-              "キャッシュカード"
-            ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【調子が悪い】 có nghĩa là: **Tình trạng xấu**.\n\n✍️ Phân tích đáp án:\n- **ちょうしがわるい** (choushi ga warui): Cách đọc đúng của chữ Hán 【調子が悪い】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **ĐIỀU TỬ**.\n- Mẹo nhớ: Tình trạng xấu."
-          }
-        ]
-      },
-      {
-        "id": "p_review_16_20_5_moji2",
-        "type": "moji_mondai2",
-        "questions": [
-          {
-            "id": "m_review_16_20_5_m2_q0",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【けんがくします】",
-            "options": [
-              "乗ります",
-              "まだまだです",
-              "パスポート",
-              "見学します"
-            ],
-            "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Tham quan học tập**.\n\n✍️ Phân tích đáp án:\n- **見学します** (けんがくします): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **KIẾN HỌC**.\n- Cấu tạo: 見 (Kiến) + 学 (Học)"
-          },
-          {
-            "id": "m_review_16_20_5_m2_q1",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【とくに】",
-            "options": [
-              "眠い",
-              "へえ",
-              "特に",
-              "お茶"
-            ],
-            "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Đặc biệt là**.\n\n✍️ Phân tích đáp án:\n- **特に** (とくに): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **ĐẶC**.\n- Cấu tạo: 特 (Đặc)"
-          },
-          {
-            "id": "m_review_16_20_5_m2_q2",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【くすり】",
-            "options": [
-              "神社",
-              "暗い",
-              "頭",
-              "薬"
-            ],
-            "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Thuốc**.\n\n✍️ Phân tích đáp án:\n- **薬** (くすり): Cách viết chữ Hán đúng của từ.\n\n📚 Từ vựng bổ trợ:\n- 薬 (くすり / kusuri): Thuốc\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **DƯỢC**.\n- Cấu tạo: 艹 (Thảo) + 楽 (Lạc - Vui vẻ)"
-          },
-          {
-            "id": "m_review_16_20_5_m2_q3",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【きんえん】",
-            "options": [
-              "目",
-              "禁煙",
-              "出ます",
-              "頭"
-            ],
-            "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Cấm hút thuốc**.\n\n✍️ Phân tích đáp án:\n- **禁煙** (きんえん): Cách viết chữ Hán đúng của từ.\n\n📚 Từ vựng bổ trợ:\n- 絵 (え / e): Bức tranh\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **CẤM YÊN**.\n- Cấu tạo: 禁 (Cấm) + 煙 (Yên - Khói)"
-          }
-        ]
-      },
-      {
-        "id": "p_review_16_20_5_moji3",
-        "type": "moji_mondai3",
-        "questions": [
-          {
-            "id": "m_review_16_20_5_m3_q0",
-            "question": "この くつは（　　）、やすいです。",
-            "options": [
-              "よくて",
-              "いくて",
-              "いいで",
-              "よいで"
-            ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nĐôi giày này tốt và rẻ.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **よくて**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nTính từ いい (Tốt) có cách chia đặc biệt giống よい. Bỏ い thêm くて -> よくて."
-          },
-          {
-            "id": "m_review_16_20_5_m3_q1",
-            "question": "しごとが おわって（　　）、のみに いきます。",
-            "options": [
-              "から",
-              "まで",
-              "で",
-              "に"
-            ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nSau khi công việc kết thúc, tôi đi uống rượu.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **から**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nNhấn mạnh sau khi xong việc này mới làm việc kia dùng Vてから."
-          },
-          {
-            "id": "m_review_16_20_5_m3_q2",
-            "question": "「まちます」の ない形は なにですか。",
-            "options": [
-              "またない",
-              "またないで",
-              "まわない",
-              "まちない"
-            ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nThể Nai của \"Machimasu\" (Đợi) là gì?\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **またない**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nNhóm 1 đuôi ち -> た + ない. 待ちます -> 待たない."
-          },
-          {
-            "id": "m_review_16_20_5_m3_q3",
-            "question": "この パソコンは あたらし（　　）、いいです。",
-            "options": [
-              "くて",
-              "で",
-              "くては",
-              "く"
-            ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nCái máy tính này mới và tốt.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **くて**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nTính từ đuôi い (新しい) nối câu bằng cách bỏ い thêm くて -> 新しくて."
-          }
-        ]
-      },
-      {
-        "id": "p_review_16_20_5_bunpou1",
-        "type": "mondai1",
-        "questions": [
-          {
-            "id": "m_review_16_20_5_b1_q0",
-            "question": "この レストランは おいし（　　）、やすいです。",
-            "options": [
-              "くて",
-              "で",
-              "いくて",
-              "く"
-            ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nNhà hàng này ngon và rẻ.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **くて**.\n\n📚 Từ vựng bổ trợ:\n- レストラン (resutoran): Nhà hàng\n\n💡 Ngữ pháp & Mẹo nhớ:\nおいしい là tính từ đuôi い -> おいしくて."
-          },
-          {
-            "id": "m_review_16_20_5_b1_q1",
-            "question": "きょうは あめが ふっていませんから、かさを（　　）もいいです。",
-            "options": [
-              "もっていかなくて",
-              "もっていって",
-              "もってこなくて",
-              "もっていかかないで"
-            ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nVì hôm nay trời không mưa nên không mang ô đi cũng được.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **もっていかなくて**.\n\n📚 Từ vựng bổ trợ:\n- 雨 (あめ / ame): Mưa\n\n💡 Ngữ pháp & Mẹo nhớ:\n持って行きます -> 持って行かない -> 持って行かなくてもいいです."
-          },
-          {
-            "id": "m_review_16_20_5_b1_q2",
-            "question": "だんだん あつ（　　）なりますね。",
-            "options": [
-              "く",
-              "に",
-              "で",
-              "と"
-            ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTrời đang dần trở nên nóng nhỉ.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **く**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nTính từ đuôi い (暑い) + なります thì bỏ い thêm く -> 暑く."
-          },
-          {
-            "id": "m_review_16_20_5_b1_q3",
-            "question": "だいがくを（　　）から、とうきょうへ いきます。",
-            "options": [
-              "でて",
-              "でりて",
-              "でんで",
-              "でって"
-            ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nSau khi tốt nghiệp đại học, tôi sẽ đi Tokyo.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **でて**.\n\n💡 Ngữ pháp & Mẹo nhớ:\n出ます (ra, tốt nghiệp) là động từ nhóm 2. Bỏ ます thêm て -> 出て + から."
-          }
-        ]
-      },
-      {
-        "id": "p_review_16_20_5_bunpou2",
-        "type": "mondai2",
-        "questions": [
-          {
-            "id": "m_review_16_20_5_b2_q0",
-            "question": "おなかが　___ ___ _★_ ___　いきました。",
-            "options": [
-              "へ",
-              "いたいですから",
-              "びょういん",
-              "いそいで"
-            ],
-            "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nVì đau bụng nên tôi đã vội vàng đi bệnh viện.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: おなかが [いたいですから] [いそいで] [★ びょういん] [へ] いきました。\n- Từ ở vị trí ngôi sao (★) là: **びょういん**.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Cấu trúc chỉ nguyên nhân: ~ から (Vì...). Trợ từ へ chỉ hướng đi của động từ いきました."
-          },
-          {
-            "id": "m_review_16_20_5_b2_q1",
-            "question": "きのう　___ ___ _★_ ___　いきました。",
-            "options": [
-              "へ",
-              "あそびに",
-              "うち",
-              "ともだちの"
-            ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nNgày hôm qua tôi đã đến nhà bạn chơi.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: きのう [ともだちの] [うち] [★ へ] [あそびに] いきました。\n- Từ ở vị trí ngôi sao (★) là: **へ**.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Mục đích di chuyển: [Địa điểm] へ V(ます) + に いきます."
-          }
-        ]
-      },
-      {
-        "id": "p_review_16_20_5_dokkai1",
-        "type": "mondai3",
-        "text": [
-          "A：あした、ひま？",
-          "B：ううん、ひまじゃない。どうして？",
-          "A：えいがを みに いかない？",
-          "B：いいね。でも、あしたは しごとが ある。",
-          "A：そうか。じゃ、また こんどね。"
-        ],
-        "translation": [
-          "A: Ngày mai, rảnh không?",
-          "B: Không, không rảnh. Sao vậy?",
-          "A: Có đi xem phim không?",
-          "B: Hay đấy. Nhưng ngày mai có công việc.",
-          "A: Vậy à. Thế thì hẹn lần sau nhé."
-        ],
-        "vocabulary": [
-          "明日 (あした / ashita): Ngày mai",
-          "絵 (え / e): Bức tranh"
-        ],
-        "questions": [
-          {
-            "id": "m_review_16_20_5_d1_q0",
-            "question": "Aさんは Bさんを なにに さそいましたか？ (Người A đã rủ người B đi đâu?)",
-            "options": [
-              "えいが (Xem phim)",
-              "しょくじ (Ăn uống)",
-              "かいもの (Mua sắm)",
-              "おまつり (Lễ hội)"
-            ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nAさんは Bさんを なにに さそいましたか？ (Người A đã rủ người B đi đâu?)\n- Đáp án đúng: **えいが (Xem phim)**.\n\n✍️ Phân tích đáp án:\n- Dựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác."
-          },
-          {
-            "id": "m_review_16_20_5_d1_q1",
-            "question": "Bさんは えいがを みに いきますか？ (Người B có đi xem phim không?)",
-            "options": [
-              "いいえ、いきません (Không, không đi)",
-              "はい、いきます (Vâng, có đi)",
-              "わかりません (Không biết)",
-              "あした いきます (Ngày mai sẽ đi)"
-            ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nBさんは えいがを みに いきますか？ (Người B có đi xem phim không?)\n- Đáp án đúng: **いいえ、いきません (Không, không đi)**.\n\n✍️ Phân tích đáp án:\n- Dựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác.\n\n📚 Từ vựng bổ trợ:\n- 絵 (え / e): Bức tranh"
+            "explanation": "📖 Dịch nghĩa:\nふじさんは どうでしたか？ (Núi Phú Sĩ thế nào?)\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **つかれましたが、きれいでした (Mệt nhưng mà đẹp)**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">どう</span> (Từ vựng - Từ hỏi: \"Như thế nào?\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">した</span> (Từ vựng - Danh từ: \"Dưới, phía dưới\")\n\n📝 Từ vựng trong câu:\n- **どう (dou)**: Như thế nào?\n- **下 (した / shita)**: Dưới, phía dưới\n\n💡 Ngữ pháp & Mẹo nhớ:\nDựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác."
           }
         ]
       }
@@ -6051,7 +6108,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
   {
     "id": "review_21_25_1",
     "title": "Đề thi 1: Trạm Ôn Tập JLPT N5 (Bài 21 - 25)",
-    "description": "Bộ đề số 1. Các câu hỏi và bài đọc được thiết kế độc lập 100% để ôn luyện toàn diện.",
+    "description": "Bộ đề số 1. Được xáo trộn ngẫu nhiên để chống học vẹt.",
     "passages": [
       {
         "id": "p_review_21_25_1_moji1",
@@ -6059,51 +6116,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_21_25_1_m1_q0",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【引っ越します】",
+            "question": "【去年】 にほんへ きました。",
             "options": [
-              "あるきます",
-              "がんばります",
-              "ひっこします",
-              "たいしかん"
+              "きょうねん",
+              "こんねん",
+              "きょねん",
+              "こねん"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【引っ越します】 có nghĩa là: **Chuyển nhà**.\n\n✍️ Phân tích đáp án:\n- **ひっこします** (hikkoshimasu): Cách đọc đúng của chữ Hán 【引っ越します】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **DẪN VIỆT**.\n- Mẹo nhớ: Kéo (Dẫn) đồ đạc vượt qua (Việt) ranh giới để Chuyển nhà."
+            "explanation": "📖 Dịch nghĩa:\nNăm ngoái đã tới Nhật.\n\n✍️ Phân tích đáp án:\n- きょねん: Năm ngoái → Chọn.\n\n📝 Từ vựng trong câu:\n- 本 (ほん / hon): Sách\n- 去年 (きょねn / kyonen): Năm ngoái\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">去年</span> (Danh từ thời gian: \"Năm ngoái\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">にほん</span> (Danh từ chỉ nơi chốn: \"Nhật Bản\")\n- <span style=\"color: #f73859; font-weight: 800;\">へ</span> (Trợ từ chỉ hướng: \"hướng đi đến địa điểm\")\n- <span style=\"color: #ffb86c; font-weight: 800;\">きました</span> (Động từ (quá khứ của きます): \"Đã đến\")\n\n"
           },
           {
             "id": "m_review_21_25_1_m1_q1",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【変えます】",
+            "question": "【今年】は ２０２３ねんです。",
             "options": [
-              "でます",
-              "じぶんで",
-              "うごきます",
-              "かえます"
+              "ことし",
+              "こんねん",
+              "きょとし",
+              "こんとし"
             ],
-            "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【変えます】 có nghĩa là: **Đổi**.\n\n✍️ Phân tích đáp án:\n- **かえます** (kaemasu): Cách đọc đúng của chữ Hán 【変えます】.\n\n📚 Từ vựng bổ trợ:\n- 絵 (え / e): Bức tranh\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **BIẾN**.\n- Mẹo nhớ: Đánh đập (Phộc) để làm Biến đổi."
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nNăm nay là năm 2023.\n\n✍️ Phân tích đáp án:\n- ことし: Năm nay → Chọn.\n\n📝 Từ vựng trong câu:\n- 今年 (ことし / kotoshi): Năm nay\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">今年</span> (Danh từ thời gian: \"Năm nay\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chủ đề (Topic): \"thì, là\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ địa điểm / phương tiện (công cụ): \"ở tại / bằng\")\n\n"
           },
           {
             "id": "m_review_21_25_1_m1_q2",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【自分で】",
+            "question": "【道】を まっすぐ いきます。",
             "options": [
-              "はきます",
-              "アルバイト",
-              "じぶんで",
-              "スーツ"
+              "くに",
+              "むら",
+              "まち",
+              "みち"
             ],
-            "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【自分で】 có nghĩa là: **Tự mình**.\n\n✍️ Phân tích đáp án:\n- **じぶんで** (jibun de): Cách đọc đúng của chữ Hán 【自分で】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **TỰ PHÂN**.\n- Mẹo nhớ: Tự bản thân làm."
+            "correctIndex": 3,
+            "explanation": "📖 Dịch nghĩa:\nĐi thẳng con đường.\n\n✍️ Phân tích đáp án:\n- みち (michi): Con đường → Chọn.\n\n📝 Từ vựng trong câu:\n- 道 (みch / michi): Con đường\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">道</span> (Danh từ: \"Con đường\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ tân ngữ: \"tác động trực tiếp vào danh từ đứng trước\")\n- <span style=\"color: #ffb86c; font-weight: 800;\">いきます</span> (Động từ (Verb - V): \"Đi\")\n\n"
           },
           {
             "id": "m_review_21_25_1_m1_q3",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【建物】",
+            "question": "【電気】を つけます。",
             "options": [
-              "くれます",
-              "いれます",
-              "おなじ",
-              "たてもの"
+              "でんき",
+              "てんぎ",
+              "てんき",
+              "でんぎ"
             ],
-            "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【建物】 có nghĩa là: **Tòa nhà**.\n\n✍️ Phân tích đáp án:\n- **たてもの** (tatemono): Cách đọc đúng của chữ Hán 【建物】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **KIẾN VẬT**.\n- Mẹo nhớ: Đồ vật được con người xây dựng lên là Tòa nhà."
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nBật điện.\n\n✍️ Phân tích đáp án:\n- でんき (denki): Điện → Chọn.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ tân ngữ: \"tác động trực tiếp vào danh từ đứng trước\")\n\n"
           }
         ]
       },
@@ -6113,51 +6170,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_21_25_1_m2_q0",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【やくにたちます】",
+            "question": "【おとうと】が います。",
             "options": [
-              "アルバイト",
-              "紹介します",
-              "役に立ちます",
-              "頑張ります"
+              "姉",
+              "妹",
+              "弟",
+              "兄"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Hữu ích**.\n\n✍️ Phân tích đáp án:\n- **役に立ちます** (やくにたちます): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **DỊCH LẬP**.\n- Cấu tạo: 役 (Dịch) + 立 (Lập)"
+            "explanation": "📖 Dịch nghĩa:\nCó em trai.\n\n✍️ Phân tích đáp án:\n- 弟 (Đệ): Em trai → Chọn.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">おとうと</span> (Danh từ (Chủ ngữ - S): \"Em trai\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chủ ngữ/đối tượng: \"chỉ chủ thể hoặc đối tượng của động từ trạng thái\")\n\n"
           },
           {
             "id": "m_review_21_25_1_m2_q1",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【おはなし】",
+            "question": "あめが 【ふって】 います。",
             "options": [
-              "こと",
-              "転勤",
-              "お話",
-              "信号"
+              "降って",
+              "落ちて",
+              "流って",
+              "下って"
             ],
-            "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Câu chuyện**.\n\n✍️ Phân tích đáp án:\n- **お話** (おはなし): Cách viết chữ Hán đúng của từ.\n\n📚 Từ vựng bổ trợ:\n- 花 (はな / hana): Hoa\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **THOẠI**.\n- Cấu tạo: 話 (Thoại)"
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nMưa đang rơi.\n\n✍️ Phân tích đáp án:\n- 降って: Rơi (mưa) → Chọn.\n\n📝 Từ vựng trong câu:\n- 雨 (あめ / ame): Mưa\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あめ</span> (Danh từ (Chủ ngữ - S): \"Mưa\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chủ ngữ/đối tượng: \"chỉ chủ thể hoặc đối tượng của động từ trạng thái\")\n\n"
           },
           {
             "id": "m_review_21_25_1_m2_q2",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【おもいます】",
+            "question": "【らいねん】は なにを しますか。",
             "options": [
-              "思います",
-              "お菓子",
-              "案内します",
-              "もちろん"
+              "来年",
+              "去年",
+              "今年",
+              "毎年"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Nghĩ rằng**.\n\n✍️ Phân tích đáp án:\n- **思います** (おもいます): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **TƯ**.\n- Cấu tạo: 田 (Điền) + 心 (Tâm)"
+            "explanation": "📖 Dịch nghĩa:\nSang năm sẽ làm gì?\n\n✍️ Phân tích đáp án:\n- 来年: Sang năm → Chọn.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">らいねん</span> (Danh từ thời gian: \"Sang năm\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">はな</span> (Danh từ: \"Hoa\")\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / điểm đến: \"vào lúc / đi đến địa điểm\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ tân ngữ: \"tác động trực tiếp vào danh từ đứng trước\")\n\n"
           },
           {
             "id": "m_review_21_25_1_m2_q3",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【つれてきます】",
+            "question": "【まいにち】 べんきょうします。",
             "options": [
-              "アルバイト",
-              "年を取ります",
-              "紹介します",
-              "連れて来ます"
+              "毎日",
+              "毎年",
+              "毎週",
+              "毎月"
             ],
-            "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Dẫn đến**.\n\n✍️ Phân tích đáp án:\n- **連れて来ます** (つれてきます): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **LIÊN LAI**.\n- Cấu tạo: 連 (Liên) + 来 (Lai)"
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nHọc bài mỗi ngày.\n\n✍️ Phân tích đáp án:\n- 毎日: Mỗi ngày → Chọn.\n\n📝 Từ vựng trong câu:\n- 毎日 (まいにch / mainichi): Hàng ngày, mỗi ngày\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">まいにち</span> (Danh từ thời gian: \"Mỗi ngày\")\n- <span style=\"color: #ffb86c; font-weight: 800;\">べんきょうします</span> (Động từ (Verb - V): \"Học, nghiên cứu\")\n\n"
           }
         ]
       },
@@ -6167,51 +6224,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_21_25_1_m3_q0",
-            "question": "がくせい（　　）とき、よく アルバイトを しました。",
+            "question": "ねむい 【　　　】、コーヒーを のみます。",
             "options": [
-              "の",
-              "な",
-              "だ",
-              "に"
+              "たら",
+              "とき",
+              "ば",
+              "と"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nKhi còn là sinh viên, tôi thường đi làm thêm.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **の**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nDanh từ (学生) + の + 時."
+            "correctIndex": 1,
+            "explanation": "📖 Dịch nghĩa:\nKhi buồn ngủ, tôi uống cà phê.\n\n✍️ Phân tích đáp án:\n- とき: Khi/Lúc (dùng sau tính từ đuôi い) → Chọn.\n\n📝 Từ vựng trong câu:\n- コーヒー (koohii): Cà phê\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ tân ngữ: \"tác động trực tiếp vào danh từ đứng trước\")\n- <span style=\"color: #ffb86c; font-weight: 800;\">のみます</span> (Động từ (Verb - V): \"Uống\")\n\n"
           },
           {
             "id": "m_review_21_25_1_m3_q1",
-            "question": "わたしは きむらさんに しゃしんを とって（　　）。",
+            "question": "きのうは とても 【　　　】です。",
             "options": [
-              "もらいました",
-              "くれました",
-              "あげました",
-              "しました"
+              "いそがしい",
+              "ひま",
+              "いそがしかった",
+              "ひまだった"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTôi ĐƯỢC anh Kimura chụp ảnh cho.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **もらいました**.\n\n📚 Từ vựng bổ trợ:\n- 写真 (しゃしん / shashin): Bức ảnh\n\n💡 Ngữ pháp & Mẹo nhớ:\nChủ ngữ là TÔI, nhận hành động từ người khác -> Vて もらいます."
+            "correctIndex": 2,
+            "explanation": "📖 Dịch nghĩa:\nHôm qua đã rất bận.\n\n✍️ Phân tích đáp án:\n- いそ가しかった: Thể quá khứ của tính từ đuôi い (いそがしい) → Chọn.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ sở hữu / bổ nghĩa: \"của\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chủ đề (Topic): \"thì, là\")\n- <span style=\"color: #f73859; font-weight: 800;\">と</span> (Trợ từ đồng hành: \"cùng với\")\n- <span style=\"color: #f73859; font-weight: 800;\">も</span> (Trợ từ cũng / phủ định hoàn toàn: \"cũng\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ địa điểm / phương tiện (công cụ): \"ở tại / bằng\")\n\n"
           },
           {
             "id": "m_review_21_25_1_m3_q2",
-            "question": "あたらしい くうこうは（　　）おもいますか。 ...きれいだと おもいます。",
+            "question": "あめが ふっても、いきます。",
             "options": [
-              "どう",
-              "どうと",
-              "どんな",
-              "なんの"
+              "あめが ふりますが、いきます。",
+              "あめが ふったら いきません。",
+              "あめが ふらないと いきます。",
+              "あめが ふったら いきます。"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nBạn nghĩ thế nào về sân bay mới? ...Tôi nghĩ nó đẹp.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **どう**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nLưu ý không dùng と sau どう. Câu hỏi là どう 思いますか."
+            "explanation": "📖 Dịch nghĩa:\nDù trời mưa vẫn đi.\n\n✍️ Phân tích đáp án:\n- Đồng nghĩa với câu dùng trợ từ nghịch lý が (Mưa nhưng tôi vẫn đi) → Chọn.\n\n📝 Từ vựng trong câu:\n- 雨 (あめ / ame): Mưa\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あめ</span> (Danh từ (Chủ ngữ - S): \"Mưa\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chủ ngữ/đối tượng: \"chỉ chủ thể hoặc đối tượng của động từ trạng thái\")\n- <span style=\"color: #f73859; font-weight: 800;\">も</span> (Trợ từ cũng / phủ định hoàn toàn: \"cũng\")\n- <span style=\"color: #ffb86c; font-weight: 800;\">いきます</span> (Động từ (Verb - V): \"Đi\")\n\n"
           },
           {
             "id": "m_review_21_25_1_m3_q3",
-            "question": "これは カリナさん（　　）かいた えです。",
+            "question": "やすみは 【　　　】ですか。",
             "options": [
-              "が",
-              "は",
-              "を",
-              "に"
+              "だれ",
+              "なん",
+              "どこ",
+              "いつ"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nĐây là bức tranh mà chị Karina đã vẽ.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **が**.\n\n📚 Từ vựng bổ trợ:\n- 絵 (え / e): Bức tranh\n\n💡 Ngữ pháp & Mẹo nhớ:\nChủ ngữ trong mệnh đề bổ nghĩa (Karina đã vẽ) dùng trợ từ が."
+            "correctIndex": 3,
+            "explanation": "📖 Dịch nghĩa:\nKhi nào được nghỉ?\n\n✍️ Phân tích đáp án:\n- いつ (Khi nào?): Hỏi thời gian → Chọn.\n\n📝 Từ vựng trong câu:\n- 休み (やすみ / yasumi): Ngày nghỉ\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">やすみ</span> (Danh từ: \"Ngày nghỉ\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chủ đề (Topic): \"thì, là\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ địa điểm / phương tiện (công cụ): \"ở tại / bằng\")\n\n"
           }
         ]
       },
@@ -6221,51 +6278,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_21_25_1_b1_q0",
-            "question": "みち（　　）あるきます。",
+            "question": "じかんが なかった（　　　）、ほんを よみません。",
             "options": [
-              "を",
-              "に",
-              "で",
-              "へ"
+              "たら",
+              "ば",
+              "から",
+              "と"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTôi đi bộ trên đường.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **を**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nĐi dọc theo đường (歩きます) dùng trợ từ を."
+            "explanation": "📖 Dịch nghĩa:\nNếu không có thời gian, tôi không đọc sách.\n\n✍️ Phân tích đáp án:\n- たら: Câu điều kiện giả định (Vたら) → Chọn.\n\n📝 Từ vựng trong câu:\n- 本 (ほん / hon): Sách\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chủ ngữ/đối tượng: \"chỉ chủ thể hoặc đối tượng của động từ trạng thái\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ほん</span> (Danh từ: \"Sách\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ tân ngữ: \"tác động trực tiếp vào danh từ đứng trước\")\n\n"
           },
           {
             "id": "m_review_21_25_1_b1_q1",
-            "question": "わたしは おばあさんの にもつを もって（　　）。",
+            "question": "これは わたしが （　　　） かばんです。",
             "options": [
-              "あげました",
-              "くれました",
-              "もらいました",
-              "いきました"
+              "かい",
+              "かって",
+              "かう",
+              "かった"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTôi đã mang hành lý giúp bà lão.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **あげました**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nDù không nên dùng với cấp trên, nhưng ở đây có thể hiểu là tự nhủ với bản thân: Tôi đã mang giúp bà."
+            "correctIndex": 3,
+            "explanation": "📖 Dịch nghĩa:\nĐây là chiếc túi mà tôi đã mua.\n\n✍️ Phân tích đáp án:\n- かった (đã mua): Động từ ở thể quá khứ Vた bổ nghĩa cho danh từ かばん → Chọn.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chủ đề (Topic): \"thì, là\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">わたし</span> (Danh từ (Chủ ngữ - S): \"Tôi\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chủ ngữ/đối tượng: \"chỉ chủ thể hoặc đối tượng của động từ trạng thái\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ địa điểm / phương tiện (công cụ): \"ở tại / bằng\")\n\n"
           },
           {
             "id": "m_review_21_25_1_b1_q2",
-            "question": "にほんへ（　　）とき、かばんを かいました。",
+            "question": "あしたは あめが ふる（　　　） おもいます。",
             "options": [
-              "いく",
-              "いった",
-              "いって",
-              "いきます"
+              "に",
+              "で",
+              "を",
+              "と"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nKhi đi Nhật, tôi đã mua túi xách (mua ở quê nhà trước khi đi).\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **いく**.\n\n📚 Từ vựng bổ trợ:\n- 本 (ほん / hon): Sách\n\n💡 Ngữ pháp & Mẹo nhớ:\nHành động mua xảy ra TRƯỚC khi đến Nhật -> Dùng Vる (行く時)."
+            "correctIndex": 3,
+            "explanation": "📖 Dịch nghĩa:\nNghĩ ngày mai trời mưa.\n\n✍️ Phân tích đáp án:\n- と: Trợ từ dùng để trích dẫn phán đoán (と おもいます) → Chọn.\n\n📝 Từ vựng trong câu:\n- 明日 (あした / ashita): Ngày mai\n- 雨 (あめ / ame): Mưa\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あした</span> (Danh từ thời gian: \"Ngày mai\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chủ đề (Topic): \"thì, là\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あめ</span> (Danh từ (Chủ ngữ - S): \"Mưa\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chủ ngữ/đối tượng: \"chỉ chủ thể hoặc đối tượng của động từ trạng thái\")\n- <span style=\"color: #f73859; font-weight: 800;\">も</span> (Trợ từ cũng / phủ định hoàn toàn: \"cũng\")\n\n"
           },
           {
             "id": "m_review_21_25_1_b1_q3",
-            "question": "（　　）ひとは ミラーさんです。",
+            "question": "わたしは にほんごが はなせる（　　　） に なりました。",
             "options": [
-              "ネクタイを している",
-              "ネクタイを かけている",
-              "ネクタイを かぶっている",
-              "ネクタイを きている"
+              "よう",
+              "ところ",
+              "もの",
+              "こと"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nNgười đang đeo cà vạt là anh Miller.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **ネクタイを している**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nPhụ kiện như cà vạt, đồng hồ dùng động từ します -> している."
+            "explanation": "📖 Dịch nghĩa:\nTôi đã có thể nói tiếng Nhật.\n\n✍️ Phân tích đáp án:\n- よう: Cấu trúc biến đổi năng lực (よう に なります) → Chọn.\n\n📝 Từ vựng trong câu:\n- 日本語 (にほんご / nihongo): Tiếng Nhật\n- 花 (はna / hana): Hoa\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">わたし</span> (Danh từ (Chủ ngữ - S): \"Tôi\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chủ đề (Topic): \"thì, là\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">にほんご</span> (Danh từ (Tân ngữ - O): \"Tiếng Nhật\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chủ ngữ/đối tượng: \"chỉ chủ thể hoặc đối tượng của động từ trạng thái\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">はな</span> (Danh từ: \"Hoa\")\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / điểm đến: \"vào lúc / đi đến địa điểm\")\n\n"
           }
         ]
       },
@@ -6275,27 +6332,27 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_21_25_1_b2_q0",
-            "question": "あしたは　___ ___ _★_ ___　と おもいます。",
+            "question": "あの　___ ___ _★_ ___　は だれですか。",
             "options": [
-              "が",
-              "あめ",
-              "ふる",
-              "たぶん"
+              "ひと",
+              "を",
+              "メガネ",
+              "かけている"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTôi nghĩ ngày mai có lẽ trời sẽ mưa.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: あしたは [たぶん] [あめ] [★ が] [ふる] と おもいます。\n- Từ ở vị trí ngôi sao (★) là: **が**.\n\n📚 Từ vựng bổ trợ:\n- 明日 (あした / ashita): Ngày mai\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Phán đoán chủ quan: V (thể thông thường) + と おもいます. Trợ từ が đi kèm chủ ngữ tự nhiên (あめがふる)."
+            "correctIndex": 3,
+            "explanation": "📖 Dịch nghĩa:\nNgười đang đeo kính kia là ai thế?\n\n✍️ Phân tích đáp án:\n- Sắp xếp: メガネ (3) + を (1) + かけている (4) + ひと (2) + はだれですか.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ sở hữu / bổ nghĩa: \"của\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chủ đề (Topic): \"thì, là\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ địa điểm / phương tiện (công cụ): \"ở tại / bằng\")\n\n"
           },
           {
             "id": "m_review_21_25_1_b2_q1",
-            "question": "これは　___ ___ _★_ ___　かばんです。",
+            "question": "たのしく　___ ___ _★_ ___　と おもいます。",
             "options": [
-              "にほん",
-              "で",
-              "かった",
-              "わたしが"
+              "ない",
+              "あしたの",
+              "パーティー",
+              "は"
             ],
-            "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nĐây là cái túi mà tôi đã mua ở Nhật Bản.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: これは [わたしが] [にほん] [★ で] [かった] かばんです。\n- Từ ở vị trí ngôi sao (★) là: **で**.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Định ngữ bổ nghĩa danh từ: Cả mệnh đề わたしが にほん で かった bổ nghĩa cho danh từ かばん."
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nTôi nghĩ bữa tiệc ngày mai sẽ không vui.\n\n✍️ Phân tích đáp án:\n- Sắp xếp: あしたの (1) + パーティー (3) + は (2) + ない (4) + と おもいます.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ sở hữu / bổ nghĩa: \"của\")\n- <span style=\"color: #f73859; font-weight: 800;\">と</span> (Trợ từ đồng hành: \"cùng với\")\n- <span style=\"color: #f73859; font-weight: 800;\">も</span> (Trợ từ cũng / phủ định hoàn toàn: \"cũng\")\n\n"
           }
         ]
       },
@@ -6303,46 +6360,35 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "id": "p_review_21_25_1_dokkai1",
         "type": "mondai3",
         "text": [
-          "A：あしたの てんきは どうだと おもいますか。",
-          "B：あしたも いい てんきだと おもいます。",
-          "A：ニュースで なんと いって いましたか。",
-          "B：「あしたは はれるでしょう」と いって いましたよ。",
-          "A：じゃ、ピクニックに いきましょう。"
-        ],
-        "translation": [
-          "A: Bạn nghĩ thời tiết ngày mai sẽ thế nào?",
-          "B: Tôi nghĩ ngày mai thời tiết cũng sẽ đẹp.",
-          "A: Trong bản tin thời sự đã nói gì?",
-          "B: Đã nói là 'Ngày mai có lẽ sẽ nắng'.",
-          "A: Vậy thì đi dã ngoại đi."
-        ],
-        "vocabulary": [
-          "明日 (あした / ashita): Ngày mai"
+          "わたしは きのう ともだちの うちへ いきました。",
+          "ともだちが おいしい ケーキを つくって （　１　）。",
+          "とても おいしかったです。",
+          "わたしは また ケーキを （　２　）と おもいます。"
         ],
         "questions": [
           {
             "id": "m_review_21_25_1_d1_q0",
-            "question": "あしたの てんきは どうだと おもいますか？ (Bạn nghĩ thời tiết ngày mai thế nào?)",
+            "question": "（　１　）に入れるものはどれですか。",
             "options": [
-              "いい てんきだと おもいます (Tôi nghĩ là đẹp)",
-              "あめだと おもいます (Tôi nghĩ là mưa)",
-              "ゆきだと おもいます (Tôi nghĩ là có tuyết)",
-              "わるい てんきだと おもいます (Tôi nghĩ là thời tiết xấu)"
+              "くれました",
+              "あげました",
+              "もらいました",
+              "しました"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nあしたの てんきは どうだと おもいますか？ (Bạn nghĩ thời tiết ngày mai thế nào?)\n- Đáp án đúng: **いい てんきだと おもいます (Tôi nghĩ là đẹp)**.\n\n✍️ Phân tích đáp án:\n- Dựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác.\n\n📚 Từ vựng bổ trợ:\n- 明日 (あした / ashita): Ngày mai"
+            "explanation": "📖 Dịch nghĩa:\nBạn tôi làm bánh kem cho tôi.\n- Bạn làm cho mình dùng cấu trúc Vて くれました.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / điểm đến: \"vào lúc / đi đến địa điểm\")\n- <span style=\"color: #f73859; font-weight: 800;\">も</span> (Trợ từ cũng / phủ định hoàn toàn: \"cũng\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ sở hữu / bổ nghĩa: \"của\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chủ đề (Topic): \"thì, là\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ địa điểm / phương tiện (công cụ): \"ở tại / bằng\")\n\n<br/><br/>\n<strong style=\"color: var(--blue);\">📝 Dịch nghĩa toàn bộ đoạn văn:</strong><br/>\n<span style=\"color: var(--text);\">\n- Hôm qua tôi đã đến nhà bạn bè chơi.<br/>\n- Bạn tôi đã làm bánh kem ngon cho tôi ăn. (1: くれました)<br/>\n- Bánh đã rất ngon.<br/>\n- Tôi nghĩ là mình muốn ăn bánh kem lại lần nữa. (2: たべたい)\n</span>\n<br/><br/>\n<strong style=\"color: var(--gold);\">📚 Từ vựng trong đoạn văn:</strong><br/>\n<span style=\"color: var(--text);\">\n- <strong>きのう</strong> (kinou): Hôm qua<br/>\n- <strong>ともだち</strong> (tomodachi): Bạn bè<br/>\n- <strong>うちへ いきました</strong> (uchi e ikimashita): Đi đến nhà (ai đó) chơi<br/>\n- <strong>ケーキ</strong> (keeki): Bánh ngọt, bánh kem<br/>\n- <strong>つくります</strong> (tsukurimasu): Làm, chế tạo (thể て là つくって)<br/>\n- <strong>くれました</strong> (kuremashita): Cho/tặng tôi (làm việc gì đó cho tôi)<br/>\n- <strong>おいしかった</strong> (oishikatta): Đã ngon (quá khứ của おいしい)<br/>\n- <strong>また</strong> (mata): Lại, lần nữa<br/>\n- <strong>たべたい</strong> (tabetai): Muốn ăn (thể Vたい của たべます)<br/>\n- <strong>おもいます</strong> (omoimasu): Nghĩ, suy nghĩ (Vたい と おもいます: Nghĩ là muốn làm gì)\n</span>"
           },
           {
             "id": "m_review_21_25_1_d1_q1",
-            "question": "ニュースで なんと いっていましたか？ (Bản tin đã nói gì?)",
+            "question": "（　２　）に入れるものはどれですか。",
             "options": [
-              "あしたは はれると いっていました (Đã nói là ngày mai sẽ nắng)",
-              "あしたは あめだと いっていました (Đã nói là ngày mai có mưa)",
-              "あしたは さむいと いっていました (Đã nói là ngày mai lạnh)",
-              "あしたは ゆきだと いっていました (Đã nói là ngày mai có tuyết)"
+              "たべて",
+              "たべた",
+              "たべる",
+              "たべたい"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nニュースで なんと いっていましたか？ (Bản tin đã nói gì?)\n- Đáp án đúng: **あしたは はれると いっていました (Đã nói là ngày mai sẽ nắng)**.\n\n✍️ Phân tích đáp án:\n- Dựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác."
+            "correctIndex": 3,
+            "explanation": "📖 Dịch nghĩa:\nMuốn ăn lại bánh kem.\n- Động từ thể mong muốn Vたい kết hợp biểu thị suy nghĩ (Vたい と おもいます).\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / điểm đến: \"vào lúc / đi đến địa điểm\")\n- <span style=\"color: #f73859; font-weight: 800;\">も</span> (Trợ từ cũng / phủ định hoàn toàn: \"cũng\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ sở hữu / bổ nghĩa: \"của\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chủ đề (Topic): \"thì, là\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ địa điểm / phương tiện (công cụ): \"ở tại / bằng\")\n\n<br/><br/>\n<strong style=\"color: var(--blue);\">📝 Dịch nghĩa toàn bộ đoạn văn:</strong><br/>\n<span style=\"color: var(--text);\">\n- Hôm qua tôi đã đến nhà bạn bè chơi.<br/>\n- Bạn tôi đã làm bánh kem ngon cho tôi ăn. (1: くれました)<br/>\n- Bánh đã rất ngon.<br/>\n- Tôi nghĩ là mình muốn ăn bánh kem lại lần nữa. (2: たべたい)\n</span>\n<br/><br/>\n<strong style=\"color: var(--gold);\">📚 Từ vựng trong đoạn văn:</strong><br/>\n<span style=\"color: var(--text);\">\n- <strong>きのう</strong> (kinou): Hôm qua<br/>\n- <strong>ともだち</strong> (tomodachi): Bạn bè<br/>\n- <strong>うちへ いきました</strong> (uchi e ikimashita): Đi đến nhà (ai đó) chơi<br/>\n- <strong>ケーキ</strong> (keeki): Bánh ngọt, bánh kem<br/>\n- <strong>つくります</strong> (tsukurimasu): Làm, chế tạo (thể て là つくって)<br/>\n- <strong>くれました</strong> (kuremashita): Cho/tặng tôi (làm việc gì đó cho tôi)<br/>\n- <strong>おいしかった</strong> (oishikatta): Đã ngon (quá khứ của おいしい)<br/>\n- <strong>また</strong> (mata): Lại, lần nữa<br/>\n- <strong>たべたい</strong> (tabetai): Muốn ăn (thể Vたい của たべます)<br/>\n- <strong>おもいます</strong> (omoimasu): Nghĩ, suy nghĩ (Vたい と おもいます: Nghĩ là muốn làm gì)\n</span>"
           }
         ]
       }
@@ -6359,51 +6405,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_21_25_2_m1_q0",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【お弁当】",
+            "question": "あした 【役に立ちます】。",
             "options": [
-              "グループ",
-              "いいます",
-              "つれてきます",
-              "おべんとう"
+              "ダイニングキッチ",
+              "せつめいします",
+              "やくにたちます",
+              "ひっこします"
             ],
-            "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【お弁当】 có nghĩa là: **Cơm hộp**.\n\n✍️ Phân tích đáp án:\n- **おべんとう** (obentou): Cách đọc đúng của chữ Hán 【お弁当】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **BIỆN ĐƯƠNG**.\n- Mẹo nhớ: Hộp cơm Bento."
+            "correctIndex": 2,
+            "explanation": "📖 Dịch nghĩa:\nNgày mai tôi sẽ hữu ích.\n\n✍️ Phân tích đáp án:\n- **ダイニングキッチ** (dainingu kicchin): Nghĩa là \"Bếp ăn\" → Sai.\n- **せつめいします** (setsumeishimasu): Nghĩa là \"Giải thích\" → Sai.\n- **やくにたちます** (yaku ni tachimasu): Cách đọc đúng của chữ Hán 【役に立ちます】 → Chọn.\n- **ひっこします** (hikkoshimasu): Nghĩa là \"Chuyển nhà\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あした</span> (Từ vựng - Danh từ: \"Ngày mai\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">役に立ちます</span> (Từ vựng - Động từ: \"Hữu ích\")\n\n📝 Từ vựng trong câu:\n- **明日 (あした / ashita)**: Ngày mai\n- **役に立ちます (やくにたちます / yaku ni tachimasu)**: Hữu ích\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **DỊCH LẬP**.\n- Mẹo nhớ: Đứng lên (Lập) phục vụ vai trò (Dịch) là Hữu ích."
           },
           {
             "id": "m_review_21_25_2_m1_q1",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【故障】",
+            "question": "それは 【不便（な）】 です。",
             "options": [
-              "まわします",
-              "しゅしょう",
-              "こしょう",
-              "さいきん"
+              "いみ",
+              "じぶんで",
+              "ふべん",
+              "なんども"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【故障】 có nghĩa là: **Hỏng hóc**.\n\n✍️ Phân tích đáp án:\n- **こしょう** (koshou): Cách đọc đúng của chữ Hán 【故障】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **CỐ CHƯỚNG**.\n- Mẹo nhớ: Sự cố gây cản trở là Hỏng hóc."
+            "explanation": "📖 Dịch nghĩa:\nCái đó bất tiện.\n\n✍️ Phân tích đáp án:\n- **いみ** (imi): Nghĩa là \"Ý nghĩa\" → Sai.\n- **じぶんで** (jibun de): Nghĩa là \"Tự mình\" → Sai.\n- **ふべん** (fuben): Cách đọc đúng của chữ Hán 【不便（な）】 → Chọn.\n- **なんども** (nandomo): Nghĩa là \"Nhiều lần\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">それ</span> (Từ vựng - Đại từ: \"Cái đó (gần người nghe)\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">不便（な）</span> (Từ vựng - Tính từ na: \"Bất tiện\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **それ (sore)**: Cái đó (gần người nghe)\n- **不便（な） (ふべん / fuben)**: Bất tiện\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **BẤT TIỆN**.\n- Mẹo nhớ: Không tiện lợi."
           },
           {
             "id": "m_review_21_25_2_m1_q2",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【出ます（お釣りが〜）】",
+            "question": "この ボタンを（　　）と、エアコンが 【着きます】。",
             "options": [
-              "でます",
-              "コート",
-              "こと",
-              "かえます"
+              "つきます",
+              "しゅしょう",
+              "グループ",
+              "たいしかん"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【出ます（お釣りが〜）】 có nghĩa là: **Chạy ra (tiền thừa)**.\n\n✍️ Phân tích đáp án:\n- **でます** (demasu): Cách đọc đúng của chữ Hán 【出ます（お釣りが〜）】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **XUẤT**.\n- Mẹo nhớ: Tiền thừa chạy ra."
+            "explanation": "📖 Dịch nghĩa:\nHễ bấm nút này thì máy lạnh sẽ bật.\n\n✍️ Phân tích đáp án:\n- **つきます** (tsukimasu): Cách đọc đúng của chữ Hán 【着きます】 → Chọn.\n- **しゅしょう** (shushou): Nghĩa là \"Thủ tướng\" → Sai.\n- **グループ** (guruupu): Nghĩa là \"Nhóm\" → Sai.\n- **たいしかん** (taishikan): Nghĩa là \"Đại sứ quán\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">この</span> (Từ vựng - Từ chỉ định: \"Cái này ... (+ danh từ)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ボタン</span> (Từ vựng - Danh từ: \"Nút bấm\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #f73859; font-weight: 800;\">と</span> (Trợ từ chỉ đối tượng đồng hành / liệt kê)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">エアコン</span> (Từ vựng - Danh từ: \"Máy điều hòa\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">着きます</span> (Từ vựng - Động từ: \"Đến (ga, nơi chốn)\")\n\n📝 Từ vựng trong câu:\n- **この (kono)**: Cái này ... (+ danh từ)\n- **ボタン (botan)**: Nút bấm\n- **エアコン (eakon)**: Máy điều hòa\n- **着きます (つきます / tsukimasu)**: Đến (ga, nơi chốn)\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **TRƯỚC**.\n- Mẹo nhớ: Đến đích."
           },
           {
             "id": "m_review_21_25_2_m1_q3",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【和室】",
+            "question": "【億】には どちら ですか。 ...アメリカです。",
             "options": [
-              "こうつう",
-              "たります",
-              "すごい",
-              "わしつ"
+              "つまみ",
+              "おなじ",
+              "きます",
+              "おく"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【和室】 có nghĩa là: **Phòng kiểu Nhật**.\n\n✍️ Phân tích đáp án:\n- **わしつ** (washitsu): Cách đọc đúng của chữ Hán 【和室】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **HÒA THẤT**.\n- Mẹo nhớ: Căn phòng mang phong cách hòa bình của Nhật Bản."
+            "explanation": "📖 Dịch nghĩa:\nĐất nước của bạn là nước nào? ...Là nước Mỹ.\n\n✍️ Phân tích đáp án:\n- **つまみ** (tsumami): Nghĩa là \"Núm vặn\" → Sai.\n- **おなじ** (onaji): Nghĩa là \"Giống nhau\" → Sai.\n- **きます** (kimasu): Nghĩa là \"Đến\" → Sai.\n- **おく** (oku): Cách đọc đúng của chữ Hán 【億】 → Chọn.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">億</span> (Từ vựng - Danh từ: \"Trăm triệu\")\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / địa điểm / đối tượng tiếp nhận)\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">どちら</span> (Từ vựng - Đại từ: \"Phía nào, đằng nào, chỗ nào (cách nói lịch sự của どこ)\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">アメリカ</span> (Từ vựng - Danh từ: \"Mỹ (Hoa Kỳ)\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **億 (おく / oku)**: Trăm triệu\n- **どちら (dochira)**: Phía nào, đằng nào, chỗ nào (cách nói lịch sự của どこ)\n- **アメリカ (america)**: Mỹ (Hoa Kỳ)\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **ỨC**.\n- Mẹo nhớ: Trăm triệu."
           }
         ]
       },
@@ -6413,51 +6459,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_21_25_2_m2_q0",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【さわります】",
+            "question": "あした 【うごきます】。",
             "options": [
-              "送ります",
-              "電気屋",
-              "触ります",
-              "グループ"
+              "アパート",
+              "勝ちます",
+              "動きます",
+              "聞きます"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Sờ, chạm**.\n\n✍️ Phân tích đáp án:\n- **触ります** (さわります): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **XÚC**.\n- Cấu tạo: 角 (Giác - Sừng) + 虫 (Trùng - Côn trùng)"
+            "explanation": "📖 Dịch nghĩa:\nNgày mai tôi sẽ hoạt động (máy).\n\n✍️ Phân tích đáp án:\n- **アパート** (アパート): Nghĩa là \"Căn hộ\" → Sai.\n- **勝ちます** (かちます): Nghĩa là \"Thắng\" → Sai.\n- **動きます** (うごきます): Cách viết chữ Hán đúng của từ 【うごきます】 → Chọn.\n- **聞きます** (ききます): Nghĩa là \"Nghe\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あした</span> (Từ vựng - Danh từ: \"Ngày mai\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">うごきます</span> (Từ vựng - Động từ: \"Hoạt động (máy)\")\n\n📝 Từ vựng trong câu:\n- **明日 (あした / ashita)**: Ngày mai\n- **動きます (うごきます / ugokimasu)**: Hoạt động (máy)\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **ĐỘNG**.\n- Cấu tạo: 重 (Trọng - Nặng) + 力 (Lực)"
           },
           {
             "id": "m_review_21_25_2_m2_q1",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【きます】",
+            "question": "あした 【りゅうがくします】。",
             "options": [
-              "同じ",
-              "全部",
-              "自分で",
-              "着ます"
+              "送ります",
+              "留学します",
+              "連れて来ます",
+              "変えます"
             ],
-            "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Mặc (áo sơ mi, vv)**.\n\n✍️ Phân tích đáp án:\n- **着ます** (きます): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **TRƯỚC**.\n- Cấu tạo: 着 (Trước - Mặc)"
+            "correctIndex": 1,
+            "explanation": "📖 Dịch nghĩa:\nNgày mai tôi sẽ du học.\n\n✍️ Phân tích đáp án:\n- **送ります** (おくります): Nghĩa là \"Gửi\" → Sai.\n- **留学します** (りゅうがくします): Cách viết chữ Hán đúng của từ 【りゅうがくします】 → Chọn.\n- **連れて来ます** (つれてきます): Nghĩa là \"Dẫn đến\" → Sai.\n- **変えます** (かえます): Nghĩa là \"Đổi\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あした</span> (Từ vựng - Danh từ: \"Ngày mai\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">りゅうがくします</span> (Từ vựng - Động từ: \"Du học\")\n\n📝 Từ vựng trong câu:\n- **明日 (あした / ashita)**: Ngày mai\n- **留学します (りゅうがくします / ryuugakushimasu)**: Du học\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **LƯU HỌC**.\n- Cấu tạo: 留 (Lưu) + 学 (Học)"
           },
           {
             "id": "m_review_21_25_2_m2_q2",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【たいしかん】",
+            "question": "（　　）【ぼうし】は わたしのです。",
             "options": [
-              "大使館",
-              "送ります",
-              "あります",
-              "転勤"
+              "サイズ",
+              "帽子",
+              "お菓子",
+              "ほかに"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Đại sứ quán**.\n\n✍️ Phân tích đáp án:\n- **大使館** (たいしかん): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **ĐẠI SỨ QUÁN**.\n- Cấu tạo: 大 (Đại) + 使 (Sứ) + 館 (Quán)"
+            "correctIndex": 1,
+            "explanation": "📖 Dịch nghĩa:\nCái người đang đội chiếc mũ kia là tôi.\n\n✍️ Phân tích đáp án:\n- **サイズ** (サイズ): Nghĩa là \"Cỡ, size\" → Sai.\n- **帽子** (ぼうし): Cách viết chữ Hán đúng của từ 【ぼうし】 → Chọn.\n- **お菓子** (おかし): Nghĩa là \"Bánh kẹo\" → Sai.\n- **ほかに** (ほかに): Nghĩa là \"Ngoài ra\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ぼうし</span> (Từ vựng - Danh từ: \"Mũ\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">わたし</span> (Từ vựng - Đại từ: \"Tôi\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **帽子 (ぼうし / boushi)**: Mũ\n- **私 (わたし / watashi)**: Tôi\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **MẠO TỬ**.\n- Cấu tạo: 帽 (Mạo - Mũ) + 子 (Tử)"
           },
           {
             "id": "m_review_21_25_2_m2_q3",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【まわします】",
+            "question": "これ 【じぶんで】 です。",
             "options": [
-              "渡ります",
-              "寂しい",
-              "押し入れ",
-              "回します"
+              "自分で",
+              "触ります",
+              "田舎",
+              "試合"
             ],
-            "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Vặn (núm)**.\n\n✍️ Phân tích đáp án:\n- **回します** (まわします): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **HỒI**.\n- Cấu tạo: 回 (Hồi - Vòng quanh)"
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nĐây là tự mình.\n\n✍️ Phân tích đáp án:\n- **自分で** (じぶんで): Cách viết chữ Hán đúng của từ 【じぶんで】 → Chọn.\n- **触ります** (さわります): Nghĩa là \"Sờ, chạm\" → Sai.\n- **田舎** (いなか): Nghĩa là \"Nông thôn, quê\" → Sai.\n- **試合** (しあい): Nghĩa là \"Trận đấu\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">これ</span> (Từ vựng - Đại từ: \"Cái này (gần người nói)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">じぶんで</span> (Từ vựng - Phó từ: \"Tự mình\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **これ (kore)**: Cái này (gần người nói)\n- **自分で (じぶんで / jibun de)**: Tự mình\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **TỰ PHÂN**.\n- Cấu tạo: 自 (Tự) + 分 (Phân)"
           }
         ]
       },
@@ -6467,51 +6513,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_21_25_2_m3_q0",
-            "question": "こうえん（　　）さんぽします。",
+            "question": "たろうくんは わたしに あめを（　　）。",
             "options": [
-              "を",
-              "に",
-              "で",
-              "へ"
+              "くれました",
+              "あげました",
+              "もらいました",
+              "しました"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTôi đi dạo quanh công viên.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **を**.\n\n📚 Từ vựng bổ trợ:\n- 絵 (え / e): Bức tranh\n\n💡 Ngữ pháp & Mẹo nhớ:\nĐộng từ di chuyển (散歩します) trong một không gian dùng trợ từ を."
+            "explanation": "📖 Dịch nghĩa:\nBé Taro đã cho tôi kẹo.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **くれました**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">わたし</span> (Từ vựng - Đại từ: \"Tôi\")\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / địa điểm / đối tượng tiếp nhận)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あめ</span> (Từ vựng - Danh từ: \"Mưa\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n\n📝 Từ vựng trong câu:\n- **私 (わたし / watashi)**: Tôi\n- **雨 (あめ / ame)**: Mưa\n\n💡 Ngữ pháp & Mẹo nhớ:\nHành động cho TÔI đồ vật -> dùng くれます (không dùng あげます)."
           },
           {
             "id": "m_review_21_25_2_m3_q1",
-            "question": "シャツを（　　）ひとは やまださんです。",
+            "question": "あしたは やすみ（　　）でしょう？",
             "options": [
-              "きている",
-              "はいている",
-              "している",
-              "かけている"
+              "(Không thêm gì)",
+              "だ",
+              "な",
+              "の"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nNgười đang mặc áo sơ mi là anh Yamada.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **きている**.\n\n📚 Từ vựng bổ trợ:\n- シャツ (shatsu): Áo sơ mi\n\n💡 Ngữ pháp & Mẹo nhớ:\nÁo sơ mi/Áo khoác (đồ mặc ở nửa thân trên) dùng động từ 着ます -> 着ている."
+            "explanation": "📖 Dịch nghĩa:\nNgày mai là ngày nghỉ đúng không?\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **(Không thêm gì)**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あした</span> (Từ vựng - Danh từ: \"Ngày mai\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">やすみ</span> (Từ vựng - Danh từ: \"Ngày nghỉ, giờ nghỉ\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **明日 (あした / ashita)**: Ngày mai\n- **休み (やすみ / yasumi)**: Ngày nghỉ, giờ nghỉ\n\n💡 Ngữ pháp & Mẹo nhớ:\nTrước でしょう, Danh từ (休み) và Tính từ な không thêm だ. Chỉ là 休みでしょう？."
           },
           {
             "id": "m_review_21_25_2_m3_q2",
-            "question": "わたしは カメラを（　　）おかねが ありません。",
+            "question": "ともだちが とうきょうを あんないして（　　）。",
             "options": [
-              "かう",
-              "かいます",
-              "かって",
-              "かった"
+              "くれました",
+              "もらいました",
+              "あげました",
+              "きました"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTôi không có tiền để mua máy ảnh.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **かう**.\n\n📚 Từ vựng bổ trợ:\n- カメラ (kamera): Máy ảnh\n\n💡 Ngữ pháp & Mẹo nhớ:\nThời gian/Tiền bạc/Việc để làm gì đó: Vる + Danh từ (買うお金)."
+            "explanation": "📖 Dịch nghĩa:\nBạn tôi đã dẫn tôi đi tham quan Tokyo.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **くれました**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ともだち</span> (Từ vựng - Danh từ: \"Bạn bè\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #f73859; font-weight: 800;\">と</span> (Trợ từ chỉ đối tượng đồng hành / liệt kê)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">きょう</span> (Từ vựng - Danh từ: \"Hôm nay\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n\n📝 Từ vựng trong câu:\n- **友達 (ともだち / tomodachi)**: Bạn bè\n- **今日 (きょう / kyou)**: Hôm nay\n\n💡 Ngữ pháp & Mẹo nhớ:\nBạn bè làm giúp việc gì đó cho TÔI -> Vて くれます."
           },
           {
             "id": "m_review_21_25_2_m3_q3",
-            "question": "日曜日（　　）、はたらかなければ なりません。",
+            "question": "お金が ない（　　）、ともだちに かります。",
             "options": [
-              "でも",
-              "だったら",
-              "て",
-              "と"
+              "とき",
+              "と",
+              "が",
+              "を"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nDù là Chủ Nhật cũng phải làm việc.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **でも**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nDanh từ (日曜日) chia thể ても -> 日曜日でも."
+            "explanation": "📖 Dịch nghĩa:\nKhi không có tiền, tôi mượn bạn bè.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **とき**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">お金</span> (Từ vựng - Danh từ: \"Tiền\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ともだち</span> (Từ vựng - Danh từ: \"Bạn bè\")\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / địa điểm / đối tượng tiếp nhận)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">かります</span> (Từ vựng - Động từ: \"Mượn, vay\")\n\n📝 Từ vựng trong câu:\n- **お金 (おかね / okane)**: Tiền\n- **友達 (ともだち / tomodachi)**: Bạn bè\n- **借ります (かります / karimasu)**: Mượn, vay\n\n💡 Ngữ pháp & Mẹo nhớ:\nThể ない (ない) + 時. Không dùng と vì vế sau mang tính chủ ý cá nhân (Tôi mượn)."
           }
         ]
       },
@@ -6521,51 +6567,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_21_25_2_b1_q0",
-            "question": "あれは わたしが よく（　　）スーパーです。",
+            "question": "シャツを（　　）ひとは やまださんです。",
             "options": [
-              "いく",
-              "いった",
-              "いって",
-              "いかない"
+              "きている",
+              "はいている",
+              "している",
+              "かけている"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nKia là siêu thị mà tôi thường đi.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **いく**.\n\n📚 Từ vựng bổ trợ:\n- スーパー (suupaa): Siêu thị\n\n💡 Ngữ pháp & Mẹo nhớ:\nHành động thói quen (よく - thường xuyên), dùng Vる -> 行くスーパー."
+            "explanation": "📖 Dịch nghĩa:\nNgười đang mặc áo sơ mi là anh Yamada.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **きている**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">シャツ</span> (Từ vựng - Danh từ: \"Áo sơ mi\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ひと</span> (Từ vựng - Danh từ: \"Người\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">やま</span> (Từ vựng - Danh từ: \"Núi\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **シャツ (しゃつ / shatsu)**: Áo sơ mi\n- **人 (ひと / hito)**: Người\n- **山 (やま / yama)**: Núi\n\n💡 Ngữ pháp & Mẹo nhớ:\nÁo sơ mi/Áo khoác (đồ mặc ở nửa thân trên) dùng động từ 着ます -> 着ている."
           },
           {
             "id": "m_review_21_25_2_b1_q1",
-            "question": "ミラーさんは あした とうきょうへ（　　）と いいました。",
+            "question": "えいがは おもしろかった（　　）でしょう？",
             "options": [
-              "いく",
-              "いきます",
-              "いって",
-              "いった"
+              "(Không thêm gì)",
+              "だ",
+              "な",
+              "です"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nAnh Miller đã nói là ngày mai anh ấy sẽ đi Tokyo.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **いく**.\n\n📚 Từ vựng bổ trợ:\n- 明日 (あした / ashita): Ngày mai\n\n💡 Ngữ pháp & Mẹo nhớ:\nTrích dẫn gián tiếp, dùng Thể thông thường trước と言いました. Ngày mai (tương lai) -> 行く."
+            "explanation": "📖 Dịch nghĩa:\nBộ phim đã rất thú vị phải không?\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **(Không thêm gì)**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">えいが</span> (Từ vựng - Danh từ: \"Phim, điện ảnh\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">おもしろかった</span> (Từ vựng - Tính từ đuôi i: \"Thú vị\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **映画 (えいが / eiga)**: Phim, điện ảnh\n- **おもしろい (omoshiroi)**: Thú vị\n\n💡 Ngữ pháp & Mẹo nhớ:\nTính từ đuôi い (おもしろかった) ghép trực tiếp với でしょう."
           },
           {
             "id": "m_review_21_25_2_b1_q2",
-            "question": "にほんの せいじ（　　）どう おもいますか。",
+            "question": "あめが（　　）、さんぽに いきます。",
             "options": [
-              "について",
-              "と",
-              "を",
-              "に"
+              "ふっても",
+              "ふったら",
+              "ふると",
+              "ふるから"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nBạn nghĩ thế nào về chính trị Nhật Bản?\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **について**.\n\n📚 Từ vựng bổ trợ:\n- 本 (ほん / hon): Sách\n\n💡 Ngữ pháp & Mẹo nhớ:\nNghĩ thế nào VỀ cái gì đó: N + について どう思いますか."
+            "explanation": "📖 Dịch nghĩa:\nMặc dù trời mưa, tôi vẫn đi dạo.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **ふっても**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あめ</span> (Từ vựng - Danh từ: \"Mưa\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / địa điểm / đối tượng tiếp nhận)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">いきます</span> (Từ vựng - Động từ: \"Đi\")\n\n📝 Từ vựng trong câu:\n- **雨 (あめ / ame)**: Mưa\n- **行きます (いきます / ikimasu)**: Đi\n\n💡 Ngữ pháp & Mẹo nhớ:\nVế sau vẫn thực hiện hành động bất chấp điều kiện -> Vても."
           },
           {
             "id": "m_review_21_25_2_b1_q3",
-            "question": "わたしは サントスさんに えきへの みちを おしえて（　　）。",
+            "question": "わたしは おばあさんの にもつを もって（　　）。",
             "options": [
               "あげました",
-              "もらいました",
               "くれました",
+              "もらいました",
               "いきました"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTôi đã chỉ đường ra ga cho anh Santos.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **あげました**.\n\n📚 Từ vựng bổ trợ:\n- 駅 (えき / eki): Nhà ga\n- 絵 (え / e): Bức tranh\n\n💡 Ngữ pháp & Mẹo nhớ:\nTôi làm việc tốt cho người khác -> Vて あげます."
+            "explanation": "📖 Dịch nghĩa:\nTôi đã mang hành lý giúp bà lão.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **あげました**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">わたし</span> (Từ vựng - Đại từ: \"Tôi\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">おばあさん</span> (Từ vựng - Danh từ: \"Bà / Cụ bà\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">にもつ</span> (Từ vựng - Danh từ: \"Hành lý\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #f73859; font-weight: 800;\">も</span> (Trợ từ chỉ cũng)\n\n📝 Từ vựng trong câu:\n- **私 (わたし / watashi)**: Tôi\n- **おばあさん (obaasan)**: Bà / Cụ bà\n- **荷物 (にもつ / nimotsu)**: Hành lý\n\n💡 Ngữ pháp & Mẹo nhớ:\nDù không nên dùng với cấp trên, nhưng ở đây có thể hiểu là tự nhủ với bản thân: Tôi đã mang giúp bà."
           }
         ]
       },
@@ -6575,27 +6621,27 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_21_25_2_b2_q0",
-            "question": "おなかが　___ ___ _★_ ___　のみます。",
+            "question": "あしたは　___ ___ _★_ ___　と おもいます。",
             "options": [
-              "とき",
-              "くすりを",
-              "いたい",
-              "この"
+              "が",
+              "あめ",
+              "ふる",
+              "たぶん"
             ],
-            "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nKhi bị đau bụng thì tôi uống loại thuốc này.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: おなかが [いたい] [とき] [★ この] [くすりを] のみます。\n- Từ ở vị trí ngôi sao (★) là: **この**.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Cấu trúc chỉ thời điểm: [Tính từ い] とき (Khi...)."
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nTôi nghĩ ngày mai có lẽ trời sẽ mưa.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: あしたは たぶん あめ が ふる と おもいます。\n- Từ ở vị trí ngôi sao (★) là: **gが**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あした</span> (Từ vựng - Danh từ: \"Ngày mai\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">たぶん</span> (Từ vựng - Phó từ: \"Có lẽ\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あめ</span> (Từ vựng - Danh từ: \"Mưa\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #f73859; font-weight: 800;\">と</span> (Trợ từ chỉ đối tượng đồng hành / liệt kê)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">おもいます</span> (Từ vựng - Động từ: \"Nghĩ rằng\")\n\n📝 Từ vựng trong câu:\n- **明日 (あした / ashita)**: Ngày mai\n- **多分 (たぶん / tabun)**: Có lẽ\n- **雨 (あめ / ame)**: Mưa\n- **思います (おもいます / omoimasu)**: Nghĩ rằng\n\n💡 Ngữ pháp & Mẹo nhớ:\nPhán đoán chủ quan: V (thể thông thường) + と おもいます. Trợ từ が đi kèm chủ ngữ tự nhiên."
           },
           {
             "id": "m_review_21_25_2_b2_q1",
-            "question": "にほんへ　___ ___ _★_ ___　いります。",
+            "question": "これは　___ ___ _★_ ___　かばんです。",
             "options": [
-              "とき",
-              "いく",
-              "パスポート",
-              "が"
+              "にほん",
+              "で",
+              "かった",
+              "わたしが"
             ],
-            "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nKhi đi sang Nhật thì cần phải có hộ chiếu.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: にほんへ [いく] [とき] [★ パスポート] [が] いります。\n- Từ ở vị trí ngôi sao (★) là: **パスポート**.\n\n📚 Từ vựng bổ trợ:\n- 本 (ほん / hon): Sách\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Cấu trúc khi làm gì: V る とき. Động từ いります đi với trợ từ が."
+            "correctIndex": 1,
+            "explanation": "📖 Dịch nghĩa:\nĐây là cái túi mà tôi đã mua ở Nhật Bản.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: これは わたしが にほん で かった かばんです。\n- Từ ở vị trí ngôi sao (★) là: **で**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">これ</span> (Từ vựng - Đại từ: \"Cái này (gần người nói)\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">わたし</span> (Từ vựng - Đại từ: \"Tôi\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">にほん</span> (Từ vựng - Danh từ: \"Nhật Bản\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">かばん</span> (Từ vựng - Danh từ: \"Túi xách, cặp\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **これ (kore)**: Cái này (gần người nói)\n- **私 (わたし / watashi)**: Tôi\n- **日本 (にほん / nihon)**: Nhật Bản\n- **かばん (kaban)**: Túi xách, cặp\n\n💡 Ngữ pháp & Mẹo nhớ:\nĐịnh ngữ bổ nghĩa danh từ: Cả mệnh đề わたしが にほん で かった bổ nghĩa cho danh từ かばん."
           }
         ]
       },
@@ -6603,47 +6649,55 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "id": "p_review_21_25_2_dokkai1",
         "type": "mondai3",
         "text": [
-          "A：あそこで しんぶんを よんでいる ひとは だれですか。",
-          "B：ああ、あのひとは あたらしい せんせいです。",
-          "A：そうですか。おなまえは？",
-          "B：サントスさんです。",
-          "A：ブラジルから きた ひとですね。"
+          "A：あしたの てんきは どうだと おもいますか。",
+          "B：あしたも いい てんきだと おもいます。",
+          "A：ニュースで なんと いって いましたか。",
+          "B：「あしたは はれるでしょう」と いって いましたよ。",
+          "A：じゃ、ピクニックに いきましょう。"
         ],
         "translation": [
-          "A: Người đang đọc báo ở đằng kia là ai vậy?",
-          "B: À, người đó là giáo viên mới.",
-          "A: Vậy à. Tên của thầy là gì?",
-          "B: Là Santos.",
-          "A: Là người đến từ Brazil nhỉ."
+          "A: Bạn nghĩ thời tiết ngày mai sẽ thế nào?",
+          "B: Tôi nghĩ ngày mai thời tiết cũng sẽ đẹp.",
+          "A: Trong bản tin thời sự đã nói gì?",
+          "B: Đã nói là 'Ngày mai có lẽ sẽ nắng'.",
+          "A: Vậy thì đi dã ngoại đi."
         ],
         "vocabulary": [
-          "先生 (せんせい / sensei): Thầy/cô giáo",
-          "絵 (え / e): Bức tranh"
+          "思います (おもいます / omoimasu): Nghĩ rằng",
+          "ニュース (nyuusu): Tin tức",
+          "明日 (あした / ashita): Ngày mai",
+          "天気 (てんき / tenki): Thời tiết",
+          "何 (なん / nan): Cái gì",
+          "下 (した / shita): Dưới, bên dưới",
+          "じゃ (ja): Thế thì, vậy thì",
+          "今 (いま / ima): Bây giờ",
+          "いい（コーヒーが～） (いい / ii): Thích (cà phê hơn)",
+          "どう (dou): Như thế nào?"
         ],
         "questions": [
           {
             "id": "m_review_21_25_2_d1_q0",
-            "question": "サントスさんは どのひとですか？ (Anh Santos là người nào?)",
+            "question": "あしたの てんきは どうだと おもいますか？ (Bạn nghĩ thời tiết ngày mai thế nào?)",
             "options": [
-              "しんぶんを よんでいる ひと (Người đang đọc báo)",
-              "コーヒーを のんでいる ひと (Người đang uống cafe)",
-              "テレビを みている ひと (Người đang xem TV)",
-              "めがねを かけている ひと (Người đang đeo kính)"
+              "いい てんきだと おもいます (Tôi nghĩ là đẹp)",
+              "あめだと おもいます (Tôi nghĩ là mưa)",
+              "ゆきだと おもいます (Tôi nghĩ là có tuyết)",
+              "わるい てんきだと おもいます (Tôi nghĩ là thời tiết xấu)"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nサントスさんは どのひとですか？ (Anh Santos là người nào?)\n- Đáp án đúng: **しんぶんを よんでいる ひと (Người đang đọc báo)**.\n\n✍️ Phân tích đáp án:\n- Dựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác."
+            "explanation": "📖 Dịch nghĩa:\nあしたの てんきは どうだと おもいますか？ (Bạn nghĩ thời tiết ngày mai thế nào?)\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **いい てんきだと おもいます (Tôi nghĩ là đẹp)**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あした</span> (Từ vựng - Danh từ: \"Ngày mai\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">てんき</span> (Từ vựng - Danh từ: \"Thời tiết\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">どう</span> (Từ vựng - Từ hỏi: \"Như thế nào?\")\n- <span style=\"color: #f73859; font-weight: 800;\">と</span> (Trợ từ chỉ đối tượng đồng hành / liệt kê)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">おもいます</span> (Từ vựng - Động từ: \"Nghĩ rằng\")\n\n📝 Từ vựng trong câu:\n- **明日 (あした / ashita)**: Ngày mai\n- **天気 (てんき / tenki)**: Thời tiết\n- **どう (dou)**: Như thế nào?\n- **思います (おもいます / omoimasu)**: Nghĩ rằng\n\n💡 Ngữ pháp & Mẹo nhớ:\nDựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác."
           },
           {
             "id": "m_review_21_25_2_d1_q1",
-            "question": "サントスさんは どこから きましたか？ (Anh Santos đến từ đâu?)",
+            "question": "ニュースで なんと いっていましたか？ (Bản tin đã nói gì?)",
             "options": [
-              "ブラジル (Brazil)",
-              "アメリカ (Mỹ)",
-              "イギリス (Anh)",
-              "フランス (Pháp)"
+              "あしたは はれると いっていました (Đã nói là ngày mai sẽ nắng)",
+              "あしたは あめだと いっていました (Đã nói là ngày mai có mưa)",
+              "あしたは さむいと いっていました (Đã nói là ngày mai lạnh)",
+              "あしたは ゆきだと いっていました (Đã nói là ngày mai có tuyết)"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nサントスさんは どこから きましたか？ (Anh Santos đến từ đâu?)\n- Đáp án đúng: **ブラジル (Brazil)**.\n\n✍️ Phân tích đáp án:\n- Dựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác."
+            "explanation": "📖 Dịch nghĩa:\nニュースで なんと いっていましたか？ (Bản tin đã nói gì?)\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **あしたは はれると いっていました (Đã nói là ngày mai sẽ nắng)**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ニュース</span> (Từ vựng - Danh từ: \"Tin tức\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">なん</span> (Từ vựng - Từ để hỏi: \"Cái gì\")\n- <span style=\"color: #f73859; font-weight: 800;\">と</span> (Trợ từ chỉ đối tượng đồng hành / liệt kê)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">いました</span> (Từ vựng - Động từ: \"Có (người, động vật)\")\n\n📝 Từ vựng trong câu:\n- **ニュース (nyuusu)**: Tin tức\n- **何 (なん / nan)**: Cái gì\n- **います (imasu)**: Có (người, động vật)\n\n💡 Ngữ pháp & Mẹo nhớ:\nDựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác."
           }
         ]
       }
@@ -6660,51 +6714,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_21_25_3_m1_q0",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【出ます】",
+            "question": "これ 【万里の長城】 です。",
             "options": [
-              "します",
-              "じぶんで",
-              "スピーチ",
-              "でます"
+              "ばんりのちょうじょう",
+              "いっぱいのみましょう",
+              "しかたがありません",
+              "おめでとうございます"
             ],
-            "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【出ます】 có nghĩa là: **Ra (tiền thừa)**.\n\n✍️ Phân tích đáp án:\n- **でます** (demasu): Cách đọc đúng của chữ Hán 【出ます】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **XUẤT**.\n- Mẹo nhớ: Ra/Xuất hiện."
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nĐây là vạn lý trường thành.\n\n✍️ Phân tích đáp án:\n- **ばんりのちょうじょう** (Banri no Choujou): Cách đọc đúng của chữ Hán 【万里の長城】 → Chọn.\n- **いっぱいのみましょう** (ippai nomimashou): Nghĩa là \"Cùng uống 1 ly nhé\" → Sai.\n- **しかたがありません** (shikata ga arimasen): Nghĩa là \"Không còn cách nào khác\" → Sai.\n- **おめでとうございます** (omedetou gozaimasu): Nghĩa là \"Chúc mừng\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">これ</span> (Từ vựng - Đại từ: \"Cái này (gần người nói)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">万里の長城</span> (Từ vựng - Danh từ: \"Vạn Lý Trường Thành\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **これ (kore)**: Cái này (gần người nói)\n- **万里の長城 (ばんりのちょうじょう / Banri no Choujou)**: Vạn Lý Trường Thành\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **VẠN LÝ TRƯỜNG THÀNH**.\n- Mẹo nhớ: Tòa thành (Thành) dài (Trường) hàng vạn (Vạn) dặm (Lý)."
           },
           {
             "id": "m_review_21_25_3_m1_q1",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【帽子】",
+            "question": "これ 【歩道】 です。",
             "options": [
-              "ぼうし",
-              "しんごう",
-              "やちん",
-              "さびしい"
+              "よく",
+              "ほどう",
+              "いいます",
+              "いみ"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【帽子】 có nghĩa là: **Mũ**.\n\n✍️ Phân tích đáp án:\n- **ぼうし** (boushi): Cách đọc đúng của chữ Hán 【帽子】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **MẠO TỬ**.\n- Mẹo nhớ: Chiếc mũ."
+            "correctIndex": 1,
+            "explanation": "📖 Dịch nghĩa:\nĐây là vỉa hè.\n\n✍️ Phân tích đáp án:\n- **よく** (yoku): Nghĩa là \"Rõ, tốt, thường\" → Sai.\n- **ほどう** (hodou): Cách đọc đúng của chữ Hán 【歩道】 → Chọn.\n- **いいます** (iimasu): Nghĩa là \"Nói rằng\" → Sai.\n- **いみ** (imi): Nghĩa là \"Ý nghĩa\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">これ</span> (Từ vựng - Đại từ: \"Cái này (gần người nói)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">歩道</span> (Từ vựng - Danh từ: \"Vỉa hè\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **これ (kore)**: Cái này (gần người nói)\n- **歩道 (ほどう / hodou)**: Vỉa hè\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **BỘ ĐẠO**.\n- Mẹo nhớ: Đường dành cho người đi bộ (Vỉa hè)."
           },
           {
             "id": "m_review_21_25_3_m1_q2",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【足ります】",
+            "question": "はし（　　）わ【足ります】。",
             "options": [
-              "たります",
-              "グループ",
-              "ほかに",
-              "ほどう"
+              "つまみ",
+              "いなか",
+              "おばあさん",
+              "たります"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【足ります】 có nghĩa là: **Đủ**.\n\n✍️ Phân tích đáp án:\n- **たります** (tarimasu): Cách đọc đúng của chữ Hán 【足ります】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **TÚC**.\n- Mẹo nhớ: Hình ảnh cái chân, hàm ý Đủ."
+            "correctIndex": 3,
+            "explanation": "📖 Dịch nghĩa:\nTôi đi qua cầu.\n\n✍️ Phân tích đáp án:\n- **つまみ** (tsumami): Nghĩa là \"Núm vặn\" → Sai.\n- **いなか** (inaka): Nghĩa là \"Nông thôn, quê\" → Sai.\n- **おばあさん** (obaasan): Nghĩa là \"Bà / Cụ bà\" → Sai.\n- **たります** (tarimasu): Cách đọc đúng của chữ Hán 【足ります】 → Chọn.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">はし</span> (Từ vựng - Danh từ: \"Đũa\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">足ります</span> (Từ vựng - Động từ: \"Đủ\")\n\n📝 Từ vựng trong câu:\n- **はし (hashi)**: Đũa\n- **足ります (たります / tarimasu)**: Đủ\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **TÚC**.\n- Mẹo nhớ: Hình ảnh cái chân, hàm ý Đủ."
           },
           {
             "id": "m_review_21_25_3_m1_q3",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【聞きます】",
+            "question": "あの 【信号】を みぎへ（　　）ください。",
             "options": [
-              "ききます",
-              "ひきます",
-              "セーター",
-              "ははのひ"
+              "しんごう",
+              "ほかに",
+              "うまれます",
+              "ふべん"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【聞きます】 có nghĩa là: **Hỏi (giáo viên)**.\n\n✍️ Phân tích đáp án:\n- **ききます** (kikimasu): Cách đọc đúng của chữ Hán 【聞きます】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **VĂN**.\n- Mẹo nhớ: Ghé tai (Nhĩ) vào cửa (Môn) để Nghe/Hỏi."
+            "explanation": "📖 Dịch nghĩa:\nXin hãy rẽ phải ở đèn tín hiệu kia.\n\n✍️ Phân tích đáp án:\n- **しんごう** (shingou): Cách đọc đúng của chữ Hán 【信号】 → Chọn.\n- **ほかに** (hokani): Nghĩa là \"Ngoài ra\" → Sai.\n- **うまれます** (umaremasu): Nghĩa là \"Được sinh ra\" → Sai.\n- **ふべん** (fuben): Nghĩa là \"Bất tiện\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あの</span> (Từ vựng - Từ chỉ định: \"Cái kia ... (+ danh từ)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">信号</span> (Từ vựng - Danh từ: \"Đèn giao thông\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">みぎ</span> (Từ vựng - Danh từ: \"Phải, bên phải\")\n- <span style=\"color: #f73859; font-weight: 800;\">へ</span> (Trợ từ chỉ hướng di chuyển)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ください</span> (Từ vựng - Mẫu câu: \"Cho tôi ~ / Làm ơn cho\")\n\n📝 Từ vựng trong câu:\n- **あの (ano)**: Cái kia ... (+ danh từ)\n- **信号 (しんごう / shingou)**: Đèn giao thông\n- **右 (みぎ / migi)**: Phải, bên phải\n- **ください (kudasai)**: Cho tôi ~ / Làm ơn cho\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **TÍN HIỆU**.\n- Mẹo nhớ: Đèn tín hiệu giao thông."
           }
         ]
       },
@@ -6714,51 +6768,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_21_25_3_m2_q0",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【きをつけます】",
+            "question": "B：【こうさてん】を右へ曲がると、左にあります。",
             "options": [
-              "案内します",
-              "どうぞお元気で",
-              "気をつけます",
-              "連れて来ます"
+              "交差点",
+              "そんなに",
+              "ワゴン車",
+              "グループ"
             ],
-            "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Cẩn thận**.\n\n✍️ Phân tích đáp án:\n- **気をつけます** (きをつけます): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **KHÍ**.\n- Cấu tạo: 気 (Khí)"
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nB: Rẽ phải ở ngã tư thì nó nằm ở bên trái.\n\n✍️ Phân tích đáp án:\n- **交差点** (こうさてん): Cách viết chữ Hán đúng của từ 【こうさてん】 → Chọn.\n- **そんなに** (そんなに): Nghĩa là \"Không... lắm\" → Sai.\n- **ワゴン車** (ワゴンしゃ): Nghĩa là \"Xe hơi\" → Sai.\n- **グループ** (グループ): Nghĩa là \"Nhóm\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">こうさてん</span> (Từ vựng - Danh từ: \"Ngã tư\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">右</span> (Từ vựng - Danh từ: \"Phải, bên phải\")\n- <span style=\"color: #f73859; font-weight: 800;\">へ</span> (Trợ từ chỉ hướng di chuyển)\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #f73859; font-weight: 800;\">と</span> (Trợ từ chỉ đối tượng đồng hành / liệt kê)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">左</span> (Từ vựng - Danh từ: \"Trái, bên trái\")\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / địa điểm / đối tượng tiếp nhận)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あります</span> (Từ vựng - Động từ: \"Có (sở hữu)\")\n\n📝 Từ vựng trong câu:\n- **交差点 (こうさてん / kousaten)**: Ngã tư\n- **右 (みぎ / migi)**: Phải, bên phải\n- **左 (ひだり / hidari)**: Trái, bên trái\n- **あります (arimasu)**: Có (sở hữu)\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **GIAO SOA ĐIỂM**.\n- Cấu tạo: 交 (Giao) + 差 (Soa) + 点 (Điểm)"
           },
           {
             "id": "m_review_21_25_3_m2_q1",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【どうぞおげんきで】",
+            "question": "これ 【ふとん】 です。",
             "options": [
-              "どうぞお元気で",
-              "年を取ります",
-              "連れて来ます",
-              "役に立ちます"
+              "交差点",
+              "布団",
+              "うーん",
+              "着ます"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Chúc mạnh khỏe (Khi chia tay)**.\n\n✍️ Phân tích đáp án:\n- **どうぞお元気で** (どうぞおげんきで): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **NGUYÊN KHÍ**.\n- Cấu tạo: 元気 (Nguyên khí)"
+            "correctIndex": 1,
+            "explanation": "📖 Dịch nghĩa:\nĐây là đệm.\n\n✍️ Phân tích đáp án:\n- **交差点** (こうさてん): Nghĩa là \"Ngã tư\" → Sai.\n- **布団** (ふとん): Cách viết chữ Hán đúng của từ 【ふとん】 → Chọn.\n- **うーん** (うーん): Nghĩa là \"Ừm... (suy nghĩ)\" → Sai.\n- **着ます** (きます): Nghĩa là \"Mặc (áo sơ mi, vv)\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">これ</span> (Từ vựng - Đại từ: \"Cái này (gần người nói)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ふとん</span> (Từ vựng - Danh từ: \"Đệm\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **これ (kore)**: Cái này (gần người nói)\n- **布団 (ふとん / futon)**: Đệm\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **BỐ ĐOÀN**.\n- Cấu tạo: 布 (Bố - Vải) + 団 (Đoàn - Hình tròn/Đoàn thể)"
           },
           {
             "id": "m_review_21_25_3_m2_q2",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【みち】",
+            "question": "【やちん】も安い。",
             "options": [
-              "道",
-              "多分",
-              "政治",
-              "歩道"
+              "コート",
+              "寂しい",
+              "〜目",
+              "家賃"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Đường đi**.\n\n✍️ Phân tích đáp án:\n- **道** (みち): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **ĐẠO**.\n- Cấu tạo: 辶 (Sước) + 首 (Thủ - Đầu)"
+            "correctIndex": 3,
+            "explanation": "📖 Dịch nghĩa:\nTiền thuê nhà cũng rẻ.\n\n✍️ Phân tích đáp án:\n- **コート** (コート): Nghĩa là \"Áo khoác\" → Sai.\n- **寂しい** (さびしい): Nghĩa là \"Buồn, cô đơn\" → Sai.\n- **〜目** (〜め): Nghĩa là \"Thứ ~ (số thứ tự)\" → Sai.\n- **家賃** (やちん): Cách viết chữ Hán đúng của từ 【やちん】 → Chọn.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">やちん</span> (Từ vựng - Danh từ: \"Tiền thuê nhà\")\n- <span style=\"color: #f73859; font-weight: 800;\">も</span> (Trợ từ chỉ cũng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">安い</span> (Từ vựng - Tính từ đuôi i: \"Rẻ\")\n\n📝 Từ vựng trong câu:\n- **家賃 (やちん / yachin)**: Tiền thuê nhà\n- **安い (やすい / yasui)**: Rẻ\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **GIA NHẤN**.\n- Cấu tạo: 家 (Gia - Nhà) + 賃 (Nhấn - Tiền thuê)"
           },
           {
             "id": "m_review_21_25_3_m2_q3",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【りゅうがくします】",
+            "question": "これ 【おゆ】 です。",
             "options": [
-              "留学します",
-              "アルバイト",
-              "もちろん",
-              "押し入れ"
+              "お湯",
+              "同じ",
+              "コート",
+              "きっと"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Du học**.\n\n✍️ Phân tích đáp án:\n- **留学します** (りゅうがくします): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **LƯU HỌC**.\n- Cấu tạo: 留 (Lưu) + 学 (Học)"
+            "explanation": "📖 Dịch nghĩa:\nĐây là nước nóng.\n\n✍️ Phân tích đáp án:\n- **お湯** (おゆ): Cách viết chữ Hán đúng của từ 【おゆ】 → Chọn.\n- **同じ** (おなじ): Nghĩa là \"Giống nhau\" → Sai.\n- **コート** (コート): Nghĩa là \"Áo khoác\" → Sai.\n- **きっと** (きっと): Nghĩa là \"Chắc chắn\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">これ</span> (Từ vựng - Đại từ: \"Cái này (gần người nói)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">おゆ</span> (Từ vựng - Danh từ: \"Nước nóng\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **これ (kore)**: Cái này (gần người nói)\n- **お湯 (おゆ / oyu)**: Nước nóng\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **THANG**.\n- Cấu tạo: 氵 (Thủy) + 昜 (Dương - Ánh mặt trời)"
           }
         ]
       },
@@ -6768,18 +6822,30 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_21_25_3_m3_q0",
-            "question": "わたしは ぶっかが やすく（　　）と おもいます。",
+            "question": "おかねが（　　）、パソコンを かいたいです。",
             "options": [
-              "ない",
-              "なかった",
-              "ありません",
-              "ないだ"
+              "あったら",
+              "あると",
+              "あっても",
+              "あって"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTôi nghĩ vật giá không rẻ.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **ない**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nThể thông thường phủ định của 安い là 安くない."
+            "explanation": "📖 Dịch nghĩa:\nNếu có tiền, tôi muốn mua máy tính.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **あったら**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">おかね</span> (Từ vựng - Danh từ: \"Tiền\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">パソコン</span> (Từ vựng - Danh từ: \"Máy tính cá nhân\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">かいたいです</span> (Từ vựng - Động từ: \"Mua\")\n\n📝 Từ vựng trong câu:\n- **お金 (おかね / okane)**: Tiền\n- **パソコン (ぱそこん / pasokon)**: Máy tính cá nhân\n- **買います (かいます / kaimasu)**: Mua\n\n💡 Ngữ pháp & Mẹo nhớ:\nCâu có ý chí (muốn mua) ở vế sau, dùng ～たら (Nếu)."
           },
           {
             "id": "m_review_21_25_3_m3_q1",
+            "question": "にほんへ（　　）とき、かばんを かいました。",
+            "options": [
+              "いく",
+              "いった",
+              "いって",
+              "いきます"
+            ],
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nKhi đi Nhật, tôi đã mua túi xách (mua ở quê nhà trước khi đi).\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **いく**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">にほん</span> (Từ vựng - Danh từ: \"Nhật Bản\")\n- <span style=\"color: #f73859; font-weight: 800;\">へ</span> (Trợ từ chỉ hướng di chuyển)\n- <span style=\"color: #f73859; font-weight: 800;\">と</span> (Trợ từ chỉ đối tượng đồng hành / liệt kê)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">かばん</span> (Từ vựng - Danh từ: \"Túi xách, cặp\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">かいました</span> (Từ vựng - Động từ: \"Mua\")\n\n📝 Từ vựng trong câu:\n- **日本 (にほん / nihon)**: Nhật Bản\n- **かばん (kaban)**: Túi xách, cặp\n- **買います (かいます / kaimasu)**: Mua\n\n💡 Ngữ pháp & Mẹo nhớ:\nHành động mua xảy ra TRƯỚC khi đến Nhật -> Dùng Vる (行く時)."
+          },
+          {
+            "id": "m_review_21_25_3_m3_q2",
             "question": "かんじが（　　）とき、じしょを つかいます。",
             "options": [
               "わからない",
@@ -6788,31 +6854,19 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "わかった"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nKhi không hiểu chữ Kanji, tôi dùng từ điển.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **わからない**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nTrước 時 phải là thể thông thường. 分かりません -> 分からない."
-          },
-          {
-            "id": "m_review_21_25_3_m3_q2",
-            "question": "あした あめが（　　）と おもいます。",
-            "options": [
-              "ふる",
-              "ふって",
-              "ふります",
-              "ふらない"
-            ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTôi nghĩ ngày mai trời sẽ mưa.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **ふる**.\n\n📚 Từ vựng bổ trợ:\n- 明日 (あした / ashita): Ngày mai\n- 雨 (あめ / ame): Mưa\n\n💡 Ngữ pháp & Mẹo nhớ:\nTrước と思います phải là Thể thông thường. 降ります -> 降る."
+            "explanation": "📖 Dịch nghĩa:\nKhi không hiểu chữ Kanji, tôi dùng từ điển.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **わからない**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">かんじ</span> (Từ vựng - Danh từ: \"Chữ Hán\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #f73859; font-weight: 800;\">と</span> (Trợ từ chỉ đối tượng đồng hành / liệt kê)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">じしょ</span> (Từ vựng - Danh từ: \"Từ điển\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">つかいます</span> (Từ vựng - Động từ: \"Sử dụng\")\n\n📝 Từ vựng trong câu:\n- **漢字 (かんじ / kanji)**: Chữ Hán\n- **辞書 (じしょ / jisho)**: Từ điển\n- **使います (つかいます / tsukaimasu)**: Sử dụng\n\n💡 Ngữ pháp & Mẹo nhớ:\nTrước 時 phải là thể thông thường. 分かりません -> 分からない."
           },
           {
             "id": "m_review_21_25_3_m3_q3",
-            "question": "とうきょう（　　）にほんと ブラジルの サッカーの しあいが あります。",
+            "question": "わたしは きむらさんに しゃしんを とって（　　）。",
             "options": [
-              "で",
-              "に",
-              "へ",
-              "を"
+              "もらいました",
+              "くれました",
+              "あげました",
+              "しました"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTại Tokyo sẽ diễn ra trận bóng đá giữa Nhật Bản và Brazil.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **で**.\n\n📚 Từ vựng bổ trợ:\n- 本 (ほん / hon): Sách\n\n💡 Ngữ pháp & Mẹo nhớ:\nSự kiện (試合) được tổ chức tại một địa điểm thì dùng trợ từ で."
+            "explanation": "📖 Dịch nghĩa:\nTôi ĐƯỢC anh Kimura chụp ảnh cho.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **もらいました**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">わたし</span> (Từ vựng - Đại từ: \"Tôi\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / địa điểm / đối tượng tiếp nhận)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">しゃしん</span> (Từ vựng - Danh từ: \"Bức ảnh\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #f73859; font-weight: 800;\">と</span> (Trợ từ chỉ đối tượng đồng hành / liệt kê)\n\n📝 Từ vựng trong câu:\n- **私 (わたし / watashi)**: Tôi\n- **写真 (しゃしん / shashin)**: Bức ảnh\n\n💡 Ngữ pháp & Mẹo nhớ:\nChủ ngữ là TÔI, nhận hành động từ người khác -> Vて もらいます."
           }
         ]
       },
@@ -6830,43 +6884,43 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "なるから"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nSau khi đến kỳ nghỉ hè, tôi sẽ về nước.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **なったら**.\n\n📚 Từ vựng bổ trợ:\n- 休み (やすみ / yasumi): Ngày nghỉ\n- 絵 (え / e): Bức tranh\n\n💡 Ngữ pháp & Mẹo nhớ:\nNghĩa 'Sau khi' (sự việc chắc chắn xảy ra) -> Vたら."
+            "explanation": "📖 Dịch nghĩa:\nSau khi đến kỳ nghỉ hè, tôi sẽ về nước.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **なったら**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">なつ</span> (Từ vựng - Danh từ: \"Mùa hè\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">やすみ</span> (Từ vựng - Danh từ: \"Ngày nghỉ, giờ nghỉ\")\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / địa điểm / đối tượng tiếp nhận)\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / địa điểm / đối tượng tiếp nhận)\n- <span style=\"color: #f73859; font-weight: 800;\">へ</span> (Trợ từ chỉ hướng di chuyển)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">かえります</span> (Từ vựng - Động từ: \"Về\")\n\n📝 Từ vựng trong câu:\n- **夏 (なつ / natsu)**: Mùa hè\n- **休み (やすみ / yasumi)**: Ngày nghỉ, giờ nghỉ\n- **帰ります (かえります / kaerimasu)**: Về\n\n💡 Ngữ pháp & Mẹo nhớ:\nNghĩa 'Sau khi' (sự việc chắc chắn xảy ra) -> Vたら."
           },
           {
             "id": "m_review_21_25_3_b1_q1",
-            "question": "あしたは やすみ（　　）でしょう？",
+            "question": "やまださんは パソコンを もって（　　）と おもいます。",
             "options": [
-              "(Không thêm gì)",
-              "だ",
-              "な",
-              "の"
+              "いる",
+              "います",
+              "ある",
+              "あっています"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nNgày mai là ngày nghỉ đúng không?\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **(Không thêm gì)**.\n\n📚 Từ vựng bổ trợ:\n- 明日 (あした / ashita): Ngày mai\n- 休み (やすみ / yasumi): Ngày nghỉ\n\n💡 Ngữ pháp & Mẹo nhớ:\nTrước でしょう, Danh từ (休み) và Tính từ な không thêm だ. Chỉ là 休みでしょう？."
+            "explanation": "📖 Dịch nghĩa:\nTôi nghĩ anh Yamada có máy tính.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **いる**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">やま</span> (Từ vựng - Danh từ: \"Núi\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">パソコン</span> (Từ vựng - Danh từ: \"Máy tính cá nhân\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #f73859; font-weight: 800;\">も</span> (Trợ từ chỉ cũng)\n- <span style=\"color: #f73859; font-weight: 800;\">と</span> (Trợ từ chỉ đối tượng đồng hành / liệt kê)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">おもいます</span> (Từ vựng - Động từ: \"Nghĩ rằng\")\n\n📝 Từ vựng trong câu:\n- **山 (やま / yama)**: Núi\n- **パソコン (ぱそこん / pasokon)**: Máy tính cá nhân\n- **思います (おもいます / omoimasu)**: Nghĩ rằng\n\n💡 Ngữ pháp & Mẹo nhớ:\nSở hữu đồ vật mang tính trạng thái dùng 持っています -> Thể thông thường là 持っている."
           },
           {
             "id": "m_review_21_25_3_b1_q2",
-            "question": "えきに（　　）、でんわを して ください。",
+            "question": "みち（　　）あるきます。",
             "options": [
-              "ついたら",
-              "つくと",
-              "ついても",
-              "つくとき"
+              "を",
+              "に",
+              "で",
+              "へ"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nSau khi đến ga hãy gọi điện thoại nhé.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **ついたら**.\n\n📚 Từ vựng bổ trợ:\n- 駅 (えき / eki): Nhà ga\n\n💡 Ngữ pháp & Mẹo nhớ:\nSự việc chưa xảy ra nhưng khi nó hoàn thành thì làm việc tiếp theo -> Vたら."
+            "explanation": "📖 Dịch nghĩa:\nTôi đi bộ trên đường.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **を**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">みち</span> (Từ vựng - Danh từ: \"Đường đi\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あるきます</span> (Từ vựng - Động từ: \"Đi bộ\")\n\n📝 Từ vựng trong câu:\n- **道 (みち / michi)**: Đường đi\n- **歩きます (あるきます / arukimasu)**: Đi bộ\n\n💡 Ngữ pháp & Mẹo nhớ:\nĐi dọc theo đường (歩きます) dùng trợ từ を."
           },
           {
             "id": "m_review_21_25_3_b1_q3",
-            "question": "しゅしょうは らいげつ アメリカへ いく（　　）いいました。",
+            "question": "こども（　　）とき、よく かわで およぎました。",
             "options": [
-              "と",
-              "を",
-              "に",
-              "が"
+              "の",
+              "な",
+              "だ",
+              "に"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nThủ tướng đã nói là tháng sau sẽ đi Mỹ.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **と**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nTrích dẫn gián tiếp: いく + と + いいました."
+            "explanation": "📖 Dịch nghĩa:\nKhi còn nhỏ, tôi thường bơi ở sông.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **の**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">こども</span> (Từ vựng - Danh từ: \"Trẻ con, con cái\")\n- <span style=\"color: #f73859; font-weight: 800;\">と</span> (Trợ từ chỉ đối tượng đồng hành / liệt kê)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">よく</span> (Từ vựng - Phó từ: \"Rõ, tốt, thường\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">かわ</span> (Từ vựng - Danh từ: \"Sông\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">およぎました</span> (Từ vựng - Động từ: \"Bơi\")\n\n📝 Từ vựng trong câu:\n- **子ども (こども / kodomo)**: Trẻ con, con cái\n- **よく (yoku)**: Rõ, tốt, thường\n- **川 (かわ / kawa)**: Sông\n- **泳ぎます (およぎます / oyogimasu)**: Bơi\n\n💡 Ngữ pháp & Mẹo nhớ:\nDanh từ (子供) phải thêm の trước 時."
           }
         ]
       },
@@ -6876,27 +6930,27 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_21_25_3_b2_q0",
-            "question": "あめが　___ ___ _★_ ___　いきます。",
+            "question": "おなかが　___ ___ _★_ ___　のみます。",
             "options": [
-              "ても",
-              "ふっ",
-              "かいものに",
-              "たぶん"
+              "とき",
+              "くすりを",
+              "いたい",
+              "この"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nCho dù trời mưa, tôi nghĩ có lẽ mình vẫn đi mua sắm.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: あめが [たぶん] [ふっ] [★ ても] [かいものに] いきます。\n- Từ ở vị trí ngôi sao (★) là: **ても**.\n\n📚 Từ vựng bổ trợ:\n- 雨 (あめ / ame): Mưa\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Cấu trúc nghịch lý giả định: V てmｏ -> ても. ふります -> ふって -> ふっても."
+            "correctIndex": 3,
+            "explanation": "📖 Dịch nghĩa:\nKhi bị đau bụng thì tôi uống loại thuốc này.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: おなかが いたい とき この くすりを のみます。\n- Từ ở vị trí ngôi sao (★) là: **この**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">なか</span> (Từ vựng - Danh từ: \"Trong, bên trong\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">いたい</span> (Từ vựng - Động từ: \"Có (người, động vật)\")\n- <span style=\"color: #f73859; font-weight: 800;\">と</span> (Trợ từ chỉ đối tượng đồng hành / liệt kê)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">この</span> (Từ vựng - Từ chỉ định: \"Cái này ... (+ danh từ)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">くすり</span> (Từ vựng - Danh từ: \"Thuốc\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">のみます</span> (Từ vựng - Động từ: \"Uống\")\n\n📝 Từ vựng trong câu:\n- **中 (なか / naka)**: Trong, bên trong\n- **います (imasu)**: Có (người, động vật)\n- **この (kono)**: Cái này ... (+ danh từ)\n- **薬 (くすり / kusuri)**: Thuốc\n- **飲みます (のみます / nomimasu)**: Uống\n\n💡 Ngữ pháp & Mẹo nhớ:\nCấu trúc chỉ thời điểm: [Tính từ い] とき (Khi...)."
           },
           {
             "id": "m_review_21_25_3_b2_q1",
-            "question": "じかんが なかったら　___ ___ _★_ ___　いきません。",
+            "question": "にほんへ　___ ___ _★_ ___　いります。",
             "options": [
-              "どこへ",
-              "も",
-              "あしたは",
-              "たぶん"
+              "とき",
+              "いく",
+              "パスポート",
+              "が"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nNếu không có thời gian thì ngày mai tôi nghĩ có lẽ mình chẳng đi đâu cả.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: じかんが なかったら [あしたは] [たぶん] [★ どこへ] [も] いきません。\n- Từ ở vị trí ngôi sao (★) là: **どこへ**.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Phủ định hoàn toàn: Từ để hỏi nơi chốn (dokoへ) + も + động từ phủ định (いきません)."
+            "correctIndex": 2,
+            "explanation": "📖 Dịch nghĩa:\nKhi đi sang Nhật thì cần phải có hộ chiếu.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: にほんへ いく とき パスポート が いります。\n- Từ ở vị trí ngôi sao (★) là: **パスポート**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">にほん</span> (Từ vựng - Danh từ: \"Nhật Bản\")\n- <span style=\"color: #f73859; font-weight: 800;\">へ</span> (Trợ từ chỉ hướng di chuyển)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">いく</span> (Từ vựng - Tính từ đuôi i: \"Tốt\")\n- <span style=\"color: #f73859; font-weight: 800;\">と</span> (Trợ từ chỉ đối tượng đồng hành / liệt kê)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">パスポート</span> (Từ vựng - Danh từ: \"Hộ chiếu\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">いります</span> (Từ vựng - Động từ: \"Cần\")\n\n📝 Từ vựng trong câu:\n- **日本 (にほん / nihon)**: Nhật Bản\n- **いい (ii (yoi))**: Tốt\n- **パスポート (pasupooto)**: Hộ chiếu\n- **要ります (いります / irimasu)**: Cần\n\n💡 Ngữ pháp & Mẹo nhớ:\nCấu trúc khi làm gì: V る とき. Động từ いります đi với trợ từ が."
           }
         ]
       },
@@ -6904,47 +6958,55 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "id": "p_review_21_25_3_dokkai1",
         "type": "mondai3",
         "text": [
-          "としょかんへ いった とき、ほんを かりました。",
-          "ほんを かりる とき、カードを みせなければ なりません。",
-          "もし カードが ない とき、かりる ことが できません。",
-          "かんじが わからない とき、じしょを つかいます。",
-          "ほんを よむ とき、しずかに しなければ なりません。"
+          "A：あそこで しんぶんを よんでいる ひとは だれですか。",
+          "B：ああ、あのひとは あたらしい せんせいです。",
+          "A：そうですか。おなまえは？",
+          "B：サントスさんです。",
+          "A：ブラジルから きた ひとですね。"
         ],
         "translation": [
-          "Khi đến thư viện, tôi đã mượn sách.",
-          "Khi mượn sách, phải trình thẻ.",
-          "Nếu không có thẻ thì không thể mượn được.",
-          "Khi không hiểu chữ Hán, tôi dùng từ điển.",
-          "Khi đọc sách, phải giữ im lặng."
+          "A: Người đang đọc báo ở đằng kia là ai vậy?",
+          "B: À, người đó là giáo viên mới.",
+          "A: Vậy à. Tên của thầy là gì?",
+          "B: Là Santos.",
+          "A: Là người đến từ Brazil nhỉ."
         ],
         "vocabulary": [
-          "静か (しずか / shizuka): Yên tĩnh",
-          "本 (ほん / hon): Sách"
+          "おなまえは？ (onamae wa?): Tên bạn là gì?",
+          "そうですか (sou desu ka): Vậy à? / Thế à?",
+          "新しい (あたらしい / atarashii): Mới",
+          "あの人 (あのひと / ano hito): Người kia",
+          "先生 (せんせい / sensei): Giáo viên, thầy/cô giáo",
+          "ブラジル (burajiru): Brazil",
+          "新聞 (しんぶん / shinbun): Báo (tờ báo)",
+          "あそこ (asoko): Kia, chỗ kia",
+          "だれ (dare): Ai",
+          "から (kara): Từ (thời gian)"
         ],
         "questions": [
           {
             "id": "m_review_21_25_3_d1_q0",
-            "question": "ほんを かりるとき、なにを しますか？ (Khi mượn sách phải làm gì?)",
+            "question": "サントスさんは どのひとですか？ (Anh Santos là người nào?)",
             "options": [
-              "カードを みせます (Trình thẻ)",
-              "おかねを はらいます (Trả tiền)",
-              "なまえを かきます (Viết tên)",
-              "しゃしんを とります (Chụp ảnh)"
+              "しんぶんを よんでいる ひと (Người đang đọc báo)",
+              "コーヒーを のんでいる ひと (Người đang uống cafe)",
+              "テレビを みている ひと (Người đang xem TV)",
+              "めがねを かけている ひと (Người đang đeo kính)"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nほんを かりるとき、なにを しますか？ (Khi mượn sách phải làm gì?)\n- Đáp án đúng: **カードを みせます (Trình thẻ)**.\n\n✍️ Phân tích đáp án:\n- Dựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác.\n\n📚 Từ vựng bổ trợ:\n- 本 (ほん / hon): Sách"
+            "explanation": "📖 Dịch nghĩa:\nサントスさんは どのひとですか？ (Anh Santos là người nào?)\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **しんぶんを よんでいる ひと (Người đang đọc báo)**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">どの</span> (Từ vựng - Từ chỉ định: \"Cái ... nào? (+ danh từ)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ひと</span> (Từ vựng - Danh từ: \"Người\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **どの (dono)**: Cái ... nào? (+ danh từ)\n- **人 (ひと / hito)**: Người\n\n💡 Ngữ pháp & Mẹo nhớ:\nDựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác."
           },
           {
             "id": "m_review_21_25_3_d1_q1",
-            "question": "かんじが わからないとき、どうしますか？ (Khi không biết Kanji thì làm sao?)",
+            "question": "サントスさんは どこから きましたか？ (Anh Santos đến từ đâu?)",
             "options": [
-              "じしょを つかいます (Dùng từ điển)",
-              "せんせいに ききます (Hỏi giáo viên)",
-              "としょかんへ いきます (Đi thư viện)",
-              "としょかんの ひとに ききます (Hỏi người của thư viện)"
+              "ブラジル (Brazil)",
+              "アメリカ (Mỹ)",
+              "イギリス (Anh)",
+              "フランス (Pháp)"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nかんじが わからないとき、どうしますか？ (Khi không biết Kanji thì làm sao?)\n- Đáp án đúng: **じしょを つかいます (Dùng từ điển)**.\n\n✍️ Phân tích đáp án:\n- Dựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác."
+            "explanation": "📖 Dịch nghĩa:\nサントスさんは どこから きましたか？ (Anh Santos đến từ đâu?)\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **ブラジル (Brazil)**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">どこか</span> (Từ vựng - Đại từ: \"Đâu đó\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">きました</span> (Từ vựng - Động từ: \"Đến\")\n\n📝 Từ vựng trong câu:\n- **どこか (dokoka)**: Đâu đó\n- **来ます (きます / kimasu)**: Đến\n\n💡 Ngữ pháp & Mẹo nhớ:\nDựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác."
           }
         ]
       }
@@ -6961,51 +7023,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_21_25_4_m1_q0",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【紹介します】",
+            "question": "【首相】は らいげつ アメリカへ いく（　　）いいました。",
             "options": [
-              "しょうかいします",
-              "しかたがありません",
-              "あんないします",
-              "ダイニングキッチ"
+              "アパート",
+              "てんきん",
+              "はきます",
+              "しゅしょう"
             ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【紹介します】 có nghĩa là: **Giới thiệu**.\n\n✍️ Phân tích đáp án:\n- **しょうかいします** (shoukaishimasu): Cách đọc đúng của chữ Hán 【紹介します】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **THIỆU GIỚI**.\n- Mẹo nhớ: Giới thiệu nhau."
+            "correctIndex": 3,
+            "explanation": "📖 Dịch nghĩa:\nThủ tướng đã nói là tháng sau sẽ đi Mỹ.\n\n✍️ Phân tích đáp án:\n- **アパート** (apaato): Nghĩa là \"Căn hộ\" → Sai.\n- **てんきん** (tenkin): Nghĩa là \"Chuyển công tác\" → Sai.\n- **はきます** (hakimasu): Nghĩa là \"Đi, mặc (giày, quần)\" → Sai.\n- **しゅしょう** (shushou): Cách đọc đúng của chữ Hán 【首相】 → Chọn.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">首相</span> (Từ vựng - Danh từ: \"Thủ tướng\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">アメリカ</span> (Từ vựng - Danh từ: \"Mỹ (Hoa Kỳ)\")\n- <span style=\"color: #f73859; font-weight: 800;\">へ</span> (Trợ từ chỉ hướng di chuyển)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">いく</span> (Từ vựng - Tính từ đuôi i: \"Tốt\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">いいました</span> (Từ vựng - Động từ: \"Nói rằng\")\n\n📝 Từ vựng trong câu:\n- **首相 (しゅしょう / shushou)**: Thủ tướng\n- **アメリカ (america)**: Mỹ (Hoa Kỳ)\n- **いい (ii (yoi))**: Tốt\n- **言います (いいます / iimasu)**: Nói rằng\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **THỦ TƯỚNG**.\n- Mẹo nhớ: Vị quan (Tương) đứng đầu (Thủ) là Thủ tướng."
           },
           {
             "id": "m_review_21_25_4_m1_q1",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【交差点】",
+            "question": "あした 【連れて来ます】。",
             "options": [
-              "ひっこします",
-              "うまれます",
-              "くれます",
-              "こうさてん"
+              "おべんとう",
+              "さわります",
+              "うごきます",
+              "つれてきます"
             ],
             "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【交差点】 có nghĩa là: **Ngã tư**.\n\n✍️ Phân tích đáp án:\n- **こうさてん** (kousaten): Cách đọc đúng của chữ Hán 【交差点】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **GIAO SOA ĐIỂM**.\n- Mẹo nhớ: Điểm giao cắt nhau giữa các con đường (Ngã tư)."
+            "explanation": "📖 Dịch nghĩa:\nNgày mai tôi sẽ dẫn đến.\n\n✍️ Phân tích đáp án:\n- **おべんとう** (obentou): Nghĩa là \"Cơm hộp\" → Sai.\n- **さわります** (sawarimasu): Nghĩa là \"Sờ, chạm\" → Sai.\n- **うごきます** (ugokimasu): Nghĩa là \"Hoạt động (máy)\" → Sai.\n- **つれてきます** (tsurete kimasu): Cách đọc đúng của chữ Hán 【連れて来ます】 → Chọn.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あした</span> (Từ vựng - Danh từ: \"Ngày mai\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">連れて来ます</span> (Từ vựng - Động từ: \"Dẫn đến\")\n\n📝 Từ vựng trong câu:\n- **明日 (あした / ashita)**: Ngày mai\n- **連れて来ます (つれてきます / tsurete kimasu)**: Dẫn đến\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **LIÊN LAI**.\n- Mẹo nhớ: Liên kết dẫn theo đến đây."
           },
           {
             "id": "m_review_21_25_4_m1_q2",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【あります[お祭りが〜]】",
+            "question": "この ボタンを おすと、おつりが 【出ます（お釣りが）】。",
             "options": [
-              "くれます",
               "でます",
-              "きかい",
-              "あります"
+              "でんきや",
+              "こしょう",
+              "ほかに"
             ],
-            "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【あります[お祭りが〜]】 có nghĩa là: **Được tổ chức (lễ hội)**.\n\n✍️ Phân tích đáp án:\n- **あります** (arimasu): Cách đọc đúng của chữ Hán 【あります[お祭りが〜]】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **N/A**.\n- Mẹo nhớ: Được tổ chức."
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nHỄ bấm nút này THÌ tiền thừa sẽ chạy ra. (Máy móc)\n\n✍️ Phân tích đáp án:\n- **でます** (demasu): Cách đọc đúng của chữ Hán 【出ます（お釣りが〜）】 → Chọn.\n- **でんきや** (denkiya): Nghĩa là \"Cửa hàng điện máy\" → Sai.\n- **こしょう** (koshou): Nghĩa là \"Hỏng hóc\" → Sai.\n- **ほかに** (hokani): Nghĩa là \"Ngoài ra\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">この</span> (Từ vựng - Từ chỉ định: \"Cái này ... (+ danh từ)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ボタン</span> (Từ vựng - Danh từ: \"Nút bấm\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #f73859; font-weight: 800;\">と</span> (Trợ từ chỉ đối tượng đồng hành / liệt kê)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">つり</span> (Từ vựng - Danh từ: \"Câu cá\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">出ます</span> (Từ vựng - Động từ: \"Ra\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">釣り</span> (Từ vựng - Danh từ: \"Câu cá\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n\n📝 Từ vựng trong câu:\n- **この (kono)**: Cái này ... (+ danh từ)\n- **ボタン (botan)**: Nút bấm\n- **釣り (つり / tsuri)**: Câu cá\n- **出ます (でます / demasu)**: Ra\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **XUẤT**.\n- Mẹo nhớ: Tiền thừa chạy ra."
           },
           {
             "id": "m_review_21_25_4_m1_q3",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【電気屋】",
+            "question": "みち（　　）【歩きます】。",
             "options": [
-              "わたります",
-              "もちろん",
-              "でんきや",
-              "ふべん"
+              "てんきん",
+              "かちます",
+              "きをつけます",
+              "あるきます"
             ],
-            "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【電気屋】 có nghĩa là: **Cửa hàng điện máy**.\n\n✍️ Phân tích đáp án:\n- **でんきや** (denkiya): Cách đọc đúng của chữ Hán 【電気屋】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **ĐIỆN KHÍ ỐC**.\n- Mẹo nhớ: Cửa hàng bán đồ điện."
+            "correctIndex": 3,
+            "explanation": "📖 Dịch nghĩa:\nTôi đi bộ trên đường.\n\n✍️ Phân tích đáp án:\n- **てんきん** (tenkin): Nghĩa là \"Chuyển công tác\" → Sai.\n- **かちます** (kachimasu): Nghĩa là \"Thắng\" → Sai.\n- **きをつけます** (ki wo tsukemasu): Nghĩa là \"Cẩn thận\" → Sai.\n- **あるきます** (arukimasu): Cách đọc đúng của chữ Hán 【歩きます】 → Chọn.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">みち</span> (Từ vựng - Danh từ: \"Đường đi\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">歩きます</span> (Từ vựng - Động từ: \"Đi bộ\")\n\n📝 Từ vựng trong câu:\n- **道 (みち / michi)**: Đường đi\n- **歩きます (あるきます / arukimasu)**: Đi bộ\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **BỘ**.\n- Mẹo nhớ: Đi bộ (Bộ) một chút lại dừng."
           }
         ]
       },
@@ -7015,51 +7077,51 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_21_25_4_m2_q0",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【だいとうりょう】",
+            "question": "【さびしい】時、家族に電話をかけます。",
             "options": [
-              "くれます",
-              "コート",
-              "〜目",
+              "交差点",
+              "ワゴン車",
+              "寂しい",
               "大統領"
             ],
-            "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Tổng thống**.\n\n✍️ Phân tích đáp án:\n- **大統領** (だいとうりょう): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **ĐẠI THỐNG LĨNH**.\n- Cấu tạo: 大 (Đại) + 統 (Thống) + 領 (Lĩnh)"
+            "correctIndex": 2,
+            "explanation": "📖 Dịch nghĩa:\nKhi buồn tủi, tôi gọi điện cho gia đình.\n\n✍️ Phân tích đáp án:\n- **交差点** (こうさてん): Nghĩa là \"Ngã tư\" → Sai.\n- **ワゴン車** (ワゴンしゃ): Nghĩa là \"Xe hơi\" → Sai.\n- **寂しい** (さびしい): Cách viết chữ Hán đúng của từ 【さびしい】 → Chọn.\n- **大統領** (だいとうりょう): Nghĩa là \"Tổng thống\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">さびしい</span> (Từ vựng - Tính từ i: \"Buồn, cô đơn\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">家族</span> (Từ vựng - Danh từ: \"Gia đình\")\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / địa điểm / đối tượng tiếp nhận)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">電話</span> (Từ vựng - Danh từ: \"Điện thoại\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">かけます</span> (Từ vựng - Động từ: \"Gọi (điện thoại)\")\n\n📝 Từ vựng trong câu:\n- **寂しい (さびしい / sabishii)**: Buồn, cô đơn\n- **家族 (かぞく / kazoku)**: Gia đình\n- **電話 (でんわ / denwa)**: Điện thoại\n- **かけます (kakemasu)**: Gọi (điện thoại)\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **TỊCH**.\n- Cấu tạo: 宀 (Miên - Mái nhà) + 叔 (Thúc)"
           },
           {
             "id": "m_review_21_25_4_m2_q1",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【ははのひ】",
+            "question": "あした 【せつめいします】。",
             "options": [
-              "もし",
-              "交通",
-              "ニュース",
-              "母の日"
+              "説明します",
+              "チャンス",
+              "万里の長城",
+              "不便（な）"
             ],
-            "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Ngày của mẹ**.\n\n✍️ Phân tích đáp án:\n- **母の日** (ははのひ): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **MẪU NHẬT**.\n- Cấu tạo: 母 (Mẫu) + 日 (Nhật)"
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nNgày mai tôi sẽ giải thích.\n\n✍️ Phân tích đáp án:\n- **説明します** (せつめいします): Cách viết chữ Hán đúng của từ 【せつめいします】 → Chọn.\n- **チャンス** (チャンス): Nghĩa là \"Cơ hội\" → Sai.\n- **万里の長城** (ばんりのちょうじょう): Nghĩa là \"Vạn Lý Trường Thành\" → Sai.\n- **不便（な）** (ふべん): Nghĩa là \"Bất tiện\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あした</span> (Từ vựng - Danh từ: \"Ngày mai\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">せつめいします</span> (Từ vựng - Động từ: \"Giải thích\")\n\n📝 Từ vựng trong câu:\n- **明日 (あした / ashita)**: Ngày mai\n- **説明します (せつめいします / setsumeishimasu)**: Giải thích\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **THUYẾT MINH**.\n- Cấu tạo: 説 (Thuyết) + 明 (Minh)"
           },
           {
             "id": "m_review_21_25_4_m2_q2",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【つれていきます】",
+            "question": "これ 【たいしかん】 です。",
             "options": [
-              "ダイニングキッチ",
-              "引っ越します",
-              "連れて行きます",
-              "役に立ちます"
+              "準備",
+              "大使館",
+              "出ます",
+              "交差点"
             ],
-            "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Dẫn đi**.\n\n✍️ Phân tích đáp án:\n- **連れて行きます** (つれていきます): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **LIÊN HÀNH**.\n- Cấu tạo: 連 (Liên) + 行 (Hành)"
+            "correctIndex": 1,
+            "explanation": "📖 Dịch nghĩa:\nĐây là đại sứ quán.\n\n✍️ Phân tích đáp án:\n- **準備** (じゅんび): Nghĩa là \"Sự chuẩn bị\" → Sai.\n- **大使館** (たいしかん): Cách viết chữ Hán đúng của từ 【たいしかん】 → Chọn.\n- **出ます** (でます): Nghĩa là \"Ra\" → Sai.\n- **交差点** (こうさてん): Nghĩa là \"Ngã tư\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">これ</span> (Từ vựng - Đại từ: \"Cái này (gần người nói)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">たいしかん</span> (Từ vựng - Danh từ: \"Đại sứ quán\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **これ (kore)**: Cái này (gần người nói)\n- **大使館 (たいしかん / taishikan)**: Đại sứ quán\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **ĐẠI SỨ QUÁN**.\n- Cấu tạo: 大 (Đại) + 使 (Sứ) + 館 (Quán)"
           },
           {
             "id": "m_review_21_25_4_m2_q3",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【なんども】",
+            "question": "これ 【たぶん】 です。",
             "options": [
-              "母の日",
-              "首相",
-              "お話",
-              "何度も"
+              "いくら",
+              "同じ",
+              "多分",
+              "すごい"
             ],
-            "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Nhiều lần**.\n\n✍️ Phân tích đáp án:\n- **何度も** (なんども): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **HÀ ĐỘ**.\n- Cấu tạo: 何 (Hà) + 度 (Độ - Lần)"
+            "correctIndex": 2,
+            "explanation": "📖 Dịch nghĩa:\nĐây là có lẽ.\n\n✍️ Phân tích đáp án:\n- **いくら** (いくら): Nghĩa là \"Bao nhiêu tiền\" → Sai.\n- **同じ** (おなじ): Nghĩa là \"Giống nhau\" → Sai.\n- **多分** (たぶん): Cách viết chữ Hán đúng của từ 【たぶん】 → Chọn.\n- **すごい** (すごい): Nghĩa là \"Kinh khủng, tuyệt vời\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">これ</span> (Từ vựng - Đại từ: \"Cái này (gần người nói)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">たぶん</span> (Từ vựng - Phó từ: \"Có lẽ\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **これ (kore)**: Cái này (gần người nói)\n- **多分 (たぶん / tabun)**: Có lẽ\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **ĐA PHÂN**.\n- Cấu tạo: 多 (Đa - Nhiều) + 分 (Phân - Phần)"
           }
         ]
       },
@@ -7069,39 +7131,39 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_21_25_4_m3_q0",
-            "question": "ワンさん（　　）ちゅうごくごを おしえて くれました。",
+            "question": "きむらさんが しゃしんを とって（　　）。",
             "options": [
-              "が",
-              "に",
-              "を",
-              "へ"
+              "くれました",
+              "もらいました",
+              "あげました",
+              "いました"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nAnh Wang ĐÃ dạy tiếng Trung cho tôi.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **が**.\n\n📚 Từ vựng bổ trợ:\n- 絵 (え / e): Bức tranh\n\n💡 Ngữ pháp & Mẹo nhớ:\nVới くれます, người thực hiện hành động làm chủ ngữ, dùng trợ từ が hoặc は."
+            "explanation": "📖 Dịch nghĩa:\nAnh Kimura đã chụp ảnh CHO TÔI.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **くれました**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">しゃしん</span> (Từ vựng - Danh từ: \"Bức ảnh\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #f73859; font-weight: 800;\">と</span> (Trợ từ chỉ đối tượng đồng hành / liệt kê)\n\n📝 Từ vựng trong câu:\n- **写真 (しゃしん / shashin)**: Bức ảnh\n\n💡 Ngữ pháp & Mẹo nhớ:\nChủ ngữ là người khác (Kimura), làm việc gì đó CHO TÔI -> Vて くれます."
           },
           {
             "id": "m_review_21_25_4_m3_q1",
-            "question": "はし（　　）わたります。",
+            "question": "（　　）は ワンさんに ちゅうごくごを おしえて もらいました。",
             "options": [
-              "を",
-              "に",
-              "で",
-              "が"
+              "わたし",
+              "ワンさん",
+              "たなかさん",
+              "やまださん"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTôi đi qua cầu.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **を**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nBăng qua (渡ります) một địa hình dùng trợ từ を."
+            "explanation": "📖 Dịch nghĩa:\nTÔI được anh Wang dạy tiếng Trung cho.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **わたし**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / địa điểm / đối tượng tiếp nhận)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ちゅうごく</span> (Từ vựng - Danh từ: \"Trung Quốc\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">おしえて</span> (Từ vựng - Động từ: \"Dạy\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">もらいました</span> (Từ vựng - Động từ: \"Nhận\")\n\n📝 Từ vựng trong câu:\n- **中国 (ちゅうごく / chuugoku)**: Trung Quốc\n- **教えます (おしえます / oshiemasu)**: Dạy\n- **もらいます (moraimasu)**: Nhận\n\n💡 Ngữ pháp & Mẹo nhớ:\nĐộng từ là もらいます (Được nhận) thì chủ ngữ luôn là TÔI (わたしは)."
           },
           {
             "id": "m_review_21_25_4_m3_q2",
-            "question": "この ケータイは べんり（　　）と おもいます。",
+            "question": "あした（　　）やくそくが あります。",
             "options": [
-              "だ",
-              "な",
-              "の",
-              "です"
+              "ともだちに あう",
+              "ともだちに あった",
+              "ともだちに あって",
+              "ともだちに あいます"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTôi nghĩ chiếc điện thoại này tiện lợi.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **だ**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nTính từ đuôi な (べんり) khi kết hợp với と思います phải thêm だ -> べんりだ."
+            "explanation": "📖 Dịch nghĩa:\nNgày mai tôi có cuộc hẹn gặp bạn.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **ともだちに あう**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あした</span> (Từ vựng - Danh từ: \"Ngày mai\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">やくそく</span> (Từ vựng - Danh từ: \"Cuộc hẹn, lời hứa\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あります</span> (Từ vựng - Động từ: \"Có (sở hữu)\")\n\n📝 Từ vựng trong câu:\n- **明日 (あした / ashita)**: Ngày mai\n- **約束 (やくそく / yakusoku)**: Cuộc hẹn, lời hứa\n- **あります (arimasu)**: Có (sở hữu)\n\n💡 Ngữ pháp & Mẹo nhớ:\nHẹn để làm gì đó trong tương lai: Vる + 約束 (会う約束)."
           },
           {
             "id": "m_review_21_25_4_m3_q3",
@@ -7113,7 +7175,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "くつ"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nBộ phim hôm qua đã xem thì rất thú vị.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **えいが**.\n\n💡 Ngữ pháp & Mẹo nhớ:\n見た (Đã xem) bổ nghĩa cho 映画 (Bộ phim). Dịch ngược: Bộ phim mà tôi đã xem hôm qua."
+            "explanation": "📖 Dịch nghĩa:\nBộ phim hôm qua đã xem thì rất thú vị.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **えいが**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">きのう</span> (Từ vựng - Danh từ: \"Hôm qua\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">みた</span> (Từ vựng - Động từ: \"Xem, nhìn\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">とても</span> (Từ vựng - Phó từ: \"Rất\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">おもしろかった</span> (Từ vựng - Tính từ đuôi i: \"Thú vị\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **きのう (kinou)**: Hôm qua\n- **見ます (みます / mimasu)**: Xem, nhìn\n- **とても (totemo)**: Rất\n- **おもしろい (omoshiroi)**: Thú vị\n\n💡 Ngữ pháp & Mẹo nhớ:\n見た (Đã xem) bổ nghĩa cho 映画 (Bộ phim). Dịch ngược: Bộ phim mà tôi đã xem hôm qua."
           }
         ]
       },
@@ -7123,42 +7185,6 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_21_25_4_b1_q0",
-            "question": "バスが（　　）、タクシーで いきます。",
-            "options": [
-              "こなかったら",
-              "こないでも",
-              "こないと",
-              "こないから"
-            ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nNếu xe buýt không đến, tôi sẽ đi taxi.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **こなかったら**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nPhủ định Vない -> なかったら."
-          },
-          {
-            "id": "m_review_21_25_4_b1_q1",
-            "question": "この デザインは いい（　　）おもいます。",
-            "options": [
-              "と",
-              "に",
-              "を",
-              "だ"
-            ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTôi nghĩ thiết kế này đẹp.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **と**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nいい (Tính từ i) ghép thẳng với と 思います -> いいと おもいます."
-          },
-          {
-            "id": "m_review_21_25_4_b1_q2",
-            "question": "わたしは ともだちに しゅくだいを てつだって（　　）。",
-            "options": [
-              "もらいました",
-              "くれました",
-              "あげました",
-              "しました"
-            ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTôi đã được bạn bè giúp làm bài tập.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **もらいました**.\n\n📚 Từ vựng bổ trợ:\n- 友達 (ともだち / tomodachi): Bạn bè\n\n💡 Ngữ pháp & Mẹo nhớ:\nTôi là người được hưởng lợi từ hành động của bạn bè -> Vて もらいます."
-          },
-          {
-            "id": "m_review_21_25_4_b1_q3",
             "question": "やすかったら、かいます。たかく（　　）かいません。",
             "options": [
               "たら",
@@ -7167,7 +7193,43 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "と"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nNếu rẻ tôi sẽ mua. Nếu đắt tôi sẽ không mua.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **たら**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nCao (Đắt) -> 高い -> 高かったら (Nếu đắt)."
+            "explanation": "📖 Dịch nghĩa:\nNếu rẻ tôi sẽ mua. Nếu đắt tôi sẽ không mua.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **たら**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">やすかった</span> (Từ vựng - Tính từ đuôi i: \"Rẻ\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">かいます</span> (Từ vựng - Động từ: \"Mua\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">たかく</span> (Từ vựng - Tính từ đuôi i: \"Cao, đắt\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">かいません</span> (Từ vựng - Động từ: \"Mua\")\n\n📝 Từ vựng trong câu:\n- **安い (やすい / yasui)**: Rẻ\n- **買います (かいます / kaimasu)**: Mua\n- **高い (たかい / takai)**: Cao, đắt\n\n💡 Ngữ pháp & Mẹo nhớ:\nCao (Đắt) -> 高い -> 高かったら (Nếu đắt)."
+          },
+          {
+            "id": "m_review_21_25_4_b1_q1",
+            "question": "これは カリナさん（　　）かいた えです。",
+            "options": [
+              "が",
+              "は",
+              "を",
+              "に"
+            ],
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nĐây là bức tranh mà chị Karina đã vẽ.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **が**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">これ</span> (Từ vựng - Đại từ: \"Cái này (gần người nói)\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">かいた</span> (Từ vựng - Động từ: \"Mua\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **これ (kore)**: Cái này (gần người nói)\n- **買います (かいます / kaimasu)**: Mua\n\n💡 Ngữ pháp & Mẹo nhớ:\nChủ ngữ trong mệnh đề bổ nghĩa (Karina đã vẽ) dùng trợ từ が."
+          },
+          {
+            "id": "m_review_21_25_4_b1_q2",
+            "question": "（　　）ぼうしは わたしのです。",
+            "options": [
+              "あの かぶっている",
+              "あの かぶる",
+              "あの かぶって",
+              "あの かぶった"
+            ],
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nCái người đang đội chiếc mũ kia là tôi.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **あの かぶっている**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ぼうし</span> (Từ vựng - Danh từ: \"Mũ\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">わたし</span> (Từ vựng - Đại từ: \"Tôi\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **帽子 (ぼうし / boushi)**: Mũ\n- **私 (わたし / watashi)**: Tôi\n\n💡 Ngữ pháp & Mẹo nhớ:\nTrạng thái đang mặc/đội đồ trên người dùng Thể ている. Đội mũ: かぶります -> かぶっている."
+          },
+          {
+            "id": "m_review_21_25_4_b1_q3",
+            "question": "ねむい とき、コーヒーを（　　）。",
+            "options": [
+              "のみます",
+              "のんで",
+              "のむ",
+              "のんだ"
+            ],
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nKhi buồn ngủ, tôi uống cà phê.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **のみます**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ねむい</span> (Từ vựng - Tính từ i: \"Buồn ngủ\")\n- <span style=\"color: #f73859; font-weight: 800;\">と</span> (Trợ từ chỉ đối tượng đồng hành / liệt kê)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">コーヒー</span> (Từ vựng - Danh từ: \"Cà phê\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n\n📝 Từ vựng trong câu:\n- **眠い (ねむい / nemui)**: Buồn ngủ\n- **コーヒー (koohii)**: Cà phê\n\n💡 Ngữ pháp & Mẹo nhớ:\nVế chính của câu vẫn chia thì bình thường (hiện tại/thói quen -> 飲みます)."
           }
         ]
       },
@@ -7177,6 +7239,315 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         "questions": [
           {
             "id": "m_review_21_25_4_b2_q0",
+            "question": "あめが　___ ___ _★_ ___　いきます。",
+            "options": [
+              "ても",
+              "ふっ",
+              "かいものに",
+              "たぶん"
+            ],
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nCho dù trời mưa, tôi nghĩ có lẽ mình vẫn đi mua sắm.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: あめが たぶん ふっ ても かいものに いきます。\n- Từ ở vị trí ngôi sao (★) là: **ても**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あめ</span> (Từ vựng - Danh từ: \"Mưa\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">たぶん</span> (Từ vựng - Phó từ: \"Có lẽ\")\n- <span style=\"color: #f73859; font-weight: 800;\">も</span> (Trợ từ chỉ cũng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">もの</span> (Từ vựng - Danh từ: \"Đồ vật, vật\")\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / địa điểm / đối tượng tiếp nhận)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">いきます</span> (Từ vựng - Động từ: \"Đi\")\n\n📝 Từ vựng trong câu:\n- **雨 (あめ / ame)**: Mưa\n- **多分 (たぶん / tabun)**: Có lẽ\n- **物 (もの / mono)**: Đồ vật, vật\n- **行きます (いきます / ikimasu)**: Đi\n\n💡 Ngữ pháp & Mẹo nhớ:\nCấu trúc nghịch lý giả định: V ても (Dù... vẫn)."
+          },
+          {
+            "id": "m_review_21_25_4_b2_q1",
+            "question": "じかんが なかったら　___ ___ _★_ ___　いきません。",
+            "options": [
+              "どこへ",
+              "も",
+              "あしたは",
+              "たぶん"
+            ],
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nNếu không có thời gian thì ngày mai tôi nghĩ có lẽ mình chẳng đi đâu cả.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: じかんが なかったら あしたは たぶん どこへ も いきません。\n- Từ ở vị trí ngôi sao (★) là: **dđâu**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">じかん</span> (Từ vựng - Danh từ: \"Thời gian\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">なか</span> (Từ vựng - Danh từ: \"Trong, bên trong\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あした</span> (Từ vựng - Danh từ: \"Ngày mai\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">たぶん</span> (Từ vựng - Phó từ: \"Có lẽ\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">どこ</span> (Từ vựng - Đại từ: \"Ở đâu?\")\n- <span style=\"color: #f73859; font-weight: 800;\">へ</span> (Trợ từ chỉ hướng di chuyển)\n- <span style=\"color: #f73859; font-weight: 800;\">も</span> (Trợ từ chỉ cũng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">いきません</span> (Từ vựng - Động từ: \"Đi\")\n\n📝 Từ vựng trong câu:\n- **時間 (じかん / jikan)**: Thời gian\n- **中 (なか / naka)**: Trong, bên trong\n- **明日 (あした / ashita)**: Ngày mai\n- **多分 (たぶん / tabun)**: Có lẽ\n- **どこ (doko)**: Ở đâu?\n- **行きます (いきます / ikimasu)**: Đi\n\n💡 Ngữ pháp & Mẹo nhớ:\nPhủ định hoàn toàn: Từ để hỏi nơi chốn (dokoへ) + も + động từ phủ định."
+          }
+        ]
+      },
+      {
+        "id": "p_review_21_25_4_dokkai1",
+        "type": "mondai3",
+        "text": [
+          "としょかんへ いった とき、ほんを かりました。",
+          "ほんを かりる とき、カードを みせなければ なりません。",
+          "もし カードが ない とき、かりる ことが できません。",
+          "かんじが わからない とき、じしょを つかいます。",
+          "ほんを よむ とき、しずかに しなければ なりません。"
+        ],
+        "translation": [
+          "Khi đến thư viện, tôi đã mượn sách.",
+          "Khi mượn sách, phải trình thẻ.",
+          "Nếu không có thẻ thì không thể mượn được.",
+          "Khi không hiểu chữ Hán, tôi dùng từ điển.",
+          "Khi đọc sách, phải giữ im lặng."
+        ],
+        "vocabulary": [
+          "図書館 (としょかん / toshokan): Thư viện",
+          "使います (つかいます / tsukaimasu): Sử dụng",
+          "辞書 (じしょ / jisho): Từ điển",
+          "カード (kaado): Thẻ, cạc",
+          "静か（な） (しずか / shizuka): Yên tĩnh",
+          "漢字 (かんじ / kanji): Chữ Hán",
+          "本 (ほん / hon): Sách",
+          "下 (した / shita): Dưới, bên dưới",
+          "千 (せん / sen): 1000",
+          "から (kara): Từ (thời gian)"
+        ],
+        "questions": [
+          {
+            "id": "m_review_21_25_4_d1_q0",
+            "question": "ほんを かりるとき、なにを しますか？ (Khi mượn sách phải làm gì?)",
+            "options": [
+              "カードを みせます (Trình thẻ)",
+              "おかねを はらいます (Trả tiền)",
+              "なまえを かきます (Viết tên)",
+              "しゃしんを とります (Chụp ảnh)"
+            ],
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nほんを かりるとき、なにを しますか？ (Khi mượn sách phải làm gì?)\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **カードを みせます (Trình thẻ)**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ほん</span> (Từ vựng - Danh từ: \"Sách\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #f73859; font-weight: 800;\">と</span> (Trợ từ chỉ đối tượng đồng hành / liệt kê)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">なに</span> (Từ vựng - Từ hỏi: \"Cái gì\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">します</span> (Từ vựng - Động từ: \"Làm, chơi\")\n\n📝 Từ vựng trong câu:\n- **本 (ほん / hon)**: Sách\n- **何 (なに / nani)**: Cái gì\n- **します (shimasu)**: Làm, chơi\n\n💡 Ngữ pháp & Mẹo nhớ:\nDựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác."
+          },
+          {
+            "id": "m_review_21_25_4_d1_q1",
+            "question": "かんじが わからないとき、どうしますか？ (Khi không biết Kanji thì làm sao?)",
+            "options": [
+              "じしょを つかいます (Dùng từ điển)",
+              "せんせいに ききます (Hỏi giáo viên)",
+              "としょかんへ いきます (Đi thư viện)",
+              "としょかんの ひとに ききます (Hỏi người của thư viện)"
+            ],
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nかんじが わからないとき、どうしますか？ (Khi không biết Kanji thì làm sao?)\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **じしょを つかいます (Dùng từ điển)**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">かんじ</span> (Từ vựng - Danh từ: \"Chữ Hán\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">から</span> (Từ vựng - Trợ từ: \"Từ (thời gian)\")\n- <span style=\"color: #f73859; font-weight: 800;\">と</span> (Trợ từ chỉ đối tượng đồng hành / liệt kê)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">どう</span> (Từ vựng - Từ hỏi: \"Như thế nào?\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">します</span> (Từ vựng - Động từ: \"Làm, chơi\")\n\n📝 Từ vựng trong câu:\n- **漢字 (かんじ / kanji)**: Chữ Hán\n- **から (kara)**: Từ (thời gian)\n- **どう (dou)**: Như thế nào?\n- **します (shimasu)**: Làm, chơi\n\n💡 Ngữ pháp & Mẹo nhớ:\nDựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "review_21_25_5",
+    "title": "Đề thi 5: Trạm Ôn Tập JLPT N5 (Bài 21 - 25)",
+    "description": "Bộ đề số 5. Các câu hỏi và bài đọc được thiết kế độc lập 100% để ôn luyện toàn diện.",
+    "passages": [
+      {
+        "id": "p_review_21_25_5_moji1",
+        "type": "moji_mondai1",
+        "questions": [
+          {
+            "id": "m_review_21_25_5_m1_q0",
+            "question": "これ 【建物】 です。",
+            "options": [
+              "じゅんび",
+              "ほかに",
+              "たてもの",
+              "かけます"
+            ],
+            "correctIndex": 2,
+            "explanation": "📖 Dịch nghĩa:\nĐây là tòa nhà.\n\n✍️ Phân tích đáp án:\n- **じゅんび** (junbi): Nghĩa là \"Sự chuẩn bị\" → Sai.\n- **ほかに** (hokani): Nghĩa là \"Ngoài ra\" → Sai.\n- **たてもの** (tatemono): Cách đọc đúng của chữ Hán 【建物】 → Chọn.\n- **かけます** (kakemasu): Nghĩa là \"Gọi (điện thoại)\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">これ</span> (Từ vựng - Đại từ: \"Cái này (gần người nói)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">建物</span> (Từ vựng - Danh từ: \"Tòa nhà\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **これ (kore)**: Cái này (gần người nói)\n- **建物 (たてもの / tatemono)**: Tòa nhà\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **KIẾN VẬT**.\n- Mẹo nhớ: Đồ vật được con người xây dựng lên là Tòa nhà."
+          },
+          {
+            "id": "m_review_21_25_5_m1_q1",
+            "question": "あした 【言います】。",
+            "options": [
+              "たぶん",
+              "いいます",
+              "じゅんび",
+              "ニュース"
+            ],
+            "correctIndex": 1,
+            "explanation": "📖 Dịch nghĩa:\nNgày mai tôi sẽ nói rằng.\n\n✍️ Phân tích đáp án:\n- **たぶん** (tabun): Nghĩa là \"Có lẽ\" → Sai.\n- **いいます** (iimasu): Cách đọc đúng của chữ Hán 【言います】 → Chọn.\n- **じゅんび** (junbi): Nghĩa là \"Sự chuẩn bị\" → Sai.\n- **ニュース** (nyuusu): Nghĩa là \"Tin tức\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あした</span> (Từ vựng - Danh từ: \"Ngày mai\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">言います</span> (Từ vựng - Động từ: \"Nói rằng\")\n\n📝 Từ vựng trong câu:\n- **明日 (あした / ashita)**: Ngày mai\n- **言います (いいます / iimasu)**: Nói rằng\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **NGÔN**.\n- Mẹo nhớ: Lời nói phát ra từ miệng."
+          },
+          {
+            "id": "m_review_21_25_5_m1_q2",
+            "question": "あした 【案内します】。",
+            "options": [
+              "あんないします",
+              "しょうかいします",
+              "ひっこします",
+              "ちゅうしゃじょう"
+            ],
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nNgày mai tôi sẽ hướng dẫn.\n\n✍️ Phân tích đáp án:\n- **あんないします** (annaishimasu): Cách đọc đúng của chữ Hán 【案内します】 → Chọn.\n- **しょうかいします** (shoukaishimasu): Nghĩa là \"Giới thiệu\" → Sai.\n- **ひっこします** (hikkoshimasu): Nghĩa là \"Chuyển nhà\" → Sai.\n- **ちゅうしゃじょう** (chuushajou): Nghĩa là \"Bãi đỗ xe\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あした</span> (Từ vựng - Danh từ: \"Ngày mai\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">案内します</span> (Từ vựng - Động từ: \"Hướng dẫn\")\n\n📝 Từ vựng trong câu:\n- **明日 (あした / ashita)**: Ngày mai\n- **案内します (あんないします / annaishimasu)**: Hướng dẫn\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **ÁN NỘI**.\n- Mẹo nhớ: Chỉ dẫn nội tình bên trong (Hướng dẫn)."
+          },
+          {
+            "id": "m_review_21_25_5_m1_q3",
+            "question": "これ 【押し入れ】 です。",
+            "options": [
+              "おなじ",
+              "アパート",
+              "おしいれ",
+              "たぶん"
+            ],
+            "correctIndex": 2,
+            "explanation": "📖 Dịch nghĩa:\nĐây là tủ âm tường.\n\n✍️ Phân tích đáp án:\n- **おなじ** (onaji): Nghĩa là \"Giống nhau\" → Sai.\n- **アパート** (apaato): Nghĩa là \"Căn hộ\" → Sai.\n- **おしいれ** (oshiire): Cách đọc đúng của chữ Hán 【押し入れ】 → Chọn.\n- **たぶん** (tabun): Nghĩa là \"Có lẽ\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">これ</span> (Từ vựng - Đại từ: \"Cái này (gần người nói)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">押し入れ</span> (Từ vựng - Danh từ: \"Tủ âm tường\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **これ (kore)**: Cái này (gần người nói)\n- **押し入れ (おしいれ / oshiire)**: Tủ âm tường\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **ÁP NHẬP**.\n- Mẹo nhớ: Tủ mà ta ấn đẩy đồ vật vào để cất."
+          }
+        ]
+      },
+      {
+        "id": "p_review_21_25_5_moji2",
+        "type": "moji_mondai2",
+        "questions": [
+          {
+            "id": "m_review_21_25_5_m2_q0",
+            "question": "あした 【さわります】。",
+            "options": [
+              "はきます",
+              "何度も",
+              "交差点",
+              "触ります"
+            ],
+            "correctIndex": 3,
+            "explanation": "📖 Dịch nghĩa:\nNgày mai tôi sẽ sờ, chạm.\n\n✍️ Phân tích đáp án:\n- **はきます** (はきます): Nghĩa là \"Đi, mặc (giày, quần)\" → Sai.\n- **何度も** (なんども): Nghĩa là \"Nhiều lần\" → Sai.\n- **交差点** (こうさてん): Nghĩa là \"Ngã tư\" → Sai.\n- **触ります** (さわります): Cách viết chữ Hán đúng của từ 【さわります】 → Chọn.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あした</span> (Từ vựng - Danh từ: \"Ngày mai\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">さわります</span> (Từ vựng - Động từ: \"Sờ, chạm\")\n\n📝 Từ vựng trong câu:\n- **明日 (あした / ashita)**: Ngày mai\n- **触ります (さわります / sawarimasu)**: Sờ, chạm\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **XÚC**.\n- Cấu tạo: 角 (Giác - Sừng) + 虫 (Trùng - Côn trùng)"
+          },
+          {
+            "id": "m_review_21_25_5_m2_q1",
+            "question": "あした 【つれていきます】。",
+            "options": [
+              "連れて来ます",
+              "ダイニングキッチ",
+              "気をつけます",
+              "連れて行きます"
+            ],
+            "correctIndex": 3,
+            "explanation": "📖 Dịch nghĩa:\nNgày mai tôi sẽ dẫn đi.\n\n✍️ Phân tích đáp án:\n- **連れて来ます** (つれてきます): Nghĩa là \"Dẫn đến\" → Sai.\n- **ダイニングキッチ** (ダイニングキッチ): Nghĩa là \"Bếp ăn\" → Sai.\n- **気をつけます** (きをつけます): Nghĩa là \"Cẩn thận\" → Sai.\n- **連れて行きます** (つれていきます): Cách viết chữ Hán đúng của từ 【つれていきます】 → Chọn.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あした</span> (Từ vựng - Danh từ: \"Ngày mai\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">つれていきます</span> (Từ vựng - Động từ: \"Dẫn đi\")\n\n📝 Từ vựng trong câu:\n- **明日 (あした / ashita)**: Ngày mai\n- **連れて行きます (つれていきます / tsurete ikimasu)**: Dẫn đi\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **LIÊN HÀNH**.\n- Cấu tạo: 連 (Liên) + 行 (Hành)"
+          },
+          {
+            "id": "m_review_21_25_5_m2_q2",
+            "question": "はじ【め】まして。アメリカから 来ました。",
+            "options": [
+              "出ます",
+              "〜目",
+              "転勤",
+              "眼鏡"
+            ],
+            "correctIndex": 1,
+            "explanation": "📖 Dịch nghĩa:\nRất vui được gặp bạn. Tôi đến từ Mỹ.\n\n✍️ Phân tích đáp án:\n- **出ます** (でます): Nghĩa là \"Ra\" → Sai.\n- **〜目** (〜め): Cách viết chữ Hán đúng của từ 【〜め】 → Chọn.\n- **転勤** (てんきん): Nghĩa là \"Chuyển công tác\" → Sai.\n- **眼鏡** (めがね): Nghĩa là \"Kính\" → Sai.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">アメリカ</span> (Từ vựng - Danh từ: \"Mỹ (Hoa Kỳ)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">から</span> (Từ vựng - Trợ từ: \"Từ (thời gian)\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">来ました</span> (Từ vựng - Động từ: \"Đến\")\n\n📝 Từ vựng trong câu:\n- **アメリカ (america)**: Mỹ (Hoa Kỳ)\n- **から (kara)**: Từ (thời gian)\n- **来ます (きます / kimasu)**: Đến\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **MỤC**.\n- Cấu tạo: 目 (Mục)"
+          },
+          {
+            "id": "m_review_21_25_5_m2_q3",
+            "question": "にほんの 【せいじ】（　　）どう おもいますか。",
+            "options": [
+              "着ます",
+              "億",
+              "意見",
+              "政治"
+            ],
+            "correctIndex": 3,
+            "explanation": "📖 Dịch nghĩa:\nBạn nghĩ thế nào về chính trị Nhật Bản?\n\n✍️ Phân tích đáp án:\n- **着ます** (きます): Nghĩa là \"Mặc (áo sơ mi, vv)\" → Sai.\n- **億** (おく): Nghĩa là \"Trăm triệu\" → Sai.\n- **意見** (いけん): Nghĩa là \"Ý kiến\" → Sai.\n- **政治** (せいじ): Cách viết chữ Hán đúng của từ 【せいじ】 → Chọn.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">にほん</span> (Từ vựng - Danh từ: \"Nhật Bản\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">せいじ</span> (Từ vựng - Danh từ: \"Chính trị\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">どう</span> (Từ vựng - Từ hỏi: \"Như thế nào?\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">おもいます</span> (Từ vựng - Động từ: \"Nghĩ rằng\")\n\n📝 Từ vựng trong câu:\n- **日本 (にほん / nihon)**: Nhật Bản\n- **政治 (せいじ / seiji)**: Chính trị\n- **どう (dou)**: Như thế nào?\n- **思います (おもいます / omoimasu)**: Nghĩ rằng\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **CHÍNH TRỊ**.\n- Cấu tạo: 政 (Chính) + 治 (Trị)"
+          }
+        ]
+      },
+      {
+        "id": "p_review_21_25_5_moji3",
+        "type": "moji_mondai3",
+        "questions": [
+          {
+            "id": "m_review_21_25_5_m3_q0",
+            "question": "あれは わたしが よく（　　）スーパーです。",
+            "options": [
+              "いく",
+              "いった",
+              "いって",
+              "いかない"
+            ],
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nKia là siêu thị mà tôi thường đi.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **いく**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あれ</span> (Từ vựng - Đại từ: \"Cái kia (xa cả hai)\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">わたし</span> (Từ vựng - Đại từ: \"Tôi\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">よく</span> (Từ vựng - Phó từ: \"Rõ, tốt, thường\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">スーパー</span> (Từ vựng - Danh từ: \"Siêu thị\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **あれ (are)**: Cái kia (xa cả hai)\n- **私 (わたし / watashi)**: Tôi\n- **よく (yoku)**: Rõ, tốt, thường\n- **スーパー (suupaa)**: Siêu thị\n\n💡 Ngữ pháp & Mẹo nhớ:\nHành động thói quen (よく - thường xuyên), dùng Vる -> 行くスーパー."
+          },
+          {
+            "id": "m_review_21_25_5_m3_q1",
+            "question": "（　　）あめが ふったら、いきません。",
+            "options": [
+              "もし",
+              "いくら",
+              "たぶん",
+              "ぜんぜん"
+            ],
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nGiả sử nếu trời mưa, tôi sẽ không đi.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **もし**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">あめ</span> (Từ vựng - Danh từ: \"Mưa\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">いきません</span> (Từ vựng - Động từ: \"Đi\")\n\n📝 Từ vựng trong câu:\n- **雨 (あめ / ame)**: Mưa\n- **行きます (いきます / ikimasu)**: Đi\n\n💡 Ngữ pháp & Mẹo nhớ:\nPhó từ đi với たら để nhấn mạnh giả định -> もし."
+          },
+          {
+            "id": "m_review_21_25_5_m3_q2",
+            "question": "がくせい（　　）とき、よく アルバイトを しました。",
+            "options": [
+              "の",
+              "な",
+              "だ",
+              "に"
+            ],
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nKhi còn là sinh viên, tôi thường đi làm thêm.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **の**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">がくせい</span> (Từ vựng - Danh từ: \"Học sinh, sinh viên\")\n- <span style=\"color: #f73859; font-weight: 800;\">と</span> (Trợ từ chỉ đối tượng đồng hành / liệt kê)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">よく</span> (Từ vựng - Phó từ: \"Rõ, tốt, thường\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">アルバイト</span> (Từ vựng - Danh từ: \"Làm thêm\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">しました</span> (Từ vựng - Động từ: \"Làm, chơi\")\n\n📝 Từ vựng trong câu:\n- **学生 (がくせい / gakusei)**: Học sinh, sinh viên\n- **よく (yoku)**: Rõ, tốt, thường\n- **アルバイト (arubaito)**: Làm thêm\n- **します (shimasu)**: Làm, chơi\n\n💡 Ngữ pháp & Mẹo nhớ:\nDanh từ (学生) + の + 時."
+          },
+          {
+            "id": "m_review_21_25_5_m3_q3",
+            "question": "おかねが（　　）、パソコンを かえません。",
+            "options": [
+              "なかったら",
+              "なくても",
+              "ない",
+              "あると"
+            ],
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nNếu không có tiền thì không thể mua máy tính.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **なかったら**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">おかね</span> (Từ vựng - Danh từ: \"Tiền\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">パソコン</span> (Từ vựng - Danh từ: \"Máy tính cá nhân\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">かえません</span> (Từ vựng - Động từ: \"Đổi\")\n\n📝 Từ vựng trong câu:\n- **お金 (おかね / okane)**: Tiền\n- **パソコン (ぱそこん / pasokon)**: Máy tính cá nhân\n- **換えます (かえます / kaemasu)**: Đổi\n\n💡 Ngữ pháp & Mẹo nhớ:\nVない -> なかったら (Nếu không)."
+          }
+        ]
+      },
+      {
+        "id": "p_review_21_25_5_bunpou1",
+        "type": "mondai1",
+        "questions": [
+          {
+            "id": "m_review_21_25_5_b1_q0",
+            "question": "これは わたし（　　）とった しゃしんです。",
+            "options": [
+              "が",
+              "は",
+              "を",
+              "に"
+            ],
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nĐây là bức ảnh mà tôi đã chụp.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **が**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">これ</span> (Từ vựng - Đại từ: \"Cái này (gần người nói)\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">わたし</span> (Từ vựng - Đại từ: \"Tôi\")\n- <span style=\"color: #f73859; font-weight: 800;\">と</span> (Trợ từ chỉ đối tượng đồng hành / liệt kê)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">しゃしん</span> (Từ vựng - Danh từ: \"Bức ảnh\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **これ (kore)**: Cái này (gần người nói)\n- **私 (わたし / watashi)**: Tôi\n- **写真 (しゃしん / shashin)**: Bức ảnh\n\n💡 Ngữ pháp & Mẹo nhớ:\nChủ ngữ trong mệnh đề bổ nghĩa (私が撮った) dùng trợ từ が, không dùng は."
+          },
+          {
+            "id": "m_review_21_25_5_b1_q1",
+            "question": "やまださんは わたしの いもうとに おかしを（　　）。",
+            "options": [
+              "くれました",
+              "あげました",
+              "もらいました",
+              "きました"
+            ],
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nAnh Yamada đã cho em gái tôi bánh kẹo.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **くれました**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">やま</span> (Từ vựng - Danh từ: \"Núi\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">わたし</span> (Từ vựng - Đại từ: \"Tôi\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">いもうと</span> (Từ vựng - Danh từ: \"Em gái (của mình)\")\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / địa điểm / đối tượng tiếp nhận)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">おかし</span> (Từ vựng - Danh từ: \"Bánh kẹo\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n\n📝 Từ vựng trong câu:\n- **山 (やま / yama)**: Núi\n- **私 (わたし / watashi)**: Tôi\n- **妹 (いもうと / imouto)**: Em gái (của mình)\n- **お菓子 (おかし / okashi)**: Bánh kẹo\n\n💡 Ngữ pháp & Mẹo nhớ:\nNgười nhận là gia đình của TÔI -> vẫn dùng くれます."
+          },
+          {
+            "id": "m_review_21_25_5_b1_q2",
+            "question": "きのう（　　）ほんを ぜんぶ よみました。",
+            "options": [
+              "かった",
+              "かう",
+              "かって",
+              "かいます"
+            ],
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nTôi đã đọc hết cuốn sách mua ngày hôm qua.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **かった**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">きのう</span> (Từ vựng - Danh từ: \"Hôm qua\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ほん</span> (Từ vựng - Danh từ: \"Sách\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ぜんぶ</span> (Từ vựng - Danh từ: \"Tất cả\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">よみました</span> (Từ vựng - Động từ: \"Đọc\")\n\n📝 Từ vựng trong câu:\n- **きのう (kinou)**: Hôm qua\n- **本 (ほん / hon)**: Sách\n- **全部 (ぜんぶ / zenbu)**: Tất cả\n- **読みます (よみます / yomimasu)**: Đọc\n\n💡 Ngữ pháp & Mẹo nhớ:\nSách đã mua hôm qua (きのう 買った), nên dùng thể た."
+          },
+          {
+            "id": "m_review_21_25_5_b1_q3",
+            "question": "こうえん（　　）さんぽします。",
+            "options": [
+              "を",
+              "に",
+              "で",
+              "へ"
+            ],
+            "correctIndex": 0,
+            "explanation": "📖 Dịch nghĩa:\nTôi đi dạo quanh công viên.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **を**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">こうえん</span> (Từ vựng - Danh từ: \"Công viên\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">さんぽします</span> (Từ vựng - Động từ: \"Đi dạo\")\n\n📝 Từ vựng trong câu:\n- **公園 (こうえん / kouen)**: Công viên\n- **散歩します (さんぽします / sanposhimasu)**: Đi dạo\n\n💡 Ngữ pháp & Mẹo nhớ:\nĐộng từ di chuyển (散歩します) trong một không gian dùng trợ từ を."
+          }
+        ]
+      },
+      {
+        "id": "p_review_21_25_5_bunpou2",
+        "type": "mondai2",
+        "questions": [
+          {
+            "id": "m_review_21_25_5_b2_q0",
             "question": "ともだちは　___ ___ _★_ ___　いいました。",
             "options": [
               "と",
@@ -7185,10 +7556,10 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "にほんへ"
             ],
             "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nBạn tôi đã nói là sang năm sẽ đi Nhật Bản.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: ともだちは [らいねん] [にほんへ] [★ いく] [と] いいました。\n- Từ ở vị trí ngôi sao (★) là: **いく**.\n\n📚 Từ vựng bổ trợ:\n- 友達 (ともだち / tomodachi): Bạn bè\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Trích dẫn gián tiếp câu nói: [Mệnh đề thông thường] と いいました."
+            "explanation": "📖 Dịch nghĩa:\nBạn tôi đã nói là sang năm sẽ đi Nhật Bản.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: ともだちは らいねん にほんへ いく と いいました。\n- Từ ở vị trí ngôi sao (★) là: **いく**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ともだち</span> (Từ vựng - Danh từ: \"Bạn bè\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">らいねん</span> (Từ vựng - Danh từ: \"Năm sau\")\n- <span style=\"color: #7aa2f7; font-weight: 800;\">にほん</span> (Từ vựng - Danh từ: \"Nhật Bản\")\n- <span style=\"color: #f73859; font-weight: 800;\">へ</span> (Trợ từ chỉ hướng di chuyển)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">いく</span> (Từ vựng - Tính từ đuôi i: \"Tốt\")\n- <span style=\"color: #f73859; font-weight: 800;\">と</span> (Trợ từ chỉ đối tượng đồng hành / liệt kê)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">いいました</span> (Từ vựng - Động từ: \"Nói rằng\")\n\n📝 Từ vựng trong câu:\n- **友達 (ともだち / tomodachi)**: Bạn bè\n- **来年 (らいねん / rainen)**: Năm sau\n- **日本 (にほん / nihon)**: Nhật Bản\n- **いい (ii (yoi))**: Tốt\n- **言います (いいます / iimasu)**: Nói rằng\n\n💡 Ngữ pháp & Mẹo nhớ:\nTrích dẫn gián tiếp câu nói: [Mệnh đề thông thường] と いいました."
           },
           {
-            "id": "m_review_21_25_4_b2_q1",
+            "id": "m_review_21_25_5_b2_q1",
             "question": "これは　___ ___ _★_ ___　ケーキです。",
             "options": [
               "つくった",
@@ -7197,12 +7568,12 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "ために"
             ],
             "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nĐây là chiếc bánh kem mà bạn tôi đã làm cho tôi.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: これは [わたしの] [ために] [★ ともだちが] [つくった] ケーキです。\n- Từ ở vị trí ngôi sao (★) là: **ともだちが**.\n\n📚 Từ vựng bổ trợ:\n- ケーキ (keeki): Bánh ngọt, bánh kem\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Định ngữ bổ nghĩa danh từ: ともだちが つくった bổ nghĩa cho ケーキ. Cụm わたしの ために đứng trước."
+            "explanation": "📖 Dịch nghĩa:\nĐây là chiếc bánh kem mà bạn tôi đã làm cho tôi.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: これは わたしの ために ともだちが つくった ケーキです。\n- Từ ở vị trí ngôi sao (★) là: **ともだちが**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">これ</span> (Từ vựng - Đại từ: \"Cái này (gần người nói)\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">わたし</span> (Từ vựng - Đại từ: \"Tôi\")\n- <span style=\"color: #f73859; font-weight: 800;\">の</span> (Trợ từ chỉ sở hữu / bổ nghĩa)\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / địa điểm / đối tượng tiếp nhận)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ともだち</span> (Từ vựng - Danh từ: \"Bạn bè\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ケーキ</span> (Từ vựng - Danh từ: \"Bánh ngọt\")\n- <span style=\"color: #f73859; font-weight: 800;\">で</span> (Trợ từ chỉ phương tiện / công cụ / địa điểm hành động)\n\n📝 Từ vựng trong câu:\n- **これ (kore)**: Cái này (gần người nói)\n- **私 (わたし / watashi)**: Tôi\n- **友達 (ともだち / tomodachi)**: Bạn bè\n- **ケーキ (keeki)**: Bánh ngọt\n\n💡 Ngữ pháp & Mẹo nhớ:\nĐịnh ngữ bổ nghĩa danh từ: ともだちが つくった bổ nghĩa cho ケーキ."
           }
         ]
       },
       {
-        "id": "p_review_21_25_4_dokkai1",
+        "id": "p_review_21_25_5_dokkai1",
         "type": "mondai3",
         "text": [
           "きのうは わたしの たんじょうびでした。",
@@ -7220,13 +7591,19 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
         ],
         "vocabulary": [
           "友達 (ともだち / tomodachi): Bạn bè",
-          "ケーキ (keeki): Bánh ngọt, bánh kem",
-          "家 (うち / uchi): Nhà (ở)",
-          "花 (はな / hana): Hoa"
+          "おいしい (oishii): Ngon",
+          "私 (わたし / watashi): Tôi",
+          "きのう (kinou): Hôm qua",
+          "とても (totemo): Rất",
+          "ケーキ (keeki): Bánh ngọt",
+          "下 (した / shita): Dưới, bên dưới",
+          "うち (uchi): Nhà",
+          "花 (はな / hana): Hoa",
+          "あ (a): A! (Cách nói khi nhận ra điều gì)"
         ],
         "questions": [
           {
-            "id": "m_review_21_25_4_d1_q0",
+            "id": "m_review_21_25_5_d1_q0",
             "question": "だれが わたしに はなを くれましたか？ (Ai đã tặng hoa cho tôi?)",
             "options": [
               "ともだち (Bạn bè)",
@@ -7235,10 +7612,10 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "はは (Mẹ)"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nだれが わたしに はなを くれましたか？ (Ai đã tặng hoa cho tôi?)\n- Đáp án đúng: **ともだち (Bạn bè)**.\n\n✍️ Phân tích đáp án:\n- Dựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác.\n\n📚 Từ vựng bổ trợ:\n- 花 (はな / hana): Hoa"
+            "explanation": "📖 Dịch nghĩa:\nだれが わたしに はなを くれましたか？ (Ai đã tặng hoa cho tôi?)\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **ともだち (Bạn bè)**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">だれ</span> (Từ vựng - Từ để hỏi: \"Ai\")\n- <span style=\"color: #f73859; font-weight: 800;\">が</span> (Trợ từ chỉ chủ ngữ / đối tượng)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">わたし</span> (Từ vựng - Đại từ: \"Tôi\")\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / địa điểm / đối tượng tiếp nhận)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">はな</span> (Từ vựng - Danh từ: \"Hoa\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">くれました</span> (Từ vựng - Động từ: \"Cho (tôi)\")\n\n📝 Từ vựng trong câu:\n- **だれ (dare)**: Ai\n- **私 (わたし / watashi)**: Tôi\n- **花 (はな / hana)**: Hoa\n- **くれます (kuremasu)**: Cho (tôi)\n\n💡 Ngữ pháp & Mẹo nhớ:\nDựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác."
           },
           {
-            "id": "m_review_21_25_4_d1_q1",
+            "id": "m_review_21_25_5_d1_q1",
             "question": "わたしは ともだちに なにを しましたか？ (Tôi đã làm gì cho bạn bè?)",
             "options": [
               "ケーキを つくって あげました (Làm bánh kem cho)",
@@ -7247,309 +7624,7 @@ export const DOKKAI_REVIEWS: DokkaiReview[] = [
               "はなを あげました (Tặng hoa)"
             ],
             "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nわたしは ともだちに なにを しましたか？ (Tôi đã làm gì cho bạn bè?)\n- Đáp án đúng: **ケーキを つくって あげました (Làm bánh kem cho)**.\n\n✍️ Phân tích đáp án:\n- Dựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác.\n\n📚 Từ vựng bổ trợ:\n- 友達 (ともだち / tomodachi): Bạn bè"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "review_21_25_5",
-    "title": "Đề thi 5: Trạm Ôn Tập JLPT N5 (Bài 21 - 25)",
-    "description": "Bộ đề số 5. Các câu hỏi và bài đọc được thiết kế độc lập 100% để ôn luyện toàn diện.",
-    "passages": [
-      {
-        "id": "p_review_21_25_5_moji1",
-        "type": "moji_mondai1",
-        "questions": [
-          {
-            "id": "m_review_21_25_5_m1_q0",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【触ります（ドアに〜）】",
-            "options": [
-              "さわります",
-              "もちろん",
-              "さいきん",
-              "くれます"
-            ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【触ります（ドアに〜）】 có nghĩa là: **Sờ, chạm vào**.\n\n✍️ Phân tích đáp án:\n- **さわります** (sawarimasu): Cách đọc đúng của chữ Hán 【触ります（ドアに〜）】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **XÚC**.\n- Mẹo nhớ: Sờ chạm."
-          },
-          {
-            "id": "m_review_21_25_5_m1_q1",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【同じ】",
-            "options": [
-              "サイズ",
-              "むだ",
-              "おなじ",
-              "やちん"
-            ],
-            "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【同じ】 có nghĩa là: **Giống nhau**.\n\n✍️ Phân tích đáp án:\n- **おなじ** (onaji): Cách đọc đúng của chữ Hán 【同じ】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **ĐỒNG**.\n- Mẹo nhớ: Cùng chung một thứ."
-          },
-          {
-            "id": "m_review_21_25_5_m1_q2",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【億】",
-            "options": [
-              "おく",
-              "します",
-              "しあい",
-              "おと"
-            ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【億】 có nghĩa là: **Trăm triệu**.\n\n✍️ Phân tích đáp án:\n- **おく** (oku): Cách đọc đúng của chữ Hán 【億】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **ỨC**.\n- Mẹo nhớ: Trăm triệu."
-          },
-          {
-            "id": "m_review_21_25_5_m1_q3",
-            "question": "Hãy chọn cách đọc đúng của chữ Hán trong ngoặc: 【無駄（な）】",
-            "options": [
-              "スーツ",
-              "いなか",
-              "ほどう",
-              "むだ"
-            ],
-            "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTừ 【無駄（な）】 có nghĩa là: **Lãng phí**.\n\n✍️ Phân tích đáp án:\n- **むだ** (muda): Cách đọc đúng của chữ Hán 【無駄（な）】.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **VÔ ĐÀ**.\n- Mẹo nhớ: Không có tác dụng gì là Lãng phí."
-          }
-        ]
-      },
-      {
-        "id": "p_review_21_25_5_moji2",
-        "type": "moji_mondai2",
-        "questions": [
-          {
-            "id": "m_review_21_25_5_m2_q0",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【つきます】",
-            "options": [
-              "うーん",
-              "サイズ",
-              "着きます",
-              "きっと"
-            ],
-            "correctIndex": 2,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Đến (ga, nơi chốn)**.\n\n✍️ Phân tích đáp án:\n- **着きます** (つきます): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **TRƯỚC**.\n- Cấu tạo: 着 (Trước - Đến)"
-          },
-          {
-            "id": "m_review_21_25_5_m2_q1",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【こうつう】",
-            "options": [
-              "いくら",
-              "きっと",
-              "お弁当",
-              "交通"
-            ],
-            "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Giao thông**.\n\n✍️ Phân tích đáp án:\n- **交通** (こうつう): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **GIAO THÔNG**.\n- Cấu tạo: 交 (Giao - Giao nhau) + 通 (Thông - Đi qua)"
-          },
-          {
-            "id": "m_review_21_25_5_m2_q2",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【あんないします】",
-            "options": [
-              "案内します",
-              "考えます",
-              "かぶります",
-              "〜について"
-            ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Hướng dẫn**.\n\n✍️ Phân tích đáp án:\n- **案内します** (あんないします): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **ÁN NỘI**.\n- Cấu tạo: 案 (Án) + 内 (Nội)"
-          },
-          {
-            "id": "m_review_21_25_5_m2_q3",
-            "question": "Hãy chọn cách viết chữ Hán đúng của từ trong ngoặc: 【いなか】",
-            "options": [
-              "準備",
-              "機械",
-              "意味",
-              "田舎"
-            ],
-            "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nTừ này có nghĩa là: **Nông thôn, quê**.\n\n✍️ Phân tích đáp án:\n- **田舎** (いなか): Cách viết chữ Hán đúng của từ.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Âm Hán Việt: **ĐIỀN XÁ**.\n- Cấu tạo: 田 (Điền - Đồng ruộng) + 舎 (Xá - Quán trọ)"
-          }
-        ]
-      },
-      {
-        "id": "p_review_21_25_5_moji3",
-        "type": "moji_mondai3",
-        "questions": [
-          {
-            "id": "m_review_21_25_5_m3_q0",
-            "question": "きむらさんが しゃしんを とって（　　）。",
-            "options": [
-              "くれました",
-              "もらいました",
-              "あげました",
-              "いました"
-            ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nAnh Kimura đã chụp ảnh CHO TÔI.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **くれました**.\n\n📚 Từ vựng bổ trợ:\n- 写真 (しゃしん / shashin): Bức ảnh\n\n💡 Ngữ pháp & Mẹo nhớ:\nChủ ngữ là người khác (Kimura), làm việc gì đó CHO TÔI -> Vて くれます."
-          },
-          {
-            "id": "m_review_21_25_5_m3_q1",
-            "question": "えいがは おもしろかった（　　）でしょう？",
-            "options": [
-              "(Không thêm gì)",
-              "だ",
-              "な",
-              "です"
-            ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nBộ phim đã rất thú vị phải không?\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **(Không thêm gì)**.\n\n📚 Từ vựng bổ trợ:\n- 絵 (え / e): Bức tranh\n\n💡 Ngữ pháp & Mẹo nhớ:\nTính từ đuôi い (おもしろかった) ghép trực tiếp với でしょう."
-          },
-          {
-            "id": "m_review_21_25_5_m3_q2",
-            "question": "にちようび、おおさかで おまつり（　　）あります。",
-            "options": [
-              "が",
-              "を",
-              "に",
-              "で"
-            ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nChủ nhật, ở Osaka có diễn ra lễ hội.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **が**.\n\n💡 Ngữ pháp & Mẹo nhớ:\nCó sự kiện gì đó diễn ra: N(sự kiện) が あります."
-          },
-          {
-            "id": "m_review_21_25_5_m3_q3",
-            "question": "おかねが（　　）、パソコンが かえません。",
-            "options": [
-              "なくても",
-              "なかったら",
-              "ないと",
-              "ないでも"
-            ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nDù không có tiền, (cũng không thể nói là mua được -> Sai nghĩa). Phải là DÙ CÓ TIỀN cũng không mua.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **なくても**.\n\n📚 Từ vựng bổ trợ:\n- 絵 (え / e): Bức tranh\n\n💡 Ngữ pháp & Mẹo nhớ:\nLưu ý câu này: Phủ định V ない -> なかったら (Nếu không có tiền). Nếu không có tiền thì không thể mua: お金がなかったら、買えません."
-          }
-        ]
-      },
-      {
-        "id": "p_review_21_25_5_bunpou1",
-        "type": "mondai1",
-        "questions": [
-          {
-            "id": "m_review_21_25_5_b1_q0",
-            "question": "あした（　　）やくそくが あります。",
-            "options": [
-              "ともだちに あう",
-              "ともだちに あった",
-              "ともだちに あって",
-              "ともだちに あいます"
-            ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nNgày mai tôi có cuộc hẹn gặp bạn.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **ともだちに あう**.\n\n📚 Từ vựng bổ trợ:\n- 明日 (あした / ashita): Ngày mai\n\n💡 Ngữ pháp & Mẹo nhớ:\nHẹn để làm gì đó trong tương lai: Vる + 約束 (会う約束)."
-          },
-          {
-            "id": "m_review_21_25_5_b1_q1",
-            "question": "ひま（　　）とき、えを かきます。",
-            "options": [
-              "な",
-              "の",
-              "だ",
-              "に"
-            ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nKhi rảnh rỗi, tôi vẽ tranh.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **な**.\n\n📚 Từ vựng bổ trợ:\n- 絵 (え / e): Bức tranh\n\n💡 Ngữ pháp & Mẹo nhớ:\nTính từ đuôi な phải thêm な trước 時."
-          },
-          {
-            "id": "m_review_21_25_5_b1_q2",
-            "question": "わたしは せんせいに ほんを（　　）。",
-            "options": [
-              "もらいました",
-              "くれました",
-              "あげました",
-              "てつだいました"
-            ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTôi đã nhận được sách từ giáo viên.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **もらいました**.\n\n📚 Từ vựng bổ trợ:\n- 先生 (せんせい / sensei): Thầy/cô giáo\n- 本 (ほん / hon): Sách\n\n💡 Ngữ pháp & Mẹo nhớ:\nTôi nhận đồ vật từ người khác -> もらいます."
-          },
-          {
-            "id": "m_review_21_25_5_b1_q3",
-            "question": "にほんの ぶっかは たかい（　　）おもいます。",
-            "options": [
-              "と",
-              "に",
-              "を",
-              "が"
-            ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nTôi nghĩ vật giá ở Nhật cao.\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **と**.\n\n📚 Từ vựng bổ trợ:\n- 本 (ほん / hon): Sách\n\n💡 Ngữ pháp & Mẹo nhớ:\nMẫu câu bày tỏ suy nghĩ: ～と 思います."
-          }
-        ]
-      },
-      {
-        "id": "p_review_21_25_5_bunpou2",
-        "type": "mondai2",
-        "questions": [
-          {
-            "id": "m_review_21_25_5_b2_q0",
-            "question": "テレビの おとが　___ ___ _★_ ___　ください。",
-            "options": [
-              "とき",
-              "ちいさく",
-              "おおきい",
-              "して"
-            ],
-            "correctIndex": 1,
-            "explanation": "📖 Dịch nghĩa:\nKhi âm thanh tivi to thì vui lòng vặn nhỏ lại.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: テレビの おとが [おおきい] [とき] [★ ちいさく] [して] ください。\n- Từ ở vị trí ngôi sao (★) là: **ちいさく**.\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Cấu trúc thay đổi trạng thái: Tính từ い (bỏ い) + く します."
-          },
-          {
-            "id": "m_review_21_25_5_b2_q1",
-            "question": "あめが　___ ___ _★_ ___　でかけます。",
-            "options": [
-              "たら",
-              "やん",
-              "さんぽに",
-              "すぐ"
-            ],
-            "correctIndex": 3,
-            "explanation": "📖 Dịch nghĩa:\nHễ mưa tạnh là tôi đi dạo ngay.\n\n✍️ Phân tích đáp án:\n- Thứ tự sắp xếp đúng: あめが [やん] [たら] [★ すぐ] [さんぽに] でかけます。\n- Từ ở vị trí ngôi sao (★) là: **すぐ**.\n\n📚 Từ vựng bổ trợ:\n- 雨 (あめ / ame): Mưa\n\n💡 Ngữ pháp & Mẹo nhớ:\n- Cấu trúc giả định điều kiện thời gian: V たら. やみます -> やんだ -> やんだら."
-          }
-        ]
-      },
-      {
-        "id": "p_review_21_25_5_dokkai1",
-        "type": "mondai3",
-        "text": [
-          "A：あした、ハイキングに いきますか。",
-          "B：いいえ。あめが ふったら、いきません。",
-          "A：いい てんきだったら、どうしますか。",
-          "B：いい てんきだったら、もちろん いきますよ。",
-          "A：じゃ、はれると いいですね。"
-        ],
-        "translation": [
-          "A: Ngày mai bạn có đi leo núi dã ngoại không?",
-          "B: Không. Nếu trời mưa thì tôi không đi.",
-          "A: Nếu thời tiết đẹp thì tính sao?",
-          "B: Nếu thời tiết đẹp thì tất nhiên là đi rồi.",
-          "A: Vậy, mong là trời sẽ nắng nhỉ."
-        ],
-        "vocabulary": [
-          "明日 (あした / ashita): Ngày mai",
-          "雨 (あめ / ame): Mưa",
-          "絵 (え / e): Bức tranh"
-        ],
-        "questions": [
-          {
-            "id": "m_review_21_25_5_d1_q0",
-            "question": "Bさんは あめが ふったら どうしますか？ (Người B sẽ làm gì nếu trời mưa?)",
-            "options": [
-              "いきません (Không đi)",
-              "いきます (Đi)",
-              "ハイキングに いきます (Đi leo núi)",
-              "わかりません (Không biết)"
-            ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nBさんは あめが ふったら どうしますか？ (Người B sẽ làm gì nếu trời mưa?)\n- Đáp án đúng: **いきません (Không đi)**.\n\n✍️ Phân tích đáp án:\n- Dựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác.\n\n📚 Từ vựng bổ trợ:\n- 雨 (あめ / ame): Mưa"
-          },
-          {
-            "id": "m_review_21_25_5_d1_q1",
-            "question": "どんなとき ハイキングに いきますか？ (Đi leo núi khi nào?)",
-            "options": [
-              "いいてんきの とき (Khi thời tiết đẹp)",
-              "あめの とき (Khi mưa)",
-              "さむい とき (Khi lạnh)",
-              "あつい とき (Khi nóng)"
-            ],
-            "correctIndex": 0,
-            "explanation": "📖 Dịch nghĩa:\nどんなとき ハイキングに いきますか？ (Đi leo núi khi nào?)\n- Đáp án đúng: **いいてんきの とき (Khi thời tiết đẹp)**.\n\n✍️ Phân tích đáp án:\n- Dựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác."
+            "explanation": "📖 Dịch nghĩa:\nわたしは ともだちに なにを しましたか？ (Tôi đã làm gì cho bạn bè?)\n\n✍️ Phân tích đáp án:\n- Đáp án đúng: **ケーキを つくって あげました (Làm bánh kem cho)**.\n\n<strong style=\"color: var(--blue);\">🔍 Phân tích ngữ pháp câu:</strong>\n- <span style=\"color: #7aa2f7; font-weight: 800;\">わたし</span> (Từ vựng - Đại từ: \"Tôi\")\n- <span style=\"color: #f73859; font-weight: 800;\">は</span> (Trợ từ chỉ chủ đề (Topic))\n- <span style=\"color: #7aa2f7; font-weight: 800;\">ともだち</span> (Từ vựng - Danh từ: \"Bạn bè\")\n- <span style=\"color: #f73859; font-weight: 800;\">に</span> (Trợ từ chỉ thời gian / địa điểm / đối tượng tiếp nhận)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">なに</span> (Từ vựng - Từ hỏi: \"Cái gì\")\n- <span style=\"color: #f73859; font-weight: 800;\">を</span> (Trợ từ chỉ tân ngữ trực tiếp)\n- <span style=\"color: #7aa2f7; font-weight: 800;\">しました</span> (Từ vựng - Động từ: \"Làm, chơi\")\n\n📝 Từ vựng trong câu:\n- **私 (わたし / watashi)**: Tôi\n- **友達 (ともだち / tomodachi)**: Bạn bè\n- **何 (なに / nani)**: Cái gì\n- **します (shimasu)**: Làm, chơi\n\n💡 Ngữ pháp & Mẹo nhớ:\nDựa vào nội dung đoạn văn đọc hiểu để đối chiếu thông tin chính xác."
           }
         ]
       }
