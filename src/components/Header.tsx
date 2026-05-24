@@ -303,7 +303,7 @@ export function Header({ progress, onReset }: Props) {
 
             <div className="search-detail-footer">
               <a
-                href={`https://jisho.org/search/${encodeURIComponent(selectedWord.word.word)}`}
+                href={`https://jisho.org/search/${encodeURIComponent(selectedWord.word.word)}%20%23kanji`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-search-action btn-jisho"
