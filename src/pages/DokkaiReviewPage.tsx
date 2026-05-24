@@ -52,6 +52,86 @@ const getPassageTranslation = (reviewId: string) => {
   return null;
 };
 
+const PASSAGE_VOCABULARY: Record<string, string[]> = {
+  'review_1_5': [
+    'きのう (kinou): Hôm qua',
+    'たんじょうび (tanjoubi): Sinh nhật',
+    'ともだち (tomodachi): Bạn bè',
+    'レストラン (resutoran): Nhà hàng',
+    'おいしい (oishii): Ngon',
+    'ごはん (gohan): Cơm, bữa ăn',
+    'それから (sorekara): Sau đó, tiếp theo',
+    'えいが (eiga): Bộ phim, điện ảnh',
+    'たのしかった (tanoshikatta): Đã rất vui (quá khứ của たのしい)'
+  ],
+  'review_6_10': [
+    'きょう (kyou): Hôm nay',
+    'あsа (asa): Buổi sáng',
+    'はは (haha): Mẹ (của mình)',
+    'プレゼント (purezento): Quà tặng',
+    'もらいました (moraimashita): Đã nhận (từ もらいます)',
+    'シャツ (shatsu): Áo sơ mi',
+    'ぼうし (boushi): Mũ, nón',
+    'しろい (shiroi): Màu trắng',
+    'くろい (kuroi): Màu đen',
+    'よる (yoru): Buổi tối, ban đêm',
+    'かぞく (kazoku): Gia đình',
+    'いっしょに (isshoni): Cùng nhau, cùng với',
+    'しょくじを します (shokuji wo shimasu): Dùng bữa, ăn uống'
+  ],
+  'review_11_15': [
+    'かぞく (kazoku): Gia đình',
+    '４にん (yonin): 4 người',
+    'あに (ani): Anh trai',
+    'だいがくせい (daigakusei): Sinh viên đại học',
+    'とうきょう (toukyou): Tokyo',
+    'すんでいます (sundeimasu): Đang sống (từ すみます)',
+    'こうこうsei (koukousei): Học sinh cấp ba',
+    'らいねん (rainen): Sang năm'
+  ],
+  'review_16_20': [
+    'まいあさ (maiasa): Mỗi sáng, hàng sáng',
+    'おきます (okimasu): Thức dậy',
+    'あsaごはん (asagohan): Bữa sáng, cơm sáng',
+    'まえに (maeni): Trước khi',
+    'ジョギング (jogingu): Chạy bộ',
+    'しゅみ (shumi): Sở thích',
+    'シャワーを あびます (shawaa wo abimasu): Tắm vòi hoa sen',
+    'あびてから (abitekara): Sau khi tắm (Vて + から)'
+  ],
+  'review_21_25': [
+    'きのう (kinou): Hôm qua',
+    'ともだち (tomodachi): Bạn bè',
+    'うちへ いきました (uchi e ikimashita): Đi đến nhà (ai đó) chơi',
+    'ケーキ (keeki): Bánh ngọt, bánh kem',
+    'つくります (tsukurimasu): Làm, chế tạo (thể て là つくって)',
+    'くれました (kuremashita): Cho/tặng tôi (làm việc gì đó cho tôi)',
+    'おいしかった (oishikatta): Đã ngon (quá khứ của おいしい)',
+    'また (mata): Lại, lần nữa',
+    'たべたい (tabetai): Muốn ăn (thể Vたい của たべます)',
+    'おもいます (omoimasu): Nghĩ, suy nghĩ'
+  ]
+};
+
+const getPassageVocabulary = (reviewId: string) => {
+  if (!reviewId) return null;
+  const normalized = reviewId.toLowerCase();
+  if (normalized.includes('review_1_5')) return PASSAGE_VOCABULARY['review_1_5'];
+  if (normalized.includes('review_6_10')) return PASSAGE_VOCABULARY['review_6_10'];
+  if (normalized.includes('review_11_15')) return PASSAGE_VOCABULARY['review_11_15'];
+  if (normalized.includes('review_16_20')) return PASSAGE_VOCABULARY['review_16_20'];
+  if (normalized.includes('review_21_25')) return PASSAGE_VOCABULARY['review_21_25'];
+  return null;
+};
+
+const cleanExplanation = (html: string) => {
+  if (!html) return '';
+  let cleaned = html.replace(/<br\/?>\s*<br\/?>\s*<strong[^>]*>📝\s*Dịch nghĩa toàn bộ đoạn văn:<\/strong>[\s\S]*?<\/span>/gi, '');
+  cleaned = cleaned.replace(/<br\/?>\s*<br\/?>\s*<strong[^>]*>📚\s*Từ vựng trong đoạn văn:<\/strong>[\s\S]*?<\/span>/gi, '');
+  cleaned = cleaned.trim().replace(/(?:<br\/?>\s*)+$/gi, '').trim();
+  return cleaned;
+};
+
 
 export function DokkaiReviewPage({ reviewId, onHome, addXP, onComplete }: Props) {
   const review = DOKKAI_REVIEWS.find(r => r.id === reviewId);
@@ -197,20 +277,43 @@ export function DokkaiReviewPage({ reviewId, onHome, addXP, onComplete }: Props)
                     <div dangerouslySetInnerHTML={{ __html: passage.htmlContent }} />
                   ) : (() => {
                     const translation = getPassageTranslation(review.id);
+                    const vocabulary = getPassageVocabulary(review.id);
                     return translation ? (
                       <div style={{ display: 'flex', gap: '24px', flexWrap: 'wrap', width: '100%' }}>
-                        <div style={{ flex: '1 1 280px', minWidth: '280px', fontSize: 18, lineHeight: 1.8, color: 'var(--text)', background: 'rgba(122, 162, 247, 0.02)', padding: '20px', borderRadius: 12, borderLeft: '4px solid var(--blue)', boxSizing: 'border-box' }}>
+                        {/* Cột 1: Đoạn văn chính */}
+                        <div style={{ flex: '1.2 1 300px', minWidth: '280px', fontSize: 18, lineHeight: 1.8, color: 'var(--text)', background: 'rgba(122, 162, 247, 0.02)', padding: '20px', borderRadius: 12, borderLeft: '4px solid var(--blue)', boxSizing: 'border-box' }}>
                           <div style={{ fontSize: 13, fontWeight: 800, color: 'var(--blue)', marginBottom: 12, textTransform: 'uppercase', letterSpacing: 0.5 }}>Đoạn văn chính (日本語)</div>
                           {passage.text?.map((para, i) => (
                             <p key={i} style={{ margin: '0 0 12px 0' }}>{para}</p>
                           ))}
                         </div>
+                        
+                        {/* Cột 2: Bản dịch nghĩa */}
                         <div style={{ flex: '1 1 280px', minWidth: '280px', fontSize: 16, lineHeight: 1.8, color: 'var(--text)', background: 'rgba(255, 184, 108, 0.02)', padding: '20px', borderRadius: 12, borderLeft: '4px solid var(--gold)', fontStyle: 'italic', boxSizing: 'border-box' }}>
                           <div style={{ fontSize: 13, fontWeight: 800, color: 'var(--gold)', marginBottom: 12, textTransform: 'uppercase', letterSpacing: 0.5, fontStyle: 'normal' }}>Dịch nghĩa (Tiếng Việt)</div>
                           {translation.map((para, i) => (
                             <p key={i} style={{ margin: '0 0 12px 0' }}>{para}</p>
                           ))}
                         </div>
+
+                        {/* Cột 3: Từ vựng trọng tâm */}
+                        {vocabulary && (
+                          <div style={{ flex: '1 1 280px', minWidth: '280px', fontSize: 15, lineHeight: 1.6, color: 'var(--text)', background: 'rgba(115, 218, 202, 0.02)', padding: '20px', borderRadius: 12, borderLeft: '4px solid var(--green)', boxSizing: 'border-box' }}>
+                            <div style={{ fontSize: 13, fontWeight: 800, color: 'var(--green)', marginBottom: 12, textTransform: 'uppercase', letterSpacing: 0.5 }}>Từ vựng trọng tâm (単語)</div>
+                            <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
+                              {vocabulary.map((vocabItem, i) => {
+                                const parts = vocabItem.split(':');
+                                const term = parts[0];
+                                const def = parts.slice(1).join(':');
+                                return (
+                                  <div key={i} style={{ borderBottom: '1px solid rgba(255,255,255,0.03)', paddingBottom: '4px', fontSize: 14 }}>
+                                    <strong style={{ color: 'var(--green)' }}>{term}</strong>:{def}
+                                  </div>
+                                );
+                              })}
+                            </div>
+                          </div>
+                        )}
                       </div>
                     ) : (
                       <div style={{ fontSize: 18, lineHeight: 1.8, color: 'var(--text)', background: 'rgba(255,255,255,0.02)', padding: '16px', borderRadius: 8, borderLeft: '4px solid #64b5f6' }}>
@@ -321,7 +424,7 @@ export function DokkaiReviewPage({ reviewId, onHome, addXP, onComplete }: Props)
                               {q.explanation && (
                                 <div style={{ fontSize: 14, color: 'var(--text)', lineHeight: 1.6, whiteSpace: 'pre-wrap' }}>
                                   <strong style={{ color: 'var(--gold)', fontSize: 15 }}>💡 Giải thích chi tiết:</strong><br />
-                                  <div dangerouslySetInnerHTML={{ __html: q.explanation }} />
+                                  <div dangerouslySetInnerHTML={{ __html: cleanExplanation(q.explanation) }} />
                                 </div>
                               )}
                             </div>
