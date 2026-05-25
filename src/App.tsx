@@ -193,147 +193,6 @@ export default function App() {
 
   const learnedPool = useMemo(() => KANJI_N5.filter(k => progress.learnedIds.includes(k.id)), [progress.learnedIds]);
 
-  // ── Route Wrappers ────────────────────────────────
-  const LearnRoute = () => {
-    const location = useLocation();
-    const queue = location.state?.queue || [];
-    if (queue.length === 0) return <Navigate to="/kanji" replace />;
-    return <LearnPage queue={queue} onCardDone={handleCardDone} onComplete={handleLearnComplete} onHome={goHome} />;
-  };
-
-  const LearnCompleteRoute = () => {
-    const location = useLocation();
-    const queue = location.state?.queue || [];
-    if (queue.length === 0) return <Navigate to="/kanji" replace />;
-    return (
-      <div className="result-screen screen">
-        <div style={{ fontSize: 72 }}>🎉</div>
-        <h2>Học xong {queue.length} Kanji!</h2>
-        <p>Bây giờ làm quiz để ghi nhớ sâu hơn nhé</p>
-        <div className="result-stats">
-          <div className="r-stat"><div className="num">{queue.length}</div><div className="lbl">Kanji mới</div></div>
-          <div className="r-stat"><div className="num">+{queue.length * 5}</div><div className="lbl">XP kiếm được</div></div>
-        </div>
-        <div className="btn-row">
-          <button className="btn btn-primary" onClick={() => startExerciseFromLearn(queue)}>
-            🧩 Bắt Đầu 5 Bài Luyện Tập Liên Tiếp
-          </button>
-        </div>
-      </div>
-    );
-  };
-
-  const QuizRoute = () => {
-    const location = useLocation();
-    const questions = location.state?.questions || [];
-    if (questions.length === 0) return <Navigate to="/" replace />;
-    return <QuizPage questions={questions} on답Done={handleQuizAnswer} onFinish={handleQuizFinish} onHome={goHome} />;
-  };
-
-  const ResultRoute = () => {
-    const location = useLocation();
-    const { score, total, xpGained } = location.state || { score: 0, total: 0, xpGained: 0 };
-    return (
-      <ResultPage
-        score={score}
-        total={total}
-        xpGained={xpGained}
-        weakCount={progress.weakIds.length}
-        onReview={startReview}
-        onLearnMore={() => startLearn(
-          KANJI_N5.filter((k) => !progress.learnedIds.includes(k.id)).slice(0, 5)
-        )}
-        onHome={goHome}
-      />
-    );
-  };
-
-  const ExerciseRoute = () => {
-    const location = useLocation();
-    const queue = location.state?.queue || learnedPool;
-    return (
-      <ExercisePage
-        pool={queue}
-        onStartDeepQuiz={startQuizFromLearn}
-        progress={progress}
-        onUpdateStage={(stage: number) => {
-          if (queue.length > 5) return;
-          updateDeepStage(queue[0]?.id || 0, stage);
-        }}
-        onHome={goHome}
-        onLogSession={handleExerciseLog}
-      />
-    );
-  };
-
-  const NihongoLessonRoute = () => {
-    const { lessonIds } = useParams();
-    const ids = useMemo(() => (lessonIds || '').split(',').map(Number).filter(Boolean), [lessonIds]);
-    const lessons = useMemo(() => NIHONGO_LESSONS.filter(l => ids.includes(l.id)), [ids]);
-
-    if (lessons.length === 0) return <Navigate to="/nihongo" replace />;
-
-    return (
-      <NihongoLessonPage
-        lessons={lessons}
-        onHome={goNihongo}
-        onLessonComplete={(id) => {
-          markNihongoLessonCompleted(id);
-          incrementLessonReviewCount(id);
-        }}
-        sentenceMastery={progress.sentenceMastery || {}}
-        updateSentenceMastery={(key, type) => {
-          updateSentenceMastery(key, type);
-          addXP(5);
-          showXP(5);
-        }}
-        addXP={(amount) => {
-          addXP(amount);
-          showXP(amount);
-        }}
-      />
-    );
-  };
-
-  const CheckpointRoute = () => {
-    const { checkpointId } = useParams();
-    return (
-      <CheckpointDashboardPage
-        checkpointId={checkpointId || ''}
-        checkpointMastery={progress.checkpointMastery || {}}
-        onHome={goNihongo}
-        onSelectTest={(testId) => navigate(`/dokkai/${testId}`, { state: { checkpointId } })}
-      />
-    );
-  };
-
-  const DokkaiReviewRoute = () => {
-    const { reviewId } = useParams();
-    const location = useLocation();
-    const checkpointId = location.state?.checkpointId;
-
-    return (
-      <DokkaiReviewPage
-        reviewId={reviewId || ''}
-        onHome={() => checkpointId ? navigate(`/checkpoint/${checkpointId}`) : navigate('/nihongo')}
-        addXP={(amount) => {
-          addXP(amount);
-          showXP(amount);
-        }}
-        onComplete={(isPassed, score) => updateCheckpointMastery(reviewId || '', isPassed, score)}
-      />
-    );
-  };
-
-  const JlptTestRoute = () => {
-    const location = useLocation();
-    const testData = location.state?.testData;
-    if (!testData) return <Navigate to="/jlpt" replace />;
-    return <JlptTestPage test={testData} onHome={goHome} onBack={jlptTestListBack} />;
-  };
-
-  const jlptTestListBack = useCallback(() => navigate('/jlpt'), [navigate]);
-
   return (
     <div className="app-container">
       <Sidebar />
@@ -374,11 +233,58 @@ export default function App() {
                 />
               }
             />
-            <Route path="/kanji/learn" element={<LearnRoute />} />
-            <Route path="/kanji/learn-complete" element={<LearnCompleteRoute />} />
-            <Route path="/quiz" element={<QuizRoute />} />
-            <Route path="/result" element={<ResultRoute />} />
-            <Route path="/exercise" element={<ExerciseRoute />} />
+            <Route
+              path="/kanji/learn"
+              element={
+                <LearnRoute
+                  onCardDone={handleCardDone}
+                  onComplete={handleLearnComplete}
+                  onHome={goHome}
+                />
+              }
+            />
+            <Route
+              path="/kanji/learn-complete"
+              element={
+                <LearnCompleteRoute
+                  startExerciseFromLearn={startExerciseFromLearn}
+                />
+              }
+            />
+            <Route
+              path="/quiz"
+              element={
+                <QuizRoute
+                  handleQuizAnswer={handleQuizAnswer}
+                  handleQuizFinish={handleQuizFinish}
+                  onHome={goHome}
+                />
+              }
+            />
+            <Route
+              path="/result"
+              element={
+                <ResultRoute
+                  progress={progress}
+                  startReview={startReview}
+                  startLearn={startLearn}
+                  onHome={goHome}
+                />
+              }
+            />
+            <Route
+              path="/exercise"
+              element={
+                <ExerciseRoute
+                  learnedPool={learnedPool}
+                  startQuizFromLearn={startQuizFromLearn}
+                  progress={progress}
+                  updateDeepStage={updateDeepStage}
+                  onHome={goHome}
+                  handleExerciseLog={handleExerciseLog}
+                />
+              }
+            />
             <Route path="/guide" element={<GuidePage onHome={goHome} />} />
             <Route path="/plan" element={<PlanPage progress={progress} onHome={goHome} />} />
             <Route
@@ -410,10 +316,52 @@ export default function App() {
                 />
               }
             />
-            <Route path="/nihongo/lessons/:lessonIds" element={<NihongoLessonRoute />} />
+            <Route
+              path="/nihongo/lessons/:lessonIds"
+              element={
+                <NihongoLessonRoute
+                  onHome={goNihongo}
+                  onLessonComplete={(id) => {
+                    markNihongoLessonCompleted(id);
+                    incrementLessonReviewCount(id);
+                  }}
+                  sentenceMastery={progress.sentenceMastery || {}}
+                  updateSentenceMastery={(key, type) => {
+                    updateSentenceMastery(key, type);
+                    addXP(5);
+                    showXP(5);
+                  }}
+                  addXP={(amount) => {
+                    addXP(amount);
+                    showXP(amount);
+                  }}
+                />
+              }
+            />
             <Route path="/listening" element={<ListeningPracticePage onHome={goHome} />} />
-            <Route path="/checkpoint/:checkpointId" element={<CheckpointRoute />} />
-            <Route path="/dokkai/:reviewId" element={<DokkaiReviewRoute />} />
+            <Route
+              path="/checkpoint/:checkpointId"
+              element={
+                <CheckpointRoute
+                  progress={progress}
+                  onHome={goNihongo}
+                  onSelectTest={(testId, checkpointId) => navigate(`/dokkai/${testId}`, { state: { checkpointId } })}
+                />
+              }
+            />
+            <Route
+              path="/dokkai/:reviewId"
+              element={
+                <DokkaiReviewRoute
+                  onHome={(checkpointId) => checkpointId ? navigate(`/checkpoint/${checkpointId}`) : navigate('/nihongo')}
+                  addXP={(amount) => {
+                    addXP(amount);
+                    showXP(amount);
+                  }}
+                  onComplete={(reviewId, isPassed, score) => updateCheckpointMastery(reviewId, isPassed, score)}
+                />
+              }
+            />
             <Route
               path="/jlpt"
               element={
@@ -424,10 +372,184 @@ export default function App() {
                 />
               }
             />
-            <Route path="/jlpt/test" element={<JlptTestRoute />} />
+            <Route
+              path="/jlpt/test"
+              element={
+                <JlptTestRoute
+                  onHome={goHome}
+                  onBack={goJlptTestList}
+                />
+              }
+            />
           </Routes>
         </div>
       </div>
     </div>
   );
+}
+
+// ── Static Route Wrapper Components (Outside App to prevent remounting on state changes) ──
+
+function LearnRoute({ onCardDone, onComplete, onHome }: {
+  onCardDone: (id: number) => void;
+  onComplete: (queue: KanjiItem[]) => void;
+  onHome: () => void;
+}) {
+  const location = useLocation();
+  const queue = location.state?.queue || [];
+  if (queue.length === 0) return <Navigate to="/kanji" replace />;
+  return <LearnPage queue={queue} onCardDone={onCardDone} onComplete={onComplete} onHome={onHome} />;
+}
+
+function LearnCompleteRoute({ startExerciseFromLearn }: {
+  startExerciseFromLearn: (queue: KanjiItem[]) => void;
+}) {
+  const location = useLocation();
+  const queue = location.state?.queue || [];
+  if (queue.length === 0) return <Navigate to="/kanji" replace />;
+  return (
+    <div className="result-screen screen">
+      <div style={{ fontSize: 72 }}>🎉</div>
+      <h2>Học xong {queue.length} Kanji!</h2>
+      <p>Bây giờ làm quiz để ghi nhớ sâu hơn nhé</p>
+      <div className="result-stats">
+        <div className="r-stat"><div className="num">{queue.length}</div><div className="lbl">Kanji mới</div></div>
+        <div className="r-stat"><div className="num">+{queue.length * 5}</div><div className="lbl">XP kiếm được</div></div>
+      </div>
+      <div className="btn-row">
+        <button className="btn btn-primary" onClick={() => startExerciseFromLearn(queue)}>
+          🧩 Bắt Đầu 5 Bài Luyện Tập Liên Tiếp
+        </button>
+      </div>
+    </div>
+  );
+}
+
+function QuizRoute({ handleQuizAnswer, handleQuizFinish, onHome }: {
+  handleQuizAnswer: (id: number, correct: boolean) => void;
+  handleQuizFinish: (score: number, total: number) => void;
+  onHome: () => void;
+}) {
+  const location = useLocation();
+  const questions = location.state?.questions || [];
+  if (questions.length === 0) return <Navigate to="/" replace />;
+  return <QuizPage questions={questions} on답Done={handleQuizAnswer} onFinish={handleQuizFinish} onHome={onHome} />;
+}
+
+function ResultRoute({ progress, startReview, startLearn, onHome }: {
+  progress: any;
+  startReview: () => void;
+  startLearn: (items: KanjiItem[]) => void;
+  onHome: () => void;
+}) {
+  const location = useLocation();
+  const { score, total, xpGained } = location.state || { score: 0, total: 0, xpGained: 0 };
+  return (
+    <ResultPage
+      score={score}
+      total={total}
+      xpGained={xpGained}
+      weakCount={progress.weakIds.length}
+      onReview={startReview}
+      onLearnMore={() => startLearn(
+        KANJI_N5.filter((k) => !progress.learnedIds.includes(k.id)).slice(0, 5)
+      )}
+      onHome={onHome}
+    />
+  );
+}
+
+function ExerciseRoute({ learnedPool, startQuizFromLearn, progress, updateDeepStage, onHome, handleExerciseLog }: {
+  learnedPool: KanjiItem[];
+  startQuizFromLearn: (items: KanjiItem[]) => void;
+  progress: any;
+  updateDeepStage: (id: number, stage: number) => void;
+  onHome: () => void;
+  handleExerciseLog: (score: number, total: number) => void;
+}) {
+  const location = useLocation();
+  const queue = location.state?.queue || learnedPool;
+  return (
+    <ExercisePage
+      pool={queue}
+      onStartDeepQuiz={startQuizFromLearn}
+      progress={progress}
+      onUpdateStage={(stage: number) => {
+        if (queue.length > 5) return;
+        updateDeepStage(queue[0]?.id || 0, stage);
+      }}
+      onHome={onHome}
+      onLogSession={handleExerciseLog}
+    />
+  );
+}
+
+function NihongoLessonRoute({ onHome, onLessonComplete, sentenceMastery, updateSentenceMastery, addXP }: {
+  onHome: () => void;
+  onLessonComplete: (id: number) => void;
+  sentenceMastery: any;
+  updateSentenceMastery: (key: string, type: 'listen' | 'translate') => void;
+  addXP: (amount: number) => void;
+}) {
+  const { lessonIds } = useParams();
+  const ids = useMemo(() => (lessonIds || '').split(',').map(Number).filter(Boolean), [lessonIds]);
+  const lessons = useMemo(() => NIHONGO_LESSONS.filter(l => ids.includes(l.id)), [ids]);
+
+  if (lessons.length === 0) return <Navigate to="/nihongo" replace />;
+
+  return (
+    <NihongoLessonPage
+      lessons={lessons}
+      onHome={onHome}
+      onLessonComplete={onLessonComplete}
+      sentenceMastery={sentenceMastery}
+      updateSentenceMastery={updateSentenceMastery}
+      addXP={addXP}
+    />
+  );
+}
+
+function CheckpointRoute({ progress, onHome, onSelectTest }: {
+  progress: any;
+  onHome: () => void;
+  onSelectTest: (testId: string, checkpointId: string) => void;
+}) {
+  const { checkpointId } = useParams();
+  return (
+    <CheckpointDashboardPage
+      checkpointId={checkpointId || ''}
+      checkpointMastery={progress.checkpointMastery || {}}
+      onHome={onHome}
+      onSelectTest={(testId) => onSelectTest(testId, checkpointId || '')}
+    />
+  );
+}
+
+function DokkaiReviewRoute({ onHome, addXP, onComplete }: {
+  onHome: (checkpointId?: string) => void;
+  addXP: (amount: number) => void;
+  onComplete: (reviewId: string, isPassed: boolean, score: number) => void;
+}) {
+  const { reviewId } = useParams();
+  const location = useLocation();
+  const checkpointId = location.state?.checkpointId;
+
+  return (
+    <DokkaiReviewPage
+      reviewId={reviewId || ''}
+      onHome={() => onHome(checkpointId)}
+      addXP={addXP}
+      onComplete={(isPassed, score) => onComplete(reviewId || '', isPassed, score)}
+    />
+  );
+}
+
+function JlptTestRoute({ onHome, onBack }: {
+  onHome: () => void;
+  onBack: () => void;
+}) {
+  const location = useLocation();
+  const testData = location.state?.testData;
+  if (!testData) return <Navigate to="/jlpt" replace />;
+  return <JlptTestPage test={testData} onHome={onHome} onBack={onBack} />;
 }
