@@ -64,6 +64,7 @@ import { NihongoLesson, LessonWord, GrammarExercise } from '../src/data/lessons/
 import { DokkaiReview, DokkaiPassage, DokkaiQuestion } from '../src/types';
 import { DOKKAI_REVIEWS as OLD_REVIEWS } from './temp_old_reviews';
 import { JLPT_SENTENCE_BANK } from '../src/data/jlpt-sentence-bank';
+import { KANJI_N5 } from '../src/data/kanji-n5';
 
 const lessons: NihongoLesson[] = [
   lesson1, lesson2, lesson3, lesson4, lesson5,
@@ -90,6 +91,22 @@ for (const w of N5_DICTIONARY) {
   const itemStr = w.word !== w.reading ? `${w.word} (${w.reading} / ${w.romaji}): ${w.meaning}` : `${w.reading} (${w.romaji}): ${w.meaning}`;
   if (w.word) N5_DICT[w.word] = itemStr;
   if (w.reading) N5_DICT[w.reading] = itemStr;
+}
+
+const n5KanjiChars = new Set(KANJI_N5.map(k => k.kanji));
+
+function isN5KanjiWord(w: LessonWord): boolean {
+  if (!w.word) return false;
+  const hasKanji = /[\u4e00-\u9faf]/.test(w.word);
+  if (!hasKanji) return false;
+  if (w.word === w.reading) return false;
+
+  for (const char of w.word) {
+    if (/[\u4e00-\u9faf]/.test(char) && !n5KanjiChars.has(char)) {
+      return false;
+    }
+  }
+  return true;
 }
 
 interface WordForm {
@@ -963,11 +980,12 @@ for (const p of POOLS) {
     usedReadingIndex = blockReadings.findIndex(r => r[0] && r[0].lines && r[0].lines[0] && r[0].lines[0].jp === firstLine);
   }
 
-  // Filter the pools for Tests 2-5 to guarantee 100% uniqueness
-  let mojiWordsPool = shuffle(kanjiWords);
-  while (mojiWordsPool.length < 60) {
-    mojiWordsPool = [...mojiWordsPool, ...shuffle(allWords)];
-  }
+  // Filter the pools for Tests 2-5 to guarantee 100% uniqueness and strict N5 Kanji compliance
+  const cumulativeLessons = lessons.slice(0, p.end);
+  const cumulativeWords = cumulativeLessons.flatMap(l => l.words);
+  const eligibleKanjiWords = cumulativeWords.filter(isN5KanjiWord);
+
+  let mojiWordsPool = shuffle(eligibleKanjiWords);
   const filteredMojiWordsPool = mojiWordsPool.filter(w => !usedKanjiWords.has(w.word) && !usedKanjiWords.has(w.reading));
 
   const blockExercises = blockLessons.flatMap(l => l.grammarExercises || []);
@@ -1001,7 +1019,7 @@ for (const p of POOLS) {
     const moji1Qs: DokkaiQuestion[] = [];
     const moji1Words = filteredMojiWordsPool.slice((i - 1) * 4, (i - 1) * 4 + 4);
     moji1Words.forEach((w, j) => {
-      const allReadings = allWords.map(x => x.reading);
+      const allReadings = cumulativeWords.map(x => x.reading);
       const shuffledOptions = generateDistractors(w.reading, allReadings, true);
       const finalOptions = shuffle([w.reading, ...shuffledOptions]);
       const correctIdx = finalOptions.indexOf(w.reading);
@@ -1051,7 +1069,7 @@ for (const p of POOLS) {
     const moji2Qs: DokkaiQuestion[] = [];
     const moji2Words = filteredMojiWordsPool.slice(16 + (i - 1) * 4, 16 + (i - 1) * 4 + 4);
     moji2Words.forEach((w, j) => {
-      const allKanjis = allWords.map(x => x.word);
+      const allKanjis = cumulativeWords.map(x => x.word);
       const shuffledOptions = generateDistractors(w.word, allKanjis, true);
       const finalOptions = shuffle([w.word, ...shuffledOptions]);
       const correctIdx = finalOptions.indexOf(w.word);
