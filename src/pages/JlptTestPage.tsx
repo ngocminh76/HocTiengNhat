@@ -2,6 +2,7 @@
 import { useState, useMemo, useEffect } from 'react';
 import type { JlptTest, JlptQuestion } from '../data/jlpt-tests';
 import { useSpeech } from '../hooks/useSpeech';
+import { cleanSentenceForN5 } from '../utils/kanji';
 
 interface Props {
   test: JlptTest;
@@ -9,7 +10,25 @@ interface Props {
   onHome: () => void;
 }
 
-export function JlptTestPage({ test, onBack, onHome }: Props) {
+export function JlptTestPage({ test: rawTest, onBack, onHome }: Props) {
+  const jlptFocus = localStorage.getItem('jlpt_focus_mode') || 'N5';
+
+  const test = useMemo(() => {
+    if (jlptFocus !== 'N5') return rawTest;
+    return {
+      ...rawTest,
+      questions: rawTest.questions.map(q => ({
+        ...q,
+        question: cleanSentenceForN5(q.question),
+        options: q.options.map(opt => cleanSentenceForN5(opt)),
+        answer: cleanSentenceForN5(q.answer),
+        explanation: q.explanation ? cleanSentenceForN5(q.explanation) : q.explanation,
+        translation: q.translation ? cleanSentenceForN5(q.translation) : q.translation,
+        readingPassage: q.readingPassage ? cleanSentenceForN5(q.readingPassage) : q.readingPassage,
+      }))
+    };
+  }, [rawTest, jlptFocus]);
+
   const [answers, setAnswers] = useState<Record<string, string>>({});
   const [submitted, setSubmitted] = useState(false);
   const [timeLeft, setTimeLeft] = useState(25 * 60); // 25 minutes limit

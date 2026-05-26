@@ -3,6 +3,7 @@
 import { useState, useMemo } from 'react';
 import type { ReadingPassage, Progress } from '../types';
 import { ReadingExercise } from './exercises/ReadingExercise';
+import { cleanSentenceForN5 } from '../utils/kanji';
 
 interface Props {
   passages: ReadingPassage[];
@@ -55,9 +56,33 @@ export function ReadingSelectPage({ passages, progress, onHome }: Props) {
 
   // Lọc passages theo bộ đã chọn
   const filteredPassages = useMemo(() => {
-    return passages.filter(p =>
+    const rawFiltered = passages.filter(p =>
       p.batchIds.some(b => selected.includes(b))
     );
+    const jlptFocus = localStorage.getItem('jlpt_focus_mode') || 'N5';
+    if (jlptFocus !== 'N5') return rawFiltered;
+
+    return rawFiltered.map(p => ({
+      ...p,
+      title: cleanSentenceForN5(p.title),
+      lines: p.lines.map(line => ({
+        ...line,
+        jp: cleanSentenceForN5(line.jp),
+        segments: line.segments ? line.segments.map(seg => ({
+          ...seg,
+          jp: cleanSentenceForN5(seg.jp),
+        })) : undefined,
+      })),
+      questions: p.questions.map(q => ({
+        ...q,
+        question: cleanSentenceForN5(q.question),
+        options: q.options.map(opt => cleanSentenceForN5(opt)),
+      })),
+      vocab: p.vocab.map(v => ({
+        ...v,
+        word: cleanSentenceForN5(v.word),
+      }))
+    }));
   }, [passages, selected]);
 
   if (started && filteredPassages.length > 0) {

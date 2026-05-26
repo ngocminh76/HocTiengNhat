@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { DOKKAI_REVIEWS } from '../data/dokkai-reviews';
+import { cleanSentenceForN5 } from '../utils/kanji';
 
 interface Props {
   reviewId: string;
@@ -134,7 +135,33 @@ const cleanExplanation = (html: string) => {
 
 
 export function DokkaiReviewPage({ reviewId, onHome, addXP, onComplete }: Props) {
-  const review = DOKKAI_REVIEWS.find(r => r.id === reviewId);
+  const jlptFocus = localStorage.getItem('jlpt_focus_mode') || 'N5';
+
+  const review = React.useMemo(() => {
+    const rawReview = DOKKAI_REVIEWS.find(r => r.id === reviewId);
+    if (!rawReview) return undefined;
+    if (jlptFocus !== 'N5') return rawReview;
+
+    return {
+      ...rawReview,
+      passages: rawReview.passages.map(p => {
+        const resolvedTranslation = p.translation || getPassageTranslation(rawReview.id) || undefined;
+        const resolvedVocabulary = p.vocabulary || getPassageVocabulary(rawReview.id) || undefined;
+        return {
+          ...p,
+          text: p.text ? p.text.map(t => cleanSentenceForN5(t)) : undefined,
+          translation: resolvedTranslation ? resolvedTranslation.map(t => cleanSentenceForN5(t)) : undefined,
+          vocabulary: resolvedVocabulary ? resolvedVocabulary.map(v => cleanSentenceForN5(v)) : undefined,
+          questions: p.questions.map(q => ({
+            ...q,
+            question: cleanSentenceForN5(q.question),
+            options: q.options.map(opt => cleanSentenceForN5(opt)),
+            explanation: cleanSentenceForN5(q.explanation),
+          }))
+        };
+      })
+    };
+  }, [reviewId, jlptFocus]);
   const [answers, setAnswers] = useState<Record<string, number>>({});
   const [submitted, setSubmitted] = useState(false);
   const [timeLeft, setTimeLeft] = useState(20 * 60); // 20 minutes in seconds
