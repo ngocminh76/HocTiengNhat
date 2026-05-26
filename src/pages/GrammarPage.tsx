@@ -1,9 +1,10 @@
 // src/pages/GrammarPage.tsx
 // Trang học Ngữ Pháp: Flashcard -> Carousel ví dụ
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 import type { GrammarPattern } from '../types';
 import { useSpeech } from '../hooks/useSpeech';
 import { GrammarListeningExercise } from './exercises/GrammarListeningExercise';
+import { cleanSentenceForN5 } from '../utils/kanji';
 
 interface Props {
   data: GrammarPattern[];
@@ -13,7 +14,22 @@ interface Props {
   onShowReading?: () => void;
 }
 
-export function GrammarPage({ data, progress, onMarkLearned, onHome, onShowReading }: Props) {
+export function GrammarPage({ data: rawData, progress, onMarkLearned, onHome, onShowReading }: Props) {
+  const data = useMemo(() => {
+    const jlptFocus = localStorage.getItem('jlpt_focus_mode') || 'N5';
+    if (jlptFocus === 'N5') {
+      return rawData.map(p => ({
+        ...p,
+        examples: p.examples.map(ex => ({
+          ...ex,
+          jp: cleanSentenceForN5(ex.jp),
+          blank: cleanSentenceForN5(ex.blank)
+        }))
+      }));
+    }
+    return rawData;
+  }, [rawData]);
+
   const [currentIndex, setCurrentIndex] = useState(0);
   const [view, setView] = useState<'list' | 'flashcard' | 'examples' | 'exercise'>('list');
   const { speak, supported } = useSpeech();

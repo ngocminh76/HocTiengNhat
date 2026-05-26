@@ -6,7 +6,7 @@ import { useState, useMemo, useCallback, useEffect, useRef } from 'react';
 import type { NihongoLesson, LessonWord, LessonReading } from '../data/nihongo-lessons';
 import { useSpeech } from '../hooks/useSpeech';
 import { VocabTab, FlashTab, ListenTab, StatsTab, MatchTab, TranslateTab, ListenSentenceTab, N5ExamTab, ReadingTab, TypingTab, GrammarTab, GrammarQuizTab, SummaryTableTab } from './NihongoLessonTabs';
-import { getWordKanjiLevel } from '../utils/kanji';
+import { getWordKanjiLevel, cleanSentenceForN5 } from '../utils/kanji';
 import * as wanakana from 'wanakana';
 
 interface Props {
@@ -61,19 +61,45 @@ export function NihongoLessonPage({ lessons, onHome, onLessonComplete, sentenceM
     let all = lessons.flatMap(l => l.readings);
     const jlptFocus = localStorage.getItem('jlpt_focus_mode') || 'N5';
     if (jlptFocus === 'N5') {
-      const allWords = lessons.flatMap(l => l.words);
-      const n4plusWords = allWords.filter(w => getWordKanjiLevel(w.word) === 'N4+');
       all = all.map(r => ({
         ...r,
         lines: r.lines.map(line => {
           let modifiedKanji = (line as any).kanji;
           if (modifiedKanji) {
-            n4plusWords.forEach(w => {
-              modifiedKanji = modifiedKanji.split(w.word).join(w.reading);
-            });
+            modifiedKanji = cleanSentenceForN5(modifiedKanji);
           }
           return { ...line, kanji: modifiedKanji };
         })
+      }));
+    }
+    return all;
+  }, [lessonIdsDep]);
+
+  const processedGrammar = useMemo(() => {
+    let all = lessons.flatMap(l => l.grammar || []);
+    const jlptFocus = localStorage.getItem('jlpt_focus_mode') || 'N5';
+    if (jlptFocus === 'N5') {
+      return all.map(g => ({
+        ...g,
+        examples: g.examples.map(ex => ({
+          ...ex,
+          jp: cleanSentenceForN5(ex.jp)
+        }))
+      }));
+    }
+    return all;
+  }, [lessonIdsDep]);
+
+  const processedGrammarExercises = useMemo(() => {
+    let all = lessons.flatMap(l => l.grammarExercises || []);
+    const jlptFocus = localStorage.getItem('jlpt_focus_mode') || 'N5';
+    if (jlptFocus === 'N5') {
+      return all.map(ex => ({
+        ...ex,
+        question: cleanSentenceForN5(ex.question),
+        options: ex.options.map(opt => cleanSentenceForN5(opt)),
+        answer: cleanSentenceForN5(ex.answer),
+        explanation: ex.explanation ? cleanSentenceForN5(ex.explanation) : undefined
       }));
     }
     return all;
@@ -268,8 +294,8 @@ export function NihongoLessonPage({ lessons, onHome, onLessonComplete, sentenceM
       {/* Main Content Area (Full Width) */}
       <div style={{ width: '100%', paddingBottom: 80 }}>
         {tab === 'vocab' && <VocabTab words={mergedWords} mastery={mastery} speak={speak} supported={supported} />}
-        {tab === 'grammar' && lessons.some(l => l.grammar) && <GrammarTab grammar={lessons.flatMap(l => l.grammar || [])} speak={speak} supported={supported} />}
-        {tab === 'grammar_quiz' && lessons.some(l => l.grammarExercises) && <GrammarQuizTab exercises={lessons.flatMap(l => l.grammarExercises || [])} speak={speak} supported={supported} />}
+        {tab === 'grammar' && lessons.some(l => l.grammar) && <GrammarTab grammar={processedGrammar} speak={speak} supported={supported} />}
+        {tab === 'grammar_quiz' && lessons.some(l => l.grammarExercises) && <GrammarQuizTab exercises={processedGrammarExercises} speak={speak} supported={supported} />}
         {tab === 'flash' && <FlashTab words={mergedWords} mastery={mastery} onUpdate={updateMastery} speak={speak} supported={supported} />}
         {tab === 'listen' && <ListenTab words={mergedWords} mastery={mastery} onUpdate={updateMastery} speak={speak} supported={supported} />}
         {tab === 'match' && <MatchTab words={mergedWords} skipCount={masteredCount} />}
