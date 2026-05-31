@@ -4,6 +4,7 @@ import { KANJI_N5 } from '../data/kanji-n5';
 import * as wanakana from 'wanakana';
 
 import { getWordKanjiLevel, N5_KANJI_CHARS } from '../utils/kanji';
+import { PitchAccent } from '../components/PitchAccent';
 
 interface WordMastery { streak: number; total: number; correct: number; }
 type MasteryMap = Record<string, WordMastery>;
@@ -170,8 +171,10 @@ export function VocabTab({ words, mastery, speak, supported }: {
                 </div>
               </div>
               {/* Reading / romaji */}
-              <div style={{ fontSize: 11, fontFamily: 'monospace', color: 'var(--mute)', lineHeight: 1.3 }}>
-                {w.reading} · {w.romaji}
+              <div style={{ fontSize: 11, fontFamily: 'monospace', color: 'var(--mute)', lineHeight: 1.3, display: 'flex', alignItems: 'center', gap: 6, flexWrap: 'wrap' }}>
+                <PitchAccent word={w.word} reading={w.reading} />
+                <span>·</span>
+                <span>{w.romaji}</span>
               </div>
               {/* Meaning */}
               <div style={{ fontSize: 13, color: 'var(--gold)', fontWeight: 600, lineHeight: 1.3 }}>{w.meaning}</div>
@@ -418,7 +421,11 @@ export function FlashTab({ words, mastery, onUpdate, speak, supported }: {
       <div style={{ textAlign: 'center', background: 'var(--bg-card)', borderRadius: 16, padding: '32px 20px', marginBottom: 20, border: '1px solid var(--border)', position: 'relative' }}>
         <div style={{ position: 'absolute', top: 12, right: 12, fontSize: 18 }} title={badge.label}>{badge.icon}</div>
         <div style={{ fontSize: 42, fontWeight: 700, marginBottom: 8 }}>{cur.word}</div>
-        <div style={{ fontSize: 14, fontFamily: 'monospace', color: 'var(--mute)', marginBottom: 4 }}>{cur.reading} · {cur.romaji}</div>
+        <div style={{ fontSize: 14, fontFamily: 'monospace', color: 'var(--mute)', marginBottom: 4, display: 'flex', justifyContent: 'center', alignItems: 'center', gap: 6 }}>
+          <PitchAccent word={cur.word} reading={cur.reading} />
+          <span>·</span>
+          <span>{cur.romaji}</span>
+        </div>
         <div style={{ fontSize: 11, color: 'var(--mute)', background: 'rgba(255,255,255,0.05)', display: 'inline-block', padding: '2px 8px', borderRadius: 4 }}>{cur.type}</div>
         {supported && (
           <div style={{ marginTop: 10 }}>
@@ -574,7 +581,11 @@ export function ListenTab({ words, mastery, onUpdate, speak, supported }: {
         ) : (
           <div style={{ animation: 'fadeIn 0.3s' }}>
             <div style={{ fontSize: 36, fontWeight: 700 }}>{cur.word}</div>
-            <div style={{ fontSize: 14, color: 'var(--mute)', fontFamily: 'monospace' }}>{cur.reading} · {cur.romaji}</div>
+            <div style={{ fontSize: 14, color: 'var(--mute)', fontFamily: 'monospace', display: 'flex', justifyContent: 'center', alignItems: 'center', gap: 6 }}>
+              <PitchAccent word={cur.word} reading={cur.reading} />
+              <span>·</span>
+              <span>{cur.romaji}</span>
+            </div>
             <div style={{ color: 'var(--gold)', marginTop: 4 }}>{cur.meaning}</div>
           </div>
         )}
@@ -1122,7 +1133,9 @@ export function MatchTab({ words, skipCount }: { words: LessonWord[], skipCount:
 
           <div style={{ display: 'flex', alignItems: 'flex-end', gap: 12, marginBottom: 12 }}>
             <div style={{ fontSize: 44, fontWeight: 800, lineHeight: 1, color: 'var(--text)' }}>{activeWord.word}</div>
-            <div style={{ fontSize: 14, fontFamily: 'monospace', color: 'var(--mute)', paddingBottom: 6 }}>{activeWord.reading}</div>
+            <div style={{ fontSize: 14, fontFamily: 'monospace', color: 'var(--mute)', paddingBottom: 6 }}>
+              <PitchAccent word={activeWord.word} reading={activeWord.reading} />
+            </div>
           </div>
 
           <div style={{ fontSize: 13, color: 'var(--text)', marginBottom: 16 }}>
@@ -2013,7 +2026,9 @@ export function TypingTab({ words, mastery, onUpdate, speak, supported }: { word
           <div style={{ padding: '16px', borderRadius: 12, background: status === 'correct' ? 'rgba(6,214,160,0.1)' : 'rgba(100,181,246,0.1)', border: `1px solid ${status === 'correct' ? 'var(--green)' : 'rgba(100,181,246,0.3)'}`, marginBottom: 20, textAlign: 'center', animation: 'fadeIn 0.3s' }}>
             {status === 'correct' ? <div style={{ fontSize: 13, color: 'var(--green)', fontWeight: 700, marginBottom: 8 }}>✅ Chính xác!</div> : <div style={{ fontSize: 13, color: '#64b5f6', fontWeight: 700, marginBottom: 8 }}>Đáp án:</div>}
             <div style={{ fontSize: 24, fontWeight: 700, marginBottom: 4 }}>{cur.word}</div>
-            <div style={{ fontSize: 18, color: 'var(--gold)', fontWeight: 600 }}>{cur.reading}</div>
+            <div style={{ fontSize: 18, color: 'var(--gold)', fontWeight: 600 }}>
+              <PitchAccent word={cur.word} reading={cur.reading} />
+            </div>
             <div style={{ fontSize: 14, color: 'var(--mute)', marginTop: 4 }}>{cur.meaning}</div>
             {supported && <button className="btn-icon" style={{ fontSize: 18, marginTop: 10 }} onClick={() => speak(cur.reading, 0.8)}>🔊</button>}
           </div>
@@ -2375,7 +2390,7 @@ export function SummaryTableTab({ words, speak, supported }: {
                    ) : (
                      <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
                        <span style={{ fontSize: 20, fontWeight: 700 }}>{w.word}</span>
-                       <span style={{ fontSize: 13, color: 'var(--mute)', fontFamily: 'monospace' }}>{w.reading}</span>
+                       <PitchAccent word={w.word} reading={w.reading} style={{ fontSize: 13, fontFamily: 'monospace' }} />
                        {supported && (
                          <button className="btn-icon" style={{ fontSize: 14 }} onClick={() => speak(w.reading, 0.8)} title="Nghe đọc">🔊</button>
                        )}
