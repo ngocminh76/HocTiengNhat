@@ -2234,7 +2234,13 @@ export function GrammarQuizTab({ exercises, words = [], speak, supported }: {
       if (!w.word) return false;
       const wClean = w.word.replace(/[~～〜\-]/g, '');
       if (!wClean) return false;
-      return fullText.includes(wClean) || (w.reading && fullText.includes(w.reading.replace(/[~～〜\-]/g, '')));
+      
+      // Extract stem by removing trailing hiragana from the word (useful for verb/adjective stem matches)
+      const stem = wClean.replace(/[\u3040-\u309f]+$/, '');
+      if (stem.length > 0) {
+        return fullText.includes(stem);
+      }
+      return fullText.includes(wClean);
     });
   }, [cur, words]);
 
@@ -2276,7 +2282,6 @@ export function GrammarQuizTab({ exercises, words = [], speak, supported }: {
                 </button>
               )}
             </div>
-            <div style={{ fontSize: 14, color: 'var(--mute)' }}>🇻🇳 {cur.vn}</div>
           </div>
 
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: 10 }}>
@@ -2326,6 +2331,14 @@ export function GrammarQuizTab({ exercises, words = [], speak, supported }: {
             </div>
           ) : (
             <div style={{ display: 'flex', flexDirection: 'column', height: '100%', gap: 16, flex: 1 }}>
+              {/* Meaning of the sentence */}
+              <div style={{ borderBottom: '1px solid var(--border)', paddingBottom: 16 }}>
+                <div style={{ fontSize: 12, color: 'var(--gold)', fontWeight: 700, textTransform: 'uppercase', letterSpacing: 1, marginBottom: 6 }}>🇻🇳 Dịch nghĩa câu</div>
+                <div style={{ fontSize: 15, fontWeight: 500, lineHeight: 1.5, color: 'var(--text)' }}>
+                  {cur.vn}
+                </div>
+              </div>
+
               {/* Grammar Explanation */}
               {cur.explanation && (
                 <div style={{ borderBottom: '1px solid var(--border)', paddingBottom: 16 }}>
