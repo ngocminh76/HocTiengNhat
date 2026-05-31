@@ -68,12 +68,49 @@ export function NihongoLessonPage({ lessons, onHome, onLessonComplete, sentenceM
           if (modifiedKanji) {
             modifiedKanji = cleanSentenceForN5(modifiedKanji);
           }
-          return { ...line, kanji: modifiedKanji };
-        })
+          let modifiedJp = line.jp;
+          if (modifiedJp) {
+            modifiedJp = cleanSentenceForN5(modifiedJp);
+          }
+          return { ...line, kanji: modifiedKanji, jp: modifiedJp };
+        }),
+        questions: r.questions ? r.questions.map(q => ({
+          ...q,
+          question: cleanSentenceForN5(q.question),
+          options: q.options ? q.options.map(opt => cleanSentenceForN5(opt)) : [],
+          answer: cleanSentenceForN5(q.answer),
+          explanation: q.explanation ? cleanSentenceForN5(q.explanation) : undefined
+        })) : []
       }));
     }
     return all;
   }, [lessonIdsDep]);
+
+  const mergedPoem = useMemo(() => {
+    if (isCombined) return undefined;
+    const p = lessons[0]?.poem;
+    if (!p) return undefined;
+    const jlptFocus = localStorage.getItem('jlpt_focus_mode') || 'N5';
+    if (jlptFocus === 'N5') {
+      return {
+        ...p,
+        title: cleanSentenceForN5(p.title),
+        lines: p.lines.map((line: any) => {
+          let modifiedKanji = line.kanji;
+          if (modifiedKanji) {
+            modifiedKanji = cleanSentenceForN5(modifiedKanji);
+          }
+          let modifiedJp = line.jp;
+          if (modifiedJp) {
+            modifiedJp = cleanSentenceForN5(modifiedJp);
+          }
+          return { ...line, kanji: modifiedKanji, jp: modifiedJp };
+        })
+      };
+    }
+    return p;
+  }, [lessons, isCombined]);
+
 
   const processedGrammar = useMemo(() => {
     let all = lessons.flatMap(l => l.grammar || []);
@@ -295,14 +332,14 @@ export function NihongoLessonPage({ lessons, onHome, onLessonComplete, sentenceM
       <div style={{ width: '100%', paddingBottom: 80 }}>
         {tab === 'vocab' && <VocabTab words={mergedWords} mastery={mastery} speak={speak} supported={supported} />}
         {tab === 'grammar' && lessons.some(l => l.grammar) && <GrammarTab grammar={processedGrammar} speak={speak} supported={supported} />}
-        {tab === 'grammar_quiz' && lessons.some(l => l.grammarExercises) && <GrammarQuizTab exercises={processedGrammarExercises} speak={speak} supported={supported} />}
+        {tab === 'grammar_quiz' && lessons.some(l => l.grammarExercises) && <GrammarQuizTab exercises={processedGrammarExercises} words={mergedWords} speak={speak} supported={supported} />}
         {tab === 'flash' && <FlashTab words={mergedWords} mastery={mastery} onUpdate={updateMastery} speak={speak} supported={supported} />}
         {tab === 'listen' && <ListenTab words={mergedWords} mastery={mastery} onUpdate={updateMastery} speak={speak} supported={supported} />}
         {tab === 'match' && <MatchTab words={mergedWords} skipCount={masteredCount} />}
         {tab === 'typing' && <TypingTab words={mergedWords} mastery={mastery} onUpdate={updateMastery} speak={speak} supported={supported} />}
         {tab === 'summary' && <SummaryTableTab words={mergedWords} speak={speak} supported={supported} />}
-        {tab === 'translate' && <TranslateTab lesson={{ words: mergedWords, readings: mergedReadings } as any} speak={speak} supported={supported} sentenceMastery={sentenceMastery} updateSentenceMastery={updateSentenceMastery} />}
-        {tab === 'listen_sentence' && <ListenSentenceTab lesson={{ words: mergedWords, readings: mergedReadings } as any} speak={speak} supported={supported} sentenceMastery={sentenceMastery} updateSentenceMastery={updateSentenceMastery} />}
+        {tab === 'translate' && <TranslateTab lesson={{ words: mergedWords, readings: mergedReadings, poem: mergedPoem } as any} speak={speak} supported={supported} sentenceMastery={sentenceMastery} updateSentenceMastery={updateSentenceMastery} />}
+        {tab === 'listen_sentence' && <ListenSentenceTab lesson={{ words: mergedWords, readings: mergedReadings, poem: mergedPoem } as any} speak={speak} supported={supported} sentenceMastery={sentenceMastery} updateSentenceMastery={updateSentenceMastery} />}
         {tab === 'exam' && (
           <N5ExamTab
             words={mergedWords}

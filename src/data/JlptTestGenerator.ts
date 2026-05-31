@@ -8,7 +8,7 @@ function shuffle<T>(arr: T[]): T[] {
 }
 
 export function generateJlptTest(lessonIds: number[], numQuestions: number = 20): JlptTest {
-  const isN5Only = localStorage.getItem('jlpt_focus_mode') !== 'N4+ Expansion';
+  const isN5Only = localStorage.getItem('jlpt_focus_mode') !== 'N4+';
   const lessons = NIHONGO_LESSONS.filter(l => lessonIds.includes(l.id));
   
   const words = lessons.flatMap(l => l.words).map(w => {

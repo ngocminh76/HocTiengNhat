@@ -2182,8 +2182,9 @@ export function GrammarTab({ grammar, speak, supported }: {
 }
 
 // ── Grammar Quiz Tab ─────────────────────────────────────────
-export function GrammarQuizTab({ exercises, speak, supported }: {
+export function GrammarQuizTab({ exercises, words = [], speak, supported }: {
   exercises: import('../data/lessons/types').GrammarExercise[];
+  words?: LessonWord[];
   speak: (t: string, r?: number) => void;
   supported: boolean;
 }) {
@@ -2226,75 +2227,147 @@ export function GrammarQuizTab({ exercises, speak, supported }: {
 
   const pct = Math.round((idx / exercises.length) * 100);
 
+  const relatedWords = useMemo(() => {
+    if (!cur || !words) return [];
+    const fullText = cur.question.replace('[blank]', cur.answer).replace(/[\s。、？！?!—\-–~〜・「」『』（）()\[\]【】]/g, '');
+    return words.filter(w => {
+      if (!w.word) return false;
+      const wClean = w.word.replace(/[~～〜\-]/g, '');
+      if (!wClean) return false;
+      return fullText.includes(wClean) || (w.reading && fullText.includes(w.reading.replace(/[~～〜\-]/g, '')));
+    });
+  }, [cur, words]);
+
   return (
-    <div style={{ maxWidth: 600, margin: '0 auto' }}>
-      <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: 13, color: 'var(--mute)', marginBottom: 8 }}>
-        <span>🧩 Luyện Ngữ Pháp · {idx + 1}/{exercises.length}</span>
-        <span style={{ color: 'var(--gold)', fontWeight: 700 }}>⭐ {score}</span>
-      </div>
-      <div style={{ height: 5, background: 'var(--surface-alt)', borderRadius: 3, marginBottom: 20, overflow: 'hidden' }}>
-        <div style={{ height: '100%', width: `${pct}%`, background: 'var(--gold)', borderRadius: 3, transition: 'width 0.4s' }} />
-      </div>
-
-      <div style={{ background: 'var(--bg-card)', borderRadius: 16, border: '1px solid var(--border)', padding: '30px 24px', textAlign: 'center', marginBottom: 20 }}>
-        <div style={{ fontSize: 24, fontWeight: 500, lineHeight: 1.6, marginBottom: 12 }}>
-          {cur.question.split('[blank]').map((part, pIdx, arr) => (
-            <span key={pIdx}>
-              {part}
-              {pIdx < arr.length - 1 && (
-                <span style={{ 
-                  display: 'inline-block', minWidth: selected ? 50 : 60,
-                  borderBottom: selected ? 'none' : '2px dashed var(--gold)',
-                  margin: '0 8px',
-                  color: selected ? (isCorrect ? 'var(--green)' : '#e53935') : 'transparent',
-                  fontWeight: 800, fontSize: selected ? 28 : 24,
-                }}>
-                  {selected ? cur.answer : '___'}
-                </span>
-              )}
-            </span>
-          ))}
-          {supported && (
-            <button className="btn-icon" onClick={() => speak(cur.question.replace('[blank]', cur.answer), 0.85)}
-              style={{ fontSize: 16, display: 'inline-block', marginLeft: 12 }} title="Nghe câu này">
-              🔊
-            </button>
-          )}
-        </div>
-        <div style={{ fontSize: 15, color: 'var(--mute)' }}>🇻🇳 {cur.vn}</div>
-      </div>
-
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: 12, marginBottom: 24 }}>
-        {cur.options.map(opt => {
-          let bg = 'var(--surface-alt)', border = 'transparent', color = 'var(--text)';
-          if (selected) {
-            if (opt === cur.answer) { bg = 'rgba(76, 175, 80, 0.15)'; border = 'var(--green)'; color = 'var(--green)'; }
-            else if (opt === selected && !isCorrect) { bg = 'rgba(244, 67, 54, 0.15)'; border = '#e53935'; color = '#e53935'; }
-          }
-          return (
-            <button key={opt} onClick={() => handleSelect(opt)} disabled={selected !== null}
-              style={{ padding: '20px', borderRadius: 12, fontSize: 24, fontWeight: 700, background: bg, border: `2px solid ${border}`, color, cursor: selected ? 'default' : 'pointer', transition: 'all 0.2s' }}>
-              {opt}
-            </button>
-          );
-        })}
-      </div>
-
-      {selected && (
-        <div style={{ animation: 'fadeIn 0.3s' }}>
-          <div style={{ fontSize: 18, fontWeight: 700, color: isCorrect ? 'var(--green)' : '#e53935', marginBottom: 16, textAlign: 'center' }}>
-            {isCorrect ? '✨ Chính xác!' : `❌ Sai rồi! Nhớ dùng [${cur.answer}] nhé.`}
+    <div style={{ maxWidth: 1000, margin: '0 auto', padding: '0 8px' }}>
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(340px, 1fr))', gap: 20, alignItems: 'start' }}>
+        {/* Left Column: Quiz */}
+        <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
+          <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: 13, color: 'var(--mute)', marginBottom: 2 }}>
+            <span>🧩 Luyện Ngữ Pháp · {idx + 1}/{exercises.length}</span>
+            <span style={{ color: 'var(--gold)', fontWeight: 700 }}>⭐ {score}</span>
           </div>
-          {cur.explanation && (
-            <div style={{ background: 'rgba(255,255,255,0.05)', padding: '16px', borderRadius: 12, fontSize: 14, lineHeight: 1.5, marginBottom: 20, border: '1px solid var(--border)' }}>
-              💡 <strong>Giải thích:</strong> {cur.explanation}
+          <div style={{ height: 5, background: 'var(--surface-alt)', borderRadius: 3, marginBottom: 12, overflow: 'hidden' }}>
+            <div style={{ height: '100%', width: `${pct}%`, background: 'var(--gold)', borderRadius: 3, transition: 'width 0.4s' }} />
+          </div>
+
+          <div style={{ background: 'var(--bg-card)', borderRadius: 16, border: '1px solid var(--border)', padding: '24px 20px', textAlign: 'center', minHeight: 120, display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+            <div style={{ fontSize: 20, fontWeight: 500, lineHeight: 1.5, marginBottom: 8 }}>
+              {cur.question.split('[blank]').map((part, pIdx, arr) => (
+                <span key={pIdx}>
+                  {part}
+                  {pIdx < arr.length - 1 && (
+                    <span style={{ 
+                      display: 'inline-block', minWidth: selected ? 40 : 50,
+                      borderBottom: selected ? 'none' : '2px dashed var(--gold)',
+                      margin: '0 6px',
+                      color: selected ? (isCorrect ? 'var(--green)' : '#e53935') : 'transparent',
+                      fontWeight: 800, fontSize: selected ? 24 : 20,
+                    }}>
+                      {selected ? cur.answer : '___'}
+                    </span>
+                  )}
+                </span>
+              ))}
+              {supported && (
+                <button className="btn-icon" onClick={() => speak(cur.question.replace('[blank]', cur.answer), 0.85)}
+                  style={{ fontSize: 14, display: 'inline-block', marginLeft: 8 }} title="Nghe câu này">
+                  🔊
+                </button>
+              )}
+            </div>
+            <div style={{ fontSize: 14, color: 'var(--mute)' }}>🇻🇳 {cur.vn}</div>
+          </div>
+
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: 10 }}>
+            {cur.options.map(opt => {
+              let bg = 'var(--surface-alt)', border = 'transparent', color = 'var(--text)';
+              if (selected) {
+                if (opt === cur.answer) { bg = 'rgba(76, 175, 80, 0.15)'; border = 'var(--green)'; color = 'var(--green)'; }
+                else if (opt === selected && !isCorrect) { bg = 'rgba(244, 67, 54, 0.15)'; border = '#e53935'; color = '#e53935'; }
+              }
+              return (
+                <button key={opt} onClick={() => handleSelect(opt)} disabled={selected !== null}
+                  style={{ padding: '12px 16px', borderRadius: 12, fontSize: 18, fontWeight: 700, background: bg, border: `2px solid ${border}`, color, cursor: selected ? 'default' : 'pointer', transition: 'all 0.2s' }}>
+                  {opt}
+                </button>
+              );
+            })}
+          </div>
+
+          {selected && (
+            <div style={{ animation: 'fadeIn 0.2s', marginTop: 4 }}>
+              <div style={{ fontSize: 15, fontWeight: 700, color: isCorrect ? 'var(--green)' : '#e53935', marginBottom: 8, textAlign: 'center' }}>
+                {isCorrect ? '✨ Chính xác!' : `❌ Sai rồi! Nhớ dùng [${cur.answer}] nhé.`}
+              </div>
+              <button className="btn btn-primary" onClick={handleNext} style={{ width: '100%', padding: '12px', fontSize: 16 }}>
+                Tiếp tục ⏭️
+              </button>
             </div>
           )}
-          <button className="btn btn-primary" onClick={handleNext} style={{ width: '100%', padding: '16px', fontSize: 18 }}>
-            Tiếp tục ⏭️
-          </button>
         </div>
-      )}
+
+        {/* Right Column: Explanation & Related Vocab */}
+        <div style={{
+          background: 'var(--bg-card)',
+          borderRadius: 16,
+          border: '1px solid var(--border)',
+          padding: '20px',
+          display: 'flex',
+          flexDirection: 'column',
+          alignSelf: 'stretch',
+          minHeight: 280
+        }}>
+          {!selected ? (
+            <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', height: '100%', color: 'var(--mute)', flex: 1, textAlign: 'center', gap: 12 }}>
+              <div style={{ fontSize: 40 }}>💡</div>
+              <div style={{ fontSize: 14, fontWeight: 600 }}>Giải thích & Từ vựng liên quan</div>
+              <div style={{ fontSize: 12, opacity: 0.7, maxWidth: 280 }}>Hãy chọn một đáp án bên trái để xem giải thích ngữ pháp chi tiết và các từ vựng xuất hiện trong câu nhé.</div>
+            </div>
+          ) : (
+            <div style={{ display: 'flex', flexDirection: 'column', height: '100%', gap: 16, flex: 1 }}>
+              {/* Grammar Explanation */}
+              {cur.explanation && (
+                <div style={{ borderBottom: '1px solid var(--border)', paddingBottom: 16 }}>
+                  <div style={{ fontSize: 12, color: 'var(--gold)', fontWeight: 700, textTransform: 'uppercase', letterSpacing: 1, marginBottom: 6 }}>💡 Giải thích ngữ pháp</div>
+                  <div style={{ fontSize: 14, lineHeight: 1.5, color: 'var(--text)' }}>
+                    {cur.explanation}
+                  </div>
+                </div>
+              )}
+
+              {/* Related Vocab */}
+              <div style={{ flex: 1, display: 'flex', flexDirection: 'column' }}>
+                <div style={{ fontSize: 12, color: 'var(--gold)', fontWeight: 700, textTransform: 'uppercase', letterSpacing: 1, marginBottom: 8 }}>
+                  📚 Từ vựng trong câu ({relatedWords.length})
+                </div>
+                {relatedWords.length === 0 ? (
+                  <div style={{ fontSize: 13, color: 'var(--mute)', fontStyle: 'italic' }}>Không có từ vựng liên quan trực tiếp từ bảng từ.</div>
+                ) : (
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: 8, overflowY: 'auto', maxHeight: 220, paddingRight: 4 }}>
+                    {relatedWords.map(w => (
+                      <div key={w.id} style={{ display: 'flex', alignItems: 'center', gap: 8, background: 'rgba(255,255,255,0.02)', padding: '8px 12px', borderRadius: 8, border: '1px solid var(--border)' }}>
+                        <div style={{ flex: 1 }}>
+                          <div style={{ display: 'flex', alignItems: 'baseline', gap: 6 }}>
+                            <span style={{ fontSize: 15, fontWeight: 700, color: 'var(--text)' }}>{w.word}</span>
+                            {w.reading && w.reading !== w.word && (
+                              <span style={{ fontSize: 11, color: 'var(--mute)' }}>({w.reading})</span>
+                            )}
+                          </div>
+                          <div style={{ fontSize: 12, color: 'var(--mute)', marginTop: 2 }}>{w.meaning}</div>
+                        </div>
+                        {supported && w.word && (
+                          <button className="btn-icon" style={{ fontSize: 12 }} onClick={() => speak(w.word, 0.9)}>🔊</button>
+                        )}
+                      </div>
+                    ))}
+                  </div>
+                )}
+              </div>
+            </div>
+          )}
+        </div>
+      </div>
     </div>
   );
 }
