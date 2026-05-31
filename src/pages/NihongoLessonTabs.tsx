@@ -2194,23 +2194,11 @@ export function GrammarQuizTab({ exercises, words = [], speak, supported }: {
   const [done, setDone] = useState(false);
   const [session, setSession] = useState(0);
 
-  // Restart
-  if (done) return (
-    <div style={{ textAlign: 'center', padding: '40px 20px' }}>
-      <div style={{ fontSize: 64 }}>{score / exercises.length >= 0.8 ? '🎯' : '💪'}</div>
-      <h3 style={{ margin: '12px 0 4px' }}>{score}/{exercises.length} câu đúng</h3>
-      <p style={{ color: 'var(--mute)' }}>Kết quả Luyện Ngữ Pháp</p>
-      <button className="btn btn-primary" style={{ marginTop: 16 }} onClick={() => { setSession(s => s + 1); setIdx(0); setSelected(null); setScore(0); setDone(false); }}>
-        🔄 Làm Lại
-      </button>
-    </div>
-  );
-
   const cur = exercises[idx];
-  const isCorrect = selected === cur.answer;
+  const isCorrect = selected === cur?.answer;
 
   const handleSelect = (opt: string) => {
-    if (selected !== null) return;
+    if (selected !== null || !cur) return;
     setSelected(opt);
     if (opt === cur.answer) {
       setScore(s => s + 1);
@@ -2243,6 +2231,18 @@ export function GrammarQuizTab({ exercises, words = [], speak, supported }: {
       return fullText.includes(wClean);
     });
   }, [cur, words]);
+
+  // Restart
+  if (done) return (
+    <div style={{ textAlign: 'center', padding: '40px 20px' }}>
+      <div style={{ fontSize: 64 }}>{score / exercises.length >= 0.8 ? '🎯' : '💪'}</div>
+      <h3 style={{ margin: '12px 0 4px' }}>{score}/{exercises.length} câu đúng</h3>
+      <p style={{ color: 'var(--mute)' }}>Kết quả Luyện Ngữ Pháp</p>
+      <button className="btn btn-primary" style={{ marginTop: 16 }} onClick={() => { setSession(s => s + 1); setIdx(0); setSelected(null); setScore(0); setDone(false); }}>
+        🔄 Làm Lại
+      </button>
+    </div>
+  );
 
   return (
     <div style={{ maxWidth: 1000, margin: '0 auto', padding: '0 8px' }}>
