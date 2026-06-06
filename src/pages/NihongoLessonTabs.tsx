@@ -1299,30 +1299,45 @@ export function TranslateTab({ lesson, speak, supported, sentenceMastery, update
             <div style={{ height: '100%', width: `${progress}%`, background: '#64b5f6', borderRadius: 3, transition: 'width 0.4s' }} />
           </div>
 
-          <div style={{ background: 'var(--bg-card)', borderRadius: 16, padding: '32px 20px', marginBottom: 20, border: '1px solid var(--border)', textAlign: 'center', position: 'relative' }}>
+          <div style={{
+            background: 'var(--bg-card)',
+            borderRadius: 16,
+            padding: '20px 20px',
+            marginBottom: 20,
+            border: status === 'correct' ? '2px solid var(--green)' : status === 'show' ? '2px solid #64b5f6' : '1px solid var(--border)',
+            backgroundColor: status === 'correct' ? 'rgba(6,214,160,0.03)' : status === 'show' ? 'rgba(100,181,246,0.03)' : 'var(--bg-card)',
+            textAlign: 'center',
+            position: 'relative',
+            transition: 'all 0.3s ease'
+          }}>
             <div style={{ position: 'absolute', top: 12, right: 16, fontSize: 11, color: 'var(--mute)', background: 'rgba(255,255,255,0.05)', padding: '2px 6px', borderRadius: 6, display: 'flex', gap: 6 }}>
               <span>✍️ {(sentenceMastery[cur.jp || '']?.translateCount || 0)}/3</span>
               <span>🎧 {(sentenceMastery[cur.jp || '']?.listenCount || 0)}/3</span>
             </div>
-            <div style={{ fontSize: 12, color: 'var(--mute)', fontWeight: 700, textTransform: 'uppercase', letterSpacing: 1, marginBottom: 8 }}>Dịch câu sau:</div>
-            <div style={{ fontSize: 20, fontWeight: 600, color: 'var(--gold)', lineHeight: 1.4 }}>{cur.vn}</div>
-            {supported && (
-              <div style={{ fontSize: 11, color: 'var(--mute)', marginTop: 12, opacity: 0.6 }}>
-                <kbd style={{ fontSize: 10, padding: '1px 5px', borderRadius: 4, border: '1px solid var(--border)', background: 'rgba(255,255,255,0.06)', fontFamily: 'monospace' }}>Ctrl+Space</kbd>
-                {' '}để nghe câu
+            {status === 'idle' || status === 'wrong' ? (
+              <>
+                <div style={{ fontSize: 12, color: 'var(--mute)', fontWeight: 700, textTransform: 'uppercase', letterSpacing: 1, marginBottom: 8 }}>Dịch câu sau:</div>
+                <div style={{ fontSize: 20, fontWeight: 600, color: 'var(--gold)', lineHeight: 1.4 }}>{cur.vn}</div>
+                {supported && (
+                  <div style={{ fontSize: 11, color: 'var(--mute)', marginTop: 12, opacity: 0.6 }}>
+                    <kbd style={{ fontSize: 10, padding: '1px 5px', borderRadius: 4, border: '1px solid var(--border)', background: 'rgba(255,255,255,0.06)', fontFamily: 'monospace' }}>Ctrl+Space</kbd>
+                    {' '}để nghe câu
+                  </div>
+                )}
+              </>
+            ) : (
+              <div style={{ animation: 'fadeIn 0.3s' }}>
+                <div style={{ fontSize: 13, color: status === 'correct' ? 'var(--green)' : '#64b5f6', fontWeight: 700, marginBottom: 8 }}>
+                  {status === 'correct' ? '✅ Đúng rồi!' : '💡 Đáp án:'}
+                </div>
+                {(cur as any).kanji && <div style={{ fontSize: 24, fontWeight: 700, marginBottom: 4 }}>{(cur as any).kanji}</div>}
+                <div style={{ fontSize: 16, fontWeight: 600, marginBottom: 4 }}>{cur.jp}</div>
+                <div style={{ fontSize: 12, fontFamily: 'monospace', color: 'var(--mute)' }}>{cur.romaji}</div>
+                <div style={{ fontSize: 14, color: 'var(--gold)', marginTop: 8, fontWeight: 600 }}>Nghĩa VN: {cur.vn}</div>
+                {supported && <button className="btn-icon" style={{ fontSize: 18, marginTop: 10 }} onClick={() => speak((cur as any).kanji || cur.jp, 0.8)}>🔊 Nghe</button>}
               </div>
             )}
           </div>
-
-          {(status === 'show' || status === 'correct') && (
-            <div style={{ padding: '16px', borderRadius: 12, background: status === 'correct' ? 'rgba(6,214,160,0.1)' : 'rgba(100,181,246,0.1)', border: `1px solid ${status === 'correct' ? 'var(--green)' : 'rgba(100,181,246,0.3)'}`, marginBottom: 20, textAlign: 'center', animation: 'fadeIn 0.3s' }}>
-              {status === 'correct' ? <div style={{ fontSize: 13, color: 'var(--green)', fontWeight: 700, marginBottom: 8 }}>✅ Đúng rồi!</div> : <div style={{ fontSize: 13, color: '#64b5f6', fontWeight: 700, marginBottom: 8 }}>Đáp án:</div>}
-              {(cur as any).kanji && <div style={{ fontSize: 24, fontWeight: 700, marginBottom: 4 }}>{(cur as any).kanji}</div>}
-              <div style={{ fontSize: 16 }}>{cur.jp}</div>
-              <div style={{ fontSize: 12, fontFamily: 'monospace', color: 'var(--mute)', marginTop: 4 }}>{cur.romaji}</div>
-              {supported && <button className="btn-icon" style={{ fontSize: 18, marginTop: 10 }} onClick={() => speak((cur as any).kanji || cur.jp, 0.8)}>🔊</button>}
-            </div>
-          )}
 
           <div style={{ position: 'relative', marginBottom: 12 }}>
             <input ref={inputRef} className={`ex-input ${status === 'correct' ? 'correct' : status === 'wrong' ? 'wrong' : ''}`} value={input} onChange={handleChange} onKeyDown={e => {
@@ -1472,29 +1487,48 @@ export function ListenSentenceTab({ lesson, speak, supported, sentenceMastery, u
             <div style={{ height: '100%', width: `${progress}%`, background: '#64b5f6', borderRadius: 3, transition: 'width 0.4s' }} />
           </div>
 
-          <div style={{ background: 'var(--bg-card)', borderRadius: 16, padding: '32px 20px', marginBottom: 20, border: '1px solid var(--border)', textAlign: 'center', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 16, position: 'relative' }}>
+          <div style={{
+            background: 'var(--bg-card)',
+            borderRadius: 16,
+            padding: '20px 20px',
+            marginBottom: 20,
+            border: status === 'correct' ? '2px solid var(--green)' : status === 'show' ? '2px solid #64b5f6' : '1px solid var(--border)',
+            backgroundColor: status === 'correct' ? 'rgba(6,214,160,0.03)' : status === 'show' ? 'rgba(100,181,246,0.03)' : 'var(--bg-card)',
+            textAlign: 'center',
+            display: 'flex',
+            flexDirection: 'column',
+            alignItems: 'center',
+            gap: 12,
+            position: 'relative',
+            transition: 'all 0.3s ease'
+          }}>
             <div style={{ position: 'absolute', top: 12, right: 16, fontSize: 11, color: 'var(--mute)', background: 'rgba(255,255,255,0.05)', padding: '2px 6px', borderRadius: 6, display: 'flex', gap: 6 }}>
               <span>✍️ {(sentenceMastery[cur.jp || '']?.translateCount || 0)}/3</span>
               <span>🎧 {(sentenceMastery[cur.jp || '']?.listenCount || 0)}/3</span>
             </div>
-            <button className="btn btn-primary" style={{ height: 80, width: 80, borderRadius: '50%', fontSize: 32 }} onClick={playCur}>🔊</button>
-            <div style={{ fontSize: 13, color: 'var(--mute)' }}>Nghe và gõ lại câu tiếng Nhật bằng Romaji</div>
-            {showHint ? (
-              <div style={{ fontSize: 14, color: 'var(--text)', background: 'rgba(255,196,0,0.1)', padding: '6px 12px', borderRadius: 6, border: '1px solid rgba(255,196,0,0.2)' }}>💡 Nghĩa VN: {cur.vn}</div>
+            {status === 'idle' || status === 'wrong' ? (
+              <>
+                <button className="btn btn-primary" style={{ height: 80, width: 80, borderRadius: '50%', fontSize: 32, margin: '10px 0' }} onClick={playCur}>🔊</button>
+                <div style={{ fontSize: 13, color: 'var(--mute)' }}>Nghe và gõ lại câu tiếng Nhật bằng Romaji</div>
+                {showHint ? (
+                  <div style={{ fontSize: 14, color: 'var(--text)', background: 'rgba(255,196,0,0.1)', padding: '6px 12px', borderRadius: 6, border: '1px solid rgba(255,196,0,0.2)', width: '100%' }}>💡 Nghĩa VN: {cur.vn}</div>
+                ) : (
+                  <button className="btn btn-ghost" style={{ fontSize: 12, padding: '2px 8px' }} onClick={() => setShowHint(true)}>Hiển thị gợi ý</button>
+                )}
+              </>
             ) : (
-              <button className="btn btn-ghost" style={{ fontSize: 12, padding: '2px 8px' }} onClick={() => setShowHint(true)}>Hiển thị gợi ý</button>
+              <div style={{ animation: 'fadeIn 0.3s', width: '100%' }}>
+                <div style={{ fontSize: 13, color: status === 'correct' ? 'var(--green)' : '#64b5f6', fontWeight: 700, marginBottom: 8 }}>
+                  {status === 'correct' ? '✅ Đúng rồi!' : '💡 Đáp án:'}
+                </div>
+                {(cur as any).kanji && <div style={{ fontSize: 24, fontWeight: 700, marginBottom: 4 }}>{(cur as any).kanji}</div>}
+                <div style={{ fontSize: 16, fontWeight: 600, marginBottom: 4 }}>{cur.jp}</div>
+                <div style={{ fontSize: 12, fontFamily: 'monospace', color: 'var(--mute)' }}>{cur.romaji}</div>
+                <div style={{ fontSize: 14, color: 'var(--gold)', marginTop: 8, fontWeight: 600 }}>Nghĩa VN: {cur.vn}</div>
+                <button className="btn btn-primary" style={{ height: 50, width: 50, borderRadius: '50%', fontSize: 20, marginTop: 12 }} onClick={playCur}>🔊</button>
+              </div>
             )}
           </div>
-
-          {(status === 'show' || status === 'correct') && (
-            <div style={{ padding: '16px', borderRadius: 12, background: status === 'correct' ? 'rgba(6,214,160,0.1)' : 'rgba(100,181,246,0.1)', border: `1px solid ${status === 'correct' ? 'var(--green)' : 'rgba(100,181,246,0.3)'}`, marginBottom: 20, textAlign: 'center', animation: 'fadeIn 0.3s' }}>
-              {status === 'correct' ? <div style={{ fontSize: 13, color: 'var(--green)', fontWeight: 700, marginBottom: 8 }}>✅ Đúng rồi!</div> : <div style={{ fontSize: 13, color: '#64b5f6', fontWeight: 700, marginBottom: 8 }}>Đáp án:</div>}
-              {(cur as any).kanji && <div style={{ fontSize: 24, fontWeight: 700, marginBottom: 4 }}>{(cur as any).kanji}</div>}
-              <div style={{ fontSize: 16 }}>{cur.jp}</div>
-              <div style={{ fontSize: 12, fontFamily: 'monospace', color: 'var(--mute)', marginTop: 4 }}>{cur.romaji}</div>
-              <div style={{ fontSize: 14, color: 'var(--gold)', marginTop: 8, fontWeight: 600 }}>{cur.vn}</div>
-            </div>
-          )}
 
           <div style={{ position: 'relative', marginBottom: 12 }}>
             <input ref={inputRef} className={`ex-input ${status === 'correct' ? 'correct' : status === 'wrong' ? 'wrong' : ''}`} value={input} onChange={handleChange} onKeyDown={e => {
@@ -2002,37 +2036,53 @@ export function TypingTab({ words, mastery, onUpdate, speak, supported }: { word
           <div style={{ height: '100%', width: `${progress}%`, background: '#64b5f6', borderRadius: 3, transition: 'width 0.4s' }} />
         </div>
 
-        <div style={{ background: 'var(--bg-card)', borderRadius: 16, padding: '32px 20px', marginBottom: 20, border: '1px solid var(--border)', textAlign: 'center', position: 'relative' }}>
-          <div style={{ fontSize: 12, color: 'var(--mute)', fontWeight: 700, textTransform: 'uppercase', letterSpacing: 1, marginBottom: 8 }}>
-            {mode === 1 ? 'Viết cách đọc (Hiragana) của từ này:' : 'Viết Kanji / Katakana của từ này:'}
-          </div>
-          <div style={{ fontSize: 32, fontWeight: 800, color: mode === 1 ? 'var(--text)' : '#64b5f6', minHeight: 48, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-            {mode === 1 ? cur.word : cur.reading}
-          </div>
-          {mode === 2 && (
-            <div style={{ fontSize: 14, color: 'var(--gold)', marginTop: 8 }}>
-              ( Nghĩa: {cur.meaning} )
-            </div>
-          )}
-          {supported && (
-            <div style={{ fontSize: 11, color: 'var(--mute)', marginTop: 16, opacity: 0.6 }}>
-              <kbd style={{ fontSize: 10, padding: '1px 5px', borderRadius: 4, border: '1px solid var(--border)', background: 'rgba(255,255,255,0.06)', fontFamily: 'monospace' }}>Ctrl+Space</kbd>
-              {' '}để nghe lại
+        <div style={{
+          background: 'var(--bg-card)',
+          borderRadius: 16,
+          padding: '20px 20px',
+          marginBottom: 20,
+          border: status === 'correct' ? '2px solid var(--green)' : status === 'show' ? '2px solid #64b5f6' : '1px solid var(--border)',
+          backgroundColor: status === 'correct' ? 'rgba(6,214,160,0.03)' : status === 'show' ? 'rgba(100,181,246,0.03)' : 'var(--bg-card)',
+          textAlign: 'center',
+          position: 'relative',
+          transition: 'all 0.3s ease'
+        }}>
+          {status === 'idle' || status === 'wrong' ? (
+            <>
+              <div style={{ fontSize: 12, color: 'var(--mute)', fontWeight: 700, textTransform: 'uppercase', letterSpacing: 1, marginBottom: 8 }}>
+                {mode === 1 ? 'Viết cách đọc (Hiragana) của từ này:' : 'Viết Kanji / Katakana của từ này:'}
+              </div>
+              <div style={{ fontSize: 32, fontWeight: 800, color: mode === 1 ? 'var(--text)' : '#64b5f6', minHeight: 48, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                {mode === 1 ? cur.word : cur.reading}
+              </div>
+              {mode === 2 && (
+                <div style={{ fontSize: 14, color: 'var(--gold)', marginTop: 8 }}>
+                  ( Nghĩa: {cur.meaning} )
+                </div>
+              )}
+              {supported && (
+                <div style={{ fontSize: 11, color: 'var(--mute)', marginTop: 12, opacity: 0.6 }}>
+                  <kbd style={{ fontSize: 10, padding: '1px 5px', borderRadius: 4, border: '1px solid var(--border)', background: 'rgba(255,255,255,0.06)', fontFamily: 'monospace' }}>Ctrl+Space</kbd>
+                  {' '}để nghe lại
+                </div>
+              )}
+            </>
+          ) : (
+            <div style={{ animation: 'fadeIn 0.3s' }}>
+              <div style={{ fontSize: 13, color: status === 'correct' ? 'var(--green)' : '#64b5f6', fontWeight: 700, marginBottom: 8 }}>
+                {status === 'correct' ? '✅ Chính xác!' : '💡 Đáp án:'}
+              </div>
+              <div style={{ fontSize: 28, fontWeight: 800, color: 'var(--text)', marginBottom: 4 }}>
+                {cur.word}
+              </div>
+              <div style={{ fontSize: 18, color: 'var(--gold)', fontWeight: 600 }}>
+                <PitchAccent word={cur.word} reading={cur.reading} />
+              </div>
+              <div style={{ fontSize: 14, color: 'var(--mute)', marginTop: 4 }}>Nghĩa: {cur.meaning}</div>
+              {supported && <button className="btn-icon" style={{ fontSize: 18, marginTop: 10 }} onClick={() => speak(cur.reading, 0.8)}>🔊 Nghe</button>}
             </div>
           )}
         </div>
-
-        {(status === 'show' || status === 'correct') && (
-          <div style={{ padding: '16px', borderRadius: 12, background: status === 'correct' ? 'rgba(6,214,160,0.1)' : 'rgba(100,181,246,0.1)', border: `1px solid ${status === 'correct' ? 'var(--green)' : 'rgba(100,181,246,0.3)'}`, marginBottom: 20, textAlign: 'center', animation: 'fadeIn 0.3s' }}>
-            {status === 'correct' ? <div style={{ fontSize: 13, color: 'var(--green)', fontWeight: 700, marginBottom: 8 }}>✅ Chính xác!</div> : <div style={{ fontSize: 13, color: '#64b5f6', fontWeight: 700, marginBottom: 8 }}>Đáp án:</div>}
-            <div style={{ fontSize: 24, fontWeight: 700, marginBottom: 4 }}>{cur.word}</div>
-            <div style={{ fontSize: 18, color: 'var(--gold)', fontWeight: 600 }}>
-              <PitchAccent word={cur.word} reading={cur.reading} />
-            </div>
-            <div style={{ fontSize: 14, color: 'var(--mute)', marginTop: 4 }}>{cur.meaning}</div>
-            {supported && <button className="btn-icon" style={{ fontSize: 18, marginTop: 10 }} onClick={() => speak(cur.reading, 0.8)}>🔊</button>}
-          </div>
-        )}
 
         {mode === 1 ? (
           <div style={{ position: 'relative', marginBottom: 12 }}>
